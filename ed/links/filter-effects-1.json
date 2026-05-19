@@ -1,13 +1,12 @@
 {
   "spec": {
     "title": "Filter Effects Module Level 1",
-    "url": "https://drafts.fxtf.org/filter-effects-1/"
+    "url": "https://drafts.csswg.org/filter-effects-1/"
   },
   "links": {
     "rawlinks": {
       "http://en.wikipedia.org/wiki/Periodic_boundary_conditions": {},
       "http://lists.w3.org/Archives/Public/public-css-testsuite": {},
-      "http://lists.w3.org/Archives/Public/public-fx/": {},
       "http://www.w3.org/Style/CSS/Test/": {},
       "http://www.w3.org/TR/2008/REC-SVGTiny12-20081222/intro.html": {
         "anchors": [
@@ -141,19 +140,27 @@
       "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTile": {},
       "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTurbulence": {},
       "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/filter": {},
+      "https://drafts.csswg.org/compositing-1/": {
+        "anchors": [
+          "blending",
+          "porterduffcompositingoperators_srcover"
+        ]
+      },
+      "https://drafts.csswg.org/compositing-2/": {},
       "https://drafts.csswg.org/css-animations/": {},
       "https://drafts.csswg.org/css-backgrounds/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-color-3/": {},
+      "https://drafts.csswg.org/css-color-4/": {},
       "https://drafts.csswg.org/css-color-5/": {},
-      "https://drafts.csswg.org/css-color/": {},
       "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
       "https://drafts.csswg.org/css-fonts-5/": {},
       "https://drafts.csswg.org/css-images-3/": {},
+      "https://drafts.csswg.org/css-inline-3/": {},
+      "https://drafts.csswg.org/css-masking-1/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
-      "https://drafts.csswg.org/css-position-4/": {},
       "https://drafts.csswg.org/css-text-4/": {},
       "https://drafts.csswg.org/css-text-decor-4/": {},
       "https://drafts.csswg.org/css-transforms/": {},
@@ -173,40 +180,25 @@
       "https://drafts.csswg.org/mediaqueries-5/": {},
       "https://drafts.csswg.org/selectors/": {},
       "https://drafts.csswg.org/web-animations-1/": {},
-      "https://drafts.fxtf.org/compositing-1/": {
-        "anchors": [
-          "blending",
-          "porterduffcompositingoperators_srcover"
-        ]
-      },
-      "https://drafts.fxtf.org/compositing-2/": {},
-      "https://drafts.fxtf.org/css-masking-1/": {},
       "https://fetch.spec.whatwg.org/": {},
-      "https://github.com/w3c/fxtf-drafts/issues": {},
-      "https://github.com/w3c/fxtf-drafts/issues/113": {},
-      "https://github.com/w3c/fxtf-drafts/issues/237": {},
-      "https://github.com/w3c/fxtf-drafts/issues/238": {},
-      "https://github.com/w3c/fxtf-drafts/issues/91": {},
+      "https://github.com/w3c/csswg-drafts/issues": {},
+      "https://github.com/w3c/csswg-drafts/issues/113": {},
+      "https://github.com/w3c/csswg-drafts/issues/237": {},
+      "https://github.com/w3c/csswg-drafts/issues/238": {},
+      "https://github.com/w3c/csswg-drafts/issues/91": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/embedded-content.html": {
         "anchors": [
           "attr-img-crossorigin"
         ]
       },
-      "https://lists.w3.org/Archives/Public/public-fxtf-archive/": {},
+      "https://lists.w3.org/Archives/Public/public-css-archive/": {},
+      "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://svgwg.org/specs/animations/": {},
-      "https://svgwg.org/svg2-draft/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://webstore.iec.ch/publication/6169": {},
       "https://wiki.mozilla.org/User:Bjacob/ArithmeticTimingDifferences": {},
-      "https://www.w3.org/2023/Process-20231103/": {},
-      "https://www.w3.org/Consortium/Patent-Policy-20200915/": {
-        "anchors": [
-          "def-essential",
-          "sec-Disclosure"
-        ]
-      },
-      "https://www.w3.org/Style/": {},
       "https://www.w3.org/TR/2011/REC-SVG11-20110816/intro.html": {
         "anchors": [
           "TermPresentationAttribute",
@@ -232,6 +224,7 @@
       "https://www.w3.org/TR/2012/WD-filter-effects-20121025/": {},
       "https://www.w3.org/TR/2013/WD-filter-effects-1-20131126/": {},
       "https://www.w3.org/TR/2014/WD-filter-effects-1-20141125/": {},
+      "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/TR/CSS2/visuren.html": {},
       "https://www.w3.org/TR/CSS21/about.html": {
         "anchors": [
@@ -248,6 +241,11 @@
       "https://www.w3.org/TR/SVG11/coords.html": {
         "anchors": [
           "Units_viewport_percentage"
+        ]
+      },
+      "https://www.w3.org/TR/SVG11/filters.html": {
+        "anchors": [
+          "EnableBackgroundProperty"
         ]
       },
       "https://www.w3.org/TR/SVG11/render.html": {
@@ -279,13 +277,39 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/groups/wg/css": {},
-      "https://www.w3.org/groups/wg/css/ipr": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "http://www.w3.org/TR/2008/REC-SVGTiny12-20081222/intro.html": {
         "anchors": [
           "TermUnsupportedValue"
+        ]
+      },
+      "https://drafts.csswg.org/compositing-1/": {
+        "anchors": [
+          "valdef-blend-mode-normal",
+          "valdef-blend-mode-screen",
+          "valdef-blend-mode-saturation",
+          "valdef-blend-mode-color"
+        ]
+      },
+      "https://drafts.csswg.org/compositing-2/": {
+        "anchors": [
+          "propdef-isolation",
+          "ltblendmodegt",
+          "backdrop",
+          "valdef-blend-mode-multiply",
+          "valdef-blend-mode-darken",
+          "valdef-blend-mode-lighten",
+          "valdef-blend-mode-overlay",
+          "valdef-blend-mode-color-dodge",
+          "valdef-blend-mode-color-burn",
+          "valdef-blend-mode-hard-light",
+          "valdef-blend-mode-soft-light",
+          "valdef-blend-mode-difference",
+          "valdef-blend-mode-exclusion",
+          "valdef-blend-mode-hue",
+          "valdef-blend-mode-luminosity"
         ]
       },
       "https://drafts.csswg.org/css-backgrounds-3/": {
@@ -312,8 +336,7 @@
       },
       "https://drafts.csswg.org/css-color-5/": {
         "anchors": [
-          "typedef-color",
-          "valdef-lab-a"
+          "typedef-color"
         ]
       },
       "https://drafts.csswg.org/css-display-3/": {
@@ -330,7 +353,12 @@
       "https://drafts.csswg.org/css-fonts-4/": {
         "anchors": [
           "propdef-font",
-          "propdef-font-size"
+          "propdef-font-family",
+          "propdef-font-size",
+          "propdef-font-stretch",
+          "propdef-font-style",
+          "propdef-font-variant",
+          "propdef-font-weight"
         ]
       },
       "https://drafts.csswg.org/css-fonts-5/": {
@@ -345,16 +373,26 @@
           "concrete-object-size"
         ]
       },
+      "https://drafts.csswg.org/css-inline-3/": {
+        "anchors": [
+          "propdef-alignment-baseline",
+          "propdef-baseline-shift",
+          "propdef-dominant-baseline"
+        ]
+      },
+      "https://drafts.csswg.org/css-masking-1/": {
+        "anchors": [
+          "propdef-clip",
+          "propdef-clip-path",
+          "propdef-clip-rule",
+          "propdef-mask"
+        ]
+      },
       "https://drafts.csswg.org/css-overflow-3/": {
         "anchors": [
           "ink-overflow-region",
           "ink-overflow-rectangle",
           "propdef-overflow"
-        ]
-      },
-      "https://drafts.csswg.org/css-position-4/": {
-        "anchors": [
-          "propdef-overlay"
         ]
       },
       "https://drafts.csswg.org/css-text-4/": {
@@ -409,6 +447,7 @@
       },
       "https://drafts.csswg.org/css-writing-modes-4/": {
         "anchors": [
+          "propdef-glyph-orientation-vertical",
           "propdef-writing-mode"
         ]
       },
@@ -425,26 +464,6 @@
       "https://drafts.csswg.org/web-animations-1/": {
         "anchors": [
           "composite-operation-replace"
-        ]
-      },
-      "https://drafts.fxtf.org/compositing-1/": {
-        "anchors": [
-          "valdef-blend-mode-normal"
-        ]
-      },
-      "https://drafts.fxtf.org/compositing-2/": {
-        "anchors": [
-          "propdef-isolation",
-          "ltblendmodegt",
-          "backdrop"
-        ]
-      },
-      "https://drafts.fxtf.org/css-masking-1/": {
-        "anchors": [
-          "propdef-clip",
-          "propdef-clip-path",
-          "propdef-clip-rule",
-          "propdef-mask"
         ]
       },
       "https://fetch.spec.whatwg.org/": {
@@ -471,27 +490,31 @@
       },
       "https://svgwg.org/svg2-draft/coords.html": {
         "anchors": [
-          "ObjectBoundingBoxUnits",
+          "ObjectBoundingBoxUnits"
+        ]
+      },
+      "https://svgwg.org/svg2-draft/types.html": {
+        "anchors": [
+          "TermInitialValue"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/coords.html": {
+        "anchors": [
           "bounding-box",
           "InterfaceSVGAnimatedPreserveAspectRatio"
         ]
       },
-      "https://svgwg.org/svg2-draft/embedded.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/embedded.html": {
         "anchors": [
           "elementdef-image"
         ]
       },
-      "https://svgwg.org/svg2-draft/geometry.html": {
-        "anchors": [
-          "RProperty"
-        ]
-      },
-      "https://svgwg.org/svg2-draft/interact.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/interact.html": {
         "anchors": [
           "elementdef-script"
         ]
       },
-      "https://svgwg.org/svg2-draft/painting.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/painting.html": {
         "anchors": [
           "ColorInterpolationProperty",
           "FillProperty",
@@ -513,18 +536,18 @@
           "TextRenderingProperty"
         ]
       },
-      "https://svgwg.org/svg2-draft/pservers.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/pservers.html": {
         "anchors": [
           "StopColorProperty",
           "StopOpacityProperty"
         ]
       },
-      "https://svgwg.org/svg2-draft/shapes.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/shapes.html": {
         "anchors": [
           "elementdef-rect"
         ]
       },
-      "https://svgwg.org/svg2-draft/struct.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/struct.html": {
         "anchors": [
           "container-element",
           "elementdef-defs",
@@ -536,14 +559,13 @@
           "TermDescriptiveElement"
         ]
       },
-      "https://svgwg.org/svg2-draft/text.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/text.html": {
         "anchors": [
           "TextAnchorProperty"
         ]
       },
-      "https://svgwg.org/svg2-draft/types.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/types.html": {
         "anchors": [
-          "TermInitialValue",
           "InterfaceSVGElement",
           "InterfaceSVGAnimatedEnumeration",
           "InterfaceSVGAnimatedLength",
@@ -564,7 +586,7 @@
           "idl-float"
         ]
       },
-      "https://www.w3.org/TR/CSS21/visuren.html": {
+      "https://www.w3.org/TR/CSS2/visuren.html": {
         "anchors": [
           "x43"
         ]

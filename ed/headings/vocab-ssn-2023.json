@@ -20,8 +20,8 @@
       ]
     },
     {
-      "id": "Introduction",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#Introduction",
+      "id": "introduction",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#introduction",
       "level": 2,
       "title": "Introduction",
       "alternateIds": [
@@ -30,8 +30,38 @@
       "number": "1"
     },
     {
-      "id": "Notation",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#Notation",
+      "id": "context",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#context",
+      "level": 3,
+      "title": "Context",
+      "alternateIds": [
+        "x1-1-context"
+      ],
+      "number": "1.1"
+    },
+    {
+      "id": "scope",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#scope",
+      "level": 3,
+      "title": "Scope",
+      "alternateIds": [
+        "x1-2-scope"
+      ],
+      "number": "1.2"
+    },
+    {
+      "id": "x2023-edition",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#x2023-edition",
+      "level": 3,
+      "title": "2023 Edition",
+      "alternateIds": [
+        "x1-3-2023-edition"
+      ],
+      "number": "1.3"
+    },
+    {
+      "id": "notation",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#notation",
       "level": 2,
       "title": "Notation",
       "alternateIds": [
@@ -50,14 +80,24 @@
       "number": "2.1"
     },
     {
+      "id": "Class and property names",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#Class%20and%20property%20names",
+      "level": 3,
+      "title": "Class and property names",
+      "alternateIds": [
+        "x2-2-class-and-property-names"
+      ],
+      "number": "2.2"
+    },
+    {
       "id": "Diagram",
       "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#Diagram",
       "level": 3,
       "title": "Diagram notation",
       "alternateIds": [
-        "x2-2-diagram-notation"
+        "x2-3-diagram-notation"
       ],
-      "number": "2.2"
+      "number": "2.3"
     },
     {
       "id": "Module-diagram",
@@ -65,9 +105,9 @@
       "level": 4,
       "title": "Module diagrams",
       "alternateIds": [
-        "x2-2-1-module-diagrams"
+        "x2-3-1-module-diagrams"
       ],
-      "number": "2.2.1"
+      "number": "2.3.1"
     },
     {
       "id": "Class-diagram",
@@ -75,9 +115,19 @@
       "level": 4,
       "title": "Class and instance diagrams",
       "alternateIds": [
-        "x2-2-2-class-and-instance-diagrams"
+        "x2-3-2-class-and-instance-diagrams"
       ],
-      "number": "2.2.2"
+      "number": "2.3.2"
+    },
+    {
+      "id": "Alignment-notation",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#Alignment-notation",
+      "level": 3,
+      "title": "Alignment notation",
+      "alternateIds": [
+        "x2-4-alignment-notation"
+      ],
+      "number": "2.4"
     },
     {
       "id": "conformance",
@@ -90,8 +140,28 @@
       "number": "3"
     },
     {
-      "id": "Modularization",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#Modularization",
+      "id": "general-conformance-requirements",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#general-conformance-requirements",
+      "level": 3,
+      "title": "General conformance requirements",
+      "alternateIds": [
+        "x3-1-general-conformance-requirements"
+      ],
+      "number": "3.1"
+    },
+    {
+      "id": "ogc-specification-conformance",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ogc-specification-conformance",
+      "level": 3,
+      "title": "OGC Specification conformance",
+      "alternateIds": [
+        "x3-2-ogc-specification-conformance"
+      ],
+      "number": "3.2"
+    },
+    {
+      "id": "modularization",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#modularization",
       "level": 2,
       "title": "SSN Ontology Modularization",
       "alternateIds": [
@@ -100,8 +170,8 @@
       "number": "4"
     },
     {
-      "id": "SSNcoreModules",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#SSNcoreModules",
+      "id": "ssn-core-modules",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ssn-core-modules",
       "level": 3,
       "title": "Core modules",
       "alternateIds": [
@@ -115,9 +185,59 @@
       "level": 4,
       "title": "SOSA",
       "alternateIds": [
-        "sosa-module"
+        "sosa-modules"
       ],
       "number": "4.1.1"
+    },
+    {
+      "id": "sosa-common",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#sosa-common",
+      "level": 5,
+      "title": "SOSA Common",
+      "alternateIds": [
+        "sosa-common-module"
+      ],
+      "number": "4.1.1.1"
+    },
+    {
+      "id": "sosa-actuation",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#sosa-actuation",
+      "level": 5,
+      "title": "SOSA Actuation",
+      "alternateIds": [
+        "sosa-actuation-module"
+      ],
+      "number": "4.1.1.2"
+    },
+    {
+      "id": "sosa-observation",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#sosa-observation",
+      "level": 5,
+      "title": "SOSA Observation",
+      "alternateIds": [
+        "sosa-observation-module"
+      ],
+      "number": "4.1.1.3"
+    },
+    {
+      "id": "sosa-sampling",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#sosa-sampling",
+      "level": 5,
+      "title": "SOSA Sampling",
+      "alternateIds": [
+        "sosa-sampling-module"
+      ],
+      "number": "4.1.1.4"
+    },
+    {
+      "id": "sosa-all",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#sosa-all",
+      "level": 5,
+      "title": "SOSA (All)",
+      "alternateIds": [
+        "sosa-all-module"
+      ],
+      "number": "4.1.1.5"
     },
     {
       "id": "ssn",
@@ -125,13 +245,63 @@
       "level": 4,
       "title": "SSN",
       "alternateIds": [
-        "ssn-module"
+        "ssn-modules"
       ],
       "number": "4.1.2"
     },
     {
-      "id": "SSNextensionModules",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#SSNextensionModules",
+      "id": "ssn-common",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ssn-common",
+      "level": 5,
+      "title": "SSN Common",
+      "alternateIds": [
+        "ssn-common-module"
+      ],
+      "number": "4.1.2.1"
+    },
+    {
+      "id": "ssn-actuation",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ssn-actuation",
+      "level": 5,
+      "title": "SSN Actuation",
+      "alternateIds": [
+        "ssn-actuation-module"
+      ],
+      "number": "4.1.2.2"
+    },
+    {
+      "id": "ssn-observation",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ssn-observation",
+      "level": 5,
+      "title": "SSN Observation",
+      "alternateIds": [
+        "ssn-observation-module"
+      ],
+      "number": "4.1.2.3"
+    },
+    {
+      "id": "ssn-sampling",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ssn-sampling",
+      "level": 5,
+      "title": "SSN Sampling",
+      "alternateIds": [
+        "ssn-sampling-module"
+      ],
+      "number": "4.1.2.4"
+    },
+    {
+      "id": "ssn-all",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ssn-all",
+      "level": 5,
+      "title": "SSN (All)",
+      "alternateIds": [
+        "ssn-all-module"
+      ],
+      "number": "4.1.2.5"
+    },
+    {
+      "id": "ssn-extension-modules",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ssn-extension-modules",
       "level": 3,
       "title": "Extension modules",
       "alternateIds": [
@@ -145,9 +315,29 @@
       "level": 4,
       "title": "OMS",
       "alternateIds": [
-        "sosa-oms-module"
+        "oms-module"
       ],
       "number": "4.2.1"
+    },
+    {
+      "id": "sosa-oms",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#sosa-oms",
+      "level": 5,
+      "title": "SOSA-OMS",
+      "alternateIds": [
+        "sosa-oms-module"
+      ],
+      "number": "4.2.1.1"
+    },
+    {
+      "id": "ssn-oms",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ssn-oms",
+      "level": 5,
+      "title": "SSN-OMS",
+      "alternateIds": [
+        "ssn-oms-module"
+      ],
+      "number": "4.2.1.2"
     },
     {
       "id": "sample-relations",
@@ -220,8 +410,28 @@
       "number": "4.3.4"
     },
     {
-      "id": "Specification",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#Specification",
+      "id": "ido",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ido",
+      "level": 4,
+      "title": "IDO",
+      "alternateIds": [
+        "sosa-ido-module"
+      ],
+      "number": "4.3.5"
+    },
+    {
+      "id": "bfo",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#bfo",
+      "level": 4,
+      "title": "BFO",
+      "alternateIds": [
+        "sosa-bfo-module"
+      ],
+      "number": "4.3.6"
+    },
+    {
+      "id": "specification",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#specification",
       "level": 2,
       "title": "Specification",
       "alternateIds": [
@@ -230,14 +440,24 @@
       "number": "5"
     },
     {
-      "id": "RDFimplementation",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#RDFimplementation",
+      "id": "Overview",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#Overview",
+      "level": 3,
+      "title": "Overview of the ontology",
+      "alternateIds": [
+        "x5-1-overview-of-the-ontology"
+      ],
+      "number": "5.1"
+    },
+    {
+      "id": "RDF-implementation",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#RDF-implementation",
       "level": 3,
       "title": "RDF implementation",
       "alternateIds": [
-        "x5-1-rdf-implementation"
+        "x5-2-rdf-implementation"
       ],
-      "number": "5.1"
+      "number": "5.2"
     },
     {
       "id": "namespaces",
@@ -245,9 +465,9 @@
       "level": 4,
       "title": "Namespaces",
       "alternateIds": [
-        "x5-1-1-namespaces"
+        "x5-2-1-namespaces"
       ],
-      "number": "5.1.1"
+      "number": "5.2.1"
     },
     {
       "id": "dependencies",
@@ -255,9 +475,9 @@
       "level": 4,
       "title": "Dependencies",
       "alternateIds": [
-        "x5-1-2-dependencies"
+        "x5-2-2-dependencies"
       ],
-      "number": "5.1.2"
+      "number": "5.2.2"
     },
     {
       "id": "expressivity",
@@ -265,9 +485,9 @@
       "level": 4,
       "title": "Expressivity",
       "alternateIds": [
-        "x5-1-3-expressivity"
+        "x5-2-3-expressivity"
       ],
-      "number": "5.1.3"
+      "number": "5.2.3"
     },
     {
       "id": "distribution",
@@ -275,9 +495,9 @@
       "level": 4,
       "title": "Distribution",
       "alternateIds": [
-        "x5-1-4-distribution"
+        "x5-2-4-distribution"
       ],
-      "number": "5.1.4"
+      "number": "5.2.4"
     },
     {
       "id": "SOSAdistribution",
@@ -285,9 +505,9 @@
       "level": 5,
       "title": "SOSA",
       "alternateIds": [
-        "x5-1-4-1-sosa"
+        "x5-2-4-1-sosa"
       ],
-      "number": "5.1.4.1"
+      "number": "5.2.4.1"
     },
     {
       "id": "SSNdistribution",
@@ -295,19 +515,19 @@
       "level": 5,
       "title": "SSN",
       "alternateIds": [
-        "x5-1-4-2-ssn"
+        "x5-2-4-2-ssn"
       ],
-      "number": "5.1.4.2"
+      "number": "5.2.4.2"
     },
     {
-      "id": "Overview",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#Overview",
-      "level": 3,
-      "title": "Overview of Classes and Properties",
+      "id": "index-of-classes-and-properties",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#index-of-classes-and-properties",
+      "level": 4,
+      "title": "Index of classes and properties",
       "alternateIds": [
-        "x5-2-overview-of-classes-and-properties"
+        "x5-2-5-index-of-classes-and-properties"
       ],
-      "number": "5.2"
+      "number": "5.2.5"
     },
     {
       "id": "Common",
@@ -323,9 +543,9 @@
       "id": "Common-overview",
       "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#Common-overview",
       "level": 4,
-      "title": "x Overview",
+      "title": "Overview",
       "alternateIds": [
-        "x5-3-1-x-overview"
+        "x5-3-1-overview"
       ],
       "number": "5.3.1"
     },
@@ -530,14 +750,24 @@
       "number": "5.3.3.2.6"
     },
     {
+      "id": "SOSAisProcedureFor",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#SOSAisProcedureFor",
+      "level": 6,
+      "title": "sosa:isProcedureFor",
+      "alternateIds": [
+        "x5-3-3-2-7-sosa-isprocedurefor"
+      ],
+      "number": "5.3.3.2.7"
+    },
+    {
       "id": "SOSAoutputFor",
       "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#SOSAoutputFor",
       "level": 6,
       "title": "sosa:outputFor",
       "alternateIds": [
-        "x5-3-3-2-7-sosa-outputfor"
+        "x5-3-3-2-8-sosa-outputfor"
       ],
-      "number": "5.3.3.2.7"
+      "number": "5.3.3.2.8"
     },
     {
       "id": "SOSAusedForExecution",
@@ -545,9 +775,9 @@
       "level": 6,
       "title": "sosa:usedForExecution",
       "alternateIds": [
-        "x5-3-3-2-8-sosa-usedforexecution"
+        "x5-3-3-2-9-sosa-usedforexecution"
       ],
-      "number": "5.3.3.2.8"
+      "number": "5.3.3.2.9"
     },
     {
       "id": "Execution",
@@ -770,14 +1000,24 @@
       "number": "5.3.5.2"
     },
     {
+      "id": "SOSAAsset",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#SOSAAsset",
+      "level": 6,
+      "title": "sosa:Asset",
+      "alternateIds": [
+        "x5-3-5-2-1-sosa-asset"
+      ],
+      "number": "5.3.5.2.1"
+    },
+    {
       "id": "SOSADeployment",
       "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#SOSADeployment",
       "level": 6,
       "title": "sosa:Deployment",
       "alternateIds": [
-        "x5-3-5-2-1-sosa-deployment"
+        "x5-3-5-2-2-sosa-deployment"
       ],
-      "number": "5.3.5.2.1"
+      "number": "5.3.5.2.2"
     },
     {
       "id": "SOSAPlatform",
@@ -785,9 +1025,9 @@
       "level": 6,
       "title": "sosa:Platform",
       "alternateIds": [
-        "x5-3-5-2-2-sosa-platform"
+        "x5-3-5-2-3-sosa-platform"
       ],
-      "number": "5.3.5.2.2"
+      "number": "5.3.5.2.3"
     },
     {
       "id": "SOSASystem",
@@ -795,9 +1035,9 @@
       "level": 6,
       "title": "sosa:System",
       "alternateIds": [
-        "x5-3-5-2-3-sosa-system"
+        "x5-3-5-2-4-sosa-system"
       ],
-      "number": "5.3.5.2.3"
+      "number": "5.3.5.2.4"
     },
     {
       "id": "SOSAdeployedAsset",
@@ -805,9 +1045,9 @@
       "level": 6,
       "title": "sosa:deployedAsset",
       "alternateIds": [
-        "x5-3-5-2-4-sosa-deployedasset"
+        "x5-3-5-2-5-sosa-deployedasset"
       ],
-      "number": "5.3.5.2.4"
+      "number": "5.3.5.2.5"
     },
     {
       "id": "SOSAdeployedOnPlatform",
@@ -815,9 +1055,9 @@
       "level": 6,
       "title": "sosa:deployedOnPlatform",
       "alternateIds": [
-        "x5-3-5-2-5-sosa-deployedonplatform"
+        "x5-3-5-2-6-sosa-deployedonplatform"
       ],
-      "number": "5.3.5.2.5"
+      "number": "5.3.5.2.6"
     },
     {
       "id": "SOSAdeployedSystem",
@@ -825,9 +1065,9 @@
       "level": 6,
       "title": "sosa:deployedSystem",
       "alternateIds": [
-        "x5-3-5-2-6-sosa-deployedsystem"
+        "x5-3-5-2-7-sosa-deployedsystem"
       ],
-      "number": "5.3.5.2.6"
+      "number": "5.3.5.2.7"
     },
     {
       "id": "SOSAhasDeployment",
@@ -835,9 +1075,9 @@
       "level": 6,
       "title": "sosa:hasDeployment",
       "alternateIds": [
-        "x5-3-5-2-7-sosa-hasdeployment"
+        "x5-3-5-2-8-sosa-hasdeployment"
       ],
-      "number": "5.3.5.2.7"
+      "number": "5.3.5.2.8"
     },
     {
       "id": "SOSAhasSubSystem",
@@ -845,9 +1085,9 @@
       "level": 6,
       "title": "sosa:hasSubSystem",
       "alternateIds": [
-        "x5-3-5-2-8-sosa-hassubsystem"
+        "x5-3-5-2-9-sosa-hassubsystem"
       ],
-      "number": "5.3.5.2.8"
+      "number": "5.3.5.2.9"
     },
     {
       "id": "SOSAhosts",
@@ -855,9 +1095,9 @@
       "level": 6,
       "title": "sosa:hosts",
       "alternateIds": [
-        "x5-3-5-2-9-sosa-hosts"
+        "x5-3-5-2-10-sosa-hosts"
       ],
-      "number": "5.3.5.2.9"
+      "number": "5.3.5.2.10"
     },
     {
       "id": "SOSAimplements",
@@ -865,9 +1105,9 @@
       "level": 6,
       "title": "sosa:implements",
       "alternateIds": [
-        "x5-3-5-2-10-sosa-implements"
+        "x5-3-5-2-11-sosa-implements"
       ],
-      "number": "5.3.5.2.10"
+      "number": "5.3.5.2.11"
     },
     {
       "id": "SOSAinDeployment",
@@ -875,9 +1115,9 @@
       "level": 6,
       "title": "sosa:inDeployment",
       "alternateIds": [
-        "x5-3-5-2-11-sosa-indeployment"
+        "x5-3-5-2-12-sosa-indeployment"
       ],
-      "number": "5.3.5.2.11"
+      "number": "5.3.5.2.12"
     },
     {
       "id": "SOSAisHostedBy",
@@ -885,9 +1125,9 @@
       "level": 6,
       "title": "sosa:isHostedBy",
       "alternateIds": [
-        "x5-3-5-2-12-sosa-ishostedby"
+        "x5-3-5-2-13-sosa-ishostedby"
       ],
-      "number": "5.3.5.2.12"
+      "number": "5.3.5.2.13"
     },
     {
       "id": "SOSAisSubSystemOf",
@@ -895,9 +1135,9 @@
       "level": 6,
       "title": "sosa:isSubSystemOf",
       "alternateIds": [
-        "x5-3-5-2-13-sosa-issubsystemof"
+        "x5-3-5-2-14-sosa-issubsystemof"
       ],
-      "number": "5.3.5.2.13"
+      "number": "5.3.5.2.14"
     },
     {
       "id": "SOSAmadeExecution",
@@ -905,9 +1145,19 @@
       "level": 6,
       "title": "sosa:madeExecution",
       "alternateIds": [
-        "x5-3-5-2-14-sosa-madeexecution"
+        "x5-3-5-2-15-sosa-madeexecution"
       ],
-      "number": "5.3.5.2.14"
+      "number": "5.3.5.2.15"
+    },
+    {
+      "id": "SOSAsystemDeployment",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#SOSAsystemDeployment",
+      "level": 6,
+      "title": "sosa:systemDeployment",
+      "alternateIds": [
+        "x5-3-5-2-16-sosa-systemdeployment"
+      ],
+      "number": "5.3.5.2.16"
     },
     {
       "id": "Collections",
@@ -960,8 +1210,8 @@
       "number": "5.3.6.3.1"
     },
     {
-      "id": "SOSAmemberOf",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#SOSAmemberOf",
+      "id": "SOSAisMemberOf",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#SOSAisMemberOf",
       "level": 6,
       "title": "sosa:isMemberOf",
       "alternateIds": [
@@ -1630,8 +1880,8 @@
       "number": "6.1.2"
     },
     {
-      "id": "sosa-oms",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#sosa-oms",
+      "id": "sosa-oms-0",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#sosa-oms-0",
       "level": 5,
       "title": "SOSA-OMS",
       "alternateIds": [
@@ -1640,8 +1890,8 @@
       "number": "6.1.2.1"
     },
     {
-      "id": "ssn-oms",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ssn-oms",
+      "id": "ssn-oms-0",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ssn-oms-0",
       "level": 5,
       "title": "SSN-OMS",
       "alternateIds": [
@@ -1710,14 +1960,24 @@
       "number": "6.1.3.4"
     },
     {
+      "id": "OMSmakesObservationCollection",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#OMSmakesObservationCollection",
+      "level": 5,
+      "title": "sosa-oms:makesObservationCollection",
+      "alternateIds": [
+        "x6-1-3-5-sosa-oms-makesobservationcollection"
+      ],
+      "number": "6.1.3.5"
+    },
+    {
       "id": "OMSmetadata",
       "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#OMSmetadata",
       "level": 5,
       "title": "sosa-oms:metadata",
       "alternateIds": [
-        "x6-1-3-5-sosa-oms-metadata"
+        "x6-1-3-6-sosa-oms-metadata"
       ],
-      "number": "6.1.3.5"
+      "number": "6.1.3.6"
     },
     {
       "id": "OMSobservationType",
@@ -1725,9 +1985,9 @@
       "level": 5,
       "title": "sosa-oms:observationType",
       "alternateIds": [
-        "x6-1-3-6-sosa-oms-observationtype"
+        "x6-1-3-7-sosa-oms-observationtype"
       ],
-      "number": "6.1.3.6"
+      "number": "6.1.3.7"
     },
     {
       "id": "OMSpreparedSample",
@@ -1735,9 +1995,9 @@
       "level": 5,
       "title": "sosa-oms:preparedSample",
       "alternateIds": [
-        "x6-1-3-7-sosa-oms-preparedsample"
+        "x6-1-3-8-sosa-oms-preparedsample"
       ],
-      "number": "6.1.3.7"
+      "number": "6.1.3.8"
     },
     {
       "id": "OMSprocessingDetails",
@@ -1745,9 +2005,9 @@
       "level": 5,
       "title": "sosa-oms:processingDetails",
       "alternateIds": [
-        "x6-1-3-8-sosa-oms-processingdetails"
+        "x6-1-3-9-sosa-oms-processingdetails"
       ],
-      "number": "6.1.3.8"
+      "number": "6.1.3.9"
     },
     {
       "id": "OMSrelatedSampling",
@@ -1755,9 +2015,9 @@
       "level": 5,
       "title": "sosa-oms:relatedSampling",
       "alternateIds": [
-        "x6-1-3-9-sosa-oms-relatedsampling"
+        "x6-1-3-10-sosa-oms-relatedsampling"
       ],
-      "number": "6.1.3.9"
+      "number": "6.1.3.10"
     },
     {
       "id": "OMSsamplePreparationStep",
@@ -1765,9 +2025,9 @@
       "level": 5,
       "title": "sosa-oms:samplePreparationStep",
       "alternateIds": [
-        "x6-1-3-10-sosa-oms-samplepreparationstep"
+        "x6-1-3-11-sosa-oms-samplepreparationstep"
       ],
-      "number": "6.1.3.10"
+      "number": "6.1.3.11"
     },
     {
       "id": "OMSvalidTime",
@@ -1775,9 +2035,9 @@
       "level": 5,
       "title": "sosa-oms:validTime",
       "alternateIds": [
-        "x6-1-3-11-sosa-oms-validtime"
+        "x6-1-3-12-sosa-oms-validtime"
       ],
-      "number": "6.1.3.11"
+      "number": "6.1.3.12"
     },
     {
       "id": "OMS-Class-SOSA",
@@ -2088,6 +2348,106 @@
         "x7-4-3-property-alignments"
       ],
       "number": "7.4.3"
+    },
+    {
+      "id": "IDO-alignment",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#IDO-alignment",
+      "level": 3,
+      "title": "IDO Alignment Module",
+      "alternateIds": [
+        "x7-5-ido-alignment-module"
+      ],
+      "number": "7.5"
+    },
+    {
+      "id": "IDO_Alignment-namespaces",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#IDO_Alignment-namespaces",
+      "level": 4,
+      "title": "Namespaces",
+      "alternateIds": [
+        "x7-5-1-namespaces"
+      ],
+      "number": "7.5.1"
+    },
+    {
+      "id": "IDO-Class-Alignments",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#IDO-Class-Alignments",
+      "level": 4,
+      "title": "Class Alignments",
+      "alternateIds": [
+        "x7-5-2-class-alignments"
+      ],
+      "number": "7.5.2"
+    },
+    {
+      "id": "IDO-Property-Alignments",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#IDO-Property-Alignments",
+      "level": 4,
+      "title": "Property Alignments",
+      "alternateIds": [
+        "x7-5-3-property-alignments"
+      ],
+      "number": "7.5.3"
+    },
+    {
+      "id": "BFO-alignment",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#BFO-alignment",
+      "level": 3,
+      "title": "BFO/CCO Alignment Module",
+      "alternateIds": [
+        "x7-6-bfo-cco-alignment-module"
+      ],
+      "number": "7.6"
+    },
+    {
+      "id": "BFO_Alignment_ns",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#BFO_Alignment_ns",
+      "level": 4,
+      "title": "Namespaces",
+      "alternateIds": [
+        "x7-6-1-namespaces"
+      ],
+      "number": "7.6.1"
+    },
+    {
+      "id": "BFO_Alignment_notation",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#BFO_Alignment_notation",
+      "level": 4,
+      "title": "Notation",
+      "alternateIds": [
+        "x7-6-2-notation"
+      ],
+      "number": "7.6.2"
+    },
+    {
+      "id": "BFO_Alignment_class",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#BFO_Alignment_class",
+      "level": 4,
+      "title": "Class Alignments",
+      "alternateIds": [
+        "x7-6-3-class-alignments"
+      ],
+      "number": "7.6.3"
+    },
+    {
+      "id": "BFO_Alignment_property",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#BFO_Alignment_property",
+      "level": 4,
+      "title": "Property Alignments",
+      "alternateIds": [
+        "x7-6-4-property-alignments"
+      ],
+      "number": "7.6.4"
+    },
+    {
+      "id": "BFO_Alignment_explanations",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#BFO_Alignment_explanations",
+      "level": 4,
+      "title": "Explanations",
+      "alternateIds": [
+        "x7-6-5-explanations"
+      ],
+      "number": "7.6.5"
     },
     {
       "id": "ModelPatterns",
@@ -2510,64 +2870,14 @@
       "number": "C"
     },
     {
-      "id": "Origins",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#Origins",
-      "level": 2,
-      "title": "Origins of SSN and SOSA",
-      "alternateIds": [
-        "d-origins-of-ssn-and-sosa"
-      ],
-      "number": "D"
-    },
-    {
-      "id": "ogc-sensor-web-enablement",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ogc-sensor-web-enablement",
-      "level": 3,
-      "title": "OGC Sensor Web Enablement",
-      "alternateIds": [
-        "d-1-ogc-sensor-web-enablement"
-      ],
-      "number": "D.1"
-    },
-    {
-      "id": "w3c-semantic-sensor-network-incubator",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#w3c-semantic-sensor-network-incubator",
-      "level": 3,
-      "title": "W3C Semantic Sensor Network Incubator",
-      "alternateIds": [
-        "d-2-w3c-semantic-sensor-network-incubator"
-      ],
-      "number": "D.2"
-    },
-    {
-      "id": "ssn-ontology-including-sosa",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ssn-ontology-including-sosa",
-      "level": 3,
-      "title": "SSN Ontology, including SOSA",
-      "alternateIds": [
-        "d-3-ssn-ontology-including-sosa"
-      ],
-      "number": "D.3"
-    },
-    {
-      "id": "new-editions",
-      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#new-editions",
-      "level": 3,
-      "title": "New editions",
-      "alternateIds": [
-        "d-4-new-editions"
-      ],
-      "number": "D.4"
-    },
-    {
       "id": "System-capabilities",
       "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#System-capabilities",
       "level": 2,
       "title": "System Capabilities Module",
       "alternateIds": [
-        "e-system-capabilities-module"
+        "d-system-capabilities-module"
       ],
-      "number": "E"
+      "number": "D"
     },
     {
       "id": "SysCap-overview",
@@ -2575,9 +2885,9 @@
       "level": 3,
       "title": "Overview",
       "alternateIds": [
-        "e-1-overview"
+        "d-1-overview"
       ],
-      "number": "E.1"
+      "number": "D.1"
     },
     {
       "id": "SysCap-operating-conditions",
@@ -2585,9 +2895,9 @@
       "level": 4,
       "title": "Operating Conditions",
       "alternateIds": [
-        "e-1-1-operating-conditions"
+        "d-1-1-operating-conditions"
       ],
-      "number": "E.1.1"
+      "number": "D.1.1"
     },
     {
       "id": "SysCap-system-capabilities",
@@ -2595,9 +2905,9 @@
       "level": 4,
       "title": "System Capabilities",
       "alternateIds": [
-        "e-1-2-system-capabilities"
+        "d-1-2-system-capabilities"
       ],
-      "number": "E.1.2"
+      "number": "D.1.2"
     },
     {
       "id": "SysCap-property-conditions",
@@ -2605,9 +2915,9 @@
       "level": 4,
       "title": "Property Validity Context",
       "alternateIds": [
-        "e-1-3-property-validity-context"
+        "d-1-3-property-validity-context"
       ],
-      "number": "E.1.3"
+      "number": "D.1.3"
     },
     {
       "id": "guidance-on-system-capability-properties-and-ranges",
@@ -2615,9 +2925,9 @@
       "level": 4,
       "title": "Guidance on System Capability properties and ranges",
       "alternateIds": [
-        "e-1-4-guidance-on-system-capability-properties-and-ranges"
+        "d-1-4-guidance-on-system-capability-properties-and-ranges"
       ],
-      "number": "E.1.4"
+      "number": "D.1.4"
     },
     {
       "id": "complete-examples",
@@ -2625,9 +2935,9 @@
       "level": 4,
       "title": "Complete examples",
       "alternateIds": [
-        "e-1-5-complete-examples"
+        "d-1-5-complete-examples"
       ],
-      "number": "E.1.5"
+      "number": "D.1.5"
     },
     {
       "id": "SysCap-specification",
@@ -2635,9 +2945,9 @@
       "level": 3,
       "title": "Specification",
       "alternateIds": [
-        "e-2-specification"
+        "d-2-specification"
       ],
-      "number": "E.2"
+      "number": "D.2"
     },
     {
       "id": "SOSABattery",
@@ -2645,9 +2955,9 @@
       "level": 4,
       "title": "sosa:Battery",
       "alternateIds": [
-        "e-2-1-sosa-battery"
+        "d-2-1-sosa-battery"
       ],
-      "number": "E.2.1"
+      "number": "D.2.1"
     },
     {
       "id": "SOSAhasOperatingConditions",
@@ -2655,9 +2965,9 @@
       "level": 4,
       "title": "sosa:hasOperatingConditions",
       "alternateIds": [
-        "e-2-2-sosa-hasoperatingconditions"
+        "d-2-2-sosa-hasoperatingconditions"
       ],
-      "number": "E.2.2"
+      "number": "D.2.2"
     },
     {
       "id": "SOSAhasSystemCapability",
@@ -2665,9 +2975,9 @@
       "level": 4,
       "title": "sosa:hasSystemCapability",
       "alternateIds": [
-        "e-2-3-sosa-hassystemcapability"
+        "d-2-3-sosa-hassystemcapability"
       ],
-      "number": "E.2.3"
+      "number": "D.2.3"
     },
     {
       "id": "SOSAhasValidityContext",
@@ -2675,9 +2985,9 @@
       "level": 4,
       "title": "sosa:hasValidityContext",
       "alternateIds": [
-        "e-2-4-sosa-hasvaliditycontext"
+        "d-2-4-sosa-hasvaliditycontext"
       ],
-      "number": "E.2.4"
+      "number": "D.2.4"
     },
     {
       "id": "SOSANormalOperatingConditions",
@@ -2685,9 +2995,9 @@
       "level": 4,
       "title": "sosa:NormalOperatingConditions",
       "alternateIds": [
-        "e-2-5-sosa-normaloperatingconditions"
+        "d-2-5-sosa-normaloperatingconditions"
       ],
-      "number": "E.2.5"
+      "number": "D.2.5"
     },
     {
       "id": "SOSAOperatingConditions",
@@ -2695,9 +3005,9 @@
       "level": 4,
       "title": "sosa:OperatingConditions",
       "alternateIds": [
-        "e-2-6-sosa-operatingconditions"
+        "d-2-6-sosa-operatingconditions"
       ],
-      "number": "E.2.6"
+      "number": "D.2.6"
     },
     {
       "id": "SOSASuboptimalOperatingConditions",
@@ -2705,9 +3015,9 @@
       "level": 4,
       "title": "sosa:SuboptimalOperatingConditions",
       "alternateIds": [
-        "e-2-7-sosa-suboptimaloperatingconditions"
+        "d-2-7-sosa-suboptimaloperatingconditions"
       ],
-      "number": "E.2.7"
+      "number": "D.2.7"
     },
     {
       "id": "SOSASurvivableConditions",
@@ -2715,9 +3025,9 @@
       "level": 4,
       "title": "sosa:SurvivableConditions",
       "alternateIds": [
-        "e-2-8-sosa-survivableconditions"
+        "d-2-8-sosa-survivableconditions"
       ],
-      "number": "E.2.8"
+      "number": "D.2.8"
     },
     {
       "id": "SysCap-sample-vocabularies",
@@ -2725,9 +3035,9 @@
       "level": 3,
       "title": "Sample vocabularies of properties",
       "alternateIds": [
-        "e-3-sample-vocabularies-of-properties"
+        "d-3-sample-vocabularies-of-properties"
       ],
-      "number": "E.3"
+      "number": "D.3"
     },
     {
       "id": "SysCap-capability-properties",
@@ -2735,9 +3045,9 @@
       "level": 4,
       "title": "Sample vocabulary of properties about system capabilities",
       "alternateIds": [
-        "e-3-1-sample-vocabulary-of-properties-about-system-capabilities"
+        "d-3-1-sample-vocabulary-of-properties-about-system-capabilities"
       ],
-      "number": "E.3.1"
+      "number": "D.3.1"
     },
     {
       "id": "SysCap-environment-properties",
@@ -2745,9 +3055,59 @@
       "level": 4,
       "title": "Sample vocabulary of properties about the system environment",
       "alternateIds": [
-        "e-3-2-sample-vocabulary-of-properties-about-the-system-environment"
+        "d-3-2-sample-vocabulary-of-properties-about-the-system-environment"
       ],
-      "number": "E.3.2"
+      "number": "D.3.2"
+    },
+    {
+      "id": "Origins",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#Origins",
+      "level": 2,
+      "title": "Origins of SSN and SOSA",
+      "alternateIds": [
+        "e-origins-of-ssn-and-sosa"
+      ],
+      "number": "E"
+    },
+    {
+      "id": "ogc-sensor-web-enablement",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ogc-sensor-web-enablement",
+      "level": 3,
+      "title": "OGC Sensor Web Enablement",
+      "alternateIds": [
+        "e-1-ogc-sensor-web-enablement"
+      ],
+      "number": "E.1"
+    },
+    {
+      "id": "w3c-semantic-sensor-network-incubator",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#w3c-semantic-sensor-network-incubator",
+      "level": 3,
+      "title": "W3C Semantic Sensor Network Incubator",
+      "alternateIds": [
+        "e-2-w3c-semantic-sensor-network-incubator"
+      ],
+      "number": "E.2"
+    },
+    {
+      "id": "ssn-ontology-including-sosa",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#ssn-ontology-including-sosa",
+      "level": 3,
+      "title": "SSN Ontology, including SOSA",
+      "alternateIds": [
+        "e-3-ssn-ontology-including-sosa"
+      ],
+      "number": "E.3"
+    },
+    {
+      "id": "new-editions",
+      "href": "https://w3c.github.io/sdw-sosa-ssn/ssn/#new-editions",
+      "level": 3,
+      "title": "New editions",
+      "alternateIds": [
+        "e-4-new-editions"
+      ],
+      "number": "E.4"
     },
     {
       "id": "Acknowledgments",

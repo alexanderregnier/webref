@@ -60,11 +60,18 @@
       "number": "1.3"
     },
     {
-      "id": "consent",
-      "href": "https://w3ctag.github.io/design-principles/#consent",
+      "id": "user-intent",
+      "href": "https://w3ctag.github.io/design-principles/#user-intent",
       "level": 3,
-      "title": "Ask users for meaningful consent",
+      "title": "Design for user intent",
       "number": "1.4"
+    },
+    {
+      "id": "user-decisions",
+      "href": "https://w3ctag.github.io/design-principles/#user-decisions",
+      "level": 4,
+      "title": "Help users make good decisions",
+      "number": "1.4.1"
     },
     {
       "id": "identity",
@@ -91,7 +98,7 @@
       "id": "removing-features",
       "href": "https://w3ctag.github.io/design-principles/#removing-features",
       "level": 3,
-      "title": "Remove or change capabilities only once you understand existing usage",
+      "title": "Prioritize compatibility when changing or removing features",
       "number": "1.8"
     },
     {
@@ -200,25 +207,32 @@
       "number": "2.12"
     },
     {
+      "id": "handle-non-fully-active-documents",
+      "href": "https://w3ctag.github.io/design-principles/#handle-non-fully-active-documents",
+      "level": 3,
+      "title": "Handle non-fully-active documents",
+      "number": "2.13"
+    },
+    {
       "id": "support-non-fully-active",
       "href": "https://w3ctag.github.io/design-principles/#support-non-fully-active",
       "level": 3,
       "title": "Support non-fully active BFCached documents",
-      "number": "2.13"
+      "number": "2.14"
     },
     {
       "id": "third-party-tools",
       "href": "https://w3ctag.github.io/design-principles/#third-party-tools",
       "level": 3,
       "title": "Prioritize usability over compatibility with third-party tools",
-      "number": "2.14"
+      "number": "2.15"
     },
     {
       "id": "prefer-composition",
       "href": "https://w3ctag.github.io/design-principles/#prefer-composition",
       "level": 3,
       "title": "Build complex types by composing simpler types",
-      "number": "2.15"
+      "number": "2.16"
     },
     {
       "id": "html",
@@ -514,6 +528,13 @@
       "number": "6.16"
     },
     {
+      "id": "prefer-existing-task-sources",
+      "href": "https://w3ctag.github.io/design-principles/#prefer-existing-task-sources",
+      "level": 3,
+      "title": "Prefer existing task sources",
+      "number": "6.17"
+    },
+    {
       "id": "event-design",
       "href": "https://w3ctag.github.io/design-principles/#event-design",
       "level": 2,
@@ -573,7 +594,7 @@
       "id": "state-and-subclassing",
       "href": "https://w3ctag.github.io/design-principles/#state-and-subclassing",
       "level": 3,
-      "title": "Use plain Events for state",
+      "title": "Put state on target objects rather than Events",
       "number": "7.8"
     },
     {
@@ -778,25 +799,32 @@
       "number": "11.2.2"
     },
     {
+      "id": "registries",
+      "href": "https://w3ctag.github.io/design-principles/#registries",
+      "level": 3,
+      "title": "Plan for future extensibility through main spec updates if possible; otherwise use a registry",
+      "number": "11.3"
+    },
+    {
       "id": "implementability",
       "href": "https://w3ctag.github.io/design-principles/#implementability",
       "level": 3,
       "title": "Resolving tension between interoperability and implementability",
-      "number": "11.3"
+      "number": "11.4"
     },
     {
       "id": "monkey-patching",
       "href": "https://w3ctag.github.io/design-principles/#monkey-patching",
       "level": 3,
       "title": "Avoid monkey patching",
-      "number": "11.4"
+      "number": "11.5"
     },
     {
       "id": "cant-avoid-monkey-patching",
       "href": "https://w3ctag.github.io/design-principles/#cant-avoid-monkey-patching",
       "level": 4,
       "title": "If you need to monkey patch",
-      "number": "11.4.1"
+      "number": "11.5.1"
     },
     {
       "id": "naming-is-hard",

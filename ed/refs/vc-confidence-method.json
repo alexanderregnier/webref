@@ -1,0 +1,40 @@
+{
+  "spec": {
+    "title": "Confidence Method v1.0",
+    "url": "https://w3c.github.io/vc-confidence-method/"
+  },
+  "refs": {
+    "normative": [
+      {
+        "name": "CID",
+        "url": "https://www.w3.org/TR/cid-1.0/"
+      },
+      {
+        "name": "EIDAS2",
+        "url": "http://data.europa.eu/eli/reg/2024/1183/oj"
+      },
+      {
+        "name": "NIST-SP-800-63-4",
+        "url": "https://pages.nist.gov/800-63-4/sp800-63.html"
+      },
+      {
+        "name": "RFC2119",
+        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+      },
+      {
+        "name": "RFC8174",
+        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+      },
+      {
+        "name": "VC-DATA-MODEL-2.0",
+        "url": "https://www.w3.org/TR/vc-data-model-2.0/"
+      }
+    ],
+    "informative": [
+      {
+        "name": "VC-DATA-INTEGRITY",
+        "url": "https://www.w3.org/TR/vc-data-integrity/"
+      }
+    ]
+  }
+}

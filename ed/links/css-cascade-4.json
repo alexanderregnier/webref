@@ -37,7 +37,8 @@
       "https://developer.mozilla.org/en-US/docs/Web/CSS/revert": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/unset": {},
       "https://dom.spec.whatwg.org/": {},
-      "https://drafts.csswg.org/css-align/": {},
+      "https://drafts.csswg.org/animation-triggers-1/": {},
+      "https://drafts.csswg.org/css-2025/": {},
       "https://drafts.csswg.org/css-animations/": {},
       "https://drafts.csswg.org/css-backgrounds/": {},
       "https://drafts.csswg.org/css-break-3/": {
@@ -52,17 +53,17 @@
       "https://drafts.csswg.org/css-color-5/": {},
       "https://drafts.csswg.org/css-conditional-3/": {},
       "https://drafts.csswg.org/css-conditional-5/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox-2/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
-      "https://drafts.csswg.org/css-fonts-5/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
       "https://drafts.csswg.org/css-lists-3/": {},
       "https://drafts.csswg.org/css-logical-1/": {},
       "https://drafts.csswg.org/css-namespaces/": {},
       "https://drafts.csswg.org/css-page-3/": {},
       "https://drafts.csswg.org/css-pseudo-4/": {},
-      "https://drafts.csswg.org/css-scoping/": {},
+      "https://drafts.csswg.org/css-shadow-1/": {},
       "https://drafts.csswg.org/css-sizing-3/": {},
       "https://drafts.csswg.org/css-style-attr/": {},
       "https://drafts.csswg.org/css-syntax/": {},
@@ -202,9 +203,14 @@
           "concept-light-tree"
         ]
       },
-      "https://drafts.csswg.org/css-align-3/": {
+      "https://drafts.csswg.org/animation-triggers-1/": {
         "anchors": [
-          "valdef-align-self-auto"
+          "valdef-timeline-trigger-active-range-auto"
+        ]
+      },
+      "https://drafts.csswg.org/css-2025/": {
+        "anchors": [
+          "vendor-prefix"
         ]
       },
       "https://drafts.csswg.org/css-backgrounds-3/": {
@@ -249,17 +255,20 @@
           "typedef-supports-condition",
           "at-ruledef-media",
           "at-ruledef-supports",
-          "typedef-supports-decl"
+          "supports-queries"
         ]
       },
       "https://drafts.csswg.org/css-conditional-5/": {
         "anchors": [
+          "typedef-declaration",
+          "typedef-supports-decl",
           "funcdef-supports"
         ]
       },
       "https://drafts.csswg.org/css-display-3/": {
         "anchors": [
-          "elements"
+          "elements",
+          "propdef-display"
         ]
       },
       "https://drafts.csswg.org/css-display-4/": {
@@ -269,7 +278,7 @@
           "display-type"
         ]
       },
-      "https://drafts.csswg.org/css-flexbox-1/": {
+      "https://drafts.csswg.org/css-flexbox-2/": {
         "anchors": [
           "propdef-flex",
           "flex-item"
@@ -284,13 +293,9 @@
           "propdef-font-weight",
           "propdef-font-family",
           "valdef-font-weight-bolder",
+          "propdef-font-size-adjust",
           "valdef-font-style-italic",
           "valdef-font-family-sans-serif"
-        ]
-      },
-      "https://drafts.csswg.org/css-fonts-5/": {
-        "anchors": [
-          "propdef-font-size-adjust"
         ]
       },
       "https://drafts.csswg.org/css-inline-3/": {
@@ -319,7 +324,7 @@
           "selectordef-after"
         ]
       },
-      "https://drafts.csswg.org/css-scoping-1/": {
+      "https://drafts.csswg.org/css-shadow-1/": {
         "anchors": [
           "flat-tree",
           "tree-context"
@@ -403,7 +408,8 @@
           "concept-css-rule-parent-css-style-sheet",
           "concept-css-style-sheet-origin-clean-flag",
           "dom-cssimportrule-stylesheet",
-          "dom-window-getcomputedstyle"
+          "dom-window-getcomputedstyle",
+          "documentorshadowroot-final-css-style-sheets"
         ]
       },
       "https://drafts.csswg.org/mediaqueries-4/": {
@@ -411,7 +417,8 @@
           "typedef-media-query",
           "typedef-media-query-list",
           "valdef-media-all",
-          "media-query-list"
+          "media-query-list",
+          "media-type"
         ]
       },
       "https://drafts.csswg.org/selectors-4/": {
@@ -450,16 +457,6 @@
         "anchors": [
           "cors-same-origin",
           "content-type"
-        ]
-      },
-      "https://www.w3.org/TR/CSS2/selector.html": {
-        "anchors": [
-          "x22"
-        ]
-      },
-      "https://www.w3.org/TR/css-scoping-1/": {
-        "anchors": [
-          "shadow-tree"
         ]
       }
     }

@@ -22,7 +22,8 @@
           "XRCubeLayer",
           "XRSubImage",
           "XRWebGLSubImage",
-          "XRRenderState"
+          "XRRenderState",
+          "XRSession"
         ]
       }
     },
@@ -1143,7 +1144,7 @@
         "href": "https://immersive-web.github.io/layers/#dictdef-xrprojectionlayerinit"
       },
       "XRLayerInit": {
-        "fragment": "dictionary XRLayerInit {\n  required XRSpace space;\n  GLenum colorFormat = 0x1908; // RGBA\n  GLenum? depthFormat;\n  unsigned long mipLevels = 1;\n  required unsigned long viewPixelWidth;\n  required unsigned long viewPixelHeight;\n  XRLayerLayout layout = \"mono\";\n  boolean isStatic = false;\n  boolean clearOnAccess = true;\n};",
+        "fragment": "dictionary XRLayerInit {\n  required XRSpace space;\n  XRTextureType textureType = \"texture\";\n  GLenum colorFormat = 0x1908; // RGBA\n  GLenum? depthFormat;\n  unsigned long mipLevels = 1;\n  required unsigned long viewPixelWidth;\n  required unsigned long viewPixelHeight;\n  XRLayerLayout layout = \"mono\";\n  boolean isStatic = false;\n  boolean clearOnAccess = true;\n};",
         "type": "dictionary",
         "name": "XRLayerInit",
         "inheritance": null,
@@ -1163,6 +1164,25 @@
             "default": null,
             "required": true,
             "href": "https://immersive-web.github.io/layers/#dom-xrlayerinit-space"
+          },
+          {
+            "type": "field",
+            "name": "textureType",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "XRTextureType"
+            },
+            "default": {
+              "type": "string",
+              "value": "texture"
+            },
+            "required": false,
+            "href": "https://immersive-web.github.io/layers/#dom-xrlayerinit-texturetype"
           },
           {
             "type": "field",
@@ -1313,30 +1333,11 @@
         "href": "https://immersive-web.github.io/layers/#dictdef-xrlayerinit"
       },
       "XRQuadLayerInit": {
-        "fragment": "dictionary XRQuadLayerInit : XRLayerInit {\n  XRTextureType textureType = \"texture\";\n  XRRigidTransform? transform;\n  float width = 1.0;\n  float height = 1.0;\n};",
+        "fragment": "dictionary XRQuadLayerInit : XRLayerInit {\n  XRRigidTransform? transform;\n  float width = 1.0;\n  float height = 1.0;\n};",
         "type": "dictionary",
         "name": "XRQuadLayerInit",
         "inheritance": "XRLayerInit",
         "members": [
-          {
-            "type": "field",
-            "name": "textureType",
-            "extAttrs": [],
-            "idlType": {
-              "type": "dictionary-type",
-              "extAttrs": [],
-              "generic": "",
-              "nullable": false,
-              "union": false,
-              "idlType": "XRTextureType"
-            },
-            "default": {
-              "type": "string",
-              "value": "texture"
-            },
-            "required": false,
-            "href": "https://immersive-web.github.io/layers/#dom-xrquadlayerinit-texturetype"
-          },
           {
             "type": "field",
             "name": "transform",
@@ -1397,30 +1398,11 @@
         "href": "https://immersive-web.github.io/layers/#dictdef-xrquadlayerinit"
       },
       "XRCylinderLayerInit": {
-        "fragment": "dictionary XRCylinderLayerInit : XRLayerInit {\n  XRTextureType textureType = \"texture\";\n  XRRigidTransform? transform;\n  float radius = 2.0;\n  float centralAngle = 0.78539;\n  float aspectRatio = 2.0;\n};",
+        "fragment": "dictionary XRCylinderLayerInit : XRLayerInit {\n  XRRigidTransform? transform;\n  float radius = 2.0;\n  float centralAngle = 0.78539;\n  float aspectRatio = 2.0;\n};",
         "type": "dictionary",
         "name": "XRCylinderLayerInit",
         "inheritance": "XRLayerInit",
         "members": [
-          {
-            "type": "field",
-            "name": "textureType",
-            "extAttrs": [],
-            "idlType": {
-              "type": "dictionary-type",
-              "extAttrs": [],
-              "generic": "",
-              "nullable": false,
-              "union": false,
-              "idlType": "XRTextureType"
-            },
-            "default": {
-              "type": "string",
-              "value": "texture"
-            },
-            "required": false,
-            "href": "https://immersive-web.github.io/layers/#dom-xrcylinderlayerinit-texturetype"
-          },
           {
             "type": "field",
             "name": "transform",
@@ -1500,30 +1482,11 @@
         "href": "https://immersive-web.github.io/layers/#dictdef-xrcylinderlayerinit"
       },
       "XREquirectLayerInit": {
-        "fragment": "dictionary XREquirectLayerInit : XRLayerInit {\n  XRTextureType textureType = \"texture\";\n  XRRigidTransform? transform;\n  float radius = 0;\n  float centralHorizontalAngle = 6.28318;\n  float upperVerticalAngle = 1.570795;\n  float lowerVerticalAngle = -1.570795;\n};",
+        "fragment": "dictionary XREquirectLayerInit : XRLayerInit {\n  XRRigidTransform? transform;\n  float radius = 0;\n  float centralHorizontalAngle = 6.28318;\n  float upperVerticalAngle = 1.570795;\n  float lowerVerticalAngle = -1.570795;\n};",
         "type": "dictionary",
         "name": "XREquirectLayerInit",
         "inheritance": "XRLayerInit",
         "members": [
-          {
-            "type": "field",
-            "name": "textureType",
-            "extAttrs": [],
-            "idlType": {
-              "type": "dictionary-type",
-              "extAttrs": [],
-              "generic": "",
-              "nullable": false,
-              "union": false,
-              "idlType": "XRTextureType"
-            },
-            "default": {
-              "type": "string",
-              "value": "texture"
-            },
-            "required": false,
-            "href": "https://immersive-web.github.io/layers/#dom-xrequirectlayerinit-texturetype"
-          },
           {
             "type": "field",
             "name": "transform",
@@ -2756,6 +2719,50 @@
           ],
           "partial": true
         }
+      ],
+      "XRSession": [
+        {
+          "fragment": "[SecureContext, Exposed=Window] partial interface XRSession {\n  readonly attribute unsigned long maxRenderLayers;\n};",
+          "type": "interface",
+          "name": "XRSession",
+          "inheritance": null,
+          "members": [
+            {
+              "type": "attribute",
+              "name": "maxRenderLayers",
+              "idlType": {
+                "type": "attribute-type",
+                "extAttrs": [],
+                "generic": "",
+                "nullable": false,
+                "union": false,
+                "idlType": "unsigned long"
+              },
+              "extAttrs": [],
+              "special": "",
+              "readonly": true,
+              "href": "https://immersive-web.github.io/layers/#dom-xrsession-maxrenderlayers"
+            }
+          ],
+          "extAttrs": [
+            {
+              "type": "extended-attribute",
+              "name": "SecureContext",
+              "rhs": null,
+              "arguments": []
+            },
+            {
+              "type": "extended-attribute",
+              "name": "Exposed",
+              "rhs": {
+                "type": "identifier",
+                "value": "Window"
+              },
+              "arguments": []
+            }
+          ],
+          "partial": true
+        }
       ]
     },
     "globals": {},
@@ -2772,7 +2779,8 @@
         "XRWebGLBinding",
         "XRMediaBinding",
         "XRLayerEvent",
-        "XRRenderState"
+        "XRRenderState",
+        "XRSession"
       ]
     },
     "dependencies": {
@@ -2822,22 +2830,20 @@
       ],
       "XRLayerInit": [
         "XRSpace",
+        "XRTextureType",
         "GLenum",
         "XRLayerLayout"
       ],
       "XRQuadLayerInit": [
         "XRLayerInit",
-        "XRTextureType",
         "XRRigidTransform"
       ],
       "XRCylinderLayerInit": [
         "XRLayerInit",
-        "XRTextureType",
         "XRRigidTransform"
       ],
       "XREquirectLayerInit": [
         "XRLayerInit",
-        "XRTextureType",
         "XRRigidTransform"
       ],
       "XRCubeLayerInit": [
@@ -2901,7 +2907,8 @@
       ],
       "XRRenderState": [
         "XRLayer"
-      ]
+      ],
+      "XRSession": []
     },
     "externalDependencies": [
       "XRLayer",

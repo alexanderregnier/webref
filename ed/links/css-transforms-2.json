@@ -41,10 +41,12 @@
       "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateZ": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/translate": {},
+      "https://drafts.csswg.org/compositing-2/": {},
       "https://drafts.csswg.org/css-backgrounds/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-color-4/": {},
       "https://drafts.csswg.org/css-contain-2/": {},
+      "https://drafts.csswg.org/css-masking-1/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-transforms-1/": {
         "anchors": [
@@ -59,10 +61,8 @@
       "https://drafts.csswg.org/css-values-5/": {},
       "https://drafts.csswg.org/css2/": {},
       "https://drafts.csswg.org/cssom/": {},
-      "https://drafts.fxtf.org/compositing-2/": {},
-      "https://drafts.fxtf.org/css-masking-1/": {},
-      "https://drafts.fxtf.org/filter-effects-1/": {},
-      "https://drafts.fxtf.org/motion-1/": {},
+      "https://drafts.csswg.org/filter-effects-1/": {},
+      "https://drafts.csswg.org/motion-1/": {},
       "https://en.wikipedia.org/wiki/Newell%27s_algorithm": {},
       "https://en.wikipedia.org/wiki/Plane_at_infinity": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
@@ -85,7 +85,7 @@
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://lists.w3.org/Archives/Public/www-style/2015Mar/0371.html": {},
       "https://svgwg.org/specs/animations/": {},
-      "https://svgwg.org/svg2-draft/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
       "https://www.w3.org/Graphics/SVG/WG/wiki/Proposals/Specifying_decomposition_of_scale": {},
       "https://www.w3.org/TR/2020/WD-css-transforms-2-20200303/": {},
       "https://www.w3.org/TR/2021/WD-css-transforms-2-20211109/": {},
@@ -139,6 +139,12 @@
       "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
+      "https://drafts.csswg.org/compositing-2/": {
+        "anchors": [
+          "propdef-isolation",
+          "propdef-mix-blend-mode"
+        ]
+      },
       "https://drafts.csswg.org/css-backgrounds-3/": {
         "anchors": [
           "propdef-background-position"
@@ -161,6 +167,16 @@
           "valdef-contain-paint",
           "paint-containment",
           "propdef-content-visibility"
+        ]
+      },
+      "https://drafts.csswg.org/css-masking-1/": {
+        "anchors": [
+          "propdef-clip",
+          "propdef-clip-path",
+          "propdef-mask-image",
+          "propdef-mask-border-source",
+          "elementdef-clippath",
+          "elementdef-mask"
         ]
       },
       "https://drafts.csswg.org/css-overflow-3/": {
@@ -227,28 +243,12 @@
           "resolved-value-special-case-property-like-height"
         ]
       },
-      "https://drafts.fxtf.org/compositing-2/": {
-        "anchors": [
-          "propdef-isolation",
-          "propdef-mix-blend-mode"
-        ]
-      },
-      "https://drafts.fxtf.org/css-masking-1/": {
-        "anchors": [
-          "propdef-clip",
-          "propdef-clip-path",
-          "propdef-mask-image",
-          "propdef-mask-border-source",
-          "elementdef-clippath",
-          "elementdef-mask"
-        ]
-      },
-      "https://drafts.fxtf.org/filter-effects-1/": {
+      "https://drafts.csswg.org/filter-effects-1/": {
         "anchors": [
           "propdef-filter"
         ]
       },
-      "https://drafts.fxtf.org/motion-1/": {
+      "https://drafts.csswg.org/motion-1/": {
         "anchors": [
           "propdef-offset"
         ]
@@ -270,24 +270,24 @@
           "elementdef-set"
         ]
       },
-      "https://svgwg.org/svg2-draft/coords.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/coords.html": {
         "anchors": [
           "VectorEffectProperty"
         ]
       },
-      "https://svgwg.org/svg2-draft/embedded.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/embedded.html": {
         "anchors": [
           "elementdef-foreignObject"
         ]
       },
-      "https://svgwg.org/svg2-draft/pservers.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/pservers.html": {
         "anchors": [
           "elementdef-linearGradient",
           "elementdef-radialGradient",
           "elementdef-pattern"
         ]
       },
-      "https://svgwg.org/svg2-draft/struct.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/struct.html": {
         "anchors": [
           "container-element",
           "elementdef-g",

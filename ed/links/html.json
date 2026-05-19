@@ -1422,9 +1422,9 @@
           "abortsignal-aborted",
           "abortcontroller-signal-abort",
           "abortsignal-add",
-          "concept-element-attributes-get-by-name",
           "valid-attribute-local-name",
           "valid-element-local-name",
+          "is-a-global-custom-element-registry",
           "concept-document-url",
           "concept-document-origin"
         ]
@@ -1432,6 +1432,14 @@
       "https://domenic.me/": {},
       "https://domfarolino.com/": {},
       "https://drafts.css-houdini.org/css-paint-api/": {},
+      "https://drafts.csswg.org/compositing/": {
+        "anchors": [
+          "ltblendmodegt",
+          "compositemode",
+          "porterduffcompositingoperators_srcover",
+          "porterduffcompositingoperators_src"
+        ]
+      },
       "https://drafts.csswg.org/css-align/": {
         "anchors": [
           "propdef-align-content",
@@ -1536,7 +1544,9 @@
           "opaque-black",
           "transparent-black",
           "valdef-color-srgb",
+          "valdef-color-srgb-linear",
           "valdef-color-display-p3",
+          "display-p3-linear-space",
           "parse-a-css-color-value",
           "serializing-color-values",
           "color-serialization-html-compatible-serialization-is-requested",
@@ -1609,9 +1619,21 @@
       },
       "https://drafts.csswg.org/css-forms/": {
         "anchors": [
-          "the-picker-pseudo-element",
-          "selectordef-checkmark",
-          "picker-opener-icon-the-picker-icon-pseudo-element"
+          "picker-pseudo",
+          "checkmark",
+          "selectordef-picker-icon",
+          "typedef-picker-form-control-identifier",
+          "element-with-default-preferred-size"
+        ]
+      },
+      "https://drafts.csswg.org/css-gaps/": {
+        "anchors": [
+          "propdef-gap",
+          "propdef-rule",
+          "propdef-rule-break",
+          "propdef-rule-inset",
+          "propdef-rule-overlap",
+          "propdef-rule-visibility-items"
         ]
       },
       "https://drafts.csswg.org/css-grid/": {
@@ -1619,8 +1641,6 @@
           "propdef-grid-auto-columns",
           "propdef-grid-auto-flow",
           "propdef-grid-auto-rows",
-          "propdef-grid-column-gap",
-          "propdef-grid-row-gap",
           "propdef-grid-template-areas",
           "propdef-grid-template-columns",
           "propdef-grid-template-rows"
@@ -1640,12 +1660,12 @@
       "https://drafts.csswg.org/css-images/": {
         "anchors": [
           "default-object-size",
+          "default-sizing",
           "concrete-object-size",
           "natural-dimensions",
           "natural-height",
           "natural-width",
-          "the-object-fit",
-          "default-sizing"
+          "the-object-fit"
         ]
       },
       "https://drafts.csswg.org/css-inline/": {
@@ -1711,8 +1731,6 @@
         "anchors": [
           "propdef-column-count",
           "propdef-column-fill",
-          "propdef-column-gap",
-          "propdef-column-rule",
           "propdef-column-width"
         ]
       },
@@ -1830,7 +1848,6 @@
           "native-appearance",
           "primitive-appearance",
           "base-appearance",
-          "element-with-default-preferred-size",
           "non-devolvable",
           "devolvable",
           "devolved"
@@ -1967,6 +1984,30 @@
           "fetching-css-style-sheets"
         ]
       },
+      "https://drafts.csswg.org/filter-effects/": {
+        "anchors": [
+          "typedef-filter-value-list"
+        ]
+      },
+      "https://drafts.csswg.org/geometry/": {
+        "anchors": [
+          "dommatrix",
+          "matrix-m11-element",
+          "matrix-m12-element",
+          "matrix-m21-element",
+          "matrix-m22-element",
+          "matrix-m41-element",
+          "matrix-m42-element",
+          "dictdef-dommatrix2dinit",
+          "dictdef-dommatrixinit",
+          "create-a-dommatrix-from-the-dictionary",
+          "create-a-dommatrix-from-the-2d-dictionary",
+          "dictdef-dompointinit",
+          "dom-dompointinit-x",
+          "dom-dompointinit-y",
+          "matrix-multiply"
+        ]
+      },
       "https://drafts.csswg.org/mediaqueries/": {
         "anchors": [
           "typedef-media-condition"
@@ -1999,38 +2040,6 @@
       "https://drafts.csswg.org/web-animations-1/": {
         "anchors": [
           "update-animations-and-send-events"
-        ]
-      },
-      "https://drafts.fxtf.org/compositing/": {
-        "anchors": [
-          "ltblendmodegt",
-          "compositemode",
-          "porterduffcompositingoperators_srcover",
-          "porterduffcompositingoperators_src"
-        ]
-      },
-      "https://drafts.fxtf.org/filter-effects/": {
-        "anchors": [
-          "typedef-filter-value-list"
-        ]
-      },
-      "https://drafts.fxtf.org/geometry/": {
-        "anchors": [
-          "dommatrix",
-          "matrix-m11-element",
-          "matrix-m12-element",
-          "matrix-m21-element",
-          "matrix-m22-element",
-          "matrix-m41-element",
-          "matrix-m42-element",
-          "dictdef-dommatrix2dinit",
-          "dictdef-dommatrixinit",
-          "create-a-dommatrix-from-the-dictionary",
-          "create-a-dommatrix-from-the-2d-dictionary",
-          "dictdef-dompointinit",
-          "dom-dompointinit-x",
-          "dom-dompointinit-y",
-          "matrix-multiply"
         ]
       },
       "https://en.wikipedia.org/wiki/Multiple_buffering": {},
@@ -2120,6 +2129,8 @@
           "resolve-an-origin",
           "credentials",
           "reserve-deferred-fetch-quota",
+          "potentially-free-deferred-fetch-quota",
+          "is-offline",
           "concept-response",
           "concept-response-type",
           "concept-response-url",
@@ -2235,9 +2246,9 @@
       "https://github.com/whatwg/html/issues/10850": {},
       "https://github.com/whatwg/html/issues/11123": {},
       "https://github.com/whatwg/html/issues/1142": {},
+      "https://github.com/whatwg/html/issues/12318": {},
       "https://github.com/whatwg/html/issues/1430": {},
       "https://github.com/whatwg/html/issues/1431": {},
-      "https://github.com/whatwg/html/issues/1918": {},
       "https://github.com/whatwg/html/issues/2369": {},
       "https://github.com/whatwg/html/issues/2900": {},
       "https://github.com/whatwg/html/issues/2997": {},
@@ -2435,6 +2446,10 @@
           "list-clone",
           "list-sort-in-ascending-order",
           "list-sort-in-descending-order",
+          "list-slice",
+          "list-slice-from",
+          "list-slice-to",
+          "list-reverse",
           "stack",
           "stack-push",
           "stack-pop",
@@ -2691,6 +2706,11 @@
         ]
       },
       "https://tc39.es/proposal-error-stacks/": {},
+      "https://tc39.es/proposal-import-text/": {
+        "anchors": [
+          "sec-create-text-module"
+        ]
+      },
       "https://tc39.es/proposal-temporal/": {
         "anchors": [
           "sec-hostsystemutcepochnanoseconds",
@@ -2808,6 +2828,7 @@
           "on-fetch-request-algorithm",
           "scope-match-algorithm",
           "dfn-service-worker",
+          "dfn-service-worker-client",
           "serviceworkercontainer-service-worker-client",
           "serviceworker",
           "serviceworkercontainer",
@@ -3192,7 +3213,8 @@
           "number-mn",
           "operator-fence-separator-or-accent-mo",
           "string-literal-ms",
-          "text-mtext"
+          "text-mtext",
+          "dfn-a"
         ]
       },
       "https://w3c.github.io/media-source/": {
@@ -3246,12 +3268,27 @@
       },
       "https://w3c.github.io/pointerevents/": {
         "anchors": [
+          "dom-mouseevent",
+          "dom-mouseevent-relatedtarget",
+          "dom-mouseevent-button",
+          "dom-mouseeventinit",
           "pointerevent-interface",
           "dom-pointerevent-pointertype",
           "dfn-fire-a-pointer-event",
+          "auxclick",
+          "click",
+          "dblclick",
+          "mousedown",
+          "mouseenter",
+          "mouseleave",
+          "mousemove",
+          "mouseout",
+          "mouseover",
+          "mouseup",
           "the-pointerdown-event",
           "the-pointerup-event",
-          "the-pointercancel-event"
+          "the-pointercancel-event",
+          "wheel"
         ]
       },
       "https://w3c.github.io/pointerlock/": {},
@@ -3310,33 +3347,18 @@
           "trusted-script",
           "trustedscript-data",
           "trustedscripturl",
-          "get-trusted-type-compliant-string-algorithm"
+          "get-trusted-type-compliant-string"
         ]
       },
       "https://w3c.github.io/uievents/": {
         "anchors": [
-          "mouseevent",
-          "dom-mouseevent-relatedtarget",
-          "dom-mouseevent-button",
-          "dictdef-mouseeventinit",
           "focusevent",
           "dom-focusevent-relatedtarget",
           "uievent",
           "dom-uievent-view",
-          "event-type-auxclick",
           "event-type-beforeinput",
-          "event-type-click",
           "event-type-contextmenu",
-          "event-type-dblclick",
           "event-type-input",
-          "event-type-mousedown",
-          "event-type-mouseenter",
-          "event-type-mouseleave",
-          "event-type-mousemove",
-          "event-type-mouseout",
-          "event-type-mouseover",
-          "event-type-mouseup",
-          "event-type-wheel",
           "event-type-keydown",
           "event-type-keypress",
           "event-type-keyup",
@@ -3405,7 +3427,8 @@
       "https://w3c.github.io/webappsec-fetch-metadata/": {},
       "https://w3c.github.io/webappsec-mixed-content/": {
         "anchors": [
-          "a-priori-authenticated-url"
+          "a-priori-authenticated-url",
+          "mixed-content"
         ]
       },
       "https://w3c.github.io/webappsec-referrer-policy/": {
@@ -3481,7 +3504,11 @@
           "webdriver-bidi-navigable-destroyed",
           "webdriver-bidi-user-prompt-closed",
           "webdriver-bidi-user-prompt-opened",
-          "webdriver-bidi-file-dialog-opened"
+          "webdriver-bidi-file-dialog-opened",
+          "webdriver-bidi-emulated-language",
+          "webdriver-bidi-scripting-is-enabled",
+          "command-script-evaluate",
+          "commands-scriptevaluate"
         ]
       },
       "https://w3c.github.io/webdriver/": {

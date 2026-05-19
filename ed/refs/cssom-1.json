@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Object Model (CSSOM)",
+    "title": "CSS Object Model (CSSOM) Module Level 1",
     "url": "https://drafts.csswg.org/cssom-1/"
   },
   "refs": {
@@ -26,6 +26,10 @@
         "url": "https://drafts.csswg.org/css-cascade-5/"
       },
       {
+        "name": "CSS-CASCADE-6",
+        "url": "https://drafts.csswg.org/css-cascade-6/"
+      },
+      {
         "name": "CSS-COLOR-4",
         "url": "https://drafts.csswg.org/css-color-4/"
       },
@@ -39,7 +43,7 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display/"
+        "url": "https://drafts.csswg.org/css-display-4/"
       },
       {
         "name": "CSS-FONTS-4",
@@ -78,12 +82,8 @@
         "url": "https://drafts.csswg.org/css-position-3/"
       },
       {
-        "name": "CSS-SCOPING-1",
-        "url": "https://drafts.csswg.org/css-scoping/"
-      },
-      {
-        "name": "CSS-SHADOW-PARTS-1",
-        "url": "https://drafts.csswg.org/css-shadow-parts/"
+        "name": "CSS-SHADOW-1",
+        "url": "https://drafts.csswg.org/css-shadow-1/"
       },
       {
         "name": "CSS-SIZING-3",
@@ -179,7 +179,7 @@
       },
       {
         "name": "SVG2",
-        "url": "https://svgwg.org/svg2-draft/"
+        "url": "https://w3c.github.io/svgwg/svg2-draft/"
       },
       {
         "name": "URL",
@@ -202,6 +202,10 @@
       {
         "name": "COMPAT",
         "url": "https://compat.spec.whatwg.org/"
+      },
+      {
+        "name": "CSS-BREAK-4",
+        "url": "https://drafts.csswg.org/css-break-4/"
       },
       {
         "name": "SVG11",

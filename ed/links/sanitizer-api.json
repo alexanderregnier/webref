@@ -52,8 +52,12 @@
           "concept-tree-child",
           "text",
           "comment",
+          "processinginstruction",
           "documenttype",
           "concept-node-remove",
+          "concept-pi-target",
+          "concept-node-append",
+          "concept-node-replace",
           "concept-element-shadow-root",
           "concept-element-attribute",
           "concept-attribute-local-name",
@@ -75,8 +79,8 @@
       },
       "https://html.spec.whatwg.org/multipage/dom.html": {
         "anchors": [
-          "global-attributes",
-          "custom-data-attribute"
+          "custom-data-attribute",
+          "global-attributes"
         ]
       },
       "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html": {
@@ -95,6 +99,7 @@
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
           "concept-relevant-global",
+          "current-global-object",
           "event-handler-content-attributes"
         ]
       },
@@ -103,33 +108,36 @@
           "string",
           "assert",
           "string-is",
-          "map-set",
-          "map-key",
           "map-exists",
-          "list-empty",
           "list-iterate",
+          "list-sort-in-ascending-order",
+          "code-unit-less-than",
+          "set-difference",
+          "list-remove",
           "set-intersection",
           "map-with-default",
+          "map-remove",
+          "list-append",
+          "list-empty",
+          "list-contain",
+          "map-set",
           "set-subset",
           "boolean",
           "html-namespace",
           "svg-namespace",
-          "list-append",
           "iteration-continue",
           "code-unit-prefix",
           "mathml-namespace",
           "xlink-namespace",
-          "set-difference",
-          "list-remove",
-          "list-contain",
           "map-getting-the-keys",
           "ordered-map",
+          "list",
           "ordered-set",
           "set-superset",
+          "map-key",
           "map-value",
           "tuple",
           "map-entry",
-          "list",
           "set-append",
           "user-agent"
         ]
@@ -144,7 +152,7 @@
       "https://w3c.github.io/trusted-types/dist/spec/": {
         "anchors": [
           "trustedhtml",
-          "abstract-opdef-get-trusted-type-compliant-string"
+          "get-trusted-type-compliant-string"
         ]
       },
       "https://webidl.spec.whatwg.org/": {

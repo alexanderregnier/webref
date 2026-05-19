@@ -47,8 +47,10 @@
       "https://drafts.csswg.org/css-break/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-counter-styles/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
+      "https://drafts.csswg.org/css-inline-3/": {},
       "https://drafts.csswg.org/css-line-grid/": {},
       "https://drafts.csswg.org/css-lists-3/": {},
       "https://drafts.csswg.org/css-multicol-2/": {},
@@ -85,6 +87,7 @@
       "https://github.com/w3c/csswg-drafts/issues/11038": {},
       "https://github.com/w3c/csswg-drafts/issues/11363": {},
       "https://github.com/w3c/csswg-drafts/issues/11364": {},
+      "https://github.com/w3c/csswg-drafts/issues/13327": {},
       "https://github.com/w3c/csswg-drafts/issues/1974": {},
       "https://github.com/w3c/csswg-drafts/issues/2165": {},
       "https://github.com/w3c/csswg-drafts/issues/2399": {
@@ -145,8 +148,8 @@
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://lists.w3.org/Archives/Public/www-style/2018Jul/0019.html": {},
       "https://quirks.spec.whatwg.org/": {},
-      "https://svgwg.org/svg2-draft/": {},
       "https://w3c.github.io/ilreq/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
       "https://www.w3.org/TR/2018/WD-css-inline-3-20180808/": {},
       "https://www.w3.org/TR/2020/WD-css-inline-3-20200604/": {},
       "https://www.w3.org/TR/2020/WD-css-inline-3-20200618/": {},
@@ -476,15 +479,24 @@
       "https://drafts.csswg.org/css2/": {
         "anchors": [
           "propdef-z-index",
+          "valdef-vertical-align-middle",
           "propdef-float",
           "valdef-float-none",
-          "propdef-clear"
+          "propdef-clear",
+          "valdef-vertical-align-text-top",
+          "valdef-vertical-align-text-bottom"
         ]
       },
-      "https://svgwg.org/svg2-draft/text.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/text.html": {
         "anchors": [
           "TermTextContentElement",
           "TermCurrentTextPosition"
+        ]
+      },
+      "https://www.w3.org/TR/css-inline-3/": {
+        "anchors": [
+          "valdef-alignment-baseline-text-top",
+          "valdef-alignment-baseline-text-bottom"
         ]
       }
     }

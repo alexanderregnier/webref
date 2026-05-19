@@ -273,6 +273,7 @@
       "http://wpt.live/css/css-color/xyz-d65-003.html": {},
       "http://wpt.live/css/css-color/xyz-d65-004.html": {},
       "http://wpt.live/css/css-color/xyz-d65-005.html": {},
+      "http://wpt.live/css/css-conditional/container-queries/query-style-color.html": {},
       "http://wpt.live/css/css-images/gradient/css-color-4-colors-default-to-oklab-gradient.html": {},
       "http://wpt.live/css/css-images/gradient/gradient-eval-001.html": {},
       "http://wpt.live/css/css-images/gradient/gradient-eval-002.html": {},
@@ -327,6 +328,7 @@
         ]
       },
       "https://bottosson.github.io/posts/oklab/": {},
+      "https://colorjs.io/docs/gamut-mapping": {},
       "https://colorjs.io/test/?test=delta": {},
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/color": {},
@@ -357,17 +359,24 @@
       "https://doi.org/10.1145/965139.807362": {},
       "https://doi.org/10.5594/SMPTE.ST296.2012": {},
       "https://dom.spec.whatwg.org/": {},
+      "https://drafts.csswg.org/compositing-1/": {},
       "https://drafts.csswg.org/css-animations/": {},
       "https://drafts.csswg.org/css-backgrounds/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-color-4/test-coverage": {},
-      "https://drafts.csswg.org/css-color-5/": {},
+      "https://drafts.csswg.org/css-color-5/": {
+        "anchors": [
+          "serial-origin-color"
+        ]
+      },
       "https://drafts.csswg.org/css-color-adjust-1/": {
         "anchors": [
+          "forced-color-palettes",
           "forced-colors-properties"
         ]
       },
       "https://drafts.csswg.org/css-conditional-3/": {},
+      "https://drafts.csswg.org/css-conditional-5/": {},
       "https://drafts.csswg.org/css-images-4/": {
         "anchors": [
           "linear-gradients"
@@ -392,19 +401,41 @@
         ]
       },
       "https://drafts.csswg.org/cssom/": {},
+      "https://drafts.csswg.org/filter-effects-1/": {},
       "https://drafts.csswg.org/mediaqueries-5/": {
         "anchors": [
           "descdef-media-forced-colors"
         ]
       },
-      "https://drafts.fxtf.org/compositing-1/": {},
-      "https://drafts.fxtf.org/filter-effects-1/": {},
+      "https://facelessuser.github.io/coloraide/gamut/": {
+        "anchors": [
+          "oklch-chroma",
+          "ray-tracing-chroma-reduction"
+        ]
+      },
+      "https://github.com/color-js/apps/blob/2c7346dd00855f7b82eb4c7527355a09b84beeb3/gamut-mapping/methods.js": {
+        "anchors": [
+          "L273"
+        ]
+      },
+      "https://github.com/color-js/apps/tree/main/gamut-mapping/edge-seeker": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
+      "https://github.com/w3c/csswg-drafts/issues/10210": {},
+      "https://github.com/w3c/csswg-drafts/issues/10211": {},
       "https://github.com/w3c/csswg-drafts/issues/10426": {},
+      "https://github.com/w3c/csswg-drafts/issues/10579": {},
       "https://github.com/w3c/csswg-drafts/issues/11250": {},
       "https://github.com/w3c/csswg-drafts/issues/11339": {},
       "https://github.com/w3c/csswg-drafts/issues/12208": {},
       "https://github.com/w3c/csswg-drafts/issues/12574": {},
+      "https://github.com/w3c/csswg-drafts/issues/13157": {
+        "anchors": [
+          "issuecomment-4329625711"
+        ]
+      },
+      "https://github.com/w3c/csswg-drafts/issues/13322": {},
+      "https://github.com/w3c/csswg-drafts/issues/13719": {},
+      "https://github.com/w3c/csswg-drafts/issues/13788": {},
       "https://github.com/w3c/csswg-drafts/issues/5900": {},
       "https://github.com/w3c/csswg-drafts/issues/7949": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/a98rgb-001.html": {},
@@ -671,6 +702,7 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/xyz-d65-003.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/xyz-d65-004.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/xyz-d65-005.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-conditional/container-queries/query-style-color.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/css-color-4-colors-default-to-oklab-gradient.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-eval-001.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/gradient/gradient-eval-002.html": {},
@@ -987,6 +1019,7 @@
       "https://wpt.fyi/results/css/css-color/xyz-d65-003.html": {},
       "https://wpt.fyi/results/css/css-color/xyz-d65-004.html": {},
       "https://wpt.fyi/results/css/css-color/xyz-d65-005.html": {},
+      "https://wpt.fyi/results/css/css-conditional/container-queries/query-style-color.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/css-color-4-colors-default-to-oklab-gradient.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/gradient-eval-001.html": {},
       "https://wpt.fyi/results/css/css-images/gradient/gradient-eval-002.html": {},
@@ -1159,11 +1192,16 @@
       "https://drafts.csswg.org/css-color-5/": {
         "anchors": [
           "funcdef-color-mix",
-          "relative-color"
+          "relative-color",
+          "valdef-oklab-a",
+          "valdef-oklab-b",
+          "valdef-oklch-c",
+          "valdef-oklch-h"
         ]
       },
       "https://drafts.csswg.org/css-color-adjust-1/": {
         "anchors": [
+          "element-color-scheme",
           "forced-colors-mode"
         ]
       },
@@ -1239,14 +1277,14 @@
           "resolved-value"
         ]
       },
+      "https://drafts.csswg.org/filter-effects-1/": {
+        "anchors": [
+          "propdef-filter"
+        ]
+      },
       "https://drafts.csswg.org/mediaqueries-5/": {
         "anchors": [
           "media-feature"
-        ]
-      },
-      "https://drafts.fxtf.org/filter-effects-1/": {
-        "anchors": [
-          "propdef-filter"
         ]
       },
       "https://html.spec.whatwg.org/multipage/text-level-semantics.html": {

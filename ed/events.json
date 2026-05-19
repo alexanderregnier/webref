@@ -424,12 +424,25 @@
     "interface": "Event"
   },
   {
-    "href": "https://w3c.github.io/uievents/#auxclick",
+    "interface": "AutofillEvent",
+    "type": "autofill",
+    "cancelable": false,
+    "targets": [
+      {
+        "target": "Document",
+        "bubbles": true,
+        "bubblingPath": [
+          "Window"
+        ]
+      }
+    ],
     "src": {
-      "format": "summary table",
-      "href": "https://w3c.github.io/uievents/#ref-for-auxclick"
-    },
+      "href": "https://wicg.github.io/autofill-event/#fire-an-autofill-event"
+    }
+  },
+  {
     "type": "auxclick",
+    "interface": "PointerEvent",
     "targets": [
       {
         "target": "Element",
@@ -442,7 +455,11 @@
       }
     ],
     "cancelable": true,
-    "interface": "PointerEvent"
+    "src": {
+      "format": "event table",
+      "href": "https://w3c.github.io/pointerevents/#auxclick"
+    },
+    "href": "https://w3c.github.io/pointerevents/#dfn-auxclick"
   },
   {
     "src": {
@@ -688,6 +705,10 @@
     "targets": [
       {
         "target": "Window"
+      },
+      {
+        "target": "HTMLElement",
+        "bubbles": false
       }
     ],
     "interface": "Event"
@@ -807,9 +828,9 @@
   {
     "src": {
       "format": "fire an event phrasing",
-      "href": "https://w3c.github.io/payment-handler/#handling-a-canmakepaymentevent"
+      "href": "https://w3c.github.io/web-based-payment-handler/#handling-a-canmakepaymentevent"
     },
-    "href": "https://w3c.github.io/payment-handler/#handling-a-canmakepaymentevent",
+    "href": "https://w3c.github.io/web-based-payment-handler/#handling-a-canmakepaymentevent",
     "type": "canmakepayment",
     "targets": [
       {
@@ -1177,12 +1198,8 @@
     "cancelable": true
   },
   {
-    "href": "https://w3c.github.io/uievents/#click",
-    "src": {
-      "format": "summary table",
-      "href": "https://w3c.github.io/uievents/#ref-for-click"
-    },
     "type": "click",
+    "interface": "PointerEvent",
     "targets": [
       {
         "target": "Element",
@@ -1195,7 +1212,11 @@
       }
     ],
     "cancelable": true,
-    "interface": "PointerEvent",
+    "src": {
+      "format": "event table",
+      "href": "https://w3c.github.io/pointerevents/#click"
+    },
+    "href": "https://w3c.github.io/pointerevents/#dfn-click",
     "extendedIn": [
       {
         "spec": "html",
@@ -1204,42 +1225,18 @@
     ]
   },
   {
+    "src": {
+      "format": "fire an event phrasing",
+      "href": "https://w3c.github.io/clipboard-apis/#ref-for-concept-event-fire"
+    },
+    "href": "https://w3c.github.io/clipboard-apis/#eventdef-globaleventhandlers-clipboardchange",
     "type": "clipboardchange",
     "targets": [
       {
-        "target": "HTMLElement",
-        "bubbles": true,
-        "bubblingPath": [
-          "Node",
-          "Document",
-          "Window"
-        ]
-      },
-      {
-        "target": "MathMLElement",
-        "bubbles": true,
-        "bubblingPath": [
-          "Node",
-          "Document",
-          "Window"
-        ]
-      },
-      {
-        "target": "SVGElement",
-        "bubbles": true,
-        "bubblingPath": [
-          "Node",
-          "Document",
-          "Window"
-        ]
+        "target": "Window"
       }
     ],
-    "src": {
-      "format": "dfn",
-      "href": "https://w3c.github.io/clipboard-apis/#eventdef-globaleventhandlers-clipboardchange"
-    },
-    "href": "https://w3c.github.io/clipboard-apis/#eventdef-globaleventhandlers-clipboardchange",
-    "interface": "ClipboardEvent"
+    "interface": "ClipboardChangeEvent"
   },
   {
     "src": {
@@ -1657,12 +1654,8 @@
     "cancelable": true
   },
   {
-    "href": "https://w3c.github.io/uievents/#contextmenu",
-    "src": {
-      "format": "summary table",
-      "href": "https://w3c.github.io/uievents/#ref-for-contextmenu"
-    },
     "type": "contextmenu",
+    "interface": "PointerEvent",
     "targets": [
       {
         "target": "Element",
@@ -1675,7 +1668,24 @@
       }
     ],
     "cancelable": true,
-    "interface": "PointerEvent"
+    "src": {
+      "format": "event table",
+      "href": "https://w3c.github.io/pointerevents/#contextmenu"
+    },
+    "href": "https://w3c.github.io/pointerevents/#dfn-contextmenu"
+  },
+  {
+    "type": "contextoverflow",
+    "targets": [
+      {
+        "target": "LanguageModel"
+      }
+    ],
+    "src": {
+      "format": "IDL eventHandler"
+    },
+    "href": "https://webmachinelearning.github.io/prompt-api/#eventdef-languagemodel-contextoverflow",
+    "interface": "Event"
   },
   {
     "href": "https://html.spec.whatwg.org/multipage/indices.html#event-contextrestored",
@@ -1874,12 +1884,8 @@
     "interface": "RTCDataChannelEvent"
   },
   {
-    "href": "https://w3c.github.io/uievents/#dblclick",
-    "src": {
-      "format": "summary table",
-      "href": "https://w3c.github.io/uievents/#ref-for-dblclick"
-    },
     "type": "dblclick",
+    "interface": "MouseEvent",
     "targets": [
       {
         "target": "Element",
@@ -1891,8 +1897,12 @@
         ]
       }
     ],
-    "cancelable": false,
-    "interface": "MouseEvent"
+    "cancelable": true,
+    "src": {
+      "format": "event table",
+      "href": "https://w3c.github.io/pointerevents/#dblclick"
+    },
+    "href": "https://w3c.github.io/pointerevents/#dfn-dblclick"
   },
   {
     "type": "dequeue",
@@ -2748,6 +2758,10 @@
       },
       {
         "target": "ServiceWorker"
+      },
+      {
+        "target": "HTMLElement",
+        "bubbles": false
       }
     ],
     "interface": "Event",
@@ -2977,11 +2991,14 @@
       "format": "fire an event phrasing",
       "href": "https://w3c.github.io/webrtc-encoded-transform/#ref-for-concept-event-fire"
     },
-    "href": "https://w3c.github.io/webrtc-encoded-transform/#dom-sframetransform-onerror",
+    "href": "https://w3c.github.io/webrtc-encoded-transform/#dom-sframedecryptermanager-onerror",
     "type": "error",
     "targets": [
       {
-        "target": "SFrameTransform"
+        "target": "RTCSFrameReceiverTransform"
+      },
+      {
+        "target": "SFrameDecrypterStream"
       }
     ],
     "interface": "SFrameTransformErrorEvent"
@@ -3103,6 +3120,10 @@
     "targets": [
       {
         "target": "Window"
+      },
+      {
+        "target": "HTMLElement",
+        "bubbles": false
       }
     ],
     "interface": "Event"
@@ -3764,6 +3785,10 @@
     "targets": [
       {
         "target": "Window"
+      },
+      {
+        "target": "HTMLElement",
+        "bubbles": false
       }
     ],
     "interface": "Event",
@@ -3994,6 +4019,19 @@
     "interface": "ProgressEvent"
   },
   {
+    "type": "location",
+    "targets": [
+      {
+        "target": "HTMLGeolocationElement",
+        "bubbles": false
+      }
+    ],
+    "src": {
+      "format": "IDL eventHandler"
+    },
+    "interface": "Event"
+  },
+  {
     "href": "https://w3c.github.io/pointerevents/#dfn-lostpointercapture",
     "src": {
       "format": "summary table",
@@ -4213,6 +4251,20 @@
     "interface": "Event"
   },
   {
+    "href": "https://w3c.github.io/ServiceWorker/#eventdef-serviceworkerglobalscope-messageerror",
+    "src": {
+      "format": "summary table",
+      "href": "https://w3c.github.io/ServiceWorker/#eventdef-serviceworkerglobalscope-messageerror"
+    },
+    "type": "messageerror",
+    "targets": [
+      {
+        "target": "ServiceWorkerGlobalScope"
+      }
+    ],
+    "interface": "ExtendableMessageEvent"
+  },
+  {
     "href": "https://html.spec.whatwg.org/multipage/indices.html#event-messageerror",
     "src": {
       "format": "summary table",
@@ -4237,20 +4289,6 @@
       },
       {
         "target": "ServiceWorkerContainer"
-      }
-    ],
-    "interface": "MessageEvent"
-  },
-  {
-    "href": "https://w3c.github.io/ServiceWorker/#eventdef-serviceworkerglobalscope-messageerror",
-    "src": {
-      "format": "summary table",
-      "href": "https://w3c.github.io/ServiceWorker/#eventdef-serviceworkerglobalscope-messageerror"
-    },
-    "type": "messageerror",
-    "targets": [
-      {
-        "target": "ServiceWorkerGlobalScope"
       }
     ],
     "interface": "MessageEvent"
@@ -4299,12 +4337,8 @@
     ]
   },
   {
-    "href": "https://w3c.github.io/uievents/#mousedown",
-    "src": {
-      "format": "summary table",
-      "href": "https://w3c.github.io/uievents/#ref-for-mousedown"
-    },
     "type": "mousedown",
+    "interface": "MouseEvent",
     "targets": [
       {
         "target": "Element",
@@ -4317,15 +4351,15 @@
       }
     ],
     "cancelable": true,
-    "interface": "MouseEvent"
+    "src": {
+      "format": "event table",
+      "href": "https://w3c.github.io/pointerevents/#mousedown"
+    },
+    "href": "https://w3c.github.io/pointerevents/#dfn-mousedown"
   },
   {
-    "href": "https://w3c.github.io/uievents/#mouseenter",
-    "src": {
-      "format": "summary table",
-      "href": "https://w3c.github.io/uievents/#ref-for-mouseenter"
-    },
     "type": "mouseenter",
+    "interface": "MouseEvent",
     "targets": [
       {
         "target": "Element",
@@ -4333,15 +4367,15 @@
       }
     ],
     "cancelable": false,
-    "interface": "MouseEvent"
+    "src": {
+      "format": "event table",
+      "href": "https://w3c.github.io/pointerevents/#mouseenter"
+    },
+    "href": "https://w3c.github.io/pointerevents/#dfn-mouseenter"
   },
   {
-    "href": "https://w3c.github.io/uievents/#mouseleave",
-    "src": {
-      "format": "summary table",
-      "href": "https://w3c.github.io/uievents/#ref-for-mouseleave"
-    },
     "type": "mouseleave",
+    "interface": "MouseEvent",
     "targets": [
       {
         "target": "Element",
@@ -4349,15 +4383,15 @@
       }
     ],
     "cancelable": false,
-    "interface": "MouseEvent"
+    "src": {
+      "format": "event table",
+      "href": "https://w3c.github.io/pointerevents/#mouseleave"
+    },
+    "href": "https://w3c.github.io/pointerevents/#dfn-mouseleave"
   },
   {
-    "href": "https://w3c.github.io/uievents/#mousemove",
-    "src": {
-      "format": "summary table",
-      "href": "https://w3c.github.io/uievents/#ref-for-mousemove"
-    },
     "type": "mousemove",
+    "interface": "MouseEvent",
     "targets": [
       {
         "target": "Element",
@@ -4370,15 +4404,15 @@
       }
     ],
     "cancelable": true,
-    "interface": "MouseEvent"
+    "src": {
+      "format": "event table",
+      "href": "https://w3c.github.io/pointerevents/#mousemove"
+    },
+    "href": "https://w3c.github.io/pointerevents/#dfn-mousemove"
   },
   {
-    "href": "https://w3c.github.io/uievents/#mouseout",
-    "src": {
-      "format": "summary table",
-      "href": "https://w3c.github.io/uievents/#ref-for-mouseout"
-    },
     "type": "mouseout",
+    "interface": "MouseEvent",
     "targets": [
       {
         "target": "Element",
@@ -4391,15 +4425,15 @@
       }
     ],
     "cancelable": true,
-    "interface": "MouseEvent"
+    "src": {
+      "format": "event table",
+      "href": "https://w3c.github.io/pointerevents/#mouseout"
+    },
+    "href": "https://w3c.github.io/pointerevents/#dfn-mouseout"
   },
   {
-    "href": "https://w3c.github.io/uievents/#mouseover",
-    "src": {
-      "format": "summary table",
-      "href": "https://w3c.github.io/uievents/#ref-for-mouseover"
-    },
     "type": "mouseover",
+    "interface": "MouseEvent",
     "targets": [
       {
         "target": "Element",
@@ -4412,15 +4446,15 @@
       }
     ],
     "cancelable": true,
-    "interface": "MouseEvent"
+    "src": {
+      "format": "event table",
+      "href": "https://w3c.github.io/pointerevents/#mouseover"
+    },
+    "href": "https://w3c.github.io/pointerevents/#dfn-mouseover"
   },
   {
-    "href": "https://w3c.github.io/uievents/#mouseup",
-    "src": {
-      "format": "summary table",
-      "href": "https://w3c.github.io/uievents/#ref-for-mouseup"
-    },
     "type": "mouseup",
+    "interface": "MouseEvent",
     "targets": [
       {
         "target": "Element",
@@ -4433,7 +4467,11 @@
       }
     ],
     "cancelable": true,
-    "interface": "MouseEvent"
+    "src": {
+      "format": "event table",
+      "href": "https://w3c.github.io/pointerevents/#mouseup"
+    },
+    "href": "https://w3c.github.io/pointerevents/#dfn-mouseup"
   },
   {
     "href": "https://w3c.github.io/mediacapture-main/#event-mediastreamtrack-mute",
@@ -4845,9 +4883,9 @@
   {
     "src": {
       "format": "fire an event phrasing",
-      "href": "https://w3c.github.io/payment-handler/#handling-a-paymentrequestevent"
+      "href": "https://w3c.github.io/web-based-payment-handler/#handling-a-paymentrequestevent"
     },
-    "href": "https://w3c.github.io/payment-handler/#handling-a-paymentrequestevent",
+    "href": "https://w3c.github.io/web-based-payment-handler/#handling-a-paymentrequestevent",
     "type": "paymentrequest",
     "targets": [
       {
@@ -5417,6 +5455,44 @@
     "interface": "ProgressEvent"
   },
   {
+    "type": "promptaction",
+    "targets": [
+      {
+        "target": "HTMLGeolocationElement",
+        "bubbles": true,
+        "bubblingPath": [
+          "Node",
+          "Document",
+          "Window"
+        ]
+      }
+    ],
+    "src": {
+      "format": "IDL eventHandler"
+    },
+    "interface": "Event",
+    "cancelable": true
+  },
+  {
+    "type": "promptdismiss",
+    "targets": [
+      {
+        "target": "HTMLGeolocationElement",
+        "bubbles": true,
+        "bubblingPath": [
+          "Node",
+          "Document",
+          "Window"
+        ]
+      }
+    ],
+    "src": {
+      "format": "IDL eventHandler"
+    },
+    "interface": "Event",
+    "cancelable": true
+  },
+  {
     "src": {
       "format": "fire an event phrasing",
       "href": "https://w3c.github.io/push-api/#receiving-a-push-message"
@@ -5451,6 +5527,19 @@
     "interface": "PushSubscriptionChangeEvent"
   },
   {
+    "type": "quotaoverflow",
+    "targets": [
+      {
+        "target": "LanguageModel"
+      }
+    ],
+    "src": {
+      "format": "IDL eventHandler"
+    },
+    "href": "https://webmachinelearning.github.io/prompt-api/#eventdef-languagemodel-quotaoverflow",
+    "interface": "Event"
+  },
+  {
     "href": "https://html.spec.whatwg.org/multipage/media.html#event-media-ratechange",
     "src": {
       "format": "summary table",
@@ -5482,9 +5571,9 @@
   {
     "src": {
       "format": "fire an event phrasing",
-      "href": "https://w3c.github.io/web-nfc/#dispatching-nfc-content"
+      "href": "https://w3c-cg.github.io/web-nfc/#dispatching-nfc-content"
     },
-    "href": "https://w3c.github.io/web-nfc/#dispatching-nfc-content",
+    "href": "https://w3c-cg.github.io/web-nfc/#dispatching-nfc-content",
     "type": "reading",
     "targets": [
       {
@@ -5496,9 +5585,9 @@
   {
     "src": {
       "format": "fire an event phrasing",
-      "href": "https://w3c.github.io/web-nfc/#parse-ndef"
+      "href": "https://w3c-cg.github.io/web-nfc/#parse-ndef"
     },
-    "href": "https://w3c.github.io/web-nfc/#parse-ndef",
+    "href": "https://w3c-cg.github.io/web-nfc/#parse-ndef",
     "type": "readingerror",
     "targets": [
       {
@@ -5761,9 +5850,9 @@
   {
     "src": {
       "format": "fire an event phrasing",
-      "href": "https://w3c.github.io/resource-timing/#sec-extensions-performance-interface"
+      "href": "https://w3c.github.io/resource-timing/#ref-for-concept-event-fire"
     },
-    "href": "https://w3c.github.io/resource-timing/#sec-extensions-performance-interface",
+    "href": "https://w3c.github.io/resource-timing/#ref-for-concept-event-fire",
     "type": "resourcetimingbufferfull",
     "targets": [
       {
@@ -5867,15 +5956,24 @@
         "target": "VisualViewport"
       },
       {
-        "target": "Document",
-        "bubbles": false
-      },
-      {
         "target": "Element",
         "bubbles": false
       }
     ],
     "interface": "Event"
+  },
+  {
+    "type": "scroll",
+    "interface": "Event",
+    "targets": [
+      {
+        "target": "Document",
+        "bubbles": true,
+        "bubblingPath": [
+          "Window"
+        ]
+      }
+    ]
   },
   {
     "href": "https://drafts.csswg.org/cssom-view-1/#eventdef-document-scrollend",
@@ -5889,15 +5987,24 @@
         "target": "VisualViewport"
       },
       {
-        "target": "Document",
-        "bubbles": false
-      },
-      {
         "target": "Element",
         "bubbles": false
       }
     ],
     "interface": "Event"
+  },
+  {
+    "type": "scrollend",
+    "interface": "Event",
+    "targets": [
+      {
+        "target": "Document",
+        "bubbles": true,
+        "bubblingPath": [
+          "Window"
+        ]
+      }
+    ]
   },
   {
     "src": {
@@ -5908,10 +6015,34 @@
     "type": "securitypolicyviolation",
     "targets": [
       {
-        "target": "Window"
+        "target": "WorkerGlobalScope"
       },
       {
-        "target": "WorkerGlobalScope"
+        "target": "HTMLElement",
+        "bubbles": true,
+        "bubblingPath": [
+          "Node",
+          "Document",
+          "Window"
+        ]
+      },
+      {
+        "target": "MathMLElement",
+        "bubbles": true,
+        "bubblingPath": [
+          "Node",
+          "Document",
+          "Window"
+        ]
+      },
+      {
+        "target": "SVGElement",
+        "bubbles": true,
+        "bubblingPath": [
+          "Node",
+          "Document",
+          "Window"
+        ]
       }
     ],
     "interface": "SecurityPolicyViolationEvent"
@@ -7224,6 +7355,25 @@
     "interface": "IDBVersionChangeEvent"
   },
   {
+    "type": "validationstatuschange",
+    "targets": [
+      {
+        "target": "HTMLGeolocationElement",
+        "bubbles": true,
+        "bubblingPath": [
+          "Node",
+          "Document",
+          "Window"
+        ]
+      }
+    ],
+    "src": {
+      "format": "IDL eventHandler"
+    },
+    "interface": "Event",
+    "cancelable": true
+  },
+  {
     "type": "versionchange",
     "targets": [
       {
@@ -7389,12 +7539,8 @@
     }
   },
   {
-    "href": "https://w3c.github.io/uievents/#wheel",
-    "src": {
-      "format": "summary table",
-      "href": "https://w3c.github.io/uievents/#ref-for-wheel"
-    },
     "type": "wheel",
+    "interface": "WheelEvent",
     "targets": [
       {
         "target": "Element",
@@ -7406,8 +7552,12 @@
         ]
       }
     ],
-    "cancelable": true,
-    "interface": "WheelEvent"
+    "cancelable": false,
+    "src": {
+      "format": "event table",
+      "href": "https://w3c.github.io/pointerevents/#wheel"
+    },
+    "href": "https://w3c.github.io/pointerevents/#dfn-wheel"
   },
   {
     "src": {

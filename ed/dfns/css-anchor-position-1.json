@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Anchor Positioning",
+    "title": "CSS Anchor Positioning Module Level 1",
     "url": "https://drafts.csswg.org/css-anchor-position-1/"
   },
   "dfns": [
@@ -65,6 +65,28 @@
       "links": []
     },
     {
+      "id": "anchor-box",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#anchor-box",
+      "linkingText": [
+        "anchor box"
+      ],
+      "localLinkingText": [
+        "anchor"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "determining",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#determining",
+        "title": "Determining the Anchor",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "propdef-anchor-name",
       "href": "https://drafts.csswg.org/css-anchor-position-1/#propdef-anchor-name",
       "linkingText": [
@@ -82,6 +104,26 @@
         "number": "2.1"
       },
       "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "typedef-anchor-name",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#typedef-anchor-name",
+      "linkingText": [
+        "<anchor-name>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "name",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#name",
+        "title": "Creating an Anchor: the anchor-name property",
+        "number": "2.1"
+      },
+      "definedIn": "pre",
       "links": []
     },
     {
@@ -147,10 +189,10 @@
       "links": []
     },
     {
-      "id": "valdef-anchor-name-dashed-ident",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-name-dashed-ident",
+      "id": "valdef-anchor-name-anchor-name",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-name-anchor-name",
       "linkingText": [
-        "<dashed-ident>#"
+        "<anchor-name>#"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -166,48 +208,6 @@
         "number": "2.1"
       },
       "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "implicit-anchor-element",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#implicit-anchor-element",
-      "linkingText": [
-        "implicit anchor element"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "implicit",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#implicit",
-        "title": "Implicit Anchor Elements",
-        "number": "2.1.1"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "anchor-box",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#anchor-box",
-      "linkingText": [
-        "anchor box"
-      ],
-      "localLinkingText": [
-        "anchor"
-      ],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "anchor-position-size",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#anchor-position-size",
-        "title": "The Anchor Box",
-        "number": "2.1.2"
-      },
-      "definedIn": "prose",
       "links": []
     },
     {
@@ -257,6 +257,28 @@
       "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-scope-all",
       "linkingText": [
         "all"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "anchor-scope"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "anchor-scope",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#anchor-scope",
+        "title": "Scoping Anchor Names: the anchor-scope property",
+        "number": "2.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-anchor-scope-anchor-name",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-scope-anchor-name",
+      "linkingText": [
+        "<anchor-name>"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -375,6 +397,50 @@
       "links": []
     },
     {
+      "id": "valdef-position-anchor-normal",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-anchor-normal",
+      "linkingText": [
+        "normal"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-anchor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-anchor",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-anchor",
+        "title": "Default Anchors: the position-anchor property",
+        "number": "2.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-anchor-none",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-anchor-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-anchor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-anchor",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-anchor",
+        "title": "Default Anchors: the position-anchor property",
+        "number": "2.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "valdef-position-anchor-auto",
       "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-anchor-auto",
       "linkingText": [
@@ -419,6 +485,28 @@
       "links": []
     },
     {
+      "id": "valdef-position-anchor-match-parent",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-anchor-match-parent",
+      "linkingText": [
+        "match-parent"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-anchor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-anchor",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-anchor",
+        "title": "Default Anchors: the position-anchor property",
+        "number": "2.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "default-anchor-box",
       "href": "https://drafts.csswg.org/css-anchor-position-1/#default-anchor-box",
       "linkingText": [
@@ -434,6 +522,26 @@
         "href": "https://drafts.csswg.org/css-anchor-position-1/#position-anchor",
         "title": "Default Anchors: the position-anchor property",
         "number": "2.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "implicit-anchor-element",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#implicit-anchor-element",
+      "linkingText": [
+        "implicit anchor element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "implicit",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#implicit",
+        "title": "Implicit Anchor Elements",
+        "number": "2.4.1"
       },
       "definedIn": "prose",
       "links": []
@@ -773,10 +881,10 @@
       "links": []
     },
     {
-      "id": "valdef-position-area-y-self-start",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-y-self-start",
+      "id": "valdef-position-area-self-y-start",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-y-start",
       "linkingText": [
-        "y-self-start"
+        "self-y-start"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -796,10 +904,10 @@
       "links": []
     },
     {
-      "id": "valdef-position-area-y-self-end",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-y-self-end",
+      "id": "valdef-position-area-self-y-end",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-y-end",
       "linkingText": [
-        "y-self-end"
+        "self-y-end"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -865,10 +973,10 @@
       "links": []
     },
     {
-      "id": "valdef-position-area-x-self-start",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-x-self-start",
+      "id": "valdef-position-area-self-x-start",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-x-start",
       "linkingText": [
-        "x-self-start"
+        "self-x-start"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -888,10 +996,10 @@
       "links": []
     },
     {
-      "id": "valdef-position-area-x-self-end",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-x-self-end",
+      "id": "valdef-position-area-self-x-end",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-self-x-end",
       "linkingText": [
-        "x-self-end"
+        "self-x-end"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1348,10 +1456,10 @@
       "links": []
     },
     {
-      "id": "valdef-position-area-span-y-self-start",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-y-self-start",
+      "id": "valdef-position-area-span-self-y-start",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-y-start",
       "linkingText": [
-        "span-y-self-start"
+        "span-self-y-start"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1371,10 +1479,10 @@
       "links": []
     },
     {
-      "id": "valdef-position-area-span-y-self-end",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-y-self-end",
+      "id": "valdef-position-area-span-self-y-end",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-y-end",
       "linkingText": [
-        "span-y-self-end"
+        "span-self-y-end"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1440,10 +1548,10 @@
       "links": []
     },
     {
-      "id": "valdef-position-area-span-x-self-start",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-x-self-start",
+      "id": "valdef-position-area-span-self-x-start",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-x-start",
       "linkingText": [
-        "span-x-self-start"
+        "span-self-x-start"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1463,10 +1571,10 @@
       "links": []
     },
     {
-      "id": "valdef-position-area-span-x-self-end",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-x-self-end",
+      "id": "valdef-position-area-span-self-x-end",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-area-span-self-x-end",
       "linkingText": [
-        "span-x-self-end"
+        "span-self-x-end"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1710,26 +1818,6 @@
         "number": "3.2"
       },
       "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "typedef-anchor-name",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#typedef-anchor-name",
-      "linkingText": [
-        "<anchor-name>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "anchor-pos",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#anchor-pos",
-        "title": "Anchor-relative Insets: the anchor() function",
-        "number": "3.2"
-      },
-      "definedIn": "pre",
       "links": []
     },
     {
@@ -2096,10 +2184,10 @@
       "links": []
     },
     {
-      "id": "propdef-position-visibility",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#propdef-position-visibility",
+      "id": "propdef-justify-self",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#propdef-justify-self",
       "linkingText": [
-        "position-visibility"
+        "justify-self"
       ],
       "localLinkingText": [],
       "type": "property",
@@ -2107,140 +2195,32 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "position-visibility",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.4"
+        "id": "anchor-center",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#anchor-center",
+        "title": "Centering on the Anchor: the anchor-center alignment value",
+        "number": "4.2"
       },
       "definedIn": "table",
       "links": []
     },
     {
-      "id": "valdef-position-visibility-always",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-always",
+      "id": "propdef-align-self",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#propdef-align-self",
       "linkingText": [
-        "always"
+        "align-self"
       ],
       "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "position-visibility"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "position-visibility",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.4"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-position-visibility-anchors-valid",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchors-valid",
-      "linkingText": [
-        "anchors-valid"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "position-visibility"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "position-visibility",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.4"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "required-anchor-reference",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#required-anchor-reference",
-      "linkingText": [
-        "required anchor reference"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
+      "type": "property",
       "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "position-visibility",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.4"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "valdef-position-visibility-anchors-visible",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchors-visible",
-      "linkingText": [
-        "anchors-visible"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "position-visibility"
-      ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "position-visibility",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.4"
+        "id": "anchor-center",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#anchor-center",
+        "title": "Centering on the Anchor: the anchor-center alignment value",
+        "number": "4.2"
       },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-position-visibility-no-overflow",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-no-overflow",
-      "linkingText": [
-        "no-overflow"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "position-visibility"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "position-visibility",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.4"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "clipped-by-intervening-boxes",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#clipped-by-intervening-boxes",
-      "linkingText": [
-        "clipped by intervening boxes"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "position-visibility",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.4"
-      },
-      "definedIn": "prose",
+      "definedIn": "table",
       "links": []
     },
     {
@@ -2253,9 +2233,7 @@
       "type": "value",
       "for": [
         "justify-self",
-        "align-self",
-        "justify-items",
-        "align-items"
+        "align-self"
       ],
       "access": "public",
       "informative": false,
@@ -2264,31 +2242,6 @@
         "href": "https://drafts.csswg.org/css-anchor-position-1/#anchor-center",
         "title": "Centering on the Anchor: the anchor-center alignment value",
         "number": "4.2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "valdef-justify-self-dialog",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-justify-self-dialog",
-      "linkingText": [
-        "dialog"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "justify-self",
-        "align-self",
-        "justify-items",
-        "align-items"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "conditional-centering",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#conditional-centering",
-        "title": "Conditional Centering: the dialog alignment value",
-        "number": "4.3"
       },
       "definedIn": "prose",
       "links": []
@@ -2527,6 +2480,28 @@
       "links": []
     },
     {
+      "id": "fallback-base-styles",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#fallback-base-styles",
+      "linkingText": [
+        "fallback base styles"
+      ],
+      "localLinkingText": [
+        "base style"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-try-fallbacks",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-try-fallbacks",
+        "title": "Giving Fallback Options: the position-try-fallbacks property",
+        "number": "6.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "valdef-position-try-fallbacks-none",
       "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-none",
       "linkingText": [
@@ -2637,6 +2612,50 @@
       "links": []
     },
     {
+      "id": "valdef-position-try-fallbacks-flip-x",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-x",
+      "linkingText": [
+        "flip-x"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-try-fallbacks"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-try-fallbacks",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-try-fallbacks",
+        "title": "Giving Fallback Options: the position-try-fallbacks property",
+        "number": "6.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-try-fallbacks-flip-y",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-y",
+      "linkingText": [
+        "flip-y"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-try-fallbacks"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-try-fallbacks",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-try-fallbacks",
+        "title": "Giving Fallback Options: the position-try-fallbacks property",
+        "number": "6.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "valdef-position-try-fallbacks-flip-start",
       "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-flip-start",
       "linkingText": [
@@ -2684,7 +2703,7 @@
       "id": "valdef-position-try-fallbacks-position-area",
       "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-try-fallbacks-position-area",
       "linkingText": [
-        "<'position-area'>"
+        "<position-area>"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -2700,26 +2719,6 @@
         "number": "6.1"
       },
       "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "swap-due-to-a-try-tactic",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#swap-due-to-a-try-tactic",
-      "linkingText": [
-        "swap due to a try-tactic"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "position-try-fallbacks",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-try-fallbacks",
-        "title": "Giving Fallback Options: the position-try-fallbacks property",
-        "number": "6.1"
-      },
-      "definedIn": "prose",
       "links": []
     },
     {
@@ -2973,26 +2972,6 @@
       "links": []
     },
     {
-      "id": "apply-a-position-option",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#apply-a-position-option",
-      "linkingText": [
-        "apply a position option"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "fallback-apply",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#fallback-apply",
-        "title": "Applying Position Fallback",
-        "number": "6.5"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "determine-position-fallback-styles",
       "href": "https://drafts.csswg.org/css-anchor-position-1/#determine-position-fallback-styles",
       "linkingText": [
@@ -3013,6 +2992,66 @@
       "links": []
     },
     {
+      "id": "fallback-sensitive-changes",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#fallback-sensitive-changes",
+      "linkingText": [
+        "fallback-sensitive changes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "statefulness",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#statefulness",
+        "title": "Maintaining and Clearing Fallback Choices",
+        "number": "6.5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "computed-base-style",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#computed-base-style",
+      "linkingText": [
+        "computed base style"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "statefulness",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#statefulness",
+        "title": "Maintaining and Clearing Fallback Choices",
+        "number": "6.5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "record-the-last-successful-position-option",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#record-the-last-successful-position-option",
+      "linkingText": [
+        "record the last successful position option"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "last-successful-recording",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#last-successful-recording",
+        "title": "Recording the last successful position option",
+        "number": "6.5.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "last-successful-position-option",
       "href": "https://drafts.csswg.org/css-anchor-position-1/#last-successful-position-option",
       "linkingText": [
@@ -3024,10 +3063,178 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "fallback-apply",
-        "href": "https://drafts.csswg.org/css-anchor-position-1/#fallback-apply",
-        "title": "Applying Position Fallback",
-        "number": "6.5"
+        "id": "last-successful-recording",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#last-successful-recording",
+        "title": "Recording the last successful position option",
+        "number": "6.5.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "apply-a-position-option",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#apply-a-position-option",
+      "linkingText": [
+        "apply a position option"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "applying-options",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#applying-options",
+        "title": "Applying Position Options",
+        "number": "6.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "execute-a-try-tactic",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#execute-a-try-tactic",
+      "linkingText": [
+        "execute a try-tactic"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "applying-options",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#applying-options",
+        "title": "Applying Position Options",
+        "number": "6.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "propdef-position-visibility",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#propdef-position-visibility",
+      "linkingText": [
+        "position-visibility"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-visibility",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
+        "title": "Conditional Hiding: the position-visibility property",
+        "number": "6.6"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "valdef-position-visibility-always",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-always",
+      "linkingText": [
+        "always"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-visibility"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-visibility",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
+        "title": "Conditional Hiding: the position-visibility property",
+        "number": "6.6"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-visibility-anchor-valid",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchor-valid",
+      "linkingText": [
+        "anchor-valid"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-visibility"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-visibility",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
+        "title": "Conditional Hiding: the position-visibility property",
+        "number": "6.6"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-visibility-anchor-visible",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-anchor-visible",
+      "linkingText": [
+        "anchor-visible"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-visibility"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-visibility",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
+        "title": "Conditional Hiding: the position-visibility property",
+        "number": "6.6"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-visibility-no-overflow",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#valdef-position-visibility-no-overflow",
+      "linkingText": [
+        "no-overflow"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-visibility"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-visibility",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
+        "title": "Conditional Hiding: the position-visibility property",
+        "number": "6.6"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "clipped-by-intervening-boxes",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#clipped-by-intervening-boxes",
+      "linkingText": [
+        "clipped by intervening boxes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "position-visibility",
+        "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
+        "title": "Conditional Hiding: the position-visibility property",
+        "number": "6.6"
       },
       "definedIn": "prose",
       "links": []

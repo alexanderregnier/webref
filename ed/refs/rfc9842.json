@@ -1,0 +1,80 @@
+{
+  "spec": {
+    "title": "RFC 9842 - Compression Dictionary Transport",
+    "url": "https://httpwg.org/specs/rfc9842.html"
+  },
+  "refs": {
+    "normative": [
+      {
+        "name": "FETCH",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "FOLDING",
+        "url": "https://www.rfc-editor.org/rfc/rfc8792.html"
+      },
+      {
+        "name": "HTTP-CACHING",
+        "url": "https://www.rfc-editor.org/rfc/rfc9111.html"
+      },
+      {
+        "name": "HTTP",
+        "url": "https://www.rfc-editor.org/rfc/rfc9110.html"
+      },
+      {
+        "name": "RFC2119",
+        "url": "https://www.rfc-editor.org/rfc/rfc2119.html"
+      },
+      {
+        "name": "RFC8174",
+        "url": "https://www.rfc-editor.org/rfc/rfc8174.html"
+      },
+      {
+        "name": "SHA-256",
+        "url": "https://www.rfc-editor.org/rfc/rfc6234.html"
+      },
+      {
+        "name": "SHARED-BROTLI",
+        "url": "https://www.rfc-editor.org/rfc/rfc9841.html"
+      },
+      {
+        "name": "STRUCTURED-FIELDS",
+        "url": "https://www.rfc-editor.org/rfc/rfc9651.html"
+      },
+      {
+        "name": "URLPATTERN",
+        "url": "https://urlpattern.spec.whatwg.org/"
+      },
+      {
+        "name": "URL",
+        "url": "https://www.rfc-editor.org/rfc/rfc3986.html"
+      },
+      {
+        "name": "WEB-LINKING",
+        "url": "https://www.rfc-editor.org/rfc/rfc8288.html"
+      },
+      {
+        "name": "ZSTD",
+        "url": "https://www.rfc-editor.org/rfc/rfc8878.html"
+      }
+    ],
+    "informative": [
+      {
+        "name": "RFC5861",
+        "url": "https://www.rfc-editor.org/rfc/rfc5861.html"
+      },
+      {
+        "name": "RFC6265",
+        "url": "https://www.rfc-editor.org/rfc/rfc6265.html"
+      },
+      {
+        "name": "RFC7457",
+        "url": "https://www.rfc-editor.org/rfc/rfc7457.html"
+      },
+      {
+        "name": "RFC7932",
+        "url": "https://www.rfc-editor.org/rfc/rfc7932.html"
+      }
+    ]
+  }
+}

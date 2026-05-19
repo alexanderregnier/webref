@@ -1,0 +1,95 @@
+{
+  "spec": {
+    "title": "RFC 9842 - Compression Dictionary Transport",
+    "url": "https://httpwg.org/specs/rfc9842.html"
+  },
+  "algorithms": [
+    {
+      "html": "",
+      "rationale": "let",
+      "steps": [
+        {
+          "html": "<div><p>Let MATCH be the value of \"match\" for the given dictionary.</p></div>"
+        },
+        {
+          "html": "<div><p>Let URL be the URL of the dictionary request.</p></div>"
+        },
+        {
+          "html": "<div><p>Let PATTERN be a \"URL pattern struct\" created by running the steps to \"create a URL pattern\" by setting input=MATCH and baseURL=URL (see <a href=\"https://urlpattern.spec.whatwg.org/#high-level-operations\">Section 1.4</a> of <a href=\"https://httpwg.org/specs/rfc9842.html#URLPATTERN\"><cite title=\"URL Pattern Standard\">[URLPATTERN]</cite></a>).</p></div>"
+        },
+        {
+          "html": "<div><p>If the result of running the \"has regexp groups\" steps for PATTERN returns TRUE, then return FALSE (see the last list in <a href=\"https://urlpattern.spec.whatwg.org/#high-level-operations\">Section 1.4</a> of <a href=\"https://httpwg.org/specs/rfc9842.html#URLPATTERN\"><cite title=\"URL Pattern Standard\">[URLPATTERN]</cite></a>).</p></div>"
+        },
+        {
+          "html": "<div><p>Return TRUE.</p></div>"
+        }
+      ]
+    },
+    {
+      "html": "",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "<div class=\"avoidbreakafter\"><p>If the current client supports request destinations and a \"match-dest\" string was provided with the dictionary:</p></div> <div><ul><li><div><p>Let DEST be the value of \"match-dest\" for the given dictionary.</p></div> </li><li><div><p>Let REQUEST_DEST be the value of the destination for the current request.</p></div> </li><li><div><p>If DEST is not an empty list and if REQUEST_DEST is not in the DEST list of destinations, return FALSE.</p></div> </li></ul></div>"
+        },
+        {
+          "html": "<div><p>Let BASEURL be the URL of the dictionary request.</p></div>"
+        },
+        {
+          "html": "<div><p>Let URL represent the URL of the outbound request being checked.</p></div>"
+        },
+        {
+          "html": "<div><p>If the Origin of BASEURL and the Origin of URL are not the same, return FALSE (see <a href=\"https://www.rfc-editor.org/rfc/rfc9110.html#section-4.3.1\">Section 4.3.1</a> of <a href=\"https://httpwg.org/specs/rfc9842.html#RFC9110\"><cite title=\"HTTP Semantics\">[HTTP]</cite></a>).</p></div>"
+        },
+        {
+          "html": "<div><p>Let MATCH be the value of \"match\" for the given dictionary.</p></div>"
+        },
+        {
+          "html": "<div><p>Let PATTERN be a \"URL pattern struct\" created by running the steps to \"create a URL pattern\" by setting input=MATCH and baseURL=URL (see <a href=\"https://urlpattern.spec.whatwg.org/#high-level-operations\">Section 1.4</a> of <a href=\"https://httpwg.org/specs/rfc9842.html#URLPATTERN\"><cite title=\"URL Pattern Standard\">[URLPATTERN]</cite></a>).</p></div>"
+        },
+        {
+          "html": "<div><p>Return the result of running the \"match\" steps on PATTERN with input=URL, which will check for a match between the request URL and the supplied \"match\" string (see \"Match\" in <a href=\"https://urlpattern.spec.whatwg.org/#high-level-operations\">Section 1.4</a> of <a href=\"https://httpwg.org/specs/rfc9842.html#URLPATTERN\"><cite title=\"URL Pattern Standard\">[URLPATTERN]</cite></a>).</p></div>"
+        }
+      ]
+    },
+    {
+      "html": "",
+      "rationale": "for",
+      "steps": [
+        {
+          "html": "<div><p>For clients that support request destinations, a dictionary that specifies and matches a \"match-dest\" takes precedence over a match that does not use a destination.</p></div>"
+        },
+        {
+          "html": "<div><p>Given equivalent destination precedence, the dictionary with the longest \"match\" takes precedence.</p></div>"
+        },
+        {
+          "html": "<div><p>Given equivalent destination and match length precedence, the most recently fetched dictionary takes precedence.</p></div>"
+        }
+      ]
+    },
+    {
+      "html": "",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "<div><p>If there is no \"Sec-Fetch-Site\" request header, return TRUE.</p></div>"
+        },
+        {
+          "html": "<div><p>If the value of the \"Sec-Fetch-Site\" request header is \"same-origin\", return TRUE.</p></div>"
+        },
+        {
+          "html": "<div><p>If there is no \"Sec-Fetch-Mode\" request header, return TRUE.</p></div>"
+        },
+        {
+          "html": "<div><p>If the value of the \"Sec-Fetch-Mode\" request header is \"navigate\" or \"same-origin\", return TRUE.</p></div>"
+        },
+        {
+          "html": "<div class=\"avoidbreakafter\"><p>If the value of the \"Sec-Fetch-Mode\" request header is \"cors\":</p></div> <div><ul><li><div><p>If the response does not include an \"Access-Control-Allow-Origin\" response header, return FALSE.</p></div> </li><li><div><p>If the request does not include an \"Origin\" request header, return FALSE.</p></div> </li><li><div><p>If the value of the \"Access-Control-Allow-Origin\" response header is \"*\", return TRUE.</p></div> </li><li><div><p>If the value of the \"Access-Control-Allow-Origin\" response header matches the value of the \"Origin\" request header, return TRUE.</p></div> </li></ul></div>"
+        },
+        {
+          "html": "<div><p>Return FALSE.</p></div>"
+        }
+      ]
+    }
+  ]
+}

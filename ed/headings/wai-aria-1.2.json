@@ -718,24 +718,14 @@
       "number": "6.6.2"
     },
     {
-      "id": "attrs_dragdrop",
-      "href": "https://w3c.github.io/aria/#attrs_dragdrop",
-      "level": 4,
-      "title": "Drag-and-Drop Attributes",
-      "alternateIds": [
-        "x6-6-3-drag-and-drop-attributes"
-      ],
-      "number": "6.6.3"
-    },
-    {
       "id": "attrs_relationships",
       "href": "https://w3c.github.io/aria/#attrs_relationships",
       "level": 4,
       "title": "Relationship Attributes",
       "alternateIds": [
-        "x6-6-4-relationship-attributes"
+        "x6-6-3-relationship-attributes"
       ],
-      "number": "6.6.4"
+      "number": "6.6.3"
     },
     {
       "id": "state_changes",
@@ -878,16 +868,6 @@
       "number": "8.6.1"
     },
     {
-      "id": "document-handling_css-selectors",
-      "href": "https://w3c.github.io/aria/#document-handling_css-selectors",
-      "level": 3,
-      "title": "CSS Selectors",
-      "alternateIds": [
-        "x8-7-css-selectors"
-      ],
-      "number": "8.7"
-    },
-    {
       "id": "document-handling_author-errors",
       "href": "https://w3c.github.io/aria/#document-handling_author-errors",
       "level": 2,
@@ -931,9 +911,9 @@
       "id": "idl-interface",
       "href": "https://w3c.github.io/aria/#idl-interface",
       "level": 2,
-      "title": "10. IDL Interface",
+      "title": "10. IDL Interfaces",
       "alternateIds": [
-        "x10-idl-interface"
+        "x10-idl-interfaces"
       ]
     },
     {
@@ -947,14 +927,34 @@
       "number": "10.1"
     },
     {
+      "id": "ARIANotifyMixin",
+      "href": "https://w3c.github.io/aria/#ARIANotifyMixin",
+      "level": 3,
+      "title": "Interface Mixin ARIANotifyMixin",
+      "alternateIds": [
+        "x10-2-interface-mixin-arianotifymixin"
+      ],
+      "number": "10.2"
+    },
+    {
+      "id": "arianotify-permissions-policy",
+      "href": "https://w3c.github.io/aria/#arianotify-permissions-policy",
+      "level": 4,
+      "title": "Permissions Policy Integration",
+      "alternateIds": [
+        "x10-2-1-permissions-policy-integration"
+      ],
+      "number": "10.2.1"
+    },
+    {
       "id": "accessibilityroleandproperties-correspondence",
       "href": "https://w3c.github.io/aria/#accessibilityroleandproperties-correspondence",
       "level": 3,
       "title": "ARIA Attribute Correspondence",
       "alternateIds": [
-        "x10-2-aria-attribute-correspondence"
+        "x10-3-aria-attribute-correspondence"
       ],
-      "number": "10.2"
+      "number": "10.3"
     },
     {
       "id": "idl_attr_disambiguation",
@@ -962,9 +962,9 @@
       "level": 4,
       "title": "Disambiguation Pattern",
       "alternateIds": [
-        "x10-2-1-disambiguation-pattern"
+        "x10-3-1-disambiguation-pattern"
       ],
-      "number": "10.2.1"
+      "number": "10.3.1"
     },
     {
       "id": "idl_attr_exceptions",
@@ -972,9 +972,9 @@
       "level": 4,
       "title": "IDL Attribute Name Notes or Exceptions",
       "alternateIds": [
-        "x10-2-2-idl-attribute-name-notes-or-exceptions"
+        "x10-3-2-idl-attribute-name-notes-or-exceptions"
       ],
-      "number": "10.2.2"
+      "number": "10.3.2"
     },
     {
       "id": "idl_example_usage",
@@ -982,9 +982,9 @@
       "level": 3,
       "title": "Example IDL Attribute Usage",
       "alternateIds": [
-        "x10-3-example-idl-attribute-usage"
+        "x10-4-example-idl-attribute-usage"
       ],
-      "number": "10.3"
+      "number": "10.4"
     },
     {
       "id": "security-considerations",

@@ -115,7 +115,7 @@
     {
       "name": "text-decoration-thickness",
       "href": "https://drafts.csswg.org/css-text-decor-4/#propdef-text-decoration-thickness",
-      "value": "auto | from-font | <length-percentage>",
+      "value": "auto | from-font | <length-percentage> | <line-width>",
       "initial": "auto",
       "appliesTo": "all elements",
       "inherited": "no",
@@ -140,10 +140,17 @@
         },
         {
           "name": "<length-percentage>",
-          "prose": "A length value specifies the thickness of text decoration lines as a fixed length. A percentage value specifies the thickness of text decoration lines as a percentage of 1em. The UA should round the actual value to the nearest integer device pixel, and ensure it is at least one device pixel.",
+          "prose": "A length value specifies the thickness of text decoration lines as a fixed length. A percentage value specifies the thickness of text decoration lines as a percentage of the used font-size. The UA should round the actual value to the nearest integer device pixel, and ensure it is at least one device pixel.",
           "href": "https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-thickness-length-percentage",
           "type": "value",
           "value": "<length-percentage>"
+        },
+        {
+          "name": "<line-width>",
+          "prose": "A length value specifies the thickness of text decoration lines as a fixed length. A percentage value specifies the thickness of text decoration lines as a percentage of the used font-size. The UA should round the actual value to the nearest integer device pixel, and ensure it is at least one device pixel.",
+          "href": "https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-thickness-line-width",
+          "type": "value",
+          "value": "<line-width>"
         }
       ],
       "styleDeclaration": [
@@ -165,6 +172,12 @@
       "styleDeclaration": [
         "text-decoration",
         "textDecoration"
+      ],
+      "longhands": [
+        "text-decoration-line",
+        "text-decoration-thickness",
+        "text-decoration-style",
+        "text-decoration-color"
       ]
     },
     {
@@ -241,7 +254,7 @@
         },
         {
           "name": "<length-percentage>",
-          "prose": "A length value specifies the offset of underlines as a fixed length. A percentage value specifies the offset of underlines as a percentage of 1em.",
+          "prose": "A length value specifies the offset of underlines as a fixed length. A percentage value specifies the offset of underlines as a percentage of the used font-size.",
           "href": "https://drafts.csswg.org/css-text-decor-4/#valdef-text-underline-offset-length-percentage",
           "type": "value",
           "value": "<length-percentage>"
@@ -253,8 +266,8 @@
       ]
     },
     {
-      "name": "text-decoration-trim",
-      "href": "https://drafts.csswg.org/css-text-decor-4/#propdef-text-decoration-trim",
+      "name": "text-decoration-inset",
+      "href": "https://drafts.csswg.org/css-text-decor-4/#propdef-text-decoration-inset",
       "value": "<length>{1,2} | auto",
       "initial": "0",
       "appliesTo": "all elements",
@@ -263,9 +276,25 @@
       "computedValue": "specified keyword or absolute length",
       "canonicalOrder": "per grammar",
       "animationType": "by computed value",
+      "values": [
+        {
+          "name": "<length>",
+          "prose": "Adjusts the start or end endpoint of the affected line decorations. Positive values move the endpoint inward (trimming), negative values move it outward (extending). The following example offsets an extra thick underline 1em endwards with respect to the text h1 { text-decoration: underline 0.3em rgba(36,148,187,0.25); text-decoration-inset: 1em -1em; }",
+          "href": "https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-inset-length",
+          "type": "value",
+          "value": "<length>"
+        },
+        {
+          "name": "auto",
+          "prose": "The UA chooses an inset amount that ensures that if two identical underlined elements appear side-by-side they do not appear to have a single underline. (This is important in Chinese, where underlining is a form of punctuation.) text-decoration-inset: auto for <u>石井</u><u>艾俐俐</u>",
+          "href": "https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-inset-auto",
+          "type": "value",
+          "value": "auto"
+        }
+      ],
       "styleDeclaration": [
-        "text-decoration-trim",
-        "textDecorationTrim"
+        "text-decoration-inset",
+        "textDecorationInset"
       ]
     },
     {
@@ -282,14 +311,14 @@
       "values": [
         {
           "name": "none",
-          "prose": "The text-decoration-skip property and its sub-properties (text-decoration-skip-self, text-decoration-skip-box, text-decoration-skip-inset, text-decoration-skip-spaces, text-decoration-skip-ink) control interruptions in line decorations for which the element or an ancestor is the decorating box. The none value sets all sub-properties to none, and the auto value sets all sub-properties to their initial values.",
+          "prose": "The text-decoration-skip property and its sub-properties (text-decoration-skip-self, text-decoration-skip-box, text-decoration-skip-spaces, text-decoration-skip-ink) control interruptions in line decorations for which the element or an ancestor is the decorating box. The none value sets all sub-properties to none, and the auto value sets all sub-properties to their initial values.",
           "href": "https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-skip-none",
           "type": "value",
           "value": "none"
         },
         {
           "name": "auto",
-          "prose": "The text-decoration-skip property and its sub-properties (text-decoration-skip-self, text-decoration-skip-box, text-decoration-skip-inset, text-decoration-skip-spaces, text-decoration-skip-ink) control interruptions in line decorations for which the element or an ancestor is the decorating box. The none value sets all sub-properties to none, and the auto value sets all sub-properties to their initial values.",
+          "prose": "The text-decoration-skip property and its sub-properties (text-decoration-skip-self, text-decoration-skip-box, text-decoration-skip-spaces, text-decoration-skip-ink) control interruptions in line decorations for which the element or an ancestor is the decorating box. The none value sets all sub-properties to none, and the auto value sets all sub-properties to their initial values.",
           "href": "https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-skip-auto",
           "type": "value",
           "value": "auto"
@@ -298,6 +327,12 @@
       "styleDeclaration": [
         "text-decoration-skip",
         "textDecorationSkip"
+      ],
+      "longhands": [
+        "text-decoration-skip-self",
+        "text-decoration-skip-box",
+        "text-decoration-skip-spaces",
+        "text-decoration-skip-ink"
       ]
     },
     {
@@ -581,6 +616,10 @@
       "styleDeclaration": [
         "text-emphasis",
         "textEmphasis"
+      ],
+      "longhands": [
+        "text-emphasis-style",
+        "text-emphasis-color"
       ]
     },
     {
@@ -657,7 +696,7 @@
         },
         {
           "name": "symbols",
-          "prose": "Skip symbols. Symbols in this definition includes all typographic character units belonging to the Unicode S* general category as well as any which are NFKD-equivalent [UAX15] to the following characters from the Unicode Po category: # U+0023 NUMBER SIGN % U+0025 PERCENT SIGN ‰ U+2030 PER MILLE SIGN ‱ U+2031 PER TEN THOUSAND SIGN ٪ U+066A ARABIC PERCENT SIGN ؉ U+0609 ARABIC-INDIC PER MILLE SIGN ؊ U+060A ARABIC-INDIC PER TEN THOUSAND SIGN & U+0026 AMPERSAND ⁊ U+204A TIRONIAN SIGN E[[ @ U+0040 COMMERCIAL AT § U+00A7 SECTION SIGN ¶ U+00B6 PILCROW SIGN ⁋ U+204B REVERSED PILCROW SIGN ⁓ U+2053 SWUNG DASH 〽️ U+303D PART ALTERNATION MARK",
+          "prose": "Skip symbols. Symbols in this definition includes all typographic character units belonging to the Unicode S* general category as well as any which are NFKD-equivalent [UAX15] to the following characters from the Unicode Po category: # U+0023 NUMBER SIGN % U+0025 PERCENT SIGN ‰ U+2030 PER MILLE SIGN ‱ U+2031 PER TEN THOUSAND SIGN ٪ U+066A ARABIC PERCENT SIGN ؉ U+0609 ARABIC-INDIC PER MILLE SIGN ؊ U+060A ARABIC-INDIC PER TEN THOUSAND SIGN & U+0026 AMPERSAND ⁊ U+204A TIRONIAN SIGN ET @ U+0040 COMMERCIAL AT § U+00A7 SECTION SIGN ¶ U+00B6 PILCROW SIGN ⁋ U+204B REVERSED PILCROW SIGN ⁓ U+2053 SWUNG DASH 〽️ U+303D PART ALTERNATION MARK",
           "href": "https://drafts.csswg.org/css-text-decor-4/#valdef-text-emphasis-skip-symbols",
           "type": "value",
           "value": "symbols"
@@ -696,24 +735,6 @@
   "selectors": [],
   "values": [],
   "warnings": [
-    {
-      "msg": "Dangling value",
-      "name": "<length>",
-      "prose": "Inset (positive) or outset (negative) the start/end of the affected line decorations. The following example offsets an extra thick underline 1em endwards with respect to the text h1 { text-decoration: underline 0.3em rgba(36,148,187,0.25); text-decoration-trim: 1em -1em; }",
-      "href": "https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-skip-inset-length",
-      "type": "value",
-      "value": "<length>",
-      "for": "text-decoration-skip-inset"
-    },
-    {
-      "msg": "Dangling value",
-      "name": "auto",
-      "prose": "The UA chooses a trim amount that ensures that if two identical underlined elements appear side-by-side they do not appear to have a single underline. (This is important in Chinese, where underlining is a form of punctuation.) text-decoration-skip-inset: auto for <u>石井</u><u>艾俐俐</u>",
-      "href": "https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-skip-inset-auto",
-      "type": "value",
-      "value": "auto",
-      "for": "text-decoration-skip-inset"
-    },
     {
       "msg": "Dangling value",
       "name": "open",

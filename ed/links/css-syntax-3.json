@@ -32,6 +32,7 @@
         ]
       },
       "https://drafts.csswg.org/css-cascade-5/": {},
+      "https://drafts.csswg.org/css-cascade-6/": {},
       "https://drafts.csswg.org/css-color-4/": {},
       "https://drafts.csswg.org/css-color-5/": {},
       "https://drafts.csswg.org/css-conditional-3/": {},
@@ -132,8 +133,12 @@
       },
       "https://drafts.csswg.org/css-cascade-5/": {
         "anchors": [
-          "at-ruledef-import",
           "css-property"
+        ]
+      },
+      "https://drafts.csswg.org/css-cascade-6/": {
+        "anchors": [
+          "at-ruledef-import"
         ]
       },
       "https://drafts.csswg.org/css-color-4/": {
@@ -172,7 +177,7 @@
       },
       "https://drafts.csswg.org/css-nesting-1/": {
         "anchors": [
-          "nested-declarations-rule%E2%91%A0",
+          "nested-declarations-rule",
           "cssnesteddeclarations"
         ]
       },
@@ -228,6 +233,7 @@
       },
       "https://drafts.csswg.org/mediaqueries-5/": {
         "anchors": [
+          "media-type",
           "typedef-general-enclosed"
         ]
       },

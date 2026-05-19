@@ -20,7 +20,7 @@
       "heading": {
         "id": "csp-attribute",
         "href": "https://w3c.github.io/webappsec-cspee/#csp-attribute",
-        "title": "<iframe>'s csp attribute",
+        "title": "<iframe>’s csp attribute",
         "number": "2.1"
       },
       "definedIn": "prose",
@@ -42,7 +42,7 @@
       "heading": {
         "id": "csp-attribute",
         "href": "https://w3c.github.io/webappsec-cspee/#csp-attribute",
-        "title": "<iframe>'s csp attribute",
+        "title": "<iframe>’s csp attribute",
         "number": "2.1"
       },
       "definedIn": "prose",
@@ -64,7 +64,7 @@
       "heading": {
         "id": "csp-attribute",
         "href": "https://w3c.github.io/webappsec-cspee/#csp-attribute",
-        "title": "<iframe>'s csp attribute",
+        "title": "<iframe>’s csp attribute",
         "number": "2.1"
       },
       "definedIn": "pre",
@@ -133,32 +133,76 @@
       "links": []
     },
     {
-      "id": "browsing-context-required-csp",
-      "href": "https://w3c.github.io/webappsec-cspee/#browsing-context-required-csp",
+      "id": "policy-container-required-csp",
+      "href": "https://w3c.github.io/webappsec-cspee/#policy-container-required-csp",
       "linkingText": [
         "required CSP"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "browsing context"
+        "policy container"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
-        "id": "required-csp",
-        "href": "https://w3c.github.io/webappsec-cspee/#required-csp",
-        "title": "Browsing Context’s Required CSP",
-        "number": "2.4.1"
+        "id": "html-integration",
+        "href": "https://w3c.github.io/webappsec-cspee/#html-integration",
+        "title": "Integration with HTML",
+        "number": "2.4"
       },
       "definedIn": "prose",
       "links": []
     },
     {
-      "id": "abstract-opdef-set-the-required-csp",
-      "href": "https://w3c.github.io/webappsec-cspee/#abstract-opdef-set-the-required-csp",
+      "id": "target-snapshot-params-required-csp",
+      "href": "https://w3c.github.io/webappsec-cspee/#target-snapshot-params-required-csp",
       "linkingText": [
-        "set the required CSP"
+        "required CSP"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "target snapshot params"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "html-integration",
+        "href": "https://w3c.github.io/webappsec-cspee/#html-integration",
+        "title": "Integration with HTML",
+        "number": "2.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "navigation-params-required-csp",
+      "href": "https://w3c.github.io/webappsec-cspee/#navigation-params-required-csp",
+      "linkingText": [
+        "required CSP"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigation params"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "html-integration",
+        "href": "https://w3c.github.io/webappsec-cspee/#html-integration",
+        "title": "Integration with HTML",
+        "number": "2.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "abstract-opdef-determine-the-required-csp",
+      "href": "https://w3c.github.io/webappsec-cspee/#abstract-opdef-determine-the-required-csp",
+      "linkingText": [
+        "determine the required CSP"
       ],
       "localLinkingText": [],
       "type": "abstract-op",
@@ -168,44 +212,23 @@
       "heading": {
         "id": "required-csp",
         "href": "https://w3c.github.io/webappsec-cspee/#required-csp",
-        "title": "Browsing Context’s Required CSP",
+        "title": "Required CSP",
         "number": "2.4.1"
       },
       "definedIn": "prose",
       "links": []
     },
     {
-      "id": "policy-subsume",
-      "href": "https://w3c.github.io/webappsec-cspee/#policy-subsume",
+      "id": "content-security-policy-object-subsume",
+      "href": "https://w3c.github.io/webappsec-cspee/#content-security-policy-object-subsume",
       "linkingText": [
-        "subsume"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "policy"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "implicit-opt-in",
-        "href": "https://w3c.github.io/webappsec-cspee/#implicit-opt-in",
-        "title": "Implicit Policy Acceptance",
-        "number": "3"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "policy-subsumed-by",
-      "href": "https://w3c.github.io/webappsec-cspee/#policy-subsumed-by",
-      "linkingText": [
+        "subsume",
         "subsumed by"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "policy"
+        "content security policy object"
       ],
       "access": "public",
       "informative": false,
@@ -285,6 +308,28 @@
       "links": []
     },
     {
+      "id": "source-expression-intersection",
+      "href": "https://w3c.github.io/webappsec-cspee/#source-expression-intersection",
+      "linkingText": [
+        "intersection"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "source expression"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "intersection-source-expression",
+        "href": "https://w3c.github.io/webappsec-cspee/#intersection-source-expression",
+        "title": "Source Expression Intersection",
+        "number": "3.1.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "effective-directive-value",
       "href": "https://w3c.github.io/webappsec-cspee/#effective-directive-value",
       "linkingText": [
@@ -299,7 +344,7 @@
         "id": "effective-directive",
         "href": "https://w3c.github.io/webappsec-cspee/#effective-directive",
         "title": "Effective Directive Value",
-        "number": "3.1.4.1"
+        "number": "3.1.5.1"
       },
       "definedIn": "prose",
       "links": []
@@ -319,7 +364,7 @@
         "id": "the-effective-source-list",
         "href": "https://w3c.github.io/webappsec-cspee/#the-effective-source-list",
         "title": "Effective Source List",
-        "number": "3.1.4.2"
+        "number": "3.1.5.2"
       },
       "definedIn": "prose",
       "links": []
@@ -339,7 +384,7 @@
         "id": "similarity-source-expressions",
         "href": "https://w3c.github.io/webappsec-cspee/#similarity-source-expressions",
         "title": "Source Expression Similarity",
-        "number": "3.1.4.3"
+        "number": "3.1.5.3"
       },
       "definedIn": "prose",
       "links": []
@@ -361,7 +406,7 @@
         "id": "similarity-source-expressions",
         "href": "https://w3c.github.io/webappsec-cspee/#similarity-source-expressions",
         "title": "Source Expression Similarity",
-        "number": "3.1.4.3"
+        "number": "3.1.5.3"
       },
       "definedIn": "prose",
       "links": []
@@ -383,29 +428,7 @@
         "id": "similarity-source-expressions",
         "href": "https://w3c.github.io/webappsec-cspee/#similarity-source-expressions",
         "title": "Source Expression Similarity",
-        "number": "3.1.4.3"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "source-expression-intersection",
-      "href": "https://w3c.github.io/webappsec-cspee/#source-expression-intersection",
-      "linkingText": [
-        "intersection"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "source expression"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "intersection-source-expressions",
-        "href": "https://w3c.github.io/webappsec-cspee/#intersection-source-expressions",
-        "title": "What is an intersection of two expressions matching scheme-source or host-source grammar A and B?",
-        "number": "4.2.1"
+        "number": "3.1.5.3"
       },
       "definedIn": "prose",
       "links": []
@@ -426,8 +449,8 @@
       "heading": {
         "id": "subsume-source-list",
         "href": "https://w3c.github.io/webappsec-cspee/#subsume-source-list",
-        "title": "Does source list A subsume source listB given their respective origins and directive names?",
-        "number": "4.2.4"
+        "title": "Source List Subsumption",
+        "number": "3.2.3"
       },
       "definedIn": "prose",
       "links": []

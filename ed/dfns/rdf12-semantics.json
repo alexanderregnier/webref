@@ -1576,8 +1576,31 @@
       "links": []
     },
     {
-      "id": "dfn-rdf-dataset-merge",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-rdf-dataset-merge",
+      "id": "dfn-rdfs14a",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-rdfs14a",
+      "linkingText": [
+        "rdfs14a"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "rdfs_patterns",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
+        "number": "9.2.1"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dfn-rdf-dataset-merge-0",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-rdf-dataset-merge-0",
       "linkingText": [
         "RDF dataset merge"
       ],
@@ -1621,29 +1644,6 @@
       "links": []
     },
     {
-      "id": "dfn-generalized-rdf-rdfs-closure",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-generalized-rdf-rdfs-closure",
-      "linkingText": [
-        "generalized RDF (RDFS) closure"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "entailment_rules",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#entailment_rules",
-        "title": "Entailment rules",
-        "alternateIds": [
-          "a-entailment-rules"
-        ],
-        "number": "A"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "dfn-grdfs14",
       "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-grdfs14",
       "linkingText": [
@@ -1667,10 +1667,10 @@
       "links": []
     },
     {
-      "id": "dfn-pre-interpretation",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-pre-interpretation",
+      "id": "dfn-generalized-rdf-rdfs-closure",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-generalized-rdf-rdfs-closure",
       "linkingText": [
-        "pre-interpretation"
+        "generalized RDF (RDFS) closure"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1678,13 +1678,13 @@
       "access": "private",
       "informative": true,
       "heading": {
-        "id": "finite_interpretations",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#finite_interpretations",
-        "title": "Finite interpretations",
+        "id": "entailment_rules",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#entailment_rules",
+        "title": "Entailment rules",
         "alternateIds": [
-          "b-finite-interpretations"
+          "a-entailment-rules"
         ],
-        "number": "B"
+        "number": "A"
       },
       "definedIn": "prose",
       "links": []

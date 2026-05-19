@@ -10,14 +10,15 @@
       "https://github.com/w3c/data-shapes/issues/288": {},
       "https://github.com/w3c/data-shapes/issues/315": {},
       "https://github.com/w3c/data-shapes/issues/327": {},
+      "https://github.com/w3c/data-shapes/issues/374": {},
       "https://github.com/w3c/data-shapes/issues/426": {},
-      "https://w3c.github.io/data-shapes/shacl12-compact-syntax/": {},
-      "https://w3c.github.io/data-shapes/shacl12-core/": {},
-      "https://w3c.github.io/data-shapes/shacl12-inf-rules/": {},
-      "https://w3c.github.io/data-shapes/shacl12-node-expr/": {},
+      "https://github.com/w3c/data-shapes/issues/573": {},
+      "https://github.com/w3c/data-shapes/issues/647": {},
+      "https://github.com/w3c/data-shapes/issues/?q=is%3Aissue+is%3Aopen+label%3A%22SPARQL%22": {},
+      "https://github.com/w3c/data-shapes/tree/gh-pages/shacl12-test-suite": {},
+      "https://w3c.github.io/data-shapes/shacl12-cs/": {},
       "https://w3c.github.io/data-shapes/shacl12-overview/": {},
       "https://w3c.github.io/data-shapes/shacl12-profiling/": {},
-      "https://w3c.github.io/data-shapes/shacl12-sparql/": {},
       "https://w3c.github.io/data-shapes/shacl12-ui/": {},
       "https://www.rfc-editor.org/info/bcp14": {},
       "https://www.rfc-editor.org/rfc/rfc2119": {},
@@ -31,6 +32,11 @@
       "https://www.w3.org/TR/2017/REC-shacl-20170720/": {
         "anchors": [
           "ack"
+        ]
+      },
+      "https://www.w3.org/TR/owl2-syntax/": {
+        "anchors": [
+          "Ontology_IRI_and_Version_IRI"
         ]
       },
       "https://www.w3.org/TR/rdf12-concepts/": {
@@ -71,15 +77,19 @@
           "dfn-node-expression",
           "dfn-node-expression-function",
           "dfn-function-name",
-          "dfn-key-parameter",
           "dfn-output-nodes",
           "dfn-focus-graph",
           "dfn-conform",
           "dfn-failure",
+          "dfn-validation-result",
           "dfn-shacl-instance",
           "dfn-shacl-subclass",
           "dfn-shacl-type",
+          "dfn-well-formed",
+          "dfn-ill-formed",
+          "conformance",
           "validation-definition",
+          "message",
           "core-components",
           "PatternConstraintComponent",
           "targetClass",
@@ -94,7 +104,16 @@
           "MinLengthConstraintComponent",
           "MaxLengthConstraintComponent",
           "DisjointConstraintComponent",
-          "LessThanConstraintComponent"
+          "LessThanConstraintComponent",
+          "security"
+        ]
+      },
+      "https://www.w3.org/TR/shacl12-node-expr/": {},
+      "https://www.w3.org/TR/shacl12-rules/": {},
+      "https://www.w3.org/TR/shacl12-sparql/": {},
+      "https://www.w3.org/TR/sparql12-federated-query/": {
+        "anchors": [
+          "security"
         ]
       },
       "https://www.w3.org/TR/sparql12-query/": {
@@ -134,10 +153,10 @@
           "dfn-iri",
           "dfn-blank-node",
           "dfn-rdf-literal",
+          "dfn-datatype",
           "dfn-predicate",
           "dfn-subject",
-          "dfn-rdf-triple",
-          "dfn-datatype"
+          "dfn-rdf-triple"
         ]
       },
       "https://www.w3.org/TR/shacl12-core/": {
@@ -146,9 +165,11 @@
           "dfn-shapes-graph",
           "dfn-constraint-component",
           "dfn-shacl-instance",
+          "dfn-validation-result",
           "dfn-property-shape",
           "dfn-value",
           "dfn-shape",
+          "dfn-ill-formed",
           "dfn-validators",
           "dfn-sparql-property-path",
           "dfn-failure",
@@ -165,6 +186,7 @@
           "dfn-node-expression-function",
           "dfn-node-expression",
           "dfn-function-name",
+          "dfn-well-formed",
           "dfn-output-nodes",
           "dfn-focus-graph",
           "dfn-target"

@@ -1,7 +1,7 @@
 {
   "name": "@webref/css",
   "description": "CSS definitions of the web platform",
-  "version": "6.23.12",
+  "version": "6.25.7",
   "repository": {
     "type": "git",
     "url": "https://github.com/w3c/webref.git"
@@ -12,6 +12,6 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "css-tree": "^3.1.0"
+    "css-tree": "^3.2.1"
   }
 }

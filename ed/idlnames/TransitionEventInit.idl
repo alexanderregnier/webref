@@ -1,6 +1,11 @@
-// Source: CSS Transitions Level 1 (https://www.w3.org/TR/css-transitions-1/)
+// Source: CSS Transitions Module Level 1 (https://www.w3.org/TR/css-transitions-1/)
 dictionary TransitionEventInit : EventInit {
   CSSOMString propertyName = "";
   double elapsedTime = 0.0;
   CSSOMString pseudoElement = "";
+};
+
+// Source: CSS Transitions Module Level 2 (https://www.w3.org/TR/css-transitions-2/)
+partial dictionary TransitionEventInit {
+  CSSTransition? animation = null;
 };

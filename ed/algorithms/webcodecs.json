@@ -291,7 +291,7 @@
                   "html": "<p>Remove <var>promise</var> from\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-audiodecoder-pending-flush-promises-slot\" id=\"ref-for-dom-audiodecoder-pending-flush-promises-slot②\">[[pending flush promises]]</a></code>.</p>"
                 },
                 {
-                  "html": "<p>Resolve <var>promise</var>.</p>"
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve\">Resolve</a> <var>promise</var>.</p>"
                 }
               ]
             }
@@ -341,7 +341,7 @@
                   ]
                 },
                 {
-                  "html": "<p>Resolve <var>p</var> with <var>decoderSupport</var>.</p>"
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve①\">Resolve</a> <var>p</var> with <var>decoderSupport</var>.</p>"
                 }
               ]
             }
@@ -460,7 +460,7 @@
           "rationale": "reject",
           "steps": [
             {
-              "html": "<p>Reject <var>promise</var> with <var>exception</var>.</p>"
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#reject\" id=\"ref-for-reject\">Reject</a> <var>promise</var> with <var>exception</var>.</p>"
             },
             {
               "html": "<p>Remove <var>promise</var> from <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-audiodecoder-pending-flush-promises-slot\" id=\"ref-for-dom-audiodecoder-pending-flush-promises-slot④\">[[pending flush promises]]</a></code>.</p>"
@@ -753,7 +753,7 @@
                   "html": "<p>Remove <var>promise</var> from\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videodecoder-pending-flush-promises-slot\" id=\"ref-for-dom-videodecoder-pending-flush-promises-slot②\">[[pending flush promises]]</a></code>.</p>"
                 },
                 {
-                  "html": "<p>Resolve <var>promise</var>.</p>"
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve②\">Resolve</a> <var>promise</var>.</p>"
                 }
               ]
             }
@@ -803,7 +803,7 @@
                   ]
                 },
                 {
-                  "html": "<p>Resolve <var>p</var> with <var>decoderSupport</var>.</p>"
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve③\">Resolve</a> <var>p</var> with <var>decoderSupport</var>.</p>"
                 }
               ]
             }
@@ -913,7 +913,7 @@
           "rationale": "reject",
           "steps": [
             {
-              "html": "<p>Reject <var>promise</var> with <var>exception</var>.</p>"
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#reject\" id=\"ref-for-reject①\">Reject</a> <var>promise</var> with <var>exception</var>.</p>"
             },
             {
               "html": "<p>Remove <var>promise</var> from <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videodecoder-pending-flush-promises-slot\" id=\"ref-for-dom-videodecoder-pending-flush-promises-slot④\">[[pending flush promises]]</a></code>.</p>"
@@ -1191,7 +1191,7 @@
                   "html": "<p>Remove <var>promise</var> from\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-audioencoder-pending-flush-promises-slot\" id=\"ref-for-dom-audioencoder-pending-flush-promises-slot②\">[[pending flush promises]]</a></code>.</p>"
                 },
                 {
-                  "html": "<p>Resolve <var>promise</var>.</p>"
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve④\">Resolve</a> <var>promise</var>.</p>"
                 }
               ]
             }
@@ -1241,7 +1241,7 @@
                   ]
                 },
                 {
-                  "html": "<p>Resolve <var>p</var> with <var>encoderSupport</var>.</p>"
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve⑤\">Resolve</a> <var>p</var> with <var>encoderSupport</var>.</p>"
                 }
               ]
             }
@@ -1393,7 +1393,7 @@
           "rationale": "reject",
           "steps": [
             {
-              "html": "<p>Reject <var>promise</var> with <var>exception</var>.</p>"
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#reject\" id=\"ref-for-reject②\">Reject</a> <var>promise</var> with <var>exception</var>.</p>"
             },
             {
               "html": "<p>Remove <var>promise</var> from <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-audioencoder-pending-flush-promises-slot\" id=\"ref-for-dom-audioencoder-pending-flush-promises-slot④\">[[pending flush promises]]</a></code>.</p>"
@@ -1680,7 +1680,7 @@
                   "html": "<p>Remove <var>promise</var> from\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoencoder-pending-flush-promises-slot\" id=\"ref-for-dom-videoencoder-pending-flush-promises-slot②\">[[pending flush promises]]</a></code>.</p>"
                 },
                 {
-                  "html": "<p>Resolve <var>promise</var>.</p>"
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve⑥\">Resolve</a> <var>promise</var>.</p>"
                 }
               ]
             }
@@ -1732,7 +1732,7 @@
               ]
             },
             {
-              "html": "<p>Resolve <var>p</var> with <var>encoderSupport</var>.</p>"
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve⑦\">Resolve</a> <var>p</var> with <var>encoderSupport</var>.</p>"
             }
           ]
         },
@@ -1924,7 +1924,7 @@
           "rationale": "reject",
           "steps": [
             {
-              "html": "<p>Reject <var>promise</var> with <var>exception</var>.</p>"
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#reject\" id=\"ref-for-reject③\">Reject</a> <var>promise</var> with <var>exception</var>.</p>"
             },
             {
               "html": "<p>Remove <var>promise</var> from <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoencoder-pending-flush-promises-slot\" id=\"ref-for-dom-videoencoder-pending-flush-promises-slot④\">[[pending flush promises]]</a></code>.</p>"
@@ -2698,7 +2698,7 @@
           "html": "<p>Let <var>frame</var> be a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#videoframe\" id=\"ref-for-videoframe④①\">VideoFrame</a></code>.</p>"
         },
         {
-          "html": "<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://svgwg.org/svg2-draft/embedded.html#InterfaceSVGImageElement\" id=\"ref-for-InterfaceSVGImageElement\">SVGImageElement</a></code>",
+          "html": "<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/svgwg/svg2-draft/embedded.html#InterfaceSVGImageElement\" id=\"ref-for-InterfaceSVGImageElement\">SVGImageElement</a></code>",
           "rationale": "if",
           "steps": [
             {
@@ -2878,13 +2878,13 @@
               "rationale": "let",
               "steps": [
                 {
-                  "html": "<p>Let <var>truncatedVisibleWidth</var> be the value of\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-visiblerect\" id=\"ref-for-dom-videoframebufferinit-visiblerect④\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width\">width</a></code> after\ntruncating.</p>"
+                  "html": "<p>Let <var>truncatedVisibleWidth</var> be the value of\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-visiblerect\" id=\"ref-for-dom-videoframebufferinit-visiblerect④\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width\">width</a></code> after\ntruncating.</p>"
                 },
                 {
                   "html": "<p>Assign <var>truncatedVisibleWidth</var> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-width-slot\" id=\"ref-for-dom-videoframe-visible-width-slot①\">[[visible width]]</a></code>.</p>"
                 },
                 {
-                  "html": "<p>Let <var>truncatedVisibleHeight</var> be the value of\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-visiblerect\" id=\"ref-for-dom-videoframebufferinit-visiblerect⑤\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height\">height</a></code> after\ntruncating.</p>"
+                  "html": "<p>Let <var>truncatedVisibleHeight</var> be the value of\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-visiblerect\" id=\"ref-for-dom-videoframebufferinit-visiblerect⑤\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height\">height</a></code> after\ntruncating.</p>"
                 },
                 {
                   "html": "<p>Assign <var>truncatedVisibleHeight</var> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-height-slot\" id=\"ref-for-dom-videoframe-visible-height-slot①\">[[visible height]]</a></code>.</p>"
@@ -2977,14 +2977,14 @@
           "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://html.spec.whatwg.org/multipage/structured-data.html#detached\" id=\"ref-for-detached①⑨\">[[Detached]]</a></code> is <code>true</code>, return <code>null</code>.</p>"
         },
         {
-          "html": "Let <var>rect</var> be a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#domrectreadonly\" id=\"ref-for-domrectreadonly④\">DOMRectReadOnly</a></code>, initialized as follows:",
+          "html": "Let <var>rect</var> be a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#domrectreadonly\" id=\"ref-for-domrectreadonly④\">DOMRectReadOnly</a></code>, initialized as follows:",
           "rationale": "assign",
           "steps": [
             {
-              "html": "<p>Assign <code>0</code> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-x\" id=\"ref-for-dom-domrectreadonly-x①\">x</a></code> and <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-y\" id=\"ref-for-dom-domrectreadonly-y①\">y</a></code>.</p>"
+              "html": "<p>Assign <code>0</code> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectreadonly-x\" id=\"ref-for-dom-domrectreadonly-x①\">x</a></code> and <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectreadonly-y\" id=\"ref-for-dom-domrectreadonly-y①\">y</a></code>.</p>"
             },
             {
-              "html": "<p>Assign <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-coded-width-slot\" id=\"ref-for-dom-videoframe-coded-width-slot③\">[[coded width]]</a></code> and\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-coded-height-slot\" id=\"ref-for-dom-videoframe-coded-height-slot③\">[[coded height]]</a></code> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-width\" id=\"ref-for-dom-domrectreadonly-width①\">width</a></code> and\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-height\" id=\"ref-for-dom-domrectreadonly-height①\">height</a></code> respectively.</p>"
+              "html": "<p>Assign <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-coded-width-slot\" id=\"ref-for-dom-videoframe-coded-width-slot③\">[[coded width]]</a></code> and\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-coded-height-slot\" id=\"ref-for-dom-videoframe-coded-height-slot③\">[[coded height]]</a></code> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectreadonly-width\" id=\"ref-for-dom-domrectreadonly-width①\">width</a></code> and\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectreadonly-height\" id=\"ref-for-dom-domrectreadonly-height①\">height</a></code> respectively.</p>"
             }
           ]
         },
@@ -3003,11 +3003,11 @@
           "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://html.spec.whatwg.org/multipage/structured-data.html#detached\" id=\"ref-for-detached②⓪\">[[Detached]]</a></code> is <code>true</code>, return <code>null</code>.</p>"
         },
         {
-          "html": "Let <var>rect</var> be a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#domrectreadonly\" id=\"ref-for-domrectreadonly⑦\">DOMRectReadOnly</a></code>, initialized as follows:",
+          "html": "Let <var>rect</var> be a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#domrectreadonly\" id=\"ref-for-domrectreadonly⑦\">DOMRectReadOnly</a></code>, initialized as follows:",
           "rationale": "assign",
           "steps": [
             {
-              "html": "<p>Assign <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-left-slot\" id=\"ref-for-dom-videoframe-visible-left-slot②\">[[visible left]]</a></code>,\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-top-slot\" id=\"ref-for-dom-videoframe-visible-top-slot②\">[[visible top]]</a></code>, <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-width-slot\" id=\"ref-for-dom-videoframe-visible-width-slot⑤\">[[visible width]]</a></code>,\nand <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-height-slot\" id=\"ref-for-dom-videoframe-visible-height-slot⑤\">[[visible height]]</a></code> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-x\" id=\"ref-for-dom-domrectreadonly-x②\">x</a></code>,\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-y\" id=\"ref-for-dom-domrectreadonly-y②\">y</a></code>, <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-width\" id=\"ref-for-dom-domrectreadonly-width②\">width</a></code>, and\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-height\" id=\"ref-for-dom-domrectreadonly-height②\">height</a></code> respectively.</p>"
+              "html": "<p>Assign <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-left-slot\" id=\"ref-for-dom-videoframe-visible-left-slot②\">[[visible left]]</a></code>,\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-top-slot\" id=\"ref-for-dom-videoframe-visible-top-slot②\">[[visible top]]</a></code>, <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-width-slot\" id=\"ref-for-dom-videoframe-visible-width-slot⑤\">[[visible width]]</a></code>,\nand <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-height-slot\" id=\"ref-for-dom-videoframe-visible-height-slot⑤\">[[visible height]]</a></code> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectreadonly-x\" id=\"ref-for-dom-domrectreadonly-x②\">x</a></code>,\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectreadonly-y\" id=\"ref-for-dom-domrectreadonly-y②\">y</a></code>, <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectreadonly-width\" id=\"ref-for-dom-domrectreadonly-width②\">width</a></code>, and\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectreadonly-height\" id=\"ref-for-dom-domrectreadonly-height②\">height</a></code> respectively.</p>"
             }
           ]
         },
@@ -3155,7 +3155,7 @@
               ]
             },
             {
-              "html": "<p><a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task③⑦\">Queue a task</a> to resolve <var>p</var> with <var>planeLayouts</var>.</p>"
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task③⑦\">Queue a task</a> to <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve⑧\">resolve</a> <var>p</var> with <var>planeLayouts</var>.</p>"
             }
           ]
         },
@@ -3285,13 +3285,13 @@
               "html": "<p>If any attribute of <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect①\">visibleRect</a></code> is negative or\nnot finite, return <code>false</code>.</p>"
             },
             {
-              "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect②\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width①\">width</a></code> == <code>0</code> or\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect③\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height①\">height</a></code> == <code>0</code> return\n<code>false</code>.</p>"
+              "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect②\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width①\">width</a></code> == <code>0</code> or\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect③\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height①\">height</a></code> == <code>0</code> return\n<code>false</code>.</p>"
             },
             {
-              "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect④\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-y\" id=\"ref-for-dom-domrectinit-y\">y</a></code> +\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect⑤\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height②\">height</a></code> &gt;\n<var>codedHeight</var>, return <code>false</code>.</p>"
+              "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect④\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-y\" id=\"ref-for-dom-domrectinit-y\">y</a></code> +\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect⑤\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height②\">height</a></code> &gt;\n<var>codedHeight</var>, return <code>false</code>.</p>"
             },
             {
-              "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect⑥\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-x\" id=\"ref-for-dom-domrectinit-x\">x</a></code> +\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect⑦\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width②\">width</a></code> &gt;\n<var>codedWidth</var>, return <code>false</code>.</p>"
+              "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect⑥\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-x\" id=\"ref-for-dom-domrectinit-x\">x</a></code> +\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect⑦\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width②\">width</a></code> &gt;\n<var>codedWidth</var>, return <code>false</code>.</p>"
             }
           ]
         },
@@ -3322,10 +3322,10 @@
           "html": "<p>If any attribute of <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-visiblerect\" id=\"ref-for-dom-videoframebufferinit-visiblerect⑥\">visibleRect</a></code> is negative or\nnot finite, return <code>false</code>.</p>"
         },
         {
-          "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-visiblerect\" id=\"ref-for-dom-videoframebufferinit-visiblerect⑦\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-y\" id=\"ref-for-dom-domrectinit-y①\">y</a></code> +\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-visiblerect\" id=\"ref-for-dom-videoframebufferinit-visiblerect⑧\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height③\">height</a></code> &gt;\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-codedheight\" id=\"ref-for-dom-videoframebufferinit-codedheight②\">codedHeight</a></code>, return <code>false</code>.</p>"
+          "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-visiblerect\" id=\"ref-for-dom-videoframebufferinit-visiblerect⑦\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-y\" id=\"ref-for-dom-domrectinit-y①\">y</a></code> +\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-visiblerect\" id=\"ref-for-dom-videoframebufferinit-visiblerect⑧\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height③\">height</a></code> &gt;\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-codedheight\" id=\"ref-for-dom-videoframebufferinit-codedheight②\">codedHeight</a></code>, return <code>false</code>.</p>"
         },
         {
-          "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-visiblerect\" id=\"ref-for-dom-videoframebufferinit-visiblerect⑨\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-x\" id=\"ref-for-dom-domrectinit-x①\">x</a></code> +\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-visiblerect\" id=\"ref-for-dom-videoframebufferinit-visiblerect①⓪\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width③\">width</a></code> &gt;\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-codedwidth\" id=\"ref-for-dom-videoframebufferinit-codedwidth④\">codedWidth</a></code>, return <code>false</code>.</p>"
+          "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-visiblerect\" id=\"ref-for-dom-videoframebufferinit-visiblerect⑨\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-x\" id=\"ref-for-dom-domrectinit-x①\">x</a></code> +\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-visiblerect\" id=\"ref-for-dom-videoframebufferinit-visiblerect①⓪\">visibleRect</a></code>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width③\">width</a></code> &gt;\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-codedwidth\" id=\"ref-for-dom-videoframebufferinit-codedwidth④\">codedWidth</a></code>, return <code>false</code>.</p>"
         },
         {
           "html": "<p>If only one of <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-displaywidth\" id=\"ref-for-dom-videoframebufferinit-displaywidth①\">displayWidth</a></code> or\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframebufferinit-displayheight\" id=\"ref-for-dom-videoframebufferinit-displayheight①\">displayHeight</a></code> <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"ref-for-map-exists①⑨\">exists</a>, return <code>false</code>.</p>"
@@ -3422,7 +3422,7 @@
           "html": "<p>Assign <var>codedWidth</var> and <var>codedHeight</var> to <var>frame</var>’s\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-coded-width-slot\" id=\"ref-for-dom-videoframe-coded-width-slot⑥\">[[coded width]]</a></code> and <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-coded-height-slot\" id=\"ref-for-dom-videoframe-coded-height-slot⑥\">[[coded height]]</a></code>\nrespectively.</p>"
         },
         {
-          "html": "<p>Let <var>defaultVisibleRect</var> be a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#domrect\" id=\"ref-for-domrect\">DOMRect</a></code> constructed with\n«[ \"x:\" → <code>0</code>, \"y\" → <code>0</code>, \"width\" → <var>codedWidth</var>, \"height\" → <var>codedHeight</var> ]»</p>"
+          "html": "<p>Let <var>defaultVisibleRect</var> be a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#domrect\" id=\"ref-for-domrect\">DOMRect</a></code> constructed with\n«[ \"x:\" → <code>0</code>, \"y\" → <code>0</code>, \"width\" → <var>codedWidth</var>, \"height\" → <var>codedHeight</var> ]»</p>"
         },
         {
           "html": "<p>Run the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#videoframe-initialize-visible-rect-orientation-and-display-size\" id=\"ref-for-videoframe-initialize-visible-rect-orientation-and-display-size①\">Initialize Visible Rect, Orientation, and Display Size</a>\nalgorithm with <var>init</var>, <var>frame</var>, <var>defaultVisibleRect</var>,\n<var>defaultDisplayWidth</var>, and <var>defaultDisplayHeight</var>.</p>"
@@ -3451,10 +3451,19 @@
           "html": "<p>Let <var>visibleRect</var> be <var>defaultVisibleRect</var>.</p>"
         },
         {
-          "html": "<p>If <var>init</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect⑧\">visibleRect</a></code> <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"ref-for-map-exists②②\">exists</a>, assign it to\n<var>visibleRect</var>.</p>"
+          "html": "If <var>init</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect⑧\">visibleRect</a></code> <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"ref-for-map-exists②②\">exists</a>:",
+          "rationale": "if",
+          "steps": [
+            {
+              "html": "<p>If any attribute of <var>init</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect⑨\">visibleRect</a></code> is negative or\nnot finite, throw a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②⓪\">TypeError</a></code>.</p>"
+            },
+            {
+              "html": "<p>Assign <var>init</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-visiblerect\" id=\"ref-for-dom-videoframeinit-visiblerect①⓪\">visibleRect</a></code> to <var>visibleRect</var>.</p>"
+            }
+          ]
         },
         {
-          "html": "<p>Assign <var>visibleRect</var>’s <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrect-x\" id=\"ref-for-dom-domrect-x\">x</a></code>, <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrect-y\" id=\"ref-for-dom-domrect-y\">y</a></code>, <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrect-width\" id=\"ref-for-dom-domrect-width\">width</a></code>,\nand <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrect-height\" id=\"ref-for-dom-domrect-height\">height</a></code>, to <var>frame</var>’s <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-left-slot\" id=\"ref-for-dom-videoframe-visible-left-slot④\">[[visible left]]</a></code>,\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-top-slot\" id=\"ref-for-dom-videoframe-visible-top-slot④\">[[visible top]]</a></code>, <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-width-slot\" id=\"ref-for-dom-videoframe-visible-width-slot⑦\">[[visible width]]</a></code>, and\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-height-slot\" id=\"ref-for-dom-videoframe-visible-height-slot⑦\">[[visible height]]</a></code> respectively.</p>"
+          "html": "<p>Assign <var>visibleRect</var>’s <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrect-x\" id=\"ref-for-dom-domrect-x\">x</a></code>, <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrect-y\" id=\"ref-for-dom-domrect-y\">y</a></code>, <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrect-width\" id=\"ref-for-dom-domrect-width\">width</a></code>,\nand <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrect-height\" id=\"ref-for-dom-domrect-height\">height</a></code>, to <var>frame</var>’s <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-left-slot\" id=\"ref-for-dom-videoframe-visible-left-slot④\">[[visible left]]</a></code>,\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-top-slot\" id=\"ref-for-dom-videoframe-visible-top-slot④\">[[visible top]]</a></code>, <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-width-slot\" id=\"ref-for-dom-videoframe-visible-width-slot⑦\">[[visible width]]</a></code>, and\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframe-visible-height-slot\" id=\"ref-for-dom-videoframe-visible-height-slot⑦\">[[visible height]]</a></code> respectively.</p>"
         },
         {
           "html": "<p>Let <var>rotation</var> be the result of running the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#videoframe-parse-rotation\" id=\"ref-for-videoframe-parse-rotation①\">Parse Rotation</a>\nalgorithm, with <var>init</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-videoframeinit-rotation\" id=\"ref-for-dom-videoframeinit-rotation\">rotation</a></code>.</p>"
@@ -3477,10 +3486,10 @@
               "rationale": "let",
               "steps": [
                 {
-                  "html": "<p>Let <var>widthScale</var> be the result of dividing <var>defaultDisplayWidth</var>\nby <var>defaultVisibleRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrect-width\" id=\"ref-for-dom-domrect-width①\">width</a></code>.</p>"
+                  "html": "<p>Let <var>widthScale</var> be the result of dividing <var>defaultDisplayWidth</var>\nby <var>defaultVisibleRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrect-width\" id=\"ref-for-dom-domrect-width①\">width</a></code>.</p>"
                 },
                 {
-                  "html": "<p>Let <var>heightScale</var> be the result of dividing\n<var>defaultDisplayHeight</var> by\n<var>defaultVisibleRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrect-height\" id=\"ref-for-dom-domrect-height①\">height</a></code>.</p>"
+                  "html": "<p>Let <var>heightScale</var> be the result of dividing\n<var>defaultDisplayHeight</var> by\n<var>defaultVisibleRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrect-height\" id=\"ref-for-dom-domrect-height①\">height</a></code>.</p>"
                 }
               ]
             },
@@ -3489,10 +3498,10 @@
               "rationale": "let",
               "steps": [
                 {
-                  "html": "<p>Let <var>widthScale</var> be the result of dividing <var>defaultDisplayHeight</var>\nby <var>defaultVisibleRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrect-width\" id=\"ref-for-dom-domrect-width②\">width</a></code>.</p>"
+                  "html": "<p>Let <var>widthScale</var> be the result of dividing <var>defaultDisplayHeight</var>\nby <var>defaultVisibleRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrect-width\" id=\"ref-for-dom-domrect-width②\">width</a></code>.</p>"
                 },
                 {
-                  "html": "<p>Let <var>heightScale</var> be the result of dividing <var>defaultDisplayWidth</var>\nby <var>defaultVisibleRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrect-height\" id=\"ref-for-dom-domrect-height②\">height</a></code>.</p>"
+                  "html": "<p>Let <var>heightScale</var> be the result of dividing <var>defaultDisplayWidth</var>\nby <var>defaultVisibleRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrect-height\" id=\"ref-for-dom-domrect-height②\">height</a></code>.</p>"
                 }
               ]
             },
@@ -3692,10 +3701,10 @@
               "html": "<p>Let <var>sampleHeight</var> be the vertical <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#sub-sampling-factor\" id=\"ref-for-sub-sampling-factor①\">sub-sampling factor</a> of each\nsubsample for <var>plane</var>.</p>"
             },
             {
-              "html": "<p>If <var>rect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-x\" id=\"ref-for-dom-domrectreadonly-x③\">x</a></code> is not a multiple of <var>sampleWidth</var>,\nreturn <code>false</code>.</p>"
+              "html": "<p>If <var>rect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectreadonly-x\" id=\"ref-for-dom-domrectreadonly-x③\">x</a></code> is not a multiple of <var>sampleWidth</var>,\nreturn <code>false</code>.</p>"
             },
             {
-              "html": "<p>If <var>rect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-y\" id=\"ref-for-dom-domrectreadonly-y③\">y</a></code> is not a multiple of <var>sampleHeight</var>,\nreturn <code>false</code>.</p>"
+              "html": "<p>If <var>rect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectreadonly-y\" id=\"ref-for-dom-domrectreadonly-y③\">y</a></code> is not a multiple of <var>sampleHeight</var>,\nreturn <code>false</code>.</p>"
             },
             {
               "html": "<p>Increment <var>planeIndex</var> by <code>1</code>.</p>"
@@ -3721,13 +3730,16 @@
           "rationale": "if",
           "steps": [
             {
-              "html": "<p>If either of <var>overrideRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width④\">width</a></code> or\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height④\">height</a></code> is <code>0</code>, return a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②⓪\">TypeError</a></code>.</p>"
+              "html": "<p>If any attribute of <var>overrideRect</var> is negative or not finite, return a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②①\">TypeError</a></code>.</p>"
             },
             {
-              "html": "<p>If the sum of <var>overrideRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-x\" id=\"ref-for-dom-domrectinit-x②\">x</a></code> and\n<var>overrideRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width⑤\">width</a></code> is greater than\n<var>codedWidth</var>, return a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②①\">TypeError</a></code>.</p>"
+              "html": "<p>If either of <var>overrideRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width④\">width</a></code> or\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height④\">height</a></code> is <code>0</code>, return a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②②\">TypeError</a></code>.</p>"
             },
             {
-              "html": "<p>If the sum of <var>overrideRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-y\" id=\"ref-for-dom-domrectinit-y②\">y</a></code> and\n<var>overrideRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height⑤\">height</a></code> is greater than\n<var>codedHeight</var>, return a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②②\">TypeError</a></code>.</p>"
+              "html": "<p>If the sum of <var>overrideRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-x\" id=\"ref-for-dom-domrectinit-x②\">x</a></code> and\n<var>overrideRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width⑤\">width</a></code> is greater than\n<var>codedWidth</var>, return a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②③\">TypeError</a></code>.</p>"
+            },
+            {
+              "html": "<p>If the sum of <var>overrideRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-y\" id=\"ref-for-dom-domrectinit-y②\">y</a></code> and\n<var>overrideRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height⑤\">height</a></code> is greater than\n<var>codedHeight</var>, return a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②④\">TypeError</a></code>.</p>"
             },
             {
               "html": "<p>Assign <var>overrideRect</var> to <var>sourceRect</var>.</p>"
@@ -3738,7 +3750,7 @@
           "html": "<p>Let <var>validAlignment</var> be the result of running the\n<a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#videoframe-verify-rect-offset-alignment\" id=\"ref-for-videoframe-verify-rect-offset-alignment①\">Verify Rect Offset Alignment</a> algorithm with <var>format</var> and\n<var>sourceRect</var>.</p>"
         },
         {
-          "html": "<p>If <var>validAlignment</var> is <code>false</code>, throw a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②③\">TypeError</a></code>.</p>"
+          "html": "<p>If <var>validAlignment</var> is <code>false</code>, throw a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②⑤\">TypeError</a></code>.</p>"
         },
         {
           "html": "<p>Return <var>sourceRect</var>.</p>"
@@ -3755,7 +3767,7 @@
           "html": "<p>Let <var>numPlanes</var> be the number of planes as defined by <var>format</var>.</p>"
         },
         {
-          "html": "<p>If <var>layout</var> is not <code>undefined</code> and its length does not equal <var>numPlanes</var>,\n throw a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②④\">TypeError</a></code>.</p>"
+          "html": "<p>If <var>layout</var> is not <code>undefined</code> and its length does not equal <var>numPlanes</var>,\n throw a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②⑥\">TypeError</a></code>.</p>"
         },
         {
           "html": "<p>Let <var>minAllocationSize</var> be <code>0</code>.</p>"
@@ -3789,16 +3801,16 @@
               "html": "<p>Let <var>computedLayout</var> be a new <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout\" id=\"ref-for-computed-plane-layout②\">computed plane layout</a>.</p>"
             },
             {
-              "html": "<p>Set <var>computedLayout</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-sourcetop\" id=\"ref-for-computed-plane-layout-sourcetop①\">sourceTop</a> to the\nresult of the division of truncated <var>parsedRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-y\" id=\"ref-for-dom-domrectinit-y③\">y</a></code>\nby <var>sampleHeight</var>, rounded up to the nearest integer.</p>"
+              "html": "<p>Set <var>computedLayout</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-sourcetop\" id=\"ref-for-computed-plane-layout-sourcetop①\">sourceTop</a> to the\nresult of the division of truncated <var>parsedRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-y\" id=\"ref-for-dom-domrectinit-y③\">y</a></code>\nby <var>sampleHeight</var>, rounded up to the nearest integer.</p>"
             },
             {
-              "html": "<p>Set <var>computedLayout</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-sourceheight\" id=\"ref-for-computed-plane-layout-sourceheight①\">sourceHeight</a> to the\nresult of the division of truncated\n<var>parsedRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height⑥\">height</a></code> by <var>sampleHeight</var>, rounded up\nto the nearest integer.</p>"
+              "html": "<p>Set <var>computedLayout</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-sourceheight\" id=\"ref-for-computed-plane-layout-sourceheight①\">sourceHeight</a> to the\nresult of the division of truncated\n<var>parsedRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-height\" id=\"ref-for-dom-domrectinit-height⑥\">height</a></code> by <var>sampleHeight</var>, rounded up\nto the nearest integer.</p>"
             },
             {
-              "html": "<p>Set <var>computedLayout</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-sourceleftbytes\" id=\"ref-for-computed-plane-layout-sourceleftbytes①\">sourceLeftBytes</a> to\nthe result of the integer division of\ntruncated <var>parsedRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-x\" id=\"ref-for-dom-domrectinit-x③\">x</a></code> by <var>sampleWidth</var>,\nmultiplied by <var>sampleBytes</var>.</p>"
+              "html": "<p>Set <var>computedLayout</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-sourceleftbytes\" id=\"ref-for-computed-plane-layout-sourceleftbytes①\">sourceLeftBytes</a> to\nthe result of the integer division of\ntruncated <var>parsedRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-x\" id=\"ref-for-dom-domrectinit-x③\">x</a></code> by <var>sampleWidth</var>,\nmultiplied by <var>sampleBytes</var>.</p>"
             },
             {
-              "html": "<p>Set <var>computedLayout</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-sourcewidthbytes\" id=\"ref-for-computed-plane-layout-sourcewidthbytes①\">sourceWidthBytes</a> to\nthe result of the integer division of\ntruncated <var>parsedRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.fxtf.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width⑥\">width</a></code> by <var>sampleWidth</var>,\nmultiplied by <var>sampleBytes</var>.</p>"
+              "html": "<p>Set <var>computedLayout</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-sourcewidthbytes\" id=\"ref-for-computed-plane-layout-sourcewidthbytes①\">sourceWidthBytes</a> to\nthe result of the integer division of\ntruncated <var>parsedRect</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/geometry-1/#dom-domrectinit-width\" id=\"ref-for-dom-domrectinit-width⑥\">width</a></code> by <var>sampleWidth</var>,\nmultiplied by <var>sampleBytes</var>.</p>"
             },
             {
               "html": "If <var>layout</var> is not <code>undefined</code>:",
@@ -3808,7 +3820,7 @@
                   "html": "<p>Let <var>planeLayout</var> be the <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dictdef-planelayout\" id=\"ref-for-dictdef-planelayout③\">PlaneLayout</a></code> in <var>layout</var> at position\n<var>planeIndex</var>.</p>"
                 },
                 {
-                  "html": "<p>If <var>planeLayout</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-planelayout-stride\" id=\"ref-for-dom-planelayout-stride①\">stride</a></code> is less than\n<var>computedLayout</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-sourcewidthbytes\" id=\"ref-for-computed-plane-layout-sourcewidthbytes②\">sourceWidthBytes</a>,\nreturn a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②⑤\">TypeError</a></code>.</p>"
+                  "html": "<p>If <var>planeLayout</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-planelayout-stride\" id=\"ref-for-dom-planelayout-stride①\">stride</a></code> is less than\n<var>computedLayout</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-sourcewidthbytes\" id=\"ref-for-computed-plane-layout-sourcewidthbytes②\">sourceWidthBytes</a>,\nreturn a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②⑦\">TypeError</a></code>.</p>"
                 },
                 {
                   "html": "<p>Assign <var>planeLayout</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-planelayout-offset\" id=\"ref-for-dom-planelayout-offset①\">offset</a></code> to <var>computedLayout</var>’s\n<a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-destinationoffset\" id=\"ref-for-computed-plane-layout-destinationoffset①\">destinationOffset</a>.</p>"
@@ -3837,7 +3849,7 @@
               "html": "<p>Let <var>planeEnd</var> be the sum of <var>planeSize</var> and <var>computedLayout</var>’s\n    <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-destinationoffset\" id=\"ref-for-computed-plane-layout-destinationoffset③\">destinationOffset</a>.</p>"
             },
             {
-              "html": "<p>If <var>planeSize</var> or <var>planeEnd</var> is greater than maximum range of\n    <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-unsigned-long\" id=\"ref-for-idl-unsigned-long⑦③\">unsigned long</a></code>, return a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②⑥\">TypeError</a></code>.</p>"
+              "html": "<p>If <var>planeSize</var> or <var>planeEnd</var> is greater than maximum range of\n    <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-unsigned-long\" id=\"ref-for-idl-unsigned-long⑦③\">unsigned long</a></code>, return a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②⑧\">TypeError</a></code>.</p>"
             },
             {
               "html": "<p>Append <var>planeEnd</var> to <var>endOffsets</var>.</p>"
@@ -3859,7 +3871,7 @@
                   "html": "<p>If <code>endOffsets[planeIndex]</code> is less than or equal to\n<var>earlierLayout</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-destinationoffset\" id=\"ref-for-computed-plane-layout-destinationoffset④\">destinationOffset</a> or\nif <code>endOffsets[earlierPlaneIndex]</code> is less than or equal to\n<var>computedLayout</var>’s <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#computed-plane-layout-destinationoffset\" id=\"ref-for-computed-plane-layout-destinationoffset⑤\">destinationOffset</a>,\ncontinue.</p>"
                 },
                 {
-                  "html": "<p>Otherwise, return a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②⑦\">TypeError</a></code>.</p>"
+                  "html": "<p>Otherwise, return a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②⑨\">TypeError</a></code>.</p>"
                 },
                 {
                   "html": "<p>Increment <var>earlierPlaneIndex</var> by <code>1</code>.</p>"
@@ -4063,7 +4075,7 @@
       "rationale": "if",
       "steps": [
         {
-          "html": "<p>If <var>init</var> is not <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#valid-imagedecoderinit\" id=\"ref-for-valid-imagedecoderinit\">valid ImageDecoderInit</a>, throw a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②⑧\">TypeError</a></code>.</p>"
+          "html": "<p>If <var>init</var> is not <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#valid-imagedecoderinit\" id=\"ref-for-valid-imagedecoderinit\">valid ImageDecoderInit</a>, throw a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror③⓪\">TypeError</a></code>.</p>"
         },
         {
           "html": "<p>If <var>init</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoderinit-transfer\" id=\"ref-for-dom-imagedecoderinit-transfer\">transfer</a></code> contains more than one reference\nto the same <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-ArrayBuffer\" id=\"ref-for-idl-ArrayBuffer①②\">ArrayBuffer</a></code>, then throw a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#datacloneerror\" id=\"ref-for-datacloneerror①⑥\">DataCloneError</a></code> <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException④③\">DOMException</a></code>.</p>"
@@ -4178,7 +4190,7 @@
               "html": "<p>Assign <code>true</code> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-complete-slot\" id=\"ref-for-dom-imagedecoder-complete-slot②\">[[complete]]</a></code>.</p>"
             },
             {
-              "html": "<p>Resolve <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-completed-promise-slot\" id=\"ref-for-dom-imagedecoder-completed-promise-slot\">[[completed promise]]</a></code>.</p>"
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve⑨\">Resolve</a> <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-completed-promise-slot\" id=\"ref-for-dom-imagedecoder-completed-promise-slot\">[[completed promise]]</a></code>.</p>"
             },
             {
               "html": "<p>Queue a control message to <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#configure-the-image-decoder\" id=\"ref-for-configure-the-image-decoder①\">configure the image decoder</a> with\n<var>init</var>.</p>"
@@ -4322,13 +4334,22 @@
       "rationale": "if",
       "steps": [
         {
-          "html": "<p>If <var>type</var> is not a <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#valid-image-mime-type\" id=\"ref-for-valid-image-mime-type\">valid image MIME type</a>, return a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-promise\" id=\"ref-for-idl-promise①⑥\">Promise</a></code>\nrejected with <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror②⑨\">TypeError</a></code>.</p>"
+          "html": "<p>If <var>type</var> is not a <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#valid-image-mime-type\" id=\"ref-for-valid-image-mime-type\">valid image MIME type</a>, return a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-promise\" id=\"ref-for-idl-promise①⑥\">Promise</a></code>\nrejected with <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\" id=\"ref-for-exceptiondef-typeerror③①\">TypeError</a></code>.</p>"
         },
         {
           "html": "<p>Let <var>p</var> be a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-promise\" id=\"ref-for-idl-promise①⑦\">Promise</a></code>.</p>"
         },
         {
-          "html": "<p>In parallel, resolve <var>p</var> with the result of running the\n<a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#imagedecoder-check-type-support\" id=\"ref-for-imagedecoder-check-type-support①\">Check Type Support</a> algorithm with <var>type</var>.</p>"
+          "html": "Run the following steps <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\" id=\"ref-for-in-parallel\">in parallel</a>:",
+          "rationale": "let",
+          "steps": [
+            {
+              "html": "<p>Let <var>isSupported</var> be the result of running the\n<a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#imagedecoder-check-type-support\" id=\"ref-for-imagedecoder-check-type-support①\">Check Type Support</a> algorithm with <var>type</var>.</p>"
+            },
+            {
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task③⑨\">Queue a task</a> to <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve①⓪\">resolve</a> <var>p</var> with <var>isSupported</var>.</p>"
+            }
+          ]
         },
         {
           "html": "<p>Return <var>p</var>.</p>"
@@ -4349,7 +4370,7 @@
               "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-closed-slot\" id=\"ref-for-dom-imagedecoder-closed-slot②\">[[closed]]</a></code> is <code>true</code>, abort these steps.</p>"
             },
             {
-              "html": "<p>If <var>chunk</var> is not a Uint8Array object, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task③⑨\">queue a task</a> to run\nthe <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#imagedecoder-close-imagedecoder\" id=\"ref-for-imagedecoder-close-imagedecoder②\">Close ImageDecoder</a> algorithm with a\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#dataerror\" id=\"ref-for-dataerror⑤\">DataError</a></code> <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException⑤⓪\">DOMException</a></code> and abort these steps.</p>"
+              "html": "<p>If <var>chunk</var> is not a Uint8Array object, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④⓪\">queue a task</a> to run\nthe <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#imagedecoder-close-imagedecoder\" id=\"ref-for-imagedecoder-close-imagedecoder②\">Close ImageDecoder</a> algorithm with a\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#dataerror\" id=\"ref-for-dataerror⑤\">DataError</a></code> <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException⑤⓪\">DOMException</a></code> and abort these steps.</p>"
             },
             {
               "html": "<p>Let <var>bytes</var> be the byte sequence represented by the Uint8Array\nobject.</p>"
@@ -4376,7 +4397,7 @@
                   "html": "<p>Assign <code>true</code> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-complete-slot\" id=\"ref-for-dom-imagedecoder-complete-slot④\">[[complete]]</a></code></p>"
                 },
                 {
-                  "html": "<p>Resolve <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-completed-promise-slot\" id=\"ref-for-dom-imagedecoder-completed-promise-slot②\">[[completed promise]]</a></code>.</p>"
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve①①\">Resolve</a> <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-completed-promise-slot\" id=\"ref-for-dom-imagedecoder-completed-promise-slot②\">[[completed promise]]</a></code>.</p>"
                 }
               ]
             },
@@ -4385,7 +4406,7 @@
               "rationale": "queue",
               "steps": [
                 {
-                  "html": "<p><a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④⓪\">Queue a task</a> to run the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#imagedecoder-close-imagedecoder\" id=\"ref-for-imagedecoder-close-imagedecoder③\">Close ImageDecoder</a>\nalgorithm with a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#notreadableerror\" id=\"ref-for-notreadableerror\">NotReadableError</a></code> <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException⑤①\">DOMException</a></code></p>"
+                  "html": "<p><a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④①\">Queue a task</a> to run the <a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#imagedecoder-close-imagedecoder\" id=\"ref-for-imagedecoder-close-imagedecoder③\">Close ImageDecoder</a>\nalgorithm with a <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#notreadableerror\" id=\"ref-for-notreadableerror\">NotReadableError</a></code> <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException⑤①\">DOMException</a></code></p>"
                 }
               ]
             }
@@ -4410,7 +4431,7 @@
           "rationale": "if",
           "steps": [
             {
-              "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-complete\" id=\"ref-for-dom-imagedecoder-complete③\">complete</a></code> is <code>true</code>, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④①\">queue a task</a> to run the\n<a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#imagedecoder-close-imagedecoder\" id=\"ref-for-imagedecoder-close-imagedecoder④\">Close ImageDecoder</a> algorithm with a\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#invalidstateerror\" id=\"ref-for-invalidstateerror②⑧\">InvalidStateError</a></code> <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException⑤②\">DOMException</a></code>.</p>"
+              "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-complete\" id=\"ref-for-dom-imagedecoder-complete③\">complete</a></code> is <code>true</code>, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④②\">queue a task</a> to run the\n<a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#imagedecoder-close-imagedecoder\" id=\"ref-for-imagedecoder-close-imagedecoder④\">Close ImageDecoder</a> algorithm with a\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#invalidstateerror\" id=\"ref-for-invalidstateerror②⑧\">InvalidStateError</a></code> <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException⑤②\">DOMException</a></code>.</p>"
             },
             {
               "html": "<p>Abort these steps.</p>"
@@ -4418,7 +4439,7 @@
           ]
         },
         {
-          "html": "<p>If the number of tracks is found to be <code>0</code>, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④②\">queue a task</a> to run the\n<a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#imagedecoder-close-imagedecoder\" id=\"ref-for-imagedecoder-close-imagedecoder⑤\">Close ImageDecoder</a> algorithm and abort these steps.</p>"
+          "html": "<p>If the number of tracks is found to be <code>0</code>, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④③\">queue a task</a> to run the\n<a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#imagedecoder-close-imagedecoder\" id=\"ref-for-imagedecoder-close-imagedecoder⑤\">Close ImageDecoder</a> algorithm and abort these steps.</p>"
         },
         {
           "html": "<p>Let <var>newTrackList</var> be a new <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#list\" id=\"ref-for-list①⑨\">list</a>.</p>"
@@ -4472,7 +4493,7 @@
           "html": "<p>Assign <code>true</code> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-tracks-established-slot\" id=\"ref-for-dom-imagedecoder-tracks-established-slot④\">[[tracks established]]</a></code>.</p>"
         },
         {
-          "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④③\">Queue a task</a> to perform the following steps:",
+          "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④④\">Queue a task</a> to perform the following steps:",
           "rationale": "assign",
           "steps": [
             {
@@ -4482,7 +4503,7 @@
               "html": "<p>Assign <var>selectedTrackIndex</var> to <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-tracks\" id=\"ref-for-dom-imagedecoder-tracks④\">tracks</a></code>\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagetracklist-selected-index-slot\" id=\"ref-for-dom-imagetracklist-selected-index-slot②\">[[selected index]]</a></code>.</p>"
             },
             {
-              "html": "<p>Resolve <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagetracklist-ready-promise-slot\" id=\"ref-for-dom-imagetracklist-ready-promise-slot\">[[ready promise]]</a></code>.</p>"
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve①②\">Resolve</a> <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagetracklist-ready-promise-slot\" id=\"ref-for-dom-imagetracklist-ready-promise-slot\">[[ready promise]]</a></code>.</p>"
             }
           ]
         }
@@ -4566,7 +4587,7 @@
           "html": "<p>If <var>tracksChanges</var> <a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#list-is-empty\" id=\"ref-for-list-is-empty\">is empty</a>, abort these steps.</p>"
         },
         {
-          "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④④\">Queue a task</a> to perform the following steps:",
+          "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④⑤\">Queue a task</a> to perform the following steps:",
           "rationale": "for",
           "steps": [
             {
@@ -4792,7 +4813,7 @@
           "html": "<p>Remove <var>promise</var> from <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-pending-decode-promises-slot\" id=\"ref-for-dom-imagedecoder-pending-decode-promises-slot②\">[[pending decode promises]]</a></code>.</p>"
         },
         {
-          "html": "<p>Resolve <var>promise</var> with <var>decodeResult</var>.</p>"
+          "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve①③\">Resolve</a> <var>promise</var> with <var>decodeResult</var>.</p>"
         }
       ]
     },
@@ -4803,7 +4824,7 @@
       "rationale": "queue",
       "steps": [
         {
-          "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④⑤\">Queue a task</a> to perform these steps:",
+          "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④⑥\">Queue a task</a> to perform these steps:",
           "rationale": "if",
           "steps": [
             {
@@ -4816,7 +4837,7 @@
               "html": "<p>Remove <var>promise</var> from <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-pending-decode-promises-slot\" id=\"ref-for-dom-imagedecoder-pending-decode-promises-slot④\">[[pending decode promises]]</a></code>.</p>"
             },
             {
-              "html": "<p>Resolve <var>promise</var> with <var>result</var>.</p>"
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\" id=\"ref-for-resolve①④\">Resolve</a> <var>promise</var> with <var>result</var>.</p>"
             }
           ]
         }
@@ -4835,7 +4856,7 @@
           "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-complete\" id=\"ref-for-dom-imagedecoder-complete⑦\">complete</a></code> is <code>true</code>, let <var>exception</var> be a\n    <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-rangeerror\" id=\"ref-for-exceptiondef-rangeerror⑤\">RangeError</a></code>. Otherwise, let <var>exception</var> be an\n    <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#invalidstateerror\" id=\"ref-for-invalidstateerror②⑨\">InvalidStateError</a></code> <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\" id=\"ref-for-idl-DOMException⑤③\">DOMException</a></code>.</p>"
         },
         {
-          "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④⑥\">Queue a task</a> to perform these steps:",
+          "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④⑦\">Queue a task</a> to perform these steps:",
           "rationale": "if",
           "steps": [
             {
@@ -4848,7 +4869,7 @@
               "html": "<p>Remove <var>promise</var> from <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-pending-decode-promises-slot\" id=\"ref-for-dom-imagedecoder-pending-decode-promises-slot⑥\">[[pending decode promises]]</a></code>.</p>"
             },
             {
-              "html": "<p>Reject <var>promise</var> with <var>exception</var>.</p>"
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#reject\" id=\"ref-for-reject④\">Reject</a> <var>promise</var> with <var>exception</var>.</p>"
             }
           ]
         }
@@ -4861,7 +4882,7 @@
       "rationale": "queue",
       "steps": [
         {
-          "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④⑦\">Queue a task</a> to perform these steps:",
+          "html": "<a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"ref-for-queue-a-task④⑧\">Queue a task</a> to perform these steps:",
           "rationale": "if",
           "steps": [
             {
@@ -4902,7 +4923,7 @@
           "rationale": "reject",
           "steps": [
             {
-              "html": "<p>Reject <var>decodePromise</var> with <var>exception</var>.</p>"
+              "html": "<p><a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#reject\" id=\"ref-for-reject⑤\">Reject</a> <var>decodePromise</var> with <var>exception</var>.</p>"
             },
             {
               "html": "<p>Remove <var>decodePromise</var> from\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-pending-decode-promises-slot\" id=\"ref-for-dom-imagedecoder-pending-decode-promises-slot⑧\">[[pending decode promises]]</a></code>.</p>"
@@ -4927,7 +4948,7 @@
           "html": "<p>Clear <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-codec-implementation-slot\" id=\"ref-for-dom-imagedecoder-codec-implementation-slot⑨\">[[codec implementation]]</a></code> and release associated\n<a data-link-type=\"dfn\" href=\"https://w3c.github.io/webcodecs/#system-resources\" id=\"ref-for-system-resources⑨\">system resources</a>.</p>"
         },
         {
-          "html": "If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-imagetracklist-slot\" id=\"ref-for-dom-imagedecoder-imagetracklist-slot④\">[[ImageTrackList]]</a></code> is empty, reject\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagetracklist-ready-promise-slot\" id=\"ref-for-dom-imagetracklist-ready-promise-slot①\">[[ready promise]]</a></code> with <var>exception</var>. Otherwise\nperform these steps,",
+          "html": "If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-imagetracklist-slot\" id=\"ref-for-dom-imagedecoder-imagetracklist-slot④\">[[ImageTrackList]]</a></code> is empty, <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#reject\" id=\"ref-for-reject⑥\">reject</a>\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagetracklist-ready-promise-slot\" id=\"ref-for-dom-imagetracklist-ready-promise-slot①\">[[ready promise]]</a></code> with <var>exception</var>. Otherwise\nperform these steps,",
           "rationale": "remove",
           "steps": [
             {
@@ -4939,7 +4960,7 @@
           ]
         },
         {
-          "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-complete-slot\" id=\"ref-for-dom-imagedecoder-complete-slot⑤\">[[complete]]</a></code> is false resolve\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-completed-promise-slot\" id=\"ref-for-dom-imagedecoder-completed-promise-slot③\">[[completed promise]]</a></code> with <var>exception</var>.</p>"
+          "html": "<p>If <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-complete-slot\" id=\"ref-for-dom-imagedecoder-complete-slot⑤\">[[complete]]</a></code> is false, <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#reject\" id=\"ref-for-reject⑦\">reject</a>\n<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/webcodecs/#dom-imagedecoder-completed-promise-slot\" id=\"ref-for-dom-imagedecoder-completed-promise-slot③\">[[completed promise]]</a></code> with <var>exception</var>.</p>"
         }
       ]
     },

@@ -41,7 +41,7 @@ partial interface XRSession {
   Promise<undefined> deletePersistentAnchor(DOMString uuid);
 };
 
-// Source: WebXR Plane Detection Module (https://immersive-web.github.io/real-world-geometry/plane-detection.html)
+// Source: WebXR Plane Detection Module (https://immersive-web.github.io/plane-detection/)
 partial interface XRSession {
   Promise<undefined> initiateRoomCapture();
 };
@@ -84,4 +84,9 @@ partial interface XRSession {
 partial interface XRSession {
   Promise<XRLightProbe> requestLightProbe(optional XRLightProbeInit options = {});
   readonly attribute XRReflectionFormat preferredReflectionFormat;
+};
+
+// Source: WebXR Layers API Level 1 (https://www.w3.org/TR/webxrlayers-1/)
+[SecureContext, Exposed=Window] partial interface XRSession {
+  readonly attribute unsigned long maxRenderLayers;
 };

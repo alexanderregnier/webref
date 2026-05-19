@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Linked Parameters",
+    "title": "CSS Linked Parameters Module Level 1",
     "url": "https://drafts.csswg.org/css-link-params-1/"
   },
   "links": {
@@ -28,13 +28,12 @@
       },
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://drafts.csswg.org/css-color-4/": {},
-      "https://drafts.csswg.org/css-env-1/": {},
-      "https://drafts.csswg.org/css-mixins/": {},
+      "https://drafts.csswg.org/css-conditional-5/": {},
       "https://drafts.csswg.org/css-syntax/": {},
       "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/css-variables-2/": {},
+      "https://drafts.csswg.org/fill-stroke/": {},
       "https://drafts.csswg.org/selectors/": {},
-      "https://drafts.fxtf.org/fill-stroke/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
@@ -73,14 +72,9 @@
           "valdef-color-blue"
         ]
       },
-      "https://drafts.csswg.org/css-env-1/": {
+      "https://drafts.csswg.org/css-conditional-5/": {
         "anchors": [
-          "funcdef-env"
-        ]
-      },
-      "https://drafts.csswg.org/css-mixins-1/": {
-        "anchors": [
-          "scoped-environment-variables"
+          "funcdef-supports-env"
         ]
       },
       "https://drafts.csswg.org/css-syntax-3/": {
@@ -105,14 +99,14 @@
           "custom-property"
         ]
       },
+      "https://drafts.csswg.org/fill-stroke-3/": {
+        "anchors": [
+          "propdef-fill"
+        ]
+      },
       "https://drafts.csswg.org/selectors-4/": {
         "anchors": [
           "hover-pseudo"
-        ]
-      },
-      "https://drafts.fxtf.org/fill-stroke-3/": {
-        "anchors": [
-          "propdef-fill"
         ]
       },
       "https://html.spec.whatwg.org/multipage/embedded-content.html": {

@@ -2175,15 +2175,21 @@
       "https://drafts.csswg.org/css-break/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-color-hdr-1/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox-2/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
       "https://drafts.csswg.org/css-fonts-3/": {
         "anchors": [
           "font-kerning-prop",
           "feature-precedence"
         ]
       },
-      "https://drafts.csswg.org/css-fonts-4/": {},
+      "https://drafts.csswg.org/css-fonts-4/": {
+        "anchors": [
+          "font-optical-sizing-def"
+        ]
+      },
       "https://drafts.csswg.org/css-inline-3/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-overflow-4/": {},
@@ -2229,6 +2235,7 @@
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/csswg-drafts/issues/10161": {},
       "https://github.com/w3c/csswg-drafts/issues/10186": {},
+      "https://github.com/w3c/csswg-drafts/issues/12886": {},
       "https://github.com/w3c/csswg-drafts/issues/1484": {},
       "https://github.com/w3c/csswg-drafts/issues/1518": {},
       "https://github.com/w3c/csswg-drafts/issues/2165": {},
@@ -6674,7 +6681,8 @@
           "legacy-name-alias",
           "valdef-all-inherit",
           "inherited-value",
-          "css-legacy-value-alias"
+          "css-legacy-value-alias",
+          "computed-value"
         ]
       },
       "https://drafts.csswg.org/css-color-hdr-1/": {
@@ -6706,7 +6714,7 @@
           "block"
         ]
       },
-      "https://drafts.csswg.org/css-flexbox-1/": {
+      "https://drafts.csswg.org/css-flexbox-2/": {
         "anchors": [
           "flex-item",
           "flex-line",
@@ -6722,8 +6730,8 @@
       "https://drafts.csswg.org/css-inline-3/": {
         "anchors": [
           "line-box",
-          "propdef-vertical-align",
-          "valdef-alignment-baseline-baseline"
+          "propdef-initial-letter",
+          "propdef-vertical-align"
         ]
       },
       "https://drafts.csswg.org/css-overflow-3/": {
@@ -6800,6 +6808,8 @@
           "line-right",
           "inline-start",
           "inline-end",
+          "block-size",
+          "block-axis",
           "propdef-text-orientation",
           "propdef-text-combine-upright",
           "bidi-isolate",
@@ -6810,7 +6820,9 @@
       },
       "https://drafts.csswg.org/css2/": {
         "anchors": [
-          "doclanguage"
+          "doclanguage",
+          "propdef-float",
+          "valdef-vertical-align-baseline"
         ]
       },
       "https://drafts.csswg.org/cssom-1/": {

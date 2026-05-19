@@ -66,7 +66,10 @@
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
-          "byte-sequence"
+          "byte-sequence",
+          "list",
+          "list-iterate",
+          "list-append"
         ]
       },
       "https://streams.spec.whatwg.org/": {
@@ -117,6 +120,7 @@
           "idl-DOMException",
           "exceptiondef-typeerror",
           "reject",
+          "invalidaccesserror",
           "networkerror",
           "resolve",
           "EnforceRange",
@@ -133,7 +137,9 @@
           "BufferSource",
           "dfn-get-buffer-source-copy",
           "invalidstateerror",
-          "idl-ArrayBuffer"
+          "idl-octet",
+          "idl-ArrayBuffer",
+          "idl-frozen-array"
         ]
       },
       "https://wicg.github.io/isolated-web-apps/isolated-contexts.html": {

@@ -1,0 +1,1163 @@
+{
+  "spec": {
+    "title": "WebMCP",
+    "url": "https://webmachinelearning.github.io/webmcp/"
+  },
+  "dfns": [
+    {
+      "id": "agent",
+      "href": "https://webmachinelearning.github.io/webmcp/#agent",
+      "linkingText": [
+        "agent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://webmachinelearning.github.io/webmcp/#terminology",
+        "title": "Terminology",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "browsers-agent",
+      "href": "https://webmachinelearning.github.io/webmcp/#browsers-agent",
+      "linkingText": [
+        "browser’s agent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://webmachinelearning.github.io/webmcp/#terminology",
+        "title": "Terminology",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "ai-platform",
+      "href": "https://webmachinelearning.github.io/webmcp/#ai-platform",
+      "linkingText": [
+        "AI platform"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://webmachinelearning.github.io/webmcp/#terminology",
+        "title": "Terminology",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "model-context",
+      "href": "https://webmachinelearning.github.io/webmcp/#model-context",
+      "linkingText": [
+        "model context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "supporting-concepts",
+        "href": "https://webmachinelearning.github.io/webmcp/#supporting-concepts",
+        "title": "Supporting concepts",
+        "number": "3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "model-context-tool-map",
+      "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool-map",
+      "linkingText": [
+        "tool map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "model context"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "supporting-concepts",
+        "href": "https://webmachinelearning.github.io/webmcp/#supporting-concepts",
+        "title": "Supporting concepts",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "tool-definition",
+      "href": "https://webmachinelearning.github.io/webmcp/#tool-definition",
+      "linkingText": [
+        "tool definition"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "supporting-concepts",
+        "href": "https://webmachinelearning.github.io/webmcp/#supporting-concepts",
+        "title": "Supporting concepts",
+        "number": "3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "tool-definition-name",
+      "href": "https://webmachinelearning.github.io/webmcp/#tool-definition-name",
+      "linkingText": [
+        "name"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "tool definition"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "supporting-concepts",
+        "href": "https://webmachinelearning.github.io/webmcp/#supporting-concepts",
+        "title": "Supporting concepts",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "tool-definition-title",
+      "href": "https://webmachinelearning.github.io/webmcp/#tool-definition-title",
+      "linkingText": [
+        "title"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "tool definition"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "supporting-concepts",
+        "href": "https://webmachinelearning.github.io/webmcp/#supporting-concepts",
+        "title": "Supporting concepts",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "tool-definition-description",
+      "href": "https://webmachinelearning.github.io/webmcp/#tool-definition-description",
+      "linkingText": [
+        "description"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "tool definition"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "supporting-concepts",
+        "href": "https://webmachinelearning.github.io/webmcp/#supporting-concepts",
+        "title": "Supporting concepts",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "tool-definition-input-schema",
+      "href": "https://webmachinelearning.github.io/webmcp/#tool-definition-input-schema",
+      "linkingText": [
+        "input schema"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "tool definition"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "supporting-concepts",
+        "href": "https://webmachinelearning.github.io/webmcp/#supporting-concepts",
+        "title": "Supporting concepts",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "tool-definition-execute-steps",
+      "href": "https://webmachinelearning.github.io/webmcp/#tool-definition-execute-steps",
+      "linkingText": [
+        "execute steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "tool definition"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "supporting-concepts",
+        "href": "https://webmachinelearning.github.io/webmcp/#supporting-concepts",
+        "title": "Supporting concepts",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "tool-definition-read-only-hint",
+      "href": "https://webmachinelearning.github.io/webmcp/#tool-definition-read-only-hint",
+      "linkingText": [
+        "read-only hint"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "tool definition"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "supporting-concepts",
+        "href": "https://webmachinelearning.github.io/webmcp/#supporting-concepts",
+        "title": "Supporting concepts",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "tool-definition-untrusted-content-hint",
+      "href": "https://webmachinelearning.github.io/webmcp/#tool-definition-untrusted-content-hint",
+      "linkingText": [
+        "untrusted content hint"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "tool definition"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "supporting-concepts",
+        "href": "https://webmachinelearning.github.io/webmcp/#supporting-concepts",
+        "title": "Supporting concepts",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "model-context-unregister-a-tool",
+      "href": "https://webmachinelearning.github.io/webmcp/#model-context-unregister-a-tool",
+      "linkingText": [
+        "unregister a tool"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "model context"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "supporting-concepts",
+        "href": "https://webmachinelearning.github.io/webmcp/#supporting-concepts",
+        "title": "Supporting concepts",
+        "number": "3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "navigator-associated-modelcontext",
+      "href": "https://webmachinelearning.github.io/webmcp/#navigator-associated-modelcontext",
+      "linkingText": [
+        "associated ModelContext"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Navigator"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigator-extension",
+        "href": "https://webmachinelearning.github.io/webmcp/#navigator-extension",
+        "title": "Extensions to the Navigator Interface",
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "modelcontext-creation-document",
+      "href": "https://webmachinelearning.github.io/webmcp/#modelcontext-creation-document",
+      "linkingText": [
+        "creation Document"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "ModelContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigator-extension",
+        "href": "https://webmachinelearning.github.io/webmcp/#navigator-extension",
+        "title": "Extensions to the Navigator Interface",
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-navigator-modelcontext",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-navigator-modelcontext",
+      "linkingText": [
+        "modelContext"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "Navigator"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "navigator-extension",
+        "href": "https://webmachinelearning.github.io/webmcp/#navigator-extension",
+        "title": "Extensions to the Navigator Interface",
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "ref-for-dom-navigator-modelcontext②",
+          "name": "navigator.modelContext.registerTool(tool, options)",
+          "href": "https://webmachinelearning.github.io/webmcp/#ref-for-dom-navigator-modelcontext%E2%91%A1",
+          "heading": {
+            "id": "model-context-container",
+            "href": "https://webmachinelearning.github.io/webmcp/#model-context-container",
+            "title": "ModelContext Interface",
+            "number": "4.2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "modelcontext",
+      "href": "https://webmachinelearning.github.io/webmcp/#modelcontext",
+      "linkingText": [
+        "ModelContext"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-container",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-container",
+        "title": "ModelContext Interface",
+        "number": "4.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-modelcontext-registertool-tool-options-tool",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-modelcontext-registertool-tool-options-tool",
+      "linkingText": [
+        "tool"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "ModelContext/registerTool(tool, options)",
+        "ModelContext/registerTool(tool)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-container",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-container",
+        "title": "ModelContext Interface",
+        "number": "4.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-modelcontext-registertool-tool-options-options",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-modelcontext-registertool-tool-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "ModelContext/registerTool(tool, options)",
+        "ModelContext/registerTool(tool)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-container",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-container",
+        "title": "ModelContext Interface",
+        "number": "4.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "modelcontext-internal-context",
+      "href": "https://webmachinelearning.github.io/webmcp/#modelcontext-internal-context",
+      "linkingText": [
+        "internal context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "ModelContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "model-context-container",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-container",
+        "title": "ModelContext Interface",
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-modelcontext-registertool",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-modelcontext-registertool",
+      "linkingText": [
+        "registerTool(tool, options)",
+        "registerTool(tool)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "ModelContext"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-container",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-container",
+        "title": "ModelContext Interface",
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "ref-for-dom-modelcontext-registertool②",
+          "name": "navigator.modelContext.registerTool(tool, options)",
+          "href": "https://webmachinelearning.github.io/webmcp/#ref-for-dom-modelcontext-registertool%E2%91%A1",
+          "heading": {
+            "id": "model-context-container",
+            "href": "https://webmachinelearning.github.io/webmcp/#model-context-container",
+            "title": "ModelContext Interface",
+            "number": "4.2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dictdef-modelcontexttool",
+      "href": "https://webmachinelearning.github.io/webmcp/#dictdef-modelcontexttool",
+      "linkingText": [
+        "ModelContextTool"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-tool",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+        "title": "ModelContextTool Dictionary",
+        "number": "4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-modelcontexttool-name",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-modelcontexttool-name",
+      "linkingText": [
+        "name"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ModelContextTool"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-tool",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+        "title": "ModelContextTool Dictionary",
+        "number": "4.2.1"
+      },
+      "definedIn": "pre",
+      "links": [
+        {
+          "type": "dev",
+          "id": "ref-for-dom-modelcontexttool-name②",
+          "name": "tool[\"name\"]",
+          "href": "https://webmachinelearning.github.io/webmcp/#ref-for-dom-modelcontexttool-name%E2%91%A1",
+          "heading": {
+            "id": "model-context-tool",
+            "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+            "title": "ModelContextTool Dictionary",
+            "number": "4.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-modelcontexttool-title",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-modelcontexttool-title",
+      "linkingText": [
+        "title"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ModelContextTool"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-tool",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+        "title": "ModelContextTool Dictionary",
+        "number": "4.2.1"
+      },
+      "definedIn": "pre",
+      "links": [
+        {
+          "type": "dev",
+          "id": "ref-for-dom-modelcontexttool-title②",
+          "name": "tool[\"title\"]",
+          "href": "https://webmachinelearning.github.io/webmcp/#ref-for-dom-modelcontexttool-title%E2%91%A1",
+          "heading": {
+            "id": "model-context-tool",
+            "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+            "title": "ModelContextTool Dictionary",
+            "number": "4.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-modelcontexttool-description",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-modelcontexttool-description",
+      "linkingText": [
+        "description"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ModelContextTool"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-tool",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+        "title": "ModelContextTool Dictionary",
+        "number": "4.2.1"
+      },
+      "definedIn": "pre",
+      "links": [
+        {
+          "type": "dev",
+          "id": "ref-for-dom-modelcontexttool-description③",
+          "name": "tool[\"description\"]",
+          "href": "https://webmachinelearning.github.io/webmcp/#ref-for-dom-modelcontexttool-description%E2%91%A2",
+          "heading": {
+            "id": "model-context-tool",
+            "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+            "title": "ModelContextTool Dictionary",
+            "number": "4.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-modelcontexttool-inputschema",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-modelcontexttool-inputschema",
+      "linkingText": [
+        "inputSchema"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ModelContextTool"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-tool",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+        "title": "ModelContextTool Dictionary",
+        "number": "4.2.1"
+      },
+      "definedIn": "pre",
+      "links": [
+        {
+          "type": "dev",
+          "id": "ref-for-dom-modelcontexttool-inputschema④",
+          "name": "tool[\"inputSchema\"]",
+          "href": "https://webmachinelearning.github.io/webmcp/#ref-for-dom-modelcontexttool-inputschema%E2%91%A3",
+          "heading": {
+            "id": "model-context-tool",
+            "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+            "title": "ModelContextTool Dictionary",
+            "number": "4.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-modelcontexttool-execute",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-modelcontexttool-execute",
+      "linkingText": [
+        "execute"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ModelContextTool"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-tool",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+        "title": "ModelContextTool Dictionary",
+        "number": "4.2.1"
+      },
+      "definedIn": "pre",
+      "links": [
+        {
+          "type": "dev",
+          "id": "ref-for-dom-modelcontexttool-execute①",
+          "name": "tool[\"execute\"]",
+          "href": "https://webmachinelearning.github.io/webmcp/#ref-for-dom-modelcontexttool-execute%E2%91%A0",
+          "heading": {
+            "id": "model-context-tool",
+            "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+            "title": "ModelContextTool Dictionary",
+            "number": "4.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-modelcontexttool-annotations",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-modelcontexttool-annotations",
+      "linkingText": [
+        "annotations"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ModelContextTool"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-tool",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+        "title": "ModelContextTool Dictionary",
+        "number": "4.2.1"
+      },
+      "definedIn": "pre",
+      "links": [
+        {
+          "type": "dev",
+          "id": "ref-for-dom-modelcontexttool-annotations②",
+          "name": "tool[\"annotations\"]",
+          "href": "https://webmachinelearning.github.io/webmcp/#ref-for-dom-modelcontexttool-annotations%E2%91%A1",
+          "heading": {
+            "id": "model-context-tool",
+            "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+            "title": "ModelContextTool Dictionary",
+            "number": "4.2.1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dictdef-toolannotations",
+      "href": "https://webmachinelearning.github.io/webmcp/#dictdef-toolannotations",
+      "linkingText": [
+        "ToolAnnotations"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-tool",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+        "title": "ModelContextTool Dictionary",
+        "number": "4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "callbackdef-toolexecutecallback",
+      "href": "https://webmachinelearning.github.io/webmcp/#callbackdef-toolexecutecallback",
+      "linkingText": [
+        "ToolExecuteCallback"
+      ],
+      "localLinkingText": [],
+      "type": "callback",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-tool",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+        "title": "ModelContextTool Dictionary",
+        "number": "4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-toolexecutecallback-input",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-toolexecutecallback-input",
+      "linkingText": [
+        "input"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "ToolExecuteCallback"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-tool",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+        "title": "ModelContextTool Dictionary",
+        "number": "4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-toolexecutecallback-client",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-toolexecutecallback-client",
+      "linkingText": [
+        "client"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "ToolExecuteCallback"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-tool",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+        "title": "ModelContextTool Dictionary",
+        "number": "4.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-toolannotations-readonlyhint",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-toolannotations-readonlyhint",
+      "linkingText": [
+        "readOnlyHint"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ToolAnnotations"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-tool",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+        "title": "ModelContextTool Dictionary",
+        "number": "4.2.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-toolannotations-untrustedcontenthint",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-toolannotations-untrustedcontenthint",
+      "linkingText": [
+        "untrustedContentHint"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ToolAnnotations"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-tool",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-tool",
+        "title": "ModelContextTool Dictionary",
+        "number": "4.2.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dictdef-modelcontextregistertooloptions",
+      "href": "https://webmachinelearning.github.io/webmcp/#dictdef-modelcontextregistertooloptions",
+      "linkingText": [
+        "ModelContextRegisterToolOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-register-tool-options",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-register-tool-options",
+        "title": "ModelContextRegisterToolOptions Dictionary",
+        "number": "4.2.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-modelcontextregistertooloptions-signal",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-modelcontextregistertooloptions-signal",
+      "linkingText": [
+        "signal"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ModelContextRegisterToolOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-register-tool-options",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-register-tool-options",
+        "title": "ModelContextRegisterToolOptions Dictionary",
+        "number": "4.2.2"
+      },
+      "definedIn": "pre",
+      "links": [
+        {
+          "type": "dev",
+          "id": "ref-for-dom-modelcontextregistertooloptions-signal①",
+          "name": "tool[\"signal\"]",
+          "href": "https://webmachinelearning.github.io/webmcp/#ref-for-dom-modelcontextregistertooloptions-signal%E2%91%A0",
+          "heading": {
+            "id": "model-context-register-tool-options",
+            "href": "https://webmachinelearning.github.io/webmcp/#model-context-register-tool-options",
+            "title": "ModelContextRegisterToolOptions Dictionary",
+            "number": "4.2.2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "modelcontextclient",
+      "href": "https://webmachinelearning.github.io/webmcp/#modelcontextclient",
+      "linkingText": [
+        "ModelContextClient"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-client",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-client",
+        "title": "ModelContextClient Interface",
+        "number": "4.2.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-modelcontextclient-requestuserinteraction-callback-callback",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-modelcontextclient-requestuserinteraction-callback-callback",
+      "linkingText": [
+        "callback"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "ModelContextClient/requestUserInteraction(callback)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-client",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-client",
+        "title": "ModelContextClient Interface",
+        "number": "4.2.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "callbackdef-userinteractioncallback",
+      "href": "https://webmachinelearning.github.io/webmcp/#callbackdef-userinteractioncallback",
+      "linkingText": [
+        "UserInteractionCallback"
+      ],
+      "localLinkingText": [],
+      "type": "callback",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-client",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-client",
+        "title": "ModelContextClient Interface",
+        "number": "4.2.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-modelcontextclient-requestuserinteraction",
+      "href": "https://webmachinelearning.github.io/webmcp/#dom-modelcontextclient-requestuserinteraction",
+      "linkingText": [
+        "requestUserInteraction(callback)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "ModelContextClient"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model-context-client",
+        "href": "https://webmachinelearning.github.io/webmcp/#model-context-client",
+        "title": "ModelContextClient Interface",
+        "number": "4.2.3"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "ref-for-dom-modelcontextclient-requestuserinteraction①",
+          "name": "client.requestUserInteraction(callback)",
+          "href": "https://webmachinelearning.github.io/webmcp/#ref-for-dom-modelcontextclient-requestuserinteraction%E2%91%A0",
+          "heading": {
+            "id": "model-context-client",
+            "href": "https://webmachinelearning.github.io/webmcp/#model-context-client",
+            "title": "ModelContextClient Interface",
+            "number": "4.2.3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "synthesize-a-declarative-json-schema-object-algorithm",
+      "href": "https://webmachinelearning.github.io/webmcp/#synthesize-a-declarative-json-schema-object-algorithm",
+      "linkingText": [
+        "synthesize a declarative JSON Schema object algorithm"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "declarative-api",
+        "href": "https://webmachinelearning.github.io/webmcp/#declarative-api",
+        "title": "Declarative WebMCP",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "ai-agent-queue",
+      "href": "https://webmachinelearning.github.io/webmcp/#ai-agent-queue",
+      "linkingText": [
+        "AI agent queue"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "event-loop",
+        "href": "https://webmachinelearning.github.io/webmcp/#event-loop",
+        "title": "Event loop integration",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "tool-calling-task-source",
+      "href": "https://webmachinelearning.github.io/webmcp/#tool-calling-task-source",
+      "linkingText": [
+        "tool calling task source"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "event-loop",
+        "href": "https://webmachinelearning.github.io/webmcp/#event-loop",
+        "title": "Event loop integration",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "observation",
+      "href": "https://webmachinelearning.github.io/webmcp/#observation",
+      "linkingText": [
+        "observation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "observations",
+        "href": "https://webmachinelearning.github.io/webmcp/#observations",
+        "title": "Page observations",
+        "number": "5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "observation-tool-map",
+      "href": "https://webmachinelearning.github.io/webmcp/#observation-tool-map",
+      "linkingText": [
+        "tool map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "observation"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "observations",
+        "href": "https://webmachinelearning.github.io/webmcp/#observations",
+        "title": "Page observations",
+        "number": "5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "perform-an-observation",
+      "href": "https://webmachinelearning.github.io/webmcp/#perform-an-observation",
+      "linkingText": [
+        "perform an observation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "observations",
+        "href": "https://webmachinelearning.github.io/webmcp/#observations",
+        "title": "Page observations",
+        "number": "5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "document-unique-id",
+      "href": "https://webmachinelearning.github.io/webmcp/#document-unique-id",
+      "linkingText": [
+        "unique ID"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Document"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "observations",
+        "href": "https://webmachinelearning.github.io/webmcp/#observations",
+        "title": "Page observations",
+        "number": "5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    }
+  ]
+}

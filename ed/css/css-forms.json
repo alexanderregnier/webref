@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Form Control Styling Level 1",
+    "title": "CSS Form Control Styling Module Level 1",
     "url": "https://drafts.csswg.org/css-forms-1/"
   },
   "properties": [
@@ -10,7 +10,6 @@
       "values": [
         {
           "name": "base",
-          "prose": "When applied on a form control, base puts that control in the basic appearance state.",
           "href": "https://drafts.csswg.org/css-forms-1/#valdef-appearance-base",
           "type": "value",
           "value": "base"

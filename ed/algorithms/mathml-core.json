@@ -434,6 +434,45 @@
       ]
     },
     {
+      "name": "mathmlanchorelement-href-getter",
+      "html": "The <a href=\"https://w3c.github.io/mathml-core/#dom-mathmlanchorelement-href\" id=\"ref-for-dom-mathmlanchorelement-href-1\">href</a> getter steps are:",
+      "rationale": ".algorithm",
+      "steps": [
+        {
+          "html": "<a href=\"https://w3c.github.io/mathml-core/#reinitialise-url\">Reinitialize url</a>."
+        },
+        {
+          "html": "Let <var>url</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\">this</a>'s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/#concept-hyperlink-url\">url</a>."
+        },
+        {
+          "html": "If <var>url</var> is null and <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\">this</a> has no <code><a data-link-type=\"element-attr\" href=\"https://w3c.github.io/mathml-core/#dfn-href\" class=\"internalDFN\" id=\"ref-for-dfn-href-3\">href</a></code> content attribute, then return the empty string."
+        },
+        {
+          "html": "Otherwise, if <var>url</var> is null, then return <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\">this</a>'s <code><a data-link-type=\"element-attr\" href=\"https://w3c.github.io/mathml-core/#dfn-href\" class=\"internalDFN\" id=\"ref-for-dfn-href-4\">href</a></code> content attribute's value."
+        },
+        {
+          "html": "Return <var>url</var>, serialized."
+        }
+      ]
+    },
+    {
+      "name": "set the url",
+      "href": "https://w3c.github.io/mathml-core/#dfn-set-the-url",
+      "html": "The <dfn id=\"dfn-set-the-url\" class=\"externalDFN\" data-no-export=\"\" data-dfn-type=\"dfn\"><a href=\"https://html.spec.whatwg.org/#concept-hyperlink-url-set\">set the url</a></dfn> algorithm for a <code>MathMLAnchorElement</code> are:",
+      "rationale": ".algorithm",
+      "steps": [
+        {
+          "html": "If <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\">this</a> element's <code><a data-link-type=\"element-attr\" href=\"https://w3c.github.io/mathml-core/#dfn-href\" class=\"internalDFN\" id=\"ref-for-dfn-href-5\">href</a></code> content attribute is absent, then return."
+        },
+        {
+          "html": "Let <var>url</var> be the result of <a href=\"https://w3c.github.io/mathml-core/#encoding-parsing-a-url\">encoding-parsing a URL</a> given <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\">this</a> element's <code><a data-link-type=\"element-attr\" href=\"https://w3c.github.io/mathml-core/#dfn-href\" class=\"internalDFN\" id=\"ref-for-dfn-href-6\">href</a></code> content attribute's value, relative to <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\">this</a> element's <a href=\"https://w3c.github.io/mathml-core/#concept-node-document\">node document</a>."
+        },
+        {
+          "html": "If <var>url</var> is not failure, then set <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\">this</a>'s <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/#concept-hyperlink-url\">url</a> to <var>url</var>."
+        }
+      ]
+    },
+    {
       "html": "If the specified value of \n          <a data-link-type=\"css-property\" href=\"https://www.w3.org/TR/css-fonts-4/#propdef-font-size\">font-size</a>\n          is <code>math</code> then the\n          computed value of\n          <a data-link-type=\"css-property\" href=\"https://www.w3.org/TR/css-fonts-4/#propdef-font-size\">font-size</a>\n          is obtained by multiplying the inherited value of\n          <a data-link-type=\"css-property\" href=\"https://www.w3.org/TR/css-fonts-4/#propdef-font-size\">font-size</a>\n          by a nonzero scale factor calculated by the\n          following procedure:",
       "rationale": ".algorithm",
       "steps": [
@@ -444,7 +483,7 @@
           "html": "<ul>\n              <li>If A = B then return S.</li>\n              <li>If B &lt; A, swap A and B and set <code>InvertScaleFactor</code> to true.</li>\n              <li>Otherwise B &gt; A and set <code>InvertScaleFactor</code> to false.</li>\n            </ul>"
         },
         {
-          "html": "Let E be B - A &gt; 0."
+          "html": "Let E be B - A, which is positive."
         },
         {
           "html": "If the inherited <a data-link-type=\"dfn\" href=\"https://www.w3.org/TR/css-fonts-4/#first-available-font\">first available font</a> has an OpenType MATH table:\n            <ul>\n              <li>If A ≤ 0 and B ≥ 2 then multiply S by <a href=\"https://w3c.github.io/mathml-core/#dfn-scriptscriptpercentscaledown\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-scriptscriptpercentscaledown-1\">scriptScriptPercentScaleDown</a> and\n                decrement E by 2.</li>\n              <li>Otherwise if A = 1 then multiply S by\n                <a href=\"https://w3c.github.io/mathml-core/#dfn-scriptscriptpercentscaledown\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-scriptscriptpercentscaledown-2\">scriptScriptPercentScaleDown</a> / <a href=\"https://w3c.github.io/mathml-core/#dfn-scriptpercentscaledown\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-scriptpercentscaledown-1\">scriptPercentScaleDown</a> and\n                decrement E by 1.</li>\n              <li>Otherwise if B = 1 then multiply S by <a href=\"https://w3c.github.io/mathml-core/#dfn-scriptpercentscaledown\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-scriptpercentscaledown-2\">scriptPercentScaleDown</a>\n                and decrement E by 1.</li>\n            </ul>"

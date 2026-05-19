@@ -45,10 +45,8 @@
       "https://github.com/asurkov": {},
       "https://github.com/benbeaudry": {},
       "https://github.com/billybonks": {},
-      "https://github.com/boazsender": {},
       "https://github.com/boggydigital": {},
       "https://github.com/bpmcneilly": {},
-      "https://github.com/brennanyoung": {},
       "https://github.com/carmacleod": {},
       "https://github.com/chlane": {},
       "https://github.com/cookiecrook": {},
@@ -56,10 +54,12 @@
       "https://github.com/dakahn": {},
       "https://github.com/dandclark": {},
       "https://github.com/dbjorge": {},
+      "https://github.com/dd8": {},
       "https://github.com/deniak": {},
       "https://github.com/design1online": {},
       "https://github.com/domenic": {},
       "https://github.com/dontcallmedom": {},
+      "https://github.com/dtsengchromium": {},
       "https://github.com/einSelbst": {},
       "https://github.com/eps1lon": {},
       "https://github.com/estelle": {},
@@ -84,6 +84,7 @@
       "https://github.com/marcoscaceres": {},
       "https://github.com/mattgarrish": {},
       "https://github.com/mcking65": {},
+      "https://github.com/medeaoblongata": {},
       "https://github.com/melanierichards": {},
       "https://github.com/mlewand": {},
       "https://github.com/mrego": {},
@@ -356,8 +357,6 @@
           "progressbar",
           "status",
           "option",
-          "generic",
-          "none",
           "group",
           "row",
           "aria-label",
@@ -402,11 +401,13 @@
           "emphasis",
           "feed",
           "figure",
+          "generic",
           "img",
           "insertion",
           "mark",
           "math",
           "meter",
+          "none",
           "note",
           "paragraph",
           "presentation",
@@ -431,8 +432,6 @@
           "search",
           "alert",
           "log",
-          "marquee",
-          "timer",
           "alertdialog",
           "dialog",
           "image",
@@ -478,16 +477,19 @@
           "aria-valuemin",
           "aria-valuemax",
           "aria-placeholder",
+          "marquee",
           "sectionfooter",
-          "sectionheader"
+          "sectionheader",
+          "timer"
         ]
       },
       "https://w3c.github.io/core-aam/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://wiki.linuxfoundation.org/accessibility/iaccessible2/": {},
       "https://wiki.linuxfoundation.org/accessibility/iaccessible2/start": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
       "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc2119.txt": {},
+      "https://www.rfc-editor.org/rfc/rfc8174": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/2006/REC-xml-names-20060816/": {},
       "https://www.w3.org/TR/MathML3/": {},
@@ -501,10 +503,9 @@
       },
       "https://www.w3.org/TR/accname-1.2/": {},
       "https://www.w3.org/TR/core-aam-1.1/": {},
-      "https://www.w3.org/TR/core-aam-1.2/": {},
-      "https://www.w3.org/TR/css3-selectors/": {
+      "https://www.w3.org/TR/core-aam-1.2/": {
         "anchors": [
-          "attribute-selectors"
+          "arianotify"
         ]
       },
       "https://www.w3.org/TR/design-principles/": {
@@ -524,15 +525,15 @@
           "docconformance"
         ]
       },
+      "https://www.w3.org/TR/permissions-policy-1/": {},
       "https://www.w3.org/TR/role-attribute/": {
         "anchors": [
           "s_role_module_attributes"
         ]
       },
-      "https://www.w3.org/TR/selectors-3/": {},
+      "https://www.w3.org/TR/selectors-4/": {},
       "https://www.w3.org/TR/uievents-key/": {},
       "https://www.w3.org/TR/wai-aria-1.1/": {},
-      "https://www.w3.org/TR/wai-aria-practices-1.2/": {},
       "https://www.w3.org/TR/xml-names/": {},
       "https://www.w3.org/TR/xmlschema11-2/": {
         "anchors": [
@@ -550,7 +551,7 @@
       "https://www.w3.org/WAI/ARIA/1.2/class-diagram/": {},
       "https://www.w3.org/WAI/ARIA/apg/": {},
       "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/": {},
-      "https://www.w3.org/WAI/ARIA/apg/practices/keyboard-interface": {},
+      "https://www.w3.org/WAI/ARIA/apg/practices/keyboard-interface/": {},
       "https://www.w3.org/WAI/intro/aria": {},
       "https://www.w3.org/WAI/standards-guidelines/aria/": {},
       "https://www.w3.org/groups/wg/aria": {},
@@ -569,7 +570,8 @@
           "concept-element",
           "concept-attribute",
           "concept-node",
-          "element"
+          "element",
+          "document"
         ]
       },
       "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html": {
@@ -632,6 +634,11 @@
           "the-p-element",
           "the-search-element",
           "the-hr-element"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
+        "anchors": [
+          "allowed-to-use"
         ]
       },
       "https://html.spec.whatwg.org/multipage/input.html": {
@@ -708,13 +715,25 @@
         "anchors": [
           "dfn-nullable-type",
           "idl-DOMString",
-          "idl-frozen-array"
+          "idl-frozen-array",
+          "idl-undefined"
         ]
       },
       "https://www.w3.org/TR/accname-1.2/": {
         "anchors": [
           "dfn-accessible-description",
           "dfn-accessible-name"
+        ]
+      },
+      "https://www.w3.org/TR/permissions-policy-1/": {
+        "anchors": [
+          "policy-controlled-feature",
+          "policy-controlled-feature-default-allowlist"
+        ]
+      },
+      "https://www.w3.org/TR/selectors-4/": {
+        "anchors": [
+          "attribute-selector"
         ]
       }
     }

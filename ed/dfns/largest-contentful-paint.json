@@ -47,6 +47,72 @@
       "links": []
     },
     {
+      "id": "largest-contentful-paint-candidate-size",
+      "href": "https://w3c.github.io/largest-contentful-paint/#largest-contentful-paint-candidate-size",
+      "linkingText": [
+        "size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "largest contentful paint candidate"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-terminology",
+        "href": "https://w3c.github.io/largest-contentful-paint/#sec-terminology",
+        "title": "Terminology",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "largest-contentful-paint-candidate-width",
+      "href": "https://w3c.github.io/largest-contentful-paint/#largest-contentful-paint-candidate-width",
+      "linkingText": [
+        "width"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "largest contentful paint candidate"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-terminology",
+        "href": "https://w3c.github.io/largest-contentful-paint/#sec-terminology",
+        "title": "Terminology",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "largest-contentful-paint-candidate-height",
+      "href": "https://w3c.github.io/largest-contentful-paint/#largest-contentful-paint-candidate-height",
+      "linkingText": [
+        "height"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "largest contentful paint candidate"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-terminology",
+        "href": "https://w3c.github.io/largest-contentful-paint/#sec-terminology",
+        "title": "Terminology",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "largest-contentful-paint-candidate-request",
       "href": "https://w3c.github.io/largest-contentful-paint/#largest-contentful-paint-candidate-request",
       "linkingText": [
@@ -69,14 +135,16 @@
       "links": []
     },
     {
-      "id": "eligible-to-be-largest-contentful-paint",
-      "href": "https://w3c.github.io/largest-contentful-paint/#eligible-to-be-largest-contentful-paint",
+      "id": "largest-contentful-paint-candidate-loadtime",
+      "href": "https://w3c.github.io/largest-contentful-paint/#largest-contentful-paint-candidate-loadtime",
       "linkingText": [
-        "eligible to be largest contentful paint"
+        "loadTime"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "largest contentful paint candidate"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -393,10 +461,30 @@
       "links": []
     },
     {
-      "id": "content-set",
-      "href": "https://w3c.github.io/largest-contentful-paint/#content-set",
+      "id": "largest-contentful-paint-width",
+      "href": "https://w3c.github.io/largest-contentful-paint/#largest-contentful-paint-width",
       "linkingText": [
-        "content set"
+        "largest contentful paint width"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-largest-contentful-paint-interface",
+        "href": "https://w3c.github.io/largest-contentful-paint/#sec-largest-contentful-paint-interface",
+        "title": "LargestContentfulPaint interface",
+        "number": "3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "largest-contentful-paint-height",
+      "href": "https://w3c.github.io/largest-contentful-paint/#largest-contentful-paint-height",
+      "linkingText": [
+        "largest contentful paint height"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -473,21 +561,87 @@
       "links": []
     },
     {
-      "id": "potentially-add-a-largestcontentfulpaint-entry",
-      "href": "https://w3c.github.io/largest-contentful-paint/#potentially-add-a-largestcontentfulpaint-entry",
+      "id": "effective-visual-size-result",
+      "href": "https://w3c.github.io/largest-contentful-paint/#effective-visual-size-result",
       "linkingText": [
-        "potentially add a LargestContentfulPaint entry"
+        "effective visual size result"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "public",
+      "access": "private",
       "informative": false,
       "heading": {
-        "id": "sec-add-lcp-entry",
-        "href": "https://w3c.github.io/largest-contentful-paint/#sec-add-lcp-entry",
-        "title": "Potentially add LargestContentfulPaint entry",
-        "number": "4.4"
+        "id": "sec-effective-visual-size",
+        "href": "https://w3c.github.io/largest-contentful-paint/#sec-effective-visual-size",
+        "title": "Determine the effective visual size of an element",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "effective-visual-size-result-size",
+      "href": "https://w3c.github.io/largest-contentful-paint/#effective-visual-size-result-size",
+      "linkingText": [
+        "size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "effective visual size result"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-effective-visual-size",
+        "href": "https://w3c.github.io/largest-contentful-paint/#sec-effective-visual-size",
+        "title": "Determine the effective visual size of an element",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "effective-visual-size-result-width",
+      "href": "https://w3c.github.io/largest-contentful-paint/#effective-visual-size-result-width",
+      "linkingText": [
+        "width"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "effective visual size result"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-effective-visual-size",
+        "href": "https://w3c.github.io/largest-contentful-paint/#sec-effective-visual-size",
+        "title": "Determine the effective visual size of an element",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "effective-visual-size-result-height",
+      "href": "https://w3c.github.io/largest-contentful-paint/#effective-visual-size-result-height",
+      "linkingText": [
+        "height"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "effective visual size result"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-effective-visual-size",
+        "href": "https://w3c.github.io/largest-contentful-paint/#sec-effective-visual-size",
+        "title": "Determine the effective visual size of an element",
+        "number": "4.3"
       },
       "definedIn": "prose",
       "links": []
@@ -507,7 +661,7 @@
         "id": "sec-create-entry",
         "href": "https://w3c.github.io/largest-contentful-paint/#sec-create-entry",
         "title": "Create a LargestContentfulPaint entry",
-        "number": "4.5"
+        "number": "4.4"
       },
       "definedIn": "prose",
       "links": []

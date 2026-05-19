@@ -38,6 +38,7 @@
       "https://drafts.csswg.org/css-break/": {},
       "https://drafts.csswg.org/css-color-4/": {},
       "https://drafts.csswg.org/css-color-5/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
       "https://drafts.csswg.org/css-fonts-3/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
@@ -208,6 +209,7 @@
           "inline-formatting-context",
           "anonymous",
           "inline-level",
+          "out-of-flow",
           "non-replaced",
           "atomic-inline",
           "propdef-visibility"
@@ -221,8 +223,7 @@
       },
       "https://drafts.csswg.org/css-inline-3/": {
         "anchors": [
-          "propdef-vertical-align",
-          "valdef-alignment-baseline-baseline"
+          "propdef-vertical-align"
         ]
       },
       "https://drafts.csswg.org/css-overflow-3/": {
@@ -259,7 +260,7 @@
           "comb-all",
           "mult-opt",
           "length-value",
-          "mult-num-range",
+          "mult-num",
           "mult-comma"
         ]
       },
@@ -272,6 +273,11 @@
           "valdef-writing-mode-sideways-lr",
           "valdef-writing-mode-sideways-rl",
           "propdef-writing-mode"
+        ]
+      },
+      "https://drafts.csswg.org/css2/": {
+        "anchors": [
+          "valdef-vertical-align-baseline"
         ]
       },
       "https://html.spec.whatwg.org/multipage/edits.html": {

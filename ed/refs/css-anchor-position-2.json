@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Anchor Positioning Level 2",
+    "title": "CSS Anchor Positioning Module Level 2",
     "url": "https://drafts.csswg.org/css-anchor-position-2/"
   },
   "refs": {
@@ -18,8 +18,8 @@
         "url": "https://drafts.csswg.org/css-contain-2/"
       },
       {
-        "name": "CSS-SCOPING-1",
-        "url": "https://drafts.csswg.org/css-scoping/"
+        "name": "CSS-SHADOW-1",
+        "url": "https://drafts.csswg.org/css-shadow-1/"
       },
       {
         "name": "CSS-VALUES-4",
@@ -41,7 +41,7 @@
     "informative": [
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display/"
+        "url": "https://drafts.csswg.org/css-display-4/"
       },
       {
         "name": "CSS-LISTS-3",

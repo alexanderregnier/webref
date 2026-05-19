@@ -1,0 +1,5 @@
+// Source: Web Extensions (https://w3c.github.io/webextensions/specification/)
+enum ExecutionWorld {
+    "ISOLATED",
+    "MAIN"
+};

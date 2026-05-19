@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "ECMAScript® 2026 Language Specification",
+    "title": "ECMAScript® 2027 Language Specification",
     "url": "https://tc39.es/ecma262/multipage/"
   },
   "links": {
@@ -17,10 +17,12 @@
       },
       "https://ampl.com/_archive/first-website/REFS/rounding.pdf": {},
       "https://arxiv.org/abs/1505.05571": {},
+      "https://bsky.app/profile/chronicles.org": {},
       "https://bsky.app/profile/michael.ficarra.me": {},
       "https://datatracker.ietf.org/doc/html/rfc4648": {},
       "https://ecma-international.org/": {},
       "https://ecma-international.org/memento/codeofconduct.htm": {},
+      "https://ecma-international.org/publications-and-standards/standards/ecma-262/": {},
       "https://es.discourse.group/": {},
       "https://esdiscuss.org/": {},
       "https://github.com/bterlson/ecmarkup": {},

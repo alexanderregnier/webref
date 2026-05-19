@@ -103,6 +103,12 @@
       "styleDeclaration": [
         "text-decoration",
         "textDecoration"
+      ],
+      "longhands": [
+        "text-decoration-line",
+        "text-decoration-thickness",
+        "text-decoration-style",
+        "text-decoration-color"
       ]
     },
     {
@@ -255,6 +261,10 @@
       "styleDeclaration": [
         "text-emphasis",
         "textEmphasis"
+      ],
+      "longhands": [
+        "text-emphasis-style",
+        "text-emphasis-color"
       ]
     },
     {
@@ -306,7 +316,7 @@
     {
       "name": "text-shadow",
       "href": "https://drafts.csswg.org/css-text-decor-3/#propdef-text-shadow",
-      "value": "none | [ <color>? && <length>{2,3} ]#",
+      "value": "none | [ <color>? && [ <length>{2} <length [0,∞]>? ] ]#",
       "initial": "none",
       "appliesTo": "text",
       "inherited": "yes",

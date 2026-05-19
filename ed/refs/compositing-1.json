@@ -1,7 +1,7 @@
 {
   "spec": {
-    "title": "Compositing and Blending Level 1",
-    "url": "https://drafts.fxtf.org/compositing-1/"
+    "title": "Compositing and Blending Module Level 1",
+    "url": "https://drafts.csswg.org/compositing-1/"
   },
   "refs": {
     "normative": [
@@ -11,7 +11,7 @@
       },
       {
         "name": "CSS-MASKING-1",
-        "url": "https://drafts.fxtf.org/css-masking-1/"
+        "url": "https://drafts.csswg.org/css-masking-1/"
       },
       {
         "name": "CSS-VALUES-4",

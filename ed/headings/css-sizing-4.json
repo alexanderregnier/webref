@@ -158,18 +158,39 @@
       "number": "5.2.2"
     },
     {
+      "id": "responsive-iframes",
+      "href": "https://drafts.csswg.org/css-sizing-4/#responsive-iframes",
+      "level": 3,
+      "title": "Responsively-sized iframes: the frame-sizing property",
+      "number": "5.3"
+    },
+    {
+      "id": "iframe-frame-sizing",
+      "href": "https://drafts.csswg.org/css-sizing-4/#iframe-frame-sizing",
+      "level": 4,
+      "title": "HTML iframe Details",
+      "number": "5.3.1"
+    },
+    {
+      "id": "window-requestresize",
+      "href": "https://drafts.csswg.org/css-sizing-4/#window-requestresize",
+      "level": 4,
+      "title": "Extensions to the Window Interface",
+      "number": "5.3.2"
+    },
+    {
       "id": "intrinsic-contribution",
       "href": "https://drafts.csswg.org/css-sizing-4/#intrinsic-contribution",
       "level": 3,
       "title": "Intrinsic Size Contributions",
-      "number": "5.3"
+      "number": "5.4"
     },
     {
       "id": "intrinsic-contribution-override",
       "href": "https://drafts.csswg.org/css-sizing-4/#intrinsic-contribution-override",
       "level": 3,
       "title": "Zeroing Min-Content Size Contributions: the min-intrinsic-sizing property",
-      "number": "5.4"
+      "number": "5.5"
     },
     {
       "id": "extrinsic",
@@ -206,10 +227,16 @@
       "title": "Changes"
     },
     {
-      "id": "changes-2020-05",
-      "href": "https://drafts.csswg.org/css-sizing-4/#changes-2020-05",
+      "id": "changes-2021-05",
+      "href": "https://drafts.csswg.org/css-sizing-4/#changes-2021-05",
       "level": 3,
-      "title": "Recent Changes"
+      "title": "Changes since 5 May 2021 Working Draft"
+    },
+    {
+      "id": "changes-2020-10",
+      "href": "https://drafts.csswg.org/css-sizing-4/#changes-2020-10",
+      "level": 3,
+      "title": "Changes since 20 October 2020 Working Draft"
     },
     {
       "id": "additions-L3",
@@ -305,13 +332,19 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-sizing-4/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",
       "href": "https://drafts.csswg.org/css-sizing-4/#property-index",
       "level": 2,
       "title": "Property Index"
+    },
+    {
+      "id": "idl-index",
+      "href": "https://drafts.csswg.org/css-sizing-4/#idl-index",
+      "level": 2,
+      "title": "IDL Index"
     },
     {
       "id": "issues-index",

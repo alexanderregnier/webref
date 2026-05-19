@@ -4964,6 +4964,48 @@
       "links": []
     },
     {
+      "id": "insert-suppressobservers",
+      "href": "https://dom.spec.whatwg.org/#insert-suppressobservers",
+      "linkingText": [
+        "suppressObservers"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "insert"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "mutation-algorithms",
+        "href": "https://dom.spec.whatwg.org/#mutation-algorithms",
+        "title": "Mutation algorithms",
+        "number": "4.2.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "concept-node-append",
+      "href": "https://dom.spec.whatwg.org/#concept-node-append",
+      "linkingText": [
+        "append"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mutation-algorithms",
+        "href": "https://dom.spec.whatwg.org/#mutation-algorithms",
+        "title": "Mutation algorithms",
+        "number": "4.2.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "concept-node-move-ext",
       "href": "https://dom.spec.whatwg.org/#concept-node-move-ext",
       "linkingText": [
@@ -4993,26 +5035,6 @@
       "type": "dfn",
       "for": [],
       "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "mutation-algorithms",
-        "href": "https://dom.spec.whatwg.org/#mutation-algorithms",
-        "title": "Mutation algorithms",
-        "number": "4.2.3"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "concept-node-append",
-      "href": "https://dom.spec.whatwg.org/#concept-node-append",
-      "linkingText": [
-        "append"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
       "informative": false,
       "heading": {
         "id": "mutation-algorithms",
@@ -5115,6 +5137,28 @@
       "type": "dfn",
       "for": [],
       "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mutation-algorithms",
+        "href": "https://dom.spec.whatwg.org/#mutation-algorithms",
+        "title": "Mutation algorithms",
+        "number": "4.2.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "remove-suppressobservers",
+      "href": "https://dom.spec.whatwg.org/#remove-suppressobservers",
+      "linkingText": [
+        "suppressObservers"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "remove"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "mutation-algorithms",
@@ -5258,15 +5302,15 @@
       ]
     },
     {
-      "id": "converting-nodes-into-a-node",
-      "href": "https://dom.spec.whatwg.org/#converting-nodes-into-a-node",
+      "id": "convert-nodes-into-a-node",
+      "href": "https://dom.spec.whatwg.org/#convert-nodes-into-a-node",
       "linkingText": [
-        "converting nodes into a node"
+        "convert nodes into a node"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "public",
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "interface-parentnode",
@@ -20265,7 +20309,7 @@
       "id": "concept-traversal-active",
       "href": "https://dom.spec.whatwg.org/#concept-traversal-active",
       "linkingText": [
-        "active flag"
+        "is active"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -21671,6 +21715,50 @@
         "DOMTokenList"
       ],
       "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-domtokenlist",
+        "href": "https://dom.spec.whatwg.org/#interface-domtokenlist",
+        "title": "Interface DOMTokenList",
+        "number": "7.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "domtokenlist-element",
+      "href": "https://dom.spec.whatwg.org/#domtokenlist-element",
+      "linkingText": [
+        "element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "DOMTokenList"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interface-domtokenlist",
+        "href": "https://dom.spec.whatwg.org/#interface-domtokenlist",
+        "title": "Interface DOMTokenList",
+        "number": "7.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "domtokenlist-attribute-name",
+      "href": "https://dom.spec.whatwg.org/#domtokenlist-attribute-name",
+      "linkingText": [
+        "attribute name"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "DOMTokenList"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "interface-domtokenlist",

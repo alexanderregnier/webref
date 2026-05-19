@@ -45,6 +45,11 @@ partial interface Navigator {
   readonly attribute Bluetooth bluetooth;
 };
 
+// Source: WebMCP (https://webmachinelearning.github.io/webmcp/)
+partial interface Navigator {
+  [SecureContext] readonly attribute ModelContext modelContext;
+};
+
 // Source: Fenced Frame (https://wicg.github.io/fenced-frame/)
 partial interface Navigator {
   Promise<undefined> deprecatedReplaceInURN(
@@ -102,62 +107,6 @@ partial interface Navigator {
 // Source: Storage Buckets API (https://wicg.github.io/storage-buckets/)
 Navigator includes NavigatorStorageBuckets;
 
-// Source: Protected Audience (formerly FLEDGE) (https://wicg.github.io/turtledove/)
-[SecureContext]
-partial interface Navigator {
-  Promise<undefined> joinAdInterestGroup(AuctionAdInterestGroup group);
-};
-
-// Source: Protected Audience (formerly FLEDGE) (https://wicg.github.io/turtledove/)
-[SecureContext]
-partial interface Navigator {
-  Promise<undefined> leaveAdInterestGroup(optional AuctionAdInterestGroupKey group = {});
-};
-
-// Source: Protected Audience (formerly FLEDGE) (https://wicg.github.io/turtledove/)
-[SecureContext]
-partial interface Navigator {
-  Promise<undefined> clearOriginJoinedAdInterestGroups(
-      USVString owner, optional sequence<USVString> interestGroupsToKeep = []);
-};
-
-// Source: Protected Audience (formerly FLEDGE) (https://wicg.github.io/turtledove/)
-[SecureContext]
-partial interface Navigator {
-  Promise<(USVString or FencedFrameConfig)?> runAdAuction(AuctionAdConfig config);
-  readonly attribute boolean deprecatedRunAdAuctionEnforcesKAnonymity;
-};
-
-// Source: Protected Audience (formerly FLEDGE) (https://wicg.github.io/turtledove/)
-[SecureContext]
-partial interface Navigator {
-  boolean canLoadAdAuctionFencedFrame();
-};
-
-// Source: Protected Audience (formerly FLEDGE) (https://wicg.github.io/turtledove/)
-[SecureContext]
-partial interface Navigator {
-  Promise<AdAuctionData> getInterestGroupAdAuctionData(optional AdAuctionDataConfig config = {});
-};
-
-// Source: Protected Audience (formerly FLEDGE) (https://wicg.github.io/turtledove/)
-[SecureContext]
-partial interface Navigator {
-  Promise<DOMString> createAuctionNonce();
-};
-
-// Source: Protected Audience (formerly FLEDGE) (https://wicg.github.io/turtledove/)
-[SecureContext]
-partial interface Navigator {
-  undefined updateAdInterestGroups();
-};
-
-// Source: Protected Audience (formerly FLEDGE) (https://wicg.github.io/turtledove/)
-[SecureContext]
-partial interface Navigator {
-  [SameObject] readonly attribute ProtectedAudience protectedAudience;
-};
-
 // Source: User-Agent Client Hints (https://wicg.github.io/ua-client-hints/)
 Navigator includes NavigatorUA;
 
@@ -184,6 +133,11 @@ partial interface Navigator {
 [SecureContext, Exposed=(Window)]
 partial interface Navigator {
   [SameObject] readonly attribute WindowControlsOverlay windowControlsOverlay;
+};
+
+// Source: Attribution Level 1 (https://www.w3.org/TR/attribution/)
+partial interface Navigator {
+  [SecureContext, SameObject] readonly attribute Attribution attribution;
 };
 
 // Source: Audio Session (https://www.w3.org/TR/audio-session/)
@@ -231,7 +185,7 @@ partial interface Navigator {
   [SecureContext, SameObject] readonly attribute CredentialsContainer credentials;
 };
 
-// Source: Device Memory (https://www.w3.org/TR/device-memory-1/)
+// Source: Device Memory API (https://www.w3.org/TR/device-memory-1/)
 Navigator includes NavigatorDeviceMemory;
 
 // Source: Device Posture API (https://www.w3.org/TR/device-posture/)
@@ -304,11 +258,6 @@ partial interface Navigator {
 // Source: Presentation API (https://www.w3.org/TR/presentation-api/)
 partial interface Navigator {
   [SecureContext, SameObject] readonly attribute Presentation presentation;
-};
-
-// Source: Attribution Level 1 (https://www.w3.org/TR/privacy-preserving-attribution/)
-partial interface Navigator {
-  [SecureContext, SameObject] readonly attribute Attribution attribution;
 };
 
 // Source: Screen Wake Lock API (https://www.w3.org/TR/screen-wake-lock/)

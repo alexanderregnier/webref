@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Form Control Styling Level 1",
+    "title": "CSS Form Control Styling Module Level 1",
     "url": "https://drafts.csswg.org/css-forms-1/"
   },
   "links": {
@@ -35,11 +35,11 @@
       "https://drafts.csswg.org/selectors/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/csswg-drafts/issues/11336": {},
-      "https://github.com/w3c/csswg-drafts/issues/11837": {},
       "https://github.com/w3c/csswg-drafts/issues/11842": {},
       "https://github.com/w3c/csswg-drafts/issues/11844": {},
       "https://github.com/w3c/csswg-drafts/issues/11850": {},
       "https://github.com/w3c/csswg-drafts/issues/11860": {},
+      "https://github.com/w3c/csswg-drafts/issues/12267": {},
       "https://github.com/w3c/csswg-drafts/issues/4410": {
         "anchors": [
           "issuecomment-1087244943"
@@ -48,7 +48,16 @@
       "https://github.com/w3c/csswg-drafts/issues/6788": {},
       "https://github.com/w3c/csswg-drafts/issues/7422": {},
       "https://github.com/whatwg/html/issues/7293": {},
-      "https://html.spec.whatwg.org/multipage/": {},
+      "https://html.spec.whatwg.org/multipage/": {
+        "anchors": [
+          "the-fieldset-and-legend-elements:the-fieldset-element-2"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/rendering.html": {
+        "anchors": [
+          "the-select-element-2"
+        ]
+      },
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://www.w3.org/TR/2025/WD-css-forms-1-20250325/": {},
@@ -112,8 +121,7 @@
       },
       "https://drafts.csswg.org/css-ui-4/": {
         "anchors": [
-          "propdef-appearance",
-          "propdef-accent-color"
+          "propdef-appearance"
         ]
       },
       "https://drafts.csswg.org/css-values-4/": {

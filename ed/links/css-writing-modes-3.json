@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Writing Modes Level 3",
+    "title": "CSS Writing Modes Module Level 3",
     "url": "https://drafts.csswg.org/css-writing-modes-3/"
   },
   "links": {
@@ -55,8 +55,9 @@
         ]
       },
       "https://drafts.csswg.org/css-contain-2/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
       "https://drafts.csswg.org/css-fonts-3/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
       "https://drafts.csswg.org/css-images-3/": {},
@@ -229,6 +230,7 @@
       },
       "https://drafts.csswg.org/css-display-4/": {
         "anchors": [
+          "propdef-display",
           "block-container",
           "valdef-display-inline",
           "replaced-element",
@@ -261,9 +263,9 @@
         "anchors": [
           "root-inline-box",
           "propdef-vertical-align",
-          "valdef-alignment-baseline-baseline",
           "valdef-baseline-shift-sub",
-          "valdef-baseline-shift-super"
+          "valdef-baseline-shift-super",
+          "central-baseline"
         ]
       },
       "https://drafts.csswg.org/css-multicol-2/": {
@@ -347,7 +349,7 @@
       },
       "https://drafts.csswg.org/css2/": {
         "anchors": [
-          "propdef-display",
+          "valdef-vertical-align-baseline",
           "propdef-border-spacing",
           "propdef-line-height",
           "propdef-min-height",

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Scroll-driven Animations",
+    "title": "Scroll-driven Animations Module Level 1",
     "url": "https://drafts.csswg.org/scroll-animations-1/"
   },
   "dfns": [
@@ -831,6 +831,28 @@
       "links": []
     },
     {
+      "id": "valdef-animation-timeline-range-scroll",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-animation-timeline-range-scroll",
+      "linkingText": [
+        "scroll"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "animation-timeline-range"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "view-timelines-ranges",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#view-timelines-ranges",
+        "title": "View Progress Timeline Ranges",
+        "number": "3.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "funcdef-view",
       "href": "https://drafts.csswg.org/scroll-animations-1/#funcdef-view",
       "linkingText": [
@@ -1212,6 +1234,26 @@
         "number": "3.4.4"
       },
       "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "target-timeline",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#target-timeline",
+      "linkingText": [
+        "target timeline"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "timeline-scoping",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#timeline-scoping",
+        "title": "Named Timeline Scoping and Lookup",
+        "number": "4.2"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {

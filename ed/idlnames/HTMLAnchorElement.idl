@@ -3,13 +3,10 @@
 interface HTMLAnchorElement : HTMLElement {
   [HTMLConstructor] constructor();
 
-  [CEReactions, Reflect] attribute DOMString target;
   [CEReactions, Reflect] attribute DOMString download;
   [CEReactions, Reflect] attribute USVString ping;
   [CEReactions, Reflect] attribute DOMString rel;
   [SameObject, PutForwards=value, Reflect="rel"] readonly attribute DOMTokenList relList;
-  [CEReactions, Reflect] attribute DOMString hreflang;
-  [CEReactions, Reflect] attribute DOMString type;
 
   [CEReactions] attribute DOMString text;
 
@@ -17,6 +14,9 @@ interface HTMLAnchorElement : HTMLElement {
 
   // also has obsolete members
 };
+
+// Source: HTML Standard (https://html.spec.whatwg.org/multipage/)
+HTMLAnchorElement includes HyperlinkElementUtils;
 
 // Source: HTML Standard (https://html.spec.whatwg.org/multipage/)
 HTMLAnchorElement includes HTMLHyperlinkElementUtils;
@@ -34,6 +34,3 @@ partial interface HTMLAnchorElement {
 partial interface HTMLAnchorElement {
     [CEReactions] attribute unsigned long attributionSourceId;
 };
-
-// Source: Attribution Reporting (https://wicg.github.io/attribution-reporting-api/)
-HTMLAnchorElement includes HTMLAttributionSrcElementUtils;

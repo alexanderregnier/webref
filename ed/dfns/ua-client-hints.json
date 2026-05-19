@@ -1385,6 +1385,952 @@
       "links": []
     },
     {
+      "id": "cddl-type-useragentclienthintscommand",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-type-useragentclienthintscommand",
+      "linkingText": [
+        "UserAgentClientHintsCommand"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "brand-version",
+      "href": "https://wicg.github.io/ua-client-hints/#brand-version",
+      "linkingText": [
+        "brand version"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "brand-version-brand",
+      "href": "https://wicg.github.io/ua-client-hints/#brand-version-brand",
+      "linkingText": [
+        "brand"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "brand version"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "brand-version-version",
+      "href": "https://wicg.github.io/ua-client-hints/#brand-version-version",
+      "linkingText": [
+        "version"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "brand version"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "user-agent-client-hints",
+      "href": "https://wicg.github.io/ua-client-hints/#user-agent-client-hints",
+      "linkingText": [
+        "user agent client hints"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "user-agent-client-hints-brands",
+      "href": "https://wicg.github.io/ua-client-hints/#user-agent-client-hints-brands",
+      "linkingText": [
+        "brands"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "user agent client hints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "user-agent-client-hints-full-version",
+      "href": "https://wicg.github.io/ua-client-hints/#user-agent-client-hints-full-version",
+      "linkingText": [
+        "full version"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "user agent client hints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "user-agent-client-hints-full-version-list",
+      "href": "https://wicg.github.io/ua-client-hints/#user-agent-client-hints-full-version-list",
+      "linkingText": [
+        "full version list"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "user agent client hints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "user-agent-client-hints-mobile",
+      "href": "https://wicg.github.io/ua-client-hints/#user-agent-client-hints-mobile",
+      "linkingText": [
+        "mobile"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "user agent client hints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "user-agent-client-hints-model",
+      "href": "https://wicg.github.io/ua-client-hints/#user-agent-client-hints-model",
+      "linkingText": [
+        "model"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "user agent client hints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "user-agent-client-hints-platform",
+      "href": "https://wicg.github.io/ua-client-hints/#user-agent-client-hints-platform",
+      "linkingText": [
+        "platform"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "user agent client hints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "user-agent-client-hints-platform-version",
+      "href": "https://wicg.github.io/ua-client-hints/#user-agent-client-hints-platform-version",
+      "linkingText": [
+        "platform version"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "user agent client hints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "user-agent-client-hints-architecture",
+      "href": "https://wicg.github.io/ua-client-hints/#user-agent-client-hints-architecture",
+      "linkingText": [
+        "architecture"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "user agent client hints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "user-agent-client-hints-bitness",
+      "href": "https://wicg.github.io/ua-client-hints/#user-agent-client-hints-bitness",
+      "linkingText": [
+        "bitness"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "user agent client hints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "user-agent-client-hints-wow64",
+      "href": "https://wicg.github.io/ua-client-hints/#user-agent-client-hints-wow64",
+      "linkingText": [
+        "wow64"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "user agent client hints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "emulated-client-hints",
+      "href": "https://wicg.github.io/ua-client-hints/#emulated-client-hints",
+      "linkingText": [
+        "emulated client hints"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "emulated-client-hints-default-emulated-client-hints",
+      "href": "https://wicg.github.io/ua-client-hints/#emulated-client-hints-default-emulated-client-hints",
+      "linkingText": [
+        "default emulated client hints"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "emulated client hints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "emulated-client-hints-emulated-client-hints-per-user-contexts",
+      "href": "https://wicg.github.io/ua-client-hints/#emulated-client-hints-emulated-client-hints-per-user-contexts",
+      "linkingText": [
+        "emulated client hints per user contexts"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "emulated client hints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "emulated-client-hints-emulated-client-hints-per-navigables",
+      "href": "https://wicg.github.io/ua-client-hints/#emulated-client-hints-emulated-client-hints-per-navigables",
+      "linkingText": [
+        "emulated client hints per navigables"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "emulated client hints"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "automation-definitions",
+        "href": "https://wicg.github.io/ua-client-hints/#automation-definitions",
+        "title": "Definitions",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "commands-useragentclienthintssetclienthintsoverride",
+      "href": "https://wicg.github.io/ua-client-hints/#commands-useragentclienthintssetclienthintsoverride",
+      "linkingText": [
+        "userAgentClientHints.setClientHintsOverride"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "commands"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-useragentclienthintssetclienthintsoverridecommand",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-type-useragentclienthintssetclienthintsoverridecommand",
+      "linkingText": [
+        "userAgentClientHints.SetClientHintsOverrideCommand"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintssetclienthintsoverridecommand-method",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintssetclienthintsoverridecommand-method",
+      "linkingText": [
+        "method",
+        "\"method\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.SetClientHintsOverrideCommand"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-useragentclienthintssetclienthintsoverridecommand-method-useragentclienthintssetclienthintsoverride",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-value-useragentclienthintssetclienthintsoverridecommand-method-useragentclienthintssetclienthintsoverride",
+      "linkingText": [
+        "userAgentClientHints.setClientHintsOverride",
+        "\"userAgentClientHints.setClientHintsOverride\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "userAgentClientHints.SetClientHintsOverrideCommand/method"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintssetclienthintsoverridecommand-params",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintssetclienthintsoverridecommand-params",
+      "linkingText": [
+        "params",
+        "\"params\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.SetClientHintsOverrideCommand"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintssetclienthintsoverridecommand-params-clienthints",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintssetclienthintsoverridecommand-params-clienthints",
+      "linkingText": [
+        "clientHints",
+        "\"clientHints\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.SetClientHintsOverrideCommand/params"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintssetclienthintsoverridecommand-params-contexts",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintssetclienthintsoverridecommand-params-contexts",
+      "linkingText": [
+        "contexts",
+        "\"contexts\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.SetClientHintsOverrideCommand/params"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintssetclienthintsoverridecommand-params-usercontexts",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintssetclienthintsoverridecommand-params-usercontexts",
+      "linkingText": [
+        "userContexts",
+        "\"userContexts\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.SetClientHintsOverrideCommand/params"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-useragentclienthintsclienthintsmetadata",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-type-useragentclienthintsclienthintsmetadata",
+      "linkingText": [
+        "userAgentClientHints.ClientHintsMetadata"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintsclienthintsmetadata-brands",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-brands",
+      "linkingText": [
+        "brands",
+        "\"brands\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.ClientHintsMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintsclienthintsmetadata-fullversionlist",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-fullversionlist",
+      "linkingText": [
+        "fullVersionList",
+        "\"fullVersionList\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.ClientHintsMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintsclienthintsmetadata-platform",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-platform",
+      "linkingText": [
+        "platform",
+        "\"platform\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.ClientHintsMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintsclienthintsmetadata-platformversion",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-platformversion",
+      "linkingText": [
+        "platformVersion",
+        "\"platformVersion\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.ClientHintsMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintsclienthintsmetadata-architecture",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-architecture",
+      "linkingText": [
+        "architecture",
+        "\"architecture\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.ClientHintsMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintsclienthintsmetadata-model",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-model",
+      "linkingText": [
+        "model",
+        "\"model\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.ClientHintsMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintsclienthintsmetadata-mobile",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-mobile",
+      "linkingText": [
+        "mobile",
+        "\"mobile\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.ClientHintsMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintsclienthintsmetadata-bitness",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-bitness",
+      "linkingText": [
+        "bitness",
+        "\"bitness\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.ClientHintsMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintsclienthintsmetadata-wow64",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-wow64",
+      "linkingText": [
+        "wow64",
+        "\"wow64\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.ClientHintsMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintsclienthintsmetadata-formfactors",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsclienthintsmetadata-formfactors",
+      "linkingText": [
+        "formFactors",
+        "\"formFactors\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.ClientHintsMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-useragentclienthintsbrandversion",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-type-useragentclienthintsbrandversion",
+      "linkingText": [
+        "userAgentClientHints.BrandVersion"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintsbrandversion-brand",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsbrandversion-brand",
+      "linkingText": [
+        "brand",
+        "\"brand\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.BrandVersion"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-useragentclienthintsbrandversion-version",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-key-useragentclienthintsbrandversion-version",
+      "linkingText": [
+        "version",
+        "\"version\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "userAgentClientHints.BrandVersion"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-useragentclienthintssetclienthintsoverrideresult",
+      "href": "https://wicg.github.io/ua-client-hints/#cddl-type-useragentclienthintssetclienthintsoverrideresult",
+      "linkingText": [
+        "userAgentClientHints.SetClientHintsOverrideResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "emulated-ua-client-hints",
+      "href": "https://wicg.github.io/ua-client-hints/#emulated-ua-client-hints",
+      "linkingText": [
+        "emulated UA Client Hints"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulation-setclienthintsoverride",
+        "href": "https://wicg.github.io/ua-client-hints/#emulation-setclienthintsoverride",
+        "title": "The userAgentClientHints.setClientHintsOverride command",
+        "number": "5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "ch-ua-high-entropy-values",
       "href": "https://wicg.github.io/ua-client-hints/#ch-ua-high-entropy-values",
       "linkingText": [
@@ -1399,7 +2345,7 @@
         "id": "permisisons-policy-integration",
         "href": "https://wicg.github.io/ua-client-hints/#permisisons-policy-integration",
         "title": "Permissions-Policy Integration",
-        "number": "5"
+        "number": "6"
       },
       "definedIn": "prose",
       "links": []

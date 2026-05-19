@@ -18,6 +18,10 @@
         "url": "https://drafts.csswg.org/css-color-adjust-1/"
       },
       {
+        "name": "CSS-IMAGES-3",
+        "url": "https://drafts.csswg.org/css-images-3/"
+      },
+      {
         "name": "CSS-SYNTAX-3",
         "url": "https://drafts.csswg.org/css-syntax/"
       },
@@ -61,7 +65,7 @@
       },
       {
         "name": "FOGRA51",
-        "url": "https://www.color.org/chardata/fogra51.xalter"
+        "url": "https://registry.color.org/cmyk-registry/fogra51"
       },
       {
         "name": "FOGRA55",

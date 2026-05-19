@@ -6,10 +6,24 @@
   "links": {
     "rawlinks": {
       "https://gdpr.eu/": {},
-      "https://github.com/w3c/rdf-n-triples/issues/66": {},
-      "https://github.com/w3c/rdf-n-triples/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Asubstantive%22": {},
+      "https://httpwg.org/specs/rfc7231.html": {
+        "anchors": [
+          "header.content-type",
+          "header.accept"
+        ]
+      },
       "https://oag.ca.gov/privacy/ccpa": {},
       "https://termly.io/resources/infographics/privacy-laws-around-the-world/": {},
+      "https://tools.ietf.org/html/rfc3986": {
+        "anchors": [
+          "section-5.1"
+        ]
+      },
+      "https://tools.ietf.org/html/rfc4288": {
+        "anchors": [
+          "section-4.3"
+        ]
+      },
       "https://w3c.github.io/rdf-interop/spec/": {},
       "https://w3c.github.io/rdf-new/spec/": {},
       "https://w3c.github.io/rdf-tests/rdf/rdf11/rdf-n-triples/index.html": {
@@ -19,6 +33,7 @@
           "comment_following_triple"
         ]
       },
+      "https://w3c.github.io/rdf-tests/rdf/rdf12/rdf-n-triples/": {},
       "https://w3c.github.io/rdf-tests/rdf/rdf12/rdf-n-triples/c14n/index.html": {
         "anchors": [
           "minimal_whitespace-01",
@@ -78,11 +93,13 @@
           "section-2.2"
         ]
       },
+      "https://www.rfc-editor.org/rfc/rfc4288": {},
       "https://www.rfc-editor.org/rfc/rfc5646": {
         "anchors": [
           "section-2.2.9"
         ]
       },
+      "https://www.rfc-editor.org/rfc/rfc6906": {},
       "https://www.rfc-editor.org/rfc/rfc8174": {},
       "https://www.unicode.org/reports/tr36/tr36-15.html": {},
       "https://www.unicode.org/versions/latest/": {},
@@ -94,6 +111,7 @@
           "dfn-surrogate"
         ]
       },
+      "https://www.w3.org/TR/n-triples/": {},
       "https://www.w3.org/TR/rdf-testcases/": {},
       "https://www.w3.org/TR/rdf12-concepts/": {
         "anchors": [

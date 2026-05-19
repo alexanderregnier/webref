@@ -189,15 +189,13 @@
       },
       "https://www.w3.org/TR/css-display-3/": {
         "anchors": [
-          "transformations"
-        ]
-      },
-      "https://www.w3.org/TR/css-display-4/": {},
-      "https://www.w3.org/TR/css-flexbox-1/": {
-        "anchors": [
+          "transformations",
           "order-accessibility"
         ]
       },
+      "https://www.w3.org/TR/css-display-4/": {},
+      "https://www.w3.org/TR/css-flexbox-1/": {},
+      "https://www.w3.org/TR/css-gaps-1/": {},
       "https://www.w3.org/TR/css-images-3/": {},
       "https://www.w3.org/TR/css-inline-3/": {},
       "https://www.w3.org/TR/css-multicol-2/": {},
@@ -277,10 +275,14 @@
       }
     },
     "autolinks": {
-      "https://drafts.csswg.org/css-overflow-3/": {
+      "https://drafts.csswg.org/css-gaps-1/": {
         "anchors": [
-          "scrollable-overflow-value",
-          "non-scrollable-overflow-value"
+          "gutter",
+          "propdef-row-gap",
+          "propdef-gap",
+          "propdef-grid-row-gap",
+          "propdef-grid-column-gap",
+          "propdef-grid-gap"
         ]
       },
       "https://drafts.csswg.org/css2/": {
@@ -316,7 +318,6 @@
       },
       "https://www.w3.org/TR/css-align-3/": {
         "anchors": [
-          "gutter",
           "propdef-align-content",
           "propdef-justify-content",
           "box-alignment-properties",
@@ -326,9 +327,7 @@
           "propdef-align-self",
           "valdef-self-position-start",
           "valdef-self-position-center",
-          "propdef-row-gap",
           "propdef-column-gap",
-          "propdef-gap",
           "distributed-alignment",
           "propdef-justify-self",
           "valdef-justify-self-stretch",
@@ -348,10 +347,7 @@
           "shared-alignment-context",
           "baseline-sharing-group",
           "content-distribution-properties",
-          "valdef-justify-content-normal",
-          "propdef-grid-row-gap",
-          "propdef-grid-column-gap",
-          "propdef-grid-gap"
+          "valdef-justify-content-normal"
         ]
       },
       "https://www.w3.org/TR/css-box-4/": {
@@ -382,6 +378,12 @@
           "longhand"
         ]
       },
+      "https://www.w3.org/TR/css-display-3/": {
+        "anchors": [
+          "propdef-order",
+          "order-modified-document-order"
+        ]
+      },
       "https://www.w3.org/TR/css-display-4/": {
         "anchors": [
           "propdef-display",
@@ -410,8 +412,6 @@
         "anchors": [
           "flex-container",
           "flex-item",
-          "propdef-order",
-          "order-modified-document-order",
           "propdef-flex-flow",
           "valdef-display-flex",
           "valdef-display-inline-flex"
@@ -439,6 +439,8 @@
           "scrollable-overflow-region",
           "scroll-container",
           "scrollable-overflow-rectangle",
+          "scrollable-overflow-value",
+          "non-scrollable-overflow-value",
           "valdef-overflow-visible"
         ]
       },

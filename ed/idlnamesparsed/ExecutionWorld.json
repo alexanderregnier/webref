@@ -1,0 +1,14 @@
+{
+  "name": "ExecutionWorld",
+  "type": "enum",
+  "defined": {
+    "spec": {
+      "title": "Web Extensions",
+      "url": "https://w3c.github.io/webextensions/specification/"
+    },
+    "fragment": "enum ExecutionWorld {\n    \"ISOLATED\",\n    \"MAIN\"\n};",
+    "href": "https://w3c.github.io/webextensions/specification/#enumdef-executionworld"
+  },
+  "extended": [],
+  "includes": []
+}

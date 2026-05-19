@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Writing Modes Level 4",
+    "title": "CSS Writing Modes Module Level 4",
     "url": "https://drafts.csswg.org/css-writing-modes-4/"
   },
   "dfns": [
@@ -16,8 +16,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "text-flow",
-        "href": "https://drafts.csswg.org/css-writing-modes-4/#text-flow",
+        "id": "intro",
+        "href": "https://drafts.csswg.org/css-writing-modes-4/#intro",
         "title": "Introduction to Writing Modes",
         "number": "1"
       },
@@ -36,8 +36,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "text-flow",
-        "href": "https://drafts.csswg.org/css-writing-modes-4/#text-flow",
+        "id": "intro",
+        "href": "https://drafts.csswg.org/css-writing-modes-4/#intro",
         "title": "Introduction to Writing Modes",
         "number": "1"
       },
@@ -56,8 +56,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "text-flow",
-        "href": "https://drafts.csswg.org/css-writing-modes-4/#text-flow",
+        "id": "intro",
+        "href": "https://drafts.csswg.org/css-writing-modes-4/#intro",
         "title": "Introduction to Writing Modes",
         "number": "1"
       },
@@ -76,8 +76,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "text-flow",
-        "href": "https://drafts.csswg.org/css-writing-modes-4/#text-flow",
+        "id": "intro",
+        "href": "https://drafts.csswg.org/css-writing-modes-4/#intro",
         "title": "Introduction to Writing Modes",
         "number": "1"
       },
@@ -96,8 +96,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "text-flow",
-        "href": "https://drafts.csswg.org/css-writing-modes-4/#text-flow",
+        "id": "intro",
+        "href": "https://drafts.csswg.org/css-writing-modes-4/#intro",
         "title": "Introduction to Writing Modes",
         "number": "1"
       },
@@ -116,8 +116,8 @@
       "access": "private",
       "informative": true,
       "heading": {
-        "id": "text-flow",
-        "href": "https://drafts.csswg.org/css-writing-modes-4/#text-flow",
+        "id": "intro",
+        "href": "https://drafts.csswg.org/css-writing-modes-4/#intro",
         "title": "Introduction to Writing Modes",
         "number": "1"
       },
@@ -136,8 +136,8 @@
       "access": "private",
       "informative": true,
       "heading": {
-        "id": "text-flow",
-        "href": "https://drafts.csswg.org/css-writing-modes-4/#text-flow",
+        "id": "intro",
+        "href": "https://drafts.csswg.org/css-writing-modes-4/#intro",
         "title": "Introduction to Writing Modes",
         "number": "1"
       },
@@ -156,8 +156,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "text-flow",
-        "href": "https://drafts.csswg.org/css-writing-modes-4/#text-flow",
+        "id": "intro",
+        "href": "https://drafts.csswg.org/css-writing-modes-4/#intro",
         "title": "Introduction to Writing Modes",
         "number": "1"
       },
@@ -176,8 +176,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "text-flow",
-        "href": "https://drafts.csswg.org/css-writing-modes-4/#text-flow",
+        "id": "intro",
+        "href": "https://drafts.csswg.org/css-writing-modes-4/#intro",
         "title": "Introduction to Writing Modes",
         "number": "1"
       },
@@ -196,8 +196,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "text-flow",
-        "href": "https://drafts.csswg.org/css-writing-modes-4/#text-flow",
+        "id": "intro",
+        "href": "https://drafts.csswg.org/css-writing-modes-4/#intro",
         "title": "Introduction to Writing Modes",
         "number": "1"
       },
@@ -1318,7 +1318,8 @@
       "href": "https://drafts.csswg.org/css-writing-modes-4/#x-axis",
       "linkingText": [
         "x-axis",
-        "horizontal axis"
+        "horizontal axis",
+        "horizontal-axis"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1359,7 +1360,8 @@
       "href": "https://drafts.csswg.org/css-writing-modes-4/#y-axis",
       "linkingText": [
         "y-axis",
-        "vertical axis"
+        "vertical axis",
+        "vertical-axis"
       ],
       "localLinkingText": [],
       "type": "dfn",

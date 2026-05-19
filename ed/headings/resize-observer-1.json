@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Resize Observer",
+    "title": "Resize Observer Module Level 1",
     "url": "https://drafts.csswg.org/resize-observer-1/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/resize-observer-1/#title",
       "level": 1,
-      "title": "Resize Observer"
+      "title": "Resize Observer Module Level 1"
     },
     {
       "id": "abstract",
@@ -184,6 +184,18 @@
       "level": 3,
       "title": "ResizeObserver Lifetime",
       "number": "3.5"
+    },
+    {
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/resize-observer-1/#privacy",
+      "level": 2,
+      "title": "Privacy Considerations"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/resize-observer-1/#security",
+      "level": 2,
+      "title": "Security Considerations"
     },
     {
       "id": "w3c-conformance",

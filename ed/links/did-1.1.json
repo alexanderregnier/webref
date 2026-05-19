@@ -20,6 +20,7 @@
       "https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/dpki.pdf": {},
       "https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/final-documents/requirements-for-dids.pdf": {},
       "https://github.com/WebOfTrustInfo/rwot3-sf/blob/master/final-documents/did-implementer-draft-10.pdf": {},
+      "https://github.com/w3c/did/issues/": {},
       "https://github.com/web-payments/minutes/tree/master/2014-05-07": {},
       "https://httpwg.org/specs/rfc9110.html": {
         "anchors": [
@@ -44,7 +45,7 @@
       },
       "https://tools.ietf.org/html/rfc8141": {},
       "https://url.spec.whatwg.org/": {},
-      "https://w3c-ccg.github.io/": {},
+      "https://w3c-ccg.org/": {},
       "https://w3c.github.io/did-test-suite/": {},
       "https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml": {},
       "https://www.rfc-editor.org/info/bcp14": {},
@@ -142,6 +143,11 @@
           "sec-Requirements",
           "def-essential",
           "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/": {
+        "anchors": [
+          "correction-classes"
         ]
       },
       "https://www.w3.org/policies/process/20250818/": {

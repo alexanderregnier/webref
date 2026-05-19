@@ -199,7 +199,7 @@ session.UserPromptHandlerType = "accept" / "dismiss" / "ignore";
 
 session.Subscription = text
 
-session.SubscriptionRequest = {
+session.SubscribeParameters = {
   events: [+text],
   ? contexts: [+browsingContext.BrowsingContext],
   ? userContexts: [+browser.UserContext],
@@ -257,7 +257,7 @@ session.EndResult = EmptyResult
 
 session.Subscribe = (
   method: "session.subscribe",
-  params: session.SubscriptionRequest
+  params: session.SubscribeParameters
 )
 
 session.SubscribeResult = {
@@ -423,6 +423,7 @@ BrowsingContextCommand = (
   browsingContext.Navigate //
   browsingContext.Print //
   browsingContext.Reload //
+  browsingContext.SetBypassCSP //
   browsingContext.SetViewport //
   browsingContext.TraverseHistory
 )
@@ -438,6 +439,7 @@ BrowsingContextResult = (
   browsingContext.NavigateResult /
   browsingContext.PrintResult /
   browsingContext.ReloadResult /
+  browsingContext.SetBypassCSPResult /
   browsingContext.SetViewportResult /
   browsingContext.TraverseHistoryResult
 )
@@ -521,6 +523,7 @@ browsingContext.BaseNavigationInfo = (
   navigation: browsingContext.Navigation / null,
   timestamp: js-uint,
   url: text,
+  ? userContext: browser.UserContext,
 )
 
 browsingContext.NavigationInfo = {
@@ -608,7 +611,8 @@ browsingContext.CreateParameters = {
 }
 
 browsingContext.CreateResult = {
-  context: browsingContext.BrowsingContext
+  context: browsingContext.BrowsingContext,
+  ? userContext: browser.UserContext
 }
 
 browsingContext.GetTree = (
@@ -718,6 +722,19 @@ browsingContext.ReloadParameters = {
 
 browsingContext.ReloadResult = browsingContext.NavigateResult
 
+browsingContext.SetBypassCSP = (
+  method: "browsingContext.setBypassCSP",
+  params: browsingContext.SetBypassCSPParameters
+)
+
+browsingContext.SetBypassCSPParameters = {
+  bypass: true / null,
+  ? contexts: [+browsingContext.BrowsingContext],
+  ? userContexts: [+browser.UserContext],
+}
+
+browsingContext.SetBypassCSPResult = EmptyResult
+
 browsingContext.SetViewport = (
   method: "browsingContext.setViewport",
   params: browsingContext.SetViewportParameters
@@ -777,7 +794,8 @@ browsingContext.HistoryUpdated = (
 browsingContext.HistoryUpdatedParameters = {
   context: browsingContext.BrowsingContext,
   timestamp: js-uint,
-  url: text
+  url: text,
+  ? userContext: browser.UserContext
 }
 
 browsingContext.DomContentLoaded = (
@@ -847,6 +865,7 @@ browsingContext.UserPromptClosedParameters = {
   context: browsingContext.BrowsingContext,
   accepted: bool,
   type: browsingContext.UserPromptType,
+  ? userContext: browser.UserContext,
   ? userText: text
 }
 
@@ -860,6 +879,7 @@ browsingContext.UserPromptOpenedParameters = {
   handler: session.UserPromptHandlerType,
   message: text,
   type: browsingContext.UserPromptType,
+  ? userContext: browser.UserContext,
   ? defaultValue: text
 }
 
@@ -867,9 +887,13 @@ EmulationCommand = (
   emulation.SetForcedColorsModeThemeOverride //
   emulation.SetGeolocationOverride //
   emulation.SetLocaleOverride //
+  emulation.SetNetworkConditions //
   emulation.SetScreenOrientationOverride //
+  emulation.SetScreenSettingsOverride //
   emulation.SetScriptingEnabled //
+  emulation.SetScrollbarTypeOverride //
   emulation.SetTimezoneOverride //
+  emulation.SetTouchOverride //
   emulation.SetUserAgentOverride
 )
 
@@ -879,7 +903,9 @@ EmulationResult = (
   emulation.SetLocaleOverrideResult /
   emulation.SetScreenOrientationOverrideResult /
   emulation.SetScriptingEnabledResult /
+  emulation.SetScrollbarTypeOverrideResult /
   emulation.SetTimezoneOverrideResult /
+  emulation.SetTouchOverrideResult /
   emulation.SetUserAgentOverrideResult
 )
 
@@ -941,6 +967,43 @@ emulation.SetLocaleOverrideParameters = {
 
 emulation.SetLocaleOverrideResult = EmptyResult
 
+emulation.SetNetworkConditions = (
+  method: "emulation.setNetworkConditions",
+  params: emulation.SetNetworkConditionsParameters
+)
+
+emulation.SetNetworkConditionsParameters = {
+  networkConditions: emulation.NetworkConditions / null,
+  ? contexts: [+browsingContext.BrowsingContext],
+  ? userContexts: [+browser.UserContext],
+}
+
+emulation.NetworkConditions = emulation.NetworkConditionsOffline
+
+emulation.NetworkConditionsOffline = {
+  type: "offline"
+}
+
+emulation.SetNetworkConditionsResult = EmptyResult
+
+emulation.SetScreenSettingsOverride = (
+  method: "emulation.setScreenSettingsOverride",
+  params: emulation.SetScreenSettingsOverrideParameters
+)
+
+emulation.ScreenArea = {
+  width: js-uint,
+  height: js-uint
+}
+
+emulation.SetScreenSettingsOverrideParameters = {
+  screenArea: emulation.ScreenArea / null,
+  ? contexts: [+browsingContext.BrowsingContext],
+  ? userContexts: [+browser.UserContext],
+}
+
+emulation.SetScreenSettingsOverrideResult = EmptyResult
+
 emulation.SetScreenOrientationOverride = (
   method: "emulation.setScreenOrientationOverride",
   params: emulation.SetScreenOrientationOverrideParameters
@@ -988,6 +1051,19 @@ emulation.SetScriptingEnabledParameters = {
 
 emulation.SetScriptingEnabledResult = EmptyResult
 
+emulation.SetScrollbarTypeOverride = (
+  method: "emulation.setScrollbarTypeOverride",
+  params: emulation.SetScrollbarTypeOverrideParameters
+)
+
+emulation.SetScrollbarTypeOverrideParameters = {
+  scrollbarType: "classic" / "overlay" / null,
+  ? contexts: [+browsingContext.BrowsingContext],
+  ? userContexts: [+browser.UserContext],
+}
+
+emulation.SetScrollbarTypeOverrideResult = EmptyResult
+
 emulation.SetTimezoneOverride = (
   method: "emulation.setTimezoneOverride",
   params: emulation.SetTimezoneOverrideParameters
@@ -1000,6 +1076,19 @@ emulation.SetTimezoneOverrideParameters = {
 }
 
 emulation.SetTimezoneOverrideResult = EmptyResult
+
+emulation.SetTouchOverride = (
+  method: "emulation.setTouchOverride",
+  params: emulation.SetTouchOverrideParameters
+)
+
+emulation.SetTouchOverrideParameters = {
+  maxTouchPoints: (js-uint .ge 1) / null,
+  ? contexts: [+browsingContext.BrowsingContext],
+  ? userContexts: [+browser.UserContext],
+}
+
+emulation.SetTouchOverrideResult = EmptyResult
 
 NetworkCommand = (
   network.AddDataCollector //
@@ -1059,6 +1148,7 @@ network.BaseParameters = (
     redirectCount: js-uint,
     request: network.RequestData,
     timestamp: js-uint,
+    ? userContext: browser.UserContext / null,
     ? intercepts: [+network.Intercept]
 )
 
@@ -1111,8 +1201,10 @@ network.FetchTimingInfo = {
     connectStart: float,
     connectEnd: float,
     tlsStart: float,
+
     requestStart: float,
     responseStart: float,
+
     responseEnd: float,
 }
 
@@ -1286,10 +1378,10 @@ network.ContinueWithAuthResult = EmptyResult
 
 network.DisownData = (
   method: "network.disownData",
-  params: network.disownDataParameters
+  params: network.DisownDataParameters
 )
 
-network.disownDataParameters = {
+network.DisownDataParameters = {
   dataType: network.DataType,
   collector: network.Collector,
   request: network.Request,
@@ -1617,6 +1709,7 @@ script.WindowRealmInfo = {
   script.BaseRealmInfo,
   type: "window",
   context: browsingContext.BrowsingContext,
+  ? userContext: browser.UserContext,
   ? sandbox: text
 }
 
@@ -1666,12 +1759,14 @@ script.RemoteReference = (
 
 script.SharedReference = {
    sharedId: script.SharedId
+
    ? handle: script.Handle,
    Extensible
 }
 
 script.RemoteObjectReference = {
    handle: script.Handle,
+
    ? sharedId: script.SharedId
    Extensible
 }
@@ -1872,7 +1967,8 @@ script.StackTrace = {
 
 script.Source = {
   realm: script.Realm,
-  ? context: browsingContext.BrowsingContext
+  ? context: browsingContext.BrowsingContext,
+  ? userContext: browser.UserContext
 }
 
 script.RealmTarget = {
@@ -2280,15 +2376,15 @@ input.WheelScrollAction = {
 }
 
 input.PointerCommonProperties = (
-  ? width: js-uint .default 1,
-  ? height: js-uint .default 1,
-  ? pressure: float .default 0.0,
-  ? tangentialPressure: float .default 0.0,
-  ? twist: (0..359) .default 0,
+  ? width: js-uint,
+  ? height: js-uint,
+  ? pressure: (0.0..1.0),
+  ? tangentialPressure: (-1.0..1.0),
+  ? twist: (0..359),
   ; 0 .. Math.PI / 2
-  ? altitudeAngle: (0.0..1.5707963267948966) .default 0.0,
+  ? altitudeAngle: (0.0..1.5707963267948966),
   ; 0 .. 2 * Math.PI
-  ? azimuthAngle: (0.0..6.283185307179586) .default 0.0,
+  ? azimuthAngle: (0.0..6.283185307179586),
 )
 
 input.Origin = "viewport" / "pointer" / input.ElementOrigin
@@ -2326,6 +2422,7 @@ input.FileDialogOpened = (
 
 input.FileDialogInfo = {
    context: browsingContext.BrowsingContext,
+   ? userContext: browser.UserContext,
    ? element: script.SharedReference,
    multiple: bool,
 }
@@ -2493,7 +2590,7 @@ session.UserPromptHandlerType = "accept" / "dismiss" / "ignore";
 
 session.Subscription = text
 
-session.SubscriptionRequest = {
+session.SubscribeParameters = {
   events: [+text],
   ? contexts: [+browsingContext.BrowsingContext],
   ? userContexts: [+browser.UserContext],
@@ -2528,7 +2625,7 @@ session.End = (
 
 session.Subscribe = (
   method: "session.subscribe",
-  params: session.SubscriptionRequest
+  params: session.SubscribeParameters
 )
 
 session.Unsubscribe = (
@@ -2660,6 +2757,7 @@ BrowsingContextCommand = (
   browsingContext.Navigate //
   browsingContext.Print //
   browsingContext.Reload //
+  browsingContext.SetBypassCSP //
   browsingContext.SetViewport //
   browsingContext.TraverseHistory
 )
@@ -2867,6 +2965,17 @@ browsingContext.ReloadParameters = {
   ? wait: browsingContext.ReadinessState,
 }
 
+browsingContext.SetBypassCSP = (
+  method: "browsingContext.setBypassCSP",
+  params: browsingContext.SetBypassCSPParameters
+)
+
+browsingContext.SetBypassCSPParameters = {
+  bypass: true / null,
+  ? contexts: [+browsingContext.BrowsingContext],
+  ? userContexts: [+browser.UserContext],
+}
+
 browsingContext.SetViewport = (
   method: "browsingContext.setViewport",
   params: browsingContext.SetViewportParameters
@@ -2898,9 +3007,13 @@ EmulationCommand = (
   emulation.SetForcedColorsModeThemeOverride //
   emulation.SetGeolocationOverride //
   emulation.SetLocaleOverride //
+  emulation.SetNetworkConditions //
   emulation.SetScreenOrientationOverride //
+  emulation.SetScreenSettingsOverride //
   emulation.SetScriptingEnabled //
+  emulation.SetScrollbarTypeOverride //
   emulation.SetTimezoneOverride //
+  emulation.SetTouchOverride //
   emulation.SetUserAgentOverride
 )
 
@@ -2956,6 +3069,39 @@ emulation.SetLocaleOverrideParameters = {
   ? userContexts: [+browser.UserContext],
 }
 
+emulation.SetNetworkConditions = (
+  method: "emulation.setNetworkConditions",
+  params: emulation.SetNetworkConditionsParameters
+)
+
+emulation.SetNetworkConditionsParameters = {
+  networkConditions: emulation.NetworkConditions / null,
+  ? contexts: [+browsingContext.BrowsingContext],
+  ? userContexts: [+browser.UserContext],
+}
+
+emulation.NetworkConditions = emulation.NetworkConditionsOffline
+
+emulation.NetworkConditionsOffline = {
+  type: "offline"
+}
+
+emulation.SetScreenSettingsOverride = (
+  method: "emulation.setScreenSettingsOverride",
+  params: emulation.SetScreenSettingsOverrideParameters
+)
+
+emulation.ScreenArea = {
+  width: js-uint,
+  height: js-uint
+}
+
+emulation.SetScreenSettingsOverrideParameters = {
+  screenArea: emulation.ScreenArea / null,
+  ? contexts: [+browsingContext.BrowsingContext],
+  ? userContexts: [+browser.UserContext],
+}
+
 emulation.SetScreenOrientationOverride = (
   method: "emulation.setScreenOrientationOverride",
   params: emulation.SetScreenOrientationOverrideParameters
@@ -2997,6 +3143,17 @@ emulation.SetScriptingEnabledParameters = {
   ? userContexts: [+browser.UserContext],
 }
 
+emulation.SetScrollbarTypeOverride = (
+  method: "emulation.setScrollbarTypeOverride",
+  params: emulation.SetScrollbarTypeOverrideParameters
+)
+
+emulation.SetScrollbarTypeOverrideParameters = {
+  scrollbarType: "classic" / "overlay" / null,
+  ? contexts: [+browsingContext.BrowsingContext],
+  ? userContexts: [+browser.UserContext],
+}
+
 emulation.SetTimezoneOverride = (
   method: "emulation.setTimezoneOverride",
   params: emulation.SetTimezoneOverrideParameters
@@ -3004,6 +3161,17 @@ emulation.SetTimezoneOverride = (
 
 emulation.SetTimezoneOverrideParameters = {
   timezone: text / null,
+  ? contexts: [+browsingContext.BrowsingContext],
+  ? userContexts: [+browser.UserContext],
+}
+
+emulation.SetTouchOverride = (
+  method: "emulation.setTouchOverride",
+  params: emulation.SetTouchOverrideParameters
+)
+
+emulation.SetTouchOverrideParameters = {
+  maxTouchPoints: (js-uint .ge 1) / null,
   ? contexts: [+browsingContext.BrowsingContext],
   ? userContexts: [+browser.UserContext],
 }
@@ -3184,10 +3352,10 @@ network.ContinueWithAuthNoCredentials = (
 
 network.DisownData = (
   method: "network.disownData",
-  params: network.disownDataParameters
+  params: network.DisownDataParameters
 )
 
-network.disownDataParameters = {
+network.DisownDataParameters = {
   dataType: network.DataType,
   collector: network.Collector,
   request: network.Request,
@@ -3422,12 +3590,14 @@ script.RemoteReference = (
 
 script.SharedReference = {
    sharedId: script.SharedId
+
    ? handle: script.Handle,
    Extensible
 }
 
 script.RemoteObjectReference = {
    handle: script.Handle,
+
    ? sharedId: script.SharedId
    Extensible
 }
@@ -3802,12 +3972,6 @@ InputCommand = (
   input.SetFiles
 )
 
-InputResult = (
-  input.PerformActionsResult /
-  input.ReleaseActionsResult /
-  input.SetFilesResult
-)
-
 input.ElementOrigin = {
   type: "element",
   element: script.SharedReference
@@ -3927,15 +4091,15 @@ input.WheelScrollAction = {
 }
 
 input.PointerCommonProperties = (
-  ? width: js-uint .default 1,
-  ? height: js-uint .default 1,
-  ? pressure: float .default 0.0,
-  ? tangentialPressure: float .default 0.0,
-  ? twist: (0..359) .default 0,
+  ? width: js-uint,
+  ? height: js-uint,
+  ? pressure: (0.0..1.0),
+  ? tangentialPressure: (-1.0..1.0),
+  ? twist: (0..359),
   ; 0 .. Math.PI / 2
-  ? altitudeAngle: (0.0..1.5707963267948966) .default 0.0,
+  ? altitudeAngle: (0.0..1.5707963267948966),
   ; 0 .. 2 * Math.PI
-  ? azimuthAngle: (0.0..6.283185307179586) .default 0.0,
+  ? azimuthAngle: (0.0..6.283185307179586),
 )
 
 input.Origin = "viewport" / "pointer" / input.ElementOrigin
@@ -3958,17 +4122,6 @@ input.SetFilesParameters = {
   context: browsingContext.BrowsingContext,
   element: script.SharedReference,
   files: [*text]
-}
-
-input.FileDialogOpened = (
-   method: "input.fileDialogOpened",
-   params: input.FileDialogInfo
-)
-
-input.FileDialogInfo = {
-   context: browsingContext.BrowsingContext,
-   ? element: script.SharedReference,
-   multiple: bool,
 }
 
 WebExtensionCommand = (
@@ -4269,6 +4422,7 @@ BrowsingContextResult = (
   browsingContext.NavigateResult /
   browsingContext.PrintResult /
   browsingContext.ReloadResult /
+  browsingContext.SetBypassCSPResult /
   browsingContext.SetViewportResult /
   browsingContext.TraverseHistoryResult
 )
@@ -4352,6 +4506,7 @@ browsingContext.BaseNavigationInfo = (
   navigation: browsingContext.Navigation / null,
   timestamp: js-uint,
   url: text,
+  ? userContext: browser.UserContext,
 )
 
 browsingContext.NavigationInfo = {
@@ -4369,7 +4524,8 @@ browsingContext.CaptureScreenshotResult = {
 browsingContext.CloseResult = EmptyResult
 
 browsingContext.CreateResult = {
-  context: browsingContext.BrowsingContext
+  context: browsingContext.BrowsingContext,
+  ? userContext: browser.UserContext
 }
 
 browsingContext.GetTreeResult = {
@@ -4392,6 +4548,8 @@ browsingContext.PrintResult = {
 }
 
 browsingContext.ReloadResult = browsingContext.NavigateResult
+
+browsingContext.SetBypassCSPResult = EmptyResult
 
 browsingContext.SetViewportResult = EmptyResult
 
@@ -4425,7 +4583,8 @@ browsingContext.HistoryUpdated = (
 browsingContext.HistoryUpdatedParameters = {
   context: browsingContext.BrowsingContext,
   timestamp: js-uint,
-  url: text
+  url: text,
+  ? userContext: browser.UserContext
 }
 
 browsingContext.DomContentLoaded = (
@@ -4495,6 +4654,7 @@ browsingContext.UserPromptClosedParameters = {
   context: browsingContext.BrowsingContext,
   accepted: bool,
   type: browsingContext.UserPromptType,
+  ? userContext: browser.UserContext,
   ? userText: text
 }
 
@@ -4508,6 +4668,7 @@ browsingContext.UserPromptOpenedParameters = {
   handler: session.UserPromptHandlerType,
   message: text,
   type: browsingContext.UserPromptType,
+  ? userContext: browser.UserContext,
   ? defaultValue: text
 }
 
@@ -4517,7 +4678,9 @@ EmulationResult = (
   emulation.SetLocaleOverrideResult /
   emulation.SetScreenOrientationOverrideResult /
   emulation.SetScriptingEnabledResult /
+  emulation.SetScrollbarTypeOverrideResult /
   emulation.SetTimezoneOverrideResult /
+  emulation.SetTouchOverrideResult /
   emulation.SetUserAgentOverrideResult
 )
 
@@ -4527,13 +4690,21 @@ emulation.SetGeolocationOverrideResult = EmptyResult
 
 emulation.SetLocaleOverrideResult = EmptyResult
 
+emulation.SetNetworkConditionsResult = EmptyResult
+
+emulation.SetScreenSettingsOverrideResult = EmptyResult
+
 emulation.SetScreenOrientationOverrideResult = EmptyResult
 
 emulation.SetUserAgentOverrideResult = EmptyResult
 
 emulation.SetScriptingEnabledResult = EmptyResult
 
+emulation.SetScrollbarTypeOverrideResult = EmptyResult
+
 emulation.SetTimezoneOverrideResult = EmptyResult
+
+emulation.SetTouchOverrideResult = EmptyResult
 
 NetworkResult = (
   network.AddDataCollectorResult /
@@ -4571,6 +4742,7 @@ network.BaseParameters = (
     redirectCount: js-uint,
     request: network.RequestData,
     timestamp: js-uint,
+    ? userContext: browser.UserContext / null,
     ? intercepts: [+network.Intercept]
 )
 
@@ -4618,8 +4790,10 @@ network.FetchTimingInfo = {
     connectStart: float,
     connectEnd: float,
     tlsStart: float,
+
     requestStart: float,
     responseStart: float,
+
     responseEnd: float,
 }
 
@@ -4925,6 +5099,7 @@ script.WindowRealmInfo = {
   script.BaseRealmInfo,
   type: "window",
   context: browsingContext.BrowsingContext,
+  ? userContext: browser.UserContext,
   ? sandbox: text
 }
 
@@ -4974,12 +5149,14 @@ script.RemoteReference = (
 
 script.SharedReference = {
    sharedId: script.SharedId
+
    ? handle: script.Handle,
    Extensible
 }
 
 script.RemoteObjectReference = {
    handle: script.Handle,
+
    ? sharedId: script.SharedId
    Extensible
 }
@@ -5180,7 +5357,8 @@ script.StackTrace = {
 
 script.Source = {
   realm: script.Realm,
-  ? context: browsingContext.BrowsingContext
+  ? context: browsingContext.BrowsingContext,
+  ? userContext: browser.UserContext
 }
 
 script.AddPreloadScriptResult = {
@@ -5289,6 +5467,12 @@ log.EntryAdded = (
  params: log.Entry,
 )
 
+InputResult = (
+  input.PerformActionsResult /
+  input.ReleaseActionsResult /
+  input.SetFilesResult
+)
+
 InputEvent = (
   input.FileDialogOpened
 )
@@ -5306,6 +5490,7 @@ input.FileDialogOpened = (
 
 input.FileDialogInfo = {
    context: browsingContext.BrowsingContext,
+   ? userContext: browser.UserContext,
    ? element: script.SharedReference,
    multiple: bool,
 }

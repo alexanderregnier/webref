@@ -753,12 +753,11 @@
       "id": "missing-color-component",
       "href": "https://drafts.csswg.org/css-color-4/#missing-color-component",
       "linkingText": [
-        "missing color component"
-      ],
-      "localLinkingText": [
+        "missing color component",
         "missing",
         "missing component"
       ],
+      "localLinkingText": [],
       "type": "dfn",
       "for": [],
       "access": "public",
@@ -5774,6 +5773,63 @@
       "links": []
     },
     {
+      "id": "prepare-a-color-col1-for-conversion",
+      "href": "https://drafts.csswg.org/css-color-4/#prepare-a-color-col1-for-conversion",
+      "linkingText": [
+        "prepare a color col1 for conversion"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-conversion",
+        "href": "https://drafts.csswg.org/css-color-4/#color-conversion",
+        "title": "11. Converting Colors"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "convert-a-color",
+      "href": "https://drafts.csswg.org/css-color-4/#convert-a-color",
+      "linkingText": [
+        "convert a color"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-conversion",
+        "href": "https://drafts.csswg.org/css-color-4/#color-conversion",
+        "title": "11. Converting Colors"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "equivalent-colors",
+      "href": "https://drafts.csswg.org/css-color-4/#equivalent-colors",
+      "linkingText": [
+        "equivalent colors"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "comparing-color-values",
+        "href": "https://drafts.csswg.org/css-color-4/#comparing-color-values",
+        "title": "12. Comparing <color> Values"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "carried-forward",
       "href": "https://drafts.csswg.org/css-color-4/#carried-forward",
       "linkingText": [
@@ -5787,7 +5843,7 @@
       "heading": {
         "id": "interpolation",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation",
-        "title": "12. Color Interpolation"
+        "title": "13. Color Interpolation"
       },
       "definedIn": "prose",
       "links": []
@@ -5806,7 +5862,7 @@
       "heading": {
         "id": "interpolation",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation",
-        "title": "12. Color Interpolation"
+        "title": "13. Color Interpolation"
       },
       "definedIn": "prose",
       "links": []
@@ -5826,7 +5882,7 @@
         "id": "interpolation-space",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-space",
         "title": "Color Space for Interpolation",
-        "number": "12.1"
+        "number": "13.1"
       },
       "definedIn": "prose",
       "links": []
@@ -5846,7 +5902,7 @@
         "id": "interpolation-space",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-space",
         "title": "Color Space for Interpolation",
-        "number": "12.1"
+        "number": "13.1"
       },
       "definedIn": "pre",
       "links": []
@@ -5866,7 +5922,7 @@
         "id": "interpolation-space",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-space",
         "title": "Color Space for Interpolation",
-        "number": "12.1"
+        "number": "13.1"
       },
       "definedIn": "pre",
       "links": []
@@ -5886,7 +5942,7 @@
         "id": "interpolation-space",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-space",
         "title": "Color Space for Interpolation",
-        "number": "12.1"
+        "number": "13.1"
       },
       "definedIn": "pre",
       "links": []
@@ -5906,7 +5962,7 @@
         "id": "interpolation-space",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-space",
         "title": "Color Space for Interpolation",
-        "number": "12.1"
+        "number": "13.1"
       },
       "definedIn": "pre",
       "links": []
@@ -5926,7 +5982,7 @@
         "id": "interpolation-space",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-space",
         "title": "Color Space for Interpolation",
-        "number": "12.1"
+        "number": "13.1"
       },
       "definedIn": "pre",
       "links": []
@@ -5946,7 +6002,27 @@
         "id": "interpolation-missing",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-missing",
         "title": "Interpolating with Missing Components",
-        "number": "12.2"
+        "number": "13.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "analogous-set",
+      "href": "https://drafts.csswg.org/css-color-4/#analogous-set",
+      "linkingText": [
+        "analogous set"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interpolation-missing",
+        "href": "https://drafts.csswg.org/css-color-4/#interpolation-missing",
+        "title": "Interpolating with Missing Components",
+        "number": "13.2"
       },
       "definedIn": "prose",
       "links": []
@@ -5966,7 +6042,7 @@
         "id": "interpolation-alpha",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-alpha",
         "title": "Interpolating with Alpha",
-        "number": "12.3"
+        "number": "13.3"
       },
       "definedIn": "prose",
       "links": []
@@ -5986,7 +6062,7 @@
         "id": "hue-shorter",
         "href": "https://drafts.csswg.org/css-color-4/#hue-shorter",
         "title": "shorter",
-        "number": "12.4.1"
+        "number": "13.4.1"
       },
       "definedIn": "heading",
       "links": []
@@ -6006,7 +6082,7 @@
         "id": "hue-longer",
         "href": "https://drafts.csswg.org/css-color-4/#hue-longer",
         "title": "longer",
-        "number": "12.4.2"
+        "number": "13.4.2"
       },
       "definedIn": "heading",
       "links": []
@@ -6026,7 +6102,7 @@
         "id": "hue-increasing",
         "href": "https://drafts.csswg.org/css-color-4/#hue-increasing",
         "title": "increasing",
-        "number": "12.4.3"
+        "number": "13.4.3"
       },
       "definedIn": "heading",
       "links": []
@@ -6046,7 +6122,7 @@
         "id": "hue-decreasing",
         "href": "https://drafts.csswg.org/css-color-4/#hue-decreasing",
         "title": "decreasing",
-        "number": "12.4.4"
+        "number": "13.4.4"
       },
       "definedIn": "heading",
       "links": []
@@ -6066,16 +6142,16 @@
         "id": "GM-closest",
         "href": "https://drafts.csswg.org/css-color-4/#GM-closest",
         "title": "Closest Color (MINDE)",
-        "number": "13.1.2"
+        "number": "14.1.2"
       },
       "definedIn": "prose",
       "links": []
     },
     {
-      "id": "css-gamut-mapping-algorithm",
-      "href": "https://drafts.csswg.org/css-color-4/#css-gamut-mapping-algorithm",
+      "id": "css-gamut-mapping-algorithms",
+      "href": "https://drafts.csswg.org/css-color-4/#css-gamut-mapping-algorithms",
       "linkingText": [
-        "CSS gamut mapping algorithm"
+        "CSS gamut mapping algorithms"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -6086,7 +6162,7 @@
         "id": "css-gamut-mapping",
         "href": "https://drafts.csswg.org/css-color-4/#css-gamut-mapping",
         "title": "CSS Gamut Mapping to an RGB Destination",
-        "number": "13.2"
+        "number": "14.2"
       },
       "definedIn": "prose",
       "links": []
@@ -6106,16 +6182,16 @@
         "id": "css-gamut-mapping",
         "href": "https://drafts.csswg.org/css-color-4/#css-gamut-mapping",
         "title": "CSS Gamut Mapping to an RGB Destination",
-        "number": "13.2"
+        "number": "14.2"
       },
       "definedIn": "prose",
       "links": []
     },
     {
-      "id": "css-gamut-map",
-      "href": "https://drafts.csswg.org/css-color-4/#css-gamut-map",
+      "id": "binary-search-gamut-map-with-local-minde",
+      "href": "https://drafts.csswg.org/css-color-4/#binary-search-gamut-map-with-local-minde",
       "linkingText": [
-        "CSS gamut map"
+        "Binary Search Gamut Map with Local MINDE"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -6123,10 +6199,50 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "binsearch",
-        "href": "https://drafts.csswg.org/css-color-4/#binsearch",
-        "title": "Sample Pseudocode for the Binary Search Gamut Mapping Algorithm with Local MINDE",
-        "number": "13.2.1"
+        "id": "pseudo-binsearch",
+        "href": "https://drafts.csswg.org/css-color-4/#pseudo-binsearch",
+        "title": "Sample Pseudocode for the Binary Search Gamut Mapping with Local MINDE",
+        "number": "14.2.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "ray-trace-gamut-map",
+      "href": "https://drafts.csswg.org/css-color-4/#ray-trace-gamut-map",
+      "linkingText": [
+        "Ray Trace Gamut Map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pseudo-raytrace",
+        "href": "https://drafts.csswg.org/css-color-4/#pseudo-raytrace",
+        "title": "Sample Pseudocode for the Ray Trace Gamut Mapping",
+        "number": "14.2.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cast-a-ray",
+      "href": "https://drafts.csswg.org/css-color-4/#cast-a-ray",
+      "linkingText": [
+        "cast a ray"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pseudo-raytrace",
+        "href": "https://drafts.csswg.org/css-color-4/#pseudo-raytrace",
+        "title": "Sample Pseudocode for the Ray Trace Gamut Mapping",
+        "number": "14.2.6"
       },
       "definedIn": "prose",
       "links": []
@@ -6145,7 +6261,7 @@
       "heading": {
         "id": "resolving-color-values",
         "href": "https://drafts.csswg.org/css-color-4/#resolving-color-values",
-        "title": "14. Resolving <color> Values"
+        "title": "15. Resolving <color> Values"
       },
       "definedIn": "prose",
       "links": []
@@ -6164,7 +6280,7 @@
       "heading": {
         "id": "resolving-color-values",
         "href": "https://drafts.csswg.org/css-color-4/#resolving-color-values",
-        "title": "14. Resolving <color> Values"
+        "title": "15. Resolving <color> Values"
       },
       "definedIn": "prose",
       "links": []
@@ -6186,7 +6302,7 @@
         "id": "HTML-compatible-serialization-of-srgb",
         "href": "https://drafts.csswg.org/css-color-4/#HTML-compatible-serialization-of-srgb",
         "title": "HTML-compatible serialization of sRGB values",
-        "number": "15.2.1"
+        "number": "16.2.1"
       },
       "definedIn": "prose",
       "links": []

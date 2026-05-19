@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Writing Modes Level 3",
+    "title": "CSS Writing Modes Module Level 3",
     "url": "https://drafts.csswg.org/css-writing-modes-3/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-writing-modes-3/#title",
       "level": 1,
-      "title": "CSS Writing Modes Level 3"
+      "title": "CSS Writing Modes Module Level 3"
     },
     {
       "id": "abstract",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": "text-flow",
-      "href": "https://drafts.csswg.org/css-writing-modes-3/#text-flow",
+      "id": "intro",
+      "href": "https://drafts.csswg.org/css-writing-modes-3/#intro",
       "level": 2,
       "title": "Introduction to Writing Modes",
       "number": "1"
@@ -509,7 +509,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-writing-modes-3/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

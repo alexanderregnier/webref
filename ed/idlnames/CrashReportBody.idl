@@ -3,5 +3,6 @@ dictionary CrashReportBody : ReportBody {
   DOMString reason;
   DOMString stack;
   boolean is_top_level;
-  DocumentVisibilityState page_visibility;
+  DocumentVisibilityState visibility_state;
+  object crash_report_api;
 };

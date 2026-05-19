@@ -207,6 +207,12 @@
       "number": "B"
     },
     {
+      "id": "changes-from-20240516",
+      "href": "https://drafts.csswg.org/css-multicol-1/#changes-from-20240516",
+      "level": 3,
+      "title": "Changes from the Candidate Recommendation (CR) of 16 May 2024"
+    },
+    {
       "id": "changes-from-20211012",
       "href": "https://drafts.csswg.org/css-multicol-1/#changes-from-20211012",
       "level": 3,
@@ -303,12 +309,6 @@
       "title": "Non-experimental implementations"
     },
     {
-      "id": "w3c-cr-exit-criteria",
-      "href": "https://drafts.csswg.org/css-multicol-1/#w3c-cr-exit-criteria",
-      "level": 3,
-      "title": "CR exit criteria"
-    },
-    {
       "id": "index",
       "href": "https://drafts.csswg.org/css-multicol-1/#index",
       "level": 2,
@@ -342,7 +342,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-multicol-1/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

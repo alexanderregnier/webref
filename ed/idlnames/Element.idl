@@ -16,8 +16,8 @@ interface Element : Node {
   sequence<DOMString> getAttributeNames();
   DOMString? getAttribute(DOMString qualifiedName);
   DOMString? getAttributeNS(DOMString? namespace, DOMString localName);
-  [CEReactions] undefined setAttribute(DOMString qualifiedName, DOMString value);
-  [CEReactions] undefined setAttributeNS(DOMString? namespace, DOMString qualifiedName, DOMString value);
+  [CEReactions] undefined setAttribute(DOMString qualifiedName, (TrustedType or DOMString) value);
+  [CEReactions] undefined setAttributeNS(DOMString? namespace, DOMString qualifiedName, (TrustedType or DOMString) value);
   [CEReactions] undefined removeAttribute(DOMString qualifiedName);
   [CEReactions] undefined removeAttributeNS(DOMString? namespace, DOMString localName);
   [CEReactions] boolean toggleAttribute(DOMString qualifiedName, optional boolean force);
@@ -59,6 +59,11 @@ Element includes ChildNode;
 // Source: DOM Standard (https://dom.spec.whatwg.org/)
 Element includes Slottable;
 
+// Source: CSS Shadow Module Level 1 (https://drafts.csswg.org/css-shadow-1/)
+partial interface Element {
+  [SameObject, PutForwards=value] readonly attribute DOMTokenList part;
+};
+
 // Source: Fullscreen API Standard (https://fullscreen.spec.whatwg.org/)
 partial interface Element {
   Promise<undefined> requestFullscreen(optional FullscreenOptions options = {});
@@ -82,7 +87,18 @@ partial interface Element {
     [CEReactions, Reflect] attribute DOMString elementTiming;
 };
 
-// Source: CSS Spatial Navigation Level 1 (https://www.w3.org/TR/css-nav-1/)
+// Source: Container Timing API (https://wicg.github.io/container-timing/)
+partial interface Element {
+    [CEReactions] attribute DOMString containertiming;
+    [CEReactions] attribute DOMString? containertimingIgnore;
+};
+
+// Source: HTML Sanitizer API (https://wicg.github.io/sanitizer-api/)
+partial interface Element {
+  [CEReactions] undefined setHTML(DOMString html, optional SetHTMLOptions options = {});
+};
+
+// Source: CSS Spatial Navigation Module Level 1 (https://www.w3.org/TR/css-nav-1/)
 partial interface Element {
     Node getSpatialNavigationContainer();
     sequence<Node> focusableAreas(optional FocusableAreasOption option = {});
@@ -97,11 +113,6 @@ partial interface Element {
 // Source: CSS Regions Module Level 1 (https://www.w3.org/TR/css-regions-1/)
 Element includes Region;
 
-// Source: CSS Shadow Parts (https://www.w3.org/TR/css-shadow-parts-1/)
-partial interface Element {
-  [SameObject, PutForwards=value] readonly attribute DOMTokenList part;
-};
-
 // Source: CSS Typed OM Level 1 (https://www.w3.org/TR/css-typed-om-1/)
 partial interface Element {
     [SameObject] StylePropertyMapReadOnly computedStyleMap();
@@ -115,20 +126,20 @@ partial interface Element {
   readonly attribute ViewTransition? activeViewTransition;
 };
 
-// Source: CSSOM View Module (https://www.w3.org/TR/cssom-view-1/)
+// Source: CSSOM View Module Level 1 (https://www.w3.org/TR/cssom-view-1/)
 partial interface Element {
   DOMRectList getClientRects();
   [NewObject] DOMRect getBoundingClientRect();
 
   boolean checkVisibility(optional CheckVisibilityOptions options = {});
 
-  undefined scrollIntoView(optional (boolean or ScrollIntoViewOptions) arg = {});
-  undefined scroll(optional ScrollToOptions options = {});
-  undefined scroll(unrestricted double x, unrestricted double y);
-  undefined scrollTo(optional ScrollToOptions options = {});
-  undefined scrollTo(unrestricted double x, unrestricted double y);
-  undefined scrollBy(optional ScrollToOptions options = {});
-  undefined scrollBy(unrestricted double x, unrestricted double y);
+  Promise<undefined> scrollIntoView(optional (boolean or ScrollIntoViewOptions) arg = {});
+  Promise<undefined> scroll(optional ScrollToOptions options = {});
+  Promise<undefined> scroll(unrestricted double x, unrestricted double y);
+  Promise<undefined> scrollTo(optional ScrollToOptions options = {});
+  Promise<undefined> scrollTo(unrestricted double x, unrestricted double y);
+  Promise<undefined> scrollBy(optional ScrollToOptions options = {});
+  Promise<undefined> scrollBy(unrestricted double x, unrestricted double y);
   attribute unrestricted double scrollTop;
   attribute unrestricted double scrollLeft;
   readonly attribute long scrollWidth;
@@ -140,7 +151,7 @@ partial interface Element {
   readonly attribute double currentCSSZoom;
 };
 
-// Source: CSSOM View Module (https://www.w3.org/TR/cssom-view-1/)
+// Source: CSSOM View Module Level 1 (https://www.w3.org/TR/cssom-view-1/)
 // like Range
 Element includes GeometryUtils;
 
@@ -159,5 +170,8 @@ partial interface Element {
 // Source: Accessible Rich Internet Applications (WAI-ARIA) 1.3 (https://www.w3.org/TR/wai-aria-1.3/)
 Element includes ARIAMixin;
 
-// Source: Web Animations (https://www.w3.org/TR/web-animations-1/)
+// Source: Accessible Rich Internet Applications (WAI-ARIA) 1.3 (https://www.w3.org/TR/wai-aria-1.3/)
+Element includes ARIANotifyMixin;
+
+// Source: Web Animations Module Level 1 (https://www.w3.org/TR/web-animations-1/)
 Element includes Animatable;

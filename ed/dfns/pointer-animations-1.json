@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Pointer-driven Animations",
+    "title": "Pointer-driven Animations Module Level 1",
     "url": "https://drafts.csswg.org/pointer-animations-1/"
   },
   "dfns": [
@@ -808,7 +808,7 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "timeline-range-center-subject"
+        "<timeline-range-center-subject>"
       ],
       "access": "public",
       "informative": false,
@@ -830,7 +830,7 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "timeline-range-center-subject"
+        "<timeline-range-center-subject>"
       ],
       "access": "public",
       "informative": false,

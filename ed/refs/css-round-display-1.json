@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Round Display Level 1",
+    "title": "CSS Round Display Module Level 1",
     "url": "https://drafts.csswg.org/css-round-display-1/"
   },
   "refs": {
@@ -12,6 +12,10 @@
       {
         "name": "CSS-IMAGES-3",
         "url": "https://drafts.csswg.org/css-images-3/"
+      },
+      {
+        "name": "CSS-SHAPES-1",
+        "url": "https://drafts.csswg.org/css-shapes/"
       },
       {
         "name": "CSS-VALUES-3",
@@ -26,12 +30,12 @@
         "url": "https://drafts.csswg.org/css-viewport/"
       },
       {
-        "name": "CSS2",
+        "name": "CSS21",
         "url": "https://drafts.csswg.org/css2/"
       },
       {
         "name": "MOTION-1",
-        "url": "https://drafts.fxtf.org/motion-1/"
+        "url": "https://drafts.csswg.org/motion-1/"
       },
       {
         "name": "RFC2119",

@@ -1351,7 +1351,7 @@
         "href": "https://fetch.spec.whatwg.org/#requestinit"
       },
       "RequestDestination": {
-        "fragment": "enum RequestDestination { \"\", \"audio\", \"audioworklet\", \"document\", \"embed\", \"font\", \"frame\", \"iframe\", \"image\", \"json\", \"manifest\", \"object\", \"paintworklet\", \"report\", \"script\", \"sharedworker\", \"style\",  \"track\", \"video\", \"worker\", \"xslt\" };",
+        "fragment": "enum RequestDestination { \"\", \"audio\", \"audioworklet\", \"document\", \"embed\", \"font\", \"frame\", \"iframe\", \"image\", \"json\", \"manifest\", \"object\", \"paintworklet\", \"report\", \"script\", \"sharedworker\", \"style\", \"text\", \"track\", \"video\", \"worker\", \"xslt\" };",
         "type": "enum",
         "name": "RequestDestination",
         "values": [
@@ -1439,6 +1439,11 @@
             "type": "enum-value",
             "value": "style",
             "href": "https://fetch.spec.whatwg.org/#dom-requestdestination-style"
+          },
+          {
+            "type": "enum-value",
+            "value": "text",
+            "href": "https://fetch.spec.whatwg.org/#dom-requestdestination-text"
           },
           {
             "type": "enum-value",
@@ -1619,7 +1624,7 @@
         "href": "https://fetch.spec.whatwg.org/#enumdef-requestpriority"
       },
       "Response": {
-        "fragment": "[Exposed=(Window,Worker)]interface Response {\n  constructor(optional BodyInit? body = null, optional ResponseInit init = {});\n\n  [NewObject] static Response error();\n  [NewObject] static Response redirect(USVString url, optional unsigned short status = 302);\n  [NewObject] static Response json(any data, optional ResponseInit init = {});\n\n  readonly attribute ResponseType type;\n\n  readonly attribute USVString url;\n  readonly attribute boolean redirected;\n  readonly attribute unsigned short status;\n  readonly attribute boolean ok;\n  readonly attribute ByteString statusText;\n  [SameObject] readonly attribute Headers headers;\n\n  [NewObject] Response clone();\n};",
+        "fragment": "[Exposed=(Window,Worker)]\ninterface Response {\n  constructor(optional BodyInit? body = null, optional ResponseInit init = {});\n\n  [NewObject] static Response error();\n  [NewObject] static Response redirect(USVString url, optional unsigned short status = 302);\n  [NewObject] static Response json(any data, optional ResponseInit init = {});\n\n  readonly attribute ResponseType type;\n\n  readonly attribute USVString url;\n  readonly attribute boolean redirected;\n  readonly attribute unsigned short status;\n  readonly attribute boolean ok;\n  readonly attribute ByteString statusText;\n  [SameObject] readonly attribute Headers headers;\n\n  [NewObject] Response clone();\n};",
         "type": "interface",
         "name": "Response",
         "inheritance": null,

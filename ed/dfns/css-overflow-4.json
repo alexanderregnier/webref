@@ -18,7 +18,7 @@
       "heading": {
         "id": "overflow-clip-margin",
         "href": "https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin",
-        "title": "Expanding Clipping Bounds: the overflow-clip-margin-* properties",
+        "title": "Changing Clipping Bounds: the overflow-clip-margin-* properties",
         "number": "3.2"
       },
       "definedIn": "table",
@@ -38,7 +38,7 @@
       "heading": {
         "id": "overflow-clip-margin",
         "href": "https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin",
-        "title": "Expanding Clipping Bounds: the overflow-clip-margin-* properties",
+        "title": "Changing Clipping Bounds: the overflow-clip-margin-* properties",
         "number": "3.2"
       },
       "definedIn": "table",
@@ -58,7 +58,7 @@
       "heading": {
         "id": "overflow-clip-margin",
         "href": "https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin",
-        "title": "Expanding Clipping Bounds: the overflow-clip-margin-* properties",
+        "title": "Changing Clipping Bounds: the overflow-clip-margin-* properties",
         "number": "3.2"
       },
       "definedIn": "table",
@@ -78,7 +78,7 @@
       "heading": {
         "id": "overflow-clip-margin",
         "href": "https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin",
-        "title": "Expanding Clipping Bounds: the overflow-clip-margin-* properties",
+        "title": "Changing Clipping Bounds: the overflow-clip-margin-* properties",
         "number": "3.2"
       },
       "definedIn": "table",
@@ -98,7 +98,7 @@
       "heading": {
         "id": "overflow-clip-margin",
         "href": "https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin",
-        "title": "Expanding Clipping Bounds: the overflow-clip-margin-* properties",
+        "title": "Changing Clipping Bounds: the overflow-clip-margin-* properties",
         "number": "3.2"
       },
       "definedIn": "table",
@@ -118,7 +118,7 @@
       "heading": {
         "id": "overflow-clip-margin",
         "href": "https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin",
-        "title": "Expanding Clipping Bounds: the overflow-clip-margin-* properties",
+        "title": "Changing Clipping Bounds: the overflow-clip-margin-* properties",
         "number": "3.2"
       },
       "definedIn": "table",
@@ -138,7 +138,7 @@
       "heading": {
         "id": "overflow-clip-margin",
         "href": "https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin",
-        "title": "Expanding Clipping Bounds: the overflow-clip-margin-* properties",
+        "title": "Changing Clipping Bounds: the overflow-clip-margin-* properties",
         "number": "3.2"
       },
       "definedIn": "table",
@@ -158,7 +158,7 @@
       "heading": {
         "id": "overflow-clip-margin",
         "href": "https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin",
-        "title": "Expanding Clipping Bounds: the overflow-clip-margin-* properties",
+        "title": "Changing Clipping Bounds: the overflow-clip-margin-* properties",
         "number": "3.2"
       },
       "definedIn": "table",
@@ -178,7 +178,7 @@
       "heading": {
         "id": "overflow-clip-margin",
         "href": "https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin",
-        "title": "Expanding Clipping Bounds: the overflow-clip-margin-* properties",
+        "title": "Changing Clipping Bounds: the overflow-clip-margin-* properties",
         "number": "3.2"
       },
       "definedIn": "table",
@@ -198,7 +198,7 @@
       "heading": {
         "id": "overflow-clip-margin",
         "href": "https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin",
-        "title": "Expanding Clipping Bounds: the overflow-clip-margin-* properties",
+        "title": "Changing Clipping Bounds: the overflow-clip-margin-* properties",
         "number": "3.2"
       },
       "definedIn": "table",
@@ -218,7 +218,7 @@
       "heading": {
         "id": "overflow-clip-margin",
         "href": "https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin",
-        "title": "Expanding Clipping Bounds: the overflow-clip-margin-* properties",
+        "title": "Changing Clipping Bounds: the overflow-clip-margin-* properties",
         "number": "3.2"
       },
       "definedIn": "table",
@@ -238,7 +238,7 @@
       "heading": {
         "id": "overflow-clip-margin",
         "href": "https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin",
-        "title": "Expanding Clipping Bounds: the overflow-clip-margin-* properties",
+        "title": "Changing Clipping Bounds: the overflow-clip-margin-* properties",
         "number": "3.2"
       },
       "definedIn": "prose",
@@ -607,6 +607,26 @@
       "links": []
     },
     {
+      "id": "line-based-clamp-point",
+      "href": "https://drafts.csswg.org/css-overflow-4/#line-based-clamp-point",
+      "linkingText": [
+        "line-based clamp point"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "max-lines",
+        "href": "https://drafts.csswg.org/css-overflow-4/#max-lines",
+        "title": "Forcing a Break After a Set Number of Lines: the max-lines property",
+        "number": "5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "propdef-continue",
       "href": "https://drafts.csswg.org/css-overflow-4/#propdef-continue",
       "linkingText": [
@@ -737,26 +757,6 @@
       "href": "https://drafts.csswg.org/css-overflow-4/#auto-clamp-point",
       "linkingText": [
         "auto clamp point"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "line-clamp-containers",
-        "href": "https://drafts.csswg.org/css-overflow-4/#line-clamp-containers",
-        "title": "Line-clamp containers",
-        "number": "5.3.1"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "line-based-clamp-point",
-      "href": "https://drafts.csswg.org/css-overflow-4/#line-based-clamp-point",
-      "linkingText": [
-        "line-based clamp point"
       ],
       "localLinkingText": [],
       "type": "dfn",

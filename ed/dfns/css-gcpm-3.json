@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Generated Content for Paged Media Module",
+    "title": "CSS Generated Content for Paged Media Module Level 3",
     "url": "https://drafts.csswg.org/css-gcpm-3/"
   },
   "dfns": [
@@ -416,26 +416,6 @@
         "number": "2.8"
       },
       "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "page-selectors",
-      "href": "https://drafts.csswg.org/css-gcpm-3/#page-selectors",
-      "linkingText": [
-        "page selectors"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "the-first-page-pseudo-element",
-        "href": "https://drafts.csswg.org/css-gcpm-3/#the-first-page-pseudo-element",
-        "title": "Selecting Pages",
-        "number": "3"
-      },
-      "definedIn": "prose",
       "links": []
     },
     {

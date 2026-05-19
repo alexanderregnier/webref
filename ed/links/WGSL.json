@@ -83,6 +83,7 @@
           "dom-gpucompilationinfo-messages",
           "gpucompilationinfo",
           "dom-supported-limits-maxcomputeworkgroupstoragesize",
+          "dom-supported-limits-maximmediatesize",
           "gpufeaturename",
           "gpudevice",
           "subgroups",
@@ -109,8 +110,11 @@
           "dom-gputextureviewdimension-cube-array",
           "dictdef-gputexturebindinglayout",
           "dom-gpudevice-createbindgrouplayout",
+          "dom-gpubindingcommandsmixin-setimmediates",
+          "dom-gpupipelinelayoutdescriptor-immediatesize",
           "lose-the-device",
           "front-facing",
+          "gpucomputepassencoder",
           "clip-position",
           "clip-space-coordinates",
           "ndc",
@@ -155,7 +159,8 @@
           "abstract-opdef-get-as-buffer-binding",
           "abstract-opdef-effective-buffer-binding-size",
           "dom-gpuadapterinfo-subgroupminsize",
-          "dom-gpuadapterinfo-subgroupmaxsize"
+          "dom-gpuadapterinfo-subgroupmaxsize",
+          "dom-gputextureviewdescriptor-swizzle"
         ]
       },
       "https://infra.spec.whatwg.org/": {

@@ -481,9 +481,9 @@
       "id": "sh-shapes-graph",
       "href": "https://w3c.github.io/data-shapes/shacl12-core/#sh-shapes-graph",
       "level": 3,
-      "title": "Linking to shapes graphs (sh:shapesGraph)",
+      "title": "Linking data graphs to shapes graphs (sh:shapesGraph)",
       "alternateIds": [
-        "x6-4-linking-to-shapes-graphs-sh-shapesgraph"
+        "x6-4-linking-data-graphs-to-shapes-graphs-sh-shapesgraph"
       ],
       "number": "6.4"
     },
@@ -568,14 +568,24 @@
       "number": "6.7.1.1"
     },
     {
+      "id": "conformanceDisallows",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#conformanceDisallows",
+      "level": 5,
+      "title": "Conformance-Disallow Set (sh:conformanceDisallows)",
+      "alternateIds": [
+        "x6-7-1-2-conformance-disallow-set-sh-conformancedisallows"
+      ],
+      "number": "6.7.1.2"
+    },
+    {
       "id": "result",
       "href": "https://w3c.github.io/data-shapes/shacl12-core/#result",
       "level": 5,
       "title": "Result (sh:result)",
       "alternateIds": [
-        "x6-7-1-2-result-sh-result"
+        "x6-7-1-3-result-sh-result"
       ],
-      "number": "6.7.1.2"
+      "number": "6.7.1.3"
     },
     {
       "id": "shapesGraphWellFormed",
@@ -583,9 +593,9 @@
       "level": 5,
       "title": "Syntax Checking of Shapes Graph (sh:shapesGraphWellFormed)",
       "alternateIds": [
-        "x6-7-1-3-syntax-checking-of-shapes-graph-sh-shapesgraphwellformed"
+        "x6-7-1-4-syntax-checking-of-shapes-graph-sh-shapesgraphwellformed"
       ],
-      "number": "6.7.1.3"
+      "number": "6.7.1.4"
     },
     {
       "id": "results-validation-result",
@@ -988,14 +998,24 @@
       "number": "7.6.2"
     },
     {
+      "id": "SubsetOfConstraintComponent",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#SubsetOfConstraintComponent",
+      "level": 4,
+      "title": "sh:subsetOf",
+      "alternateIds": [
+        "x7-6-3-sh-subsetof"
+      ],
+      "number": "7.6.3"
+    },
+    {
       "id": "LessThanConstraintComponent",
       "href": "https://w3c.github.io/data-shapes/shacl12-core/#LessThanConstraintComponent",
       "level": 4,
       "title": "sh:lessThan",
       "alternateIds": [
-        "x7-6-3-sh-lessthan"
+        "x7-6-4-sh-lessthan"
       ],
-      "number": "7.6.3"
+      "number": "7.6.4"
     },
     {
       "id": "LessThanOrEqualsConstraintComponent",
@@ -1003,9 +1023,9 @@
       "level": 4,
       "title": "sh:lessThanOrEquals",
       "alternateIds": [
-        "x7-6-4-sh-lessthanorequals"
+        "x7-6-5-sh-lessthanorequals"
       ],
-      "number": "7.6.4"
+      "number": "7.6.5"
     },
     {
       "id": "core-components-logical",
@@ -1108,8 +1128,8 @@
       "number": "7.8.4"
     },
     {
-      "id": "ReifierShapeShapeConstraintComponent",
-      "href": "https://w3c.github.io/data-shapes/shacl12-core/#ReifierShapeShapeConstraintComponent",
+      "id": "ReifierShapeConstraintComponent",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#ReifierShapeConstraintComponent",
       "level": 4,
       "title": "sh:reifierShape, sh:reificationRequired",
       "alternateIds": [
@@ -1158,6 +1178,26 @@
       "number": "7.9.3"
     },
     {
+      "id": "RootClassConstraintComponent",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#RootClassConstraintComponent",
+      "level": 4,
+      "title": "sh:rootClass",
+      "alternateIds": [
+        "x7-9-4-sh-rootclass"
+      ],
+      "number": "7.9.4"
+    },
+    {
+      "id": "UniqueValuesForConstraintComponent",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#UniqueValuesForConstraintComponent",
+      "level": 4,
+      "title": "sh:uniqueValuesFor",
+      "alternateIds": [
+        "x7-9-5-sh-uniquevaluesfor"
+      ],
+      "number": "7.9.5"
+    },
+    {
       "id": "nonValidation",
       "href": "https://w3c.github.io/data-shapes/shacl12-core/#nonValidation",
       "level": 2,
@@ -1178,14 +1218,44 @@
       "number": "8.1"
     },
     {
+      "id": "intent",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#intent",
+      "level": 3,
+      "title": "sh:intent",
+      "alternateIds": [
+        "x8-2-sh-intent"
+      ],
+      "number": "8.2"
+    },
+    {
+      "id": "agentInstruction",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#agentInstruction",
+      "level": 3,
+      "title": "sh:agentInstruction",
+      "alternateIds": [
+        "x8-3-sh-agentinstruction"
+      ],
+      "number": "8.3"
+    },
+    {
       "id": "codeIdentifier",
       "href": "https://w3c.github.io/data-shapes/shacl12-core/#codeIdentifier",
       "level": 3,
       "title": "sh:codeIdentifier",
       "alternateIds": [
-        "x8-2-sh-codeidentifier"
+        "x8-4-sh-codeidentifier"
       ],
-      "number": "8.2"
+      "number": "8.4"
+    },
+    {
+      "id": "unit",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#unit",
+      "level": 3,
+      "title": "sh:unit",
+      "alternateIds": [
+        "x8-5-sh-unit"
+      ],
+      "number": "8.5"
     },
     {
       "id": "order",
@@ -1193,9 +1263,9 @@
       "level": 3,
       "title": "sh:order",
       "alternateIds": [
-        "x8-3-sh-order"
+        "x8-6-sh-order"
       ],
-      "number": "8.3"
+      "number": "8.6"
     },
     {
       "id": "group",
@@ -1203,9 +1273,9 @@
       "level": 3,
       "title": "sh:group",
       "alternateIds": [
-        "x8-4-sh-group"
+        "x8-7-sh-group"
       ],
-      "number": "8.4"
+      "number": "8.7"
     },
     {
       "id": "appendix",
@@ -1294,24 +1364,14 @@
       "number": "F"
     },
     {
-      "id": "revision-history",
-      "href": "https://w3c.github.io/data-shapes/shacl12-core/#revision-history",
-      "level": 2,
-      "title": "Revision History",
-      "alternateIds": [
-        "g-revision-history"
-      ],
-      "number": "G"
-    },
-    {
       "id": "changes-12",
       "href": "https://w3c.github.io/data-shapes/shacl12-core/#changes-12",
       "level": 2,
       "title": "Changes between the original SHACL Core and SHACL 1.2 Core",
       "alternateIds": [
-        "h-changes-between-the-original-shacl-core-and-shacl-1-2-core"
+        "g-changes-between-the-original-shacl-core-and-shacl-1-2-core"
       ],
-      "number": "H"
+      "number": "G"
     },
     {
       "id": "references",
@@ -1319,9 +1379,9 @@
       "level": 2,
       "title": "References",
       "alternateIds": [
-        "i-references"
+        "h-references"
       ],
-      "number": "I"
+      "number": "H"
     },
     {
       "id": "normative-references",
@@ -1329,9 +1389,9 @@
       "level": 3,
       "title": "Normative references",
       "alternateIds": [
-        "i-1-normative-references"
+        "h-1-normative-references"
       ],
-      "number": "I.1"
+      "number": "H.1"
     },
     {
       "id": "informative-references",
@@ -1339,9 +1399,9 @@
       "level": 3,
       "title": "Informative references",
       "alternateIds": [
-        "i-2-informative-references"
+        "h-2-informative-references"
       ],
-      "number": "I.2"
+      "number": "H.2"
     }
   ]
 }

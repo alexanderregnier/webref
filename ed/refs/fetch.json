@@ -134,10 +134,6 @@
         "url": "https://w3c.github.io/webappsec-subresource-integrity/"
       },
       {
-        "name": "SRI-2",
-        "url": "https://w3c.github.io/webappsec-subresource-integrity/"
-      },
-      {
         "name": "STALE-WHILE-REVALIDATE",
         "url": "https://httpwg.org/specs/rfc5861.html"
       },
@@ -166,6 +162,10 @@
         "url": "https://url.spec.whatwg.org/"
       },
       {
+        "name": "WEBCRYPTO",
+        "url": "https://w3c.github.io/webcrypto/"
+      },
+      {
         "name": "WEBDRIVER-BIDI",
         "url": "https://w3c.github.io/webdriver-bidi/"
       },
@@ -176,6 +176,10 @@
       {
         "name": "WEBSOCKETS",
         "url": "https://websockets.spec.whatwg.org/"
+      },
+      {
+        "name": "WEBTRANSPORT",
+        "url": "https://w3c.github.io/webtransport/"
       },
       {
         "name": "WEBTRANSPORT-HTTP3",
@@ -214,6 +218,14 @@
       {
         "name": "RFC2397",
         "url": "https://www.rfc-editor.org/rfc/rfc2397"
+      },
+      {
+        "name": "RFC3986",
+        "url": "https://www.rfc-editor.org/rfc/rfc3986"
+      },
+      {
+        "name": "RFC5952",
+        "url": "https://www.rfc-editor.org/rfc/rfc5952"
       },
       {
         "name": "RFC6960",

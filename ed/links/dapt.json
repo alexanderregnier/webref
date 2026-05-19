@@ -30,7 +30,7 @@
       "https://github.com/w3c/dapt/issues/44": {},
       "https://github.com/w3c/dapt/issues/?q=is%3Aissue+is%3Aopen+label%3A%22At+risk+feature%22": {},
       "https://github.com/w3c/dapt/issues/?q=is%3Aissue+is%3Aopen+label%3A%22CR+must-have%22": {},
-      "https://github.com/w3c/dapt/issues/?q=is%3Aissue+is%3Aopen+label%3A%22PR-must-have%22": {},
+      "https://github.com/w3c/dapt/issues/?q=is%3Aissue+is%3Aopen+label%3A%22CR-exit-must-have%22": {},
       "https://github.com/w3c/dapt/issues/?q=is%3Aissue+is%3Aopen+label%3A%22question%22": {},
       "https://github.com/w3c/dapt/pull/216": {
         "anchors": [
@@ -182,7 +182,13 @@
       },
       "https://www.w3.org/TR/namespaceState/": {},
       "https://www.w3.org/TR/speech-synthesis11/": {},
-      "https://www.w3.org/TR/ttml-imsc1.2/": {},
+      "https://www.w3.org/TR/ttml-imsc1.3/": {
+        "anchors": [
+          "dfn-text-profile",
+          "document-encoding",
+          "dfn-related-video-object"
+        ]
+      },
       "https://www.w3.org/TR/ttml1/": {},
       "https://www.w3.org/TR/ttml2/": {
         "anchors": [
@@ -191,7 +197,7 @@
           "timing-value-time-expression"
         ]
       },
-      "https://www.w3.org/TR/webaudio-1.0/": {},
+      "https://www.w3.org/TR/webaudio-1.1/": {},
       "https://www.w3.org/TR/xml-id/": {},
       "https://www.w3.org/TR/xml-names/": {},
       "https://www.w3.org/TR/xml/": {
@@ -200,7 +206,9 @@
           "NT-Name",
           "dt-charref",
           "dt-entref",
-          "sec-predefined-ent"
+          "sec-predefined-ent",
+          "dt-doctype",
+          "dt-entdecl"
         ]
       },
       "https://www.w3.org/TR/xmlschema-2/": {

@@ -6,6 +6,10 @@
   "refs": {
     "normative": [
       {
+        "name": "CSS-2025",
+        "url": "https://drafts.csswg.org/css-2025/"
+      },
+      {
         "name": "CSS-ANIMATIONS-1",
         "url": "https://drafts.csswg.org/css-animations/"
       },
@@ -35,7 +39,7 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display/"
+        "url": "https://drafts.csswg.org/css-display-4/"
       },
       {
         "name": "CSS-FONTS-4",
@@ -50,8 +54,8 @@
         "url": "https://drafts.csswg.org/css-pseudo-4/"
       },
       {
-        "name": "CSS-SCOPING-1",
-        "url": "https://drafts.csswg.org/css-scoping/"
+        "name": "CSS-SHADOW-1",
+        "url": "https://drafts.csswg.org/css-shadow-1/"
       },
       {
         "name": "CSS-SYNTAX-3",
@@ -120,8 +124,8 @@
     ],
     "informative": [
       {
-        "name": "CSS-ALIGN-3",
-        "url": "https://drafts.csswg.org/css-align/"
+        "name": "ANIMATION-TRIGGERS-1",
+        "url": "https://drafts.csswg.org/animation-triggers-1/"
       },
       {
         "name": "CSS-BREAK-3",
@@ -132,12 +136,8 @@
         "url": "https://drafts.csswg.org/css-break-4/"
       },
       {
-        "name": "CSS-FLEXBOX-1",
-        "url": "https://drafts.csswg.org/css-flexbox-1/"
-      },
-      {
-        "name": "CSS-FONTS-5",
-        "url": "https://drafts.csswg.org/css-fonts-5/"
+        "name": "CSS-FLEXBOX-2",
+        "url": "https://drafts.csswg.org/css-flexbox-2/"
       },
       {
         "name": "CSS-INLINE-3",

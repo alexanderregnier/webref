@@ -99,9 +99,10 @@
   "values": [
     {
       "name": "<basic-shape>",
-      "prose": "The <basic-shape> type can be specified using basic shape functions. When using this syntax to define shapes, the reference box is defined by each property that uses <basic-shape> values. The coordinate system for the shape has its origin on the top-left corner of the reference box with the x-axis running to the right and the y-axis running downwards. All the lengths expressed in percentages are resolved from the used dimensions of the reference box.",
+      "prose": "The <basic-shape> type can be specified using basic shape functions.",
       "href": "https://drafts.csswg.org/css-shapes-1/#typedef-basic-shape",
       "type": "type",
+      "value": "<basic-shape-rect> | <circle()> | <ellipse()> | <polygon()> | <path()> | <shape()>",
       "values": [
         {
           "name": "inset()",
@@ -340,11 +341,11 @@
       "name": "<shape-box>",
       "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-box",
       "type": "type",
-      "value": "<visual-box> | margin-box",
+      "value": "<visual-box> | margin-box | half-border-box",
       "values": [
         {
           "name": "margin-box",
-          "prose": "The margin-box value defines the shape enclosed by the outside margin edge. The corner radii of this shape are determined by the corresponding border-radius and margin values. If the ratio of border-radius/margin is 1 or more, or margin is negative or zero, then the margin box corner radius is max(border-radius + margin, 0). If the ratio of border-radius/margin is less than 1, and margin is positive, then the margin box corner radius is border-radius + margin * (1 + (ratio-1)^3).",
+          "prose": "The margin-box value defines the shape enclosed by the outside margin edge. The corner radii of this shape are determined by the corresponding border-radius and margin values. If the ratio of border-radius/margin is 1 or more, or margin is negative or zero, then the margin box corner radius is max(border-radius + margin, 0). The margin box’s corners are outset-adjusted given the element’s border box, border-radius, and the margin.",
           "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-box-margin-box",
           "type": "value",
           "value": "margin-box"
@@ -369,6 +370,13 @@
           "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-box-content-box",
           "type": "value",
           "value": "content-box"
+        },
+        {
+          "name": "half-border-box",
+          "prose": "The half-border-box value defines the shape enclosed by a box that is in the middle between the padding-box and the border-box.",
+          "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-box-half-border-box",
+          "type": "value",
+          "value": "half-border-box"
         }
       ]
     }

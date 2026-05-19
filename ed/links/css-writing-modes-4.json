@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Writing Modes Level 4",
+    "title": "CSS Writing Modes Module Level 4",
     "url": "https://drafts.csswg.org/css-writing-modes-4/"
   },
   "links": {
@@ -43,36 +43,56 @@
       "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/direction": {},
       "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/unicode-bidi": {},
       "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/writing-mode": {},
-      "https://drafts.csswg.org/css-align/": {},
       "https://drafts.csswg.org/css-backgrounds/": {},
+      "https://drafts.csswg.org/css-borders-4/": {},
       "https://drafts.csswg.org/css-box-4/": {},
       "https://drafts.csswg.org/css-break-4/": {},
       "https://drafts.csswg.org/css-break/": {},
       "https://drafts.csswg.org/css-cascade-4/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
+      "https://drafts.csswg.org/css-contain-1/": {
+        "anchors": [
+          "contain-property"
+        ]
+      },
       "https://drafts.csswg.org/css-contain-2/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox-2/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
+      "https://drafts.csswg.org/css-fonts-3/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
+      "https://drafts.csswg.org/css-gaps-1/": {},
       "https://drafts.csswg.org/css-grid-2/": {},
       "https://drafts.csswg.org/css-images-3/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
+      "https://drafts.csswg.org/css-logical-1/": {
+        "anchors": [
+          "box"
+        ]
+      },
+      "https://drafts.csswg.org/css-masking-1/": {},
       "https://drafts.csswg.org/css-multicol-2/": {},
+      "https://drafts.csswg.org/css-multicol/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-page-3/": {},
-      "https://drafts.csswg.org/css-shapes/": {},
       "https://drafts.csswg.org/css-sizing-3/": {},
       "https://drafts.csswg.org/css-speech-1/": {},
       "https://drafts.csswg.org/css-text-3/": {
         "anchors": [
-          "order"
+          "order",
+          "white-space-processing"
         ]
       },
       "https://drafts.csswg.org/css-text-4/": {},
       "https://drafts.csswg.org/css-text-decor-3/": {},
       "https://drafts.csswg.org/css-text-decor-4/": {},
       "https://drafts.csswg.org/css-values-3/": {},
-      "https://drafts.csswg.org/css-values-4/": {},
+      "https://drafts.csswg.org/css-values-4/": {
+        "anchors": [
+          "lengths"
+        ]
+      },
       "https://drafts.csswg.org/css2/": {},
       "https://drafts.csswg.org/mediaqueries-5/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
@@ -94,8 +114,11 @@
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://unicode.org/notes/tn22/": {},
       "https://www.rfc-editor.org/rfc/rfc6919": {},
+      "https://www.unicode.org/reports/tr11/tr11-44.html": {},
+      "https://www.unicode.org/reports/tr24/tr24-39.html": {},
       "https://www.unicode.org/reports/tr50/tr50-33.html": {},
       "https://www.unicode.org/reports/tr9/tr9-51.html": {},
+      "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/TR/2018/CR-css-writing-modes-4-20180524": {},
       "https://www.w3.org/TR/2019/CR-css-writing-modes-4-20190730/": {},
       "https://www.w3.org/TR/CSS/": {},
@@ -178,12 +201,7 @@
       "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
-      "https://drafts.csswg.org/css-align-3/": {
-        "anchors": [
-          "propdef-column-gap"
-        ]
-      },
-      "https://drafts.csswg.org/css-backgrounds-3/": {
+      "https://drafts.csswg.org/css-borders-4/": {
         "anchors": [
           "propdef-box-shadow"
         ]
@@ -223,6 +241,7 @@
       "https://drafts.csswg.org/css-display-4/": {
         "anchors": [
           "block-container",
+          "propdef-display",
           "valdef-display-inline",
           "replaced-element",
           "inline-box",
@@ -234,10 +253,11 @@
           "valdef-display-flow",
           "valdef-display-flow-root",
           "display-type",
+          "block-level",
           "initial-containing-block"
         ]
       },
-      "https://drafts.csswg.org/css-flexbox-1/": {
+      "https://drafts.csswg.org/css-flexbox-2/": {
         "anchors": [
           "flex-container"
         ]
@@ -246,6 +266,11 @@
         "anchors": [
           "propdef-font-variant",
           "propdef-font-feature-settings"
+        ]
+      },
+      "https://drafts.csswg.org/css-gaps-1/": {
+        "anchors": [
+          "propdef-column-gap"
         ]
       },
       "https://drafts.csswg.org/css-grid-2/": {
@@ -262,13 +287,19 @@
         "anchors": [
           "root-inline-box",
           "propdef-vertical-align",
-          "valdef-alignment-baseline-baseline",
           "valdef-baseline-shift-sub",
-          "valdef-baseline-shift-super"
+          "valdef-baseline-shift-super",
+          "central-baseline"
+        ]
+      },
+      "https://drafts.csswg.org/css-masking-1/": {
+        "anchors": [
+          "funcdef-clip-rect"
         ]
       },
       "https://drafts.csswg.org/css-multicol-2/": {
         "anchors": [
+          "multi-column-container",
           "propdef-column-width",
           "propdef-column-count",
           "valdef-column-width-auto",
@@ -285,11 +316,6 @@
       "https://drafts.csswg.org/css-page-3/": {
         "anchors": [
           "page-progression"
-        ]
-      },
-      "https://drafts.csswg.org/css-shapes-1/": {
-        "anchors": [
-          "funcdef-basic-shape-rect"
         ]
       },
       "https://drafts.csswg.org/css-sizing-3/": {
@@ -311,7 +337,8 @@
           "stretch-fit-block-size",
           "max-content-block-size",
           "min-content-block-size",
-          "automatic-inline-size"
+          "automatic-inline-size",
+          "fit-content-size"
         ]
       },
       "https://drafts.csswg.org/css-speech-1/": {
@@ -358,7 +385,7 @@
       },
       "https://drafts.csswg.org/css2/": {
         "anchors": [
-          "propdef-display",
+          "valdef-vertical-align-baseline",
           "propdef-border-spacing",
           "propdef-line-height",
           "propdef-min-height",

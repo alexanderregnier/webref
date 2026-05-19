@@ -14,10 +14,6 @@
         "url": "https://www.w3.org/TR/did-core/"
       },
       {
-        "name": "DID-KEY",
-        "url": "https://w3c-ccg.github.io/did-method-key/"
-      },
-      {
         "name": "INFRA",
         "url": "https://infra.spec.whatwg.org/"
       },
@@ -34,8 +30,8 @@
         "url": "https://www.rfc-editor.org/rfc/rfc3986"
       },
       {
-        "name": "RFC4122",
-        "url": "https://www.rfc-editor.org/rfc/rfc4122"
+        "name": "RFC3987",
+        "url": "https://www.rfc-editor.org/rfc/rfc3987"
       },
       {
         "name": "RFC8174",
@@ -52,10 +48,6 @@
       {
         "name": "VC-DATA-MODEL",
         "url": "https://www.w3.org/TR/vc-data-model-2.0/"
-      },
-      {
-        "name": "XMLSCHEMA11-2",
-        "url": "https://www.w3.org/TR/xmlschema11-2/"
       }
     ],
     "informative": [
@@ -68,16 +60,20 @@
         "url": "https://www.w3.org/TR/did-extensions-resolution/"
       },
       {
-        "name": "HASHLINK",
-        "url": "https://tools.ietf.org/html/draft-sporny-hashlink-05"
+        "name": "DID-KEY",
+        "url": "https://w3c-ccg.github.io/did-key-spec/"
       },
       {
         "name": "KERI",
         "url": "https://arxiv.org/abs/1907.02143"
       },
       {
-        "name": "RFC3339",
-        "url": "https://www.rfc-editor.org/rfc/rfc3339"
+        "name": "RFC1034",
+        "url": "https://www.rfc-editor.org/rfc/rfc1034"
+      },
+      {
+        "name": "RFC4122",
+        "url": "https://www.rfc-editor.org/rfc/rfc4122"
       },
       {
         "name": "RFC7231",

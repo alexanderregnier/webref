@@ -32,6 +32,7 @@
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/w3c/payment-request/commit/0273c79": {},
       "https://github.com/w3c/payment-request/commit/0358fb3": {},
+      "https://github.com/w3c/payment-request/commit/046bcea": {},
       "https://github.com/w3c/payment-request/commit/08be866": {},
       "https://github.com/w3c/payment-request/commit/0bc0baa": {},
       "https://github.com/w3c/payment-request/commit/0d11184": {},
@@ -41,6 +42,7 @@
       "https://github.com/w3c/payment-request/commit/1816526": {},
       "https://github.com/w3c/payment-request/commit/1d5bcd8": {},
       "https://github.com/w3c/payment-request/commit/2025bbb": {},
+      "https://github.com/w3c/payment-request/commit/21370b1": {},
       "https://github.com/w3c/payment-request/commit/22195c7": {},
       "https://github.com/w3c/payment-request/commit/26fbcf9": {},
       "https://github.com/w3c/payment-request/commit/277a385": {},
@@ -78,6 +80,7 @@
       "https://github.com/w3c/payment-request/commit/a0c831d": {},
       "https://github.com/w3c/payment-request/commit/a0ff44f": {},
       "https://github.com/w3c/payment-request/commit/a1e773a": {},
+      "https://github.com/w3c/payment-request/commit/a473a75": {},
       "https://github.com/w3c/payment-request/commit/a4f35e3": {},
       "https://github.com/w3c/payment-request/commit/b336891": {},
       "https://github.com/w3c/payment-request/commit/b417638": {},
@@ -105,6 +108,8 @@
       "https://github.com/w3c/payment-request/pull/1026": {},
       "https://github.com/w3c/payment-request/pull/1029": {},
       "https://github.com/w3c/payment-request/pull/1047": {},
+      "https://github.com/w3c/payment-request/pull/1054": {},
+      "https://github.com/w3c/payment-request/pull/1061": {},
       "https://github.com/w3c/payment-request/pull/654": {},
       "https://github.com/w3c/payment-request/pull/656": {},
       "https://github.com/w3c/payment-request/pull/666": {},
@@ -238,10 +243,10 @@
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/2022/REC-payment-request-20220908/": {},
       "https://www.w3.org/TR/contact-picker/": {},
-      "https://www.w3.org/TR/payment-handler/": {},
       "https://www.w3.org/TR/payment-method-id/": {},
       "https://www.w3.org/TR/permissions-policy-1/": {},
       "https://www.w3.org/TR/secure-contexts/": {},
+      "https://www.w3.org/TR/web-based-payment-handler/": {},
       "https://www.w3.org/community/wicg/": {},
       "https://www.w3.org/groups/wg/payments": {},
       "https://www.w3.org/groups/wg/payments/ipr": {},
@@ -325,6 +330,7 @@
       },
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
         "anchors": [
+          "window-bc",
           "concept-document-window",
           "window"
         ]
@@ -392,15 +398,17 @@
           "exceptiondef-rangeerror",
           "dfn-convert-ecmascript-to-idl-value",
           "a-promise-rejected-with",
-          "aborterror",
           "invalidstateerror",
+          "aborterror",
           "a-new-promise",
           "dfn-exception",
           "notsupportederror",
           "upon-rejection",
           "upon-fulfillment",
+          "reject",
           "Default",
-          "notallowederror"
+          "notallowederror",
+          "operationerror"
         ]
       },
       "https://www.w3.org/TR/contact-picker/": {

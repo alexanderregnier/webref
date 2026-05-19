@@ -27,7 +27,7 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display/"
+        "url": "https://drafts.csswg.org/css-display-4/"
       },
       {
         "name": "CSS-FONTS-3",
@@ -70,10 +70,6 @@
         "url": "https://drafts.csswg.org/css-text-4/"
       },
       {
-        "name": "CSS-TEXT-DECOR-4",
-        "url": "https://drafts.csswg.org/css-text-decor-4/"
-      },
-      {
         "name": "CSS-UI-4",
         "url": "https://drafts.csswg.org/css-ui-4/"
       },
@@ -95,11 +91,15 @@
       },
       {
         "name": "FILL-STROKE-3",
-        "url": "https://drafts.fxtf.org/fill-stroke/"
+        "url": "https://drafts.csswg.org/fill-stroke/"
       },
       {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
+      },
+      {
+        "name": "SELECTORS-4",
+        "url": "https://drafts.csswg.org/selectors/"
       },
       {
         "name": "UAX11",

@@ -70,14 +70,24 @@
       "number": "1.2.2"
     },
     {
+      "id": "android-accessibility-api",
+      "href": "https://w3c.github.io/core-aam/#android-accessibility-api",
+      "level": 4,
+      "title": "Android Accessibility API",
+      "alternateIds": [
+        "x1-2-3-android-accessibility-api"
+      ],
+      "number": "1.2.3"
+    },
+    {
       "id": "accessible-names-and-descriptions",
       "href": "https://w3c.github.io/core-aam/#accessible-names-and-descriptions",
       "level": 4,
       "title": "Accessible Names and Descriptions",
       "alternateIds": [
-        "x1-2-3-accessible-names-and-descriptions"
+        "x1-2-4-accessible-names-and-descriptions"
       ],
-      "number": "1.2.3"
+      "number": "1.2.4"
     },
     {
       "id": "conformance",
@@ -90,34 +100,14 @@
       "number": "2"
     },
     {
-      "id": "rfc-2119-keywords",
-      "href": "https://w3c.github.io/core-aam/#rfc-2119-keywords",
-      "level": 3,
-      "title": "RFC-2119 Keywords",
-      "alternateIds": [
-        "x2-1-rfc-2119-keywords"
-      ],
-      "number": "2.1"
-    },
-    {
-      "id": "normative-and-informative-sections",
-      "href": "https://w3c.github.io/core-aam/#normative-and-informative-sections",
-      "level": 3,
-      "title": "Normative and Informative Sections",
-      "alternateIds": [
-        "x2-2-normative-and-informative-sections"
-      ],
-      "number": "2.2"
-    },
-    {
       "id": "features-deprecated-in-wai-aria",
       "href": "https://w3c.github.io/core-aam/#features-deprecated-in-wai-aria",
       "level": 3,
       "title": "Features Deprecated in WAI-ARIA",
       "alternateIds": [
-        "x2-3-features-deprecated-in-wai-aria"
+        "x2-1-features-deprecated-in-wai-aria"
       ],
-      "number": "2.3"
+      "number": "2.1"
     },
     {
       "id": "mapping",
@@ -2510,14 +2500,44 @@
       "number": "3.8.5"
     },
     {
+      "id": "mapping_algorithms",
+      "href": "https://w3c.github.io/core-aam/#mapping_algorithms",
+      "level": 2,
+      "title": "Algorithms",
+      "alternateIds": [
+        "x4-algorithms"
+      ],
+      "number": "4"
+    },
+    {
+      "id": "arianotifymixin-algorithm-mapping-tables",
+      "href": "https://w3c.github.io/core-aam/#arianotifymixin-algorithm-mapping-tables",
+      "level": 3,
+      "title": "ARIANotifyMixin Algorithm Mapping Tables",
+      "alternateIds": [
+        "x4-1-arianotifymixin-algorithm-mapping-tables"
+      ],
+      "number": "4.1"
+    },
+    {
+      "id": "arianotify",
+      "href": "https://w3c.github.io/core-aam/#arianotify",
+      "level": 4,
+      "title": "ariaNotify",
+      "alternateIds": [
+        "arianotifymixin-map-arianotify"
+      ],
+      "number": "4.1.1"
+    },
+    {
       "id": "privacy-considerations",
       "href": "https://w3c.github.io/core-aam/#privacy-considerations",
       "level": 2,
       "title": "Privacy considerations",
       "alternateIds": [
-        "x4-privacy-considerations"
+        "x5-privacy-considerations"
       ],
-      "number": "4"
+      "number": "5"
     },
     {
       "id": "security-considerations",
@@ -2525,9 +2545,9 @@
       "level": 2,
       "title": "Security considerations",
       "alternateIds": [
-        "x5-security-considerations"
+        "x6-security-considerations"
       ],
-      "number": "5"
+      "number": "6"
     },
     {
       "id": "changelog",

@@ -10,6 +10,10 @@
         "url": "https://drafts.csswg.org/css-conditional-3/"
       },
       {
+        "name": "CSS-CONDITIONAL-5",
+        "url": "https://drafts.csswg.org/css-conditional-5/"
+      },
+      {
         "name": "CSS-VALUES-4",
         "url": "https://drafts.csswg.org/css-values-4/"
       },
@@ -26,6 +30,10 @@
       {
         "name": "CSS-NAMESPACES-3",
         "url": "https://drafts.csswg.org/css-namespaces/"
+      },
+      {
+        "name": "SELECTORS-5",
+        "url": "https://drafts.csswg.org/selectors-5/"
       }
     ]
   }

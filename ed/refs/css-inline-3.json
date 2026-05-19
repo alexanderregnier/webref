@@ -43,11 +43,15 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display/"
+        "url": "https://drafts.csswg.org/css-display-4/"
       },
       {
         "name": "CSS-FONTS-4",
         "url": "https://drafts.csswg.org/css-fonts-4/"
+      },
+      {
+        "name": "CSS-INLINE-3",
+        "url": "https://drafts.csswg.org/css-inline-3/"
       },
       {
         "name": "CSS-LISTS-3",
@@ -119,7 +123,7 @@
       },
       {
         "name": "SVG2",
-        "url": "https://svgwg.org/svg2-draft/"
+        "url": "https://w3c.github.io/svgwg/svg2-draft/"
       }
     ],
     "informative": [

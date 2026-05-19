@@ -1,7 +1,7 @@
 {
   "spec": {
     "title": "Web NFC",
-    "url": "https://w3c.github.io/web-nfc/"
+    "url": "https://w3c-cg.github.io/web-nfc/"
   },
   "refs": {
     "normative": [
@@ -22,7 +22,7 @@
         "url": "https://encoding.spec.whatwg.org/"
       },
       {
-        "name": "HTML",
+        "name": "html",
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
@@ -78,7 +78,7 @@
         "url": "https://url.spec.whatwg.org/"
       },
       {
-        "name": "WebIDL",
+        "name": "WEBIDL",
         "url": "https://webidl.spec.whatwg.org/"
       }
     ],
@@ -101,7 +101,7 @@
       },
       {
         "name": "NFC-SECURITY",
-        "url": "https://w3c.github.io/web-nfc/archive/security-privacy.html"
+        "url": "https://w3c-cg.github.io/web-nfc/archive/security-privacy.html"
       },
       {
         "name": "RFC3986",

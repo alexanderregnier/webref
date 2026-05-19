@@ -27,7 +27,7 @@
       "https://dom.spec.whatwg.org/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-cascade-6/": {},
-      "https://drafts.csswg.org/css-display/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-pseudo-4/": {
         "anchors": [
           "highlight-pseudos",
@@ -42,8 +42,8 @@
       "https://drafts.csswg.org/css2/": {},
       "https://drafts.csswg.org/cssom-view/": {},
       "https://drafts.csswg.org/cssom/": {},
+      "https://drafts.csswg.org/geometry/": {},
       "https://drafts.csswg.org/selectors/": {},
-      "https://drafts.fxtf.org/geometry/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/csswg-drafts/issues/4598": {},
       "https://github.com/w3c/csswg-drafts/pull/4592": {},
@@ -153,14 +153,15 @@
           "dom-range-getclientrects"
         ]
       },
-      "https://drafts.csswg.org/selectors-4/": {
-        "anchors": [
-          "specificity"
-        ]
-      },
-      "https://drafts.fxtf.org/geometry-1/": {
+      "https://drafts.csswg.org/geometry-1/": {
         "anchors": [
           "domrect"
+        ]
+      },
+      "https://drafts.csswg.org/selectors-4/": {
+        "anchors": [
+          "pseudo-element",
+          "specificity"
         ]
       },
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
@@ -199,11 +200,6 @@
           "idl-sequence",
           "dfn-dictionary",
           "idl-float"
-        ]
-      },
-      "https://www.w3.org/TR/CSS2/selector.html": {
-        "anchors": [
-          "x22"
         ]
       }
     }

@@ -22,6 +22,10 @@
         "url": "https://www.iana.org/assignments/media-types/"
       },
       {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
         "name": "MEDIACAPTURE-STREAMS",
         "url": "https://w3c.github.io/mediacapture-main/"
       },
@@ -76,6 +80,10 @@
         "url": "https://tc39.es/ecma262/#sec-clonearraybuffer"
       },
       {
+        "name": "ECMASCRIPT",
+        "url": "https://tc39.es/ecma262/multipage/"
+      },
+      {
         "name": "ITU-G.711",
         "url": "https://www.itu.int/rec/T-REC-G.711/"
       },
@@ -118,6 +126,10 @@
       {
         "name": "RFC9605",
         "url": "https://www.rfc-editor.org/rfc/rfc9605"
+      },
+      {
+        "name": "RTP-SFRAME-PAYLOAD",
+        "url": "https://datatracker.ietf.org/doc/draft-ietf-avtcore-rtp-sframe/"
       },
       {
         "name": "VP9",

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSSOM View Module",
+    "title": "CSSOM View Module Level 1",
     "url": "https://drafts.csswg.org/cssom-view-1/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/cssom-view-1/#title",
       "level": 1,
-      "title": "CSSOM View Module"
+      "title": "CSSOM View Module Level 1"
     },
     {
       "id": "abstract",
@@ -360,7 +360,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/cssom-view-1/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "idl-index",

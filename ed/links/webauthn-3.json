@@ -55,7 +55,6 @@
         ]
       },
       "https://drafts.csswg.org/css-overflow-3/": {},
-      "https://drafts.csswg.org/css2/": {},
       "https://en.wikipedia.org/w/index.php?title=Hot_plug": {},
       "https://en.wikipedia.org/wiki/Clickjacking": {},
       "https://encoding.spec.whatwg.org/": {},
@@ -99,6 +98,7 @@
       "https://url.spec.whatwg.org/": {},
       "https://w3c.github.io/IntersectionObserver/v2/": {},
       "https://w3c.github.io/i18n-glossary/": {},
+      "https://w3c.github.io/permissions/": {},
       "https://w3c.github.io/wcag/guidelines/": {},
       "https://w3c.github.io/webappsec-credential-management/": {
         "anchors": [
@@ -120,6 +120,7 @@
         ]
       },
       "https://www.iana.org/assignments/webauthn/": {},
+      "https://www.iana.org/assignments/well-known-uris/": {},
       "https://www.rfc-editor.org/rfc/rfc3279": {},
       "https://www.rfc-editor.org/rfc/rfc3986": {},
       "https://www.rfc-editor.org/rfc/rfc4648": {},
@@ -144,6 +145,7 @@
       "https://www.rfc-editor.org/rfc/rfc8949": {},
       "https://www.rfc-editor.org/rfc/rfc9052": {},
       "https://www.rfc-editor.org/rfc/rfc9053": {},
+      "https://www.rfc-editor.org/rfc/rfc9864": {},
       "https://www.trustedcomputinggroup.org/wp-content/uploads/TPM-Rev-2.0-Part-1-Architecture-01.38.pdf": {},
       "https://www.trustedcomputinggroup.org/wp-content/uploads/TPM-Rev-2.0-Part-2-Structures-01.38.pdf": {},
       "https://www.trustedcomputinggroup.org/wp-content/uploads/TPM-Rev-2.0-Part-3-Commands-01.38.pdf": {},
@@ -168,12 +170,9 @@
       },
       "https://www.w3.org/TR/2025/WD-webauthn-3-20250127/": {
         "anchors": [
-          "sctn-test-vectors",
           "sctn-isUserVerifyingPlatformAuthenticatorAvailable",
           "sctn-getClientCapabilities",
-          "sctn-sample-registration",
-          "dom-authenticationextensionsprfoutputs-enabled",
-          "test-vectors-extensions-prf-ctap"
+          "sctn-sample-registration"
         ]
       },
       "https://www.w3.org/TR/WCAG21/": {
@@ -188,7 +187,7 @@
       },
       "https://www.w3.org/Webauthn/": {},
       "https://www.w3.org/groups/wg/webauthn": {},
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -287,13 +286,7 @@
       "https://html.spec.whatwg.org/multipage/interaction.html": {
         "anchors": [
           "transient-activation",
-          "consume-user-activation",
-          "visibility-state"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
-        "anchors": [
-          "window"
+          "consume-user-activation"
         ]
       },
       "https://html.spec.whatwg.org/multipage/origin.html": {
@@ -343,6 +336,8 @@
           "serialize-a-javascript-value-to-json-bytes",
           "map-key",
           "map-value",
+          "user-agent",
+          "parse-a-json-string-to-an-infra-value",
           "boolean"
         ]
       },
@@ -423,6 +418,16 @@
       "https://w3c.github.io/i18n-glossary/": {
         "anchors": [
           "dfn-grapheme-cluster"
+        ]
+      },
+      "https://w3c.github.io/permissions/": {
+        "anchors": [
+          "dfn-powerful-feature",
+          "dfn-default-permission-state",
+          "dfn-permission-descriptor-type",
+          "dom-permissiondescriptor",
+          "dom-permissions",
+          "dfn-getting-the-current-permission-state"
         ]
       },
       "https://w3c.github.io/webappsec-credential-management/": {
@@ -519,11 +524,6 @@
           "idl-long",
           "unknownerror",
           "syntaxerror"
-        ]
-      },
-      "https://www.w3.org/TR/CSS2/ui.html": {
-        "anchors": [
-          "x8"
         ]
       }
     }

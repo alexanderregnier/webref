@@ -89,6 +89,13 @@
     },
     {
       "spec": {
+        "title": "WebMCP",
+        "url": "https://webmachinelearning.github.io/webmcp/"
+      },
+      "fragment": "partial interface Navigator {\n  [SecureContext] readonly attribute ModelContext modelContext;\n};"
+    },
+    {
+      "spec": {
         "title": "Fenced Frame",
         "url": "https://wicg.github.io/fenced-frame/"
       },
@@ -159,69 +166,6 @@
     },
     {
       "spec": {
-        "title": "Protected Audience (formerly FLEDGE)",
-        "url": "https://wicg.github.io/turtledove/"
-      },
-      "fragment": "[SecureContext]\npartial interface Navigator {\n  Promise<undefined> joinAdInterestGroup(AuctionAdInterestGroup group);\n};"
-    },
-    {
-      "spec": {
-        "title": "Protected Audience (formerly FLEDGE)",
-        "url": "https://wicg.github.io/turtledove/"
-      },
-      "fragment": "[SecureContext]\npartial interface Navigator {\n  Promise<undefined> leaveAdInterestGroup(optional AuctionAdInterestGroupKey group = {});\n};"
-    },
-    {
-      "spec": {
-        "title": "Protected Audience (formerly FLEDGE)",
-        "url": "https://wicg.github.io/turtledove/"
-      },
-      "fragment": "[SecureContext]\npartial interface Navigator {\n  Promise<undefined> clearOriginJoinedAdInterestGroups(\n      USVString owner, optional sequence<USVString> interestGroupsToKeep = []);\n};"
-    },
-    {
-      "spec": {
-        "title": "Protected Audience (formerly FLEDGE)",
-        "url": "https://wicg.github.io/turtledove/"
-      },
-      "fragment": "[SecureContext]\npartial interface Navigator {\n  Promise<(USVString or FencedFrameConfig)?> runAdAuction(AuctionAdConfig config);\n  readonly attribute boolean deprecatedRunAdAuctionEnforcesKAnonymity;\n};"
-    },
-    {
-      "spec": {
-        "title": "Protected Audience (formerly FLEDGE)",
-        "url": "https://wicg.github.io/turtledove/"
-      },
-      "fragment": "[SecureContext]\npartial interface Navigator {\n  boolean canLoadAdAuctionFencedFrame();\n};"
-    },
-    {
-      "spec": {
-        "title": "Protected Audience (formerly FLEDGE)",
-        "url": "https://wicg.github.io/turtledove/"
-      },
-      "fragment": "[SecureContext]\npartial interface Navigator {\n  Promise<AdAuctionData> getInterestGroupAdAuctionData(optional AdAuctionDataConfig config = {});\n};"
-    },
-    {
-      "spec": {
-        "title": "Protected Audience (formerly FLEDGE)",
-        "url": "https://wicg.github.io/turtledove/"
-      },
-      "fragment": "[SecureContext]\npartial interface Navigator {\n  Promise<DOMString> createAuctionNonce();\n};"
-    },
-    {
-      "spec": {
-        "title": "Protected Audience (formerly FLEDGE)",
-        "url": "https://wicg.github.io/turtledove/"
-      },
-      "fragment": "[SecureContext]\npartial interface Navigator {\n  undefined updateAdInterestGroups();\n};"
-    },
-    {
-      "spec": {
-        "title": "Protected Audience (formerly FLEDGE)",
-        "url": "https://wicg.github.io/turtledove/"
-      },
-      "fragment": "[SecureContext]\npartial interface Navigator {\n  [SameObject] readonly attribute ProtectedAudience protectedAudience;\n};"
-    },
-    {
-      "spec": {
         "title": "User-Agent Client Hints",
         "url": "https://wicg.github.io/ua-client-hints/"
       },
@@ -254,6 +198,13 @@
         "url": "https://wicg.github.io/window-controls-overlay/"
       },
       "fragment": "[SecureContext, Exposed=(Window)]\npartial interface Navigator {\n  [SameObject] readonly attribute WindowControlsOverlay windowControlsOverlay;\n};"
+    },
+    {
+      "spec": {
+        "title": "Attribution Level 1",
+        "url": "https://www.w3.org/TR/attribution/"
+      },
+      "fragment": "partial interface Navigator {\n  [SecureContext, SameObject] readonly attribute Attribution attribution;\n};"
     },
     {
       "spec": {
@@ -313,7 +264,7 @@
     },
     {
       "spec": {
-        "title": "Device Memory",
+        "title": "Device Memory API",
         "url": "https://www.w3.org/TR/device-memory-1/"
       },
       "fragment": "Navigator includes NavigatorDeviceMemory;"
@@ -408,13 +359,6 @@
         "url": "https://www.w3.org/TR/presentation-api/"
       },
       "fragment": "partial interface Navigator {\n  [SecureContext, SameObject] readonly attribute Presentation presentation;\n};"
-    },
-    {
-      "spec": {
-        "title": "Attribution Level 1",
-        "url": "https://www.w3.org/TR/privacy-preserving-attribution/"
-      },
-      "fragment": "partial interface Navigator {\n  [SecureContext, SameObject] readonly attribute Attribution attribution;\n};"
     },
     {
       "spec": {
@@ -689,7 +633,7 @@
       "type": "interface mixin",
       "defined": {
         "spec": {
-          "title": "Device Memory",
+          "title": "Device Memory API",
           "url": "https://www.w3.org/TR/device-memory-1/"
         },
         "fragment": "[\n    SecureContext,\n    Exposed=(Window,Worker)\n] interface mixin NavigatorDeviceMemory {\n    readonly attribute double deviceMemory;\n};",

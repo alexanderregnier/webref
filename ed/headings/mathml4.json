@@ -449,10 +449,10 @@
       "number": "3.1.8.6"
     },
     {
-      "id": "mathematics-attributes-common-to-presentation-elements",
-      "href": "https://w3c.github.io/mathml/#mathematics-attributes-common-to-presentation-elements",
+      "id": "attributes-common-to-presentation-elements",
+      "href": "https://w3c.github.io/mathml/#attributes-common-to-presentation-elements",
       "level": 4,
-      "title": "Mathematics attributes common to presentation elements",
+      "title": "Attributes common to presentation elements",
       "alternateIds": [
         "presm_presatt"
       ],
@@ -467,6 +467,26 @@
         "presm_presatt_core"
       ],
       "number": "3.1.9.1"
+    },
+    {
+      "id": "mathml-full-only-attributes",
+      "href": "https://w3c.github.io/mathml/#mathml-full-only-attributes",
+      "level": 5,
+      "title": "MathML Full-only Attributes",
+      "alternateIds": [
+        "presm_presatt_full"
+      ],
+      "number": "3.1.9.2"
+    },
+    {
+      "id": "attributes-0",
+      "href": "https://w3c.github.io/mathml/#attributes-0",
+      "level": 6,
+      "title": "Attributes",
+      "alternateIds": [
+        "presm_mstyle_attrs"
+      ],
+      "number": "3.1.9.2.1"
     },
     {
       "id": "token-elements-0",
@@ -509,8 +529,8 @@
       "number": "3.2.1.1.1"
     },
     {
-      "id": "attributes-0",
-      "href": "https://w3c.github.io/mathml/#attributes-0",
+      "id": "attributes-1",
+      "href": "https://w3c.github.io/mathml/#attributes-1",
       "level": 6,
       "title": "Attributes",
       "alternateIds": [
@@ -569,8 +589,8 @@
       "number": "3.2.3.1"
     },
     {
-      "id": "attributes-1",
-      "href": "https://w3c.github.io/mathml/#attributes-1",
+      "id": "attributes-2",
+      "href": "https://w3c.github.io/mathml/#attributes-2",
       "level": 5,
       "title": "Attributes",
       "alternateIds": [
@@ -609,8 +629,8 @@
       "number": "3.2.4.1"
     },
     {
-      "id": "attributes-2",
-      "href": "https://w3c.github.io/mathml/#attributes-2",
+      "id": "attributes-3",
+      "href": "https://w3c.github.io/mathml/#attributes-3",
       "level": 5,
       "title": "Attributes",
       "alternateIds": [
@@ -669,8 +689,8 @@
       "number": "3.2.5.1"
     },
     {
-      "id": "attributes-3",
-      "href": "https://w3c.github.io/mathml/#attributes-3",
+      "id": "attributes-4",
+      "href": "https://w3c.github.io/mathml/#attributes-4",
       "level": 5,
       "title": "Attributes",
       "alternateIds": [
@@ -869,8 +889,8 @@
       "number": "3.2.6.1"
     },
     {
-      "id": "attributes-4",
-      "href": "https://w3c.github.io/mathml/#attributes-4",
+      "id": "attributes-5",
+      "href": "https://w3c.github.io/mathml/#attributes-5",
       "level": 5,
       "title": "Attributes",
       "alternateIds": [
@@ -909,8 +929,8 @@
       "number": "3.2.7.1"
     },
     {
-      "id": "attributes-5",
-      "href": "https://w3c.github.io/mathml/#attributes-5",
+      "id": "attributes-6",
+      "href": "https://w3c.github.io/mathml/#attributes-6",
       "level": 5,
       "title": "Attributes",
       "alternateIds": [
@@ -969,8 +989,8 @@
       "number": "3.2.8.1"
     },
     {
-      "id": "attributes-6",
-      "href": "https://w3c.github.io/mathml/#attributes-6",
+      "id": "attributes-7",
+      "href": "https://w3c.github.io/mathml/#attributes-7",
       "level": 5,
       "title": "Attributes",
       "alternateIds": [
@@ -989,10 +1009,10 @@
       "number": "3.3"
     },
     {
-      "id": "horizontally-group-sub-expressions-mrow",
-      "href": "https://w3c.github.io/mathml/#horizontally-group-sub-expressions-mrow",
+      "id": "horizontally-group-sub-expressions-mrow-a",
+      "href": "https://w3c.github.io/mathml/#horizontally-group-sub-expressions-mrow-a",
       "level": 4,
-      "title": "Horizontally Group Sub-Expressions <mrow>",
+      "title": "Horizontally Group Sub-Expressions <mrow>, <a>",
       "alternateIds": [
         "presm_mrow"
       ],
@@ -1009,8 +1029,8 @@
       "number": "3.3.1.1"
     },
     {
-      "id": "attributes-7",
-      "href": "https://w3c.github.io/mathml/#attributes-7",
+      "id": "attributes-8",
+      "href": "https://w3c.github.io/mathml/#attributes-8",
       "level": 5,
       "title": "Attributes",
       "alternateIds": [
@@ -1079,8 +1099,8 @@
       "number": "3.3.2.1"
     },
     {
-      "id": "attributes-8",
-      "href": "https://w3c.github.io/mathml/#attributes-8",
+      "id": "attributes-9",
+      "href": "https://w3c.github.io/mathml/#attributes-9",
       "level": 5,
       "title": "Attributes",
       "alternateIds": [
@@ -1119,8 +1139,8 @@
       "number": "3.3.3.1"
     },
     {
-      "id": "attributes-9",
-      "href": "https://w3c.github.io/mathml/#attributes-9",
+      "id": "attributes-10",
+      "href": "https://w3c.github.io/mathml/#attributes-10",
       "level": 5,
       "title": "Attributes",
       "alternateIds": [
@@ -1159,16 +1179,6 @@
       "number": "3.3.4.1"
     },
     {
-      "id": "attributes-10",
-      "href": "https://w3c.github.io/mathml/#attributes-10",
-      "level": 5,
-      "title": "Attributes",
-      "alternateIds": [
-        "presm_mstyle_attrs"
-      ],
-      "number": "3.3.4.2"
-    },
-    {
       "id": "examples-7",
       "href": "https://w3c.github.io/mathml/#examples-7",
       "level": 5,
@@ -1176,7 +1186,7 @@
       "alternateIds": [
         "presm_mstyle_attrs_ex"
       ],
-      "number": "3.3.4.3"
+      "number": "3.3.4.2"
     },
     {
       "id": "error-message-merror",
@@ -1789,16 +1799,6 @@
       "number": "3.5.4"
     },
     {
-      "id": "removal-notice",
-      "href": "https://w3c.github.io/mathml/#removal-notice",
-      "level": 5,
-      "title": "Removal Notice",
-      "alternateIds": [
-        "presm_malignmark_notice"
-      ],
-      "number": "3.5.4.1"
-    },
-    {
       "id": "description-25",
       "href": "https://w3c.github.io/mathml/#description-25",
       "level": 5,
@@ -1806,7 +1806,7 @@
       "alternateIds": [
         "presm_malign_desc"
       ],
-      "number": "3.5.4.2"
+      "number": "3.5.4.1"
     },
     {
       "id": "specifying-alignment-groups",
@@ -1816,7 +1816,7 @@
       "alternateIds": [
         "presm_specify_align_group"
       ],
-      "number": "3.5.4.3"
+      "number": "3.5.4.2"
     },
     {
       "id": "table-cells-that-are-not-divided-into-alignment-groups",
@@ -1826,7 +1826,7 @@
       "alternateIds": [
         "presm_no_align_group"
       ],
-      "number": "3.5.4.4"
+      "number": "3.5.4.3"
     },
     {
       "id": "specifying-alignment-points-using-malignmark",
@@ -1835,6 +1835,16 @@
       "title": "Specifying alignment points using <malignmark/>",
       "alternateIds": [
         "presm_using_malignmark"
+      ],
+      "number": "3.5.4.4"
+    },
+    {
+      "id": "alignment-algorithm",
+      "href": "https://w3c.github.io/mathml/#alignment-algorithm",
+      "level": 5,
+      "title": "Alignment algorithm",
+      "alternateIds": [
+        "presm_alignment_algo"
       ],
       "number": "3.5.4.5"
     },
@@ -1847,16 +1857,6 @@
         "presm_ex_alignment_1"
       ],
       "number": "3.5.4.6"
-    },
-    {
-      "id": "a-simple-alignment-algorithm",
-      "href": "https://w3c.github.io/mathml/#a-simple-alignment-algorithm",
-      "level": 5,
-      "title": "A simple alignment algorithm",
-      "alternateIds": [
-        "presm_alignment_algo"
-      ],
-      "number": "3.5.4.7"
     },
     {
       "id": "elementary-math",
@@ -3589,6 +3589,56 @@
       "number": "5.4"
     },
     {
+      "id": "interpreting-intent-expressions",
+      "href": "https://w3c.github.io/mathml/#interpreting-intent-expressions",
+      "level": 3,
+      "title": "Interpreting intent expressions",
+      "alternateIds": [
+        "mixing_intent_interpretation"
+      ],
+      "number": "5.5"
+    },
+    {
+      "id": "multiple-properties",
+      "href": "https://w3c.github.io/mathml/#multiple-properties",
+      "level": 4,
+      "title": "Multiple properties",
+      "alternateIds": [
+        "mixing_intent_multiple_properties"
+      ],
+      "number": "5.5.1"
+    },
+    {
+      "id": "expanding-arg-references",
+      "href": "https://w3c.github.io/mathml/#expanding-arg-references",
+      "level": 4,
+      "title": "Expanding arg references",
+      "alternateIds": [
+        "mixing_intent_argref"
+      ],
+      "number": "5.5.2"
+    },
+    {
+      "id": "interpretation-of-self-properties",
+      "href": "https://w3c.github.io/mathml/#interpretation-of-self-properties",
+      "level": 4,
+      "title": "Interpretation of self-properties",
+      "alternateIds": [
+        "mixing_intent_self_properties"
+      ],
+      "number": "5.5.3"
+    },
+    {
+      "id": "examples-52",
+      "href": "https://w3c.github.io/mathml/#examples-52",
+      "level": 4,
+      "title": "Examples",
+      "alternateIds": [
+        "mixing_intent_interpreting_examples"
+      ],
+      "number": "5.5.4"
+    },
+    {
       "id": "intent-error-handling",
       "href": "https://w3c.github.io/mathml/#intent-error-handling",
       "level": 3,
@@ -3596,7 +3646,7 @@
       "alternateIds": [
         "mixing_intent_errors"
       ],
-      "number": "5.5"
+      "number": "5.6"
     },
     {
       "id": "intent-error-recovery",
@@ -3606,7 +3656,7 @@
       "alternateIds": [
         "mixing_intent_error_recovery"
       ],
-      "number": "5.5.1"
+      "number": "5.6.1"
     },
     {
       "id": "a-warning-about-literal-and-property",
@@ -3616,7 +3666,7 @@
       "alternateIds": [
         "mixing_intent_warning"
       ],
-      "number": "5.6"
+      "number": "5.7"
     },
     {
       "id": "intent-examples",
@@ -3626,7 +3676,7 @@
       "alternateIds": [
         "mixing_intent_examples"
       ],
-      "number": "5.7"
+      "number": "5.8"
     },
     {
       "id": "css-and-style",
@@ -3636,7 +3686,7 @@
       "alternateIds": [
         "mixing_intent_examples_css"
       ],
-      "number": "5.7.1"
+      "number": "5.8.1"
     },
     {
       "id": "tables",
@@ -3646,7 +3696,7 @@
       "alternateIds": [
         "mixing_intent_examples_mtr"
       ],
-      "number": "5.7.2"
+      "number": "5.8.2"
     },
     {
       "id": "annotating-mathml-semantics",
@@ -3959,8 +4009,8 @@
       "number": "7.3.3"
     },
     {
-      "id": "examples-52",
-      "href": "https://w3c.github.io/mathml/#examples-52",
+      "id": "examples-53",
+      "href": "https://w3c.github.io/mathml/#examples-53",
       "level": 4,
       "title": "Examples",
       "alternateIds": [

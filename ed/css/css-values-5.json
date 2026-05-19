@@ -396,7 +396,7 @@
       "values": [
         {
           "name": "by",
-          "prose": "The interpolation progress given by <progress-source> may be optionally modified by the <easing-function> specified after the by keyword. It applies the specified easing function to the “timeline” of progress as a whole by modifying the interpolation progress before it’s applied to the interpolation map, analogous to animation-easing.",
+          "prose": "The interpolation progress given by <progress-source> may be optionally modified by the <easing-function> specified after the by keyword. It applies the specified easing function to the “timeline” of progress as a whole by modifying the interpolation progress before it’s applied to the interpolation map, analogous to animation-timing-function.",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-interpolate-by",
           "type": "value",
           "value": "by"
@@ -436,7 +436,7 @@
       "values": [
         {
           "name": "by",
-          "prose": "The interpolation progress given by <progress-source> may be optionally modified by the <easing-function> specified after the by keyword. It applies the specified easing function to the “timeline” of progress as a whole by modifying the interpolation progress before it’s applied to the interpolation map, analogous to animation-easing.",
+          "prose": "The interpolation progress given by <progress-source> may be optionally modified by the <easing-function> specified after the by keyword. It applies the specified easing function to the “timeline” of progress as a whole by modifying the interpolation progress before it’s applied to the interpolation map, analogous to animation-timing-function.",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-interpolate-by",
           "type": "value",
           "value": "by"
@@ -476,7 +476,7 @@
       "values": [
         {
           "name": "by",
-          "prose": "The interpolation progress given by <progress-source> may be optionally modified by the <easing-function> specified after the by keyword. It applies the specified easing function to the “timeline” of progress as a whole by modifying the interpolation progress before it’s applied to the interpolation map, analogous to animation-easing.",
+          "prose": "The interpolation progress given by <progress-source> may be optionally modified by the <easing-function> specified after the by keyword. It applies the specified easing function to the “timeline” of progress as a whole by modifying the interpolation progress before it’s applied to the interpolation map, analogous to animation-timing-function.",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-interpolate-by",
           "type": "value",
           "value": "by"
@@ -516,7 +516,7 @@
       "values": [
         {
           "name": "by",
-          "prose": "The interpolation progress given by <progress-source> may be optionally modified by the <easing-function> specified after the by keyword. It applies the specified easing function to the “timeline” of progress as a whole by modifying the interpolation progress before it’s applied to the interpolation map, analogous to animation-easing.",
+          "prose": "The interpolation progress given by <progress-source> may be optionally modified by the <easing-function> specified after the by keyword. It applies the specified easing function to the “timeline” of progress as a whole by modifying the interpolation progress before it’s applied to the interpolation map, analogous to animation-timing-function.",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-interpolate-by",
           "type": "value",
           "value": "by"
@@ -653,16 +653,16 @@
       "value": "type( <syntax> ) | raw-string | number | <attr-unit>"
     },
     {
+      "name": "<attr-unit>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-attr-unit",
+      "type": "type",
+      "value": "<custom-ident>"
+    },
+    {
       "name": "<attr-args>",
       "href": "https://drafts.csswg.org/css-values-5/#typedef-attr-args",
       "type": "type",
       "value": "attr( <declaration-value>, <declaration-value>? )"
-    },
-    {
-      "name": "<attr-unit>",
-      "prose": "The <attr-unit> production matches any identifier that is an ASCII case-insensitive match for the name of a CSS dimension unit, such as px, or the <delim-token> %. It is not expanded literally here, as the set of units expands over time.",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-attr-unit",
-      "type": "type"
     },
     {
       "name": "ident()",
@@ -682,38 +682,51 @@
       "prose": "The random() function is a math function that represents a random value between a minimum and maximum value, drawn from a uniform distribution, optionally limiting the possible values to a step between those limits:",
       "href": "https://drafts.csswg.org/css-values-5/#funcdef-random",
       "type": "function",
-      "value": "random( <random-value-sharing>? , <calc-sum>, <calc-sum>, <calc-sum>? )"
+      "value": "random( <random-key>? , <calc-sum>, <calc-sum>, <calc-sum>? )"
     },
     {
-      "name": "<random-value-sharing>",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-random-value-sharing",
+      "name": "random-item()",
+      "prose": "The random-item() function resolves to a random item from among its list of items.",
+      "href": "https://drafts.csswg.org/css-values-5/#funcdef-random-item",
+      "type": "function",
+      "value": "random-item( <random-key> , [ <declaration-value>? ]# )"
+    },
+    {
+      "name": "<random-item-args>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-random-item-args",
       "type": "type",
-      "value": "[ [ auto | <dashed-ident> ] || element-shared ] | fixed <number [0,1]>",
+      "value": "random-item( <declaration-value>, [ <declaration-value>? ]# )"
+    },
+    {
+      "name": "<random-key>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-random-key",
+      "type": "type",
+      "value": "auto | <random-cache-key> | fixed <number [0,1]>",
       "values": [
         {
           "name": "auto",
-          "prose": "Each random function in an element’s styles will use a distinct random base value. (But see the note below for a small wrinkle about this.) If neither auto nor <dashed-ident> are specified, it behaves as auto.",
+          "prose": "The random function is roughly “as random as possible”: the random cache name, and thus the result, varies across every random() instance in a multi-component value, across different properties, and across different elements. This is equivalent to specifying element-scoped property-index-scoped, and simplifies in exactly the same way.",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-random-auto",
           "type": "value",
           "value": "auto"
         },
         {
-          "name": "<dashed-ident>",
-          "prose": "Each random function in an element’s styles with the same <dashed-ident> will share the same random base value; ones with different <dashed-ident>s will use distinct random base values.",
-          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-dashed-ident",
+          "name": "<random-cache-key>",
+          "prose": "The <random-cache-key> specifies the random cache name, allowing it to be explicitly shared (or not) with other uses of random functions. Every random function using the same random cache name will get the same random value; every one using a different random cache name will get unrelated random values. The <dashed-ident> gives the value an explicit name. If omitted, this part of the name is null. element-scoped adds an element-specific identifier to the random cache name, so different elements will get different random values. property-scoped adds the property name the random function is being used on to the random cache name, so different properties will get different random values. Note that shorthand declarations will apply the shorthand property’s name. property-index-scoped adds the property name and the index of the random function among all the random functions used in the same property value to the random cache name, so multiple instances of a random function in the same declaration will each get different random cache names. Note this index is assigned before shorthand expansion. See § 9.4.1 Simplification of <random-key> for how these values resolve. The <random-ua-ident> value, like fixed below, isn’t intended to be specified by authors, but can show up in computed values. It is a <custom-ident> that must start with the prefix ua-, or else it is invalid. When generated automatically by the user agent, it will always be ua-PROPERTY or ua-PROPERTY-INDEX, with the PROPERTY and INDEX parts replaced with a property name or integer index, like ua-margin-3.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-random-cache-key",
           "type": "value",
-          "value": "<dashed-ident>"
+          "value": "<random-cache-key>"
         },
         {
-          "name": "element-shared",
-          "prose": "If element-shared is omitted, random functions on different elements will use distinct random base values. If specified, random functions on different elements will share the same random base value if they have the same <dashed-ident> (if specified) or if they’re used in the same style in the same way (if not). (Again, see the note below for a small wrinkle about this.)",
-          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-element-shared",
+          "name": "<random-ua-ident>",
+          "prose": "The <random-ua-ident> value, like fixed below, isn’t intended to be specified by authors, but can show up in computed values. It is a <custom-ident> that must start with the prefix ua-, or else it is invalid. When generated automatically by the user agent, it will always be ua-PROPERTY or ua-PROPERTY-INDEX, with the PROPERTY and INDEX parts replaced with a property name or integer index, like ua-margin-3.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-random-ua-ident",
           "type": "value",
-          "value": "element-shared"
+          "value": "<random-ua-ident>"
         },
         {
           "name": "<number>",
-          "prose": "If fixed <number> is specified, the <number> is used as the random function’s random base value, rather than allowing the UA to generate a random base value and controlling how it’s shared. While 1 is technically allowed as a valid value (because CSS grammars can only express closed ranges), the random base value is clamped to the highest representable value less than 1, so random base values remain in the half-open range `[0, 1)`.",
+          "prose": "If fixed <number> is specified, the random function bypasses the random cache name entirely, and just uses the <number> as its random base value directly. While 1 is technically allowed as a valid value (because CSS grammars can only express closed ranges), the random base value is clamped to the highest representable value less than 1, so random base values remain in the half-open range `[0, 1)`.",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-random-fixed",
           "type": "value",
           "value": "<number>"
@@ -721,17 +734,36 @@
       ]
     },
     {
-      "name": "random-item()",
-      "prose": "The random-item() function resolves to a random item from among its list of items.",
-      "href": "https://drafts.csswg.org/css-values-5/#funcdef-random-item",
-      "type": "function",
-      "value": "random-item( <random-value-sharing> , [ <declaration-value>? ]# )"
+      "name": "<random-cache-key>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-random-cache-key",
+      "type": "type",
+      "value": "<dashed-ident> || element-scoped || [ property-scoped | property-index-scoped | <random-ua-ident> ]",
+      "values": [
+        {
+          "name": "element-scoped",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-element-scoped",
+          "type": "value",
+          "value": "element-scoped"
+        },
+        {
+          "name": "property-scoped",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-property-scoped",
+          "type": "value",
+          "value": "property-scoped"
+        },
+        {
+          "name": "property-index-scoped",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-property-index-scoped",
+          "type": "value",
+          "value": "property-index-scoped"
+        }
+      ]
     },
     {
-      "name": "<random-item-args>",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-random-item-args",
+      "name": "<random-ua-ident>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-random-ua-ident",
       "type": "type",
-      "value": "random-item( <declaration-value>, [ <declaration-value>? ]# )"
+      "value": "<custom-ident>"
     },
     {
       "name": "sibling-count()",

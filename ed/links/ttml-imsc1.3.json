@@ -14,6 +14,8 @@
       "https://tech.ebu.ch/docs/tech/tech3380v1_0_1.pdf": {},
       "https://tech.ebu.ch/docs/tech/tech3390v1_0.pdf": {},
       "https://www.arib.or.jp/english/std_tr/broadcasting/std-b62.html": {},
+      "https://www.arib.or.jp/english/std_tr/broadcasting/tr-b39.html": {},
+      "https://www.bbc.co.uk/accessibility/forproducts/guides/subtitles/": {},
       "https://www.iana.org/assignments/media-types/": {},
       "https://www.iana.org/assignments/media-types/font/otf": {},
       "https://www.iana.org/assignments/media-types/font/woff": {},
@@ -196,26 +198,27 @@
         ]
       },
       "https://www.w3.org/TR/2018/SPSD-ttml-imsc1-20180626/": {},
+      "https://www.w3.org/TR/2021/CR-ttml2-20210309": {
+        "anchors": [
+          "content-attribute-xml-lang"
+        ]
+      },
       "https://www.w3.org/TR/2024/REC-WCAG22-20241212/": {
         "anchors": [
           "contrast-minimum",
           "text-spacing",
           "language-of-page",
-          "language-of-parts"
+          "language-of-parts",
+          "linfo-and-relationships"
         ]
       },
-      "https://www.w3.org/TR/css-2025/": {},
+      "https://www.w3.org/TR/css-2026/": {},
       "https://www.w3.org/TR/css-backgrounds-3/": {},
       "https://www.w3.org/TR/css-fonts-3/": {},
       "https://www.w3.org/TR/imsc-hrm/": {},
       "https://www.w3.org/TR/ttml-imsc1.1/": {},
       "https://www.w3.org/TR/ttml-imsc1.2/": {},
       "https://www.w3.org/TR/ttml-profile-registry/": {},
-      "https://www.w3.org/TR/ttml2/": {
-        "anchors": [
-          "content-attribute-xml-lang"
-        ]
-      },
       "https://www.w3.org/groups/wg/timed-text": {},
       "https://www.w3.org/groups/wg/timed-text/ipr": {},
       "https://www.w3.org/policies/patent-policy/": {
@@ -226,12 +229,6 @@
       },
       "https://www.w3.org/policies/process/20250818/": {}
     },
-    "autolinks": {
-      "https://www.w3.org/TR/CSS2/selector.html": {
-        "anchors": [
-          "x18"
-        ]
-      }
-    }
+    "autolinks": {}
   }
 }

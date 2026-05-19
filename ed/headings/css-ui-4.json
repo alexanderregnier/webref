@@ -312,6 +312,20 @@
       "number": "7.3.1"
     },
     {
+      "id": "window-interaction",
+      "href": "https://drafts.csswg.org/css-ui-4/#window-interaction",
+      "level": 2,
+      "title": "Window Interaction",
+      "number": "8"
+    },
+    {
+      "id": "window-drag",
+      "href": "https://drafts.csswg.org/css-ui-4/#window-drag",
+      "level": 3,
+      "title": "Moving the window: the window-drag property",
+      "number": "8.1"
+    },
+    {
       "id": "acknowledgments",
       "href": "https://drafts.csswg.org/css-ui-4/#acknowledgments",
       "level": 2,
@@ -356,18 +370,31 @@
       "title": "Changes from the 22 Sep 2015 First Public Working Draft"
     },
     {
-      "id": "security-privacy-considerations",
-      "href": "https://drafts.csswg.org/css-ui-4/#security-privacy-considerations",
+      "id": "changes-L3",
+      "href": "https://drafts.csswg.org/css-ui-4/#changes-L3",
+      "level": 3,
+      "title": "Changes from CSS UI Level 3"
+    },
+    {
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-ui-4/#privacy",
       "level": 2,
-      "title": "Considerations for Security and Privacy",
+      "title": "Privacy Considerations",
       "number": "C"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-ui-4/#security",
+      "level": 2,
+      "title": "Security Considerations",
+      "number": "D"
     },
     {
       "id": "default-style-sheet",
       "href": "https://drafts.csswg.org/css-ui-4/#default-style-sheet",
       "level": 2,
       "title": "Default style sheet additions for HTML",
-      "number": "D"
+      "number": "E"
     },
     {
       "id": "w3c-conformance",
@@ -439,7 +466,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-ui-4/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

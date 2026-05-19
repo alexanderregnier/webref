@@ -537,74 +537,81 @@
       "number": "3.5.4"
     },
     {
+      "id": "sec-temporal-comparesurpasses",
+      "href": "https://tc39.es/proposal-temporal/#sec-temporal-comparesurpasses",
+      "title": "CompareSurpasses ( sign, year, monthOrCode, day, target )",
+      "level": 3,
+      "number": "3.5.5"
+    },
+    {
       "id": "sec-temporal-isodatesurpasses",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-isodatesurpasses",
       "title": "ISODateSurpasses ( sign, baseDate, isoDate2, years, months, weeks, days )",
       "level": 3,
-      "number": "3.5.5"
+      "number": "3.5.6"
     },
     {
       "id": "sec-temporal-regulateisodate",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-regulateisodate",
       "title": "RegulateISODate ( year, month, day, overflow )",
       "level": 3,
-      "number": "3.5.6"
+      "number": "3.5.7"
     },
     {
       "id": "sec-temporal-isvalidisodate",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-isvalidisodate",
       "title": "IsValidISODate ( year, month, day )",
       "level": 3,
-      "number": "3.5.7"
+      "number": "3.5.8"
     },
     {
-      "id": "sec-temporal-balanceisodate",
-      "href": "https://tc39.es/proposal-temporal/#sec-temporal-balanceisodate",
-      "title": "BalanceISODate ( year, month, day )",
+      "id": "sec-temporal-adddaystoisodate",
+      "href": "https://tc39.es/proposal-temporal/#sec-temporal-adddaystoisodate",
+      "title": "AddDaysToISODate ( isoDate, days )",
       "level": 3,
-      "number": "3.5.8"
+      "number": "3.5.9"
     },
     {
       "id": "sec-temporal-padisoyear",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-padisoyear",
       "title": "PadISOYear ( y )",
       "level": 3,
-      "number": "3.5.9"
+      "number": "3.5.10"
     },
     {
       "id": "sec-temporal-temporaldatetostring",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-temporaldatetostring",
       "title": "TemporalDateToString ( temporalDate, showCalendar )",
       "level": 3,
-      "number": "3.5.10"
+      "number": "3.5.11"
     },
     {
       "id": "sec-temporal-isodatewithinlimits",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-isodatewithinlimits",
       "title": "ISODateWithinLimits ( isoDate )",
       "level": 3,
-      "number": "3.5.11"
+      "number": "3.5.12"
     },
     {
       "id": "sec-temporal-compareisodate",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-compareisodate",
       "title": "CompareISODate ( isoDate1, isoDate2 )",
       "level": 3,
-      "number": "3.5.12"
+      "number": "3.5.13"
     },
     {
       "id": "sec-temporal-differencetemporalplaindate",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-differencetemporalplaindate",
       "title": "DifferenceTemporalPlainDate ( operation, temporalDate, other, options )",
       "level": 3,
-      "number": "3.5.13"
+      "number": "3.5.14"
     },
     {
       "id": "sec-temporal-adddurationtodate",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-adddurationtodate",
       "title": "AddDurationToDate ( operation, temporalDate, temporalDurationLike, options )",
       "level": 3,
-      "number": "3.5.14"
+      "number": "3.5.15"
     },
     {
       "id": "sec-temporal-plaintime-objects",
@@ -2357,60 +2364,67 @@
       "number": "7.5.32"
     },
     {
+      "id": "sec-temporal-computenudgewindow",
+      "href": "https://tc39.es/proposal-temporal/#sec-temporal-computenudgewindow",
+      "title": "ComputeNudgeWindow ( sign, duration, originEpochNs, isoDateTime, timeZone, calendar, increment, unit, additionalShift )",
+      "level": 3,
+      "number": "7.5.33"
+    },
+    {
       "id": "sec-temporal-nudgetocalendarunit",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-nudgetocalendarunit",
       "title": "NudgeToCalendarUnit ( sign, duration, originEpochNs, destEpochNs, isoDateTime, timeZone, calendar, increment, unit, roundingMode )",
       "level": 3,
-      "number": "7.5.33"
+      "number": "7.5.34"
     },
     {
       "id": "sec-temporal-nudgetozonedtime",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-nudgetozonedtime",
       "title": "NudgeToZonedTime ( sign, duration, isoDateTime, timeZone, calendar, increment, unit, roundingMode )",
       "level": 3,
-      "number": "7.5.34"
+      "number": "7.5.35"
     },
     {
       "id": "sec-temporal-nudgetodayortime",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-nudgetodayortime",
       "title": "NudgeToDayOrTime ( duration, destEpochNs, largestUnit, increment, smallestUnit, roundingMode )",
       "level": 3,
-      "number": "7.5.35"
+      "number": "7.5.36"
     },
     {
       "id": "sec-temporal-bubblerelativeduration",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-bubblerelativeduration",
       "title": "BubbleRelativeDuration ( sign, duration, nudgedEpochNs, isoDateTime, timeZone, calendar, largestUnit, smallestUnit )",
       "level": 3,
-      "number": "7.5.36"
+      "number": "7.5.37"
     },
     {
       "id": "sec-temporal-roundrelativeduration",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-roundrelativeduration",
       "title": "RoundRelativeDuration ( duration, originEpochNs, destEpochNs, isoDateTime, timeZone, calendar, largestUnit, increment, smallestUnit, roundingMode )",
       "level": 3,
-      "number": "7.5.37"
+      "number": "7.5.38"
     },
     {
       "id": "sec-temporal-totalrelativeduration",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-totalrelativeduration",
       "title": "TotalRelativeDuration ( duration, originEpochNs, destEpochNs, isoDateTime, timeZone, calendar, unit )",
       "level": 3,
-      "number": "7.5.38"
+      "number": "7.5.39"
     },
     {
       "id": "sec-temporal-temporaldurationtostring",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-temporaldurationtostring",
       "title": "TemporalDurationToString ( duration, precision )",
       "level": 3,
-      "number": "7.5.39"
+      "number": "7.5.40"
     },
     {
       "id": "sec-temporal-adddurations",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-adddurations",
       "title": "AddDurations ( operation, duration, other )",
       "level": 3,
-      "number": "7.5.40"
+      "number": "7.5.41"
     },
     {
       "id": "sec-temporal-instant-objects",
@@ -3785,74 +3799,81 @@
       "number": "13.32"
     },
     {
+      "id": "sec-temporal-time-zone-identifier-parse-records",
+      "href": "https://tc39.es/proposal-temporal/#sec-temporal-time-zone-identifier-parse-records",
+      "title": "Time Zone Identifier Parse Records",
+      "level": 2,
+      "number": "13.33"
+    },
+    {
       "id": "sec-temporal-iso-date-time-parse-records",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-iso-date-time-parse-records",
       "title": "ISO Date-Time Parse Records",
       "level": 2,
-      "number": "13.33"
+      "number": "13.34"
     },
     {
       "id": "sec-temporal-parseisodatetime",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-parseisodatetime",
       "title": "ParseISODateTime ( isoString, allowedFormats )",
       "level": 2,
-      "number": "13.34"
+      "number": "13.35"
     },
     {
       "id": "sec-temporal-parsetemporalcalendarstring",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-parsetemporalcalendarstring",
       "title": "ParseTemporalCalendarString ( string )",
       "level": 2,
-      "number": "13.35"
+      "number": "13.36"
     },
     {
       "id": "sec-temporal-parsetemporaldurationstring",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-parsetemporaldurationstring",
       "title": "ParseTemporalDurationString ( isoString )",
       "level": 2,
-      "number": "13.36"
+      "number": "13.37"
     },
     {
       "id": "sec-temporal-parsetemporaltimezonestring",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-parsetemporaltimezonestring",
       "title": "ParseTemporalTimeZoneString ( timeZoneString )",
       "level": 2,
-      "number": "13.37"
+      "number": "13.38"
     },
     {
       "id": "sec-topositiveintegerwithtruncation",
       "href": "https://tc39.es/proposal-temporal/#sec-topositiveintegerwithtruncation",
       "title": "ToPositiveIntegerWithTruncation ( argument )",
       "level": 2,
-      "number": "13.38"
+      "number": "13.39"
     },
     {
       "id": "sec-tointegerwithtruncation",
       "href": "https://tc39.es/proposal-temporal/#sec-tointegerwithtruncation",
       "title": "ToIntegerWithTruncation ( argument )",
       "level": 2,
-      "number": "13.39"
+      "number": "13.40"
     },
     {
       "id": "sec-temporal-tooffsetstring",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-tooffsetstring",
       "title": "ToOffsetString ( argument )",
       "level": 2,
-      "number": "13.40"
+      "number": "13.41"
     },
     {
       "id": "sec-temporal-isodatetofields",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-isodatetofields",
       "title": "ISODateToFields ( calendar, isoDate, type )",
       "level": 2,
-      "number": "13.41"
+      "number": "13.42"
     },
     {
       "id": "sec-temporal-getdifferencesettings",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-getdifferencesettings",
       "title": "GetDifferenceSettings ( operation, options, unitGroup, disallowedUnits, fallbackSmallestUnit, smallestLargestDefaultUnit )",
       "level": 2,
-      "number": "13.42"
+      "number": "13.43"
     },
     {
       "id": "sec-temporal-legacy-date-objects",
@@ -3925,32 +3946,25 @@
       "number": "14.5.2"
     },
     {
-      "id": "sec-getoptionsobject",
-      "href": "https://tc39.es/proposal-temporal/#sec-getoptionsobject",
-      "title": "GetOptionsObject ( options )",
-      "level": 4,
-      "number": "14.5.2.1"
-    },
-    {
       "id": "sec-getoption",
       "href": "https://tc39.es/proposal-temporal/#sec-getoption",
       "title": "GetOption ( options, property, type, values, default )",
       "level": 4,
-      "number": "14.5.2.2"
+      "number": "14.5.2.1"
     },
     {
       "id": "sec-temporal-getroundingmodeoption",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-getroundingmodeoption",
       "title": "GetRoundingModeOption ( options, fallback )",
       "level": 4,
-      "number": "14.5.2.3"
+      "number": "14.5.2.2"
     },
     {
       "id": "sec-temporal-getroundingincrementoption",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-getroundingincrementoption",
       "title": "GetRoundingIncrementOption ( options )",
       "level": 4,
-      "number": "14.5.2.4"
+      "number": "14.5.2.3"
     },
     {
       "id": "sec-overview-of-date-objects-and-definitions-of-abstract-operations",
@@ -4100,32 +4114,25 @@
       "number": "15.3"
     },
     {
-      "id": "sec-getoptionsobject-deleted",
-      "href": "https://tc39.es/proposal-temporal/#sec-getoptionsobject-deleted",
-      "title": "GetOptionsObject ( options )",
-      "level": 3,
-      "number": "15.3.1"
-    },
-    {
       "id": "sec-getoption-deleted",
       "href": "https://tc39.es/proposal-temporal/#sec-getoption-deleted",
       "title": "GetOption ( options, property, type, values, default )",
       "level": 3,
-      "number": "15.3.2"
+      "number": "15.3.1"
     },
     {
       "id": "sec-getunsignedroundingmode-deleted",
       "href": "https://tc39.es/proposal-temporal/#sec-getunsignedroundingmode-deleted",
       "title": "GetUnsignedRoundingMode ( roundingMode, sign )",
       "level": 3,
-      "number": "15.3.3"
+      "number": "15.3.2"
     },
     {
       "id": "sec-applyunsignedroundingmode-deleted",
       "href": "https://tc39.es/proposal-temporal/#sec-applyunsignedroundingmode-deleted",
       "title": "ApplyUnsignedRoundingMode ( x, r1, r2, unsignedRoundingMode )",
       "level": 3,
-      "number": "15.3.4"
+      "number": "15.3.3"
     },
     {
       "id": "sec-intl-datetimeformat-constructor",
@@ -4184,137 +4191,144 @@
       "number": "15.6.3"
     },
     {
+      "id": "sec-formatdatetimepattern",
+      "href": "https://tc39.es/proposal-temporal/#sec-formatdatetimepattern",
+      "title": "FormatDateTimePattern ( dateTimeFormat, format, pattern, epochNanoseconds, isPlain )",
+      "level": 3,
+      "number": "15.6.4"
+    },
+    {
       "id": "sec-partitiondatetimepattern",
       "href": "https://tc39.es/proposal-temporal/#sec-partitiondatetimepattern",
       "title": "PartitionDateTimePattern ( dateTimeFormat, x )",
       "level": 3,
-      "number": "15.6.4"
+      "number": "15.6.5"
     },
     {
       "id": "sec-formatdatetime",
       "href": "https://tc39.es/proposal-temporal/#sec-formatdatetime",
       "title": "FormatDateTime ( dateTimeFormat, x )",
       "level": 3,
-      "number": "15.6.5"
+      "number": "15.6.6"
     },
     {
       "id": "sec-formatdatetimetoparts",
       "href": "https://tc39.es/proposal-temporal/#sec-formatdatetimetoparts",
       "title": "FormatDateTimeToParts ( dateTimeFormat, x )",
       "level": 3,
-      "number": "15.6.6"
+      "number": "15.6.7"
     },
     {
       "id": "sec-partitiondatetimerangepattern",
       "href": "https://tc39.es/proposal-temporal/#sec-partitiondatetimerangepattern",
       "title": "PartitionDateTimeRangePattern ( dateTimeFormat, x, y )",
       "level": 3,
-      "number": "15.6.7"
+      "number": "15.6.8"
     },
     {
       "id": "sec-formatdatetimerange",
       "href": "https://tc39.es/proposal-temporal/#sec-formatdatetimerange",
       "title": "FormatDateTimeRange ( dateTimeFormat, x, y )",
       "level": 3,
-      "number": "15.6.8"
+      "number": "15.6.9"
     },
     {
       "id": "sec-formatdatetimerangetoparts",
       "href": "https://tc39.es/proposal-temporal/#sec-formatdatetimerangetoparts",
       "title": "FormatDateTimeRangeToParts ( dateTimeFormat, x, y )",
       "level": 3,
-      "number": "15.6.9"
+      "number": "15.6.10"
     },
     {
       "id": "sec-todatetimeformattable",
       "href": "https://tc39.es/proposal-temporal/#sec-todatetimeformattable",
       "title": "ToDateTimeFormattable ( value )",
       "level": 3,
-      "number": "15.6.10"
+      "number": "15.6.11"
     },
     {
       "id": "sec-temporal-istemporalobject",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-istemporalobject",
       "title": "IsTemporalObject ( value )",
       "level": 3,
-      "number": "15.6.11"
+      "number": "15.6.12"
     },
     {
       "id": "sec-temporal-sametemporaltype",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-sametemporaltype",
       "title": "SameTemporalType ( x, y )",
       "level": 3,
-      "number": "15.6.12"
+      "number": "15.6.13"
     },
     {
       "id": "sec-datetimeformat-value-format-records",
       "href": "https://tc39.es/proposal-temporal/#sec-datetimeformat-value-format-records",
       "title": "Value Format Records",
       "level": 3,
-      "number": "15.6.13"
+      "number": "15.6.14"
     },
     {
       "id": "sec-temporal-handledatetimetemporaldate",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-handledatetimetemporaldate",
       "title": "HandleDateTimeTemporalDate ( dateTimeFormat, temporalDate )",
       "level": 3,
-      "number": "15.6.14"
+      "number": "15.6.15"
     },
     {
       "id": "sec-temporal-handledatetimetemporalyearmonth",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-handledatetimetemporalyearmonth",
       "title": "HandleDateTimeTemporalYearMonth ( dateTimeFormat, temporalYearMonth )",
       "level": 3,
-      "number": "15.6.15"
+      "number": "15.6.16"
     },
     {
       "id": "sec-temporal-handledatetimetemporalmonthday",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-handledatetimetemporalmonthday",
       "title": "HandleDateTimeTemporalMonthDay ( dateTimeFormat, temporalMonthDay )",
       "level": 3,
-      "number": "15.6.16"
+      "number": "15.6.17"
     },
     {
       "id": "sec-temporal-handledatetimetemporaltime",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-handledatetimetemporaltime",
       "title": "HandleDateTimeTemporalTime ( dateTimeFormat, temporalTime )",
       "level": 3,
-      "number": "15.6.17"
+      "number": "15.6.18"
     },
     {
       "id": "sec-temporal-handledatetimetemporaldatetime",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-handledatetimetemporaldatetime",
       "title": "HandleDateTimeTemporalDateTime ( dateTimeFormat, dateTime )",
       "level": 3,
-      "number": "15.6.18"
+      "number": "15.6.19"
     },
     {
       "id": "sec-temporal-handledatetimetemporalinstant",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-handledatetimetemporalinstant",
       "title": "HandleDateTimeTemporalInstant ( dateTimeFormat, instant )",
       "level": 3,
-      "number": "15.6.19"
+      "number": "15.6.20"
     },
     {
       "id": "sec-temporal-handledatetimeothers",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-handledatetimeothers",
       "title": "HandleDateTimeOthers ( dateTimeFormat, x )",
       "level": 3,
-      "number": "15.6.20"
+      "number": "15.6.21"
     },
     {
       "id": "sec-temporal-handledatetimevalue",
       "href": "https://tc39.es/proposal-temporal/#sec-temporal-handledatetimevalue",
       "title": "HandleDateTimeValue ( dateTimeFormat, x )",
       "level": 3,
-      "number": "15.6.21"
+      "number": "15.6.22"
     },
     {
       "id": "sec-tolocaltime",
       "href": "https://tc39.es/proposal-temporal/#sec-tolocaltime",
       "title": "ToLocalTime ( epochNs, calendar, timeZoneIdentifier )",
       "level": 3,
-      "number": "15.6.22"
+      "number": "15.6.23"
     },
     {
       "id": "sec-properties-of-intl-datetimeformat-prototype-object",

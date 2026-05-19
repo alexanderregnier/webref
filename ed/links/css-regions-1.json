@@ -42,9 +42,9 @@
       "https://drafts.csswg.org/css-contain-1/": {},
       "https://drafts.csswg.org/css-contain-2/": {},
       "https://drafts.csswg.org/css-content-3/": {},
-      "https://drafts.csswg.org/css-display/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-exclusions/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
       "https://drafts.csswg.org/css-line-grid/": {},
       "https://drafts.csswg.org/css-multicol-2/": {},
       "https://drafts.csswg.org/css-multicol/": {},
@@ -130,23 +130,18 @@
           "min-max-heights"
         ]
       },
-      "https://www.w3.org/TR/CSS2/visuren.html": {
-        "anchors": [
-          "z-index",
-          "block-formatting",
-          "block-boxes"
-        ]
-      },
-      "https://www.w3.org/TR/CSS21/visufx.html": {
+      "https://www.w3.org/TR/CSS2/visufx.html": {
         "anchors": [
           "propdef-overflow",
           "overflow"
         ]
       },
-      "https://www.w3.org/TR/CSS21/visuren.html": {
+      "https://www.w3.org/TR/CSS2/visuren.html": {
         "anchors": [
           "block-boxes",
-          "principal-box"
+          "principal-box",
+          "z-index",
+          "block-formatting"
         ]
       },
       "https://www.w3.org/TR/DOM-Level-3-Events/": {
@@ -325,6 +320,7 @@
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "Exposed",
+          "dfn-maplike",
           "idl-boolean",
           "idl-sequence",
           "idl-short"

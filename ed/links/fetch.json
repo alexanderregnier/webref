@@ -110,7 +110,11 @@
       "https://opensource.org/licenses/BSD-3-Clause": {},
       "https://streams.spec.whatwg.org/": {},
       "https://tc39.es/ecma262/multipage/": {},
-      "https://url.spec.whatwg.org/": {},
+      "https://url.spec.whatwg.org/": {
+        "anchors": [
+          "host-serializing"
+        ]
+      },
       "https://w3c.github.io/FileAPI/": {},
       "https://w3c.github.io/ServiceWorker/": {},
       "https://w3c.github.io/beacon/": {},
@@ -129,7 +133,9 @@
       "https://w3c.github.io/webappsec-secure-contexts/": {},
       "https://w3c.github.io/webappsec-subresource-integrity/": {},
       "https://w3c.github.io/webappsec-upgrade-insecure-requests/": {},
+      "https://w3c.github.io/webcrypto/": {},
       "https://w3c.github.io/webdriver-bidi/": {},
+      "https://w3c.github.io/webtransport/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://websockets.spec.whatwg.org/": {},
       "https://www.apple.com/": {},
@@ -144,7 +150,9 @@
       "https://www.kb.cert.org/vuls/id/867593": {},
       "https://www.rfc-editor.org/rfc/rfc1035": {},
       "https://www.rfc-editor.org/rfc/rfc2397": {},
+      "https://www.rfc-editor.org/rfc/rfc3986": {},
       "https://www.rfc-editor.org/rfc/rfc5234": {},
+      "https://www.rfc-editor.org/rfc/rfc5952": {},
       "https://www.rfc-editor.org/rfc/rfc6454": {},
       "https://www.rfc-editor.org/rfc/rfc6797": {},
       "https://www.rfc-editor.org/rfc/rfc6797.html": {
@@ -245,6 +253,7 @@
           "ancestor-navigables",
           "fully-active",
           "nav-traversable",
+          "nav-parent",
           "top-level-traversable",
           "navigable-container",
           "node-navigable",
@@ -331,6 +340,7 @@
           "concept-settings-object-cross-origin-isolated-capability",
           "concept-settings-object-origin",
           "secure-context",
+          "concept-environment-creation-url",
           "task-source",
           "dom-manipulation-task-source",
           "relevant-settings-object",
@@ -517,6 +527,7 @@
           "concept-domain",
           "host-registrable-domain",
           "concept-url-blob-entry",
+          "concept-url-equals",
           "include-credentials",
           "urlsearchparams",
           "concept-urlencoded-serializer",
@@ -539,15 +550,10 @@
       },
       "https://w3c.github.io/ServiceWorker/": {
         "anchors": [
+          "service-worker-timing-info",
           "service-worker-global-scope-fetch-event",
           "handle-fetch",
-          "service-worker-timing-info",
           "serviceworkerglobalscope"
-        ]
-      },
-      "https://w3c.github.io/beacon/": {
-        "anchors": [
-          "dom-navigator-sendbeacon"
         ]
       },
       "https://w3c.github.io/hr-time/": {
@@ -620,9 +626,32 @@
           "upgrade-request"
         ]
       },
+      "https://w3c.github.io/webcrypto/": {
+        "anchors": [
+          "dfn-generate-a-random-uuid"
+        ]
+      },
       "https://w3c.github.io/webdriver-bidi/": {
         "anchors": [
-          "webdriver-bidi-emulated-user-agent"
+          "webdriver-bidi-network-is-offline",
+          "webdriver-bidi-emulated-user-agent",
+          "webdriver-bidi-clone-network-request-body",
+          "webdriver-bidi-emulated-language",
+          "webdriver-bidi-fetch-error",
+          "webdriver-bidi-response-completed",
+          "webdriver-bidi-response-started",
+          "webdriver-bidi-before-request-sent",
+          "webdriver-bidi-clone-network-response-body"
+        ]
+      },
+      "https://w3c.github.io/webtransport/": {
+        "anchors": [
+          "webtransport",
+          "dom-webtransport-webtransport",
+          "dom-webtransportoptions-servercertificatehashes",
+          "custom-certificate-requirements",
+          "verify-a-certificate-hash",
+          "obtain-a-webtransport-connection"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -642,6 +671,7 @@
           "Exposed",
           "idl-undefined",
           "idl-boolean",
+          "dfn-iterable",
           "dfn-throw",
           "this",
           "dfn-value-pairs-to-iterate-over",
@@ -662,6 +692,8 @@
           "idl-unsigned-short",
           "SecureContext",
           "quotaexceedederror",
+          "quotaexceedederror-quota",
+          "quotaexceedederror-requested",
           "dfn-interface"
         ]
       },
@@ -670,6 +702,11 @@
           "concept-websocket-establish",
           "websocket",
           "concept-websocket-connection-obtain"
+        ]
+      },
+      "https://www.w3.org/TR/beacon/": {
+        "anchors": [
+          "dom-navigator-sendbeacon"
         ]
       },
       "https://xhr.spec.whatwg.org/": {

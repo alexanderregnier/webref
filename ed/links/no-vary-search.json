@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "The No-Vary-Search HTTP Response Header Field",
+    "title": "The No-Vary-Search HTTP Caching Extension",
     "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html"
   },
   "links": {
@@ -35,7 +35,8 @@
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "isomorphic-encode",
-          "code-unit-less-than"
+          "code-unit-less-than",
+          "list-sort-in-ascending-order"
         ]
       },
       "https://lists.w3.org/Archives/Public/ietf-http-wg/": {},
@@ -43,14 +44,6 @@
         "anchors": [
           "terminology",
           "deployed-mitigations"
-        ]
-      },
-      "https://rfc-editor.org/rfc/rfc8941": {
-        "anchors": [
-          "section-3.2",
-          "section-3.3.6",
-          "section-3.1.1",
-          "section-4.2"
         ]
       },
       "https://rfc-editor.org/rfc/rfc9110": {
@@ -61,6 +54,14 @@
       "https://rfc-editor.org/rfc/rfc9111": {
         "anchors": [
           "section-4"
+        ]
+      },
+      "https://rfc-editor.org/rfc/rfc9651": {
+        "anchors": [
+          "section-3.2",
+          "section-3.3.6",
+          "section-3.1.1",
+          "section-4.2"
         ]
       },
       "https://trustee.ietf.org/license-info": {},
@@ -74,11 +75,13 @@
           "url-rendering-simplification"
         ]
       },
+      "https://www.iana.org/assignments/http-fields/http-fields.xhtml": {},
       "https://www.rfc-editor.org/rfc/rfc2119": {},
+      "https://www.rfc-editor.org/rfc/rfc3986": {},
       "https://www.rfc-editor.org/rfc/rfc8174": {},
-      "https://www.rfc-editor.org/rfc/rfc8941": {},
       "https://www.rfc-editor.org/rfc/rfc9110": {},
-      "https://www.rfc-editor.org/rfc/rfc9111": {}
+      "https://www.rfc-editor.org/rfc/rfc9111": {},
+      "https://www.rfc-editor.org/rfc/rfc9651": {}
     },
     "autolinks": {}
   }

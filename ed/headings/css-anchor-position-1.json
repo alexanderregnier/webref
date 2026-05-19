@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Anchor Positioning",
+    "title": "CSS Anchor Positioning Module Level 1",
     "url": "https://drafts.csswg.org/css-anchor-position-1/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-anchor-position-1/#title",
       "level": 1,
-      "title": "CSS Anchor Positioning"
+      "title": "CSS Anchor Positioning Module Level 1"
     },
     {
       "id": "abstract",
@@ -60,20 +60,6 @@
       "number": "2.1"
     },
     {
-      "id": "implicit",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#implicit",
-      "level": 4,
-      "title": "Implicit Anchor Elements",
-      "number": "2.1.1"
-    },
-    {
-      "id": "anchor-position-size",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#anchor-position-size",
-      "level": 4,
-      "title": "The Anchor Box",
-      "number": "2.1.2"
-    },
-    {
       "id": "anchor-scope",
       "href": "https://drafts.csswg.org/css-anchor-position-1/#anchor-scope",
       "level": 3,
@@ -93,6 +79,13 @@
       "level": 3,
       "title": "Default Anchors: the position-anchor property",
       "number": "2.4"
+    },
+    {
+      "id": "implicit",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#implicit",
+      "level": 4,
+      "title": "Implicit Anchor Elements",
+      "number": "2.4.1"
     },
     {
       "id": "anchor-relevance",
@@ -158,13 +151,6 @@
       "number": "3.3"
     },
     {
-      "id": "position-visibility",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
-      "level": 3,
-      "title": "Conditional Hiding: the position-visibility property",
-      "number": "3.4"
-    },
-    {
       "id": "alignment",
       "href": "https://drafts.csswg.org/css-anchor-position-1/#alignment",
       "level": 2,
@@ -184,13 +170,6 @@
       "level": 3,
       "title": "Centering on the Anchor: the anchor-center alignment value",
       "number": "4.2"
-    },
-    {
-      "id": "conditional-centering",
-      "href": "https://drafts.csswg.org/css-anchor-position-1/#conditional-centering",
-      "level": 3,
-      "title": "Conditional Centering: the dialog alignment value",
-      "number": "4.3"
     },
     {
       "id": "sizing",
@@ -254,6 +233,34 @@
       "level": 3,
       "title": "Applying Position Fallback",
       "number": "6.5"
+    },
+    {
+      "id": "statefulness",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#statefulness",
+      "level": 4,
+      "title": "Maintaining and Clearing Fallback Choices",
+      "number": "6.5.1"
+    },
+    {
+      "id": "last-successful-recording",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#last-successful-recording",
+      "level": 5,
+      "title": "Recording the last successful position option",
+      "number": "6.5.1.1"
+    },
+    {
+      "id": "applying-options",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#applying-options",
+      "level": 4,
+      "title": "Applying Position Options",
+      "number": "6.5.2"
+    },
+    {
+      "id": "position-visibility",
+      "href": "https://drafts.csswg.org/css-anchor-position-1/#position-visibility",
+      "level": 3,
+      "title": "Conditional Hiding: the position-visibility property",
+      "number": "6.6"
     },
     {
       "id": "accessibility",
@@ -371,7 +378,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-anchor-position-1/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Web Animations",
+    "title": "Web Animations Module Level 1",
     "url": "https://drafts.csswg.org/web-animations-1/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/web-animations-1/#title",
       "level": 1,
-      "title": "Web Animations"
+      "title": "Web Animations Module Level 1"
     },
     {
       "id": "abstract",
@@ -881,6 +881,18 @@
       "title": "Animation of box-shadow and text-shadow"
     },
     {
+      "id": "priv",
+      "href": "https://drafts.csswg.org/web-animations-1/#priv",
+      "level": 2,
+      "title": "12. Privacy Considerations"
+    },
+    {
+      "id": "sec",
+      "href": "https://drafts.csswg.org/web-animations-1/#sec",
+      "level": 2,
+      "title": "13. Security Considerations"
+    },
+    {
       "id": "w3c-conformance",
       "href": "https://drafts.csswg.org/web-animations-1/#w3c-conformance",
       "level": 2,
@@ -950,7 +962,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/web-animations-1/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "idl-index",

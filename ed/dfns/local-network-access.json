@@ -301,6 +301,46 @@
       "links": []
     },
     {
+      "id": "permissiondef-local-network",
+      "href": "https://wicg.github.io/local-network-access/#permissiondef-local-network",
+      "linkingText": [
+        "\"local-network\""
+      ],
+      "localLinkingText": [],
+      "type": "permission",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "permissions",
+        "href": "https://wicg.github.io/local-network-access/#permissions",
+        "title": "Permissions",
+        "number": "2.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "permissiondef-loopback-network",
+      "href": "https://wicg.github.io/local-network-access/#permissiondef-loopback-network",
+      "linkingText": [
+        "\"loopback-network\""
+      ],
+      "localLinkingText": [],
+      "type": "permission",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "permissions",
+        "href": "https://wicg.github.io/local-network-access/#permissions",
+        "title": "Permissions",
+        "number": "2.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "permissiondef-local-network-access",
       "href": "https://wicg.github.io/local-network-access/#permissiondef-local-network-access",
       "linkingText": [
@@ -310,21 +350,21 @@
       "type": "permission",
       "for": [],
       "access": "public",
-      "informative": false,
+      "informative": true,
       "heading": {
-        "id": "integration-with-permissions",
-        "href": "https://wicg.github.io/local-network-access/#integration-with-permissions",
-        "title": "Integration with Permissions",
-        "number": "3.1"
+        "id": "permissions",
+        "href": "https://wicg.github.io/local-network-access/#permissions",
+        "title": "Permissions",
+        "number": "2.6"
       },
-      "definedIn": "prose",
+      "definedIn": "note",
       "links": []
     },
     {
-      "id": "connection-ip-address-space",
-      "href": "https://wicg.github.io/local-network-access/#connection-ip-address-space",
+      "id": "connection-ip-address",
+      "href": "https://wicg.github.io/local-network-access/#connection-ip-address",
       "linkingText": [
-        "IP address space"
+        "IP address"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -337,7 +377,7 @@
         "id": "fetching",
         "href": "https://wicg.github.io/local-network-access/#fetching",
         "title": "Fetching",
-        "number": "3.3.1"
+        "number": "3.1.1"
       },
       "definedIn": "prose",
       "links": []
@@ -359,16 +399,16 @@
         "id": "fetching",
         "href": "https://wicg.github.io/local-network-access/#fetching",
         "title": "Fetching",
-        "number": "3.3.1"
+        "number": "3.1.1"
       },
       "definedIn": "prose",
       "links": []
     },
     {
-      "id": "response-ip-address-space",
-      "href": "https://wicg.github.io/local-network-access/#response-ip-address-space",
+      "id": "response-ip-address",
+      "href": "https://wicg.github.io/local-network-access/#response-ip-address",
       "linkingText": [
-        "IP address space"
+        "IP address"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -381,7 +421,7 @@
         "id": "fetching",
         "href": "https://wicg.github.io/local-network-access/#fetching",
         "title": "Fetching",
-        "number": "3.3.1"
+        "number": "3.1.1"
       },
       "definedIn": "prose",
       "links": []
@@ -401,27 +441,7 @@
         "id": "fetching",
         "href": "https://wicg.github.io/local-network-access/#fetching",
         "title": "Fetching",
-        "number": "3.3.1"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "http-no-service-worker-fetch",
-      "href": "https://wicg.github.io/local-network-access/#http-no-service-worker-fetch",
-      "linkingText": [
-        "HTTP-no-service-worker fetch"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "fetching",
-        "href": "https://wicg.github.io/local-network-access/#fetching",
-        "title": "Fetching",
-        "number": "3.3.1"
+        "number": "3.1.1"
       },
       "definedIn": "prose",
       "links": []
@@ -441,7 +461,7 @@
         "id": "fetch-api",
         "href": "https://wicg.github.io/local-network-access/#fetch-api",
         "title": "Fetch API",
-        "number": "3.3.2"
+        "number": "3.1.2"
       },
       "definedIn": "prose",
       "links": []
@@ -463,7 +483,7 @@
         "id": "fetch-api",
         "href": "https://wicg.github.io/local-network-access/#fetch-api",
         "title": "Fetch API",
-        "number": "3.3.2"
+        "number": "3.1.2"
       },
       "definedIn": "pre",
       "links": []
@@ -485,7 +505,7 @@
         "id": "fetch-api",
         "href": "https://wicg.github.io/local-network-access/#fetch-api",
         "title": "Fetch API",
-        "number": "3.3.2"
+        "number": "3.1.2"
       },
       "definedIn": "pre",
       "links": []
@@ -507,7 +527,7 @@
         "id": "integration-with-html",
         "href": "https://wicg.github.io/local-network-access/#integration-with-html",
         "title": "Integration with HTML",
-        "number": "3.7"
+        "number": "3.5"
       },
       "definedIn": "prose",
       "links": []

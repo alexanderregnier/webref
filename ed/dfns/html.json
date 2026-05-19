@@ -3046,7 +3046,7 @@
       "localLinkingText": [],
       "type": "attribute",
       "for": [
-        "HTMLOrSVGElement"
+        "HTMLOrSVGOrMathMLElement"
       ],
       "access": "public",
       "informative": false,
@@ -3068,7 +3068,7 @@
       "localLinkingText": [],
       "type": "attribute",
       "for": [
-        "HTMLOrSVGElement"
+        "HTMLOrSVGOrMathMLElement"
       ],
       "access": "public",
       "informative": false,
@@ -3082,9 +3082,9 @@
       "links": [
         {
           "type": "dev",
-          "id": "dom-htmlorsvgelement-nonce-dev",
+          "id": "dom-htmlorsvgormathmlelement-nonce-dev",
           "name": "element.nonce",
-          "href": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#dom-htmlorsvgelement-nonce-dev",
+          "href": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#dom-htmlorsvgormathmlelement-nonce-dev",
           "heading": {
             "id": "nonce-attributes",
             "href": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#nonce-attributes",
@@ -3136,6 +3136,8 @@
       "type": "attr-value",
       "for": [
         "img/loading",
+        "audio/loading",
+        "video/loading",
         "iframe/loading"
       ],
       "access": "public",
@@ -3179,6 +3181,8 @@
       "type": "attr-value",
       "for": [
         "img/loading",
+        "audio/loading",
+        "video/loading",
         "iframe/loading"
       ],
       "access": "public",
@@ -3237,6 +3241,26 @@
       "href": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#lazy-load-resumption-steps",
       "linkingText": [
         "lazy load resumption steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "lazy-loading-attributes",
+        "href": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#lazy-loading-attributes",
+        "title": "Lazy loading attributes",
+        "number": "2.5.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "poster-lazy-load-resumption-steps",
+      "href": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#poster-lazy-load-resumption-steps",
+      "linkingText": [
+        "poster lazy load resumption steps"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -4558,6 +4582,26 @@
       ]
     },
     {
+      "id": "append-new-option-elements",
+      "href": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#append-new-option-elements",
+      "linkingText": [
+        "append new option elements"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-htmloptionscollection-interface",
+        "href": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#the-htmloptionscollection-interface",
+        "title": "The HTMLOptionsCollection interface",
+        "number": "2.6.4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "dom-htmloptionscollection-add",
       "href": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#dom-htmloptionscollection-add",
       "linkingText": [
@@ -4591,6 +4635,26 @@
           }
         }
       ]
+    },
+    {
+      "id": "htmloptionscollection-remove-an-option",
+      "href": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#htmloptionscollection-remove-an-option",
+      "linkingText": [
+        "remove an option"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-htmloptionscollection-interface",
+        "href": "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#the-htmloptionscollection-interface",
+        "title": "The HTMLOptionsCollection interface",
+        "number": "2.6.4.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-htmloptionscollection-remove",
@@ -5441,6 +5505,90 @@
       "links": []
     },
     {
+      "id": "concept-document-internal-ancestor-origin-objects-list",
+      "href": "https://html.spec.whatwg.org/multipage/dom.html#concept-document-internal-ancestor-origin-objects-list",
+      "linkingText": [
+        "internal ancestor origin objects list"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Document"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "ancestor-origins",
+        "href": "https://html.spec.whatwg.org/multipage/dom.html#ancestor-origins",
+        "title": "Ancestor origins",
+        "number": "3.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "internal-ancestor-origin-objects-list-creation-steps",
+      "href": "https://html.spec.whatwg.org/multipage/dom.html#internal-ancestor-origin-objects-list-creation-steps",
+      "linkingText": [
+        "internal ancestor origin objects list creation steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ancestor-origins",
+        "href": "https://html.spec.whatwg.org/multipage/dom.html#ancestor-origins",
+        "title": "Ancestor origins",
+        "number": "3.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "concept-document-ancestor-origins-list",
+      "href": "https://html.spec.whatwg.org/multipage/dom.html#concept-document-ancestor-origins-list",
+      "linkingText": [
+        "ancestor origins list"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Document"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "ancestor-origins",
+        "href": "https://html.spec.whatwg.org/multipage/dom.html#ancestor-origins",
+        "title": "Ancestor origins",
+        "number": "3.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "ancestor-origins-list-creation-steps",
+      "href": "https://html.spec.whatwg.org/multipage/dom.html#ancestor-origins-list-creation-steps",
+      "linkingText": [
+        "ancestor origins list creation steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ancestor-origins",
+        "href": "https://html.spec.whatwg.org/multipage/dom.html#ancestor-origins",
+        "title": "Ancestor origins",
+        "number": "3.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "resource-metadata-management",
       "href": "https://html.spec.whatwg.org/multipage/dom.html#resource-metadata-management",
       "linkingText": [
@@ -5455,7 +5603,7 @@
         "id": "resource-metadata-management",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#resource-metadata-management",
         "title": "Resource metadata management",
-        "number": "3.1.3"
+        "number": "3.1.4"
       },
       "definedIn": "heading",
       "links": []
@@ -5477,7 +5625,7 @@
         "id": "resource-metadata-management",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#resource-metadata-management",
         "title": "Resource metadata management",
-        "number": "3.1.3"
+        "number": "3.1.4"
       },
       "definedIn": "prose",
       "links": [
@@ -5490,7 +5638,7 @@
             "id": "resource-metadata-management",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#resource-metadata-management",
             "title": "Resource metadata management",
-            "number": "3.1.3"
+            "number": "3.1.4"
           }
         }
       ]
@@ -5512,7 +5660,7 @@
         "id": "resource-metadata-management",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#resource-metadata-management",
         "title": "Resource metadata management",
-        "number": "3.1.3"
+        "number": "3.1.4"
       },
       "definedIn": "prose",
       "links": [
@@ -5525,7 +5673,7 @@
             "id": "resource-metadata-management",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#resource-metadata-management",
             "title": "Resource metadata management",
-            "number": "3.1.3"
+            "number": "3.1.4"
           }
         }
       ]
@@ -5545,7 +5693,7 @@
         "id": "resource-metadata-management",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#resource-metadata-management",
         "title": "Resource metadata management",
-        "number": "3.1.3"
+        "number": "3.1.4"
       },
       "definedIn": "prose",
       "links": []
@@ -5567,7 +5715,7 @@
         "id": "resource-metadata-management",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#resource-metadata-management",
         "title": "Resource metadata management",
-        "number": "3.1.3"
+        "number": "3.1.4"
       },
       "definedIn": "prose",
       "links": [
@@ -5580,7 +5728,7 @@
             "id": "resource-metadata-management",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#resource-metadata-management",
             "title": "Resource metadata management",
-            "number": "3.1.3"
+            "number": "3.1.4"
           }
         }
       ]
@@ -5600,7 +5748,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "prose",
       "links": []
@@ -5622,7 +5770,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "prose",
       "links": [
@@ -5635,7 +5783,7 @@
             "id": "reporting-document-loading-status",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
             "title": "Reporting document loading status",
-            "number": "3.1.4"
+            "number": "3.1.5"
           }
         }
       ]
@@ -5655,7 +5803,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "prose",
       "links": []
@@ -5675,7 +5823,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "prose",
       "links": []
@@ -5697,7 +5845,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "prose",
       "links": []
@@ -5719,7 +5867,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "prose",
       "links": []
@@ -5739,7 +5887,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "prose",
       "links": []
@@ -5759,7 +5907,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "prose",
       "links": []
@@ -5781,7 +5929,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "dt",
       "links": []
@@ -5803,7 +5951,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "dt",
       "links": []
@@ -5825,7 +5973,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "dt",
       "links": []
@@ -5847,7 +5995,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "dt",
       "links": []
@@ -5869,7 +6017,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "dt",
       "links": []
@@ -5891,7 +6039,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "dt",
       "links": []
@@ -5913,7 +6061,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "dt",
       "links": []
@@ -5933,7 +6081,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "prose",
       "links": []
@@ -5955,7 +6103,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "dt",
       "links": []
@@ -5977,7 +6125,7 @@
         "id": "reporting-document-loading-status",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#reporting-document-loading-status",
         "title": "Reporting document loading status",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
       "definedIn": "dt",
       "links": []
@@ -5997,7 +6145,7 @@
         "id": "render-blocking-mechanism",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#render-blocking-mechanism",
         "title": "Render-blocking mechanism",
-        "number": "3.1.5"
+        "number": "3.1.6"
       },
       "definedIn": "heading",
       "links": []
@@ -6017,7 +6165,7 @@
         "id": "render-blocking-mechanism",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#render-blocking-mechanism",
         "title": "Render-blocking mechanism",
-        "number": "3.1.5"
+        "number": "3.1.6"
       },
       "definedIn": "prose",
       "links": []
@@ -6037,7 +6185,7 @@
         "id": "render-blocking-mechanism",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#render-blocking-mechanism",
         "title": "Render-blocking mechanism",
-        "number": "3.1.5"
+        "number": "3.1.6"
       },
       "definedIn": "prose",
       "links": []
@@ -6057,7 +6205,7 @@
         "id": "render-blocking-mechanism",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#render-blocking-mechanism",
         "title": "Render-blocking mechanism",
-        "number": "3.1.5"
+        "number": "3.1.6"
       },
       "definedIn": "prose",
       "links": []
@@ -6077,7 +6225,7 @@
         "id": "render-blocking-mechanism",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#render-blocking-mechanism",
         "title": "Render-blocking mechanism",
-        "number": "3.1.5"
+        "number": "3.1.6"
       },
       "definedIn": "prose",
       "links": []
@@ -6097,7 +6245,7 @@
         "id": "render-blocking-mechanism",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#render-blocking-mechanism",
         "title": "Render-blocking mechanism",
-        "number": "3.1.5"
+        "number": "3.1.6"
       },
       "definedIn": "prose",
       "links": []
@@ -6117,7 +6265,7 @@
         "id": "render-blocking-mechanism",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#render-blocking-mechanism",
         "title": "Render-blocking mechanism",
-        "number": "3.1.5"
+        "number": "3.1.6"
       },
       "definedIn": "prose",
       "links": []
@@ -6137,7 +6285,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "heading",
       "links": []
@@ -6157,7 +6305,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -6177,7 +6325,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -6199,7 +6347,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": [
@@ -6212,7 +6360,7 @@
             "id": "dom-tree-accessors",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
             "title": "DOM tree accessors",
-            "number": "3.1.6"
+            "number": "3.1.7"
           }
         }
       ]
@@ -6232,7 +6380,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -6254,7 +6402,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": [
@@ -6267,7 +6415,7 @@
             "id": "dom-tree-accessors",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
             "title": "DOM tree accessors",
-            "number": "3.1.6"
+            "number": "3.1.7"
           }
         }
       ]
@@ -6287,7 +6435,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -6309,7 +6457,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": [
@@ -6322,7 +6470,7 @@
             "id": "dom-tree-accessors",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
             "title": "DOM tree accessors",
-            "number": "3.1.6"
+            "number": "3.1.7"
           }
         }
       ]
@@ -6344,7 +6492,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": [
@@ -6357,7 +6505,7 @@
             "id": "dom-tree-accessors",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
             "title": "DOM tree accessors",
-            "number": "3.1.6"
+            "number": "3.1.7"
           }
         }
       ]
@@ -6379,7 +6527,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": [
@@ -6392,7 +6540,7 @@
             "id": "dom-tree-accessors",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
             "title": "DOM tree accessors",
-            "number": "3.1.6"
+            "number": "3.1.7"
           }
         }
       ]
@@ -6414,7 +6562,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": [
@@ -6427,7 +6575,7 @@
             "id": "dom-tree-accessors",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
             "title": "DOM tree accessors",
-            "number": "3.1.6"
+            "number": "3.1.7"
           }
         }
       ]
@@ -6449,7 +6597,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": [
@@ -6462,7 +6610,7 @@
             "id": "dom-tree-accessors",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
             "title": "DOM tree accessors",
-            "number": "3.1.6"
+            "number": "3.1.7"
           }
         }
       ]
@@ -6484,7 +6632,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": [
@@ -6497,7 +6645,7 @@
             "id": "dom-tree-accessors",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
             "title": "DOM tree accessors",
-            "number": "3.1.6"
+            "number": "3.1.7"
           }
         }
       ]
@@ -6519,7 +6667,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": [
@@ -6532,7 +6680,7 @@
             "id": "dom-tree-accessors",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
             "title": "DOM tree accessors",
-            "number": "3.1.6"
+            "number": "3.1.7"
           }
         }
       ]
@@ -6554,7 +6702,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": [
@@ -6567,7 +6715,7 @@
             "id": "dom-tree-accessors",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
             "title": "DOM tree accessors",
-            "number": "3.1.6"
+            "number": "3.1.7"
           }
         }
       ]
@@ -6589,7 +6737,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": [
@@ -6602,7 +6750,7 @@
             "id": "dom-tree-accessors",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
             "title": "DOM tree accessors",
-            "number": "3.1.6"
+            "number": "3.1.7"
           }
         }
       ]
@@ -6622,7 +6770,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -6642,7 +6790,7 @@
         "id": "dom-tree-accessors",
         "href": "https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors",
         "title": "DOM tree accessors",
-        "number": "3.1.6"
+        "number": "3.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -6947,7 +7095,7 @@
       "id": "htmlorsvgelement",
       "href": "https://html.spec.whatwg.org/multipage/dom.html#htmlorsvgelement",
       "linkingText": [
-        "HTMLOrSVGElement"
+        "HTMLOrSVGOrMathMLElement"
       ],
       "localLinkingText": [],
       "type": "interface",
@@ -6972,7 +7120,7 @@
       "localLinkingText": [],
       "type": "attribute",
       "for": [
-        "HTMLOrSVGElement"
+        "HTMLOrSVGOrMathMLElement"
       ],
       "access": "public",
       "informative": false,
@@ -8521,7 +8669,7 @@
       "localLinkingText": [],
       "type": "attribute",
       "for": [
-        "HTMLOrSVGElement"
+        "HTMLOrSVGOrMathMLElement"
       ],
       "access": "public",
       "informative": false,
@@ -10074,7 +10222,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10094,7 +10244,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10114,7 +10266,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10134,7 +10288,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10154,7 +10310,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10174,7 +10332,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10194,7 +10354,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10214,7 +10376,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10234,7 +10398,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10254,7 +10420,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10274,7 +10442,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10294,7 +10464,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10314,7 +10486,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10334,7 +10508,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10354,7 +10530,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -10374,7 +10552,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "link processing options"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -13163,28 +13343,6 @@
       "links": []
     },
     {
-      "id": "dom-a-target",
-      "href": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#dom-a-target",
-      "linkingText": [
-        "target"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLAnchorElement"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-a-element",
-        "href": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
-        "title": "The a element",
-        "number": "4.5.1"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
       "id": "dom-a-download",
       "href": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#dom-a-download",
       "linkingText": [
@@ -13255,50 +13413,6 @@
       "href": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#dom-a-rellist",
       "linkingText": [
         "relList"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLAnchorElement"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-a-element",
-        "href": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
-        "title": "The a element",
-        "number": "4.5.1"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
-      "id": "dom-a-hreflang",
-      "href": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#dom-a-hreflang",
-      "linkingText": [
-        "hreflang"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLAnchorElement"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-a-element",
-        "href": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
-        "title": "The a element",
-        "number": "4.5.1"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
-      "id": "dom-a-type",
-      "href": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#dom-a-type",
-      "linkingText": [
-        "type"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -14503,52 +14617,6 @@
       "links": []
     },
     {
-      "id": "attr-hyperlink-hreflang",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-hreflang",
-      "linkingText": [
-        "hreflang"
-      ],
-      "localLinkingText": [],
-      "type": "element-attr",
-      "for": [
-        "a",
-        "area"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "links-created-by-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#links-created-by-a-and-area-elements",
-        "title": "Links created by a and area elements",
-        "number": "4.6.2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "attr-hyperlink-type",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-type",
-      "linkingText": [
-        "type"
-      ],
-      "localLinkingText": [],
-      "type": "element-attr",
-      "for": [
-        "a",
-        "area"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "links-created-by-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#links-created-by-a-and-area-elements",
-        "title": "Links created by a and area elements",
-        "number": "4.6.2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "attr-hyperlink-referrerpolicy",
       "href": "https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-referrerpolicy",
       "linkingText": [
@@ -14572,10 +14640,10 @@
       "links": []
     },
     {
-      "id": "htmlhyperlinkelementutils",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#htmlhyperlinkelementutils",
+      "id": "hyperlinkelementutils",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#hyperlinkelementutils",
       "linkingText": [
-        "HTMLHyperlinkElementUtils"
+        "HyperlinkElementUtils"
       ],
       "localLinkingText": [],
       "type": "interface",
@@ -14583,12 +14651,76 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
         "number": "4.6.3"
       },
       "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-a-hreflang",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-a-hreflang",
+      "linkingText": [
+        "hreflang"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HyperlinkElementUtils"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-a-type",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-a-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HyperlinkElementUtils"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "hyperlink-element",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#hyperlink-element",
+      "linkingText": [
+        "hyperlink element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -14603,9 +14735,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
         "number": "4.6.3"
       },
       "definedIn": "prose",
@@ -14623,9 +14755,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
         "number": "4.6.3"
       },
       "definedIn": "prose",
@@ -14643,9 +14775,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
         "number": "4.6.3"
       },
       "definedIn": "prose",
@@ -14663,12 +14795,450 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
         "number": "4.6.3"
       },
       "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "attr-hyperlink-hreflang",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-hreflang",
+      "linkingText": [
+        "hreflang"
+      ],
+      "localLinkingText": [],
+      "type": "element-attr",
+      "for": [
+        "a",
+        "area"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "attr-hyperlink-type",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "element-attr",
+      "for": [
+        "a",
+        "area"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-hyperlink-origin",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-origin",
+      "linkingText": [
+        "origin"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HyperlinkElementUtils"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "dom-hyperlink-origin-dev",
+          "name": "hyperlink.origin✔MDNHTMLAnchorElement/originSupport in all current engines.Firefox26+Safari5.1+Chrome8+Opera?Edge79+Edge (Legacy)17+Internet ExplorerNoFirefox Android?Safari iOS?Chrome Android?WebView Android3+Samsung Internet?Opera Android?HTMLAreaElement/originSupport in all current engines.Firefox26+Safari10+Chrome32+Opera?Edge79+Edge (Legacy)17+Internet ExplorerNoFirefox Android?Safari iOS?Chrome Android?WebView Android37+Samsung Internet?Opera Android?",
+          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-origin-dev",
+          "heading": {
+            "id": "api-for-hyperlink-elements",
+            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+            "title": "API for hyperlink elements",
+            "number": "4.6.3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-hyperlink-protocol",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-protocol",
+      "linkingText": [
+        "protocol"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HyperlinkElementUtils"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "dom-hyperlink-protocol-dev",
+          "name": "hyperlink.protocol✔MDNHTMLAnchorElement/protocolSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/protocolSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
+          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-protocol-dev",
+          "heading": {
+            "id": "api-for-hyperlink-elements",
+            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+            "title": "API for hyperlink elements",
+            "number": "4.6.3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-hyperlink-username",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-username",
+      "linkingText": [
+        "username"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HyperlinkElementUtils"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "dom-hyperlink-username-dev",
+          "name": "hyperlink.username✔MDNHTMLAnchorElement/usernameSupport in all current engines.Firefox26+Safari10+Chrome32+Opera?Edge79+Edge (Legacy)?Internet ExplorerNoFirefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/usernameSupport in all current engines.Firefox26+Safari10+Chrome32+Opera?Edge79+Edge (Legacy)?Internet ExplorerNoFirefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
+          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-username-dev",
+          "heading": {
+            "id": "api-for-hyperlink-elements",
+            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+            "title": "API for hyperlink elements",
+            "number": "4.6.3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-hyperlink-password",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-password",
+      "linkingText": [
+        "password"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HyperlinkElementUtils"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "dom-hyperlink-password-dev",
+          "name": "hyperlink.password✔MDNHTMLAnchorElement/passwordSupport in all current engines.Firefox26+Safari10+Chrome32+Opera?Edge79+Edge (Legacy)?Internet ExplorerNoFirefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/passwordSupport in all current engines.Firefox26+Safari10+Chrome32+Opera?Edge79+Edge (Legacy)?Internet ExplorerNoFirefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
+          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-password-dev",
+          "heading": {
+            "id": "api-for-hyperlink-elements",
+            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+            "title": "API for hyperlink elements",
+            "number": "4.6.3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-hyperlink-host",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-host",
+      "linkingText": [
+        "host"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HyperlinkElementUtils"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "dom-hyperlink-host-dev",
+          "name": "hyperlink.host✔MDNHTMLAnchorElement/hostSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/hostSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
+          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-host-dev",
+          "heading": {
+            "id": "api-for-hyperlink-elements",
+            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+            "title": "API for hyperlink elements",
+            "number": "4.6.3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-hyperlink-hostname",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-hostname",
+      "linkingText": [
+        "hostname"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HyperlinkElementUtils"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "dom-hyperlink-hostname-dev",
+          "name": "hyperlink.hostname✔MDNHTMLAnchorElement/hostnameSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/hostnameSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
+          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-hostname-dev",
+          "heading": {
+            "id": "api-for-hyperlink-elements",
+            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+            "title": "API for hyperlink elements",
+            "number": "4.6.3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-hyperlink-port",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-port",
+      "linkingText": [
+        "port"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HyperlinkElementUtils"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "dom-hyperlink-port-dev",
+          "name": "hyperlink.port✔MDNHTMLAnchorElement/portSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/portSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
+          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-port-dev",
+          "heading": {
+            "id": "api-for-hyperlink-elements",
+            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+            "title": "API for hyperlink elements",
+            "number": "4.6.3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-hyperlink-pathname",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-pathname",
+      "linkingText": [
+        "pathname"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HyperlinkElementUtils"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "dom-hyperlink-pathname-dev",
+          "name": "hyperlink.pathname✔MDNHTMLAnchorElement/pathnameSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/pathnameSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
+          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-pathname-dev",
+          "heading": {
+            "id": "api-for-hyperlink-elements",
+            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+            "title": "API for hyperlink elements",
+            "number": "4.6.3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-hyperlink-search",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-search",
+      "linkingText": [
+        "search"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HyperlinkElementUtils"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "dom-hyperlink-search-dev",
+          "name": "hyperlink.search✔MDNHTMLAnchorElement/searchSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/searchSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
+          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-search-dev",
+          "heading": {
+            "id": "api-for-hyperlink-elements",
+            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+            "title": "API for hyperlink elements",
+            "number": "4.6.3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-hyperlink-hash",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-hash",
+      "linkingText": [
+        "hash"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HyperlinkElementUtils"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-hyperlink-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+        "title": "API for hyperlink elements",
+        "number": "4.6.3"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "dom-hyperlink-hash-dev",
+          "name": "hyperlink.hash✔MDNHTMLAnchorElement/hashSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/hashSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
+          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-hash-dev",
+          "heading": {
+            "id": "api-for-hyperlink-elements",
+            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-hyperlink-elements",
+            "title": "API for hyperlink elements",
+            "number": "4.6.3"
+          }
+        }
+      ]
+    },
+    {
+      "id": "htmlhyperlinkelementutils",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#htmlhyperlinkelementutils",
+      "linkingText": [
+        "HTMLHyperlinkElementUtils"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-a-and-area-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
+        "title": "API for a and area elements",
+        "number": "4.6.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-a-target",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-a-target",
+      "linkingText": [
+        "target"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HTMLHyperlinkElementUtils"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-for-a-and-area-elements",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
+        "title": "API for a and area elements",
+        "number": "4.6.4"
+      },
+      "definedIn": "pre",
       "links": []
     },
     {
@@ -14688,7 +15258,7 @@
         "id": "api-for-a-and-area-elements",
         "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
         "title": "API for a and area elements",
-        "number": "4.6.3"
+        "number": "4.6.4"
       },
       "definedIn": "prose",
       "links": [
@@ -14701,357 +15271,7 @@
             "id": "api-for-a-and-area-elements",
             "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
             "title": "API for a and area elements",
-            "number": "4.6.3"
-          }
-        }
-      ]
-    },
-    {
-      "id": "dom-hyperlink-origin",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-origin",
-      "linkingText": [
-        "origin"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLHyperlinkElementUtils"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
-        "number": "4.6.3"
-      },
-      "definedIn": "prose",
-      "links": [
-        {
-          "type": "dev",
-          "id": "dom-hyperlink-origin-dev",
-          "name": "hyperlink.origin✔MDNHTMLAnchorElement/originSupport in all current engines.Firefox26+Safari5.1+Chrome8+Opera?Edge79+Edge (Legacy)17+Internet ExplorerNoFirefox Android?Safari iOS?Chrome Android?WebView Android3+Samsung Internet?Opera Android?HTMLAreaElement/originSupport in all current engines.Firefox26+Safari10+Chrome32+Opera?Edge79+Edge (Legacy)17+Internet ExplorerNoFirefox Android?Safari iOS?Chrome Android?WebView Android37+Samsung Internet?Opera Android?",
-          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-origin-dev",
-          "heading": {
-            "id": "api-for-a-and-area-elements",
-            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-            "title": "API for a and area elements",
-            "number": "4.6.3"
-          }
-        }
-      ]
-    },
-    {
-      "id": "dom-hyperlink-protocol",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-protocol",
-      "linkingText": [
-        "protocol"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLHyperlinkElementUtils"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
-        "number": "4.6.3"
-      },
-      "definedIn": "prose",
-      "links": [
-        {
-          "type": "dev",
-          "id": "dom-hyperlink-protocol-dev",
-          "name": "hyperlink.protocol✔MDNHTMLAnchorElement/protocolSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/protocolSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
-          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-protocol-dev",
-          "heading": {
-            "id": "api-for-a-and-area-elements",
-            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-            "title": "API for a and area elements",
-            "number": "4.6.3"
-          }
-        }
-      ]
-    },
-    {
-      "id": "dom-hyperlink-username",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-username",
-      "linkingText": [
-        "username"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLHyperlinkElementUtils"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
-        "number": "4.6.3"
-      },
-      "definedIn": "prose",
-      "links": [
-        {
-          "type": "dev",
-          "id": "dom-hyperlink-username-dev",
-          "name": "hyperlink.username✔MDNHTMLAnchorElement/usernameSupport in all current engines.Firefox26+Safari10+Chrome32+Opera?Edge79+Edge (Legacy)?Internet ExplorerNoFirefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/usernameSupport in all current engines.Firefox26+Safari10+Chrome32+Opera?Edge79+Edge (Legacy)?Internet ExplorerNoFirefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
-          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-username-dev",
-          "heading": {
-            "id": "api-for-a-and-area-elements",
-            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-            "title": "API for a and area elements",
-            "number": "4.6.3"
-          }
-        }
-      ]
-    },
-    {
-      "id": "dom-hyperlink-password",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-password",
-      "linkingText": [
-        "password"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLHyperlinkElementUtils"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
-        "number": "4.6.3"
-      },
-      "definedIn": "prose",
-      "links": [
-        {
-          "type": "dev",
-          "id": "dom-hyperlink-password-dev",
-          "name": "hyperlink.password✔MDNHTMLAnchorElement/passwordSupport in all current engines.Firefox26+Safari10+Chrome32+Opera?Edge79+Edge (Legacy)?Internet ExplorerNoFirefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/passwordSupport in all current engines.Firefox26+Safari10+Chrome32+Opera?Edge79+Edge (Legacy)?Internet ExplorerNoFirefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
-          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-password-dev",
-          "heading": {
-            "id": "api-for-a-and-area-elements",
-            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-            "title": "API for a and area elements",
-            "number": "4.6.3"
-          }
-        }
-      ]
-    },
-    {
-      "id": "dom-hyperlink-host",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-host",
-      "linkingText": [
-        "host"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLHyperlinkElementUtils"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
-        "number": "4.6.3"
-      },
-      "definedIn": "prose",
-      "links": [
-        {
-          "type": "dev",
-          "id": "dom-hyperlink-host-dev",
-          "name": "hyperlink.host✔MDNHTMLAnchorElement/hostSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/hostSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
-          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-host-dev",
-          "heading": {
-            "id": "api-for-a-and-area-elements",
-            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-            "title": "API for a and area elements",
-            "number": "4.6.3"
-          }
-        }
-      ]
-    },
-    {
-      "id": "dom-hyperlink-hostname",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-hostname",
-      "linkingText": [
-        "hostname"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLHyperlinkElementUtils"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
-        "number": "4.6.3"
-      },
-      "definedIn": "prose",
-      "links": [
-        {
-          "type": "dev",
-          "id": "dom-hyperlink-hostname-dev",
-          "name": "hyperlink.hostname✔MDNHTMLAnchorElement/hostnameSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/hostnameSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
-          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-hostname-dev",
-          "heading": {
-            "id": "api-for-a-and-area-elements",
-            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-            "title": "API for a and area elements",
-            "number": "4.6.3"
-          }
-        }
-      ]
-    },
-    {
-      "id": "dom-hyperlink-port",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-port",
-      "linkingText": [
-        "port"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLHyperlinkElementUtils"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
-        "number": "4.6.3"
-      },
-      "definedIn": "prose",
-      "links": [
-        {
-          "type": "dev",
-          "id": "dom-hyperlink-port-dev",
-          "name": "hyperlink.port✔MDNHTMLAnchorElement/portSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/portSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
-          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-port-dev",
-          "heading": {
-            "id": "api-for-a-and-area-elements",
-            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-            "title": "API for a and area elements",
-            "number": "4.6.3"
-          }
-        }
-      ]
-    },
-    {
-      "id": "dom-hyperlink-pathname",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-pathname",
-      "linkingText": [
-        "pathname"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLHyperlinkElementUtils"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
-        "number": "4.6.3"
-      },
-      "definedIn": "prose",
-      "links": [
-        {
-          "type": "dev",
-          "id": "dom-hyperlink-pathname-dev",
-          "name": "hyperlink.pathname✔MDNHTMLAnchorElement/pathnameSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/pathnameSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
-          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-pathname-dev",
-          "heading": {
-            "id": "api-for-a-and-area-elements",
-            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-            "title": "API for a and area elements",
-            "number": "4.6.3"
-          }
-        }
-      ]
-    },
-    {
-      "id": "dom-hyperlink-search",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-search",
-      "linkingText": [
-        "search"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLHyperlinkElementUtils"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
-        "number": "4.6.3"
-      },
-      "definedIn": "prose",
-      "links": [
-        {
-          "type": "dev",
-          "id": "dom-hyperlink-search-dev",
-          "name": "hyperlink.search✔MDNHTMLAnchorElement/searchSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/searchSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
-          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-search-dev",
-          "heading": {
-            "id": "api-for-a-and-area-elements",
-            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-            "title": "API for a and area elements",
-            "number": "4.6.3"
-          }
-        }
-      ]
-    },
-    {
-      "id": "dom-hyperlink-hash",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-hash",
-      "linkingText": [
-        "hash"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLHyperlinkElementUtils"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "api-for-a-and-area-elements",
-        "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-        "title": "API for a and area elements",
-        "number": "4.6.3"
-      },
-      "definedIn": "prose",
-      "links": [
-        {
-          "type": "dev",
-          "id": "dom-hyperlink-hash-dev",
-          "name": "hyperlink.hash✔MDNHTMLAnchorElement/hashSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?HTMLAreaElement/hashSupport in all current engines.Firefox1+Safari1+Chrome1+Opera?Edge79+Edge (Legacy)12+Internet Explorer5.5+Firefox Android?Safari iOS?Chrome Android?WebView Android?Samsung Internet?Opera Android?",
-          "href": "https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-hash-dev",
-          "heading": {
-            "id": "api-for-a-and-area-elements",
-            "href": "https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements",
-            "title": "API for a and area elements",
-            "number": "4.6.3"
+            "number": "4.6.4"
           }
         }
       ]
@@ -15071,7 +15291,7 @@
         "id": "following-hyperlinks",
         "href": "https://html.spec.whatwg.org/multipage/links.html#following-hyperlinks",
         "title": "Following hyperlinks",
-        "number": "4.6.4"
+        "number": "4.6.5"
       },
       "definedIn": "prose",
       "links": []
@@ -15091,7 +15311,7 @@
         "id": "following-hyperlinks",
         "href": "https://html.spec.whatwg.org/multipage/links.html#following-hyperlinks",
         "title": "Following hyperlinks",
-        "number": "4.6.4"
+        "number": "4.6.5"
       },
       "definedIn": "prose",
       "links": []
@@ -15111,7 +15331,7 @@
         "id": "following-hyperlinks",
         "href": "https://html.spec.whatwg.org/multipage/links.html#following-hyperlinks",
         "title": "Following hyperlinks",
-        "number": "4.6.4"
+        "number": "4.6.5"
       },
       "definedIn": "prose",
       "links": []
@@ -15131,7 +15351,7 @@
         "id": "following-hyperlinks",
         "href": "https://html.spec.whatwg.org/multipage/links.html#following-hyperlinks",
         "title": "Following hyperlinks",
-        "number": "4.6.4"
+        "number": "4.6.5"
       },
       "definedIn": "prose",
       "links": []
@@ -15151,7 +15371,7 @@
         "id": "following-hyperlinks",
         "href": "https://html.spec.whatwg.org/multipage/links.html#following-hyperlinks",
         "title": "Following hyperlinks",
-        "number": "4.6.4"
+        "number": "4.6.5"
       },
       "definedIn": "prose",
       "links": []
@@ -15171,7 +15391,7 @@
         "id": "following-hyperlinks",
         "href": "https://html.spec.whatwg.org/multipage/links.html#following-hyperlinks",
         "title": "Following hyperlinks",
-        "number": "4.6.4"
+        "number": "4.6.5"
       },
       "definedIn": "prose",
       "links": []
@@ -15191,7 +15411,7 @@
         "id": "downloading-resources",
         "href": "https://html.spec.whatwg.org/multipage/links.html#downloading-resources",
         "title": "Downloading resources",
-        "number": "4.6.5"
+        "number": "4.6.6"
       },
       "definedIn": "prose",
       "links": []
@@ -15211,7 +15431,7 @@
         "id": "downloading-resources",
         "href": "https://html.spec.whatwg.org/multipage/links.html#downloading-resources",
         "title": "Downloading resources",
-        "number": "4.6.5"
+        "number": "4.6.6"
       },
       "definedIn": "prose",
       "links": []
@@ -15231,7 +15451,7 @@
         "id": "downloading-resources",
         "href": "https://html.spec.whatwg.org/multipage/links.html#downloading-resources",
         "title": "Downloading resources",
-        "number": "4.6.5"
+        "number": "4.6.6"
       },
       "definedIn": "prose",
       "links": []
@@ -15251,7 +15471,7 @@
         "id": "downloading-resources",
         "href": "https://html.spec.whatwg.org/multipage/links.html#downloading-resources",
         "title": "Downloading resources",
-        "number": "4.6.5"
+        "number": "4.6.6"
       },
       "definedIn": "prose",
       "links": []
@@ -15271,7 +15491,7 @@
         "id": "downloading-resources",
         "href": "https://html.spec.whatwg.org/multipage/links.html#downloading-resources",
         "title": "Downloading resources",
-        "number": "4.6.5"
+        "number": "4.6.6"
       },
       "definedIn": "prose",
       "links": []
@@ -15291,7 +15511,7 @@
         "id": "downloading-resources",
         "href": "https://html.spec.whatwg.org/multipage/links.html#downloading-resources",
         "title": "Downloading resources",
-        "number": "4.6.5"
+        "number": "4.6.6"
       },
       "definedIn": "prose",
       "links": []
@@ -15311,7 +15531,7 @@
         "id": "hyperlink-auditing",
         "href": "https://html.spec.whatwg.org/multipage/links.html#hyperlink-auditing",
         "title": "Hyperlink auditing",
-        "number": "4.6.6"
+        "number": "4.6.7"
       },
       "definedIn": "heading",
       "links": []
@@ -15331,7 +15551,7 @@
         "id": "the-ping-headers",
         "href": "https://html.spec.whatwg.org/multipage/links.html#the-ping-headers",
         "title": "The `Ping-From` and `Ping-To` headers",
-        "number": "4.6.6.1"
+        "number": "4.6.7.1"
       },
       "definedIn": "prose",
       "links": []
@@ -15351,7 +15571,7 @@
         "id": "the-ping-headers",
         "href": "https://html.spec.whatwg.org/multipage/links.html#the-ping-headers",
         "title": "The `Ping-From` and `Ping-To` headers",
-        "number": "4.6.6.1"
+        "number": "4.6.7.1"
       },
       "definedIn": "prose",
       "links": []
@@ -15371,7 +15591,7 @@
         "id": "linkTypes",
         "href": "https://html.spec.whatwg.org/multipage/links.html#linkTypes",
         "title": "Link types",
-        "number": "4.6.7"
+        "number": "4.6.8"
       },
       "definedIn": "prose",
       "links": []
@@ -15395,7 +15615,7 @@
         "id": "rel-alternate",
         "href": "https://html.spec.whatwg.org/multipage/links.html#rel-alternate",
         "title": "Link type \"alternate\"",
-        "number": "4.6.7.1"
+        "number": "4.6.8.1"
       },
       "definedIn": "heading",
       "links": []
@@ -15419,7 +15639,7 @@
         "id": "link-type-author",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-author",
         "title": "Link type \"author\"",
-        "number": "4.6.7.2"
+        "number": "4.6.8.2"
       },
       "definedIn": "heading",
       "links": []
@@ -15442,7 +15662,7 @@
         "id": "link-type-bookmark",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-bookmark",
         "title": "Link type \"bookmark\"",
-        "number": "4.6.7.3"
+        "number": "4.6.8.3"
       },
       "definedIn": "heading",
       "links": []
@@ -15464,7 +15684,7 @@
         "id": "link-type-canonical",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-canonical",
         "title": "Link type \"canonical\"",
-        "number": "4.6.7.4"
+        "number": "4.6.8.4"
       },
       "definedIn": "heading",
       "links": []
@@ -15486,7 +15706,7 @@
         "id": "link-type-dns-prefetch",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-dns-prefetch",
         "title": "Link type \"dns-prefetch\"",
-        "number": "4.6.7.5"
+        "number": "4.6.8.5"
       },
       "definedIn": "heading",
       "links": []
@@ -15508,7 +15728,7 @@
         "id": "link-type-expect",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-expect",
         "title": "Link type \"expect\"",
-        "number": "4.6.7.6"
+        "number": "4.6.8.6"
       },
       "definedIn": "heading",
       "links": []
@@ -15528,7 +15748,7 @@
         "id": "link-type-expect",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-expect",
         "title": "Link type \"expect\"",
-        "number": "4.6.7.6"
+        "number": "4.6.8.6"
       },
       "definedIn": "prose",
       "links": []
@@ -15548,7 +15768,7 @@
         "id": "link-type-expect",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-expect",
         "title": "Link type \"expect\"",
-        "number": "4.6.7.6"
+        "number": "4.6.8.6"
       },
       "definedIn": "prose",
       "links": []
@@ -15572,7 +15792,7 @@
         "id": "link-type-external",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-external",
         "title": "Link type \"external\"",
-        "number": "4.6.7.7"
+        "number": "4.6.8.7"
       },
       "definedIn": "heading",
       "links": []
@@ -15597,7 +15817,7 @@
         "id": "link-type-help",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-help",
         "title": "Link type \"help\"",
-        "number": "4.6.7.8"
+        "number": "4.6.8.8"
       },
       "definedIn": "heading",
       "links": []
@@ -15619,7 +15839,7 @@
         "id": "rel-icon",
         "href": "https://html.spec.whatwg.org/multipage/links.html#rel-icon",
         "title": "Link type \"icon\"",
-        "number": "4.6.7.9"
+        "number": "4.6.8.9"
       },
       "definedIn": "heading",
       "links": []
@@ -15639,7 +15859,7 @@
         "id": "rel-icon",
         "href": "https://html.spec.whatwg.org/multipage/links.html#rel-icon",
         "title": "Link type \"icon\"",
-        "number": "4.6.7.9"
+        "number": "4.6.8.9"
       },
       "definedIn": "prose",
       "links": []
@@ -15664,7 +15884,7 @@
         "id": "link-type-license",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-license",
         "title": "Link type \"license\"",
-        "number": "4.6.7.10"
+        "number": "4.6.8.10"
       },
       "definedIn": "heading",
       "links": []
@@ -15686,7 +15906,7 @@
         "id": "link-type-manifest",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-manifest",
         "title": "Link type \"manifest\"",
-        "number": "4.6.7.11"
+        "number": "4.6.8.11"
       },
       "definedIn": "heading",
       "links": []
@@ -15708,9 +15928,29 @@
         "id": "link-type-modulepreload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-modulepreload",
         "title": "Link type \"modulepreload\"",
-        "number": "4.6.7.12"
+        "number": "4.6.8.12"
       },
       "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "module-preload-destination",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#module-preload-destination",
+      "linkingText": [
+        "module preload destination"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "link-type-modulepreload",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-modulepreload",
+        "title": "Link type \"modulepreload\"",
+        "number": "4.6.8.12"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -15732,7 +15972,7 @@
         "id": "link-type-nofollow",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-nofollow",
         "title": "Link type \"nofollow\"",
-        "number": "4.6.7.13"
+        "number": "4.6.8.13"
       },
       "definedIn": "heading",
       "links": []
@@ -15756,7 +15996,7 @@
         "id": "link-type-noopener",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-noopener",
         "title": "Link type \"noopener\"",
-        "number": "4.6.7.14"
+        "number": "4.6.8.14"
       },
       "definedIn": "heading",
       "links": []
@@ -15780,7 +16020,7 @@
         "id": "link-type-noreferrer",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-noreferrer",
         "title": "Link type \"noreferrer\"",
-        "number": "4.6.7.15"
+        "number": "4.6.8.15"
       },
       "definedIn": "heading",
       "links": []
@@ -15804,7 +16044,7 @@
         "id": "link-type-opener",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-opener",
         "title": "Link type \"opener\"",
-        "number": "4.6.7.16"
+        "number": "4.6.8.16"
       },
       "definedIn": "heading",
       "links": []
@@ -15826,7 +16066,7 @@
         "id": "link-type-pingback",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-pingback",
         "title": "Link type \"pingback\"",
-        "number": "4.6.7.17"
+        "number": "4.6.8.17"
       },
       "definedIn": "heading",
       "links": []
@@ -15848,7 +16088,7 @@
         "id": "link-type-preconnect",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preconnect",
         "title": "Link type \"preconnect\"",
-        "number": "4.6.7.18"
+        "number": "4.6.8.18"
       },
       "definedIn": "heading",
       "links": []
@@ -15868,7 +16108,7 @@
         "id": "link-type-preconnect",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preconnect",
         "title": "Link type \"preconnect\"",
-        "number": "4.6.7.18"
+        "number": "4.6.8.18"
       },
       "definedIn": "prose",
       "links": []
@@ -15890,7 +16130,7 @@
         "id": "link-type-prefetch",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-prefetch",
         "title": "Link type \"prefetch\"",
-        "number": "4.6.7.19"
+        "number": "4.6.8.19"
       },
       "definedIn": "heading",
       "links": []
@@ -15912,7 +16152,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "heading",
       "links": []
@@ -15932,7 +16172,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "prose",
       "links": []
@@ -15952,7 +16192,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "prose",
       "links": []
@@ -15972,14 +16212,14 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "dt",
       "links": []
     },
     {
-      "id": "preload-destination",
-      "href": "https://html.spec.whatwg.org/multipage/links.html#preload-destination",
+      "id": "preload-key-destination",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#preload-key-destination",
       "linkingText": [
         "destination"
       ],
@@ -15992,7 +16232,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "dt",
       "links": []
@@ -16012,7 +16252,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "dt",
       "links": []
@@ -16032,7 +16272,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "dt",
       "links": []
@@ -16052,7 +16292,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "prose",
       "links": []
@@ -16072,7 +16312,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "dt",
       "links": []
@@ -16092,7 +16332,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "dt",
       "links": []
@@ -16112,7 +16352,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "dt",
       "links": []
@@ -16132,7 +16372,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "prose",
       "links": []
@@ -16152,7 +16392,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "prose",
       "links": []
@@ -16172,7 +16412,27 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "preload-destination",
+      "href": "https://html.spec.whatwg.org/multipage/links.html#preload-destination",
+      "linkingText": [
+        "preload destination"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "link-type-preload",
+        "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
+        "title": "Link type \"preload\"",
+        "number": "4.6.8.20"
       },
       "definedIn": "prose",
       "links": []
@@ -16192,7 +16452,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "prose",
       "links": []
@@ -16212,7 +16472,7 @@
         "id": "link-type-preload",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "title": "Link type \"preload\"",
-        "number": "4.6.7.20"
+        "number": "4.6.8.20"
       },
       "definedIn": "prose",
       "links": []
@@ -16236,7 +16496,7 @@
         "id": "link-type-privacy-policy",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-privacy-policy",
         "title": "Link type \"privacy-policy\"",
-        "number": "4.6.7.21"
+        "number": "4.6.8.21"
       },
       "definedIn": "heading",
       "links": []
@@ -16261,7 +16521,7 @@
         "id": "link-type-search",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-search",
         "title": "Link type \"search\"",
-        "number": "4.6.7.22"
+        "number": "4.6.8.22"
       },
       "definedIn": "heading",
       "links": []
@@ -16283,7 +16543,7 @@
         "id": "link-type-stylesheet",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-stylesheet",
         "title": "Link type \"stylesheet\"",
-        "number": "4.6.7.23"
+        "number": "4.6.8.23"
       },
       "definedIn": "heading",
       "links": []
@@ -16303,7 +16563,7 @@
         "id": "link-type-stylesheet",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-stylesheet",
         "title": "Link type \"stylesheet\"",
-        "number": "4.6.7.23"
+        "number": "4.6.8.23"
       },
       "definedIn": "prose",
       "links": []
@@ -16326,7 +16586,7 @@
         "id": "link-type-tag",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-tag",
         "title": "Link type \"tag\"",
-        "number": "4.6.7.24"
+        "number": "4.6.8.24"
       },
       "definedIn": "heading",
       "links": []
@@ -16350,7 +16610,7 @@
         "id": "link-type-terms-of-service",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-terms-of-service",
         "title": "Link Type \"terms-of-service\"",
-        "number": "4.6.7.25"
+        "number": "4.6.8.25"
       },
       "definedIn": "heading",
       "links": []
@@ -16375,7 +16635,7 @@
         "id": "link-type-next",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-next",
         "title": "Link type \"next\"",
-        "number": "4.6.7.26.1"
+        "number": "4.6.8.26.1"
       },
       "definedIn": "heading",
       "links": []
@@ -16400,7 +16660,7 @@
         "id": "link-type-prev",
         "href": "https://html.spec.whatwg.org/multipage/links.html#link-type-prev",
         "title": "Link type \"prev\"",
-        "number": "4.6.7.26.2"
+        "number": "4.6.8.26.2"
       },
       "definedIn": "heading",
       "links": []
@@ -16420,7 +16680,7 @@
         "id": "other-link-types",
         "href": "https://html.spec.whatwg.org/multipage/links.html#other-link-types",
         "title": "Other link types",
-        "number": "4.6.7.27"
+        "number": "4.6.8.27"
       },
       "definedIn": "prose",
       "links": []
@@ -17092,6 +17352,28 @@
       "links": []
     },
     {
+      "id": "dom-img-controls",
+      "href": "https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-controls",
+      "linkingText": [
+        "controls"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HTMLImageElement"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-img-element",
+        "href": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element",
+        "title": "The img element",
+        "number": "4.8.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "concept-img-dimension-attribute-source",
       "href": "https://html.spec.whatwg.org/multipage/embedded-content.html#concept-img-dimension-attribute-source",
       "linkingText": [
@@ -17334,6 +17616,28 @@
       "href": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-ismap",
       "linkingText": [
         "ismap"
+      ],
+      "localLinkingText": [],
+      "type": "element-attr",
+      "for": [
+        "img"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-img-element",
+        "href": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element",
+        "title": "The img element",
+        "number": "4.8.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "attr-img-controls",
+      "href": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-controls",
+      "linkingText": [
+        "controls"
       ],
       "localLinkingText": [],
       "type": "element-attr",
@@ -19414,6 +19718,26 @@
       "href": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#iframe-pending-resource-timing-start-time",
       "linkingText": [
         "pending resource-timing start time"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-iframe-element",
+        "href": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element",
+        "title": "The iframe element",
+        "number": "4.8.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "iframe-pending-resource-timing-url",
+      "href": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#iframe-pending-resource-timing-url",
+      "linkingText": [
+        "pending resource-timing URL"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -21549,6 +21873,51 @@
       "links": []
     },
     {
+      "id": "attr-media-loading",
+      "href": "https://html.spec.whatwg.org/multipage/media.html#attr-media-loading",
+      "linkingText": [
+        "loading"
+      ],
+      "localLinkingText": [],
+      "type": "element-attr",
+      "for": [
+        "audio",
+        "video"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "media-elements",
+        "href": "https://html.spec.whatwg.org/multipage/media.html#media-elements",
+        "title": "Media elements",
+        "number": "4.8.11"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-media-loading",
+      "href": "https://html.spec.whatwg.org/multipage/media.html#dom-media-loading",
+      "linkingText": [
+        "loading"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HTMLMediaElement"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "media-elements",
+        "href": "https://html.spec.whatwg.org/multipage/media.html#media-elements",
+        "title": "Media elements",
+        "number": "4.8.11"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "media-data",
       "href": "https://html.spec.whatwg.org/multipage/media.html#media-data",
       "linkingText": [
@@ -21598,7 +21967,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "media resource"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -27117,6 +27488,26 @@
       "links": []
     },
     {
+      "id": "set-the-playback-volume",
+      "href": "https://html.spec.whatwg.org/multipage/media.html#set-the-playback-volume",
+      "linkingText": [
+        "set the playback volume"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "user-interface",
+        "href": "https://html.spec.whatwg.org/multipage/media.html#user-interface",
+        "title": "User interface",
+        "number": "4.8.11.13"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "dom-media-volume",
       "href": "https://html.spec.whatwg.org/multipage/media.html#dom-media-volume",
       "linkingText": [
@@ -27162,6 +27553,46 @@
       "for": [
         "media element"
       ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "user-interface",
+        "href": "https://html.spec.whatwg.org/multipage/media.html#user-interface",
+        "title": "User interface",
+        "number": "4.8.11.13"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "concept-media-muted-state",
+      "href": "https://html.spec.whatwg.org/multipage/media.html#concept-media-muted-state",
+      "linkingText": [
+        "muted state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-interface",
+        "href": "https://html.spec.whatwg.org/multipage/media.html#user-interface",
+        "title": "User interface",
+        "number": "4.8.11.13"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "set-the-muted-state",
+      "href": "https://html.spec.whatwg.org/multipage/media.html#set-the-muted-state",
+      "linkingText": [
+        "set the muted state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
       "access": "public",
       "informative": false,
       "heading": {
@@ -27291,6 +27722,86 @@
         "number": "4.8.11.14"
       },
       "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "timeranges-ranges",
+      "href": "https://html.spec.whatwg.org/multipage/media.html#timeranges-ranges",
+      "linkingText": [
+        "ranges"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "time-ranges",
+        "href": "https://html.spec.whatwg.org/multipage/media.html#time-ranges",
+        "title": "Time ranges",
+        "number": "4.8.11.14"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "timeranges-range",
+      "href": "https://html.spec.whatwg.org/multipage/media.html#timeranges-range",
+      "linkingText": [
+        "time range"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "time-ranges",
+        "href": "https://html.spec.whatwg.org/multipage/media.html#time-ranges",
+        "title": "Time ranges",
+        "number": "4.8.11.14"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "timeranges-range-start",
+      "href": "https://html.spec.whatwg.org/multipage/media.html#timeranges-range-start",
+      "linkingText": [
+        "start"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "time-ranges",
+        "href": "https://html.spec.whatwg.org/multipage/media.html#time-ranges",
+        "title": "Time ranges",
+        "number": "4.8.11.14"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "timeranges-range-end",
+      "href": "https://html.spec.whatwg.org/multipage/media.html#timeranges-range-end",
+      "linkingText": [
+        "end"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "time-ranges",
+        "href": "https://html.spec.whatwg.org/multipage/media.html#time-ranges",
+        "title": "Time ranges",
+        "number": "4.8.11.14"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -28430,28 +28941,6 @@
       "links": []
     },
     {
-      "id": "dom-area-target",
-      "href": "https://html.spec.whatwg.org/multipage/image-maps.html#dom-area-target",
-      "linkingText": [
-        "target"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "HTMLAreaElement"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-area-element",
-        "href": "https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element",
-        "title": "The area element",
-        "number": "4.8.13"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
       "id": "dom-area-download",
       "href": "https://html.spec.whatwg.org/multipage/image-maps.html#dom-area-download",
       "linkingText": [
@@ -29073,10 +29562,10 @@
       "links": []
     },
     {
-      "id": "table-created",
-      "href": "https://html.spec.whatwg.org/multipage/tables.html#table-created",
+      "id": "create-a-table-element",
+      "href": "https://html.spec.whatwg.org/multipage/tables.html#create-a-table-element",
       "linkingText": [
-        "table-created"
+        "create a table element"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -36221,6 +36710,26 @@
       "links": []
     },
     {
+      "id": "determine-if-command-is-valid",
+      "href": "https://html.spec.whatwg.org/multipage/form-elements.html#determine-if-command-is-valid",
+      "linkingText": [
+        "determine if a command is valid for a target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-button-element",
+        "href": "https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element",
+        "title": "The button element",
+        "number": "4.10.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "is-valid-command-steps",
       "href": "https://html.spec.whatwg.org/multipage/form-elements.html#is-valid-command-steps",
       "linkingText": [
@@ -37010,6 +37519,46 @@
       ]
     },
     {
+      "id": "select-selected-index",
+      "href": "https://html.spec.whatwg.org/multipage/form-elements.html#select-selected-index",
+      "linkingText": [
+        "selected index"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-select-element",
+        "href": "https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element",
+        "title": "The select element",
+        "number": "4.10.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "set-the-selected-index",
+      "href": "https://html.spec.whatwg.org/multipage/form-elements.html#set-the-selected-index",
+      "linkingText": [
+        "set the selected index"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-select-element",
+        "href": "https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element",
+        "title": "The select element",
+        "number": "4.10.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "dom-select-selectedindex",
       "href": "https://html.spec.whatwg.org/multipage/form-elements.html#dom-select-selectedindex",
       "linkingText": [
@@ -37236,6 +37785,26 @@
         "number": "4.10.9"
       },
       "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "optgroup-option-group",
+      "href": "https://html.spec.whatwg.org/multipage/form-elements.html#optgroup-option-group",
+      "linkingText": [
+        "element's group of option elements"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-optgroup-element",
+        "href": "https://html.spec.whatwg.org/multipage/form-elements.html#the-optgroup-element",
+        "title": "The optgroup element",
+        "number": "4.10.9"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -37595,10 +38164,50 @@
       "links": []
     },
     {
+      "id": "cached-nearest-ancestor-select-element",
+      "href": "https://html.spec.whatwg.org/multipage/form-elements.html#cached-nearest-ancestor-select-element",
+      "linkingText": [
+        "cached nearest ancestor select element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-option-element",
+        "href": "https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element",
+        "title": "The option element",
+        "number": "4.10.10"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "update-an-option's-nearest-ancestor-select",
+      "href": "https://html.spec.whatwg.org/multipage/form-elements.html#update-an-option's-nearest-ancestor-select",
+      "linkingText": [
+        "update an option's nearest ancestor select"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-option-element",
+        "href": "https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element",
+        "title": "The option element",
+        "number": "4.10.10"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "option-element-nearest-ancestor-select",
       "href": "https://html.spec.whatwg.org/multipage/form-elements.html#option-element-nearest-ancestor-select",
       "linkingText": [
-        "option element nearest ancestor select"
+        "nearest ancestor select"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -48632,6 +49241,112 @@
       "links": []
     },
     {
+      "id": "attr-template-shadowrootslotassignment",
+      "href": "https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootslotassignment",
+      "linkingText": [
+        "shadowrootslotassignment"
+      ],
+      "localLinkingText": [],
+      "type": "element-attr",
+      "for": [
+        "template"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-template-element",
+        "href": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+        "title": "The template element",
+        "number": "4.12.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "attr-shadowrootslotassignment-named",
+      "href": "https://html.spec.whatwg.org/multipage/scripting.html#attr-shadowrootslotassignment-named",
+      "linkingText": [
+        "named"
+      ],
+      "localLinkingText": [],
+      "type": "attr-value",
+      "for": [
+        "template/shadowrootslotassignment"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-template-element",
+        "href": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+        "title": "The template element",
+        "number": "4.12.3"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "attr-shadowrootslotassignment-named-state",
+      "href": "https://html.spec.whatwg.org/multipage/scripting.html#attr-shadowrootslotassignment-named-state",
+      "linkingText": [
+        "Named"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-template-element",
+        "href": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+        "title": "The template element",
+        "number": "4.12.3"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "attr-shadowrootslotassignment-manual",
+      "href": "https://html.spec.whatwg.org/multipage/scripting.html#attr-shadowrootslotassignment-manual",
+      "linkingText": [
+        "manual"
+      ],
+      "localLinkingText": [],
+      "type": "attr-value",
+      "for": [
+        "template/shadowrootslotassignment"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-template-element",
+        "href": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+        "title": "The template element",
+        "number": "4.12.3"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "attr-shadowrootslotassignment-manual-state",
+      "href": "https://html.spec.whatwg.org/multipage/scripting.html#attr-shadowrootslotassignment-manual-state",
+      "linkingText": [
+        "Manual"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-template-element",
+        "href": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+        "title": "The template element",
+        "number": "4.12.3"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
       "id": "attr-template-shadowrootclonable",
       "href": "https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootclonable",
       "linkingText": [
@@ -48797,6 +49512,28 @@
       "href": "https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootmode",
       "linkingText": [
         "shadowRootMode"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HTMLTemplateElement"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-template-element",
+        "href": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+        "title": "The template element",
+        "number": "4.12.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-template-shadowrootslotassignment",
+      "href": "https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootslotassignment",
+      "linkingText": [
+        "shadowRootSlotAssignment"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -57619,10 +58356,54 @@
       "links": []
     },
     {
+      "id": "dom-predefinedcolorspace-srgb-linear",
+      "href": "https://html.spec.whatwg.org/multipage/canvas.html#dom-predefinedcolorspace-srgb-linear",
+      "linkingText": [
+        "srgb-linear"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "PredefinedColorSpace"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "colour-spaces-and-colour-correction",
+        "href": "https://html.spec.whatwg.org/multipage/canvas.html#colour-spaces-and-colour-correction",
+        "title": "Color spaces and color space conversion",
+        "number": "4.12.5.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "dom-predefinedcolorspace-display-p3",
       "href": "https://html.spec.whatwg.org/multipage/canvas.html#dom-predefinedcolorspace-display-p3",
       "linkingText": [
         "display-p3"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "PredefinedColorSpace"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "colour-spaces-and-colour-correction",
+        "href": "https://html.spec.whatwg.org/multipage/canvas.html#colour-spaces-and-colour-correction",
+        "title": "Color spaces and color space conversion",
+        "number": "4.12.5.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-predefinedcolorspace-display-p3-linear",
+      "href": "https://html.spec.whatwg.org/multipage/canvas.html#dom-predefinedcolorspace-display-p3-linear",
+      "linkingText": [
+        "display-p3-linear"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -63817,6 +64598,26 @@
       "links": []
     },
     {
+      "id": "set-the-initial-visibility-state",
+      "href": "https://html.spec.whatwg.org/multipage/interaction.html#set-the-initial-visibility-state",
+      "linkingText": [
+        "set the initial visibility state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "page-visibility",
+        "href": "https://html.spec.whatwg.org/multipage/interaction.html#page-visibility",
+        "title": "Page visibility",
+        "number": "6.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "visibilitystateentry",
       "href": "https://html.spec.whatwg.org/multipage/interaction.html#visibilitystateentry",
       "linkingText": [
@@ -65308,7 +66109,7 @@
       "localLinkingText": [],
       "type": "attribute",
       "for": [
-        "HTMLOrSVGElement"
+        "HTMLOrSVGOrMathMLElement"
       ],
       "access": "public",
       "informative": false,
@@ -65857,7 +66658,7 @@
       "localLinkingText": [],
       "type": "method",
       "for": [
-        "HTMLOrSVGElement"
+        "HTMLOrSVGOrMathMLElement"
       ],
       "access": "public",
       "informative": false,
@@ -65974,7 +66775,7 @@
       "localLinkingText": [],
       "type": "method",
       "for": [
-        "HTMLOrSVGElement"
+        "HTMLOrSVGOrMathMLElement"
       ],
       "access": "public",
       "informative": false,
@@ -70895,10 +71696,10 @@
       "links": []
     },
     {
-      "id": "popover-showing-or-hiding",
-      "href": "https://html.spec.whatwg.org/multipage/popover.html#popover-showing-or-hiding",
+      "id": "popover-hiding",
+      "href": "https://html.spec.whatwg.org/multipage/popover.html#popover-hiding",
       "linkingText": [
-        "popover showing or hiding"
+        "popover hiding"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -70959,6 +71760,66 @@
       "href": "https://html.spec.whatwg.org/multipage/popover.html#opened-in-popover-mode",
       "linkingText": [
         "opened in popover mode"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-popover-attribute",
+        "href": "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+        "title": "The popover attribute",
+        "number": "6.12"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "hiding-popover-nesting-count",
+      "href": "https://html.spec.whatwg.org/multipage/popover.html#hiding-popover-nesting-count",
+      "linkingText": [
+        "hiding popover nesting count"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-popover-attribute",
+        "href": "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+        "title": "The popover attribute",
+        "number": "6.12"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "showing-popover",
+      "href": "https://html.spec.whatwg.org/multipage/popover.html#showing-popover",
+      "linkingText": [
+        "showing popover"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-popover-attribute",
+        "href": "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
+        "title": "The popover attribute",
+        "number": "6.12"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "hint-stack-parent",
+      "href": "https://html.spec.whatwg.org/multipage/popover.html#hint-stack-parent",
+      "linkingText": [
+        "hint stack parent"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -71140,10 +72001,10 @@
       ]
     },
     {
-      "id": "hide-all-popovers-until",
-      "href": "https://html.spec.whatwg.org/multipage/popover.html#hide-all-popovers-until",
+      "id": "hide-popovers-until",
+      "href": "https://html.spec.whatwg.org/multipage/popover.html#hide-popovers-until",
       "linkingText": [
-        "hide all popovers until"
+        "hide popovers until"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -71220,8 +72081,8 @@
       "links": []
     },
     {
-      "id": "topmost-auto-popover",
-      "href": "https://html.spec.whatwg.org/multipage/popover.html#topmost-auto-popover",
+      "id": "topmost-auto-or-hint-popover",
+      "href": "https://html.spec.whatwg.org/multipage/popover.html#topmost-auto-or-hint-popover",
       "linkingText": [
         "find the topmost auto or hint popover"
       ],
@@ -71304,26 +72165,6 @@
       "href": "https://html.spec.whatwg.org/multipage/popover.html#showing-hint-popover-list",
       "linkingText": [
         "showing hint popover list"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "the-popover-attribute",
-        "href": "https://html.spec.whatwg.org/multipage/popover.html#the-popover-attribute",
-        "title": "The popover attribute",
-        "number": "6.12"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "close-entire-popover-list",
-      "href": "https://html.spec.whatwg.org/multipage/popover.html#close-entire-popover-list",
-      "linkingText": [
-        "close entire popover list"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -72181,6 +73022,180 @@
       "links": []
     },
     {
+      "id": "dom-origin-interface",
+      "href": "https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-interface",
+      "linkingText": [
+        "Origin"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-origin-interface",
+        "href": "https://html.spec.whatwg.org/multipage/browsers.html#the-origin-interface",
+        "title": "The Origin interface",
+        "number": "7.1.1.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "concept-origin-origin",
+      "href": "https://html.spec.whatwg.org/multipage/browsers.html#concept-origin-origin",
+      "linkingText": [
+        "origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Origin"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-origin-interface",
+        "href": "https://html.spec.whatwg.org/multipage/browsers.html#the-origin-interface",
+        "title": "The Origin interface",
+        "number": "7.1.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "extract-an-origin",
+      "href": "https://html.spec.whatwg.org/multipage/browsers.html#extract-an-origin",
+      "linkingText": [
+        "extract an origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "platform object"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-origin-interface",
+        "href": "https://html.spec.whatwg.org/multipage/browsers.html#the-origin-interface",
+        "title": "The Origin interface",
+        "number": "7.1.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-origin-constructor",
+      "href": "https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-constructor",
+      "linkingText": [
+        "new Origin()"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
+      "for": [
+        "Origin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-origin-interface",
+        "href": "https://html.spec.whatwg.org/multipage/browsers.html#the-origin-interface",
+        "title": "The Origin interface",
+        "number": "7.1.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-origin-from",
+      "href": "https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-from",
+      "linkingText": [
+        "from(value)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Origin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-origin-interface",
+        "href": "https://html.spec.whatwg.org/multipage/browsers.html#the-origin-interface",
+        "title": "The Origin interface",
+        "number": "7.1.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-origin-opaque",
+      "href": "https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-opaque",
+      "linkingText": [
+        "opaque"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "Origin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-origin-interface",
+        "href": "https://html.spec.whatwg.org/multipage/browsers.html#the-origin-interface",
+        "title": "The Origin interface",
+        "number": "7.1.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-origin-issameorigin",
+      "href": "https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-issameorigin",
+      "linkingText": [
+        "isSameOrigin(other)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Origin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-origin-interface",
+        "href": "https://html.spec.whatwg.org/multipage/browsers.html#the-origin-interface",
+        "title": "The Origin interface",
+        "number": "7.1.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-origin-issamesite",
+      "href": "https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-issamesite",
+      "linkingText": [
+        "isSameSite(other)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Origin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-origin-interface",
+        "href": "https://html.spec.whatwg.org/multipage/browsers.html#the-origin-interface",
+        "title": "The Origin interface",
+        "number": "7.1.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "origin-agent-cluster",
       "href": "https://html.spec.whatwg.org/multipage/browsers.html#origin-agent-cluster",
       "linkingText": [
@@ -72643,7 +73658,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "opener policy enforcement result"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -72663,7 +73680,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "opener policy enforcement result"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -72683,7 +73702,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "opener policy enforcement result"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -72703,7 +73724,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "opener policy enforcement result"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -72723,7 +73746,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "opener policy enforcement result"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -72743,7 +73768,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "opener policy enforcement result"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -74238,6 +75265,26 @@
       "links": []
     },
     {
+      "id": "determining-the-iframe-element-referrer-policy",
+      "href": "https://html.spec.whatwg.org/multipage/browsers.html#determining-the-iframe-element-referrer-policy",
+      "linkingText": [
+        "determine the iframe element referrer policy"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "iframe-element-referrer-policy",
+        "href": "https://html.spec.whatwg.org/multipage/browsers.html#iframe-element-referrer-policy",
+        "title": "iframe element referrer policy",
+        "number": "7.1.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "policy-container",
       "href": "https://html.spec.whatwg.org/multipage/browsers.html#policy-container",
       "linkingText": [
@@ -74252,7 +75299,7 @@
         "id": "policy-containers",
         "href": "https://html.spec.whatwg.org/multipage/browsers.html#policy-containers",
         "title": "Policy containers",
-        "number": "7.1.6"
+        "number": "7.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -74274,7 +75321,7 @@
         "id": "policy-containers",
         "href": "https://html.spec.whatwg.org/multipage/browsers.html#policy-containers",
         "title": "Policy containers",
-        "number": "7.1.6"
+        "number": "7.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -74296,7 +75343,7 @@
         "id": "policy-containers",
         "href": "https://html.spec.whatwg.org/multipage/browsers.html#policy-containers",
         "title": "Policy containers",
-        "number": "7.1.6"
+        "number": "7.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -74318,7 +75365,7 @@
         "id": "policy-containers",
         "href": "https://html.spec.whatwg.org/multipage/browsers.html#policy-containers",
         "title": "Policy containers",
-        "number": "7.1.6"
+        "number": "7.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -74340,7 +75387,7 @@
         "id": "policy-containers",
         "href": "https://html.spec.whatwg.org/multipage/browsers.html#policy-containers",
         "title": "Policy containers",
-        "number": "7.1.6"
+        "number": "7.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -74362,7 +75409,7 @@
         "id": "policy-containers",
         "href": "https://html.spec.whatwg.org/multipage/browsers.html#policy-containers",
         "title": "Policy containers",
-        "number": "7.1.6"
+        "number": "7.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -74382,7 +75429,7 @@
         "id": "policy-containers",
         "href": "https://html.spec.whatwg.org/multipage/browsers.html#policy-containers",
         "title": "Policy containers",
-        "number": "7.1.6"
+        "number": "7.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -74402,7 +75449,7 @@
         "id": "policy-containers",
         "href": "https://html.spec.whatwg.org/multipage/browsers.html#policy-containers",
         "title": "Policy containers",
-        "number": "7.1.6"
+        "number": "7.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -74422,7 +75469,7 @@
         "id": "policy-containers",
         "href": "https://html.spec.whatwg.org/multipage/browsers.html#policy-containers",
         "title": "Policy containers",
-        "number": "7.1.6"
+        "number": "7.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -74442,7 +75489,7 @@
         "id": "policy-containers",
         "href": "https://html.spec.whatwg.org/multipage/browsers.html#policy-containers",
         "title": "Policy containers",
-        "number": "7.1.6"
+        "number": "7.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -74462,7 +75509,7 @@
         "id": "policy-containers",
         "href": "https://html.spec.whatwg.org/multipage/browsers.html#policy-containers",
         "title": "Policy containers",
-        "number": "7.1.6"
+        "number": "7.1.7"
       },
       "definedIn": "prose",
       "links": []
@@ -76196,26 +77243,6 @@
       "links": []
     },
     {
-      "id": "concept-location-ancestor-origins-list",
-      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#concept-location-ancestor-origins-list",
-      "linkingText": [
-        "ancestor origins list"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "the-location-interface",
-        "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-location-interface",
-        "title": "The Location interface",
-        "number": "7.2.4"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "location-object-navigate",
       "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#location-object-navigate",
       "linkingText": [
@@ -76654,6 +77681,28 @@
           }
         }
       ]
+    },
+    {
+      "id": "concept-location-empty-domstringlist",
+      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#concept-location-empty-domstringlist",
+      "linkingText": [
+        "empty DOMStringList"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Location"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-location-interface",
+        "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-location-interface",
+        "title": "The Location interface",
+        "number": "7.2.4"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-location-ancestororigins",
@@ -78186,7 +79235,7 @@
         {
           "type": "dev",
           "id": "ongoing-navigation-tracking:dom-navigation-4",
-          "name": "navigation.transition.committed",
+          "name": "navigation.transition.to",
           "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking%3Adom-navigation-4",
           "heading": {
             "id": "ongoing-navigation-tracking",
@@ -78198,8 +79247,20 @@
         {
           "type": "dev",
           "id": "ongoing-navigation-tracking:dom-navigation-5",
-          "name": "navigation.transition.finished",
+          "name": "navigation.transition.committed",
           "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking%3Adom-navigation-5",
+          "heading": {
+            "id": "ongoing-navigation-tracking",
+            "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking",
+            "title": "Ongoing navigation tracking",
+            "number": "7.2.6.8"
+          }
+        },
+        {
+          "type": "dev",
+          "id": "ongoing-navigation-tracking:dom-navigation-6",
+          "name": "navigation.transition.finished",
+          "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking%3Adom-navigation-6",
           "heading": {
             "id": "ongoing-navigation-tracking",
             "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking",
@@ -79484,26 +80545,6 @@
       "links": []
     },
     {
-      "id": "upcoming-non-traverse-api-method-tracker",
-      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#upcoming-non-traverse-api-method-tracker",
-      "linkingText": [
-        "Upcoming non-traverse API method tracker"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "ongoing-navigation-tracking",
-        "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking",
-        "title": "Ongoing navigation tracking",
-        "number": "7.2.6.8"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "upcoming-traverse-api-method-trackers",
       "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#upcoming-traverse-api-method-trackers",
       "linkingText": [
@@ -79684,10 +80725,30 @@
       "links": []
     },
     {
-      "id": "maybe-set-the-upcoming-non-traverse-api-method-tracker",
-      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#maybe-set-the-upcoming-non-traverse-api-method-tracker",
+      "id": "navigation-api-method-tracker-pending",
+      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigation-api-method-tracker-pending",
       "linkingText": [
-        "maybe set the upcoming non-traverse API method tracker"
+        "pending"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ongoing-navigation-tracking",
+        "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking",
+        "title": "Ongoing navigation tracking",
+        "number": "7.2.6.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "set-up-a-navigate/reload-api-method-tracker",
+      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#set-up-a-navigate%2Freload-api-method-tracker",
+      "linkingText": [
+        "set up a navigate/reload API method tracker"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -79708,26 +80769,6 @@
       "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#add-an-upcoming-traverse-api-method-tracker",
       "linkingText": [
         "add an upcoming traverse API method tracker"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "ongoing-navigation-tracking",
-        "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking",
-        "title": "Ongoing navigation tracking",
-        "number": "7.2.6.8"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "promote-an-upcoming-api-method-tracker-to-ongoing",
-      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#promote-an-upcoming-api-method-tracker-to-ongoing",
-      "linkingText": [
-        "promote an upcoming API method tracker to ongoing"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -80003,7 +81044,7 @@
         {
           "type": "dev",
           "id": "ongoing-navigation-tracking:dom-navigation-transition-5",
-          "name": "navigation.transition.committed",
+          "name": "navigation.transition.to",
           "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking%3Adom-navigation-transition-5",
           "heading": {
             "id": "ongoing-navigation-tracking",
@@ -80015,8 +81056,20 @@
         {
           "type": "dev",
           "id": "ongoing-navigation-tracking:dom-navigation-transition-6",
-          "name": "navigation.transition.finished",
+          "name": "navigation.transition.committed",
           "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking%3Adom-navigation-transition-6",
+          "heading": {
+            "id": "ongoing-navigation-tracking",
+            "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking",
+            "title": "Ongoing navigation tracking",
+            "number": "7.2.6.8"
+          }
+        },
+        {
+          "type": "dev",
+          "id": "ongoing-navigation-tracking:dom-navigation-transition-7",
+          "name": "navigation.transition.finished",
+          "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking%3Adom-navigation-transition-7",
           "heading": {
             "id": "ongoing-navigation-tracking",
             "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking",
@@ -80051,6 +81104,26 @@
       "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#concept-navigationtransition-from",
       "linkingText": [
         "from entry"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ongoing-navigation-tracking",
+        "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking",
+        "title": "Ongoing navigation tracking",
+        "number": "7.2.6.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "concept-navigationtransition-destination",
+      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#concept-navigationtransition-destination",
+      "linkingText": [
+        "destination"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -80167,6 +81240,41 @@
           "id": "dom-navigationtransition-from-dev",
           "name": "navigation.transition.from",
           "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigationtransition-from-dev",
+          "heading": {
+            "id": "ongoing-navigation-tracking",
+            "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking",
+            "title": "Ongoing navigation tracking",
+            "number": "7.2.6.8"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dom-navigationtransition-to",
+      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigationtransition-to",
+      "linkingText": [
+        "to"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "NavigationTransition"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "ongoing-navigation-tracking",
+        "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking",
+        "title": "Ongoing navigation tracking",
+        "number": "7.2.6.8"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "dom-navigationtransition-to-dev",
+          "name": "navigation.transition.to",
+          "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigationtransition-to-dev",
           "heading": {
             "id": "ongoing-navigation-tracking",
             "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#ongoing-navigation-tracking",
@@ -81146,7 +82254,20 @@
         "number": "7.2.6.10.1"
       },
       "definedIn": "pre",
-      "links": []
+      "links": [
+        {
+          "type": "dev",
+          "id": "the-navigationprecommitcontroller-interface:navigationintercepthandler-2",
+          "name": "precommitController.addHandler(NavigationInterceptHandler handler)",
+          "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-navigationprecommitcontroller-interface%3Anavigationintercepthandler-2",
+          "heading": {
+            "id": "the-navigationprecommitcontroller-interface",
+            "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-navigationprecommitcontroller-interface",
+            "title": "The NavigationPrecommitController interface",
+            "number": "7.2.6.10.2"
+          }
+        }
+      ]
     },
     {
       "id": "concept-navigateevent-interception-state",
@@ -81931,6 +83052,41 @@
       ]
     },
     {
+      "id": "dom-navigationprecommitcontroller-addhandler",
+      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigationprecommitcontroller-addhandler",
+      "linkingText": [
+        "addHandler(handler,)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "NavigationPrecommitController"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-navigationprecommitcontroller-interface",
+        "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-navigationprecommitcontroller-interface",
+        "title": "The NavigationPrecommitController interface",
+        "number": "7.2.6.10.2"
+      },
+      "definedIn": "prose",
+      "links": [
+        {
+          "type": "dev",
+          "id": "dom-navigationprecommitcontroller-addhandler-dev",
+          "name": "precommitController.addHandler(NavigationInterceptHandler handler)",
+          "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigationprecommitcontroller-addhandler-dev",
+          "heading": {
+            "id": "the-navigationprecommitcontroller-interface",
+            "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-navigationprecommitcontroller-interface",
+            "title": "The NavigationPrecommitController interface",
+            "number": "7.2.6.10.2"
+          }
+        }
+      ]
+    },
+    {
       "id": "navigationdestination",
       "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigationdestination",
       "linkingText": [
@@ -82481,6 +83637,26 @@
       "links": []
     },
     {
+      "id": "fire-navigate-prr-api-method-tracker",
+      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#fire-navigate-prr-api-method-tracker",
+      "linkingText": [
+        "apiMethodTracker"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigate-event-firing",
+        "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigate-event-firing",
+        "title": "Firing the event",
+        "number": "7.2.6.10.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "fire-a-download-request-navigate-event",
       "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#fire-a-download-request-navigate-event",
       "linkingText": [
@@ -82585,6 +83761,26 @@
       "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#inner-navigate-event-firing-algorithm",
       "linkingText": [
         "inner navigate event firing algorithm"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigate-event-firing",
+        "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigate-event-firing",
+        "title": "Firing the event",
+        "number": "7.2.6.10.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "navigate-event-intercept-commit-handler-steps",
+      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#navigate-event-intercept-commit-handler-steps",
+      "linkingText": [
+        "navigate event intercept commit handler steps"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -84502,6 +85698,46 @@
       "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#blocking-sharedworker",
       "linkingText": [
         "sharedworker"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-notrestoredreasons-interface",
+        "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-notrestoredreasons-interface",
+        "title": "The NotRestoredReasons interface",
+        "number": "7.2.8"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "blocking-sharedworker-message",
+      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#blocking-sharedworker-message",
+      "linkingText": [
+        "sharedworker-message"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-notrestoredreasons-interface",
+        "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-notrestoredreasons-interface",
+        "title": "The NotRestoredReasons interface",
+        "number": "7.2.8"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "blocking-sharedworker-with-no-active-client",
+      "href": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#blocking-sharedworker-with-no-active-client",
+      "linkingText": [
+        "sharedworker-with-no-active-client"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -87277,7 +88513,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "document state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -87297,7 +88535,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "document state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -87317,7 +88557,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "document state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -87337,7 +88579,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "document state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -87357,7 +88601,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "document state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -87377,7 +88623,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "document state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -87397,7 +88645,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "document state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -87417,7 +88667,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "document state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -87437,7 +88689,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "document state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -87457,7 +88711,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "document state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -87477,7 +88733,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "document state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -87497,7 +88755,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "document state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -87517,7 +88777,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "document state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88074,6 +89336,26 @@
       "links": []
     },
     {
+      "id": "target-snapshot-params-iframe-referrer-policy",
+      "href": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#target-snapshot-params-iframe-referrer-policy",
+      "linkingText": [
+        "iframe element referrer policy"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-supporting-concepts",
+        "href": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-supporting-concepts",
+        "title": "Supporting concepts",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "snapshotting-target-snapshot-params",
       "href": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#snapshotting-target-snapshot-params",
       "linkingText": [
@@ -88121,7 +89403,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88141,7 +89425,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88161,7 +89447,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88181,7 +89469,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88201,7 +89491,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88221,7 +89513,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88241,7 +89535,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88261,7 +89557,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88281,7 +89579,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88301,7 +89601,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88321,7 +89623,31 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-supporting-concepts",
+        "href": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-supporting-concepts",
+        "title": "Supporting concepts",
+        "number": "7.4.2.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "navigation-params-iframe-referrer-policy",
+      "href": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-params-iframe-referrer-policy",
+      "linkingText": [
+        "iframe element referrer policy"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88341,7 +89667,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88361,7 +89689,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88381,7 +89711,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88401,7 +89733,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -88882,6 +90216,28 @@
       "links": []
     },
     {
+      "id": "navigation-api-method-tracker-2",
+      "href": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-api-method-tracker-2",
+      "linkingText": [
+        "apiMethodTracker"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigate"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "beginning-navigation",
+        "href": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#beginning-navigation",
+        "title": "Beginning navigation",
+        "number": "7.4.2.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "finalize-a-cross-document-navigation",
       "href": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#finalize-a-cross-document-navigation",
       "linkingText": [
@@ -89029,7 +90385,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "non-fetch scheme navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -89049,7 +90407,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "non-fetch scheme navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -89069,7 +90429,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "non-fetch scheme navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -89089,7 +90451,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "non-fetch scheme navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -89109,7 +90473,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "non-fetch scheme navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -89129,7 +90495,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "non-fetch scheme navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -89149,7 +90517,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "non-fetch scheme navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -89169,7 +90539,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "non-fetch scheme navigation params"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -89366,6 +90738,26 @@
       "href": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#reload-user-involvement",
       "linkingText": [
         "userInvolvement"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "reloading-and-traversing",
+        "href": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#reloading-and-traversing",
+        "title": "Reloading and traversing",
+        "number": "7.4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "reload-api-method-tracker",
+      "href": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#reload-api-method-tracker",
+      "linkingText": [
+        "apiMethodTracker"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -89689,7 +91081,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "changing navigable continuation state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -89709,7 +91103,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "changing navigable continuation state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -89729,7 +91125,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "changing navigable continuation state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -89749,7 +91147,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "changing navigable continuation state"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -91951,7 +93351,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "cross-origin prefetch IP anonymization policy"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -93730,10 +95132,10 @@
       "links": []
     },
     {
-      "id": "concept-n-script",
-      "href": "https://html.spec.whatwg.org/multipage/webappapis.html#concept-n-script",
+      "id": "concept-n-noscript",
+      "href": "https://html.spec.whatwg.org/multipage/webappapis.html#concept-n-noscript",
       "linkingText": [
-        "Scripting is enabled"
+        "Scripting is disabled"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -93750,10 +95152,10 @@
       "links": []
     },
     {
-      "id": "concept-n-noscript",
-      "href": "https://html.spec.whatwg.org/multipage/webappapis.html#concept-n-noscript",
+      "id": "concept-n-script",
+      "href": "https://html.spec.whatwg.org/multipage/webappapis.html#concept-n-script",
       "linkingText": [
-        "Scripting is disabled"
+        "Scripting is enabled"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -94067,6 +95469,26 @@
       "href": "https://html.spec.whatwg.org/multipage/webappapis.html#json-module-script",
       "linkingText": [
         "JSON module script"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "script-structs",
+        "href": "https://html.spec.whatwg.org/multipage/webappapis.html#script-structs",
+        "title": "Scripts",
+        "number": "8.1.4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "text-module-script",
+      "href": "https://html.spec.whatwg.org/multipage/webappapis.html#text-module-script",
+      "linkingText": [
+        "text module script"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -94773,6 +96195,26 @@
       "href": "https://html.spec.whatwg.org/multipage/webappapis.html#creating-a-json-module-script",
       "linkingText": [
         "create a JSON module script"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "creating-scripts",
+        "href": "https://html.spec.whatwg.org/multipage/webappapis.html#creating-scripts",
+        "title": "Creating scripts",
+        "number": "8.1.4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "creating-a-text-module-script",
+      "href": "https://html.spec.whatwg.org/multipage/webappapis.html#creating-a-text-module-script",
+      "linkingText": [
+        "create a text module script"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -105609,6 +107051,28 @@
       "links": []
     },
     {
+      "id": "concept-messageevent-origin",
+      "href": "https://html.spec.whatwg.org/multipage/comms.html#concept-messageevent-origin",
+      "linkingText": [
+        "origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "MessageEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-messageevent-interface",
+        "href": "https://html.spec.whatwg.org/multipage/comms.html#the-messageevent-interface",
+        "title": "The MessageEvent interface",
+        "number": "9.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "dom-messageevent-data",
       "href": "https://html.spec.whatwg.org/multipage/comms.html#dom-messageevent-data",
       "linkingText": [
@@ -108170,6 +109634,26 @@
       "links": []
     },
     {
+      "id": "concept-sharedworkerglobalscope-extended-lifetime",
+      "href": "https://html.spec.whatwg.org/multipage/workers.html#concept-sharedworkerglobalscope-extended-lifetime",
+      "linkingText": [
+        "extended lifetime"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "shared-workers-and-the-sharedworkerglobalscope-interface",
+        "href": "https://html.spec.whatwg.org/multipage/workers.html#shared-workers-and-the-sharedworkerglobalscope-interface",
+        "title": "Shared workers and the SharedWorkerGlobalScope interface",
+        "number": "10.2.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "dom-sharedworkerglobalscope-name",
       "href": "https://html.spec.whatwg.org/multipage/workers.html#dom-sharedworkerglobalscope-name",
       "linkingText": [
@@ -108328,6 +109812,46 @@
       "href": "https://html.spec.whatwg.org/multipage/workers.html#between-loads-shared-worker-timeout",
       "linkingText": [
         "between-loads shared worker timeout"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-worker's-lifetime",
+        "href": "https://html.spec.whatwg.org/multipage/workers.html#the-worker's-lifetime",
+        "title": "The worker's lifetime",
+        "number": "10.2.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "extended-lifetime-shared-worker-timeout",
+      "href": "https://html.spec.whatwg.org/multipage/workers.html#extended-lifetime-shared-worker-timeout",
+      "linkingText": [
+        "extended lifetime shared worker timeout"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-worker's-lifetime",
+        "href": "https://html.spec.whatwg.org/multipage/workers.html#the-worker's-lifetime",
+        "title": "The worker's lifetime",
+        "number": "10.2.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "in-extended-lifetime-worker",
+      "href": "https://html.spec.whatwg.org/multipage/workers.html#in-extended-lifetime-worker",
+      "linkingText": [
+        "in extended lifetime"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -108822,6 +110346,48 @@
       "localLinkingText": [],
       "type": "interface",
       "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shared-workers-and-the-sharedworker-interface",
+        "href": "https://html.spec.whatwg.org/multipage/workers.html#shared-workers-and-the-sharedworker-interface",
+        "title": "Shared workers and the SharedWorker interface",
+        "number": "10.2.6.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "sharedworkeroptions",
+      "href": "https://html.spec.whatwg.org/multipage/workers.html#sharedworkeroptions",
+      "linkingText": [
+        "SharedWorkerOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shared-workers-and-the-sharedworker-interface",
+        "href": "https://html.spec.whatwg.org/multipage/workers.html#shared-workers-and-the-sharedworker-interface",
+        "title": "Shared workers and the SharedWorker interface",
+        "number": "10.2.6.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-sharedworkeroptions-extendedlifetime",
+      "href": "https://html.spec.whatwg.org/multipage/workers.html#dom-sharedworkeroptions-extendedlifetime",
+      "linkingText": [
+        "extendedLifetime"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SharedWorkerOptions"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -112849,10 +114415,10 @@
       "links": []
     },
     {
-      "id": "scripting-flag",
-      "href": "https://html.spec.whatwg.org/multipage/parsing.html#scripting-flag",
+      "id": "scripting-mode",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode",
       "linkingText": [
-        "scripting flag"
+        "scripting mode"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -112866,6 +114432,106 @@
         "number": "13.2.4.5"
       },
       "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "parser-scripting-mode",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#parser-scripting-mode",
+      "linkingText": [
+        "parser scripting mode"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "other-parsing-state-flags",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#other-parsing-state-flags",
+        "title": "Other parsing state flags",
+        "number": "13.2.4.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "scripting-mode-normal",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-normal",
+      "linkingText": [
+        "Normal"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "other-parsing-state-flags",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#other-parsing-state-flags",
+        "title": "Other parsing state flags",
+        "number": "13.2.4.5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "scripting-mode-disabled",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-disabled",
+      "linkingText": [
+        "Disabled"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "other-parsing-state-flags",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#other-parsing-state-flags",
+        "title": "Other parsing state flags",
+        "number": "13.2.4.5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "scripting-mode-inert",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-inert",
+      "linkingText": [
+        "Inert"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "other-parsing-state-flags",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#other-parsing-state-flags",
+        "title": "Other parsing state flags",
+        "number": "13.2.4.5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "scripting-mode-fragment",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-fragment",
+      "linkingText": [
+        "Fragment"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "other-parsing-state-flags",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#other-parsing-state-flags",
+        "title": "Other parsing state flags",
+        "number": "13.2.4.5"
+      },
+      "definedIn": "dt",
       "links": []
     },
     {
@@ -116975,6 +118641,66 @@
       "href": "https://html.spec.whatwg.org/multipage/rendering.html#select-popover-slot",
       "linkingText": [
         "select popover slot"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-select-element-2",
+        "href": "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "title": "The select element",
+        "number": "15.5.16"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "select-list-box-slot",
+      "href": "https://html.spec.whatwg.org/multipage/rendering.html#select-list-box-slot",
+      "linkingText": [
+        "select list box slot"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-select-element-2",
+        "href": "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "title": "The select element",
+        "number": "15.5.16"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "select's-options-are-being-rendered-with-base-appearance",
+      "href": "https://html.spec.whatwg.org/multipage/rendering.html#select's-options-are-being-rendered-with-base-appearance",
+      "linkingText": [
+        "select's options are being rendered with base appearance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-select-element-2",
+        "href": "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "title": "The select element",
+        "number": "15.5.16"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "option-base-appearance",
+      "href": "https://html.spec.whatwg.org/multipage/rendering.html#option-base-appearance",
+      "linkingText": [
+        "rendered with base appearance"
       ],
       "localLinkingText": [],
       "type": "dfn",

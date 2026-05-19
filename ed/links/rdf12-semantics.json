@@ -8,16 +8,8 @@
       "http://en.wikipedia.org/wiki/Herbrand_interpretation": {},
       "https://doi.org/10.1007/978-3-540-30475-3_7": {},
       "https://dx.doi.org/10.2139/ssrn.3199251": {},
-      "https://github.com/w3c/rdf-semantics/issues/102": {},
-      "https://github.com/w3c/rdf-semantics/issues/?q=is%3Aissue+is%3Aopen+label%3A%22ms%3ACR%22": {},
-      "https://github.com/w3c/rdf-semantics/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Aenhancement%22": {},
       "https://w3c.github.io/rdf-interop/spec/": {},
       "https://w3c.github.io/rdf-new/spec/": {},
-      "https://w3c.github.io/rdf-semantics/spec/": {
-        "anchors": [
-          "simple"
-        ]
-      },
       "https://w3c.github.io/rdf-tests/rdf/rdf11/rdf-mt/index.html": {
         "anchors": [
           "datatypes-non-well-formed-literal-2",
@@ -28,6 +20,7 @@
           "tex-01-language-tag-case-2"
         ]
       },
+      "https://w3c.github.io/rdf-tests/rdf/rdf12/rdf-semantics/": {},
       "https://w3c.github.io/rdf-tests/rdf/rdf12/rdf-semantics/index.html": {
         "anchors": [
           "all-identical-triple-terms-are-the-same",
@@ -81,7 +74,11 @@
       "https://www.w3.org/TR/rdf-mt/": {},
       "https://www.w3.org/TR/rdf-plain-literal/": {},
       "https://www.w3.org/TR/rdf-testcases/": {},
-      "https://www.w3.org/TR/rdf11-mt/": {},
+      "https://www.w3.org/TR/rdf11-mt/": {
+        "anchors": [
+          "finite-interpretations-informative"
+        ]
+      },
       "https://www.w3.org/TR/rdf12-concepts/": {
         "anchors": [
           "dfn-iri",

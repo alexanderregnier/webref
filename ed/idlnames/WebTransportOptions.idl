@@ -2,10 +2,11 @@
 dictionary WebTransportOptions {
   boolean allowPooling = false;
   boolean requireUnreliable = false;
-  sequence<WebTransportHash> serverCertificateHashes;
+  HeadersInit headers = {};
+  sequence<WebTransportHash> serverCertificateHashes = [];
   WebTransportCongestionControl congestionControl = "default";
   [EnforceRange] unsigned short? anticipatedConcurrentIncomingUnidirectionalStreams = null;
   [EnforceRange] unsigned short? anticipatedConcurrentIncomingBidirectionalStreams = null;
   sequence<DOMString> protocols = [];
-  DatagramsReadableMode datagramsReadableMode;
+  ReadableStreamType datagramsReadableType;
 };

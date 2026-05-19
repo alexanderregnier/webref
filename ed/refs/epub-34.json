@@ -6,6 +6,10 @@
   "refs": {
     "normative": [
       {
+        "name": "av1-avif",
+        "url": "https://aomediacodec.github.io/av1-avif/"
+      },
+      {
         "name": "bcp47",
         "url": "https://www.rfc-editor.org/rfc/rfc5646"
       },
@@ -14,20 +18,8 @@
         "url": "https://www.unicode.org/reports/tr9/tr9-51.html"
       },
       {
-        "name": "charmod-norm",
-        "url": "https://www.w3.org/TR/charmod-norm/"
-      },
-      {
-        "name": "css-text-3",
-        "url": "https://www.w3.org/TR/css-text-3/"
-      },
-      {
-        "name": "css-text-decor-3",
-        "url": "https://www.w3.org/TR/css-text-decor-3/"
-      },
-      {
         "name": "css-values",
-        "url": "https://www.w3.org/TR/css-values-3/"
+        "url": "https://www.w3.org/TR/css-values-4/"
       },
       {
         "name": "css-writing-modes-3",
@@ -36,10 +28,6 @@
       {
         "name": "css2",
         "url": "https://www.w3.org/TR/CSS2/"
-      },
-      {
-        "name": "csssnapshot",
-        "url": "https://www.w3.org/TR/CSS/"
       },
       {
         "name": "datetime",
@@ -62,8 +50,8 @@
         "url": "https://www.w3.org/TR/epub-33/"
       },
       {
-        "name": "epub-a11y-111",
-        "url": "https://www.w3.org/TR/epub-a11y-111/"
+        "name": "epub-a11y-12",
+        "url": "https://www.w3.org/TR/epub-a11y-12/"
       },
       {
         "name": "epub-rs-34",
@@ -90,14 +78,6 @@
         "url": "https://idpf.org/epub/301/spec/epub-publications-20140626.html"
       },
       {
-        "name": "fips-180-4",
-        "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf"
-      },
-      {
-        "name": "geolocation",
-        "url": "https://www.w3.org/TR/geolocation/"
-      },
-      {
         "name": "gif",
         "url": "https://www.w3.org/Graphics/GIF/spec-gif89a.txt"
       },
@@ -112,6 +92,10 @@
       {
         "name": "infra",
         "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "iso18181-1",
+        "url": "https://www.iso.org/standard/85066.html"
       },
       {
         "name": "iso8601-1",
@@ -158,10 +142,6 @@
         "url": "https://www.w3.org/TR/png-3/"
       },
       {
-        "name": "push-api",
-        "url": "https://www.w3.org/TR/push-api/"
-      },
-      {
         "name": "rdfa-core",
         "url": "https://www.w3.org/TR/rdfa-core/"
       },
@@ -196,6 +176,10 @@
       {
         "name": "RFC8174",
         "url": "https://www.rfc-editor.org/rfc/rfc8174"
+      },
+      {
+        "name": "rfc8251",
+        "url": "https://www.rfc-editor.org/rfc/rfc8251"
       },
       {
         "name": "rfc9110",
@@ -287,8 +271,20 @@
         "url": "https://www.w3.org/TR/audiobooks/"
       },
       {
+        "name": "charmod-norm",
+        "url": "https://www.w3.org/TR/charmod-norm/"
+      },
+      {
+        "name": "css-speech",
+        "url": "https://www.w3.org/TR/css-speech-1/"
+      },
+      {
         "name": "css-viewport-1",
         "url": "https://drafts.csswg.org/css-viewport/"
+      },
+      {
+        "name": "csssnapshot",
+        "url": "https://www.w3.org/TR/CSS/"
       },
       {
         "name": "dpub-aria",
@@ -313,6 +309,14 @@
       {
         "name": "fetch",
         "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "fips-180-4",
+        "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf"
+      },
+      {
+        "name": "geolocation",
+        "url": "https://www.w3.org/TR/geolocation/"
       },
       {
         "name": "h264",
@@ -351,6 +355,14 @@
         "url": "https://www.oasis-open.org/committees/download.php/12572/OpenDocument-v1.0-os.pdf"
       },
       {
+        "name": "pronunciation-lexicon",
+        "url": "https://www.w3.org/TR/pronunciation-lexicon/"
+      },
+      {
+        "name": "push-api",
+        "url": "https://www.w3.org/TR/push-api/"
+      },
+      {
         "name": "relaxng-schema",
         "url": "http://standards.iso.org/ittf/PubliclyAvailableStandards/c052348_ISO_IEC_19757-2_2008(E).zip"
       },
@@ -369,6 +381,14 @@
       {
         "name": "rfc8141",
         "url": "https://www.rfc-editor.org/rfc/rfc8141"
+      },
+      {
+        "name": "schema-org",
+        "url": "https://schema.org/"
+      },
+      {
+        "name": "ssml",
+        "url": "https://www.w3.org/TR/speech-synthesis11/"
       },
       {
         "name": "uaag20",

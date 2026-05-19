@@ -383,7 +383,9 @@
       "https://w3c.github.io/deviceorientation/": {},
       "https://w3c.github.io/hr-time/": {},
       "https://w3c.github.io/long-animation-frames/": {},
+      "https://w3c.github.io/pointerevents/": {},
       "https://w3c.github.io/touch-events/": {},
+      "https://w3c.github.io/trusted-types/dist/spec/": {},
       "https://w3c.github.io/uievents/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://whatwg.org/": {},
@@ -437,7 +439,6 @@
       },
       "https://html.spec.whatwg.org/multipage/custom-elements.html": {
         "anchors": [
-          "look-up-a-custom-element-registry",
           "is-scoped",
           "scoped-document-set",
           "enqueue-a-custom-element-callback-reaction",
@@ -446,6 +447,7 @@
           "customelementregistry",
           "cereactions",
           "customized-built-in-element",
+          "look-up-a-custom-element-registry",
           "custom-element-definition",
           "valid-custom-element-name",
           "custom-element-constructor",
@@ -579,7 +581,6 @@
           "code-point",
           "ascii-alpha",
           "ascii-digit",
-          "strictly-split",
           "assert",
           "xml-namespace",
           "xmlns-namespace",
@@ -660,14 +661,24 @@
           "record-timing-info-for-event-listener"
         ]
       },
+      "https://w3c.github.io/pointerevents/": {
+        "anchors": [
+          "dom-mouseevent"
+        ]
+      },
       "https://w3c.github.io/touch-events/": {
         "anchors": [
           "idl-def-touchevent"
         ]
       },
+      "https://w3c.github.io/trusted-types/dist/spec/": {
+        "anchors": [
+          "typedefdef-trustedtype",
+          "get-trusted-type-compliant-attribute-value"
+        ]
+      },
       "https://w3c.github.io/uievents/": {
         "anchors": [
-          "mouseevent",
           "dom-uievent-detail",
           "compositionevent",
           "focusevent",

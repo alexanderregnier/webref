@@ -7,7 +7,7 @@
       "url": "https://www.w3.org/TR/SVG2/"
     },
     "fragment": "[Exposed=Window]\ninterface SVGSymbolElement : SVGGraphicsElement {\n};",
-    "href": "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSymbolElement"
+    "href": "https://w3c.github.io/svgwg/svg2-draft/struct.html#InterfaceSVGSymbolElement"
   },
   "extended": [
     {
@@ -27,7 +27,7 @@
         "url": "https://www.w3.org/TR/SVG2/"
       },
       "fragment": "[Exposed=Window]\ninterface SVGGraphicsElement : SVGElement {\n  [SameObject] readonly attribute SVGAnimatedTransformList transform;\n\n  DOMRect getBBox(optional SVGBoundingBoxOptions options = {});\n  DOMMatrix? getCTM();\n  DOMMatrix? getScreenCTM();\n};",
-      "href": "https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement"
+      "href": "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGGraphicsElement"
     },
     "extended": [
       {
@@ -47,12 +47,12 @@
           "url": "https://www.w3.org/TR/SVG2/"
         },
         "fragment": "[Exposed=Window]\ninterface SVGElement : Element {\n\n  [SameObject] readonly attribute SVGAnimatedString className;\n\n  readonly attribute SVGSVGElement? ownerSVGElement;\n  readonly attribute SVGElement? viewportElement;\n};",
-        "href": "https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement"
+        "href": "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGElement"
       },
       "extended": [
         {
           "spec": {
-            "title": "CSS Object Model (CSSOM)",
+            "title": "CSS Object Model (CSSOM) Module Level 1",
             "url": "https://www.w3.org/TR/cssom-1/"
           },
           "fragment": "SVGElement includes ElementCSSInlineStyle;"
@@ -69,14 +69,7 @@
             "title": "Scalable Vector Graphics (SVG) 2",
             "url": "https://www.w3.org/TR/SVG2/"
           },
-          "fragment": "SVGElement includes SVGElementInstance;"
-        },
-        {
-          "spec": {
-            "title": "Scalable Vector Graphics (SVG) 2",
-            "url": "https://www.w3.org/TR/SVG2/"
-          },
-          "fragment": "SVGElement includes HTMLOrSVGElement;"
+          "fragment": "SVGElement includes HTMLOrSVGOrMathMLElement;"
         }
       ],
       "inheritance": {
@@ -87,7 +80,7 @@
             "title": "DOM Standard",
             "url": "https://dom.spec.whatwg.org/"
           },
-          "fragment": "[Exposed=Window]\ninterface Element : Node {\n  readonly attribute DOMString? namespaceURI;\n  readonly attribute DOMString? prefix;\n  readonly attribute DOMString localName;\n  readonly attribute DOMString tagName;\n\n  [CEReactions] attribute DOMString id;\n  [CEReactions] attribute DOMString className;\n  [SameObject, PutForwards=value] readonly attribute DOMTokenList classList;\n  [CEReactions, Unscopable] attribute DOMString slot;\n\n  boolean hasAttributes();\n  [SameObject] readonly attribute NamedNodeMap attributes;\n  sequence<DOMString> getAttributeNames();\n  DOMString? getAttribute(DOMString qualifiedName);\n  DOMString? getAttributeNS(DOMString? namespace, DOMString localName);\n  [CEReactions] undefined setAttribute(DOMString qualifiedName, DOMString value);\n  [CEReactions] undefined setAttributeNS(DOMString? namespace, DOMString qualifiedName, DOMString value);\n  [CEReactions] undefined removeAttribute(DOMString qualifiedName);\n  [CEReactions] undefined removeAttributeNS(DOMString? namespace, DOMString localName);\n  [CEReactions] boolean toggleAttribute(DOMString qualifiedName, optional boolean force);\n  boolean hasAttribute(DOMString qualifiedName);\n  boolean hasAttributeNS(DOMString? namespace, DOMString localName);\n\n  Attr? getAttributeNode(DOMString qualifiedName);\n  Attr? getAttributeNodeNS(DOMString? namespace, DOMString localName);\n  [CEReactions] Attr? setAttributeNode(Attr attr);\n  [CEReactions] Attr? setAttributeNodeNS(Attr attr);\n  [CEReactions] Attr removeAttributeNode(Attr attr);\n\n  ShadowRoot attachShadow(ShadowRootInit init);\n  readonly attribute ShadowRoot? shadowRoot;\n\n  readonly attribute CustomElementRegistry? customElementRegistry;\n\n  Element? closest(DOMString selectors);\n  boolean matches(DOMString selectors);\n  boolean webkitMatchesSelector(DOMString selectors); // legacy alias of .matches\n\n  HTMLCollection getElementsByTagName(DOMString qualifiedName);\n  HTMLCollection getElementsByTagNameNS(DOMString? namespace, DOMString localName);\n  HTMLCollection getElementsByClassName(DOMString classNames);\n\n  [CEReactions] Element? insertAdjacentElement(DOMString where, Element element); // legacy\n  undefined insertAdjacentText(DOMString where, DOMString data); // legacy\n};",
+          "fragment": "[Exposed=Window]\ninterface Element : Node {\n  readonly attribute DOMString? namespaceURI;\n  readonly attribute DOMString? prefix;\n  readonly attribute DOMString localName;\n  readonly attribute DOMString tagName;\n\n  [CEReactions] attribute DOMString id;\n  [CEReactions] attribute DOMString className;\n  [SameObject, PutForwards=value] readonly attribute DOMTokenList classList;\n  [CEReactions, Unscopable] attribute DOMString slot;\n\n  boolean hasAttributes();\n  [SameObject] readonly attribute NamedNodeMap attributes;\n  sequence<DOMString> getAttributeNames();\n  DOMString? getAttribute(DOMString qualifiedName);\n  DOMString? getAttributeNS(DOMString? namespace, DOMString localName);\n  [CEReactions] undefined setAttribute(DOMString qualifiedName, (TrustedType or DOMString) value);\n  [CEReactions] undefined setAttributeNS(DOMString? namespace, DOMString qualifiedName, (TrustedType or DOMString) value);\n  [CEReactions] undefined removeAttribute(DOMString qualifiedName);\n  [CEReactions] undefined removeAttributeNS(DOMString? namespace, DOMString localName);\n  [CEReactions] boolean toggleAttribute(DOMString qualifiedName, optional boolean force);\n  boolean hasAttribute(DOMString qualifiedName);\n  boolean hasAttributeNS(DOMString? namespace, DOMString localName);\n\n  Attr? getAttributeNode(DOMString qualifiedName);\n  Attr? getAttributeNodeNS(DOMString? namespace, DOMString localName);\n  [CEReactions] Attr? setAttributeNode(Attr attr);\n  [CEReactions] Attr? setAttributeNodeNS(Attr attr);\n  [CEReactions] Attr removeAttributeNode(Attr attr);\n\n  ShadowRoot attachShadow(ShadowRootInit init);\n  readonly attribute ShadowRoot? shadowRoot;\n\n  readonly attribute CustomElementRegistry? customElementRegistry;\n\n  Element? closest(DOMString selectors);\n  boolean matches(DOMString selectors);\n  boolean webkitMatchesSelector(DOMString selectors); // legacy alias of .matches\n\n  HTMLCollection getElementsByTagName(DOMString qualifiedName);\n  HTMLCollection getElementsByTagNameNS(DOMString? namespace, DOMString localName);\n  HTMLCollection getElementsByClassName(DOMString classNames);\n\n  [CEReactions] Element? insertAdjacentElement(DOMString where, Element element); // legacy\n  undefined insertAdjacentText(DOMString where, DOMString data); // legacy\n};",
           "href": "https://dom.spec.whatwg.org/#element"
         },
         "extended": [
@@ -121,6 +114,13 @@
           },
           {
             "spec": {
+              "title": "CSS Shadow Module Level 1",
+              "url": "https://drafts.csswg.org/css-shadow-1/"
+            },
+            "fragment": "partial interface Element {\n  [SameObject, PutForwards=value] readonly attribute DOMTokenList part;\n};"
+          },
+          {
+            "spec": {
               "title": "Fullscreen API Standard",
               "url": "https://fullscreen.spec.whatwg.org/"
             },
@@ -142,7 +142,21 @@
           },
           {
             "spec": {
-              "title": "CSS Spatial Navigation Level 1",
+              "title": "Container Timing API",
+              "url": "https://wicg.github.io/container-timing/"
+            },
+            "fragment": "partial interface Element {\n    [CEReactions] attribute DOMString containertiming;\n    [CEReactions] attribute DOMString? containertimingIgnore;\n};"
+          },
+          {
+            "spec": {
+              "title": "HTML Sanitizer API",
+              "url": "https://wicg.github.io/sanitizer-api/"
+            },
+            "fragment": "partial interface Element {\n  [CEReactions] undefined setHTML(DOMString html, optional SetHTMLOptions options = {});\n};"
+          },
+          {
+            "spec": {
+              "title": "CSS Spatial Navigation Module Level 1",
               "url": "https://www.w3.org/TR/css-nav-1/"
             },
             "fragment": "partial interface Element {\n    Node getSpatialNavigationContainer();\n    sequence<Node> focusableAreas(optional FocusableAreasOption option = {});\n    Node? spatialNavigationSearch(SpatialNavigationDirection dir, optional SpatialNavigationSearchOptions options = {});\n};"
@@ -163,13 +177,6 @@
           },
           {
             "spec": {
-              "title": "CSS Shadow Parts",
-              "url": "https://www.w3.org/TR/css-shadow-parts-1/"
-            },
-            "fragment": "partial interface Element {\n  [SameObject, PutForwards=value] readonly attribute DOMTokenList part;\n};"
-          },
-          {
-            "spec": {
               "title": "CSS Typed OM Level 1",
               "url": "https://www.w3.org/TR/css-typed-om-1/"
             },
@@ -184,14 +191,14 @@
           },
           {
             "spec": {
-              "title": "CSSOM View Module",
+              "title": "CSSOM View Module Level 1",
               "url": "https://www.w3.org/TR/cssom-view-1/"
             },
-            "fragment": "partial interface Element {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n\n  boolean checkVisibility(optional CheckVisibilityOptions options = {});\n\n  undefined scrollIntoView(optional (boolean or ScrollIntoViewOptions) arg = {});\n  undefined scroll(optional ScrollToOptions options = {});\n  undefined scroll(unrestricted double x, unrestricted double y);\n  undefined scrollTo(optional ScrollToOptions options = {});\n  undefined scrollTo(unrestricted double x, unrestricted double y);\n  undefined scrollBy(optional ScrollToOptions options = {});\n  undefined scrollBy(unrestricted double x, unrestricted double y);\n  attribute unrestricted double scrollTop;\n  attribute unrestricted double scrollLeft;\n  readonly attribute long scrollWidth;\n  readonly attribute long scrollHeight;\n  readonly attribute long clientTop;\n  readonly attribute long clientLeft;\n  readonly attribute long clientWidth;\n  readonly attribute long clientHeight;\n  readonly attribute double currentCSSZoom;\n};"
+            "fragment": "partial interface Element {\n  DOMRectList getClientRects();\n  [NewObject] DOMRect getBoundingClientRect();\n\n  boolean checkVisibility(optional CheckVisibilityOptions options = {});\n\n  Promise<undefined> scrollIntoView(optional (boolean or ScrollIntoViewOptions) arg = {});\n  Promise<undefined> scroll(optional ScrollToOptions options = {});\n  Promise<undefined> scroll(unrestricted double x, unrestricted double y);\n  Promise<undefined> scrollTo(optional ScrollToOptions options = {});\n  Promise<undefined> scrollTo(unrestricted double x, unrestricted double y);\n  Promise<undefined> scrollBy(optional ScrollToOptions options = {});\n  Promise<undefined> scrollBy(unrestricted double x, unrestricted double y);\n  attribute unrestricted double scrollTop;\n  attribute unrestricted double scrollLeft;\n  readonly attribute long scrollWidth;\n  readonly attribute long scrollHeight;\n  readonly attribute long clientTop;\n  readonly attribute long clientLeft;\n  readonly attribute long clientWidth;\n  readonly attribute long clientHeight;\n  readonly attribute double currentCSSZoom;\n};"
           },
           {
             "spec": {
-              "title": "CSSOM View Module",
+              "title": "CSSOM View Module Level 1",
               "url": "https://www.w3.org/TR/cssom-view-1/"
             },
             "fragment": "// like Range\nElement includes GeometryUtils;"
@@ -219,7 +226,14 @@
           },
           {
             "spec": {
-              "title": "Web Animations",
+              "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.3",
+              "url": "https://www.w3.org/TR/wai-aria-1.3/"
+            },
+            "fragment": "Element includes ARIANotifyMixin;"
+          },
+          {
+            "spec": {
+              "title": "Web Animations Module Level 1",
               "url": "https://www.w3.org/TR/web-animations-1/"
             },
             "fragment": "Element includes Animatable;"
@@ -343,7 +357,7 @@
             "type": "interface mixin",
             "defined": {
               "spec": {
-                "title": "CSSOM View Module",
+                "title": "CSSOM View Module Level 1",
                 "url": "https://www.w3.org/TR/cssom-view-1/"
               },
               "fragment": "interface mixin GeometryUtils {\n  sequence<DOMQuad> getBoxQuads(optional BoxQuadOptions options = {});\n  DOMQuad convertQuadFromNode(DOMQuadInit quad, GeometryNode from, optional ConvertCoordinateOptions options = {});\n  DOMQuad convertRectFromNode(DOMRectReadOnly rect, GeometryNode from, optional ConvertCoordinateOptions options = {});\n  DOMPoint convertPointFromNode(DOMPointInit point, GeometryNode from, optional ConvertCoordinateOptions options = {}); // XXX z,w turns into 0\n};",
@@ -369,11 +383,26 @@
             "includes": []
           },
           {
+            "name": "ARIANotifyMixin",
+            "type": "interface mixin",
+            "defined": {
+              "spec": {
+                "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.3",
+                "url": "https://www.w3.org/TR/wai-aria-1.3/"
+              },
+              "fragment": "interface mixin ARIANotifyMixin {\n  undefined ariaNotify(DOMString announcement, optional AriaNotificationOptions options = {});\n};",
+              "href": "https://w3c.github.io/aria/#dom-arianotifymixin"
+            },
+            "extended": [],
+            "inheritance": null,
+            "includes": []
+          },
+          {
             "name": "Animatable",
             "type": "interface mixin",
             "defined": {
               "spec": {
-                "title": "Web Animations",
+                "title": "Web Animations Module Level 1",
                 "url": "https://www.w3.org/TR/web-animations-1/"
               },
               "fragment": "interface mixin Animatable {\n    Animation           animate(object? keyframes,\n                                optional (unrestricted double or KeyframeAnimationOptions) options = {});\n    sequence<Animation> getAnimations(optional GetAnimationsOptions options = {});\n};",
@@ -391,7 +420,7 @@
           "type": "interface mixin",
           "defined": {
             "spec": {
-              "title": "CSS Object Model (CSSOM)",
+              "title": "CSS Object Model (CSSOM) Module Level 1",
               "url": "https://www.w3.org/TR/cssom-1/"
             },
             "fragment": "interface mixin ElementCSSInlineStyle {\n  [SameObject, PutForwards=cssText] readonly attribute CSSStyleProperties style;\n};",
@@ -430,7 +459,7 @@
             },
             {
               "spec": {
-                "title": "CSS Animations Level 1",
+                "title": "CSS Animations Module Level 1",
                 "url": "https://www.w3.org/TR/css-animations-1/"
               },
               "fragment": "partial interface mixin GlobalEventHandlers {\n  attribute EventHandler onanimationstart;\n  attribute EventHandler onanimationiteration;\n  attribute EventHandler onanimationend;\n  attribute EventHandler onanimationcancel;\n};"
@@ -444,7 +473,7 @@
             },
             {
               "spec": {
-                "title": "CSS Transitions Level 1",
+                "title": "CSS Transitions Module Level 1",
                 "url": "https://www.w3.org/TR/css-transitions-1/"
               },
               "fragment": "partial interface mixin GlobalEventHandlers {\n  attribute EventHandler ontransitionrun;\n  attribute EventHandler ontransitionstart;\n  attribute EventHandler ontransitionend;\n  attribute EventHandler ontransitioncancel;\n};"
@@ -482,29 +511,14 @@
           "includes": []
         },
         {
-          "name": "SVGElementInstance",
-          "type": "interface mixin",
-          "defined": {
-            "spec": {
-              "title": "Scalable Vector Graphics (SVG) 2",
-              "url": "https://www.w3.org/TR/SVG2/"
-            },
-            "fragment": "interface mixin SVGElementInstance {\n  [SameObject] readonly attribute SVGElement? correspondingElement;\n  [SameObject] readonly attribute SVGUseElement? correspondingUseElement;\n};",
-            "href": "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGElementInstance"
-          },
-          "extended": [],
-          "inheritance": null,
-          "includes": []
-        },
-        {
-          "name": "HTMLOrSVGElement",
+          "name": "HTMLOrSVGOrMathMLElement",
           "type": "interface mixin",
           "defined": {
             "spec": {
               "title": "HTML Standard",
               "url": "https://html.spec.whatwg.org/multipage/"
             },
-            "fragment": "interface mixin HTMLOrSVGElement {\n  [SameObject] readonly attribute DOMStringMap dataset;\n  attribute DOMString nonce; // intentionally no [CEReactions]\n\n  [CEReactions, Reflect] attribute boolean autofocus;\n  [CEReactions, ReflectSetter] attribute long tabIndex;\n  undefined focus(optional FocusOptions options = {});\n  undefined blur();\n};",
+            "fragment": "interface mixin HTMLOrSVGOrMathMLElement {\n  [SameObject] readonly attribute DOMStringMap dataset;\n  attribute DOMString nonce; // intentionally no [CEReactions]\n\n  [CEReactions, Reflect] attribute boolean autofocus;\n  [CEReactions, ReflectSetter] attribute long tabIndex;\n  undefined focus(optional FocusOptions options = {});\n  undefined blur();\n};",
             "href": "https://html.spec.whatwg.org/multipage/dom.html#htmlorsvgelement"
           },
           "extended": [],
@@ -523,7 +537,7 @@
             "url": "https://www.w3.org/TR/SVG2/"
           },
           "fragment": "interface mixin SVGTests {\n  [SameObject] readonly attribute SVGStringList requiredExtensions;\n  [SameObject] readonly attribute SVGStringList systemLanguage;\n};",
-          "href": "https://svgwg.org/svg2-draft/types.html#InterfaceSVGTests"
+          "href": "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGTests"
         },
         "extended": [],
         "inheritance": null,
@@ -541,7 +555,7 @@
           "url": "https://www.w3.org/TR/SVG2/"
         },
         "fragment": "interface mixin SVGFitToViewBox {\n  [SameObject] readonly attribute SVGAnimatedRect viewBox;\n  [SameObject] readonly attribute SVGAnimatedPreserveAspectRatio preserveAspectRatio;\n};",
-        "href": "https://svgwg.org/svg2-draft/types.html#InterfaceSVGFitToViewBox"
+        "href": "https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGFitToViewBox"
       },
       "extended": [],
       "inheritance": null,

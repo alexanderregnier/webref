@@ -6,8 +6,6 @@
   "links": {
     "rawlinks": {
       "https://gdpr.eu/": {},
-      "https://github.com/w3c/rdf-n-quads/issues/76": {},
-      "https://github.com/w3c/rdf-n-quads/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Asubstantive%22": {},
       "https://oag.ca.gov/privacy/ccpa": {},
       "https://termly.io/resources/infographics/privacy-laws-around-the-world/": {},
       "https://w3c.github.io/rdf-interop/spec/": {},
@@ -96,6 +94,7 @@
           "dfn-surrogate"
         ]
       },
+      "https://www.w3.org/TR/n-quads/": {},
       "https://www.w3.org/TR/rdf12-concepts/": {
         "anchors": [
           "dfn-rdf-dataset",
@@ -138,6 +137,7 @@
       "https://www.w3.org/TR/rdf12-trig/": {},
       "https://www.w3.org/TR/rdf12-turtle/": {
         "anchors": [
+          "sec-version",
           "dfn-numeric-escape-sequence",
           "dfn-string-escape-sequence"
         ]

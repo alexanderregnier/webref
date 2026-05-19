@@ -201,14 +201,14 @@
       "title": "Changes"
     },
     {
-      "id": "changes-2020",
-      "href": "https://drafts.csswg.org/css-display-3/#changes-2020",
+      "id": "changes-2023",
+      "href": "https://drafts.csswg.org/css-display-3/#changes-2023",
       "level": 3,
       "title": "Changes Since 2023 Candidate Recommendation Snapshot"
     },
     {
-      "id": "changes-2020①",
-      "href": "https://drafts.csswg.org/css-display-3/#changes-2020%E2%91%A0",
+      "id": "changes-2020",
+      "href": "https://drafts.csswg.org/css-display-3/#changes-2020",
       "level": 3,
       "title": "Changes Since 2020 Candidate Recommendation"
     },
@@ -279,12 +279,6 @@
       "title": "Non-experimental implementations"
     },
     {
-      "id": "w3c-cr-exit-criteria",
-      "href": "https://drafts.csswg.org/css-display-3/#w3c-cr-exit-criteria",
-      "level": 3,
-      "title": "CR exit criteria"
-    },
-    {
       "id": "index",
       "href": "https://drafts.csswg.org/css-display-3/#index",
       "level": 2,
@@ -318,7 +312,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-display-3/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

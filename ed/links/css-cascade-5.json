@@ -39,7 +39,8 @@
       "https://developer.mozilla.org/en-US/docs/Web/CSS/@layer": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/revert-layer": {},
       "https://dom.spec.whatwg.org/": {},
-      "https://drafts.csswg.org/css-align/": {},
+      "https://drafts.csswg.org/animation-triggers-1/": {},
+      "https://drafts.csswg.org/css-2025/": {},
       "https://drafts.csswg.org/css-animations/": {},
       "https://drafts.csswg.org/css-backgrounds/": {},
       "https://drafts.csswg.org/css-break-3/": {
@@ -55,11 +56,11 @@
       "https://drafts.csswg.org/css-conditional-3/": {},
       "https://drafts.csswg.org/css-conditional-5/": {},
       "https://drafts.csswg.org/css-contain-2/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox-2/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
       "https://drafts.csswg.org/css-fonts-5/": {},
-      "https://drafts.csswg.org/css-forms-1/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
       "https://drafts.csswg.org/css-lists-3/": {},
       "https://drafts.csswg.org/css-logical-1/": {},
@@ -70,7 +71,7 @@
           "first-line-inheritance"
         ]
       },
-      "https://drafts.csswg.org/css-scoping/": {},
+      "https://drafts.csswg.org/css-shadow-1/": {},
       "https://drafts.csswg.org/css-sizing-3/": {},
       "https://drafts.csswg.org/css-style-attr/": {},
       "https://drafts.csswg.org/css-syntax/": {},
@@ -79,6 +80,7 @@
       "https://drafts.csswg.org/css-transitions/": {},
       "https://drafts.csswg.org/css-values-3/": {},
       "https://drafts.csswg.org/css-values-4/": {},
+      "https://drafts.csswg.org/css-values-5/": {},
       "https://drafts.csswg.org/css-variables-2/": {},
       "https://drafts.csswg.org/css-variables/": {},
       "https://drafts.csswg.org/css-writing-modes-3/": {},
@@ -95,6 +97,7 @@
       "https://drafts.csswg.org/selectors/": {},
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
+      "https://github.com/w3c/csswg-drafts/issues/10443": {},
       "https://github.com/w3c/csswg-drafts/issues/5681": {},
       "https://github.com/w3c/csswg-drafts/issues/5793": {},
       "https://github.com/w3c/csswg-drafts/issues/5853": {},
@@ -210,9 +213,15 @@
           "concept-light-tree"
         ]
       },
-      "https://drafts.csswg.org/css-align-3/": {
+      "https://drafts.csswg.org/animation-triggers-1/": {
         "anchors": [
-          "valdef-align-self-auto"
+          "valdef-timeline-trigger-active-range-auto",
+          "valdef-animation-action-reset"
+        ]
+      },
+      "https://drafts.csswg.org/css-2025/": {
+        "anchors": [
+          "vendor-prefix"
         ]
       },
       "https://drafts.csswg.org/css-animations-1/": {
@@ -266,11 +275,14 @@
           "conditional-group-rule",
           "at-ruledef-media",
           "at-ruledef-supports",
-          "typedef-supports-decl"
+          "supports-queries"
         ]
       },
       "https://drafts.csswg.org/css-conditional-5/": {
         "anchors": [
+          "at-ruledef-supports-condition",
+          "typedef-declaration",
+          "typedef-supports-decl",
           "funcdef-supports"
         ]
       },
@@ -293,7 +305,7 @@
           "box"
         ]
       },
-      "https://drafts.csswg.org/css-flexbox-1/": {
+      "https://drafts.csswg.org/css-flexbox-2/": {
         "anchors": [
           "propdef-flex",
           "flex-item"
@@ -308,19 +320,14 @@
           "propdef-font-weight",
           "propdef-font-family",
           "valdef-font-weight-bolder",
+          "propdef-font-size-adjust",
           "valdef-font-style-italic",
           "valdef-font-family-sans-serif"
         ]
       },
       "https://drafts.csswg.org/css-fonts-5/": {
         "anchors": [
-          "propdef-font-size-adjust",
           "at-font-face-rule"
-        ]
-      },
-      "https://drafts.csswg.org/css-forms-1/": {
-        "anchors": [
-          "valdef-appearance-base"
         ]
       },
       "https://drafts.csswg.org/css-inline-3/": {
@@ -344,14 +351,20 @@
           "at-ruledef-namespace"
         ]
       },
+      "https://drafts.csswg.org/css-page-3/": {
+        "anchors": [
+          "at-ruledef-page"
+        ]
+      },
       "https://drafts.csswg.org/css-pseudo-4/": {
         "anchors": [
           "selectordef-before",
           "selectordef-after",
-          "selectordef-first-line"
+          "selectordef-first-line",
+          "tree-abiding"
         ]
       },
-      "https://drafts.csswg.org/css-scoping-1/": {
+      "https://drafts.csswg.org/css-shadow-1/": {
         "anchors": [
           "flat-tree",
           "tree-context"
@@ -371,7 +384,8 @@
           "declaration",
           "at-rule",
           "block-at-rule",
-          "typedef-rule-list"
+          "typedef-rule-list",
+          "style-rule"
         ]
       },
       "https://drafts.csswg.org/css-text-3/": {
@@ -410,6 +424,11 @@
           "mult-comma"
         ]
       },
+      "https://drafts.csswg.org/css-values-5/": {
+        "anchors": [
+          "funcdef-if"
+        ]
+      },
       "https://drafts.csswg.org/css-variables-2/": {
         "anchors": [
           "custom-property"
@@ -438,6 +457,7 @@
         "anchors": [
           "cssstyledeclaration-declarations",
           "dom-window-getcomputedstyle",
+          "documentorshadowroot-final-css-style-sheets",
           "cssgroupingrule",
           "cssomstring",
           "cssrule"
@@ -447,7 +467,8 @@
         "anchors": [
           "typedef-media-query",
           "typedef-media-query-list",
-          "media-query-list"
+          "media-query-list",
+          "media-type"
         ]
       },
       "https://drafts.csswg.org/selectors-4/": {
@@ -498,11 +519,6 @@
         "anchors": [
           "Exposed",
           "idl-frozen-array"
-        ]
-      },
-      "https://www.w3.org/TR/CSS2/selector.html": {
-        "anchors": [
-          "x22"
         ]
       }
     }

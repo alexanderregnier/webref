@@ -18,6 +18,10 @@
         "url": "https://drafts.csswg.org/css-cascade-5/"
       },
       {
+        "name": "CSS-CONDITIONAL-3",
+        "url": "https://drafts.csswg.org/css-conditional-3/"
+      },
+      {
         "name": "CSS-CONDITIONAL-5",
         "url": "https://drafts.csswg.org/css-conditional-5/"
       },
@@ -26,12 +30,16 @@
         "url": "https://drafts.csswg.org/css-fonts-5/"
       },
       {
+        "name": "CSS-NAMESPACES-3",
+        "url": "https://drafts.csswg.org/css-namespaces/"
+      },
+      {
         "name": "CSS-NESTING-1",
         "url": "https://drafts.csswg.org/css-nesting/"
       },
       {
-        "name": "CSS-SCOPING-1",
-        "url": "https://drafts.csswg.org/css-scoping/"
+        "name": "CSS-SHADOW-1",
+        "url": "https://drafts.csswg.org/css-shadow-1/"
       },
       {
         "name": "CSS-SYNTAX-3",
@@ -46,8 +54,8 @@
         "url": "https://drafts.csswg.org/css-values-3/"
       },
       {
-        "name": "CSS2",
-        "url": "https://drafts.csswg.org/css2/"
+        "name": "CSS-VALUES-4",
+        "url": "https://drafts.csswg.org/css-values-4/"
       },
       {
         "name": "CSSOM-1",
@@ -64,6 +72,14 @@
       {
         "name": "FETCH",
         "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "HTML",
+        "url": "https://html.spec.whatwg.org/multipage/"
+      },
+      {
+        "name": "MEDIAQ",
+        "url": "https://drafts.csswg.org/mediaqueries-4/"
       },
       {
         "name": "RFC2119",
@@ -84,8 +100,12 @@
     ],
     "informative": [
       {
-        "name": "HTML",
-        "url": "https://html.spec.whatwg.org/multipage/"
+        "name": "CSS-DISPLAY-4",
+        "url": "https://drafts.csswg.org/css-display-4/"
+      },
+      {
+        "name": "CSS-SCOPING-1",
+        "url": "https://drafts.csswg.org/css-scoping/"
       }
     ]
   }

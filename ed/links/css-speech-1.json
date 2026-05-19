@@ -30,7 +30,7 @@
       "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-content-3/": {},
       "https://drafts.csswg.org/css-counter-styles/": {},
-      "https://drafts.csswg.org/css-display/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
       "https://drafts.csswg.org/css-lists-3/": {},
       "https://drafts.csswg.org/css-position-3/": {},
@@ -47,6 +47,7 @@
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://speced.github.io/bikeshed/": {},
+      "https://url.spec.whatwg.org/": {},
       "https://www.w3.org/TR/2012/CR-css3-speech-20120320/": {},
       "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/TR/CSS2/about.html": {
@@ -107,6 +108,11 @@
         ]
       },
       "https://www.w3.org/TR/ssml-sayas/": {},
+      "https://www.w3.org/TR/web-animations/": {
+        "anchors": [
+          "animation-type"
+        ]
+      },
       "https://www.w3.org/TR/xml11/": {},
       "https://www.w3.org/policies/process/20250818/": {}
     },
@@ -157,8 +163,7 @@
       },
       "https://drafts.csswg.org/css-fonts-4/": {
         "anchors": [
-          "propdef-font-family",
-          "family-name-value"
+          "propdef-font-family"
         ]
       },
       "https://drafts.csswg.org/css-lists-3/": {
@@ -187,10 +192,10 @@
           "dimension",
           "number-value",
           "number",
-          "comb-comma",
           "time-value",
           "mult-opt",
-          "mult-zero-plus",
+          "url-value",
+          "mult-comma",
           "integer-value",
           "css-css-identifier",
           "percentage-value",
@@ -203,8 +208,7 @@
         "anchors": [
           "valdef-media-speech",
           "valdef-media-all",
-          "valdef-media-screen",
-          "value-def-uri"
+          "valdef-media-screen"
         ]
       },
       "https://drafts.csswg.org/mediaqueries-5/": {
@@ -220,6 +224,11 @@
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "string"
+        ]
+      },
+      "https://url.spec.whatwg.org/": {
+        "anchors": [
+          "concept-url"
         ]
       }
     }

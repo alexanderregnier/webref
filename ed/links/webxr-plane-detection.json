@@ -1,13 +1,17 @@
 {
   "spec": {
     "title": "WebXR Plane Detection Module",
-    "url": "https://immersive-web.github.io/real-world-geometry/plane-detection.html"
+    "url": "https://immersive-web.github.io/plane-detection/"
   },
   "links": {
     "rawlinks": {
+      "http://lists.w3.org/Archives/Public/public-immersive-web-wg/": {},
+      "http://www.w3.org/TR/": {},
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
-      "https://drafts.fxtf.org/geometry/": {},
+      "https://drafts.csswg.org/geometry/": {},
+      "https://github.com/immersive-web/plane-detection/issues": {},
       "https://github.com/immersive-web/semantic-labels": {},
+      "https://html.spec.whatwg.org/multipage/": {},
       "https://immersive-web.github.io/anchors/": {
         "anchors": [
           "native-anchor",
@@ -19,13 +23,29 @@
           "security"
         ]
       },
+      "https://infra.spec.whatwg.org/": {},
       "https://w3c.github.io/hr-time/": {},
-      "https://webidl.spec.whatwg.org/": {}
+      "https://webidl.spec.whatwg.org/": {},
+      "https://www.w3.org/groups/wg/immersive-web": {},
+      "https://www.w3.org/groups/wg/immersive-web/ipr": {},
+      "https://www.w3.org/policies/patent-policy/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
-      "https://drafts.fxtf.org/geometry-1/": {
+      "https://drafts.csswg.org/geometry-1/": {
         "anchors": [
           "dompointreadonly"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/webappapis.html": {
+        "anchors": [
+          "concept-relevant-realm",
+          "queue-a-task"
         ]
       },
       "https://immersive-web.github.io/anchors/": {
@@ -39,34 +59,50 @@
           "capable-of-supporting",
           "inline-xr-device",
           "xrsession-list-of-frame-updates",
-          "xrspace",
+          "xrspace-interface",
           "xrspace-native-origin",
           "xrsystem",
           "dom-xrframe-getpose",
-          "xrframe",
+          "xrframe-interface",
           "xrframe-active",
-          "xrsession",
-          "dom-xrframe-session",
+          "xrsession-interface",
           "xrsession-xr-device",
+          "xrsession-ended",
+          "dom-xrsession-enabledfeatures",
+          "xrsession-mode",
+          "dom-xrframe-session",
           "xrframe-time",
           "xrspace-session",
           "rounding",
           "quantization"
         ]
       },
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "list-contain"
+        ]
+      },
       "https://w3c.github.io/hr-time/": {
         "anchors": [
-          "dom-domhighrestimestamp"
+          "typedefdef-domhighrestimestamp"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
+          "Exposed",
           "SameObject",
           "idl-frozen-array",
           "idl-DOMString",
           "invalidstateerror",
           "idl-promise",
-          "idl-undefined"
+          "idl-undefined",
+          "this",
+          "a-new-promise",
+          "reject",
+          "idl-DOMException",
+          "notsupportederror",
+          "resolve",
+          "operationerror"
         ]
       }
     }

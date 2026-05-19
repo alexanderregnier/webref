@@ -22,6 +22,10 @@
         "url": "https://www.w3.org/TR/i18n-glossary/"
       },
       {
+        "name": "rdf-concepts",
+        "url": "https://www.w3.org/TR/rdf-concepts/"
+      },
+      {
         "name": "RDF-DAWG-UC",
         "url": "https://www.w3.org/TR/rdf-dawg-uc/"
       },
@@ -86,7 +90,7 @@
         "url": "https://www.w3.org/TR/sparql11-protocol/"
       },
       {
-        "name": "SPARQL11-QUERY",
+        "name": "SPARQL11-Query",
         "url": "https://www.w3.org/TR/sparql11-query/"
       },
       {
@@ -100,6 +104,14 @@
       {
         "name": "SPARQL11-UPDATE",
         "url": "https://www.w3.org/TR/sparql11-update/"
+      },
+      {
+        "name": "SPARQL12-Query",
+        "url": "https://www.w3.org/TR/sparql12-query/"
+      },
+      {
+        "name": "SPARQL12-Update",
+        "url": "https://www.w3.org/TR/sparql12-update/"
       },
       {
         "name": "TURTLE",
@@ -190,10 +202,6 @@
       {
         "name": "SPARQL12-SERVICE-DESCRIPTION",
         "url": "https://www.w3.org/TR/sparql12-service-description/"
-      },
-      {
-        "name": "SPARQL12-UPDATE",
-        "url": "https://www.w3.org/TR/sparql12-update/"
       }
     ]
   }

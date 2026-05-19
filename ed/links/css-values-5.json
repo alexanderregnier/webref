@@ -106,6 +106,7 @@
       "https://drafts.csswg.org/css-color-5/": {},
       "https://drafts.csswg.org/css-conditional-3/": {},
       "https://drafts.csswg.org/css-conditional-5/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
       "https://drafts.csswg.org/css-easing/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
@@ -114,7 +115,7 @@
       "https://drafts.csswg.org/css-lists-3/": {},
       "https://drafts.csswg.org/css-mixins/": {},
       "https://drafts.csswg.org/css-pseudo-4/": {},
-      "https://drafts.csswg.org/css-scoping/": {},
+      "https://drafts.csswg.org/css-shadow-1/": {},
       "https://drafts.csswg.org/css-sizing-3/": {},
       "https://drafts.csswg.org/css-sizing-4/": {},
       "https://drafts.csswg.org/css-syntax/": {},
@@ -154,7 +155,6 @@
       "https://drafts.csswg.org/web-animations-2/": {},
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
-      "https://github.com/w3c/csswg-drafts/issues/11424": {},
       "https://github.com/w3c/csswg-drafts/issues/11825": {},
       "https://github.com/w3c/csswg-drafts/issues/11826": {},
       "https://github.com/w3c/csswg-drafts/issues/549": {
@@ -226,7 +226,6 @@
       "https://infra.spec.whatwg.org/": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
-      "https://tc39.es/ecma262/multipage/": {},
       "https://w3c.github.io/webappsec-referrer-policy/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://wpt.fyi/results/css/css-variables/css-variable-change-style-001.html": {},
@@ -359,10 +358,11 @@
         "anchors": [
           "concept-attribute",
           "concept-element",
-          "document",
           "element",
+          "document",
           "concept-tree-inclusive-sibling",
-          "concept-tree"
+          "concept-tree",
+          "concept-shadow-tree"
         ]
       },
       "https://drafts.css-houdini.org/css-properties-values-api-1/": {
@@ -391,7 +391,8 @@
         "anchors": [
           "at-ruledef-keyframes",
           "propdef-animation-timing-function",
-          "typedef-keyframes-name"
+          "typedef-keyframes-name",
+          "propdef-animation"
         ]
       },
       "https://drafts.csswg.org/css-animations-2/": {
@@ -412,11 +413,11 @@
       },
       "https://drafts.csswg.org/css-box-4/": {
         "anchors": [
-          "propdef-margin",
           "propdef-margin-top",
           "propdef-margin-bottom",
           "propdef-margin-left",
-          "propdef-margin-right"
+          "propdef-margin-right",
+          "propdef-margin"
         ]
       },
       "https://drafts.csswg.org/css-cascade-5/": {
@@ -424,6 +425,7 @@
           "computed-value",
           "specified-value",
           "used-value",
+          "valdef-all-revert-rule",
           "inherited-value",
           "valdef-all-inherit",
           "shorthand-property",
@@ -526,8 +528,9 @@
           "element-backed"
         ]
       },
-      "https://drafts.csswg.org/css-scoping-1/": {
+      "https://drafts.csswg.org/css-shadow-1/": {
         "anchors": [
+          "tree-scoped-name-loosely-matched",
           "css-tree-scoped-reference",
           "css-tree-scoped-name",
           "flat-tree"
@@ -554,11 +557,14 @@
         "anchors": [
           "typedef-declaration-value",
           "typedef-any-value",
+          "tokendef-open-curly",
+          "typedef-semicolon-token",
           "typedef-delim-token",
           "css-parse-something-according-to-a-css-grammar",
           "whitespace",
           "component-value",
           "parse-a-list-of-component-values",
+          "typedef-colon-token",
           "typedef-ident-token",
           "typedef-number-token",
           "typedef-percentage-token"
@@ -617,8 +623,8 @@
           "comb-any",
           "calculation-contexts",
           "css-wide-keywords",
-          "px",
           "identifier-value",
+          "px",
           "mult-one-plus",
           "integer-value",
           "typedef-dashed-ident",
@@ -657,7 +663,8 @@
       },
       "https://drafts.csswg.org/cssom-1/": {
         "anchors": [
-          "dom-window-getcomputedstyle"
+          "dom-window-getcomputedstyle",
+          "serialize-a-css-value"
         ]
       },
       "https://drafts.csswg.org/mediaqueries-5/": {
@@ -682,9 +689,10 @@
       "https://drafts.csswg.org/selectors-4/": {
         "anchors": [
           "attribute-selector",
+          "pseudo-element",
           "originating-element",
           "nth-child-pseudo",
-          "selector",
+          "ultimate-originating-element",
           "typedef-complex-real-selector-list"
         ]
       },
@@ -732,11 +740,6 @@
           "strip-leading-and-trailing-ascii-whitespace",
           "tuple",
           "stack"
-        ]
-      },
-      "https://tc39.es/ecma262/multipage/numbers-and-dates.html": {
-        "anchors": [
-          "sec-math.random"
         ]
       },
       "https://w3c.github.io/webappsec-referrer-policy/": {

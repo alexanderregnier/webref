@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Resize Observer",
+    "title": "Resize Observer Module Level 1",
     "url": "https://drafts.csswg.org/resize-observer-1/"
   },
   "algorithms": [
@@ -91,7 +91,7 @@
           "html": "<p>Set <var>this</var> internal <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/resize-observer-1/#dom-resizeobservation-observedbox\" id=\"ref-for-dom-resizeobservation-observedbox①\">observedBox</a></code> slot to <var>observedBox</var>.</p>"
         },
         {
-          "html": "<p>Set <var>this</var> internal <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/resize-observer-1/#dom-resizeobservation-lastreportedsizes\" id=\"ref-for-dom-resizeobservation-lastreportedsizes①\">lastReportedSizes</a></code> slot to [(0,0)].</p>"
+          "html": "<p>Set <var>this</var> internal <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/resize-observer-1/#dom-resizeobservation-lastreportedsizes\" id=\"ref-for-dom-resizeobservation-lastreportedsizes①\">lastReportedSizes</a></code> slot to [(-1,-1)].</p>"
         }
       ]
     },
@@ -115,7 +115,7 @@
     {
       "name": "gather active resize observations at depth",
       "href": "https://drafts.csswg.org/resize-observer-1/#gather-active-resize-observations-at-depth",
-      "html": "It computes all active resize observations for a <var>document</var>. To <dfn class=\"dfn-paneled has-dfn-panel\" data-dfn-type=\"dfn\" data-noexport=\"\" id=\"gather-active-resize-observations-at-depth\" role=\"button\" aria-expanded=\"false\" tabindex=\"0\">gather active resize observations at depth</dfn>, run these steps:",
+      "html": "It computes all active resize observations for a <var>document</var>. To <dfn class=\"dfn-paneled has-dfn-panel\" data-dfn-type=\"dfn\" data-export=\"\" data-lt=\"gather active resize observations at depth | gather active resize observations\" id=\"gather-active-resize-observations-at-depth\" role=\"button\" aria-expanded=\"false\" tabindex=\"0\">gather active resize observations at depth</dfn>, run these steps:",
       "rationale": "let",
       "steps": [
         {
@@ -156,7 +156,7 @@
     {
       "name": "has active resize observations",
       "href": "https://drafts.csswg.org/resize-observer-1/#has-active-resize-observations",
-      "html": "To determine if <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://dom.spec.whatwg.org/#document\" id=\"ref-for-document①\">Document</a></code> <dfn class=\"dfn-paneled has-dfn-panel\" data-dfn-type=\"dfn\" data-noexport=\"\" id=\"has-active-resize-observations\" role=\"button\" aria-expanded=\"false\" tabindex=\"0\">has active resize observations</dfn> run these steps:",
+      "html": "To determine if <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://dom.spec.whatwg.org/#document\" id=\"ref-for-document①\">Document</a></code> <dfn class=\"dfn-paneled has-dfn-panel\" data-dfn-type=\"dfn\" data-export=\"\" id=\"has-active-resize-observations\" role=\"button\" aria-expanded=\"false\" tabindex=\"0\">has active resize observations</dfn> run these steps:",
       "rationale": "for",
       "steps": [
         {
@@ -176,7 +176,7 @@
     {
       "name": "has skipped resize observations",
       "href": "https://drafts.csswg.org/resize-observer-1/#has-skipped-resize-observations",
-      "html": "To determine if <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://dom.spec.whatwg.org/#document\" id=\"ref-for-document②\">Document</a></code> <dfn class=\"dfn-paneled has-dfn-panel\" data-dfn-type=\"dfn\" data-noexport=\"\" id=\"has-skipped-resize-observations\" role=\"button\" aria-expanded=\"false\" tabindex=\"0\">has skipped resize observations</dfn> run these steps:",
+      "html": "To determine if <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://dom.spec.whatwg.org/#document\" id=\"ref-for-document②\">Document</a></code> <dfn class=\"dfn-paneled has-dfn-panel\" data-dfn-type=\"dfn\" data-export=\"\" id=\"has-skipped-resize-observations\" role=\"button\" aria-expanded=\"false\" tabindex=\"0\">has skipped resize observations</dfn> run these steps:",
       "rationale": "for",
       "steps": [
         {
@@ -196,7 +196,7 @@
     {
       "name": "has skipped resize observations",
       "href": "https://drafts.csswg.org/resize-observer-1/#has-skipped-resize-observations",
-      "html": "To determine if <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://dom.spec.whatwg.org/#document\" id=\"ref-for-document②\">Document</a></code> <dfn class=\"dfn-paneled has-dfn-panel\" data-dfn-type=\"dfn\" data-noexport=\"\" id=\"has-skipped-resize-observations\" role=\"button\" aria-expanded=\"false\" tabindex=\"0\">has skipped resize observations</dfn> run these steps:",
+      "html": "To determine if <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://dom.spec.whatwg.org/#document\" id=\"ref-for-document②\">Document</a></code> <dfn class=\"dfn-paneled has-dfn-panel\" data-dfn-type=\"dfn\" data-export=\"\" id=\"has-skipped-resize-observations\" role=\"button\" aria-expanded=\"false\" tabindex=\"0\">has skipped resize observations</dfn> run these steps:",
       "rationale": "let",
       "steps": [
         {
@@ -282,7 +282,7 @@
               ]
             },
             {
-              "html": "<p>Invoke <var>observer</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/resize-observer-1/#dom-resizeobserver-callback-slot\" id=\"ref-for-dom-resizeobserver-callback-slot①\">[[callback]]</a></code> with <var>entries</var>.</p>"
+              "html": "<p>Invoke <var>observer</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/resize-observer-1/#dom-resizeobserver-callback-slot\" id=\"ref-for-dom-resizeobserver-callback-slot①\">[[callback]]</a></code> with <var>entries</var> as the first argument and <var>observer</var> as the second argument and <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#dfn-callback-this-value\" id=\"ref-for-dfn-callback-this-value\">callback this value</a>. If this throws an exception, <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#report-the-exception\" id=\"ref-for-report-the-exception\">report the exception</a>.</p>"
             },
             {
               "html": "<p>Clear <var>observer</var>.<code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/resize-observer-1/#dom-resizeobserver-activetargets-slot\" id=\"ref-for-dom-resizeobserver-activetargets-slot⑥\">[[activeTargets]]</a></code>.</p>"
@@ -297,7 +297,7 @@
     {
       "name": "deliver resize loop error notification",
       "href": "https://drafts.csswg.org/resize-observer-1/#deliver-resize-loop-error-notification",
-      "html": "To <dfn class=\"dfn-paneled has-dfn-panel\" data-dfn-type=\"dfn\" data-noexport=\"\" id=\"deliver-resize-loop-error-notification\" role=\"button\" aria-expanded=\"false\" tabindex=\"0\">deliver resize loop error notification</dfn> run these steps:",
+      "html": "To <dfn class=\"dfn-paneled has-dfn-panel\" data-dfn-type=\"dfn\" data-export=\"\" id=\"deliver-resize-loop-error-notification\" role=\"button\" aria-expanded=\"false\" tabindex=\"0\">deliver resize loop error notification</dfn> run these steps:",
       "rationale": "create",
       "steps": [
         {
@@ -335,7 +335,7 @@
           "html": "<p>Let <var>computedSize</var> be a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/resize-observer-1/#resizeobserversize\" id=\"ref-for-resizeobserversize⑧\">ResizeObserverSize</a></code> object.</p>"
         },
         {
-          "html": "If <var>target</var> is an <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement\" id=\"ref-for-InterfaceSVGGraphicsElement①\">SVGGraphicsElement</a></code> that does not have an associated CSS layout box:",
+          "html": "If <var>target</var> is an <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://w3c.github.io/svgwg/svg2-draft/types.html#InterfaceSVGGraphicsElement\" id=\"ref-for-InterfaceSVGGraphicsElement①\">SVGGraphicsElement</a></code> that does not have an associated CSS layout box:",
           "rationale": ".switch",
           "steps": [
             {

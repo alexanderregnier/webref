@@ -14,10 +14,6 @@
         "url": "https://w3c.github.io/webappsec-csp/"
       },
       {
-        "name": "CSS2",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
         "name": "DOM4",
         "url": "https://dom.spec.whatwg.org/"
       },
@@ -38,6 +34,10 @@
         "url": "https://fidoalliance.org/specs/fido-v2.0-id-20180227/fido-appid-and-facets-v2.0-id-20180227.html"
       },
       {
+        "name": "FIDO-CLIENT-TO-AUTHENTICATOR-PROTOCOL-V2.1",
+        "url": "https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html"
+      },
+      {
         "name": "FIDO-CTAP",
         "url": "https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html"
       },
@@ -52,10 +52,6 @@
       {
         "name": "FIDO-U2F-Message-Formats",
         "url": "https://fidoalliance.org/specs/fido-u2f-v1.1-id-20160915/fido-u2f-raw-message-formats-v1.1-id-20160915.html"
-      },
-      {
-        "name": "FIDO-V2.1",
-        "url": "https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html"
       },
       {
         "name": "HTML",
@@ -74,8 +70,16 @@
         "url": "https://www.iana.org/assignments/webauthn/"
       },
       {
+        "name": "IANA-Well-Known-URIs",
+        "url": "https://www.iana.org/assignments/well-known-uris/"
+      },
+      {
         "name": "INFRA",
         "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "Permissions",
+        "url": "https://w3c.github.io/permissions/"
       },
       {
         "name": "Permissions-Policy",
@@ -218,10 +222,6 @@
         "url": "https://w3c.github.io/webdriver/"
       },
       {
-        "name": "WEBDRIVER2",
-        "url": "https://w3c.github.io/webdriver/"
-      },
-      {
         "name": "WebIDL",
         "url": "https://webidl.spec.whatwg.org/"
       }
@@ -290,6 +290,10 @@
       {
         "name": "RFC8017",
         "url": "https://www.rfc-editor.org/rfc/rfc8017"
+      },
+      {
+        "name": "RFC9864",
+        "url": "https://www.rfc-editor.org/rfc/rfc9864"
       },
       {
         "name": "UAFProtocol",

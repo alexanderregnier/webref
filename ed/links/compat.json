@@ -15,7 +15,7 @@
       "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/-webkit-transform-3d": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action": {},
       "https://dom.spec.whatwg.org/": {},
-      "https://drafts.csswg.org/css-2024/": {},
+      "https://drafts.csswg.org/css-2025/": {},
       "https://drafts.csswg.org/css-align/": {},
       "https://drafts.csswg.org/css-animations-2/": {},
       "https://drafts.csswg.org/css-animations/": {},
@@ -25,9 +25,11 @@
       "https://drafts.csswg.org/css-color-4/": {},
       "https://drafts.csswg.org/css-color-5/": {},
       "https://drafts.csswg.org/css-conditional-3/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
       "https://drafts.csswg.org/css-images-4/": {},
+      "https://drafts.csswg.org/css-masking-1/": {},
       "https://drafts.csswg.org/css-size-adjust-1/": {},
       "https://drafts.csswg.org/css-sizing-3/": {},
       "https://drafts.csswg.org/css-syntax/": {},
@@ -41,15 +43,14 @@
         ]
       },
       "https://drafts.csswg.org/css-values-4/": {},
+      "https://drafts.csswg.org/filter-effects-1/": {},
+      "https://drafts.csswg.org/geometry/": {},
       "https://drafts.csswg.org/mediaqueries-4/": {
         "anchors": [
           "mq-min-max"
         ]
       },
       "https://drafts.csswg.org/mediaqueries-5/": {},
-      "https://drafts.fxtf.org/css-masking-1/": {},
-      "https://drafts.fxtf.org/filter-effects-1/": {},
-      "https://drafts.fxtf.org/geometry/": {},
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/WebKit/WebKit/blob/8afe31a018b11741abdf9b4d5bb973d7c1d9ff05/Source/WebCore/platform/cocoa/UserAgentCocoa.mm": {
         "anchors": [
@@ -115,7 +116,7 @@
           "concept-event-fire"
         ]
       },
-      "https://drafts.csswg.org/css-2024/": {
+      "https://drafts.csswg.org/css-2025/": {
         "anchors": [
           "vendor-prefix"
         ]
@@ -211,6 +212,24 @@
           "gradient-function"
         ]
       },
+      "https://drafts.csswg.org/css-masking-1/": {
+        "anchors": [
+          "propdef-mask",
+          "propdef-mask-border",
+          "propdef-mask-border-outset",
+          "propdef-mask-border-repeat",
+          "propdef-mask-border-slice",
+          "propdef-mask-border-source",
+          "propdef-mask-border-width",
+          "propdef-mask-clip",
+          "propdef-mask-composite",
+          "propdef-mask-image",
+          "propdef-mask-origin",
+          "propdef-mask-position",
+          "propdef-mask-repeat",
+          "propdef-mask-size"
+        ]
+      },
       "https://drafts.csswg.org/css-size-adjust-1/": {
         "anchors": [
           "propdef-text-size-adjust"
@@ -263,39 +282,21 @@
           "comb-one"
         ]
       },
+      "https://drafts.csswg.org/filter-effects-1/": {
+        "anchors": [
+          "propdef-filter"
+        ]
+      },
+      "https://drafts.csswg.org/geometry-1/": {
+        "anchors": [
+          "webkitcssmatrix"
+        ]
+      },
       "https://drafts.csswg.org/mediaqueries-5/": {
         "anchors": [
           "descdef-media-resolution",
           "media-feature",
           "typedef-mq-boolean"
-        ]
-      },
-      "https://drafts.fxtf.org/css-masking-1/": {
-        "anchors": [
-          "propdef-mask",
-          "propdef-mask-border",
-          "propdef-mask-border-outset",
-          "propdef-mask-border-repeat",
-          "propdef-mask-border-slice",
-          "propdef-mask-border-source",
-          "propdef-mask-border-width",
-          "propdef-mask-clip",
-          "propdef-mask-composite",
-          "propdef-mask-image",
-          "propdef-mask-origin",
-          "propdef-mask-position",
-          "propdef-mask-repeat",
-          "propdef-mask-size"
-        ]
-      },
-      "https://drafts.fxtf.org/filter-effects-1/": {
-        "anchors": [
-          "propdef-filter"
-        ]
-      },
-      "https://drafts.fxtf.org/geometry-1/": {
-        "anchors": [
-          "webkitcssmatrix"
         ]
       },
       "https://fetch.spec.whatwg.org/": {

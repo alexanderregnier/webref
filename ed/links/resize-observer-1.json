@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Resize Observer",
+    "title": "Resize Observer Module Level 1",
     "url": "https://drafts.csswg.org/resize-observer-1/"
   },
   "links": {
@@ -39,17 +39,12 @@
       "https://drafts.csswg.org/css-box-4/": {},
       "https://drafts.csswg.org/css2/": {},
       "https://drafts.csswg.org/cssom-view/": {},
-      "https://drafts.fxtf.org/geometry/": {},
+      "https://drafts.csswg.org/geometry/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
-      "https://html.spec.whatwg.org/": {
-        "anchors": [
-          "being-rendered"
-        ]
-      },
       "https://html.spec.whatwg.org/multipage/": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
-      "https://svgwg.org/svg2-draft/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/policies/process/20250818/": {}
@@ -60,7 +55,7 @@
           "element",
           "mutationobserver",
           "document",
-          "clone-a-node-document"
+          "concept-document"
         ]
       },
       "https://drafts.csswg.org/css-box-3/": {
@@ -80,7 +75,7 @@
           "eventdef-window-resize"
         ]
       },
-      "https://drafts.fxtf.org/geometry-1/": {
+      "https://drafts.csswg.org/geometry-1/": {
         "anchors": [
           "domrectreadonly"
         ]
@@ -92,10 +87,12 @@
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
+          "update-the-rendering",
+          "report-the-exception",
           "errorevent"
         ]
       },
-      "https://svgwg.org/svg2-draft/types.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/types.html": {
         "anchors": [
           "InterfaceSVGGraphicsElement"
         ]
@@ -106,7 +103,8 @@
           "idl-undefined",
           "idl-sequence",
           "idl-frozen-array",
-          "idl-unrestricted-double"
+          "idl-unrestricted-double",
+          "dfn-callback-this-value"
         ]
       },
       "https://www.w3.org/TR/CSS2/box.html": {

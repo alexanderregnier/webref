@@ -1815,6 +1815,68 @@
       "links": []
     },
     {
+      "id": "typedef-light-dark-color",
+      "href": "https://drafts.csswg.org/css-color-5/#typedef-light-dark-color",
+      "linkingText": [
+        "<light-dark-color>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "light-dark",
+        "href": "https://drafts.csswg.org/css-color-5/#light-dark",
+        "title": "Reacting to the used color-scheme: the light-dark() Function",
+        "number": "7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-light-dark-image",
+      "href": "https://drafts.csswg.org/css-color-5/#typedef-light-dark-image",
+      "linkingText": [
+        "<light-dark-image>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "light-dark",
+        "href": "https://drafts.csswg.org/css-color-5/#light-dark",
+        "title": "Reacting to the used color-scheme: the light-dark() Function",
+        "number": "7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "valdef-light-dark-none",
+      "href": "https://drafts.csswg.org/css-color-5/#valdef-light-dark-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "light-dark()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "light-dark",
+        "href": "https://drafts.csswg.org/css-color-5/#light-dark",
+        "title": "Reacting to the used color-scheme: the light-dark() Function",
+        "number": "7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "funcdef-contrast-color",
       "href": "https://drafts.csswg.org/css-color-5/#funcdef-contrast-color",
       "linkingText": [
@@ -1952,6 +2014,26 @@
         "number": "9.1"
       },
       "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "effective-percentage",
+      "href": "https://drafts.csswg.org/css-color-5/#effective-percentage",
+      "linkingText": [
+        "effective percentage"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "serial-color-mix",
+        "href": "https://drafts.csswg.org/css-color-5/#serial-color-mix",
+        "title": "Serializing color-mix()",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "The No-Vary-Search HTTP Response Header Field",
+    "title": "The No-Vary-Search HTTP Caching Extension",
     "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html"
   },
   "refs": {
@@ -27,7 +27,11 @@
       },
       {
         "name": "STRUCTURED-FIELDS",
-        "url": "https://www.rfc-editor.org/rfc/rfc8941"
+        "url": "https://www.rfc-editor.org/rfc/rfc9651"
+      },
+      {
+        "name": "URI",
+        "url": "https://www.rfc-editor.org/rfc/rfc3986"
       },
       {
         "name": "WHATWG-ENCODING",

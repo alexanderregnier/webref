@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Nesting Module",
+    "title": "CSS Nesting Module Level 1",
     "url": "https://drafts.csswg.org/css-nesting-1/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-nesting-1/#title",
       "level": 1,
-      "title": "CSS Nesting Module"
+      "title": "CSS Nesting Module Level 1"
     },
     {
       "id": "abstract",
@@ -109,8 +109,8 @@
       "number": "4"
     },
     {
-      "id": "nested-declarations-rule",
-      "href": "https://drafts.csswg.org/css-nesting-1/#nested-declarations-rule",
+      "id": "nested-declarations",
+      "href": "https://drafts.csswg.org/css-nesting-1/#nested-declarations",
       "level": 2,
       "title": "The Nested Declarations Rule",
       "number": "5"
@@ -128,6 +128,18 @@
       "level": 3,
       "title": "The CSSNestedDeclarations Interface",
       "number": "6.1"
+    },
+    {
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-nesting-1/#privacy",
+      "level": 2,
+      "title": "Privacy Considerations"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-nesting-1/#security",
+      "level": 2,
+      "title": "Security Considerations"
     },
     {
       "id": "changes",
@@ -206,7 +218,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-nesting-1/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "idl-index",

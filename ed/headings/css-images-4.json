@@ -88,34 +88,6 @@
       "number": "2.5"
     },
     {
-      "id": "image-fallbacks",
-      "href": "https://drafts.csswg.org/css-images-4/#image-fallbacks",
-      "level": 4,
-      "title": "Image Fallbacks",
-      "number": "2.5.1"
-    },
-    {
-      "id": "image-fragments",
-      "href": "https://drafts.csswg.org/css-images-4/#image-fragments",
-      "level": 4,
-      "title": "Image Fragments",
-      "number": "2.5.2"
-    },
-    {
-      "id": "color-images",
-      "href": "https://drafts.csswg.org/css-images-4/#color-images",
-      "level": 4,
-      "title": "Solid-color Images",
-      "number": "2.5.3"
-    },
-    {
-      "id": "bidi-images",
-      "href": "https://drafts.csswg.org/css-images-4/#bidi-images",
-      "level": 4,
-      "title": "Bidi-sensitive Images",
-      "number": "2.5.4"
-    },
-    {
       "id": "cross-fade-function",
       "href": "https://drafts.csswg.org/css-images-4/#cross-fade-function",
       "level": 3,
@@ -380,6 +352,12 @@
       "title": "11. Changes"
     },
     {
+      "id": "changes-20250930",
+      "href": "https://drafts.csswg.org/css-images-4/#changes-20250930",
+      "level": 3,
+      "title": "Changes Since the 30 September 2025 Working Draft"
+    },
+    {
       "id": "changes-20230217",
       "href": "https://drafts.csswg.org/css-images-4/#changes-20230217",
       "level": 3,
@@ -473,7 +451,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-images-4/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

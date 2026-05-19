@@ -1,0 +1,422 @@
+{
+  "spec": {
+    "title": "RFC 9842 - Compression Dictionary Transport",
+    "url": "https://httpwg.org/specs/rfc9842.html"
+  },
+  "headings": [
+    {
+      "id": "rfc.abstract",
+      "href": "https://httpwg.org/specs/rfc9842.html#rfc.abstract",
+      "level": 2,
+      "title": "Abstract"
+    },
+    {
+      "id": "introduction",
+      "href": "https://httpwg.org/specs/rfc9842.html#introduction",
+      "level": 2,
+      "title": "Introduction",
+      "alternateIds": [
+        "rfc.section.1"
+      ],
+      "number": "1"
+    },
+    {
+      "id": "use-cases",
+      "href": "https://httpwg.org/specs/rfc9842.html#use-cases",
+      "level": 3,
+      "title": "Use Cases",
+      "alternateIds": [
+        "rfc.section.1.1"
+      ],
+      "number": "1.1"
+    },
+    {
+      "id": "version-upgrade",
+      "href": "https://httpwg.org/specs/rfc9842.html#version-upgrade",
+      "level": 4,
+      "title": "Version Upgrade",
+      "alternateIds": [
+        "rfc.section.1.1.1"
+      ],
+      "number": "1.1.1"
+    },
+    {
+      "id": "common-content",
+      "href": "https://httpwg.org/specs/rfc9842.html#common-content",
+      "level": 4,
+      "title": "Common Content",
+      "alternateIds": [
+        "rfc.section.1.1.2"
+      ],
+      "number": "1.1.2"
+    },
+    {
+      "id": "notational-conventions",
+      "href": "https://httpwg.org/specs/rfc9842.html#notational-conventions",
+      "level": 3,
+      "title": "Notational Conventions",
+      "alternateIds": [
+        "rfc.section.1.2"
+      ],
+      "number": "1.2"
+    },
+    {
+      "id": "dictionary-negotiation",
+      "href": "https://httpwg.org/specs/rfc9842.html#dictionary-negotiation",
+      "level": 2,
+      "title": "Dictionary Negotiation",
+      "alternateIds": [
+        "rfc.section.2"
+      ],
+      "number": "2"
+    },
+    {
+      "id": "use-as-dictionary",
+      "href": "https://httpwg.org/specs/rfc9842.html#use-as-dictionary",
+      "level": 3,
+      "title": "Use-As-Dictionary",
+      "alternateIds": [
+        "rfc.section.2.1"
+      ],
+      "number": "2.1"
+    },
+    {
+      "id": "match",
+      "href": "https://httpwg.org/specs/rfc9842.html#match",
+      "level": 4,
+      "title": "\"match\"",
+      "alternateIds": [
+        "rfc.section.2.1.1"
+      ],
+      "number": "2.1.1"
+    },
+    {
+      "id": "match-dest",
+      "href": "https://httpwg.org/specs/rfc9842.html#match-dest",
+      "level": 4,
+      "title": "\"match-dest\"",
+      "alternateIds": [
+        "rfc.section.2.1.2"
+      ],
+      "number": "2.1.2"
+    },
+    {
+      "id": "id",
+      "href": "https://httpwg.org/specs/rfc9842.html#id",
+      "level": 4,
+      "title": "\"id\"",
+      "alternateIds": [
+        "rfc.section.2.1.3"
+      ],
+      "number": "2.1.3"
+    },
+    {
+      "id": "type",
+      "href": "https://httpwg.org/specs/rfc9842.html#type",
+      "level": 4,
+      "title": "\"type\"",
+      "alternateIds": [
+        "rfc.section.2.1.4"
+      ],
+      "number": "2.1.4"
+    },
+    {
+      "id": "examples",
+      "href": "https://httpwg.org/specs/rfc9842.html#examples",
+      "level": 4,
+      "title": "Examples",
+      "alternateIds": [
+        "rfc.section.2.1.5"
+      ],
+      "number": "2.1.5"
+    },
+    {
+      "id": "path-prefix",
+      "href": "https://httpwg.org/specs/rfc9842.html#path-prefix",
+      "level": 5,
+      "title": "Path Prefix",
+      "alternateIds": [
+        "rfc.section.2.1.5.1"
+      ],
+      "number": "2.1.5.1"
+    },
+    {
+      "id": "versioned-directories",
+      "href": "https://httpwg.org/specs/rfc9842.html#versioned-directories",
+      "level": 5,
+      "title": "Versioned Directories",
+      "alternateIds": [
+        "rfc.section.2.1.5.2"
+      ],
+      "number": "2.1.5.2"
+    },
+    {
+      "id": "available-dictionary",
+      "href": "https://httpwg.org/specs/rfc9842.html#available-dictionary",
+      "level": 3,
+      "title": "Available-Dictionary",
+      "alternateIds": [
+        "rfc.section.2.2"
+      ],
+      "number": "2.2"
+    },
+    {
+      "id": "dictionary-freshness-requirement",
+      "href": "https://httpwg.org/specs/rfc9842.html#dictionary-freshness-requirement",
+      "level": 4,
+      "title": "Dictionary Freshness Requirement",
+      "alternateIds": [
+        "rfc.section.2.2.1"
+      ],
+      "number": "2.2.1"
+    },
+    {
+      "id": "dictionary-url-matching",
+      "href": "https://httpwg.org/specs/rfc9842.html#dictionary-url-matching",
+      "level": 4,
+      "title": "Dictionary URL Matching",
+      "alternateIds": [
+        "rfc.section.2.2.2"
+      ],
+      "number": "2.2.2"
+    },
+    {
+      "id": "multiple-matching-dictionaries",
+      "href": "https://httpwg.org/specs/rfc9842.html#multiple-matching-dictionaries",
+      "level": 4,
+      "title": "Multiple Matching Dictionaries",
+      "alternateIds": [
+        "rfc.section.2.2.3"
+      ],
+      "number": "2.2.3"
+    },
+    {
+      "id": "dictionary-id",
+      "href": "https://httpwg.org/specs/rfc9842.html#dictionary-id",
+      "level": 3,
+      "title": "Dictionary-ID",
+      "alternateIds": [
+        "rfc.section.2.3"
+      ],
+      "number": "2.3"
+    },
+    {
+      "id": "the-compression-dictionary-link-relation-type",
+      "href": "https://httpwg.org/specs/rfc9842.html#the-compression-dictionary-link-relation-type",
+      "level": 2,
+      "title": "The \"compression-dictionary\" Link Relation Type",
+      "alternateIds": [
+        "rfc.section.3"
+      ],
+      "number": "3"
+    },
+    {
+      "id": "dictionary-compressed-brotli",
+      "href": "https://httpwg.org/specs/rfc9842.html#dictionary-compressed-brotli",
+      "level": 2,
+      "title": "Dictionary-Compressed Brotli",
+      "alternateIds": [
+        "rfc.section.4"
+      ],
+      "number": "4"
+    },
+    {
+      "id": "dictionary-compressed-zstandard",
+      "href": "https://httpwg.org/specs/rfc9842.html#dictionary-compressed-zstandard",
+      "level": 2,
+      "title": "Dictionary-Compressed Zstandard",
+      "alternateIds": [
+        "rfc.section.5"
+      ],
+      "number": "5"
+    },
+    {
+      "id": "negotiating-the-content-encoding",
+      "href": "https://httpwg.org/specs/rfc9842.html#negotiating-the-content-encoding",
+      "level": 2,
+      "title": "Negotiating the Content Encoding",
+      "alternateIds": [
+        "rfc.section.6"
+      ],
+      "number": "6"
+    },
+    {
+      "id": "accept-encoding",
+      "href": "https://httpwg.org/specs/rfc9842.html#accept-encoding",
+      "level": 3,
+      "title": "Accept-Encoding",
+      "alternateIds": [
+        "rfc.section.6.1"
+      ],
+      "number": "6.1"
+    },
+    {
+      "id": "content-encoding",
+      "href": "https://httpwg.org/specs/rfc9842.html#content-encoding",
+      "level": 3,
+      "title": "Content-Encoding",
+      "alternateIds": [
+        "rfc.section.6.2"
+      ],
+      "number": "6.2"
+    },
+    {
+      "id": "iana-considerations",
+      "href": "https://httpwg.org/specs/rfc9842.html#iana-considerations",
+      "level": 2,
+      "title": "IANA Considerations",
+      "alternateIds": [
+        "rfc.section.7"
+      ],
+      "number": "7"
+    },
+    {
+      "id": "content-encoding-1",
+      "href": "https://httpwg.org/specs/rfc9842.html#content-encoding-1",
+      "level": 3,
+      "title": "Content Encoding Registration",
+      "alternateIds": [
+        "rfc.section.7.1"
+      ],
+      "number": "7.1"
+    },
+    {
+      "id": "header-field-registration",
+      "href": "https://httpwg.org/specs/rfc9842.html#header-field-registration",
+      "level": 3,
+      "title": "Header Field Registration",
+      "alternateIds": [
+        "rfc.section.7.2"
+      ],
+      "number": "7.2"
+    },
+    {
+      "id": "link-relation-registration",
+      "href": "https://httpwg.org/specs/rfc9842.html#link-relation-registration",
+      "level": 3,
+      "title": "Link Relation Registration",
+      "alternateIds": [
+        "rfc.section.7.3"
+      ],
+      "number": "7.3"
+    },
+    {
+      "id": "compatibility-considerations",
+      "href": "https://httpwg.org/specs/rfc9842.html#compatibility-considerations",
+      "level": 2,
+      "title": "Compatibility Considerations",
+      "alternateIds": [
+        "rfc.section.8"
+      ],
+      "number": "8"
+    },
+    {
+      "id": "security-considerations",
+      "href": "https://httpwg.org/specs/rfc9842.html#security-considerations",
+      "level": 2,
+      "title": "Security Considerations",
+      "alternateIds": [
+        "rfc.section.9"
+      ],
+      "number": "9"
+    },
+    {
+      "id": "changing-content",
+      "href": "https://httpwg.org/specs/rfc9842.html#changing-content",
+      "level": 3,
+      "title": "Changing Content",
+      "alternateIds": [
+        "rfc.section.9.1"
+      ],
+      "number": "9.1"
+    },
+    {
+      "id": "reading-content",
+      "href": "https://httpwg.org/specs/rfc9842.html#reading-content",
+      "level": 3,
+      "title": "Reading Content",
+      "alternateIds": [
+        "rfc.section.9.2"
+      ],
+      "number": "9.2"
+    },
+    {
+      "id": "security-mitigations",
+      "href": "https://httpwg.org/specs/rfc9842.html#security-mitigations",
+      "level": 3,
+      "title": "Security Mitigations",
+      "alternateIds": [
+        "rfc.section.9.3"
+      ],
+      "number": "9.3"
+    },
+    {
+      "id": "cross-origin-protection",
+      "href": "https://httpwg.org/specs/rfc9842.html#cross-origin-protection",
+      "level": 4,
+      "title": "Cross-Origin Protection",
+      "alternateIds": [
+        "rfc.section.9.3.1"
+      ],
+      "number": "9.3.1"
+    },
+    {
+      "id": "response-readability",
+      "href": "https://httpwg.org/specs/rfc9842.html#response-readability",
+      "level": 4,
+      "title": "Response Readability",
+      "alternateIds": [
+        "rfc.section.9.3.2"
+      ],
+      "number": "9.3.2"
+    },
+    {
+      "id": "server-responsibility",
+      "href": "https://httpwg.org/specs/rfc9842.html#server-responsibility",
+      "level": 4,
+      "title": "Server Responsibility",
+      "alternateIds": [
+        "rfc.section.9.3.3"
+      ],
+      "number": "9.3.3"
+    },
+    {
+      "id": "privacy-considerations",
+      "href": "https://httpwg.org/specs/rfc9842.html#privacy-considerations",
+      "level": 2,
+      "title": "10. Privacy Considerations",
+      "alternateIds": [
+        "rfc.section.10"
+      ]
+    },
+    {
+      "id": "sec-combined-references",
+      "href": "https://httpwg.org/specs/rfc9842.html#sec-combined-references",
+      "level": 2,
+      "title": "11. References",
+      "alternateIds": [
+        "rfc.section.11"
+      ]
+    },
+    {
+      "id": "sec-normative-references",
+      "href": "https://httpwg.org/specs/rfc9842.html#sec-normative-references",
+      "level": 3,
+      "title": "Normative References",
+      "alternateIds": [
+        "rfc.section.11.1"
+      ],
+      "number": "11.1"
+    },
+    {
+      "id": "sec-informative-references",
+      "href": "https://httpwg.org/specs/rfc9842.html#sec-informative-references",
+      "level": 3,
+      "title": "Informative References",
+      "alternateIds": [
+        "rfc.section.11.2"
+      ],
+      "number": "11.2"
+    }
+  ]
+}

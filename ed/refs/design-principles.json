@@ -70,12 +70,24 @@
         "url": "https://w3ctag.github.io/privacy-principles/"
       },
       {
+        "name": "QAFRAME-SPEC",
+        "url": "https://www.w3.org/TR/qaframe-spec/"
+      },
+      {
         "name": "REQUESTIDLECALLBACK",
         "url": "https://w3c.github.io/requestidlecallback/"
       },
       {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
+      },
+      {
+        "name": "RFC6709",
+        "url": "https://www.rfc-editor.org/rfc/rfc6709"
+      },
+      {
+        "name": "RFC8126",
+        "url": "https://www.rfc-editor.org/rfc/rfc8126"
       },
       {
         "name": "RFC9205",
@@ -86,8 +98,16 @@
         "url": "https://w3c.github.io/ServiceWorker/"
       },
       {
+        "name": "SPEC-VARIABILITY",
+        "url": "https://www.w3.org/TR/spec-variability/"
+      },
+      {
         "name": "URL",
         "url": "https://url.spec.whatwg.org/"
+      },
+      {
+        "name": "W3C-PROCESS",
+        "url": "https://www.w3.org/policies/process/"
       },
       {
         "name": "WEB-ANIMATIONS-2",
@@ -156,7 +176,7 @@
         "url": "https://w3c.github.io/encrypted-media/"
       },
       {
-        "name": "ETHICAL-WEB",
+        "name": "ETHICAL-WEB-PRINCIPLES",
         "url": "https://w3ctag.github.io/ethical-web-principles/"
       },
       {
@@ -165,11 +185,19 @@
       },
       {
         "name": "FILTER-EFFECTS-2",
-        "url": "https://drafts.fxtf.org/filter-effects-2/"
+        "url": "https://drafts.csswg.org/filter-effects-2/"
       },
       {
         "name": "GAMEPAD",
         "url": "https://w3c.github.io/gamepad/"
+      },
+      {
+        "name": "HTML401",
+        "url": "https://www.w3.org/TR/html401/"
+      },
+      {
+        "name": "IANA-RELATIONS",
+        "url": "https://www.iana.org/assignments/link-relations/"
       },
       {
         "name": "INTERNATIONAL-SPECS",
@@ -184,7 +212,11 @@
         "url": "https://www.w3.org/2001/tag/doc/leastPower"
       },
       {
-        "name": "POINTEREVENTS3",
+        "name": "MFREL",
+        "url": "http://microformats.org/wiki/existing-rel-values#HTML5_link_type_extensions"
+      },
+      {
+        "name": "POINTEREVENTS4",
         "url": "https://w3c.github.io/pointerevents/"
       },
       {
@@ -194,6 +226,26 @@
       {
         "name": "REMOTE-PLAYBACK",
         "url": "https://w3c.github.io/remote-playback/"
+      },
+      {
+        "name": "RFC1866",
+        "url": "https://www.rfc-editor.org/rfc/rfc1866"
+      },
+      {
+        "name": "RFC4287",
+        "url": "https://www.rfc-editor.org/rfc/rfc4287"
+      },
+      {
+        "name": "RFC5988",
+        "url": "https://www.rfc-editor.org/rfc/rfc5988"
+      },
+      {
+        "name": "RFC8288",
+        "url": "https://httpwg.org/specs/rfc8288.html"
+      },
+      {
+        "name": "RFC8615",
+        "url": "https://www.rfc-editor.org/rfc/rfc8615"
       },
       {
         "name": "RFC8890",
@@ -210,6 +262,10 @@
       {
         "name": "SCREEN-CAPTURE",
         "url": "https://w3c.github.io/mediacapture-screen-share/"
+      },
+      {
+        "name": "THE-WEB-IS-UNVERSIONED",
+        "url": "https://www.w3.org/2001/tag/doc/the-web-is-unversioned/"
       },
       {
         "name": "UIEVENTS",
@@ -232,6 +288,10 @@
         "url": "https://webaudio.github.io/web-audio-api/"
       },
       {
+        "name": "WEBAUDIO-1.0",
+        "url": "https://webaudio.github.io/web-audio-api/"
+      },
+      {
         "name": "WEBCRYPTO-2",
         "url": "https://w3c.github.io/webcrypto/"
       },
@@ -242,6 +302,10 @@
       {
         "name": "WebTransport",
         "url": "https://w3c.github.io/webtransport/"
+      },
+      {
+        "name": "XML-NAMES",
+        "url": "https://www.w3.org/TR/xml-names/"
       }
     ]
   }

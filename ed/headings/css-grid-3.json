@@ -67,10 +67,10 @@
       "number": "1.2"
     },
     {
-      "id": "masonry-model",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-model",
+      "id": "grid-lanes-model",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-model",
       "level": 2,
-      "title": "Masonry Layout Model",
+      "title": "Grid Lanes Layout Model",
       "number": "2"
     },
     {
@@ -81,29 +81,36 @@
       "number": "2.1"
     },
     {
-      "id": "masonry-switch",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-switch",
+      "id": "grid-lanes-containers",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-containers",
       "level": 3,
-      "title": "Establishing Masonry Layout",
+      "title": "Establishing Grid Lanes Layout",
       "number": "2.2"
     },
     {
-      "id": "masonry-track-templates",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-track-templates",
+      "id": "grid-lanes-orientation",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-orientation",
+      "level": 3,
+      "title": "Orienting Grid Lanes Layout",
+      "number": "2.3"
+    },
+    {
+      "id": "grid-lanes-track-templates",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-track-templates",
       "level": 2,
-      "title": "Masonry Track Specification",
+      "title": "Grid Lanes Track Specification",
       "number": "3"
     },
     {
-      "id": "masonry-track-grid-option",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-track-grid-option",
+      "id": "grid-lanes-track-properties",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-track-properties",
       "level": 3,
-      "title": "Declaring Masonry Track Templates: the grid-template-* properties",
+      "title": "Declaring Grid Lanes Track Templates: the grid-template-* properties",
       "number": "3.1"
     },
     {
-      "id": "masonry-intrinsic-repeat",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-intrinsic-repeat",
+      "id": "intrinsic-auto-repeat",
+      "href": "https://drafts.csswg.org/css-grid-3/#intrinsic-auto-repeat",
       "level": 4,
       "title": "Intrinsic Tracks and repeat()",
       "number": "3.1.1"
@@ -123,18 +130,11 @@
       "number": "3.3"
     },
     {
-      "id": "repeat-auto-areas",
-      "href": "https://drafts.csswg.org/css-grid-3/#repeat-auto-areas",
-      "level": 4,
-      "title": "repeat(auto-areas)",
-      "number": "3.3.1"
-    },
-    {
       "id": "repeat-auto-fit",
       "href": "https://drafts.csswg.org/css-grid-3/#repeat-auto-fit",
       "level": 4,
       "title": "repeat(auto-fit)",
-      "number": "3.3.2"
+      "number": "3.3.1"
     },
     {
       "id": "track-sizing",
@@ -158,38 +158,38 @@
       "number": "3.4.2"
     },
     {
-      "id": "masonry-track-placement",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-track-placement",
+      "id": "grid-lanes-track-placement",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-track-placement",
       "level": 2,
-      "title": "Masonry Placement",
+      "title": "Grid Lanes Item Placement",
       "number": "4"
     },
     {
-      "id": "masonry-placement-grid-option",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-placement-grid-option",
+      "id": "grid-lanes-placement",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-placement",
       "level": 3,
-      "title": "Specifying Masonry Item Placement: the grid-column-* and grid-row-* properties",
+      "title": "Specifying Grid Axis Item Placement: the grid-column-* and grid-row-* properties",
       "number": "4.1"
     },
     {
       "id": "placement-tolerance",
       "href": "https://drafts.csswg.org/css-grid-3/#placement-tolerance",
       "level": 3,
-      "title": "Placement Precision: the item-tolerance property",
+      "title": "Placement Precision: the flow-tolerance property",
       "number": "4.2"
     },
     {
-      "id": "masonry-dense-packing",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-dense-packing",
+      "id": "grid-lanes-dense-packing",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-dense-packing",
       "level": 3,
       "title": "Dense Placement: the dense keyword",
       "number": "4.3"
     },
     {
-      "id": "masonry-layout-algorithm",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-layout-algorithm",
+      "id": "grid-lanes-layout-algorithm",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-layout-algorithm",
       "level": 3,
-      "title": "Masonry Layout and Placement Algorithm",
+      "title": "Grid Lanes Layout and Placement Algorithm",
       "number": "4.4"
     },
     {
@@ -221,11 +221,39 @@
       "number": "6"
     },
     {
-      "id": "masonry-baseline-alignment",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-baseline-alignment",
+      "id": "gutters",
+      "href": "https://drafts.csswg.org/css-grid-3/#gutters",
+      "level": 3,
+      "title": "Gutters: the row-gap, column-gap, and gap properties",
+      "number": "6.1"
+    },
+    {
+      "id": "grid-axis-alignment",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-axis-alignment",
+      "level": 3,
+      "title": "Grid-axis Alignment: the align-content/justify-content, align-self/justify-self, and align-items/justify-items properties",
+      "number": "6.2"
+    },
+    {
+      "id": "stacking-content-alignment",
+      "href": "https://drafts.csswg.org/css-grid-3/#stacking-content-alignment",
+      "level": 3,
+      "title": "Stacking-axis Content Distribution: the align-content/justify-content properties",
+      "number": "6.3"
+    },
+    {
+      "id": "stacking-self-alignment",
+      "href": "https://drafts.csswg.org/css-grid-3/#stacking-self-alignment",
+      "level": 3,
+      "title": "Stacking-axis Self Alignment: the align-self/justify-self and align-items/justify-items properties",
+      "number": "6.4"
+    },
+    {
+      "id": "grid-lanes-baseline-alignment",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-baseline-alignment",
       "level": 3,
       "title": "Baseline Alignment",
-      "number": "6.1"
+      "number": "6.5"
     },
     {
       "id": "pagination",
@@ -235,8 +263,8 @@
       "number": "7"
     },
     {
-      "id": "masonry-axis-pagination",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-axis-pagination",
+      "id": "stacking-axis-pagination",
+      "href": "https://drafts.csswg.org/css-grid-3/#stacking-axis-pagination",
       "level": 3,
       "title": "Fragmentation in the stacking axis",
       "number": "7.1"
@@ -261,37 +289,6 @@
       "level": 2,
       "title": "Graceful Degradation",
       "number": "9"
-    },
-    {
-      "id": "flow-control",
-      "href": "https://drafts.csswg.org/css-grid-3/#flow-control",
-      "level": 2,
-      "title": "Generic Layout Item Flow Controls: the item-* properties",
-      "number": "A"
-    },
-    {
-      "id": "item-primary-axis",
-      "href": "https://drafts.csswg.org/css-grid-3/#item-primary-axis",
-      "level": 3,
-      "title": "Item Flow Axis: item-track/item-direction"
-    },
-    {
-      "id": "item-secondary-axis",
-      "href": "https://drafts.csswg.org/css-grid-3/#item-secondary-axis",
-      "level": 3,
-      "title": "Item Cross Axis Placement Mode: item-cross/item-wrap"
-    },
-    {
-      "id": "item-pack-options",
-      "href": "https://drafts.csswg.org/css-grid-3/#item-pack-options",
-      "level": 3,
-      "title": "Item Placement Packing Mode: the item-pack property"
-    },
-    {
-      "id": "item-flow",
-      "href": "https://drafts.csswg.org/css-grid-3/#item-flow",
-      "level": 3,
-      "title": "Item Placement Shorthand: the item-flow shorthand"
     },
     {
       "id": "acknowledgements",
@@ -399,7 +396,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-grid-3/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

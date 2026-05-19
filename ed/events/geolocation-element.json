@@ -1,0 +1,54 @@
+{
+  "spec": {
+    "title": "The HTML Geolocation Element",
+    "url": "https://wicg.github.io/PEPC/geolocation-element.html"
+  },
+  "events": [
+    {
+      "type": "location",
+      "targets": [
+        "HTMLGeolocationElement"
+      ],
+      "src": {
+        "format": "IDL eventHandler"
+      },
+      "interface": "Event"
+    },
+    {
+      "type": "validationstatuschange",
+      "targets": [
+        "ActivationBlockersMixin"
+      ],
+      "src": {
+        "format": "IDL eventHandler"
+      },
+      "interface": "Event",
+      "bubbles": true,
+      "cancelable": true
+    },
+    {
+      "type": "promptaction",
+      "targets": [
+        "PowerfulFeatureObserver"
+      ],
+      "src": {
+        "format": "IDL eventHandler"
+      },
+      "interface": "Event",
+      "bubbles": true,
+      "cancelable": true
+    },
+    {
+      "type": "promptdismiss",
+      "targets": [
+        "PowerfulFeatureObserver"
+      ],
+      "src": {
+        "format": "IDL eventHandler"
+      },
+      "interface": "Event",
+      "bubbles": true,
+      "cancelable": true
+    }
+  ]
+}

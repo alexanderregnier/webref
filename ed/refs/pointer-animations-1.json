@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Pointer-driven Animations",
+    "title": "Pointer-driven Animations Module Level 1",
     "url": "https://drafts.csswg.org/pointer-animations-1/"
   },
   "refs": {
@@ -19,15 +19,15 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display/"
+        "url": "https://drafts.csswg.org/css-display-4/"
       },
       {
         "name": "CSS-POSITION-3",
         "url": "https://drafts.csswg.org/css-position-3/"
       },
       {
-        "name": "CSS-SCOPING-1",
-        "url": "https://drafts.csswg.org/css-scoping/"
+        "name": "CSS-SHADOW-1",
+        "url": "https://drafts.csswg.org/css-shadow-1/"
       },
       {
         "name": "CSS-VALUES-3",

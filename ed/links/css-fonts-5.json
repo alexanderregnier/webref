@@ -43,7 +43,8 @@
       "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/size-adjust": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
-      "https://drafts.csswg.org/css-display/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
+      "https://drafts.csswg.org/css-env-1/": {},
       "https://drafts.csswg.org/css-fonts-4/": {
         "anchors": [
           "generic-font-families",
@@ -53,6 +54,11 @@
         ]
       },
       "https://drafts.csswg.org/css-inline-3/": {},
+      "https://drafts.csswg.org/css-size-adjust-1/": {
+        "anchors": [
+          "intro"
+        ]
+      },
       "https://drafts.csswg.org/css-syntax-3/": {
         "anchors": [
           "parse-comma-separated-list-of-component-values"
@@ -60,13 +66,23 @@
       },
       "https://drafts.csswg.org/css-syntax/": {},
       "https://drafts.csswg.org/css-text-decor-4/": {},
+      "https://drafts.csswg.org/css-transforms-2/": {},
       "https://drafts.csswg.org/css-values-3/": {},
       "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/css-writing-modes-4/": {},
       "https://drafts.csswg.org/css2/": {},
       "https://drafts.csswg.org/cssom/": {},
+      "https://drafts.csswg.org/selectors/": {},
       "https://github.com/harfbuzz/boring-expansion-spec/blob/main/avar2.md": {},
+      "https://github.com/w3c/csswg-drafts/blob/main/css-env-1/explainers/env-preferred-text-scale.md": {
+        "anchors": [
+          "windows-11"
+        ]
+      },
       "https://github.com/w3c/csswg-drafts/issues": {},
+      "https://github.com/w3c/csswg-drafts/issues/10599": {},
+      "https://github.com/w3c/csswg-drafts/issues/12380": {},
+      "https://github.com/w3c/csswg-drafts/issues/12475": {},
       "https://github.com/w3c/csswg-drafts/issues/126": {},
       "https://github.com/w3c/csswg-drafts/issues/2690": {},
       "https://github.com/w3c/csswg-drafts/issues/4044": {},
@@ -75,10 +91,17 @@
       "https://github.com/w3c/csswg-drafts/issues/5466": {},
       "https://github.com/w3c/csswg-drafts/issues/5484": {},
       "https://github.com/w3c/csswg-drafts/issues/5635": {},
+      "https://github.com/w3c/csswg-drafts/issues/6063": {},
       "https://github.com/w3c/csswg-drafts/issues/6384": {},
       "https://github.com/w3c/csswg-drafts/issues/731": {},
       "https://github.com/w3c/csswg-drafts/issues/806": {},
       "https://github.com/w3c/csswg-drafts/issues/8792": {},
+      "https://github.com/w3c/csswg-drafts/issues/8967": {},
+      "https://github.com/w3c/wcag3/issues/261": {
+        "anchors": [
+          "issuecomment-2598860630"
+        ]
+      },
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/animations/font-size-adjust-composition.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/animations/font-size-adjust-interpolation.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/ascent-descent-override.html": {},
@@ -97,6 +120,8 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/size-adjust-01.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/size-adjust-02.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/size-adjust-03.html": {},
+      "https://html.spec.whatwg.org/multipage/": {},
+      "https://infra.spec.whatwg.org/": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://w3c.github.io/IFT/Overview.html": {},
@@ -177,15 +202,21 @@
           "inline-level"
         ]
       },
+      "https://drafts.csswg.org/css-env-1/": {
+        "anchors": [
+          "valdef-env-preferred-text-scale"
+        ]
+      },
       "https://drafts.csswg.org/css-fonts-4/": {
         "anchors": [
+          "typedef-absolute-size",
           "propdef-font-family",
           "propdef-font-weight",
           "propdef-font-style",
           "propdef-font-size",
           "first-available-font",
           "descdef-font-face-src",
-          "family-name-value",
+          "font-family-name-value",
           "propdef-font-variant-position",
           "propdef-font-language-override",
           "propdef-font-optical-sizing",
@@ -206,9 +237,15 @@
           "propdef-text-underline-offset"
         ]
       },
+      "https://drafts.csswg.org/css-transforms-2/": {
+        "anchors": [
+          "propdef-scale"
+        ]
+      },
       "https://drafts.csswg.org/css-values-4/": {
         "anchors": [
           "css-wide-keywords",
+          "rem",
           "comb-one",
           "mult-opt",
           "number-value",
@@ -232,6 +269,7 @@
       },
       "https://drafts.csswg.org/css2/": {
         "anchors": [
+          "valdef-font-size-medium",
           "propdef-line-height"
         ]
       },
@@ -240,6 +278,23 @@
           "cssstyledeclaration",
           "cssomstring",
           "cssrule"
+        ]
+      },
+      "https://drafts.csswg.org/selectors-4/": {
+        "anchors": [
+          "root-pseudo"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/semantics.html": {
+        "anchors": [
+          "meta",
+          "attr-meta-name",
+          "attr-meta-content"
+        ]
+      },
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "ascii-case-insensitive"
         ]
       },
       "https://webidl.spec.whatwg.org/": {

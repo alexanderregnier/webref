@@ -267,13 +267,16 @@
           "html": "If <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\">this</a>.<a data-link-type=\"attribute\" data-lt=\"[[state]]\" href=\"https://wicg.github.io/serial/#dfn-state\" class=\"internalDFN\" id=\"ref-for-dfn-state-1\"><code>[[state]]</code></a> is not <code>\"closed\"</code>, reject\n          <var>promise</var> with an \"<a data-link-type=\"exception\" data-lt=\"InvalidStateError\" href=\"https://webidl.spec.whatwg.org/#invalidstateerror\"><code>InvalidStateError</code></a>\" <a data-link-type=\"interface\" data-lt=\"DOMException\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\"><code>DOMException</code></a> and return\n          <var>promise</var>."
         },
         {
-          "html": "If <var>options</var>[\"<a data-link-type=\"idl\" href=\"https://wicg.github.io/serial/#dom-serialoptions-databits\" class=\"internalDFN\" id=\"ref-for-dom-serialoptions-databits-1\"><code>dataBits</code></a>\"] is not 7 or 8, reject\n          <var>promise</var> with <a data-link-type=\"exception\" data-lt=\"TypeError\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\"><code>TypeError</code></a> and return <var>promise</var>."
+          "html": "If <var>options</var>[\"<a data-link-type=\"idl\" href=\"https://wicg.github.io/serial/#dom-serialoptions-baudrate\" class=\"internalDFN\" id=\"ref-for-dom-serialoptions-baudrate-1\"><code>baudRate</code></a>\"] is 0, reject <var>promise</var>\n          with a <a data-link-type=\"exception\" data-lt=\"TypeError\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\"><code>TypeError</code></a> and return <var>promise</var>."
         },
         {
-          "html": "If <var>options</var>[\"<a data-link-type=\"idl\" href=\"https://wicg.github.io/serial/#dom-serialoptions-stopbits\" class=\"internalDFN\" id=\"ref-for-dom-serialoptions-stopbits-1\"><code>stopBits</code></a>\"] is not 1 or 2, reject\n          <var>promise</var> with <a data-link-type=\"exception\" data-lt=\"TypeError\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\"><code>TypeError</code></a> and return <var>promise</var>."
+          "html": "If <var>options</var>[\"<a data-link-type=\"idl\" href=\"https://wicg.github.io/serial/#dom-serialoptions-databits\" class=\"internalDFN\" id=\"ref-for-dom-serialoptions-databits-1\"><code>dataBits</code></a>\"] is not 7 or 8, reject\n          <var>promise</var> with a <a data-link-type=\"exception\" data-lt=\"TypeError\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\"><code>TypeError</code></a> and return <var>promise</var>."
         },
         {
-          "html": "If <var>options</var>[\"<a data-link-type=\"idl\" href=\"https://wicg.github.io/serial/#dom-serialoptions-buffersize\" class=\"internalDFN\" id=\"ref-for-dom-serialoptions-buffersize-1\"><code>bufferSize</code></a>\"] is 0, reject\n          <var>promise</var> with <a data-link-type=\"exception\" data-lt=\"TypeError\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\"><code>TypeError</code></a> and return <var>promise</var>."
+          "html": "If <var>options</var>[\"<a data-link-type=\"idl\" href=\"https://wicg.github.io/serial/#dom-serialoptions-stopbits\" class=\"internalDFN\" id=\"ref-for-dom-serialoptions-stopbits-1\"><code>stopBits</code></a>\"] is not 1 or 2, reject\n          <var>promise</var> with a <a data-link-type=\"exception\" data-lt=\"TypeError\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\"><code>TypeError</code></a> and return <var>promise</var>."
+        },
+        {
+          "html": "If <var>options</var>[\"<a data-link-type=\"idl\" href=\"https://wicg.github.io/serial/#dom-serialoptions-buffersize\" class=\"internalDFN\" id=\"ref-for-dom-serialoptions-buffersize-1\"><code>bufferSize</code></a>\"] is 0, reject\n          <var>promise</var> with a <a data-link-type=\"exception\" data-lt=\"TypeError\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\"><code>TypeError</code></a> and return <var>promise</var>."
         },
         {
           "html": "Optionally, if <var>options</var>[\"<a data-link-type=\"idl\" href=\"https://wicg.github.io/serial/#dom-serialoptions-buffersize\" class=\"internalDFN\" id=\"ref-for-dom-serialoptions-buffersize-2\"><code>bufferSize</code></a>\"] is\n          larger than the implementation is able to support, reject <var>promise</var>\n          with a <a data-link-type=\"exception\" data-lt=\"TypeError\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\"><code>TypeError</code></a> and return <var>promise</var>."
@@ -343,6 +346,9 @@
               "html": "If <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\">this</a>.<a data-link-type=\"attribute\" data-lt=\"[[readable]]\" href=\"https://wicg.github.io/serial/#dfn-readable\" class=\"internalDFN\" id=\"ref-for-dfn-readable-4\"><code>[[readable]]</code></a>'s\n              <a data-link-type=\"dfn\" href=\"https://streams.spec.whatwg.org/#readablestream-current-byob-request-view\">current BYOB request view</a> is non-null, then\n              set <var>desiredSize</var> to <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\">this</a>.<a data-link-type=\"attribute\" data-lt=\"[[readable]]\" href=\"https://wicg.github.io/serial/#dfn-readable\" class=\"internalDFN\" id=\"ref-for-dfn-readable-5\"><code>[[readable]]</code></a>'s\n              <a data-link-type=\"dfn\" href=\"https://streams.spec.whatwg.org/#readablestream-current-byob-request-view\">current BYOB request view</a>'s\n              <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#buffersource-byte-length\">byte length</a>."
             },
             {
+              "html": "Let <var>promise</var> be <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#a-new-promise\">a new promise</a>."
+            },
+            {
               "html": "Run the following steps <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\">in parallel</a>:",
               "rationale": "invoke",
               "steps": [
@@ -365,6 +371,9 @@
                         },
                         {
                           "html": "<a data-link-type=\"dfn\" href=\"https://streams.spec.whatwg.org/#readablestream-enqueue\">Enqueue</a> <var>view</var> into\n                          <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\">this</a>.<a data-link-type=\"attribute\" data-lt=\"[[readable]]\" href=\"https://wicg.github.io/serial/#dfn-readable\" class=\"internalDFN\" id=\"ref-for-dfn-readable-9\"><code>[[readable]]</code></a>."
+                        },
+                        {
+                          "html": "<a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#resolve\">Resolve</a> <var>promise</var> with <code>undefined</code>."
                         }
                       ]
                     },
@@ -403,7 +412,7 @@
               ]
             },
             {
-              "html": "Return <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#a-promise-resolved-with\">a promise resolved with</a> <code>undefined</code>."
+              "html": "Return <var>promise</var>."
             }
           ]
         },
@@ -654,7 +663,7 @@
           "html": "If <a data-link-type=\"dfn\" href=\"https://webidl.spec.whatwg.org/#this\">this</a>.<a data-link-type=\"attribute\" data-lt=\"[[state]]\" href=\"https://wicg.github.io/serial/#dfn-state\" class=\"internalDFN\" id=\"ref-for-dfn-state-8\"><code>[[state]]</code></a> is not <code>\"opened\"</code>, reject\n          <var>promise</var> with an \"<a data-link-type=\"exception\" data-lt=\"InvalidStateError\" href=\"https://webidl.spec.whatwg.org/#invalidstateerror\"><code>InvalidStateError</code></a>\" <a data-link-type=\"interface\" data-lt=\"DOMException\" href=\"https://webidl.spec.whatwg.org/#idl-DOMException\"><code>DOMException</code></a> and return\n          <var>promise</var>."
         },
         {
-          "html": "If all of the specified members of <var>signals</var> are not present\n          reject <var>promise</var> with <a data-link-type=\"exception\" data-lt=\"TypeError\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\"><code>TypeError</code></a> and return <var>promise</var>."
+          "html": "If all of the specified members of <var>signals</var> are not present\n          reject <var>promise</var> with a <a data-link-type=\"exception\" data-lt=\"TypeError\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\"><code>TypeError</code></a> and return <var>promise</var>."
         },
         {
           "html": "Perform the following steps <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\">in parallel</a>:",

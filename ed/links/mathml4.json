@@ -37,15 +37,15 @@
       "https://github.com/w3c/mathml": {},
       "https://github.com/w3c/mathml-docs": {},
       "https://github.com/w3c/mathml/issues/178": {},
-      "https://github.com/w3c/mathml/issues/180": {},
       "https://github.com/w3c/mathml/issues/247": {},
-      "https://github.com/w3c/mathml/issues/284": {},
-      "https://github.com/w3c/mathml/issues/304": {},
-      "https://github.com/w3c/mathml/issues/361": {},
       "https://github.com/w3c/mathml/issues/?q=is%3Aissue+is%3Aopen+label%3A%22MathML+4%22": {},
-      "https://github.com/w3c/mathml/issues/?q=is%3Aissue+is%3Aopen+label%3A%22compatibility%22": {},
       "https://github.com/w3c/mathml/issues/?q=is%3Aissue+is%3Aopen+label%3A%22css+%2F+html5%22": {},
       "https://github.com/w3c/mathml/issues/?q=is%3Aissue+is%3Aopen+label%3A%22need+specification+update%22": {},
+      "https://html.spec.whatwg.org/": {
+        "anchors": [
+          "the-a-element"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/": {},
       "https://httpwg.org/specs/rfc9110.html": {},
       "https://infra.spec.whatwg.org/": {
@@ -353,6 +353,11 @@
         ]
       },
       "https://w3c.github.io/mathml-aam/": {},
+      "https://w3c.github.io/mathml-core/": {
+        "anchors": [
+          "the-displaystyle-and-scriptlevel-attributes"
+        ]
+      },
       "https://w3c.github.io/mathml-core/spec.html": {
         "anchors": [
           "dfn-id",
@@ -384,6 +389,7 @@
           "attribute-mspace-depth",
           "dfn-ms",
           "dfn-mrow",
+          "dfn-a",
           "dfn-mfrac",
           "dfn-linethickness",
           "dfn-msqrt",
@@ -420,6 +426,7 @@
       "https://w3c.github.io/mathml-docs/literal-common-properties": {},
       "https://w3c.github.io/mathml-docs/mathml-media-types/": {},
       "https://w3c.github.io/mathml-docs/notes-on-mathml/": {},
+      "https://w3c.github.io/mathml-docs/unicode-speech": {},
       "https://w3c.github.io/mathml-polyfills/": {},
       "https://www.rfc-editor.org/info/bcp14": {},
       "https://www.rfc-editor.org/rfc/rfc2045": {},
@@ -487,7 +494,6 @@
         ]
       },
       "https://www.w3.org/TR/xhtml1/": {},
-      "https://www.w3.org/TR/xlink/": {},
       "https://www.w3.org/TR/xml-entity-names/": {},
       "https://www.w3.org/TR/xml-names/": {},
       "https://www.w3.org/TR/xml/": {},

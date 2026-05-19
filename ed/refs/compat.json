@@ -6,8 +6,8 @@
   "refs": {
     "normative": [
       {
-        "name": "CSS-2024",
-        "url": "https://drafts.csswg.org/css-2024/"
+        "name": "CSS-2025",
+        "url": "https://drafts.csswg.org/css-2025/"
       },
       {
         "name": "CSS-ALIGN-3",
@@ -51,11 +51,11 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display/"
+        "url": "https://drafts.csswg.org/css-display-4/"
       },
       {
         "name": "CSS-FLEXBOX-1",
-        "url": "https://drafts.csswg.org/css-flexbox-1/"
+        "url": "https://drafts.csswg.org/css-flexbox/"
       },
       {
         "name": "CSS-IMAGES-4",
@@ -63,7 +63,7 @@
       },
       {
         "name": "CSS-MASKING-1",
-        "url": "https://drafts.fxtf.org/css-masking-1/"
+        "url": "https://drafts.csswg.org/css-masking-1/"
       },
       {
         "name": "CSS-SIZE-ADJUST-1",
@@ -107,11 +107,11 @@
       },
       {
         "name": "FILTER-EFFECTS-1",
-        "url": "https://drafts.fxtf.org/filter-effects-1/"
+        "url": "https://drafts.csswg.org/filter-effects-1/"
       },
       {
         "name": "GEOMETRY-1",
-        "url": "https://drafts.fxtf.org/geometry/"
+        "url": "https://drafts.csswg.org/geometry/"
       },
       {
         "name": "HTML",

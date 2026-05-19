@@ -1,0 +1,29 @@
+{
+  "spec": {
+    "title": "Disallow Adding New Private Fields to Non-extensible Objects",
+    "url": "https://tc39.es/proposal-nonextensible-applies-to-private/"
+  },
+  "headings": [
+    {
+      "id": "sec-operations-on-objects",
+      "href": "https://tc39.es/proposal-nonextensible-applies-to-private/#sec-operations-on-objects",
+      "title": "Operations on Objects",
+      "level": 2,
+      "number": "7.3"
+    },
+    {
+      "id": "sec-privatefieldadd",
+      "href": "https://tc39.es/proposal-nonextensible-applies-to-private/#sec-privatefieldadd",
+      "title": "PrivateFieldAdd ( O, P, value )",
+      "level": 3,
+      "number": "7.3.27"
+    },
+    {
+      "id": "sec-privatemethodoraccessoradd",
+      "href": "https://tc39.es/proposal-nonextensible-applies-to-private/#sec-privatemethodoraccessoradd",
+      "title": "PrivateMethodOrAccessorAdd ( O, method )",
+      "level": 3,
+      "number": "7.3.28"
+    }
+  ]
+}

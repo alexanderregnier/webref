@@ -16,7 +16,6 @@
       "https://lists.w3.org/Archives/Public/public-whatwg-archive/2009Sep/0083.html": {},
       "https://montulli.blogspot.com/2013/05/the-reasoning-behind-web-cookies.html": {},
       "https://opensource.org/licenses/BSD-3-Clause": {},
-      "https://tc39.es/ecma262/multipage/": {},
       "https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-14": {
         "anchors": [
           "name-user-agent-requirements",
@@ -92,7 +91,6 @@
           "concept-settings-object-origin",
           "concept-environment-creation-url",
           "api-base-url",
-          "concept-relevant-global",
           "queue-a-global-task",
           "dom-manipulation-task-source",
           "non-secure-context",
@@ -111,6 +109,7 @@
           "map-exists",
           "map-with-default",
           "list-iterate",
+          "string-starts-with",
           "list-contain",
           "list-append",
           "list-remove",
@@ -118,6 +117,7 @@
           "scalar-value-string",
           "iteration-continue",
           "boolean",
+          "64-bit-signed-integer",
           "c0-control",
           "string-length",
           "byte-lowercase",
@@ -131,7 +131,7 @@
       },
       "https://tc39.github.io/ecma262/": {
         "anchors": [
-          "sec-time-values-and-time-range"
+          "sec-tostring"
         ]
       },
       "https://url.spec.whatwg.org/": {
@@ -150,6 +150,7 @@
           "dfn-service-worker",
           "dfn-scope-url",
           "dfn-service-worker-registration",
+          "dfn-script-url",
           "serviceworkerregistration",
           "serviceworkerglobalscope",
           "extendableevent",
@@ -159,7 +160,7 @@
       },
       "https://w3c.github.io/hr-time/": {
         "anchors": [
-          "dom-domhighrestimestamp"
+          "typedefdef-domhighrestimestamp"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -170,6 +171,7 @@
           "idl-USVString",
           "idl-undefined",
           "idl-boolean",
+          "idl-long-long",
           "idl-sequence",
           "this",
           "a-promise-rejected-with",

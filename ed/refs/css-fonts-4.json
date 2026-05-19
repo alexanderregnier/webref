@@ -75,7 +75,7 @@
       },
       {
         "name": "GRAPHITE",
-        "url": "https://scripts.sil.org/cms/scripts/page.php?site_id=projects&item_id=graphite_techAbout"
+        "url": "https://graphite.sil.org/graphite_techAbout.html"
       },
       {
         "name": "HTML",
@@ -125,7 +125,7 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display/"
+        "url": "https://drafts.csswg.org/css-display-4/"
       },
       {
         "name": "CSS-FONT-LOADING-3",

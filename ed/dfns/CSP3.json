@@ -87,15 +87,15 @@
       "links": []
     },
     {
-      "id": "policy-directive-set",
-      "href": "https://w3c.github.io/webappsec-csp/#policy-directive-set",
+      "id": "content-security-policy-object-directive-set",
+      "href": "https://w3c.github.io/webappsec-csp/#content-security-policy-object-directive-set",
       "linkingText": [
         "directive set"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "policy"
+        "content security policy object"
       ],
       "access": "public",
       "informative": false,
@@ -109,15 +109,15 @@
       "links": []
     },
     {
-      "id": "policy-disposition",
-      "href": "https://w3c.github.io/webappsec-csp/#policy-disposition",
+      "id": "content-security-policy-object-disposition",
+      "href": "https://w3c.github.io/webappsec-csp/#content-security-policy-object-disposition",
       "linkingText": [
         "disposition"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "policy"
+        "content security policy object"
       ],
       "access": "public",
       "informative": false,
@@ -131,37 +131,15 @@
       "links": []
     },
     {
-      "id": "policy-source",
-      "href": "https://w3c.github.io/webappsec-csp/#policy-source",
+      "id": "content-security-policy-object-source",
+      "href": "https://w3c.github.io/webappsec-csp/#content-security-policy-object-source",
       "linkingText": [
         "source"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "policy"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "framework-policy",
-        "href": "https://w3c.github.io/webappsec-csp/#framework-policy",
-        "title": "Policies",
-        "number": "2.2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "policy-self-origin",
-      "href": "https://w3c.github.io/webappsec-csp/#policy-self-origin",
-      "linkingText": [
-        "self-origin"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "policy"
+        "content security policy object"
       ],
       "access": "public",
       "informative": false,
@@ -183,6 +161,50 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "framework-policy",
+        "href": "https://w3c.github.io/webappsec-csp/#framework-policy",
+        "title": "Policies",
+        "number": "2.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "csp-list-policies",
+      "href": "https://w3c.github.io/webappsec-csp/#csp-list-policies",
+      "linkingText": [
+        "policies"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "CSP list"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "framework-policy",
+        "href": "https://w3c.github.io/webappsec-csp/#framework-policy",
+        "title": "Policies",
+        "number": "2.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "csp-list-self-origin",
+      "href": "https://w3c.github.io/webappsec-csp/#csp-list-self-origin",
+      "linkingText": [
+        "self-origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "CSP list"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -1157,6 +1179,26 @@
       "href": "https://w3c.github.io/webappsec-csp/#grammardef-report-sha512",
       "linkingText": [
         "'report-sha512'"
+      ],
+      "localLinkingText": [],
+      "type": "grammar",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "framework-directive-source-list",
+        "href": "https://w3c.github.io/webappsec-csp/#framework-directive-source-list",
+        "title": "Source Lists",
+        "number": "2.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "grammardef-unsafe-webtransport-hashes",
+      "href": "https://w3c.github.io/webappsec-csp/#grammardef-unsafe-webtransport-hashes",
+      "linkingText": [
+        "'unsafe-webtransport-hashes'"
       ],
       "localLinkingText": [],
       "type": "grammar",

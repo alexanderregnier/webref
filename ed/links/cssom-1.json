@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Object Model (CSSOM)",
+    "title": "CSS Object Model (CSSOM) Module Level 1",
     "url": "https://drafts.csswg.org/cssom-1/"
   },
   "links": {
@@ -179,7 +179,6 @@
       "http://wpt.live/css/cssom/style-attr-update-across-documents.html": {},
       "http://wpt.live/css/cssom/style-sheet-interfaces-001.html": {},
       "http://wpt.live/css/cssom/style-sheet-interfaces-002.html": {},
-      "http://wpt.live/css/cssom/stylesheet-dom-mutation-event-crash.html": {},
       "http://wpt.live/css/cssom/stylesheet-replacedata-dynamic.html": {},
       "http://wpt.live/css/cssom/stylesheet-same-origin.sub.html": {},
       "http://wpt.live/css/cssom/stylesheet-title.html": {},
@@ -284,8 +283,10 @@
       "https://drafts.csswg.org/css-backgrounds/": {},
       "https://drafts.csswg.org/css-borders-4/": {},
       "https://drafts.csswg.org/css-box-4/": {},
+      "https://drafts.csswg.org/css-break-4/": {},
       "https://drafts.csswg.org/css-cascade-3/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
+      "https://drafts.csswg.org/css-cascade-6/": {},
       "https://drafts.csswg.org/css-color-4/": {
         "anchors": [
           "resolving-color-values",
@@ -297,7 +298,7 @@
       "https://drafts.csswg.org/css-color-5/": {},
       "https://drafts.csswg.org/css-conditional-3/": {},
       "https://drafts.csswg.org/css-counter-styles/": {},
-      "https://drafts.csswg.org/css-display/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
       "https://drafts.csswg.org/css-fonts-5/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
@@ -308,8 +309,7 @@
       "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-page-3/": {},
       "https://drafts.csswg.org/css-position-3/": {},
-      "https://drafts.csswg.org/css-scoping/": {},
-      "https://drafts.csswg.org/css-shadow-parts/": {},
+      "https://drafts.csswg.org/css-shadow-1/": {},
       "https://drafts.csswg.org/css-sizing-3/": {},
       "https://drafts.csswg.org/css-syntax/": {},
       "https://drafts.csswg.org/css-ui-4/": {},
@@ -325,7 +325,6 @@
       "https://encoding.spec.whatwg.org/": {},
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
-      "https://github.com/w3c/csswg-drafts/issues/1033": {},
       "https://github.com/w3c/csswg-drafts/issues/2529": {},
       "https://github.com/w3c/csswg-drafts/issues/3195": {},
       "https://github.com/w3c/csswg-drafts/issues/4947": {},
@@ -504,7 +503,6 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/cssom/style-attr-update-across-documents.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/cssom/style-sheet-interfaces-001.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/cssom/style-sheet-interfaces-002.html": {},
-      "https://github.com/web-platform-tests/wpt/blob/master/css/cssom/stylesheet-dom-mutation-event-crash.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/cssom/stylesheet-replacedata-dynamic.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/cssom/stylesheet-same-origin.sub.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/cssom/stylesheet-title.html": {},
@@ -521,10 +519,10 @@
       "https://infra.spec.whatwg.org/": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
-      "https://svgwg.org/svg2-draft/": {},
       "https://url.spec.whatwg.org/": {},
       "https://w3c.github.io/i18n-glossary/": {},
       "https://w3c.github.io/mathml-core/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://wpt.fyi/results/css/cssom/CSS-namespace-object-class-string.html": {},
       "https://wpt.fyi/results/css/cssom/CSSGroupingRule-cssRules.html": {},
@@ -699,7 +697,6 @@
       "https://wpt.fyi/results/css/cssom/style-attr-update-across-documents.html": {},
       "https://wpt.fyi/results/css/cssom/style-sheet-interfaces-001.html": {},
       "https://wpt.fyi/results/css/cssom/style-sheet-interfaces-002.html": {},
-      "https://wpt.fyi/results/css/cssom/stylesheet-dom-mutation-event-crash.html": {},
       "https://wpt.fyi/results/css/cssom/stylesheet-replacedata-dynamic.html": {},
       "https://wpt.fyi/results/css/cssom/stylesheet-same-origin.sub.html": {},
       "https://wpt.fyi/results/css/cssom/stylesheet-title.html": {},
@@ -787,12 +784,21 @@
           "propdef-padding-top"
         ]
       },
+      "https://drafts.csswg.org/css-break-4/": {
+        "anchors": [
+          "break"
+        ]
+      },
       "https://drafts.csswg.org/css-cascade-5/": {
         "anchors": [
-          "at-ruledef-import",
           "layer-name",
           "computed-value",
           "used-value"
+        ]
+      },
+      "https://drafts.csswg.org/css-cascade-6/": {
+        "anchors": [
+          "at-ruledef-import"
         ]
       },
       "https://drafts.csswg.org/css-color-4/": {
@@ -827,6 +833,7 @@
       },
       "https://drafts.csswg.org/css-fonts-4/": {
         "anchors": [
+          "descdef-font-face-font-family",
           "descdef-font-face-unicode-range",
           "propdef-font-variant",
           "propdef-font-feature-settings",
@@ -835,7 +842,7 @@
           "propdef-font-style",
           "cssfontfeaturevaluesrule",
           "propdef-font-size",
-          "family-name-value"
+          "font-family-name-value"
         ]
       },
       "https://drafts.csswg.org/css-fonts-5/": {
@@ -877,7 +884,7 @@
       },
       "https://drafts.csswg.org/css-nesting-1/": {
         "anchors": [
-          "nested-declarations-rule%E2%91%A0"
+          "nested-declarations-rule"
         ]
       },
       "https://drafts.csswg.org/css-overflow-3/": {
@@ -897,15 +904,11 @@
           "propdef-top"
         ]
       },
-      "https://drafts.csswg.org/css-scoping-1/": {
+      "https://drafts.csswg.org/css-shadow-1/": {
         "anchors": [
           "selectordef-slotted",
+          "selectordef-part",
           "flat-tree"
-        ]
-      },
-      "https://drafts.csswg.org/css-shadow-parts-1/": {
-        "anchors": [
-          "selectordef-part"
         ]
       },
       "https://drafts.csswg.org/css-sizing-3/": {
@@ -1060,7 +1063,6 @@
       },
       "https://html.spec.whatwg.org/multipage/semantics.html": {
         "anchors": [
-          "link-options-base-url",
           "contributes-a-script-blocking-style-sheet",
           "script-blocking-style-sheet-set",
           "the-style-element",
@@ -1088,14 +1090,8 @@
           "ascii-case-insensitive",
           "list-iterate",
           "iteration-continue",
-          "iteration-break",
           "ascii-uppercase",
           "list"
-        ]
-      },
-      "https://svgwg.org/svg2-draft/types.html": {
-        "anchors": [
-          "InterfaceSVGElement"
         ]
       },
       "https://url.spec.whatwg.org/": {
@@ -1114,6 +1110,11 @@
       "https://w3c.github.io/mathml-core/": {
         "anchors": [
           "dom-mathmlelement"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/types.html": {
+        "anchors": [
+          "InterfaceSVGElement"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -1144,11 +1145,6 @@
           "nomodificationallowederror",
           "NewObject",
           "exceptiondef-typeerror"
-        ]
-      },
-      "https://www.w3.org/TR/css-nesting-1/": {
-        "anchors": [
-          "dom-cssstylerule-cssrules"
         ]
       },
       "https://www.w3.org/TR/cssom-1/": {

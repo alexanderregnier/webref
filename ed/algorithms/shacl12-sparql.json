@@ -22,10 +22,13 @@
           "html": "The binding for the variable <code>message</code>"
         },
         {
-          "html": "For SPARQL-based constraints: The values of <code>sh:message</code> of the <a href=\"https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-sparql-based-constraint\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-sparql-based-constraint-12\">SPARQL-based constraint</a>.\n\t\t\t\t\t\t\t\t\t\tFor SPARQL-based constraint components: The values of <code>sh:message</code> of the <a data-cite=\"shacl12-core#dfn-validators\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/shacl12-core/#dfn-validators\">validator</a> of the <a href=\"https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-sparql-based-constraint-components\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-sparql-based-constraint-components-2\">SPARQL-based constraint component</a>."
+          "html": "For SPARQL-based constraints: The values of <code>sh:message</code> of the <a href=\"https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-sparql-based-constraint\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-sparql-based-constraint-13\">SPARQL-based constraint</a>.\n\t\t\t\t\t\t\t\t\t\tFor SPARQL-based constraint components: The values of <code>sh:message</code> of the <a data-cite=\"shacl12-core#dfn-validators\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/shacl12-core/#dfn-validators\">validator</a> of the <a href=\"https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-sparql-based-constraint-components\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-sparql-based-constraint-components-2\">SPARQL-based constraint component</a>."
         },
         {
           "html": "For SPARQL-based constraint components: The values of <code>sh:message</code> of the <a href=\"https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-sparql-based-constraint-components\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-sparql-based-constraint-components-3\">SPARQL-based constraint component</a>."
+        },
+        {
+          "html": "The default mechanisms for <a data-cite=\"shacl12-core/#message\" href=\"https://www.w3.org/TR/shacl12-core/#message\">declaring messages</a> at the shape or constraint apply otherwise."
         }
       ]
     },
@@ -45,14 +48,14 @@
       ]
     },
     {
-      "html": "For each <a href=\"https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-solutions\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-solutions-11\">solution</a> of a <code>SELECT</code> result set, a SHACL processor that supports annotations\n\t\t\t\twalks through the declared result annotations.\n\t\t\t\tThe mapping from result annotations to SPARQL variables uses the following rules:",
+      "html": "For each <a href=\"https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-solution\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-solution-11\">solution</a> of a <code>SELECT</code> result set, a SHACL processor that supports annotations\n\t\t\t\twalks through the declared result annotations.\n\t\t\t\tThe mapping from result annotations to SPARQL variables uses the following rules:",
       "rationale": "use",
       "steps": [
         {
           "html": "Use the <a data-cite=\"shacl12-core#dfn-value\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/shacl12-core/#dfn-value\">value</a> of the property <code>sh:annotationVarName</code>"
         },
         {
-          "html": "If no such <a data-cite=\"shacl12-core#dfn-value\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/shacl12-core/#dfn-value\">value</a> exists, use the <a href=\"https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-local-names\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-local-names-2\">local name</a> of the <a data-cite=\"shacl12-core#dfn-value\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/shacl12-core/#dfn-value\">value</a> of <code>sh:annotationProperty</code> \n\t\t\t\tas the variable name."
+          "html": "If no such <a data-cite=\"shacl12-core#dfn-value\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/shacl12-core/#dfn-value\">value</a> exists, use the <a href=\"https://w3c.github.io/data-shapes/shacl12-sparql/#dfn-local-names\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-local-names-2\">local name</a> of the <a data-cite=\"shacl12-core#dfn-value\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/shacl12-core/#dfn-value\">value</a> of <code>sh:annotationProperty</code>\n\t\t\t\tas the variable name."
         }
       ]
     }

@@ -1,0 +1,61 @@
+{
+  "name": "RTCSFrameReceiverTransform",
+  "type": "interface",
+  "defined": {
+    "spec": {
+      "title": "WebRTC Encoded Transform",
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/"
+    },
+    "fragment": "[Exposed=Window]\ninterface RTCSFrameReceiverTransform : EventTarget {\n    constructor(SFrameTransformOptions options);\n};",
+    "href": "https://w3c.github.io/webrtc-encoded-transform/#rtcsframereceivertransform"
+  },
+  "extended": [
+    {
+      "spec": {
+        "title": "WebRTC Encoded Transform",
+        "url": "https://www.w3.org/TR/webrtc-encoded-transform/"
+      },
+      "fragment": "RTCSFrameReceiverTransform includes SFrameDecrypterManager;"
+    }
+  ],
+  "inheritance": {
+    "name": "EventTarget",
+    "type": "interface",
+    "defined": {
+      "spec": {
+        "title": "DOM Standard",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      "fragment": "[Exposed=*]\ninterface EventTarget {\n  constructor();\n\n  undefined addEventListener(DOMString type, EventListener? callback, optional (AddEventListenerOptions or boolean) options = {});\n  undefined removeEventListener(DOMString type, EventListener? callback, optional (EventListenerOptions or boolean) options = {});\n  boolean dispatchEvent(Event event);\n};",
+      "href": "https://dom.spec.whatwg.org/#eventtarget"
+    },
+    "extended": [
+      {
+        "spec": {
+          "title": "Observable",
+          "url": "https://wicg.github.io/observable/"
+        },
+        "fragment": "partial interface EventTarget {\n  Observable when(DOMString type, optional ObservableEventListenerOptions options = {});\n};"
+      }
+    ],
+    "inheritance": null,
+    "includes": []
+  },
+  "includes": [
+    {
+      "name": "SFrameDecrypterManager",
+      "type": "interface mixin",
+      "defined": {
+        "spec": {
+          "title": "WebRTC Encoded Transform",
+          "url": "https://www.w3.org/TR/webrtc-encoded-transform/"
+        },
+        "fragment": "interface mixin SFrameDecrypterManager {\n    Promise<undefined> addDecryptionKey(CryptoKey key, CryptoKeyID keyId);\n    Promise<undefined> removeDecryptionKey(CryptoKeyID keyId);\n    attribute EventHandler onerror;\n};",
+        "href": "https://w3c.github.io/webrtc-encoded-transform/#sframedecryptermanager"
+      },
+      "extended": [],
+      "inheritance": null,
+      "includes": []
+    }
+  ]
+}

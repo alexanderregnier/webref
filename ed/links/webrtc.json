@@ -45,8 +45,11 @@
       "https://github.com/w3c/webrtc-pc/pull/3023": {},
       "https://github.com/w3c/webrtc-pc/pull/3038": {},
       "https://github.com/w3c/webrtc-pc/pull/3043": {},
+      "https://github.com/w3c/webrtc-pc/pull/3050": {},
       "https://github.com/w3c/webrtc-pc/pull/3068": {},
       "https://github.com/w3c/webrtc-pc/pull/3070": {},
+      "https://github.com/w3c/webrtc-pc/pull/3082": {},
+      "https://github.com/w3c/webrtc-pc/pull/3094": {},
       "https://github.com/web-platform-tests/wpt/pull/21025": {},
       "https://github.com/web-platform-tests/wpt/pull/34912": {},
       "https://github.com/web-platform-tests/wpt/pull/36155": {},
@@ -81,6 +84,7 @@
       "https://github.com/web-platform-tests/wpt/tree/master/webrtc/RTCDataChannel-close.html": {},
       "https://github.com/web-platform-tests/wpt/tree/master/webrtc/RTCDataChannel-id.html": {},
       "https://github.com/web-platform-tests/wpt/tree/master/webrtc/RTCDataChannel-send-blob-order.html": {},
+      "https://github.com/web-platform-tests/wpt/tree/master/webrtc/RTCDataChannel-send-close-array-buffer.window.js": {},
       "https://github.com/web-platform-tests/wpt/tree/master/webrtc/RTCDataChannel-send.html": {},
       "https://github.com/web-platform-tests/wpt/tree/master/webrtc/RTCDataChannelEvent-constructor.html": {},
       "https://github.com/web-platform-tests/wpt/tree/master/webrtc/RTCDtlsTransport-getRemoteCertificates.html": {},
@@ -261,7 +265,9 @@
       "https://www.rfc-editor.org/rfc/rfc7874": {},
       "https://www.rfc-editor.org/rfc/rfc8174": {},
       "https://www.rfc-editor.org/rfc/rfc8261": {},
+      "https://www.rfc-editor.org/rfc/rfc8265": {},
       "https://www.rfc-editor.org/rfc/rfc8445": {},
+      "https://www.rfc-editor.org/rfc/rfc8489": {},
       "https://www.rfc-editor.org/rfc/rfc8656": {},
       "https://www.rfc-editor.org/rfc/rfc8825": {},
       "https://www.rfc-editor.org/rfc/rfc8826": {},
@@ -527,11 +533,11 @@
       },
       "https://www.w3.org/TR/hr-time-3/": {
         "anchors": [
-          "dom-performance",
+          "performance",
           "dom-performance-timeorigin",
           "dom-performance-now",
-          "dom-epochtimestamp",
-          "dom-domhighrestimestamp"
+          "typedefdef-epochtimestamp",
+          "typedefdef-domhighrestimestamp"
         ]
       },
       "https://www.w3.org/TR/mediacapture-streams/": {

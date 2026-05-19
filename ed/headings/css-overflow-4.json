@@ -77,7 +77,7 @@
       "id": "overflow-clip-margin",
       "href": "https://drafts.csswg.org/css-overflow-4/#overflow-clip-margin",
       "level": 3,
-      "title": "Expanding Clipping Bounds: the overflow-clip-margin-* properties",
+      "title": "Changing Clipping Bounds: the overflow-clip-margin-* properties",
       "number": "3.2"
     },
     {
@@ -295,7 +295,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-overflow-4/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

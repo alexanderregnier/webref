@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Form Control Styling Level 1",
+    "title": "CSS Form Control Styling Module Level 1",
     "url": "https://drafts.csswg.org/css-forms-1/"
   },
   "dfns": [
@@ -563,7 +563,7 @@
         "id": "field-sizing",
         "href": "https://drafts.csswg.org/css-forms-1/#field-sizing",
         "title": "Switching form control sizing: the field-sizing property",
-        "number": "7.2"
+        "number": "7.1"
       },
       "definedIn": "table",
       "links": []
@@ -583,7 +583,7 @@
         "id": "field-sizing",
         "href": "https://drafts.csswg.org/css-forms-1/#field-sizing",
         "title": "Switching form control sizing: the field-sizing property",
-        "number": "7.2"
+        "number": "7.1"
       },
       "definedIn": "prose",
       "links": []
@@ -605,7 +605,7 @@
         "id": "field-sizing",
         "href": "https://drafts.csswg.org/css-forms-1/#field-sizing",
         "title": "Switching form control sizing: the field-sizing property",
-        "number": "7.2"
+        "number": "7.1"
       },
       "definedIn": "dt",
       "links": []
@@ -627,7 +627,7 @@
         "id": "field-sizing",
         "href": "https://drafts.csswg.org/css-forms-1/#field-sizing",
         "title": "Switching form control sizing: the field-sizing property",
-        "number": "7.2"
+        "number": "7.1"
       },
       "definedIn": "dt",
       "links": []

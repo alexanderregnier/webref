@@ -35,7 +35,8 @@
       "https://developer.mozilla.org/en-US/docs/Web/CSS/::view-transition-old": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/view-transition-name": {},
       "https://dom.spec.whatwg.org/": {},
-      "https://drafts.csswg.org/css-2025/": {},
+      "https://drafts.csswg.org/compositing-2/": {},
+      "https://drafts.csswg.org/css-2026/": {},
       "https://drafts.csswg.org/css-animations/": {},
       "https://drafts.csswg.org/css-backgrounds/": {},
       "https://drafts.csswg.org/css-borders-4/": {},
@@ -46,15 +47,16 @@
       "https://drafts.csswg.org/css-color-adjust-1/": {},
       "https://drafts.csswg.org/css-conditional-3/": {},
       "https://drafts.csswg.org/css-contain-2/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
       "https://drafts.csswg.org/css-images-3/": {},
       "https://drafts.csswg.org/css-images-4/": {},
+      "https://drafts.csswg.org/css-masking-1/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-position-3/": {},
       "https://drafts.csswg.org/css-position-4/": {},
       "https://drafts.csswg.org/css-pseudo-4/": {},
-      "https://drafts.csswg.org/css-scoping/": {},
-      "https://drafts.csswg.org/css-shadow-parts/": {},
+      "https://drafts.csswg.org/css-shadow-1/": {},
       "https://drafts.csswg.org/css-sizing-3/": {},
       "https://drafts.csswg.org/css-syntax/": {},
       "https://drafts.csswg.org/css-transforms-2/": {
@@ -85,6 +87,9 @@
       },
       "https://drafts.csswg.org/cssom-view/": {},
       "https://drafts.csswg.org/cssom/": {},
+      "https://drafts.csswg.org/filter-effects-1/": {},
+      "https://drafts.csswg.org/filter-effects-2/": {},
+      "https://drafts.csswg.org/geometry/": {},
       "https://drafts.csswg.org/scroll-animations-1/": {},
       "https://drafts.csswg.org/selectors-3/": {},
       "https://drafts.csswg.org/selectors/": {},
@@ -93,11 +98,6 @@
           "extensions-to-the-element-interface"
         ]
       },
-      "https://drafts.fxtf.org/compositing-2/": {},
-      "https://drafts.fxtf.org/css-masking-1/": {},
-      "https://drafts.fxtf.org/filter-effects-1/": {},
-      "https://drafts.fxtf.org/filter-effects-2/": {},
-      "https://drafts.fxtf.org/geometry/": {},
       "https://github.com/WICG/view-transitions/issues/200": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/csswg-drafts/issues/10334": {},
@@ -111,6 +111,8 @@
       "https://github.com/w3c/csswg-drafts/issues/10800": {},
       "https://github.com/w3c/csswg-drafts/issues/11063": {},
       "https://github.com/w3c/csswg-drafts/issues/12407": {},
+      "https://github.com/w3c/csswg-drafts/issues/12629": {},
+      "https://github.com/w3c/csswg-drafts/issues/13123": {},
       "https://github.com/w3c/csswg-drafts/issues/7813": {},
       "https://github.com/w3c/csswg-drafts/issues/8045": {},
       "https://github.com/w3c/csswg-drafts/issues/8320": {},
@@ -118,6 +120,7 @@
       "https://github.com/w3c/csswg-drafts/issues/8900": {},
       "https://github.com/w3c/csswg-drafts/issues/8941": {},
       "https://github.com/w3c/csswg-drafts/issues/9822": {},
+      "https://github.com/w3c/csswg-drafts/issues/9901": {},
       "https://html.spec.whatwg.org/": {
         "anchors": [
           "event-loop-processing-model:perform-pending-transition-operations"
@@ -181,7 +184,9 @@
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "concept-document",
+          "document",
           "element",
+          "document-element",
           "concept-node-document",
           "concept-tree-root",
           "concept-tree",
@@ -190,8 +195,6 @@
           "concept-tree-parent",
           "concept-tree-sibling",
           "concept-tree-child",
-          "document-element",
-          "document",
           "concept-tree-inclusive-descendant",
           "concept-class",
           "concept-id",
@@ -203,7 +206,13 @@
           "concept-shadow-including-descendant"
         ]
       },
-      "https://drafts.csswg.org/css-2025/": {
+      "https://drafts.csswg.org/compositing-2/": {
+        "anchors": [
+          "propdef-mix-blend-mode",
+          "propdef-isolation"
+        ]
+      },
+      "https://drafts.csswg.org/css-2026/": {
         "anchors": [
           "style-sheet"
         ]
@@ -215,13 +224,13 @@
       },
       "https://drafts.csswg.org/css-backgrounds-3/": {
         "anchors": [
-          "propdef-border-width",
           "canvas-background"
         ]
       },
       "https://drafts.csswg.org/css-borders-4/": {
         "anchors": [
-          "propdef-border-radius"
+          "propdef-border-radius",
+          "propdef-border-width"
         ]
       },
       "https://drafts.csswg.org/css-box-4/": {
@@ -239,8 +248,8 @@
       "https://drafts.csswg.org/css-cascade-5/": {
         "anchors": [
           "computed-value",
-          "cascade-origin-ua",
-          "used-value"
+          "used-value",
+          "cascade-origin-ua"
         ]
       },
       "https://drafts.csswg.org/css-color-4/": {
@@ -262,20 +271,27 @@
       },
       "https://drafts.csswg.org/css-contain-2/": {
         "anchors": [
-          "skips-its-contents",
-          "propdef-contain",
           "layout-containment",
-          "element-contents"
+          "skips-its-contents",
+          "element-contents",
+          "propdef-contain"
+        ]
+      },
+      "https://drafts.csswg.org/css-display-3/": {
+        "anchors": [
+          "internal-ruby-box",
+          "atomic-inline",
+          "inline-level"
         ]
       },
       "https://drafts.csswg.org/css-display-4/": {
         "anchors": [
+          "root-element",
           "principal-box",
           "containing-block",
           "replaced-element",
           "initial-containing-block",
-          "propdef-visibility",
-          "root-element"
+          "box-tree"
         ]
       },
       "https://drafts.csswg.org/css-images-3/": {
@@ -289,10 +305,17 @@
           "element-not-rendered"
         ]
       },
+      "https://drafts.csswg.org/css-masking-1/": {
+        "anchors": [
+          "propdef-clip-path",
+          "propdef-mask-image"
+        ]
+      },
       "https://drafts.csswg.org/css-overflow-3/": {
         "anchors": [
           "propdef-overflow",
           "scrollbar-gutter",
+          "overflow",
           "ink-overflow-rectangle",
           "ink-overflow",
           "ink-overflow-region"
@@ -314,14 +337,10 @@
           "tree-abiding"
         ]
       },
-      "https://drafts.csswg.org/css-scoping-1/": {
+      "https://drafts.csswg.org/css-shadow-1/": {
         "anchors": [
           "css-tree-scoped-name",
-          "flat-tree"
-        ]
-      },
-      "https://drafts.csswg.org/css-shadow-parts-1/": {
-        "anchors": [
+          "flat-tree",
           "selectordef-part"
         ]
       },
@@ -356,8 +375,8 @@
       },
       "https://drafts.csswg.org/css-values-4/": {
         "anchors": [
-          "comb-one",
           "identifier-value",
+          "comb-one",
           "mult-comma",
           "mult-one-plus",
           "mult-opt"
@@ -399,6 +418,24 @@
           "layout-viewport"
         ]
       },
+      "https://drafts.csswg.org/filter-effects-1/": {
+        "anchors": [
+          "propdef-filter"
+        ]
+      },
+      "https://drafts.csswg.org/filter-effects-2/": {
+        "anchors": [
+          "backdrop-root",
+          "propdef-backdrop-filter"
+        ]
+      },
+      "https://drafts.csswg.org/geometry-1/": {
+        "anchors": [
+          "matrix",
+          "dom-domrect-width",
+          "dom-domrect-height"
+        ]
+      },
       "https://drafts.csswg.org/scroll-animations-1/": {
         "anchors": [
           "scroll-driven-animations"
@@ -411,8 +448,8 @@
       },
       "https://drafts.csswg.org/selectors-4/": {
         "anchors": [
-          "only-child-pseudo",
           "pseudo-element",
+          "only-child-pseudo",
           "originating-pseudo-element",
           "originating-element",
           "ultimate-originating-element",
@@ -434,36 +471,6 @@
           "play-state-paused",
           "play-state-running",
           "pending-animation-event-queue"
-        ]
-      },
-      "https://drafts.fxtf.org/compositing-2/": {
-        "anchors": [
-          "propdef-mix-blend-mode",
-          "propdef-isolation"
-        ]
-      },
-      "https://drafts.fxtf.org/css-masking-1/": {
-        "anchors": [
-          "propdef-clip-path",
-          "propdef-mask-image"
-        ]
-      },
-      "https://drafts.fxtf.org/filter-effects-1/": {
-        "anchors": [
-          "propdef-filter"
-        ]
-      },
-      "https://drafts.fxtf.org/filter-effects-2/": {
-        "anchors": [
-          "backdrop-root",
-          "propdef-backdrop-filter"
-        ]
-      },
-      "https://drafts.fxtf.org/geometry-1/": {
-        "anchors": [
-          "matrix",
-          "dom-domrect-width",
-          "dom-domrect-height"
         ]
       },
       "https://html.spec.whatwg.org/multipage/browsers.html": {
@@ -493,8 +500,8 @@
       "https://html.spec.whatwg.org/multipage/indices.html": {
         "anchors": [
           "event-pageswap",
-          "event-pagereveal",
-          "event-unhandledrejection"
+          "event-unhandledrejection",
+          "event-pagereveal"
         ]
       },
       "https://html.spec.whatwg.org/multipage/infrastructure.html": {
@@ -516,6 +523,7 @@
         "anchors": [
           "navigateevent",
           "dom-navigateevent-signal",
+          "concept-document-window",
           "dom-navigationtype-traverse",
           "pageswapevent",
           "dom-pageswapevent-viewtransition",
@@ -524,8 +532,7 @@
           "navigationtype",
           "dom-navigationtype-push",
           "dom-navigationtype-replace",
-          "dom-navigationtype-reload",
-          "concept-document-window"
+          "dom-navigationtype-reload"
         ]
       },
       "https://html.spec.whatwg.org/multipage/scripting.html": {
@@ -541,9 +548,9 @@
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
-          "rendering-opportunity",
           "concept-relevant-global",
           "concept-relevant-realm",
+          "rendering-opportunity",
           "queue-a-global-task",
           "dom-manipulation-task-source",
           "concept-task",
@@ -558,20 +565,21 @@
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
-          "tuple",
-          "list",
-          "list-contain",
           "list-clone",
           "ordered-set",
           "ordered-map",
+          "tuple",
+          "list",
+          "list-contain",
           "struct",
           "struct-item",
+          "list-remove",
           "list-iterate",
           "map-getting-the-values",
           "implementation-defined",
           "iteration-continue",
-          "set-append",
           "list-append",
+          "set-append",
           "map-exists",
           "map-iterate",
           "assert",
@@ -595,9 +603,6 @@
       },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
-          "Exposed",
-          "SameObject",
-          "idl-frozen-array",
           "idl-promise",
           "idl-any",
           "idl-sequence",
@@ -607,22 +612,23 @@
           "invalidstateerror",
           "idl-DOMException",
           "aborterror",
+          "Exposed",
           "idl-undefined",
+          "SameObject",
           "a-new-promise",
           "mark-a-promise-as-handled",
           "getter-steps",
+          "dfn-setlike",
+          "idl-frozen-array",
           "idl-unrestricted-double",
           "resolve",
           "a-promise-resolved-with",
           "invoke-a-callback-function",
           "reject",
           "dfn-perform-steps-once-promise-is-settled",
-          "timeouterror"
-        ]
-      },
-      "https://www.w3.org/TR/CSS2/selector.html": {
-        "anchors": [
-          "x22"
+          "timeouterror",
+          "upon-fulfillment",
+          "upon-rejection"
         ]
       },
       "https://www.w3.org/TR/CSS2/visuren.html": {

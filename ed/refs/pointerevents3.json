@@ -1,7 +1,7 @@
 {
   "spec": {
     "title": "Pointer Events",
-    "url": "https://w3c.github.io/pointerevents/"
+    "url": "https://www.w3.org/TR/pointerevents3/"
   },
   "refs": {
     "normative": [
@@ -65,11 +65,11 @@
       },
       {
         "name": "PointerEvents",
-        "url": "https://www.w3.org/TR/pointerevents/"
+        "url": "https://www.w3.org/TR/pointerevents4/"
       },
       {
-        "name": "PointerEvents3",
-        "url": "https://www.w3.org/TR/pointerevents3/"
+        "name": "PointerEvents2",
+        "url": "https://www.w3.org/TR/pointerevents2/"
       },
       {
         "name": "WCAG22",

@@ -873,6 +873,28 @@
       "links": []
     },
     {
+      "id": "fetch-timing-info-service-worker-timing-info",
+      "href": "https://fetch.spec.whatwg.org/#fetch-timing-info-service-worker-timing-info",
+      "linkingText": [
+        "service worker timing info"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fetch timing info"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "infrastructure",
+        "href": "https://fetch.spec.whatwg.org/#infrastructure",
+        "title": "Infrastructure",
+        "number": "2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "fetch-timing-info-server-timing-headers",
       "href": "https://fetch.spec.whatwg.org/#fetch-timing-info-server-timing-headers",
       "linkingText": [
@@ -1055,6 +1077,26 @@
       "type": "dfn",
       "for": [],
       "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "infrastructure",
+        "href": "https://fetch.spec.whatwg.org/#infrastructure",
+        "title": "Infrastructure",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "is-offline",
+      "href": "https://fetch.spec.whatwg.org/#is-offline",
+      "linkingText": [
+        "is offline"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "infrastructure",
@@ -2202,6 +2244,26 @@
       "links": []
     },
     {
+      "id": "range-status",
+      "href": "https://fetch.spec.whatwg.org/#range-status",
+      "linkingText": [
+        "range status"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "statuses",
+        "href": "https://fetch.spec.whatwg.org/#statuses",
+        "title": "Statuses",
+        "number": "2.2.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "redirect-status",
       "href": "https://fetch.spec.whatwg.org/#redirect-status",
       "linkingText": [
@@ -3308,6 +3370,28 @@
       "links": []
     },
     {
+      "id": "request-webdriver-navigation-id",
+      "href": "https://fetch.spec.whatwg.org/#request-webdriver-navigation-id",
+      "linkingText": [
+        "WebDriver navigation id"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "request"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "requests",
+        "href": "https://fetch.spec.whatwg.org/#requests",
+        "title": "Requests",
+        "number": "2.2.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "request-render-blocking",
       "href": "https://fetch.spec.whatwg.org/#request-render-blocking",
       "linkingText": [
@@ -3317,6 +3401,112 @@
       "type": "dfn",
       "for": [
         "request"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "requests",
+        "href": "https://fetch.spec.whatwg.org/#requests",
+        "title": "Requests",
+        "number": "2.2.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "request-webtransport-hash-list",
+      "href": "https://fetch.spec.whatwg.org/#request-webtransport-hash-list",
+      "linkingText": [
+        "WebTransport-hash list"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "request"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "requests",
+        "href": "https://fetch.spec.whatwg.org/#requests",
+        "title": "Requests",
+        "number": "2.2.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "webtransport-hash-list",
+      "href": "https://fetch.spec.whatwg.org/#webtransport-hash-list",
+      "linkingText": [
+        "WebTransport-hash list"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "requests",
+        "href": "https://fetch.spec.whatwg.org/#requests",
+        "title": "Requests",
+        "number": "2.2.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "concept-WebTransport-hash",
+      "href": "https://fetch.spec.whatwg.org/#concept-WebTransport-hash",
+      "linkingText": [
+        "WebTransport-hash"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "requests",
+        "href": "https://fetch.spec.whatwg.org/#requests",
+        "title": "Requests",
+        "number": "2.2.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "webtransport-hash-algorithm",
+      "href": "https://fetch.spec.whatwg.org/#webtransport-hash-algorithm",
+      "linkingText": [
+        "algorithm"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "WebTransport-hash"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "requests",
+        "href": "https://fetch.spec.whatwg.org/#requests",
+        "title": "Requests",
+        "number": "2.2.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "webtransport-hash-value",
+      "href": "https://fetch.spec.whatwg.org/#webtransport-hash-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "WebTransport-hash"
       ],
       "access": "public",
       "informative": false,
@@ -3466,6 +3656,28 @@
       "href": "https://fetch.spec.whatwg.org/#timing-allow-failed",
       "linkingText": [
         "timing allow failed flag"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "request"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "requests",
+        "href": "https://fetch.spec.whatwg.org/#requests",
+        "title": "Requests",
+        "number": "2.2.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "concept-webdriver-id",
+      "href": "https://fetch.spec.whatwg.org/#concept-webdriver-id",
+      "linkingText": [
+        "WebDriver id"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -5070,6 +5282,28 @@
       "links": []
     },
     {
+      "id": "obtain-a-connection-webtransporthashes",
+      "href": "https://fetch.spec.whatwg.org/#obtain-a-connection-webtransporthashes",
+      "linkingText": [
+        "webTransportHashes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "obtain a connection"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "connections",
+        "href": "https://fetch.spec.whatwg.org/#connections",
+        "title": "Connections",
+        "number": "2.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "create-a-connection",
       "href": "https://fetch.spec.whatwg.org/#create-a-connection",
       "linkingText": [
@@ -5352,6 +5586,306 @@
       "links": []
     },
     {
+      "id": "serialized-ipv4",
+      "href": "https://fetch.spec.whatwg.org/#serialized-ipv4",
+      "linkingText": [
+        "serialized-ipv4"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dec-octet",
+      "href": "https://fetch.spec.whatwg.org/#dec-octet",
+      "linkingText": [
+        "dec-octet"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "serialized-ipv6",
+      "href": "https://fetch.spec.whatwg.org/#serialized-ipv6",
+      "linkingText": [
+        "serialized-ipv6"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "h16",
+      "href": "https://fetch.spec.whatwg.org/#h16",
+      "linkingText": [
+        "h16"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "non-zero-hex",
+      "href": "https://fetch.spec.whatwg.org/#non-zero-hex",
+      "linkingText": [
+        "non-zero-hex"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "hex",
+      "href": "https://fetch.spec.whatwg.org/#hex",
+      "linkingText": [
+        "hex"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "lower-alpha",
+      "href": "https://fetch.spec.whatwg.org/#lower-alpha",
+      "linkingText": [
+        "lower-alpha"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "lower-alphanum",
+      "href": "https://fetch.spec.whatwg.org/#lower-alphanum",
+      "linkingText": [
+        "lower-alphanum"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "domain-label",
+      "href": "https://fetch.spec.whatwg.org/#domain-label",
+      "linkingText": [
+        "domain-label"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "serialized-domain",
+      "href": "https://fetch.spec.whatwg.org/#serialized-domain",
+      "linkingText": [
+        "serialized-domain"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "serialized-scheme",
+      "href": "https://fetch.spec.whatwg.org/#serialized-scheme",
+      "linkingText": [
+        "serialized-scheme"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "serialized-host",
+      "href": "https://fetch.spec.whatwg.org/#serialized-host",
+      "linkingText": [
+        "serialized-host"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "serialized-port",
+      "href": "https://fetch.spec.whatwg.org/#serialized-port",
+      "linkingText": [
+        "serialized-port"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "serialized-origin",
+      "href": "https://fetch.spec.whatwg.org/#serialized-origin",
+      "linkingText": [
+        "serialized-origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "origin-or-null",
+      "href": "https://fetch.spec.whatwg.org/#origin-or-null",
+      "linkingText": [
+        "origin-or-null"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "origin-header",
+        "href": "https://fetch.spec.whatwg.org/#origin-header",
+        "title": "`Origin` header",
+        "number": "3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "append-a-request-origin-header",
       "href": "https://fetch.spec.whatwg.org/#append-a-request-origin-header",
       "linkingText": [
@@ -5589,6 +6123,26 @@
         "number": "3.3.3"
       },
       "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "wildcard",
+      "href": "https://fetch.spec.whatwg.org/#wildcard",
+      "linkingText": [
+        "wildcard"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "http-new-header-syntax",
+        "href": "https://fetch.spec.whatwg.org/#http-new-header-syntax",
+        "title": "HTTP new-header syntax",
+        "number": "3.3.4"
+      },
+      "definedIn": "pre",
       "links": []
     },
     {
@@ -9044,6 +9598,28 @@
       "href": "https://fetch.spec.whatwg.org/#dom-requestdestination-style",
       "linkingText": [
         "\"style\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "RequestDestination"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-class",
+        "href": "https://fetch.spec.whatwg.org/#request-class",
+        "title": "Request class",
+        "number": "5.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-requestdestination-text",
+      "href": "https://fetch.spec.whatwg.org/#dom-requestdestination-text",
+      "linkingText": [
+        "\"text\""
       ],
       "localLinkingText": [],
       "type": "enum-value",

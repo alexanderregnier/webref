@@ -3753,16 +3753,17 @@
       "links": []
     },
     {
-      "id": "dfn-user-aborts-the-payment-request",
-      "href": "https://w3c.github.io/payment-request/#dfn-user-aborts-the-payment-request",
+      "id": "dfn-user-aborts-the-payment-request-algorithm",
+      "href": "https://w3c.github.io/payment-request/#dfn-user-aborts-the-payment-request-algorithm",
       "linkingText": [
-        "user aborts the payment request",
         "user aborts the payment request algorithm"
       ],
-      "localLinkingText": [],
+      "localLinkingText": [
+        "user aborts the payment request"
+      ],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "user-aborts-the-payment-request-algorithm",
@@ -3772,6 +3773,29 @@
           "x18-8-user-aborts-the-payment-request-algorithm"
         ],
         "number": "18.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-payment-handler-indicates-an-internal-error-algorithm",
+      "href": "https://w3c.github.io/payment-request/#dfn-payment-handler-indicates-an-internal-error-algorithm",
+      "linkingText": [
+        "payment handler indicates an internal error algorithm"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "payment-handler-indicates-an-internal-error-algorithm",
+        "href": "https://w3c.github.io/payment-request/#payment-handler-indicates-an-internal-error-algorithm",
+        "title": "Payment handler indicates an internal error algorithm",
+        "alternateIds": [
+          "x18-9-payment-handler-indicates-an-internal-error-algorithm"
+        ],
+        "number": "18.9"
       },
       "definedIn": "prose",
       "links": []
@@ -3792,9 +3816,9 @@
         "href": "https://w3c.github.io/payment-request/#update-a-paymentrequest-s-details-algorithm",
         "title": "Update a PaymentRequest's details algorithm",
         "alternateIds": [
-          "x18-9-update-a-paymentrequest-s-details-algorithm"
+          "x18-10-update-a-paymentrequest-s-details-algorithm"
         ],
-        "number": "18.9"
+        "number": "18.10"
       },
       "definedIn": "prose",
       "links": []
@@ -3815,9 +3839,9 @@
         "href": "https://w3c.github.io/payment-request/#abort-the-update",
         "title": "Abort the update",
         "alternateIds": [
-          "x18-9-1-abort-the-update"
+          "x18-10-1-abort-the-update"
         ],
-        "number": "18.9.1"
+        "number": "18.10.1"
       },
       "definedIn": "prose",
       "links": []

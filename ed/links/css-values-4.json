@@ -197,10 +197,12 @@
       "https://drafts.csswg.org/css-anchor-position-1/": {},
       "https://drafts.csswg.org/css-animations/": {},
       "https://drafts.csswg.org/css-backgrounds/": {},
+      "https://drafts.csswg.org/css-borders-4/": {},
       "https://drafts.csswg.org/css-box-4/": {},
       "https://drafts.csswg.org/css-break/": {},
       "https://drafts.csswg.org/css-cascade-3/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
+      "https://drafts.csswg.org/css-cascade-6/": {},
       "https://drafts.csswg.org/css-color-3/": {},
       "https://drafts.csswg.org/css-color-4/": {
         "anchors": [
@@ -211,7 +213,7 @@
       "https://drafts.csswg.org/css-color-5/": {},
       "https://drafts.csswg.org/css-conditional-3/": {},
       "https://drafts.csswg.org/css-counter-styles/": {},
-      "https://drafts.csswg.org/css-display/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-easing/": {},
       "https://drafts.csswg.org/css-fonts-3/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
@@ -225,12 +227,13 @@
       },
       "https://drafts.csswg.org/css-images-4/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
+      "https://drafts.csswg.org/css-masking-1/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-overflow-4/": {},
       "https://drafts.csswg.org/css-page-3/": {},
       "https://drafts.csswg.org/css-position-3/": {},
       "https://drafts.csswg.org/css-rhythm/": {},
-      "https://drafts.csswg.org/css-scoping/": {},
+      "https://drafts.csswg.org/css-shadow-1/": {},
       "https://drafts.csswg.org/css-shapes/": {},
       "https://drafts.csswg.org/css-sizing-3/": {},
       "https://drafts.csswg.org/css-syntax-3/": {
@@ -254,12 +257,12 @@
       "https://drafts.csswg.org/mediaqueries-4/": {},
       "https://drafts.csswg.org/mediaqueries-5/": {},
       "https://drafts.csswg.org/web-animations-1/": {},
-      "https://drafts.fxtf.org/css-masking-1/": {},
       "https://en.wikipedia.org/wiki/Scientific_notation": {},
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/sass/sass/issues/684": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/csswg-drafts/issues/10017": {},
+      "https://github.com/w3c/csswg-drafts/issues/13795": {},
       "https://github.com/w3c/csswg-drafts/issues/2274": {},
       "https://github.com/w3c/csswg-drafts/issues/2921": {},
       "https://github.com/w3c/csswg-drafts/issues/3257": {},
@@ -549,6 +552,7 @@
       "https://www.w3.org/TR/2023/WD-css-values-4-20230406/": {},
       "https://www.w3.org/TR/2023/WD-css-values-4-20231027/": {},
       "https://www.w3.org/TR/2023/WD-css-values-4-20231218/": {},
+      "https://www.w3.org/TR/2024/WD-css-values-4-20240312/": {},
       "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/TR/CSS2/about.html": {
         "anchors": [
@@ -655,16 +659,20 @@
       },
       "https://drafts.csswg.org/css-backgrounds-3/": {
         "anchors": [
-          "propdef-border-width",
           "propdef-background-attachment",
-          "propdef-border-color",
           "propdef-background",
-          "propdef-box-shadow",
           "propdef-background-position",
           "valdef-background-position-center",
           "propdef-background-size",
           "background-positioning-area",
-          "propdef-background-image",
+          "propdef-background-image"
+        ]
+      },
+      "https://drafts.csswg.org/css-borders-4/": {
+        "anchors": [
+          "propdef-border-width",
+          "propdef-border-color",
+          "propdef-box-shadow",
           "propdef-border-top-width",
           "propdef-border-right-width",
           "propdef-border-bottom-width",
@@ -697,10 +705,14 @@
           "specified-value",
           "valdef-all-initial",
           "valdef-all-unset",
-          "at-ruledef-import",
           "used-value",
           "actual-value",
           "shorthand-property"
+        ]
+      },
+      "https://drafts.csswg.org/css-cascade-6/": {
+        "anchors": [
+          "at-ruledef-import"
         ]
       },
       "https://drafts.csswg.org/css-color-4/": {
@@ -779,6 +791,11 @@
           "propdef-vertical-align"
         ]
       },
+      "https://drafts.csswg.org/css-masking-1/": {
+        "anchors": [
+          "propdef-clip"
+        ]
+      },
       "https://drafts.csswg.org/css-overflow-3/": {
         "anchors": [
           "propdef-overflow",
@@ -808,7 +825,7 @@
           "propdef-block-step-size"
         ]
       },
-      "https://drafts.csswg.org/css-scoping-1/": {
+      "https://drafts.csswg.org/css-shadow-1/": {
         "anchors": [
           "css-tree-scoped-reference",
           "css-tree-scoped-name"
@@ -936,11 +953,6 @@
           "discrete"
         ]
       },
-      "https://drafts.fxtf.org/css-masking-1/": {
-        "anchors": [
-          "propdef-clip"
-        ]
-      },
       "https://fetch.spec.whatwg.org/": {
         "anchors": [
           "requestdestination",
@@ -983,9 +995,9 @@
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
+          "string",
           "ascii-case-insensitive",
           "string-is",
-          "string",
           "code-point",
           "implementation-defined",
           "list-iterate",

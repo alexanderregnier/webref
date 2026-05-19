@@ -146,11 +146,6 @@ partial interface Document {
   [SameObject] readonly attribute HTMLAllCollection all;
 };
 
-// Source: requestStorageAccessFor API (https://privacycg.github.io/requestStorageAccessFor/)
-partial interface Document {
-  Promise<undefined> requestStorageAccessFor(USVString requestedOrigin);
-};
-
 // Source: Extending Storage Access API (SAA) to non-cookie storage (https://privacycg.github.io/saa-non-cookie-storage/)
 partial interface Document {
   Promise<boolean> hasUnpartitionedCookieAccess();
@@ -175,6 +170,11 @@ partial interface Document {
     attribute EventHandler onfreeze;
     attribute EventHandler onresume;
     readonly attribute boolean wasDiscarded;
+};
+
+// Source: HTML Sanitizer API (https://wicg.github.io/sanitizer-api/)
+partial interface Document {
+  static Document parseHTML(DOMString html, optional SetHTMLOptions options = {});
 };
 
 // Source: URL Fragment Text Directives (https://wicg.github.io/scroll-to-text-fragment/)
@@ -204,7 +204,7 @@ partial interface Document {
   readonly attribute ViewTransition? activeViewTransition;
 };
 
-// Source: CSSOM View Module (https://www.w3.org/TR/cssom-view-1/)
+// Source: CSSOM View Module Level 1 (https://www.w3.org/TR/cssom-view-1/)
 partial interface Document {
   Element? elementFromPoint(double x, double y);
   sequence<Element> elementsFromPoint(double x, double y);
@@ -212,7 +212,7 @@ partial interface Document {
   readonly attribute Element? scrollingElement;
 };
 
-// Source: CSSOM View Module (https://www.w3.org/TR/cssom-view-1/)
+// Source: CSSOM View Module Level 1 (https://www.w3.org/TR/cssom-view-1/)
 Document includes GeometryUtils;
 
 // Source: Permissions Policy (https://www.w3.org/TR/permissions-policy-1/)
@@ -244,7 +244,10 @@ partial interface Document {
   readonly attribute SVGSVGElement? rootElement;
 };
 
-// Source: Web Animations (https://www.w3.org/TR/web-animations-1/)
+// Source: Accessible Rich Internet Applications (WAI-ARIA) 1.3 (https://www.w3.org/TR/wai-aria-1.3/)
+Document includes ARIANotifyMixin;
+
+// Source: Web Animations Module Level 1 (https://www.w3.org/TR/web-animations-1/)
 partial interface Document {
     readonly attribute DocumentTimeline timeline;
 };

@@ -31,6 +31,7 @@
         ]
       },
       "https://drafts.csswg.org/css-backgrounds/": {},
+      "https://drafts.csswg.org/css-borders-4/": {},
       "https://drafts.csswg.org/css-break-4/": {
         "anchors": [
           "break-margins"
@@ -42,12 +43,15 @@
           "intro"
         ]
       },
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
       "https://drafts.csswg.org/css-flexbox-1/": {
         "anchors": [
           "visibility-collapse"
         ]
       },
+      "https://drafts.csswg.org/css-flexbox-2/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
       "https://drafts.csswg.org/css-grid-1/": {
         "anchors": [
           "auto-repeat"
@@ -78,7 +82,7 @@
       "https://github.com/w3c/csswg-drafts/issues/8547": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
-      "https://svgwg.org/svg2-draft/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
       "https://www.w3.org/TR/2018/WD-css3-box-20180731/": {},
       "https://www.w3.org/TR/2022/WD-css-box-4-20221103/": {},
       "https://www.w3.org/TR/2024/WD-css-box-4-20240401/": {},
@@ -139,11 +143,15 @@
     "autolinks": {
       "https://drafts.csswg.org/css-backgrounds-3/": {
         "anchors": [
-          "propdef-border",
           "propdef-background",
-          "propdef-border-radius",
           "propdef-background-clip",
           "propdef-background-origin"
+        ]
+      },
+      "https://drafts.csswg.org/css-borders-4/": {
+        "anchors": [
+          "propdef-border",
+          "propdef-border-radius"
         ]
       },
       "https://drafts.csswg.org/css-break-4/": {
@@ -177,7 +185,7 @@
           "inline-level"
         ]
       },
-      "https://drafts.csswg.org/css-flexbox-1/": {
+      "https://drafts.csswg.org/css-flexbox-2/": {
         "anchors": [
           "flex-container",
           "flex-item",
@@ -240,7 +248,7 @@
           "writing-mode"
         ]
       },
-      "https://svgwg.org/svg2-draft/coords.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/coords.html": {
         "anchors": [
           "TermCanvas",
           "TermObjectBoundingBox",

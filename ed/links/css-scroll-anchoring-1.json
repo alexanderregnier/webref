@@ -26,7 +26,7 @@
       "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-anchor": {},
       "https://dom.spec.whatwg.org/": {},
       "https://drafts.csswg.org/css-box-4/": {},
-      "https://drafts.csswg.org/css-display/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-position-3/": {},
       "https://drafts.csswg.org/css-scroll-snap-1/": {},
@@ -36,6 +36,11 @@
       "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/css-writing-modes-4/": {},
       "https://drafts.csswg.org/css2/": {},
+      "https://drafts.csswg.org/cssom-view-1/": {
+        "anchors": [
+          "scrolling-events"
+        ]
+      },
       "https://drafts.csswg.org/cssom-view/": {},
       "https://github.com/WICG/ScrollAnchoring/blob/master/explainer.md": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
@@ -126,6 +131,7 @@
         "anchors": [
           "propdef-position",
           "valdef-position-fixed",
+          "valdef-position-sticky",
           "valdef-position-absolute",
           "propdef-top",
           "propdef-left",
@@ -170,6 +176,7 @@
       "https://drafts.csswg.org/cssom-view-1/": {
         "anchors": [
           "scrolling-box",
+          "scrolling-area",
           "eventdef-document-scroll",
           "dom-element-getboundingclientrect"
         ]

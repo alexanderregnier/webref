@@ -45,6 +45,7 @@
         ]
       },
       "https://drafts.csswg.org/css-counter-styles/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
       "https://drafts.csswg.org/css-fonts-3/": {},
       "https://drafts.csswg.org/css-images-3/": {},
@@ -84,7 +85,7 @@
       "https://infra.spec.whatwg.org/": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
-      "https://svgwg.org/svg2-draft/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
       "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/TR/CSS2/about.html": {
         "anchors": [
@@ -235,6 +236,8 @@
           "propdef-letter-spacing",
           "propdef-word-spacing",
           "propdef-white-space",
+          "propdef-white-space-collapse",
+          "propdef-white-space-trim",
           "forced-line-break"
         ]
       },
@@ -298,11 +301,11 @@
           "string",
           "map-iterate",
           "list-contain",
-          "list-remove",
-          "set-append"
+          "set-append",
+          "list-remove"
         ]
       },
-      "https://svgwg.org/svg2-draft/shapes.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/shapes.html": {
         "anchors": [
           "elementdef-rect"
         ]

@@ -19,7 +19,7 @@
       },
       {
         "name": "GEOMETRY-1",
-        "url": "https://drafts.fxtf.org/geometry/"
+        "url": "https://drafts.csswg.org/geometry/"
       },
       {
         "name": "HTML",
@@ -51,7 +51,7 @@
       },
       {
         "name": "SVG2",
-        "url": "https://svgwg.org/svg2-draft/"
+        "url": "https://w3c.github.io/svgwg/svg2-draft/"
       },
       {
         "name": "WEBIDL",
@@ -85,10 +85,6 @@
       },
       {
         "name": "WEBAUDIO",
-        "url": "https://webaudio.github.io/web-audio-api/"
-      },
-      {
-        "name": "WEBAUDIO-1.1",
         "url": "https://webaudio.github.io/web-audio-api/"
       },
       {

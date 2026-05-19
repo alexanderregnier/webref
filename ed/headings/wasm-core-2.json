@@ -1062,26 +1062,6 @@
       "number": "3.2.11"
     },
     {
-      "id": "xref-syntax-types-syntax-rectype-mathsf-rec-xref-syntax-types-syntax-subtype-mathit-subtype-ast",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#xref-syntax-types-syntax-rectype-mathsf-rec-xref-syntax-types-syntax-subtype-mathit-subtype-ast",
-      "level": 5,
-      "title": "rec subtype∗",
-      "alternateIds": [
-        "-hrefsyntax-rectypemathsfrechrefsyntax-subtypemathitsubtypeast"
-      ],
-      "number": "3.2.11.1"
-    },
-    {
-      "id": "xref-syntax-types-syntax-subtype-mathsf-sub-xref-syntax-types-syntax-subtype-mathsf-final-y-ast-xref-syntax-types-syntax-comptype-mathit-comptype",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#xref-syntax-types-syntax-subtype-mathsf-sub-xref-syntax-types-syntax-subtype-mathsf-final-y-ast-xref-syntax-types-syntax-comptype-mathit-comptype",
-      "level": 5,
-      "title": "sub final? y∗ comptype",
-      "alternateIds": [
-        "-hrefsyntax-subtypemathsfsubhrefsyntax-subtypemathsffinalyasthrefsyntax-comptypemathitcomptype"
-      ],
-      "number": "3.2.11.2"
-    },
-    {
       "id": "limits②",
       "href": "https://webassembly.github.io/spec/core/bikeshed/#limits%E2%91%A1",
       "level": 4,
@@ -2582,16 +2562,6 @@
       "number": "3.4.12"
     },
     {
-      "id": "empty-instruction-sequence-epsilon",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#empty-instruction-sequence-epsilon",
-      "level": 5,
-      "title": "Empty Instruction Sequence: ϵ",
-      "alternateIds": [
-        "empty-instruction-sequence--epsilon"
-      ],
-      "number": "3.4.12.1"
-    },
-    {
       "id": "expressions②",
       "href": "https://webassembly.github.io/spec/core/bikeshed/#expressions%E2%91%A1",
       "level": 4,
@@ -3134,12 +3104,22 @@
     {
       "id": "configurations",
       "href": "https://webassembly.github.io/spec/core/bikeshed/#configurations",
-      "level": 5,
+      "level": 4,
       "title": "Configurations",
       "alternateIds": [
         "configurations①"
       ],
-      "number": "4.2.18.1"
+      "number": "4.2.19"
+    },
+    {
+      "id": "id8",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#id8",
+      "level": 5,
+      "title": "Conventions",
+      "alternateIds": [
+        "conventions②⑨"
+      ],
+      "number": "4.2.19.1"
     },
     {
       "id": "numerics",
@@ -4662,12 +4642,12 @@
       "number": "4.6.2.2"
     },
     {
-      "id": "xref-syntax-instructions-syntax-instr-control-mathsf-if-mathit-bt-xref-syntax-instructions-syntax-instr-mathit-instr-1-ast-xref-syntax-instructions-syntax-instr-mathit-instr-2-ast",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#xref-syntax-instructions-syntax-instr-control-mathsf-if-mathit-bt-xref-syntax-instructions-syntax-instr-mathit-instr-1-ast-xref-syntax-instructions-syntax-instr-mathit-instr-2-ast",
+      "id": "xref-syntax-instructions-syntax-instr-control-mathsf-if-mathit-bt-xref-syntax-instructions-syntax-instr-mathit-instr-1-ast-xref-syntax-instructions-syntax-instr-control-mathsf-else-xref-syntax-instructions-syntax-instr-mathit-instr-2-ast",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#xref-syntax-instructions-syntax-instr-control-mathsf-if-mathit-bt-xref-syntax-instructions-syntax-instr-mathit-instr-1-ast-xref-syntax-instructions-syntax-instr-control-mathsf-else-xref-syntax-instructions-syntax-instr-mathit-instr-2-ast",
       "level": 5,
-      "title": "if bt instr1∗​ instr2∗​",
+      "title": "if bt instr1∗​ else instr2∗​",
       "alternateIds": [
-        "-hrefsyntax-instr-controlmathsfifmathitbthrefsyntax-instrmathitinstr_1asthrefsyntax-instrmathitinstr_2ast"
+        "-hrefsyntax-instr-controlmathsfifmathitbthrefsyntax-instrmathitinstr_1asthrefsyntax-instr-controlmathsfelsehrefsyntax-instrmathitinstr_2ast"
       ],
       "number": "4.6.2.3"
     },
@@ -5242,12 +5222,12 @@
       "number": "4.6.9"
     },
     {
-      "id": "xref-syntax-instructions-syntax-instr-ref-mathsf-ref-null-x",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#xref-syntax-instructions-syntax-instr-ref-mathsf-ref-null-x",
+      "id": "xref-syntax-instructions-syntax-instr-ref-mathsf-ref-null-mathit-ht①",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#xref-syntax-instructions-syntax-instr-ref-mathsf-ref-null-mathit-ht%E2%91%A0",
       "level": 5,
-      "title": "ref.null x",
+      "title": "ref.null ht",
       "alternateIds": [
-        "-hrefsyntax-instr-refmathsfrefnullx"
+        "-hrefsyntax-instr-refmathsfrefnullmathitht①"
       ],
       "number": "4.6.9.1"
     },
@@ -6052,12 +6032,12 @@
       "number": "4.7.1.20"
     },
     {
-      "id": "xref-exec-modules-alloc-type-mathrm-alloctype-ast-xref-syntax-types-syntax-rectype-mathit-type-ast",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#xref-exec-modules-alloc-type-mathrm-alloctype-ast-xref-syntax-types-syntax-rectype-mathit-type-ast",
+      "id": "xref-exec-modules-alloc-type-mathrm-alloctype-ast-xref-syntax-modules-syntax-type-mathit-type-ast",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#xref-exec-modules-alloc-type-mathrm-alloctype-ast-xref-syntax-modules-syntax-type-mathit-type-ast",
       "level": 5,
       "title": "alloctype∗(type′′∗)",
       "alternateIds": [
-        "-hrefalloc-typemathrmalloctypeast-hrefsyntax-rectypemathittypeast"
+        "-hrefalloc-typemathrmalloctypeast-hrefsyntax-typemathittypeast"
       ],
       "number": "4.7.1.21"
     },
@@ -6092,14 +6072,24 @@
       "number": "4.7.2.1"
     },
     {
-      "id": "xref-exec-modules-eval-globals-mathrm-evalglobal-ast-z-xref-syntax-types-syntax-globaltype-mathit-globaltype-ast-xref-syntax-instructions-syntax-expr-mathit-expr-ast",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#xref-exec-modules-eval-globals-mathrm-evalglobal-ast-z-xref-syntax-types-syntax-globaltype-mathit-globaltype-ast-xref-syntax-instructions-syntax-expr-mathit-expr-ast",
+      "id": "mathrm-evalexpr-ast-z-xref-syntax-instructions-syntax-expr-mathit-expr-ast",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#mathrm-evalexpr-ast-z-xref-syntax-instructions-syntax-expr-mathit-expr-ast",
+      "level": 5,
+      "title": "evalexpr∗(z,expr′′∗)",
+      "alternateIds": [
+        "-mathrmevalexprast-z-hrefsyntax-exprmathitexprast"
+      ],
+      "number": "4.7.2.2"
+    },
+    {
+      "id": "mathrm-evalglobal-ast-z-xref-syntax-types-syntax-globaltype-mathit-globaltype-ast-xref-syntax-instructions-syntax-expr-mathit-expr-ast",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#mathrm-evalglobal-ast-z-xref-syntax-types-syntax-globaltype-mathit-globaltype-ast-xref-syntax-instructions-syntax-expr-mathit-expr-ast",
       "level": 5,
       "title": "evalglobal∗(z,globaltype∗,expr′′∗)",
       "alternateIds": [
-        "-hrefeval-globalsmathrmevalglobalast-z-hrefsyntax-globaltypemathitglobaltypeast-hrefsyntax-exprmathitexprast"
+        "-mathrmevalglobalast-z-hrefsyntax-globaltypemathitglobaltypeast-hrefsyntax-exprmathitexprast"
       ],
-      "number": "4.7.2.2"
+      "number": "4.7.2.3"
     },
     {
       "id": "xref-exec-modules-aux-rundata-mathrm-rundata-x-xref-syntax-modules-syntax-data-mathsf-data-b-n-xref-syntax-modules-syntax-datamode-mathit-datamode",
@@ -6109,7 +6099,7 @@
       "alternateIds": [
         "-hrefaux-rundatamathrmrundata_x-hrefsyntax-datamathsfdatabnhrefsyntax-datamodemathitdatamode"
       ],
-      "number": "4.7.2.3"
+      "number": "4.7.2.4"
     },
     {
       "id": "xref-exec-modules-aux-runelem-mathrm-runelem-x-xref-syntax-modules-syntax-elem-mathsf-elem-mathit-rt-e-n-xref-syntax-modules-syntax-elemmode-mathit-elemmode",
@@ -6119,7 +6109,7 @@
       "alternateIds": [
         "-hrefaux-runelemmathrmrunelem_x-hrefsyntax-elemmathsfelemmathitrtenhrefsyntax-elemmodemathitelemmode"
       ],
-      "number": "4.7.2.4"
+      "number": "4.7.2.5"
     },
     {
       "id": "invocation①",
@@ -6152,12 +6142,12 @@
       "number": "5"
     },
     {
-      "id": "conventions②⑨",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#conventions%E2%91%A1%E2%91%A8",
+      "id": "conventions③⓪",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#conventions%E2%91%A2%E2%93%AA",
       "level": 3,
       "title": "Conventions",
       "alternateIds": [
-        "conventions③⓪"
+        "conventions③①"
       ],
       "number": "5.1"
     },
@@ -6462,6 +6452,16 @@
       "number": "5.4.6"
     },
     {
+      "id": "aggregate-instructions②",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#aggregate-instructions%E2%91%A1",
+      "level": 4,
+      "title": "Aggregate Instructions",
+      "alternateIds": [
+        "aggregate-instructions③"
+      ],
+      "number": "5.4.7"
+    },
+    {
       "id": "numeric-instructions⑥",
       "href": "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A5",
       "level": 4,
@@ -6469,7 +6469,7 @@
       "alternateIds": [
         "numeric-instructions⑦"
       ],
-      "number": "5.4.7"
+      "number": "5.4.8"
     },
     {
       "id": "vector-instructions⑥",
@@ -6479,7 +6479,7 @@
       "alternateIds": [
         "vector-instructions⑦"
       ],
-      "number": "5.4.8"
+      "number": "5.4.9"
     },
     {
       "id": "expressions⑥",
@@ -6489,7 +6489,7 @@
       "alternateIds": [
         "expressions⑦"
       ],
-      "number": "5.4.9"
+      "number": "5.4.10"
     },
     {
       "id": "modules⑧",
@@ -6682,12 +6682,12 @@
       "number": "6"
     },
     {
-      "id": "conventions③①",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#conventions%E2%91%A2%E2%91%A0",
+      "id": "conventions③②",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#conventions%E2%91%A2%E2%91%A1",
       "level": 3,
       "title": "Conventions",
       "alternateIds": [
-        "conventions③②"
+        "conventions③③"
       ],
       "number": "6.1"
     },
@@ -6727,7 +6727,7 @@
       "level": 5,
       "title": "Conventions",
       "alternateIds": [
-        "conventions③③"
+        "conventions③④"
       ],
       "number": "6.1.3.1"
     },
@@ -6862,12 +6862,12 @@
       "number": "6.3.5"
     },
     {
-      "id": "conventions③④",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#conventions%E2%91%A2%E2%91%A3",
+      "id": "conventions③⑤",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#conventions%E2%91%A2%E2%91%A4",
       "level": 5,
       "title": "Conventions",
       "alternateIds": [
-        "conventions③⑤"
+        "conventions③⑥"
       ],
       "number": "6.3.5.1"
     },
@@ -7192,6 +7192,16 @@
       "number": "6.5.7"
     },
     {
+      "id": "aggregate-instructions④",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#aggregate-instructions%E2%91%A3",
+      "level": 4,
+      "title": "Aggregate Instructions",
+      "alternateIds": [
+        "aggregate-instructions⑤"
+      ],
+      "number": "6.5.8"
+    },
+    {
       "id": "numeric-instructions⑧",
       "href": "https://webassembly.github.io/spec/core/bikeshed/#numeric-instructions%E2%91%A7",
       "level": 4,
@@ -7199,7 +7209,7 @@
       "alternateIds": [
         "numeric-instructions⑨"
       ],
-      "number": "6.5.8"
+      "number": "6.5.9"
     },
     {
       "id": "vector-instructions⑧",
@@ -7209,7 +7219,7 @@
       "alternateIds": [
         "vector-instructions⑨"
       ],
-      "number": "6.5.9"
+      "number": "6.5.10"
     },
     {
       "id": "folded-instructions",
@@ -7219,7 +7229,7 @@
       "alternateIds": [
         "folded-instructions①"
       ],
-      "number": "6.5.10"
+      "number": "6.5.11"
     },
     {
       "id": "expressions⑧",
@@ -7229,7 +7239,7 @@
       "alternateIds": [
         "expressions⑨"
       ],
-      "number": "6.5.11"
+      "number": "6.5.12"
     },
     {
       "id": "modules①①",
@@ -7442,8 +7452,8 @@
       "number": "6.6.12"
     },
     {
-      "id": "id8",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#id8",
+      "id": "id8①",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#id8%E2%91%A0",
       "level": 5,
       "title": "Abbreviations",
       "alternateIds": [
@@ -7960,12 +7970,12 @@
       "number": "A.2"
     },
     {
-      "id": "conventions③⑥",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#conventions%E2%91%A2%E2%91%A5",
+      "id": "conventions③⑦",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#conventions%E2%91%A2%E2%91%A6",
       "level": 4,
       "title": "Conventions",
       "alternateIds": [
-        "conventions③⑦"
+        "conventions③⑧"
       ]
     },
     {
@@ -8114,60 +8124,6 @@
       ]
     },
     {
-      "id": "heap-type-xref-valid-conventions-syntax-heaptype-ext-mathsf-bot",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#heap-type-xref-valid-conventions-syntax-heaptype-ext-mathsf-bot",
-      "level": 5,
-      "title": "Heap Type bot",
-      "alternateIds": [
-        "heap-type--hrefsyntax-heaptype-extmathsfbot"
-      ]
-    },
-    {
-      "id": "heap-type-xref-syntax-types-syntax-heaptype-mathsf-rec-i",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#heap-type-xref-syntax-types-syntax-heaptype-mathsf-rec-i",
-      "level": 5,
-      "title": "Heap Type rec i",
-      "alternateIds": [
-        "heap-type--hrefsyntax-heaptypemathsfreci"
-      ]
-    },
-    {
-      "id": "value-type-xref-valid-conventions-syntax-valtype-ext-mathsf-bot",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#value-type-xref-valid-conventions-syntax-valtype-ext-mathsf-bot",
-      "level": 5,
-      "title": "Value Type bot",
-      "alternateIds": [
-        "value-type--hrefsyntax-valtype-extmathsfbot"
-      ]
-    },
-    {
-      "id": "recursive-types-xref-syntax-types-syntax-rectype-mathsf-rec-xref-syntax-types-syntax-subtype-mathit-subtype-ast",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#recursive-types-xref-syntax-types-syntax-rectype-mathsf-rec-xref-syntax-types-syntax-subtype-mathit-subtype-ast",
-      "level": 5,
-      "title": "Recursive Types rec subtype∗",
-      "alternateIds": [
-        "recursive-types--hrefsyntax-rectypemathsfrechrefsyntax-subtypemathitsubtypeast"
-      ]
-    },
-    {
-      "id": "sub-types-xref-syntax-types-syntax-subtype-mathsf-sub-xref-syntax-types-syntax-subtype-mathsf-final-mathit-ht-ast-xref-syntax-types-syntax-comptype-mathit-comptype",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#sub-types-xref-syntax-types-syntax-subtype-mathsf-sub-xref-syntax-types-syntax-subtype-mathsf-final-mathit-ht-ast-xref-syntax-types-syntax-comptype-mathit-comptype",
-      "level": 5,
-      "title": "Sub types sub final? ht∗ comptype",
-      "alternateIds": [
-        "sub-types--hrefsyntax-subtypemathsfsubhrefsyntax-subtypemathsffinalmathithtasthrefsyntax-comptypemathitcomptype"
-      ]
-    },
-    {
-      "id": "defined-types-xref-syntax-types-syntax-rectype-mathit-rectype-i",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#defined-types-xref-syntax-types-syntax-rectype-mathit-rectype-i",
-      "level": 5,
-      "title": "Defined types rectype.i",
-      "alternateIds": [
-        "defined-types--hrefsyntax-rectypemathitrectypei"
-      ]
-    },
-    {
       "id": "subtyping①",
       "href": "https://webassembly.github.io/spec/core/bikeshed/#subtyping%E2%91%A0",
       "level": 4,
@@ -8258,12 +8214,12 @@
       ]
     },
     {
-      "id": "table-instances-xref-exec-runtime-syntax-tableinst-mathsf-type-xref-syntax-types-syntax-addrtype-mathit-addrtype-xref-syntax-types-syntax-limits-mathit-limits-t-xref-exec-runtime-syntax-tableinst-mathsf-elem-xref-exec-runtime-syntax-ref-mathit-ref-ast",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#table-instances-xref-exec-runtime-syntax-tableinst-mathsf-type-xref-syntax-types-syntax-addrtype-mathit-addrtype-xref-syntax-types-syntax-limits-mathit-limits-t-xref-exec-runtime-syntax-tableinst-mathsf-elem-xref-exec-runtime-syntax-ref-mathit-ref-ast",
+      "id": "table-instances-xref-exec-runtime-syntax-tableinst-mathsf-type-xref-syntax-types-syntax-addrtype-mathit-addrtype-xref-syntax-types-syntax-limits-mathit-limits-t-xref-exec-runtime-syntax-tableinst-mathsf-refs-xref-exec-runtime-syntax-ref-mathit-ref-ast",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#table-instances-xref-exec-runtime-syntax-tableinst-mathsf-type-xref-syntax-types-syntax-addrtype-mathit-addrtype-xref-syntax-types-syntax-limits-mathit-limits-t-xref-exec-runtime-syntax-tableinst-mathsf-refs-xref-exec-runtime-syntax-ref-mathit-ref-ast",
       "level": 5,
-      "title": "Table Instances {type (addrtype limits t),elem ref∗}",
+      "title": "Table Instances {type (addrtype limits t),refs ref∗}",
       "alternateIds": [
-        "table-instances---hrefsyntax-tableinstmathsftype-hrefsyntax-addrtypemathitaddrtypehrefsyntax-limitsmathitlimitst-hrefsyntax-tableinstmathsfelemhrefsyntax-refmathitrefast"
+        "table-instances---hrefsyntax-tableinstmathsftype-hrefsyntax-addrtypemathitaddrtypehrefsyntax-limitsmathitlimitst-hrefsyntax-tableinstmathsfrefshrefsyntax-refmathitrefast"
       ]
     },
     {
@@ -8294,12 +8250,12 @@
       ]
     },
     {
-      "id": "element-instances-xref-exec-runtime-syntax-eleminst-mathsf-type-t-xref-exec-runtime-syntax-eleminst-mathsf-elem-xref-exec-runtime-syntax-ref-mathit-ref-ast",
-      "href": "https://webassembly.github.io/spec/core/bikeshed/#element-instances-xref-exec-runtime-syntax-eleminst-mathsf-type-t-xref-exec-runtime-syntax-eleminst-mathsf-elem-xref-exec-runtime-syntax-ref-mathit-ref-ast",
+      "id": "element-instances-xref-exec-runtime-syntax-eleminst-mathsf-type-t-xref-exec-runtime-syntax-eleminst-mathsf-refs-xref-exec-runtime-syntax-ref-mathit-ref-ast",
+      "href": "https://webassembly.github.io/spec/core/bikeshed/#element-instances-xref-exec-runtime-syntax-eleminst-mathsf-type-t-xref-exec-runtime-syntax-eleminst-mathsf-refs-xref-exec-runtime-syntax-ref-mathit-ref-ast",
       "level": 5,
-      "title": "Element Instances {type t,elem ref∗}",
+      "title": "Element Instances {type t,refs ref∗}",
       "alternateIds": [
-        "element-instances---hrefsyntax-eleminstmathsftypet-hrefsyntax-eleminstmathsfelemhrefsyntax-refmathitrefast"
+        "element-instances---hrefsyntax-eleminstmathsftypet-hrefsyntax-eleminstmathsfrefshrefsyntax-refmathitrefast"
       ]
     },
     {

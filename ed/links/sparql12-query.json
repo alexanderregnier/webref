@@ -31,10 +31,7 @@
       "https://github.com/w3c/sparql-query/issues/231": {},
       "https://github.com/w3c/sparql-query/issues/246": {},
       "https://github.com/w3c/sparql-query/issues/247": {},
-      "https://github.com/w3c/sparql-query/issues/248": {},
-      "https://github.com/w3c/sparql-query/issues/254": {},
-      "https://github.com/w3c/sparql-query/issues/266": {},
-      "https://github.com/w3c/sparql-query/issues/267": {},
+      "https://github.com/w3c/sparql-query/issues/349": {},
       "https://github.com/w3c/sparql-query/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Abug%22": {},
       "https://github.com/w3c/sparql-query/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Aeditorial%22": {},
       "https://github.com/w3c/sparql-query/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Aenhancement%22": {},
@@ -46,7 +43,11 @@
       "https://www.rfc-editor.org/rfc/rfc3986": {},
       "https://www.rfc-editor.org/rfc/rfc3987": {},
       "https://www.rfc-editor.org/rfc/rfc4122": {},
-      "https://www.rfc-editor.org/rfc/rfc4647": {},
+      "https://www.rfc-editor.org/rfc/rfc4647": {
+        "anchors": [
+          "section-2.1"
+        ]
+      },
       "https://www.rfc-editor.org/rfc/rfc5646": {},
       "https://www.rfc-editor.org/rfc/rfc8174": {},
       "https://www.unicode.org/reports/tr31/tr31-43.html": {},
@@ -85,6 +86,7 @@
           "dfn-surrogate"
         ]
       },
+      "https://www.w3.org/TR/rdf-concepts/": {},
       "https://www.w3.org/TR/rdf-dawg-uc/": {},
       "https://www.w3.org/TR/rdf-sparql-XMLres/": {},
       "https://www.w3.org/TR/rdf12-concepts/": {
@@ -100,13 +102,13 @@
           "dfn-triple-term",
           "note-bnode-id",
           "dfn-blank-node-identifier",
+          "defined-version-labels",
           "dfn-rdf-dataset",
           "dfn-rdf-term-equality",
-          "iri",
           "dfn-iri-equality",
           "dfn-literal-term-equality",
           "dfn-blank-node-equality",
-          "dfn-triple-term-equality",
+          "dfn-triple-equality",
           "dfn-subject",
           "dfn-predicate",
           "dfn-object",
@@ -115,7 +117,6 @@
           "dfn-simple-literal",
           "dfn-rdf-triple",
           "dfn-rdf-terms",
-          "dfn-IRI",
           "dfn-graph-name",
           "dfn-rdf-string"
         ]
@@ -123,8 +124,9 @@
       "https://www.w3.org/TR/rdf12-semantics/": {
         "anchors": [
           "collections",
-          "dfn-merge",
+          "dfn-rdf-graph-merge",
           "dfn-instance",
+          "dfn-merging",
           "dfn-lean",
           "dfn-interpolation"
         ]
@@ -134,11 +136,7 @@
       "https://www.w3.org/TR/sparql11-entailment/": {},
       "https://www.w3.org/TR/sparql11-federated-query/": {},
       "https://www.w3.org/TR/sparql11-protocol/": {},
-      "https://www.w3.org/TR/sparql11-query/": {
-        "anchors": [
-          "defn_sparqlSolutionMapping"
-        ]
-      },
+      "https://www.w3.org/TR/sparql11-query/": {},
       "https://www.w3.org/TR/sparql11-results-csv-tsv/": {},
       "https://www.w3.org/TR/sparql11-results-json/": {},
       "https://www.w3.org/TR/sparql11-update/": {
@@ -150,6 +148,7 @@
       "https://www.w3.org/TR/sparql12-federated-query/": {},
       "https://www.w3.org/TR/sparql12-graph-store-protocol/": {},
       "https://www.w3.org/TR/sparql12-protocol/": {},
+      "https://www.w3.org/TR/sparql12-query/": {},
       "https://www.w3.org/TR/sparql12-results-csv-tsv/": {},
       "https://www.w3.org/TR/sparql12-results-json/": {},
       "https://www.w3.org/TR/sparql12-results-xml/": {},
@@ -169,6 +168,7 @@
       },
       "https://www.w3.org/TR/xml11/": {
         "anchors": [
+          "NT-Char",
           "sec-notation"
         ]
       },
@@ -194,7 +194,8 @@
           "dt-unsignedInt",
           "dt-unsignedShort",
           "dt-unsignedByte",
-          "dt-positiveInteger"
+          "dt-positiveInteger",
+          "dateTime-value-space"
         ]
       },
       "https://www.w3.org/TR/xpath-31/": {
@@ -210,6 +211,7 @@
       "https://www.w3.org/TR/xpath-functions-31/": {
         "anchors": [
           "regex-syntax",
+          "conformance",
           "collations",
           "func-numeric-unary-plus",
           "func-numeric-unary-minus",
@@ -269,6 +271,13 @@
         ]
       }
     },
-    "autolinks": {}
+    "autolinks": {
+      "https://www.w3.org/TR/rdf-concepts/": {
+        "anchors": [
+          "dfn-rdf-term",
+          "dfn-rdf-triple"
+        ]
+      }
+    }
   }
 }

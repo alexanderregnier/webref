@@ -44,8 +44,8 @@
         "anchors": [
           "document",
           "eventtarget",
-          "concept-document",
-          "concept-event-fire"
+          "concept-event-fire",
+          "concept-document"
         ]
       },
       "https://html.spec.whatwg.org/multipage/browsers.html": {
@@ -63,9 +63,10 @@
           "browsing-context",
           "concept-document-bc",
           "fully-active",
-          "top-level-browsing-context",
+          "top-level-traversable",
           "nav-document",
-          "descendant-navigables"
+          "descendant-navigables",
+          "top-level-browsing-context"
         ]
       },
       "https://html.spec.whatwg.org/multipage/infrastructure.html": {
@@ -75,6 +76,7 @@
       },
       "https://html.spec.whatwg.org/multipage/interaction.html": {
         "anchors": [
+          "fully-active-descendant-of-a-top-level-traversable-with-user-attention",
           "visibility-state"
         ]
       },
@@ -118,6 +120,7 @@
           "a-promise-rejected-with",
           "notsupportederror",
           "idl-DOMException",
+          "notallowederror",
           "aborterror",
           "a-new-promise",
           "invalidstateerror",
@@ -130,7 +133,8 @@
       "https://www.w3.org/TR/appmanifest/": {
         "anchors": [
           "dfn-installed-web-application",
-          "dfn-orientation"
+          "dfn-orientation",
+          "dfn-display-mode"
         ]
       },
       "https://www.w3.org/TR/cssom-view-1/": {

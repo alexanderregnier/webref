@@ -603,6 +603,7 @@
       "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-contain-1/": {},
       "https://drafts.csswg.org/css-content-3/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
       "https://drafts.csswg.org/css-grid-2/": {},
       "https://drafts.csswg.org/css-images-3/": {},
@@ -625,7 +626,7 @@
         ]
       },
       "https://drafts.csswg.org/css-regions/": {},
-      "https://drafts.csswg.org/css-scoping/": {},
+      "https://drafts.csswg.org/css-shadow-1/": {},
       "https://drafts.csswg.org/css-sizing-3/": {},
       "https://drafts.csswg.org/css-sizing-4/": {},
       "https://drafts.csswg.org/css-transitions-2/": {
@@ -647,13 +648,14 @@
       "https://drafts.csswg.org/css-writing-modes-4/": {},
       "https://drafts.csswg.org/css2/": {},
       "https://drafts.csswg.org/cssom-view/": {},
+      "https://drafts.csswg.org/filter-effects-1/": {},
       "https://drafts.csswg.org/resize-observer/": {},
+      "https://drafts.csswg.org/selectors/": {},
       "https://drafts.csswg.org/web-animations-1/": {
         "anchors": [
           "animating-visibility"
         ]
       },
-      "https://drafts.fxtf.org/filter-effects-1/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/csswg-drafts/issues/10433": {},
       "https://github.com/w3c/csswg-drafts/issues/8627": {},
@@ -1221,8 +1223,8 @@
       "https://infra.spec.whatwg.org/": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
-      "https://svgwg.org/svg2-draft/": {},
       "https://w3c.github.io/IntersectionObserver/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://wpt.fyi/results/css/css-contain/contain-animation-001.html": {},
       "https://wpt.fyi/results/css/css-contain/contain-body-bg-001.html": {},
@@ -1953,7 +1955,7 @@
           "selectordef-marker"
         ]
       },
-      "https://drafts.csswg.org/css-scoping-1/": {
+      "https://drafts.csswg.org/css-shadow-1/": {
         "anchors": [
           "flat-tree"
         ]
@@ -2027,20 +2029,25 @@
           "dom-element-scrollintoview"
         ]
       },
+      "https://drafts.csswg.org/filter-effects-1/": {
+        "anchors": [
+          "funcdef-filter-blur"
+        ]
+      },
       "https://drafts.csswg.org/resize-observer-1/": {
         "anchors": [
           "resizeobserver"
+        ]
+      },
+      "https://drafts.csswg.org/selectors-4/": {
+        "anchors": [
+          "pseudo-element"
         ]
       },
       "https://drafts.csswg.org/web-animations-1/": {
         "anchors": [
           "animation-type",
           "discrete"
-        ]
-      },
-      "https://drafts.fxtf.org/filter-effects-1/": {
-        "anchors": [
-          "funcdef-filter-blur"
         ]
       },
       "https://html.spec.whatwg.org/multipage/dom.html": {
@@ -2078,15 +2085,15 @@
           "iteration-continue"
         ]
       },
-      "https://svgwg.org/svg2-draft/struct.html": {
-        "anchors": [
-          "elementdef-svg"
-        ]
-      },
       "https://w3c.github.io/IntersectionObserver/": {
         "anchors": [
           "intersectionobserver",
           "intersectionobserver-intersection-root"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/struct.html": {
+        "anchors": [
+          "elementdef-svg"
         ]
       },
       "https://webidl.spec.whatwg.org/": {

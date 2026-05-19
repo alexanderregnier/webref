@@ -10,6 +10,7 @@
       "https://dom.spec.whatwg.org/": {},
       "https://drafts.css-houdini.org/css-paint-api-1/": {},
       "https://drafts.csswg.org/css-color-adjust-1/": {},
+      "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-values-3/": {},
       "https://drafts.csswg.org/css2/": {},
       "https://drafts.csswg.org/cssom-view-1/": {
@@ -18,8 +19,8 @@
         ]
       },
       "https://drafts.csswg.org/cssom-view/": {},
+      "https://drafts.csswg.org/geometry/": {},
       "https://drafts.csswg.org/selectors/": {},
-      "https://drafts.fxtf.org/geometry/": {},
       "https://encoding.spec.whatwg.org/": {},
       "https://fetch.spec.whatwg.org/": {},
       "https://fs.spec.whatwg.org/": {},
@@ -34,7 +35,6 @@
       "https://infra.spec.whatwg.org/": {},
       "https://lists.w3.org/Archives/Public/public-browser-tools-testing/": {},
       "https://mimesniff.spec.whatwg.org/": {},
-      "https://svgwg.org/svg2-draft/": {},
       "https://tc39.es/ecma262/multipage/": {},
       "https://tc39.es/ecma402/": {},
       "https://url.spec.whatwg.org/": {},
@@ -46,11 +46,28 @@
       "https://w3c.github.io/hr-time/": {},
       "https://w3c.github.io/resource-timing/": {},
       "https://w3c.github.io/screen-orientation/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
+      "https://w3c.github.io/touch-events/": {},
       "https://w3c.github.io/webdriver/": {},
+      "https://w3c.github.io/webtransport/": {},
       "https://webaudio.github.io/web-audio-api/": {},
-      "https://webbluetoothcg.github.io/web-bluetooth/": {},
+      "https://webbluetoothcg.github.io/web-bluetooth/": {
+        "anchors": [
+          "automated-testing"
+        ]
+      },
       "https://webidl.spec.whatwg.org/": {},
-      "https://wicg.github.io/nav-speculation/prefetch.html": {},
+      "https://websockets.spec.whatwg.org/": {},
+      "https://wicg.github.io/nav-speculation/prefetch.html": {
+        "anchors": [
+          "automated-testing"
+        ]
+      },
+      "https://wicg.github.io/ua-client-hints/": {
+        "anchors": [
+          "automation"
+        ]
+      },
       "https://www.jsonrpc.org/specification": {},
       "https://www.rfc-editor.org/rfc/rfc4648": {},
       "https://www.rfc-editor.org/rfc/rfc5280": {},
@@ -59,7 +76,16 @@
       "https://www.rfc-editor.org/rfc/rfc9562": {},
       "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/TR/": {},
-      "https://www.w3.org/TR/permissions/": {},
+      "https://www.w3.org/TR/digital-credentials/": {
+        "anchors": [
+          "automated-testing"
+        ]
+      },
+      "https://www.w3.org/TR/permissions/": {
+        "anchors": [
+          "automation-webdriver-bidi"
+        ]
+      },
       "https://www.w3.org/groups/wg/browser-tools-testing/": {},
       "https://www.w3.org/groups/wg/browser-tools-testing/ipr/": {},
       "https://www.w3.org/policies/patent-policy/": {
@@ -146,9 +172,15 @@
       },
       "https://drafts.csswg.org/css-color-adjust-1/": {
         "anchors": [
-          "set-emulated-forced-colors-theme-data",
           "forced-colors-mode",
-          "enumdef-forcedcolorsmodeautomationtheme"
+          "enumdef-forcedcolorsmodeautomationtheme",
+          "set-emulated-forced-colors-theme-data"
+        ]
+      },
+      "https://drafts.csswg.org/css-overflow-3/": {
+        "anchors": [
+          "classic-scrollbars",
+          "overlay-scrollbars"
         ]
       },
       "https://drafts.csswg.org/css-values-3/": {
@@ -176,7 +208,13 @@
           "dom-element-scrollheight",
           "dom-element-scrollwidth",
           "evaluate-media-queries-and-report-changes",
-          "layout-viewport"
+          "layout-viewport",
+          "web-exposed-available-screen-area"
+        ]
+      },
+      "https://drafts.csswg.org/geometry-1/": {
+        "anchors": [
+          "domrectreadonly"
         ]
       },
       "https://drafts.csswg.org/mediaqueries-4/": {
@@ -190,11 +228,6 @@
           "parse-a-selector",
           "match-a-selector-against-a-tree",
           "scoping-root"
-        ]
-      },
-      "https://drafts.fxtf.org/geometry-1/": {
-        "anchors": [
-          "domrectreadonly"
         ]
       },
       "https://drafts.fxtf.org/geometry/": {
@@ -320,10 +353,10 @@
       },
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
         "anchors": [
-          "top-level-traversable",
-          "node-navigable",
           "navigables",
           "nav-top",
+          "top-level-traversable",
+          "node-navigable",
           "nav-window",
           "child-navigable",
           "nav-parent",
@@ -390,6 +423,7 @@
           "concept-document-window",
           "dom-document-defaultview",
           "window-navigable",
+          "blocking-webtransport",
           "windowproxy",
           "set-up-a-window-environment-settings-object"
         ]
@@ -410,6 +444,7 @@
           "realm-execution-context",
           "concept-script-base-url",
           "queue-a-task",
+          "concept-relevant-realm",
           "concept-settings-object-global",
           "concept-settings-object-time-origin",
           "api-base-url",
@@ -421,7 +456,6 @@
           "concept-settings-object-origin",
           "creating-a-classic-script",
           "concept-environment-execution-ready-flag",
-          "concept-relevant-realm",
           "worker-event-loop-2",
           "responsible-event-loop",
           "environment-settings-object's-realm",
@@ -463,21 +497,23 @@
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "ordered-map",
-          "list",
-          "ordered-set",
           "struct",
+          "struct-item",
+          "map-exists",
+          "ordered-set",
+          "set-append",
+          "list-iterate",
+          "list-append",
+          "list",
           "list-contain",
           "iteration-continue",
-          "list-iterate",
           "set-intersection",
           "list-empty",
-          "set-append",
           "iteration-break",
           "implementation-defined",
           "assert",
           "scalar-value-string",
           "parse-a-json-string-to-an-infra-value",
-          "map-exists",
           "serialize-an-infra-value-to-json-bytes",
           "list-remove",
           "map-getting-the-values",
@@ -486,13 +522,11 @@
           "convert-a-json-derived-javascript-value-to-an-infra-value",
           "set-union",
           "set-create",
-          "list-append",
           "set-difference",
           "map-sort-in-ascending-order",
           "list-clone",
           "set-equal",
           "map-set",
-          "struct-item",
           "forgiving-base64-encode",
           "list-size",
           "list-extend",
@@ -523,18 +557,13 @@
           "computed-mime-type"
         ]
       },
-      "https://svgwg.org/svg2-draft/coords.html": {
-        "anchors": [
-          "TermCanvas"
-        ]
-      },
       "https://tc39.es/ecma262/": {
         "anchors": [
           "sec-code-realms",
           "sec-time-values-and-time-range",
           "sec-undefined-value",
-          "current-realm",
           "sec-systemtimezoneidentifier",
+          "current-realm",
           "sec-istimezoneoffsetstring",
           "sec-availablenamedtimezoneidentifiers",
           "sec-null-value",
@@ -575,7 +604,6 @@
       },
       "https://tc39.es/ecma402/": {
         "anchors": [
-          "sec-defaultlocale",
           "sec-isstructurallyvalidlanguagetag"
         ]
       },
@@ -601,31 +629,36 @@
       },
       "https://w3c.github.io/hr-time/": {
         "anchors": [
-          "dfn-get-time-origin-timestamp"
+          "get-time-origin-timestamp"
         ]
       },
       "https://w3c.github.io/resource-timing/": {
         "anchors": [
-          "dfn-convert-fetch-timestamp"
+          "convert-fetch-timestamp"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/coords.html": {
+        "anchors": [
+          "TermCanvas"
         ]
       },
       "https://w3c.github.io/webdriver/": {
         "anchors": [
+          "errors",
+          "dfn-error-code",
+          "dfn-invalid-argument",
+          "dfn-try",
           "dfn-local-ends",
           "dfn-remote-ends",
           "dfn-sessions",
           "dfn-active-sessions",
           "dfn-remote-end-steps",
-          "dfn-error-code",
           "dfn-success",
-          "errors",
-          "dfn-invalid-argument",
           "dfn-session-id",
           "dfn-intermediary-nodes",
           "dfn-endpoint-node",
           "dfn-invalid-session-id",
           "dfn-unknown-command",
-          "dfn-try",
           "dfn-webdriver-new-session-algorithms",
           "dfn-getting-properties",
           "dfn-set-a-property",
@@ -676,6 +709,11 @@
           "dfn-user-prompt-handler"
         ]
       },
+      "https://w3c.github.io/webtransport/": {
+        "anchors": [
+          "webtransport-cleanup"
+        ]
+      },
       "https://webaudio.github.io/web-audio-api/": {
         "anchors": [
           "AudioWorkletGlobalScope"
@@ -688,6 +726,11 @@
           "this",
           "exceptiondef-typeerror",
           "dfn-platform-object"
+        ]
+      },
+      "https://websockets.spec.whatwg.org/": {
+        "anchors": [
+          "websocket"
         ]
       },
       "https://www.rfc-editor.org/rfc/rfc8610": {
@@ -725,6 +768,11 @@
           "dfn-current-orientation-type",
           "dfn-screen-orientation-values-lists",
           "dfn-screen-orientation-change-steps"
+        ]
+      },
+      "https://www.w3.org/community/reports/touchevents/CG-FINAL-touch-events-20240704/": {
+        "anchors": [
+          "conditionally-exposing-legacy-touch-event-apis"
         ]
       },
       "https://www.w3.org/policies/patent-policy/": {}

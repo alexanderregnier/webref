@@ -19,7 +19,7 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display/"
+        "url": "https://drafts.csswg.org/css-display-4/"
       },
       {
         "name": "CSS-FONTS-5",
@@ -86,8 +86,8 @@
         "url": "https://drafts.csswg.org/css-writing-modes-3/"
       },
       {
-        "name": "HTML",
-        "url": "https://html.spec.whatwg.org/multipage/"
+        "name": "HTML-RUBY-EXTENSIONS",
+        "url": "https://w3c.github.io/html-ruby/"
       },
       {
         "name": "RFC2119",
@@ -105,11 +105,7 @@
       },
       {
         "name": "CSS-FLEXBOX-1",
-        "url": "https://drafts.csswg.org/css-flexbox-1/"
-      },
-      {
-        "name": "I18N-GLOSSARY",
-        "url": "https://w3c.github.io/i18n-glossary/"
+        "url": "https://drafts.csswg.org/css-flexbox/"
       },
       {
         "name": "JIS4051"

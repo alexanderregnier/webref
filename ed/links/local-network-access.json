@@ -20,13 +20,14 @@
           "concept-request-policy-container"
         ]
       },
-      "https://github.com/WICG/private-network-access/issues/28": {},
-      "https://github.com/WICG/private-network-access/issues/39": {},
-      "https://github.com/WICG/private-network-access/issues/50": {},
-      "https://github.com/WICG/private-network-access/issues/75": {},
-      "https://github.com/WICG/private-network-access/issues/83": {},
-      "https://github.com/WICG/private-network-access/issues/96": {},
-      "https://github.com/WICG/private-network-accesss/issues/39": {},
+      "https://github.com/w3c/webappsec-permissions-policy/issues/207": {},
+      "https://github.com/wicg/local-network-access/issues/103": {},
+      "https://github.com/wicg/private-network-access/issues/28": {},
+      "https://github.com/wicg/private-network-access/issues/39": {},
+      "https://github.com/wicg/private-network-access/issues/50": {},
+      "https://github.com/wicg/private-network-access/issues/83": {},
+      "https://github.com/wicg/private-network-access/issues/96": {},
+      "https://github.com/wicg/private-network-accesss/issues/39": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/browsers.html": {
         "anchors": [
@@ -74,7 +75,12 @@
       "https://www.rfc-editor.org/rfc/rfc6555": {},
       "https://www.rfc-editor.org/rfc/rfc6598": {},
       "https://www.rfc-editor.org/rfc/rfc8305": {},
-      "https://www.rfc-editor.org/rfc/rfc9637": {}
+      "https://www.rfc-editor.org/rfc/rfc9637": {},
+      "https://www.w3.org/TR/webtransport/": {
+        "anchors": [
+          "obtain-a-webtransport-connection"
+        ]
+      }
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -94,17 +100,17 @@
           "concept-fetch",
           "concept-connection-obtain",
           "concept-connection",
-          "concept-connection-pool",
+          "create-a-connection",
           "concept-response",
+          "concept-http-network-fetch",
+          "concept-http-network-or-cache-fetch",
           "concept-request-origin",
           "concept-network-error",
-          "concept-http-network-fetch",
-          "concept-http-fetch",
+          "concept-request-url",
           "requestinfo",
           "requestinit",
           "request",
           "dom-request",
-          "concept-http-network-or-cache-fetch",
           "network-partition-key"
         ]
       },
@@ -121,11 +127,18 @@
           "concept-document-policy-container"
         ]
       },
+      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
+        "anchors": [
+          "allowed-to-use"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
           "secure-context",
           "environment-settings-object",
           "concept-settings-object-policy-container",
+          "concept-settings-object-global",
+          "concept-document-window",
           "non-secure-context"
         ]
       },
@@ -147,14 +160,20 @@
       },
       "https://url.spec.whatwg.org/": {
         "anchors": [
-          "dom-url-host"
+          "dom-url-host",
+          "ip-address",
+          "concept-url-host",
+          "host-public-suffix"
         ]
       },
       "https://w3c.github.io/permissions/": {
         "anchors": [
           "dfn-powerful-feature",
           "dfn-default-powerful-feature",
-          "dfn-name"
+          "dfn-getting-the-current-permission-state",
+          "dfn-denied",
+          "dfn-granted",
+          "dfn-prompt-the-user-to-choose"
         ]
       },
       "https://w3c.github.io/webappsec-mixed-content/": {
@@ -165,7 +184,8 @@
       "https://w3c.github.io/webappsec-permissions-policy/": {
         "anchors": [
           "policy-controlled-feature",
-          "policy-controlled-feature-default-allowlist"
+          "policy-controlled-feature-default-allowlist",
+          "default-allowlist-self"
         ]
       },
       "https://w3c.github.io/webappsec-secure-contexts/": {

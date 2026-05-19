@@ -150,54 +150,6 @@
       "links": []
     },
     {
-      "id": "dfn-bindings",
-      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-bindings",
-      "linkingText": [
-        "bindings",
-        "binding"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
-        "title": "Terminology",
-        "alternateIds": [
-          "x1-1-terminology"
-        ],
-        "number": "1.1"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "dfn-solutions",
-      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-solutions",
-      "linkingText": [
-        "solutions",
-        "solution"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
-        "title": "Terminology",
-        "alternateIds": [
-          "x1-1-terminology"
-        ],
-        "number": "1.1"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "dfn-shacl-subclass",
       "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-subclass",
       "linkingText": [
@@ -819,8 +771,7 @@
       "id": "dfn-severity",
       "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-severity",
       "linkingText": [
-        "severity",
-        "severities"
+        "severity"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1724,11 +1675,11 @@
       "links": []
     },
     {
-      "id": "dfn-conforms",
-      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-conforms",
+      "id": "dfn-conform",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-conform",
       "linkingText": [
-        "conforms",
         "conform",
+        "conforms",
         "conformance"
       ],
       "localLinkingText": [],

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Scroll-driven Animations",
+    "title": "Scroll-driven Animations Module Level 1",
     "url": "https://drafts.csswg.org/scroll-animations-1/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/scroll-animations-1/#title",
       "level": 1,
-      "title": "Scroll-driven Animations"
+      "title": "Scroll-driven Animations Module Level 1"
     },
     {
       "id": "abstract",
@@ -281,8 +281,8 @@
       "title": "Attaching Animations to Timeline Ranges"
     },
     {
-      "id": "examples",
-      "href": "https://drafts.csswg.org/scroll-animations-1/#examples",
+      "id": "animation-range-examples",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#animation-range-examples",
       "level": 4,
       "title": "Examples"
     },
@@ -394,7 +394,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/scroll-animations-1/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

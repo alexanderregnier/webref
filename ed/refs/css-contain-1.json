@@ -23,7 +23,7 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display/"
+        "url": "https://drafts.csswg.org/css-display-4/"
       },
       {
         "name": "CSS-IMAGES-3",
@@ -82,8 +82,12 @@
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
       },
       {
+        "name": "SELECTORS-4",
+        "url": "https://drafts.csswg.org/selectors/"
+      },
+      {
         "name": "SVG2",
-        "url": "https://svgwg.org/svg2-draft/"
+        "url": "https://w3c.github.io/svgwg/svg2-draft/"
       }
     ],
     "informative": [
@@ -121,7 +125,7 @@
       },
       {
         "name": "FILTER-EFFECTS-1",
-        "url": "https://drafts.fxtf.org/filter-effects-1/"
+        "url": "https://drafts.csswg.org/filter-effects-1/"
       }
     ]
   }

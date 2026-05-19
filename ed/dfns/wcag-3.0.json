@@ -97,6 +97,29 @@
       "links": []
     },
     {
+      "id": "dfn-ascii-art",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-ascii-art",
+      "linkingText": [
+        "ASCII art"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dfn-assertion",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-assertion",
       "linkingText": [
@@ -217,6 +240,52 @@
       "links": []
     },
     {
+      "id": "dfn-available",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-available",
+      "linkingText": [
+        "available"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-biometric",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-biometric",
+      "linkingText": [
+        "biometric"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dfn-blinking",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-blinking",
       "linkingText": [
@@ -240,33 +309,11 @@
       "links": []
     },
     {
-      "id": "dfn-blocks-of-text",
-      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-blocks-of-text",
+      "id": "dfn-block-of-text",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-block-of-text",
       "linkingText": [
+        "block of text",
         "blocks of text"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "glossary",
-        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
-        "title": "GlossaryDeveloping",
-        "alternateIds": [
-          "x4-glossary"
-        ],
-        "number": "4"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "dfn-camera-input",
-      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-camera-input",
-      "linkingText": [
-        "camera input"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -309,10 +356,102 @@
       "links": []
     },
     {
+      "id": "dfn-clear-language",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-clear-language",
+      "linkingText": [
+        "clear language"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-cognitive-function-test",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-cognitive-function-test",
+      "linkingText": [
+        "cognitive function test"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-color-contrast",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-color-contrast",
+      "linkingText": [
+        "color contrast"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dfn-common-keyboard-navigation-technique",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-common-keyboard-navigation-technique",
       "linkingText": [
         "common keyboard navigation technique"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-complex-numerical-information",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-complex-numerical-information",
+      "linkingText": [
+        "complex numerical information"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -403,10 +542,80 @@
       "links": []
     },
     {
+      "id": "dfn-conformance-scope",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-conformance-scope",
+      "linkingText": [
+        "conformance scope"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dfn-content",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-content",
       "linkingText": [
         "content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-content-author",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-content-author",
+      "linkingText": [
+        "content author",
+        "content author(s)"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-context-sensitive-help",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-context-sensitive-help",
+      "linkingText": [
+        "context-sensitive help"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -449,10 +658,102 @@
       "links": []
     },
     {
+      "id": "dfn-conversational-support",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-conversational-support",
+      "linkingText": [
+        "conversational support"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-css-pixel",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-css-pixel",
+      "linkingText": [
+        "css pixel"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dfn-decorative",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-decorative",
       "linkingText": [
         "decorative"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-default-orientation",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-default-orientation",
+      "linkingText": [
+        "default orientation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-default-visual-presentation",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-default-visual-presentation",
+      "linkingText": [
+        "default visual presentation"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -522,7 +823,31 @@
       "id": "dfn-down-event",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-down-event",
       "linkingText": [
-        "down event"
+        "down event",
+        "down"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-equivalent",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-equivalent",
+      "linkingText": [
+        "equivalent"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -545,7 +870,30 @@
       "id": "dfn-essential-exception",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-essential-exception",
       "linkingText": [
-        "essential exception",
+        "essential exception"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-essential-to-outcome",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-essential-to-outcome",
+      "linkingText": [
+        "essential to outcome",
         "essential"
       ],
       "localLinkingText": [],
@@ -612,10 +960,10 @@
       "links": []
     },
     {
-      "id": "dfn-figure-captions",
-      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-figure-captions",
+      "id": "dfn-figure-caption",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-figure-caption",
       "linkingText": [
-        "figure captions"
+        "figure caption"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -640,6 +988,29 @@
       "linkingText": [
         "flash",
         "flashing"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-focus-indicator",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-focus-indicator",
+      "linkingText": [
+        "focus indicator"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -751,6 +1122,29 @@
       "links": []
     },
     {
+      "id": "dfn-high-frequency-corpus",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-high-frequency-corpus",
+      "linkingText": [
+        "high-frequency corpus"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dfn-human-evaluation",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-human-evaluation",
       "linkingText": [
@@ -762,6 +1156,29 @@
         "manual evaluation",
         "manual testing",
         "manually tested"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-human-language",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-human-language",
+      "linkingText": [
+        "human language"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -807,8 +1224,7 @@
       "id": "dfn-image-role",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-image-role",
       "linkingText": [
-        "image role",
-        "role"
+        "image role"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -832,6 +1248,29 @@
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-image-type",
       "linkingText": [
         "image type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-infinite-scrolling",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-infinite-scrolling",
+      "linkingText": [
+        "infinite scrolling"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -878,8 +1317,7 @@
       "id": "dfn-interactive-element",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-interactive-element",
       "linkingText": [
-        "interactive element",
-        "interactive component"
+        "interactive element"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -968,6 +1406,121 @@
       "links": []
     },
     {
+      "id": "dfn-label",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-label",
+      "linkingText": [
+        "label"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-legal-information",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-legal-information",
+      "linkingText": [
+        "legal information"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-live",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-live",
+      "linkingText": [
+        "live"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-long-form-text-content",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-long-form-text-content",
+      "linkingText": [
+        "long-form text content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-meaningful-blocks-of-content",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-meaningful-blocks-of-content",
+      "linkingText": [
+        "meaningful blocks of content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dfn-mechanism",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-mechanism",
       "linkingText": [
@@ -991,10 +1544,10 @@
       "links": []
     },
     {
-      "id": "dfn-media-alternatives",
-      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-media-alternatives",
+      "id": "dfn-media-alternative",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-media-alternative",
       "linkingText": [
-        "media alternatives"
+        "media alternative"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1018,6 +1571,52 @@
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-method",
       "linkingText": [
         "method"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-minimum-bounding-box",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-minimum-bounding-box",
+      "linkingText": [
+        "minimum bounding box"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-nested-clause",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-nested-clause",
+      "linkingText": [
+        "nested clause"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1083,10 +1682,10 @@
       "links": []
     },
     {
-      "id": "dfn-normative",
-      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-normative",
+      "id": "dfn-non-text-content",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-non-text-content",
       "linkingText": [
-        "normative"
+        "non-text content"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1106,10 +1705,10 @@
       "links": []
     },
     {
-      "id": "dfn-open-captions",
-      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-open-captions",
+      "id": "dfn-normative",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-normative",
       "linkingText": [
-        "open captions"
+        "normative"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1156,7 +1755,7 @@
       "id": "dfn-path-based-gesture",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-path-based-gesture",
       "linkingText": [
-        "path-based gesture"
+        "Path-based gesture"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1247,6 +1846,52 @@
       "links": []
     },
     {
+      "id": "dfn-prerecorded",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-prerecorded",
+      "linkingText": [
+        "prerecorded"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-presentation",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-presentation",
+      "linkingText": [
+        "presentation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dfn-private-and-sensitive-information",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-private-and-sensitive-information",
       "linkingText": [
@@ -1275,29 +1920,6 @@
       "linkingText": [
         "process",
         "processes"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "glossary",
-        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
-        "title": "GlossaryDeveloping",
-        "alternateIds": [
-          "x4-glossary"
-        ],
-        "number": "4"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "dfn-product",
-      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-product",
-      "linkingText": [
-        "product"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1368,10 +1990,57 @@
       "links": []
     },
     {
+      "id": "dfn-relationship-of-meaning",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-relationship-of-meaning",
+      "linkingText": [
+        "relationship of meaning",
+        "relationships of meaning"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dfn-relative-luminance",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-relative-luminance",
       "linkingText": [
         "relative luminance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-rendered-content",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-rendered-content",
+      "linkingText": [
+        "rendered content"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1460,6 +2129,52 @@
       "links": []
     },
     {
+      "id": "dfn-sign-language",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-sign-language",
+      "linkingText": [
+        "sign language"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-sign-language-interpretation",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-sign-language-interpretation",
+      "linkingText": [
+        "sign language interpretation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dfn-simple-pointer-input",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-simple-pointer-input",
       "linkingText": [
@@ -1483,10 +2198,10 @@
       "links": []
     },
     {
-      "id": "dfn-single-pointer",
-      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-single-pointer",
+      "id": "dfn-single-pointer-input",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-single-pointer-input",
       "linkingText": [
-        "single pointer"
+        "single pointer input"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1506,11 +2221,10 @@
       "links": []
     },
     {
-      "id": "dfn-single-pointer-input",
-      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-single-pointer-input",
+      "id": "dfn-spatial-audio",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-spatial-audio",
       "linkingText": [
-        "single pointer input",
-        "single pointer inputs"
+        "spatial audio"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1534,6 +2248,121 @@
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-standard-platform-keyboard-commands",
       "linkingText": [
         "standard platform keyboard commands"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-starting-point",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-starting-point",
+      "linkingText": [
+        "starting point"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-state",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-state",
+      "linkingText": [
+        "state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-structural-component",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-structural-component",
+      "linkingText": [
+        "structural component"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-support",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-support",
+      "linkingText": [
+        "support"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-synchronized-media",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-synchronized-media",
+      "linkingText": [
+        "synchronized media"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1645,10 +2474,80 @@
       "links": []
     },
     {
+      "id": "dfn-text-content",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-text-content",
+      "linkingText": [
+        "text content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-transcript",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-transcript",
+      "linkingText": [
+        "transcript"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-unnecessary-words",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-unnecessary-words",
+      "linkingText": [
+        "unnecessary words"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dfn-up-event",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-up-event",
       "linkingText": [
-        "up event"
+        "up event",
+        "up"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1694,8 +2593,30 @@
       "id": "dfn-user-agent",
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-user-agent",
       "linkingText": [
-        "user agent",
-        "user agents"
+        "user agent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-user-interface-component",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-user-interface-component",
+      "linkingText": [
+        "user interface component"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1742,6 +2663,29 @@
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-user-manipulable-text",
       "linkingText": [
         "user-manipulable text"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-variation-of-product-or-process",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-variation-of-product-or-process",
+      "linkingText": [
+        "variation of product or process"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1812,6 +2756,52 @@
       "href": "https://w3c.github.io/wcag3/guidelines/#dfn-viewport",
       "linkingText": [
         "viewport"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-visual-aids",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-visual-aids",
+      "linkingText": [
+        "visual aids"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://w3c.github.io/wcag3/guidelines/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x4-glossary"
+        ],
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-visually-collocated-with",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-visually-collocated-with",
+      "linkingText": [
+        "visually collocated with"
       ],
       "localLinkingText": [],
       "type": "dfn",

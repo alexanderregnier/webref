@@ -78,7 +78,7 @@
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
-        "name": "infra",
+        "name": "INFRA",
         "url": "https://infra.spec.whatwg.org/"
       },
       {
@@ -96,6 +96,10 @@
       {
         "name": "SVG",
         "url": "https://www.w3.org/TR/SVG/"
+      },
+      {
+        "name": "URL",
+        "url": "https://url.spec.whatwg.org/"
       },
       {
         "name": "webidl",

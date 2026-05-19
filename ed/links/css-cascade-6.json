@@ -43,30 +43,34 @@
           "layer-ordering"
         ]
       },
+      "https://drafts.csswg.org/css-conditional-3/": {},
       "https://drafts.csswg.org/css-conditional-5/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-fonts-5/": {},
+      "https://drafts.csswg.org/css-namespaces/": {},
       "https://drafts.csswg.org/css-nesting-1/": {
         "anchors": [
           "mixing"
         ]
       },
       "https://drafts.csswg.org/css-nesting/": {},
-      "https://drafts.csswg.org/css-scoping-1/": {
+      "https://drafts.csswg.org/css-scoping/": {
         "anchors": [
           "shadow-dom"
         ]
       },
-      "https://drafts.csswg.org/css-scoping/": {},
+      "https://drafts.csswg.org/css-shadow-1/": {},
       "https://drafts.csswg.org/css-style-attr/": {},
       "https://drafts.csswg.org/css-syntax/": {},
       "https://drafts.csswg.org/css-transitions/": {},
       "https://drafts.csswg.org/css-values-3/": {},
-      "https://drafts.csswg.org/css2/": {},
+      "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/cssom/": {
         "anchors": [
           "documentorshadowroot-final-css-style-sheets"
         ]
       },
+      "https://drafts.csswg.org/mediaqueries-4/": {},
       "https://drafts.csswg.org/selectors-3/": {},
       "https://drafts.csswg.org/selectors/": {},
       "https://fetch.spec.whatwg.org/": {},
@@ -78,6 +82,7 @@
       "https://github.com/w3c/csswg-drafts/issues/6606": {},
       "https://github.com/w3c/csswg-drafts/issues/6790": {},
       "https://github.com/w3c/csswg-drafts/issues/6895": {},
+      "https://github.com/w3c/csswg-drafts/issues/7348": {},
       "https://github.com/w3c/csswg-drafts/issues/7382": {},
       "https://github.com/w3c/csswg-drafts/issues/7709": {},
       "https://github.com/w3c/csswg-drafts/issues/8377": {},
@@ -86,6 +91,7 @@
       "https://github.com/w3c/csswg-drafts/issues/8628": {},
       "https://github.com/w3c/csswg-drafts/issues/9025": {},
       "https://github.com/w3c/csswg-drafts/issues/9178": {},
+      "https://github.com/w3c/csswg-drafts/issues/9740": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/urls-and-fetching.html": {
         "anchors": [
@@ -98,15 +104,32 @@
       "https://www.w3.org/TR/2021/WD-css-cascade-6-20211221/": {},
       "https://www.w3.org/TR/2023/WD-css-cascade-6-20230321/": {},
       "https://www.w3.org/TR/CSS/": {},
+      "https://www.w3.org/TR/CSS2/media.html": {
+        "anchors": [
+          "media-types"
+        ]
+      },
       "https://www.w3.org/TR/css-cascade-3/": {},
       "https://www.w3.org/TR/css-cascade-4/": {},
       "https://www.w3.org/TR/css-cascade-5/": {},
+      "https://www.w3.org/TR/css-conditional-3/": {
+        "anchors": [
+          "support-definition"
+        ]
+      },
+      "https://www.w3.org/TR/css-conditional/": {},
       "https://www.w3.org/TR/css-nesting/": {},
       "https://www.w3.org/TR/css-style-attr/": {
         "anchors": [
           "interpret"
         ]
       },
+      "https://www.w3.org/TR/mediaqueries-4/": {
+        "anchors": [
+          "width"
+        ]
+      },
+      "https://www.w3.org/TR/mediaqueries/": {},
       "https://www.w3.org/TR/selectors/": {
         "anchors": [
           "specificity"
@@ -117,13 +140,15 @@
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
         "anchors": [
+          "parent-element",
+          "concept-document-quirks",
           "concept-shadow-tree",
           "concept-shadow-including-tree-order",
           "boundary-point-node",
           "concept-tree-inclusive-descendant",
-          "parent-element",
           "concept-node-tree",
           "concept-tree-root",
+          "concept-tree-descendant",
           "concept-shadow-root"
         ]
       },
@@ -134,14 +159,14 @@
       },
       "https://drafts.csswg.org/css-cascade-5/": {
         "anchors": [
+          "typedef-layer-name",
+          "cascade-layers",
+          "at-ruledef-layer",
           "declared-value",
           "cascaded-value",
           "cascade-origin-ua",
           "cascade-origin-user",
           "cascade-origin-author",
-          "cascade-layers",
-          "at-ruledef-import",
-          "at-ruledef-layer",
           "valdef-all-revert-layer",
           "valdef-all-revert",
           "propdef-all",
@@ -149,9 +174,26 @@
           "valdef-all-unset"
         ]
       },
+      "https://drafts.csswg.org/css-conditional-3/": {
+        "anchors": [
+          "typedef-supports-condition",
+          "conditional-group-rule",
+          "at-ruledef-media",
+          "at-ruledef-supports",
+          "supports-queries"
+        ]
+      },
       "https://drafts.csswg.org/css-conditional-5/": {
         "anchors": [
+          "at-ruledef-supports-condition",
+          "typedef-declaration",
+          "typedef-supports-decl",
           "funcdef-supports"
+        ]
+      },
+      "https://drafts.csswg.org/css-display-4/": {
+        "anchors": [
+          "propdef-display"
         ]
       },
       "https://drafts.csswg.org/css-fonts-5/": {
@@ -159,23 +201,31 @@
           "at-font-face-rule"
         ]
       },
+      "https://drafts.csswg.org/css-namespaces-3/": {
+        "anchors": [
+          "at-ruledef-namespace"
+        ]
+      },
       "https://drafts.csswg.org/css-nesting-1/": {
         "anchors": [
+          "nested-style-rule",
           "selectordef-",
-          "nested-declarations-rule%E2%91%A0",
+          "nested-declarations-rule",
           "contain-the-nesting-selector"
         ]
       },
-      "https://drafts.csswg.org/css-scoping-1/": {
+      "https://drafts.csswg.org/css-shadow-1/": {
         "anchors": [
           "tree-context"
         ]
       },
       "https://drafts.csswg.org/css-syntax-3/": {
         "anchors": [
+          "at-ruledef-charset",
+          "style-rule",
+          "environment-encoding",
           "declaration",
           "block-at-rule",
-          "style-rule",
           "at-rule",
           "typedef-rule-list",
           "typedef-block-contents",
@@ -185,7 +235,17 @@
       },
       "https://drafts.csswg.org/css-values-3/": {
         "anchors": [
-          "mult-opt"
+          "comb-one",
+          "comb-any",
+          "mult-opt",
+          "funcdef-url",
+          "mult-req"
+        ]
+      },
+      "https://drafts.csswg.org/css-values-4/": {
+        "anchors": [
+          "url-value",
+          "string-value"
         ]
       },
       "https://drafts.csswg.org/cssom-1/": {
@@ -196,17 +256,24 @@
           "cssomstring"
         ]
       },
+      "https://drafts.csswg.org/mediaqueries-4/": {
+        "anchors": [
+          "typedef-media-query-list",
+          "media-query-list"
+        ]
+      },
       "https://drafts.csswg.org/selectors-4/": {
         "anchors": [
           "scoping-root",
+          "relative-selector",
           "selector-subject",
           "scoped-selector",
           "scope-pseudo",
           "featureless",
           "typedef-selector-list",
           "selector",
+          "pseudo-element",
           "typedef-relative-selector-list",
-          "relative-selector",
           "selector-combinator",
           "descendant-combinator",
           "specificity"
@@ -214,7 +281,14 @@
       },
       "https://fetch.spec.whatwg.org/": {
         "anchors": [
+          "concept-response",
+          "concept-response-url",
           "cors-protocol"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/browsers.html": {
+        "anchors": [
+          "same-origin"
         ]
       },
       "https://html.spec.whatwg.org/multipage/embedded-content.html": {
@@ -227,19 +301,14 @@
           "the-style-element"
         ]
       },
+      "https://html.spec.whatwg.org/multipage/urls-and-fetching.html": {
+        "anchors": [
+          "content-type"
+        ]
+      },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "Exposed"
-        ]
-      },
-      "https://www.w3.org/TR/CSS2/selector.html": {
-        "anchors": [
-          "x22"
-        ]
-      },
-      "https://www.w3.org/TR/css-scoping-1/": {
-        "anchors": [
-          "shadow-host"
         ]
       }
     }

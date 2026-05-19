@@ -111,7 +111,7 @@
         "href": "https://w3c.github.io/webtransport/#webtransportdatagramswritable"
       },
       "WebTransportDatagramDuplexStream": {
-        "fragment": "[Exposed=(Window,Worker), SecureContext]\ninterface WebTransportDatagramDuplexStream {\n  WebTransportDatagramsWritable createWritable(\n      optional WebTransportSendOptions options = {});\n  readonly attribute ReadableStream readable;\n\n  readonly attribute unsigned long maxDatagramSize;\n  attribute unrestricted double? incomingMaxAge;\n  attribute unrestricted double? outgoingMaxAge;\n  attribute unrestricted double incomingHighWaterMark;\n  attribute unrestricted double outgoingHighWaterMark;\n};",
+        "fragment": "[Exposed=(Window,Worker), SecureContext]\ninterface WebTransportDatagramDuplexStream {\n  WebTransportDatagramsWritable createWritable(\n      optional WebTransportSendOptions options = {});\n  readonly attribute ReadableStream readable;\n\n  readonly attribute unsigned long maxDatagramSize;\n  attribute unrestricted double? incomingMaxAge;\n  attribute unrestricted double? outgoingMaxAge;\n  attribute unsigned long incomingMaxBufferedDatagrams;\n  attribute unsigned long outgoingMaxBufferedDatagrams;\n};",
         "type": "interface",
         "name": "WebTransportDatagramDuplexStream",
         "inheritance": null,
@@ -217,35 +217,35 @@
           },
           {
             "type": "attribute",
-            "name": "incomingHighWaterMark",
+            "name": "incomingMaxBufferedDatagrams",
             "idlType": {
               "type": "attribute-type",
               "extAttrs": [],
               "generic": "",
               "nullable": false,
               "union": false,
-              "idlType": "unrestricted double"
+              "idlType": "unsigned long"
             },
             "extAttrs": [],
             "special": "",
             "readonly": false,
-            "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-incominghighwatermark"
+            "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-incomingmaxbuffereddatagrams"
           },
           {
             "type": "attribute",
-            "name": "outgoingHighWaterMark",
+            "name": "outgoingMaxBufferedDatagrams",
             "idlType": {
               "type": "attribute-type",
               "extAttrs": [],
               "generic": "",
               "nullable": false,
               "union": false,
-              "idlType": "unrestricted double"
+              "idlType": "unsigned long"
             },
             "extAttrs": [],
             "special": "",
             "readonly": false,
-            "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-outgoinghighwatermark"
+            "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-outgoingmaxbuffereddatagrams"
           }
         ],
         "extAttrs": [
@@ -276,7 +276,7 @@
         "href": "https://w3c.github.io/webtransport/#webtransportdatagramduplexstream"
       },
       "WebTransport": {
-        "fragment": "[Exposed=(Window,Worker), SecureContext]\ninterface WebTransport {\n  constructor(USVString url, optional WebTransportOptions options = {});\n\n  Promise<WebTransportConnectionStats> getStats();\n  [NewObject] Promise<ArrayBuffer> exportKeyingMaterial(BufferSource label, optional BufferSource context);\n  readonly attribute Promise<undefined> ready;\n  readonly attribute WebTransportReliabilityMode reliability;\n  readonly attribute WebTransportCongestionControl congestionControl;\n  [EnforceRange] attribute unsigned short? anticipatedConcurrentIncomingUnidirectionalStreams;\n  [EnforceRange] attribute unsigned short? anticipatedConcurrentIncomingBidirectionalStreams;\n  readonly attribute DOMString protocol;\n\n  readonly attribute Promise<WebTransportCloseInfo> closed;\n  readonly attribute Promise<undefined> draining;\n  undefined close(optional WebTransportCloseInfo closeInfo = {});\n\n  readonly attribute WebTransportDatagramDuplexStream datagrams;\n\n  Promise<WebTransportBidirectionalStream> createBidirectionalStream(\n      optional WebTransportSendStreamOptions options = {});\n  /* a ReadableStream of WebTransportBidirectionalStream objects */\n  readonly attribute ReadableStream incomingBidirectionalStreams;\n\n  Promise<WebTransportSendStream> createUnidirectionalStream(\n      optional WebTransportSendStreamOptions options = {});\n  /* a ReadableStream of WebTransportReceiveStream objects */\n  readonly attribute ReadableStream incomingUnidirectionalStreams;\n  WebTransportSendGroup createSendGroup();\n\n  static readonly attribute boolean supportsReliableOnly;\n};",
+        "fragment": "[Exposed=(Window,Worker), SecureContext]\ninterface WebTransport {\n  constructor(USVString url, optional WebTransportOptions options = {});\n\n  Promise<WebTransportConnectionStats> getStats();\n  [NewObject] Promise<Uint8Array> exportKeyingMaterial(BufferSource label, optional BufferSource context);\n  readonly attribute Promise<undefined> ready;\n  readonly attribute WebTransportReliabilityMode reliability;\n  readonly attribute WebTransportCongestionControl congestionControl;\n  attribute [EnforceRange] unsigned short? anticipatedConcurrentIncomingUnidirectionalStreams;\n  attribute [EnforceRange] unsigned short? anticipatedConcurrentIncomingBidirectionalStreams;\n  [SameObject] readonly attribute Headers? responseHeaders;\n  readonly attribute DOMString protocol;\n\n  readonly attribute Promise<WebTransportCloseInfo> closed;\n  readonly attribute Promise<undefined> draining;\n  undefined close(optional WebTransportCloseInfo closeInfo = {});\n\n  readonly attribute WebTransportDatagramDuplexStream datagrams;\n\n  Promise<WebTransportBidirectionalStream> createBidirectionalStream(\n      optional WebTransportSendStreamOptions options = {});\n  /* a ReadableStream of WebTransportBidirectionalStream objects */\n  readonly attribute ReadableStream incomingBidirectionalStreams;\n\n  Promise<WebTransportSendStream> createUnidirectionalStream(\n      optional WebTransportSendStreamOptions options = {});\n  /* a ReadableStream of WebTransportReceiveStream objects */\n  readonly attribute ReadableStream incomingUnidirectionalStreams;\n  WebTransportSendGroup createSendGroup();\n\n  static readonly attribute boolean supportsReliableOnly;\n};",
         "type": "interface",
         "name": "WebTransport",
         "inheritance": null,
@@ -363,7 +363,7 @@
                   "generic": "",
                   "nullable": false,
                   "union": false,
-                  "idlType": "ArrayBuffer"
+                  "idlType": "Uint8Array"
                 }
               ]
             },
@@ -474,20 +474,20 @@
             "name": "anticipatedConcurrentIncomingUnidirectionalStreams",
             "idlType": {
               "type": "attribute-type",
-              "extAttrs": [],
+              "extAttrs": [
+                {
+                  "type": "extended-attribute",
+                  "name": "EnforceRange",
+                  "rhs": null,
+                  "arguments": []
+                }
+              ],
               "generic": "",
               "nullable": true,
               "union": false,
               "idlType": "unsigned short"
             },
-            "extAttrs": [
-              {
-                "type": "extended-attribute",
-                "name": "EnforceRange",
-                "rhs": null,
-                "arguments": []
-              }
-            ],
+            "extAttrs": [],
             "special": "",
             "readonly": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransport-anticipatedconcurrentincomingunidirectionalstreams"
@@ -497,23 +497,46 @@
             "name": "anticipatedConcurrentIncomingBidirectionalStreams",
             "idlType": {
               "type": "attribute-type",
-              "extAttrs": [],
+              "extAttrs": [
+                {
+                  "type": "extended-attribute",
+                  "name": "EnforceRange",
+                  "rhs": null,
+                  "arguments": []
+                }
+              ],
               "generic": "",
               "nullable": true,
               "union": false,
               "idlType": "unsigned short"
             },
+            "extAttrs": [],
+            "special": "",
+            "readonly": false,
+            "href": "https://w3c.github.io/webtransport/#dom-webtransport-anticipatedconcurrentincomingbidirectionalstreams"
+          },
+          {
+            "type": "attribute",
+            "name": "responseHeaders",
+            "idlType": {
+              "type": "attribute-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": true,
+              "union": false,
+              "idlType": "Headers"
+            },
             "extAttrs": [
               {
                 "type": "extended-attribute",
-                "name": "EnforceRange",
+                "name": "SameObject",
                 "rhs": null,
                 "arguments": []
               }
             ],
             "special": "",
-            "readonly": false,
-            "href": "https://w3c.github.io/webtransport/#dom-webtransport-anticipatedconcurrentincomingbidirectionalstreams"
+            "readonly": true,
+            "href": "https://w3c.github.io/webtransport/#dom-webtransport-responseheaders"
           },
           {
             "type": "attribute",
@@ -837,7 +860,7 @@
         "href": "https://w3c.github.io/webtransport/#enumdef-webtransportreliabilitymode"
       },
       "WebTransportHash": {
-        "fragment": "dictionary WebTransportHash {\n  DOMString algorithm;\n  BufferSource value;\n};",
+        "fragment": "dictionary WebTransportHash {\n  required DOMString algorithm;\n  required BufferSource value;\n};",
         "type": "dictionary",
         "name": "WebTransportHash",
         "inheritance": null,
@@ -855,7 +878,7 @@
               "idlType": "DOMString"
             },
             "default": null,
-            "required": false,
+            "required": true,
             "href": "https://w3c.github.io/webtransport/#dom-webtransporthash-algorithm"
           },
           {
@@ -871,7 +894,7 @@
               "idlType": "BufferSource"
             },
             "default": null,
-            "required": false,
+            "required": true,
             "href": "https://w3c.github.io/webtransport/#dom-webtransporthash-value"
           }
         ],
@@ -880,7 +903,7 @@
         "href": "https://w3c.github.io/webtransport/#dictdef-webtransporthash"
       },
       "WebTransportOptions": {
-        "fragment": "dictionary WebTransportOptions {\n  boolean allowPooling = false;\n  boolean requireUnreliable = false;\n  sequence<WebTransportHash> serverCertificateHashes;\n  WebTransportCongestionControl congestionControl = \"default\";\n  [EnforceRange] unsigned short? anticipatedConcurrentIncomingUnidirectionalStreams = null;\n  [EnforceRange] unsigned short? anticipatedConcurrentIncomingBidirectionalStreams = null;\n  sequence<DOMString> protocols = [];\n  DatagramsReadableMode datagramsReadableMode;\n};",
+        "fragment": "dictionary WebTransportOptions {\n  boolean allowPooling = false;\n  boolean requireUnreliable = false;\n  HeadersInit headers = {};\n  sequence<WebTransportHash> serverCertificateHashes = [];\n  WebTransportCongestionControl congestionControl = \"default\";\n  [EnforceRange] unsigned short? anticipatedConcurrentIncomingUnidirectionalStreams = null;\n  [EnforceRange] unsigned short? anticipatedConcurrentIncomingBidirectionalStreams = null;\n  sequence<DOMString> protocols = [];\n  ReadableStreamType datagramsReadableType;\n};",
         "type": "dictionary",
         "name": "WebTransportOptions",
         "inheritance": null,
@@ -925,6 +948,24 @@
           },
           {
             "type": "field",
+            "name": "headers",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "HeadersInit"
+            },
+            "default": {
+              "type": "dictionary"
+            },
+            "required": false,
+            "href": "https://w3c.github.io/webtransport/#dom-webtransportoptions-headers"
+          },
+          {
+            "type": "field",
             "name": "serverCertificateHashes",
             "extAttrs": [],
             "idlType": {
@@ -944,7 +985,10 @@
                 }
               ]
             },
-            "default": null,
+            "default": {
+              "type": "sequence",
+              "value": []
+            },
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportoptions-servercertificatehashes"
           },
@@ -1047,7 +1091,7 @@
           },
           {
             "type": "field",
-            "name": "datagramsReadableMode",
+            "name": "datagramsReadableType",
             "extAttrs": [],
             "idlType": {
               "type": "dictionary-type",
@@ -1055,11 +1099,11 @@
               "generic": "",
               "nullable": false,
               "union": false,
-              "idlType": "DatagramsReadableMode"
+              "idlType": "ReadableStreamType"
             },
             "default": null,
             "required": false,
-            "href": "https://w3c.github.io/webtransport/#dom-webtransportoptions-datagramsreadablemode"
+            "href": "https://w3c.github.io/webtransport/#dom-webtransportoptions-datagramsreadabletype"
           }
         ],
         "extAttrs": [],
@@ -1089,20 +1133,6 @@
         ],
         "extAttrs": [],
         "href": "https://w3c.github.io/webtransport/#enumdef-webtransportcongestioncontrol"
-      },
-      "DatagramsReadableMode": {
-        "fragment": "enum DatagramsReadableMode { \"bytes\" };",
-        "type": "enum",
-        "name": "DatagramsReadableMode",
-        "values": [
-          {
-            "type": "enum-value",
-            "value": "bytes",
-            "href": "https://w3c.github.io/webtransport/#dom-datagramsreadablemode-bytes"
-          }
-        ],
-        "extAttrs": [],
-        "href": "https://w3c.github.io/webtransport/#enumdef-datagramsreadablemode"
       },
       "WebTransportCloseInfo": {
         "fragment": "dictionary WebTransportCloseInfo {\n  unsigned long closeCode = 0;\n  USVString reason = \"\";\n};",
@@ -1232,7 +1262,7 @@
         "href": "https://w3c.github.io/webtransport/#dictdef-webtransportsendstreamoptions"
       },
       "WebTransportConnectionStats": {
-        "fragment": "dictionary WebTransportConnectionStats {\n  unsigned long long bytesSent = 0;\n  unsigned long long packetsSent = 0;\n  unsigned long long bytesLost = 0;\n  unsigned long long packetsLost = 0;\n  unsigned long long bytesReceived = 0;\n  unsigned long long packetsReceived = 0;\n  required DOMHighResTimeStamp smoothedRtt;\n  required DOMHighResTimeStamp rttVariation;\n  required DOMHighResTimeStamp minRtt;\n  required WebTransportDatagramStats datagrams;\n  unsigned long long? estimatedSendRate = null;\n  boolean atSendCapacity = false;\n};",
+        "fragment": "dictionary WebTransportConnectionStats {\n  unsigned long long bytesSent;\n  unsigned long long bytesSentOverhead;\n  unsigned long long bytesAcknowledged;\n  unsigned long long packetsSent;\n  unsigned long long bytesLost;\n  unsigned long long packetsLost;\n  unsigned long long bytesReceived;\n  unsigned long long packetsReceived;\n  DOMHighResTimeStamp smoothedRtt;\n  DOMHighResTimeStamp rttVariation;\n  DOMHighResTimeStamp minRtt;\n  required WebTransportDatagramStats datagrams;\n  unsigned long long? estimatedSendRate = null;\n  boolean atSendCapacity = false;\n};",
         "type": "dictionary",
         "name": "WebTransportConnectionStats",
         "inheritance": null,
@@ -1249,12 +1279,41 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportconnectionstats-bytessent"
+          },
+          {
+            "type": "field",
+            "name": "bytesSentOverhead",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "unsigned long long"
+            },
+            "default": null,
+            "required": false,
+            "href": "https://w3c.github.io/webtransport/#dom-webtransportconnectionstats-bytessentoverhead"
+          },
+          {
+            "type": "field",
+            "name": "bytesAcknowledged",
+            "extAttrs": [],
+            "idlType": {
+              "type": "dictionary-type",
+              "extAttrs": [],
+              "generic": "",
+              "nullable": false,
+              "union": false,
+              "idlType": "unsigned long long"
+            },
+            "default": null,
+            "required": false,
+            "href": "https://w3c.github.io/webtransport/#dom-webtransportconnectionstats-bytesacknowledged"
           },
           {
             "type": "field",
@@ -1268,10 +1327,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportconnectionstats-packetssent"
           },
@@ -1287,10 +1343,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportconnectionstats-byteslost"
           },
@@ -1306,10 +1359,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportconnectionstats-packetslost"
           },
@@ -1325,10 +1375,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportconnectionstats-bytesreceived"
           },
@@ -1344,10 +1391,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportconnectionstats-packetsreceived"
           },
@@ -1364,7 +1408,7 @@
               "idlType": "DOMHighResTimeStamp"
             },
             "default": null,
-            "required": true,
+            "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportconnectionstats-smoothedrtt"
           },
           {
@@ -1380,7 +1424,7 @@
               "idlType": "DOMHighResTimeStamp"
             },
             "default": null,
-            "required": true,
+            "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportconnectionstats-rttvariation"
           },
           {
@@ -1396,7 +1440,7 @@
               "idlType": "DOMHighResTimeStamp"
             },
             "default": null,
-            "required": true,
+            "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportconnectionstats-minrtt"
           },
           {
@@ -1458,7 +1502,7 @@
         "href": "https://w3c.github.io/webtransport/#dictdef-webtransportconnectionstats"
       },
       "WebTransportDatagramStats": {
-        "fragment": "dictionary WebTransportDatagramStats {\n  unsigned long long droppedIncoming = 0;\n  unsigned long long expiredIncoming = 0;\n  unsigned long long expiredOutgoing = 0;\n  unsigned long long lostOutgoing = 0;\n};",
+        "fragment": "dictionary WebTransportDatagramStats {\n  unsigned long long droppedIncoming;\n  unsigned long long expiredIncoming;\n  unsigned long long expiredOutgoing;\n  unsigned long long lostOutgoing;\n};",
         "type": "dictionary",
         "name": "WebTransportDatagramStats",
         "inheritance": null,
@@ -1475,10 +1519,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramstats-droppedincoming"
           },
@@ -1494,10 +1535,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramstats-expiredincoming"
           },
@@ -1513,10 +1551,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramstats-expiredoutgoing"
           },
@@ -1532,10 +1567,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramstats-lostoutgoing"
           }
@@ -1658,7 +1690,7 @@
         "href": "https://w3c.github.io/webtransport/#webtransportsendstream"
       },
       "WebTransportSendStreamStats": {
-        "fragment": "dictionary WebTransportSendStreamStats {\n  unsigned long long bytesWritten = 0;\n  unsigned long long bytesSent = 0;\n  unsigned long long bytesAcknowledged = 0;\n};",
+        "fragment": "dictionary WebTransportSendStreamStats {\n  unsigned long long bytesWritten;\n  unsigned long long bytesSent;\n  unsigned long long bytesAcknowledged;\n};",
         "type": "dictionary",
         "name": "WebTransportSendStreamStats",
         "inheritance": null,
@@ -1675,10 +1707,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportsendstreamstats-byteswritten"
           },
@@ -1694,10 +1723,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportsendstreamstats-bytessent"
           },
@@ -1713,10 +1739,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportsendstreamstats-bytesacknowledged"
           }
@@ -1850,7 +1873,7 @@
         "href": "https://w3c.github.io/webtransport/#webtransportreceivestream"
       },
       "WebTransportReceiveStreamStats": {
-        "fragment": "dictionary WebTransportReceiveStreamStats {\n  unsigned long long bytesReceived = 0;\n  unsigned long long bytesRead = 0;\n};",
+        "fragment": "dictionary WebTransportReceiveStreamStats {\n  unsigned long long bytesReceived;\n  unsigned long long bytesRead;\n};",
         "type": "dictionary",
         "name": "WebTransportReceiveStreamStats",
         "inheritance": null,
@@ -1867,10 +1890,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportreceivestreamstats-bytesreceived"
           },
@@ -1886,10 +1906,7 @@
               "union": false,
               "idlType": "unsigned long long"
             },
-            "default": {
-              "type": "number",
-              "value": "0"
-            },
+            "default": null,
             "required": false,
             "href": "https://w3c.github.io/webtransport/#dom-webtransportreceivestreamstats-bytesread"
           }
@@ -2280,10 +2297,11 @@
       "WebTransport": [
         "WebTransportOptions",
         "WebTransportConnectionStats",
-        "ArrayBuffer",
+        "Uint8Array",
         "BufferSource",
         "WebTransportReliabilityMode",
         "WebTransportCongestionControl",
+        "Headers",
         "WebTransportCloseInfo",
         "WebTransportDatagramDuplexStream",
         "WebTransportBidirectionalStream",
@@ -2296,9 +2314,10 @@
         "BufferSource"
       ],
       "WebTransportOptions": [
+        "HeadersInit",
         "WebTransportHash",
         "WebTransportCongestionControl",
-        "DatagramsReadableMode"
+        "ReadableStreamType"
       ],
       "WebTransportCloseInfo": [],
       "WebTransportSendOptions": [
@@ -2346,8 +2365,11 @@
     "externalDependencies": [
       "WritableStream",
       "ReadableStream",
-      "ArrayBuffer",
+      "Uint8Array",
       "BufferSource",
+      "Headers",
+      "HeadersInit",
+      "ReadableStreamType",
       "DOMHighResTimeStamp",
       "WritableStreamDefaultWriter",
       "DOMException"

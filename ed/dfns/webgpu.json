@@ -1302,6 +1302,28 @@
       "links": []
     },
     {
+      "id": "dom-adapter-default-feature-level-slot",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-adapter-default-feature-level-slot",
+      "linkingText": [
+        "[[default feature level]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "adapter"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "adapters",
+        "href": "https://gpuweb.github.io/gpuweb/#adapters",
+        "title": "Adapters",
+        "number": "3.5.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dom-adapter-state-slot",
       "href": "https://gpuweb.github.io/gpuweb/#dom-adapter-state-slot",
       "linkingText": [
@@ -1722,6 +1744,28 @@
       "links": []
     },
     {
+      "id": "limit-compatibility-mode-default",
+      "href": "https://gpuweb.github.io/gpuweb/#limit-compatibility-mode-default",
+      "linkingText": [
+        "compatibility mode default"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "limit"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "limits",
+        "href": "https://gpuweb.github.io/gpuweb/#limits",
+        "title": "Limits",
+        "number": "3.6.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "limit-better",
       "href": "https://gpuweb.github.io/gpuweb/#limit-better",
       "linkingText": [
@@ -1960,6 +2004,28 @@
       "links": []
     },
     {
+      "id": "dom-supported-limits-maximmediatesize",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-supported-limits-maximmediatesize",
+      "linkingText": [
+        "maxImmediateSize"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "supported limits"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "limits",
+        "href": "https://gpuweb.github.io/gpuweb/#limits",
+        "title": "Limits",
+        "number": "3.6.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
       "id": "dom-supported-limits-maxbindingsperbindgroup",
       "href": "https://gpuweb.github.io/gpuweb/#dom-supported-limits-maxbindingsperbindgroup",
       "linkingText": [
@@ -2092,10 +2158,98 @@
       "links": []
     },
     {
+      "id": "dom-supported-limits-maxstoragebuffersinvertexstage",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-supported-limits-maxstoragebuffersinvertexstage",
+      "linkingText": [
+        "maxStorageBuffersInVertexStage"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "supported limits"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "limits",
+        "href": "https://gpuweb.github.io/gpuweb/#limits",
+        "title": "Limits",
+        "number": "3.6.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-supported-limits-maxstoragebuffersinfragmentstage",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-supported-limits-maxstoragebuffersinfragmentstage",
+      "linkingText": [
+        "maxStorageBuffersInFragmentStage"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "supported limits"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "limits",
+        "href": "https://gpuweb.github.io/gpuweb/#limits",
+        "title": "Limits",
+        "number": "3.6.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
       "id": "dom-supported-limits-maxstoragetexturespershaderstage",
       "href": "https://gpuweb.github.io/gpuweb/#dom-supported-limits-maxstoragetexturespershaderstage",
       "linkingText": [
         "maxStorageTexturesPerShaderStage"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "supported limits"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "limits",
+        "href": "https://gpuweb.github.io/gpuweb/#limits",
+        "title": "Limits",
+        "number": "3.6.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-supported-limits-maxstoragetexturesinvertexstage",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-supported-limits-maxstoragetexturesinvertexstage",
+      "linkingText": [
+        "maxStorageTexturesInVertexStage"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "supported limits"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "limits",
+        "href": "https://gpuweb.github.io/gpuweb/#limits",
+        "title": "Limits",
+        "number": "3.6.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-supported-limits-maxstoragetexturesinfragmentstage",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-supported-limits-maxstoragetexturesinfragmentstage",
+      "linkingText": [
+        "maxStorageTexturesInFragmentStage"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -2662,6 +2816,28 @@
       "links": []
     },
     {
+      "id": "dom-gpusupportedlimits-maximmediatesize",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpusupportedlimits-maximmediatesize",
+      "linkingText": [
+        "maxImmediateSize"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GPUSupportedLimits"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gpusupportedlimits",
+        "href": "https://gpuweb.github.io/gpuweb/#gpusupportedlimits",
+        "title": "GPUSupportedLimits",
+        "number": "3.6.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "dom-gpusupportedlimits-maxbindingsperbindgroup",
       "href": "https://gpuweb.github.io/gpuweb/#dom-gpusupportedlimits-maxbindingsperbindgroup",
       "linkingText": [
@@ -2794,10 +2970,98 @@
       "links": []
     },
     {
+      "id": "dom-gpusupportedlimits-maxstoragebuffersinvertexstage",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpusupportedlimits-maxstoragebuffersinvertexstage",
+      "linkingText": [
+        "maxStorageBuffersInVertexStage"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GPUSupportedLimits"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gpusupportedlimits",
+        "href": "https://gpuweb.github.io/gpuweb/#gpusupportedlimits",
+        "title": "GPUSupportedLimits",
+        "number": "3.6.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-gpusupportedlimits-maxstoragebuffersinfragmentstage",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpusupportedlimits-maxstoragebuffersinfragmentstage",
+      "linkingText": [
+        "maxStorageBuffersInFragmentStage"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GPUSupportedLimits"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gpusupportedlimits",
+        "href": "https://gpuweb.github.io/gpuweb/#gpusupportedlimits",
+        "title": "GPUSupportedLimits",
+        "number": "3.6.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "dom-gpusupportedlimits-maxstoragetexturespershaderstage",
       "href": "https://gpuweb.github.io/gpuweb/#dom-gpusupportedlimits-maxstoragetexturespershaderstage",
       "linkingText": [
         "maxStorageTexturesPerShaderStage"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GPUSupportedLimits"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gpusupportedlimits",
+        "href": "https://gpuweb.github.io/gpuweb/#gpusupportedlimits",
+        "title": "GPUSupportedLimits",
+        "number": "3.6.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-gpusupportedlimits-maxstoragetexturesinvertexstage",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpusupportedlimits-maxstoragetexturesinvertexstage",
+      "linkingText": [
+        "maxStorageTexturesInVertexStage"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GPUSupportedLimits"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gpusupportedlimits",
+        "href": "https://gpuweb.github.io/gpuweb/#gpusupportedlimits",
+        "title": "GPUSupportedLimits",
+        "number": "3.6.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-gpusupportedlimits-maxstoragetexturesinfragmentstage",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpusupportedlimits-maxstoragetexturesinfragmentstage",
+      "linkingText": [
+        "maxStorageTexturesInFragmentStage"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -5994,6 +6258,28 @@
       "links": []
     },
     {
+      "id": "dom-gputexture-texturebindingviewdimension",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gputexture-texturebindingviewdimension",
+      "linkingText": [
+        "textureBindingViewDimension"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GPUTexture"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gputexture",
+        "href": "https://gpuweb.github.io/gpuweb/#gputexture",
+        "title": "GPUTexture",
+        "number": "6.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dom-gputexture-destroyed-slot",
       "href": "https://gpuweb.github.io/gpuweb/#dom-gputexture-destroyed-slot",
       "linkingText": [
@@ -6310,6 +6596,28 @@
       "links": []
     },
     {
+      "id": "dom-gputexturedescriptor-texturebindingviewdimension",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gputexturedescriptor-texturebindingviewdimension",
+      "linkingText": [
+        "textureBindingViewDimension"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "GPUTextureDescriptor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gputexturedescriptor",
+        "href": "https://gpuweb.github.io/gpuweb/#gputexturedescriptor",
+        "title": "GPUTextureDescriptor",
+        "number": "6.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "enumdef-gputexturedimension",
       "href": "https://gpuweb.github.io/gpuweb/#enumdef-gputexturedimension",
       "linkingText": [
@@ -6528,6 +6836,28 @@
       "href": "https://gpuweb.github.io/gpuweb/#dom-gputextureusage-render_attachment",
       "linkingText": [
         "RENDER_ATTACHMENT"
+      ],
+      "localLinkingText": [],
+      "type": "const",
+      "for": [
+        "GPUTextureUsage"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "texture-usage",
+        "href": "https://gpuweb.github.io/gpuweb/#texture-usage",
+        "title": "Texture Usages",
+        "number": "6.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-gputextureusage-transient_attachment",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gputextureusage-transient_attachment",
+      "linkingText": [
+        "TRANSIENT_ATTACHMENT"
       ],
       "localLinkingText": [],
       "type": "const",
@@ -6976,6 +7306,28 @@
       "links": []
     },
     {
+      "id": "dom-gputextureviewdescriptor-swizzle",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gputextureviewdescriptor-swizzle",
+      "linkingText": [
+        "swizzle"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "GPUTextureViewDescriptor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "texture-view-creation",
+        "href": "https://gpuweb.github.io/gpuweb/#texture-view-creation",
+        "title": "Texture View Creation",
+        "number": "6.2.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "enumdef-gputextureviewdimension",
       "href": "https://gpuweb.github.io/gpuweb/#enumdef-gputextureviewdimension",
       "linkingText": [
@@ -7305,6 +7657,26 @@
       "href": "https://gpuweb.github.io/gpuweb/#abstract-opdef-array-layer-count",
       "linkingText": [
         "array layer count"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "texture-view-creation",
+        "href": "https://gpuweb.github.io/gpuweb/#texture-view-creation",
+        "title": "Texture View Creation",
+        "number": "6.2.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "abstract-opdef-validate-swizzle-string",
+      "href": "https://gpuweb.github.io/gpuweb/#abstract-opdef-validate-swizzle-string",
+      "linkingText": [
+        "Validate swizzle string"
       ],
       "localLinkingText": [],
       "type": "abstract-op",
@@ -12592,6 +12964,28 @@
       "links": []
     },
     {
+      "id": "dom-gpupipelinelayout-immediatesize-slot",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpupipelinelayout-immediatesize-slot",
+      "linkingText": [
+        "[[immediateSize]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GPUPipelineLayout"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gpupipelinelayout",
+        "href": "https://gpuweb.github.io/gpuweb/#gpupipelinelayout",
+        "title": "GPUPipelineLayout",
+        "number": "8.3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dictdef-gpupipelinelayoutdescriptor",
       "href": "https://gpuweb.github.io/gpuweb/#dictdef-gpupipelinelayoutdescriptor",
       "linkingText": [
@@ -12616,6 +13010,28 @@
       "href": "https://gpuweb.github.io/gpuweb/#dom-gpupipelinelayoutdescriptor-bindgrouplayouts",
       "linkingText": [
         "bindGroupLayouts"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "GPUPipelineLayoutDescriptor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pipeline-layout-creation",
+        "href": "https://gpuweb.github.io/gpuweb/#pipeline-layout-creation",
+        "title": "Pipeline Layout Creation",
+        "number": "8.3.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-gpupipelinelayoutdescriptor-immediatesize",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpupipelinelayoutdescriptor-immediatesize",
+      "linkingText": [
+        "immediateSize"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -14329,6 +14745,26 @@
       "links": []
     },
     {
+      "id": "abstract-opdef-validating-compatibility-mode-shader-binding",
+      "href": "https://gpuweb.github.io/gpuweb/#abstract-opdef-validating-compatibility-mode-shader-binding",
+      "linkingText": [
+        "validating Compatibility Mode shader binding"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "render-pipeline-creation",
+        "href": "https://gpuweb.github.io/gpuweb/#render-pipeline-creation",
+        "title": "Render Pipeline Creation",
+        "number": "10.3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "abstract-opdef-validating-inter-stage-interfaces",
       "href": "https://gpuweb.github.io/gpuweb/#abstract-opdef-validating-inter-stage-interfaces",
       "linkingText": [
@@ -14338,6 +14774,26 @@
       "type": "abstract-op",
       "for": [],
       "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "render-pipeline-creation",
+        "href": "https://gpuweb.github.io/gpuweb/#render-pipeline-creation",
+        "title": "Render Pipeline Creation",
+        "number": "10.3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "inter-stage-builtins",
+      "href": "https://gpuweb.github.io/gpuweb/#inter-stage-builtins",
+      "linkingText": [
+        "Inter-Stage Builtins"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "render-pipeline-creation",
@@ -18656,6 +19112,28 @@
       "links": []
     },
     {
+      "id": "dom-gpucommandbuffer-used_bind_groups-slot",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpucommandbuffer-used_bind_groups-slot",
+      "linkingText": [
+        "[[used_bind_groups]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GPUCommandBuffer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gpucommandbuffer",
+        "href": "https://gpuweb.github.io/gpuweb/#gpucommandbuffer",
+        "title": "GPUCommandBuffer",
+        "number": "12.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dictdef-gpucommandbufferdescriptor",
       "href": "https://gpuweb.github.io/gpuweb/#dictdef-gpucommandbufferdescriptor",
       "linkingText": [
@@ -18722,6 +19200,28 @@
       "href": "https://gpuweb.github.io/gpuweb/#dom-gpucommandsmixin-commands-slot",
       "linkingText": [
         "[[commands]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GPUCommandsMixin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gpucommandsmixin",
+        "href": "https://gpuweb.github.io/gpuweb/#gpucommandsmixin",
+        "title": "GPUCommandsMixin",
+        "number": "13.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-gpucommandsmixin-used_bind_groups-slot",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpucommandsmixin-used_bind_groups-slot",
+      "linkingText": [
+        "[[used_bind_groups]]"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -19879,6 +20379,48 @@
       "links": []
     },
     {
+      "id": "dom-gpubindingcommandsmixin-immediate_data-slot",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpubindingcommandsmixin-immediate_data-slot",
+      "linkingText": [
+        "[[immediate_data]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GPUBindingCommandsMixin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "programmable-passes",
+        "href": "https://gpuweb.github.io/gpuweb/#programmable-passes",
+        "title": "14. Programmable Passes"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-gpubindingcommandsmixin-immediate_slots_set-slot",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpubindingcommandsmixin-immediate_slots_set-slot",
+      "linkingText": [
+        "[[immediate_slots_set]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GPUBindingCommandsMixin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "programmable-passes",
+        "href": "https://gpuweb.github.io/gpuweb/#programmable-passes",
+        "title": "14. Programmable Passes"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "gpubindingcommandsmixin-setbindgroup",
       "href": "https://gpuweb.github.io/gpuweb/#gpubindingcommandsmixin-setbindgroup",
       "linkingText": [
@@ -20162,6 +20704,26 @@
       "links": []
     },
     {
+      "id": "abstract-opdef-validate-immediate-data",
+      "href": "https://gpuweb.github.io/gpuweb/#abstract-opdef-validate-immediate-data",
+      "linkingText": [
+        "Validate immediate data"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "programmable-passes-bind-groups",
+        "href": "https://gpuweb.github.io/gpuweb/#programmable-passes-bind-groups",
+        "title": "Bind Groups",
+        "number": "14.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "abstract-opdef-encoder-bind-groups-alias-a-writable-resource",
       "href": "https://gpuweb.github.io/gpuweb/#abstract-opdef-encoder-bind-groups-alias-a-writable-resource",
       "linkingText": [
@@ -20179,6 +20741,118 @@
         "number": "14.1"
       },
       "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-gpubindingcommandsmixin-setimmediates",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpubindingcommandsmixin-setimmediates",
+      "linkingText": [
+        "setImmediates(rangeOffset, data, dataOffset, dataSize)",
+        "setImmediates(rangeOffset, data, dataOffset)",
+        "setImmediates(rangeOffset, data)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "GPUBindingCommandsMixin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "programmable-passes-immediate-data",
+        "href": "https://gpuweb.github.io/gpuweb/#programmable-passes-immediate-data",
+        "title": "Immediate Data",
+        "number": "14.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-gpubindingcommandsmixin-setimmediates-rangeoffset-data-dataoffset-datasize-rangeoffset",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpubindingcommandsmixin-setimmediates-rangeoffset-data-dataoffset-datasize-rangeoffset",
+      "linkingText": [
+        "rangeOffset"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "GPUBindingCommandsMixin/setImmediates(rangeOffset, data, dataOffset, dataSize)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "programmable-passes-immediate-data",
+        "href": "https://gpuweb.github.io/gpuweb/#programmable-passes-immediate-data",
+        "title": "Immediate Data",
+        "number": "14.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-gpubindingcommandsmixin-setimmediates-rangeoffset-data-dataoffset-datasize-data",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpubindingcommandsmixin-setimmediates-rangeoffset-data-dataoffset-datasize-data",
+      "linkingText": [
+        "data"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "GPUBindingCommandsMixin/setImmediates(rangeOffset, data, dataOffset, dataSize)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "programmable-passes-immediate-data",
+        "href": "https://gpuweb.github.io/gpuweb/#programmable-passes-immediate-data",
+        "title": "Immediate Data",
+        "number": "14.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-gpubindingcommandsmixin-setimmediates-rangeoffset-data-dataoffset-datasize-dataoffset",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpubindingcommandsmixin-setimmediates-rangeoffset-data-dataoffset-datasize-dataoffset",
+      "linkingText": [
+        "dataOffset"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "GPUBindingCommandsMixin/setImmediates(rangeOffset, data, dataOffset, dataSize)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "programmable-passes-immediate-data",
+        "href": "https://gpuweb.github.io/gpuweb/#programmable-passes-immediate-data",
+        "title": "Immediate Data",
+        "number": "14.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-gpubindingcommandsmixin-setimmediates-rangeoffset-data-dataoffset-datasize-datasize",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpubindingcommandsmixin-setimmediates-rangeoffset-data-dataoffset-datasize-datasize",
+      "linkingText": [
+        "dataSize"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "GPUBindingCommandsMixin/setImmediates(rangeOffset, data, dataOffset, dataSize)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "programmable-passes-immediate-data",
+        "href": "https://gpuweb.github.io/gpuweb/#programmable-passes-immediate-data",
+        "title": "Immediate Data",
+        "number": "14.2"
+      },
+      "definedIn": "table",
       "links": []
     },
     {
@@ -23679,6 +24353,28 @@
       "href": "https://gpuweb.github.io/gpuweb/#dom-gpurenderbundle-command_list-slot",
       "linkingText": [
         "[[command_list]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GPURenderBundle"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gpurenderbundle",
+        "href": "https://gpuweb.github.io/gpuweb/#gpurenderbundle",
+        "title": "GPURenderBundle",
+        "number": "18.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-gpurenderbundle-used_bind_groups-slot",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpurenderbundle-used_bind_groups-slot",
+      "linkingText": [
+        "[[used_bind_groups]]"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -28840,6 +29536,28 @@
         "href": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-primitive-index",
         "title": "\"primitive-index\"",
         "number": "25.21"
+      },
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "dom-gpufeaturename-texture-component-swizzle",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-texture-component-swizzle",
+      "linkingText": [
+        "\"texture-component-swizzle\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "GPUFeatureName"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dom-gpufeaturename-texture-component-swizzle",
+        "href": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-texture-component-swizzle",
+        "title": "\"texture-component-swizzle\"",
+        "number": "25.22"
       },
       "definedIn": "heading",
       "links": []

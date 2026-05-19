@@ -25,6 +25,7 @@
       "https://github.com/web-platform-tests/wpt/blob/master/secure-payment-confirmation/authentication-icon-data-url.https.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/secure-payment-confirmation/authentication-in-iframe.sub.https.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/secure-payment-confirmation/authentication-invalid-icon.https.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/secure-payment-confirmation/authentication-invalid-payment-entity-logo.https.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/secure-payment-confirmation/authentication-optout.https.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/secure-payment-confirmation/authentication-rejected.https.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/secure-payment-confirmation/constructor-validate-payment-method-data.https.html": {},
@@ -55,6 +56,7 @@
           "sctn-cred-type-registry"
         ]
       },
+      "https://w3c.github.io/webappsec-dbsc/": {},
       "https://w3c.github.io/webauthn/": {
         "anchors": [
           "sctn-usecase-consumer-mdc",
@@ -86,6 +88,7 @@
       "https://wpt.fyi/results/secure-payment-confirmation/authentication-icon-data-url.https.html": {},
       "https://wpt.fyi/results/secure-payment-confirmation/authentication-in-iframe.sub.https.html": {},
       "https://wpt.fyi/results/secure-payment-confirmation/authentication-invalid-icon.https.html": {},
+      "https://wpt.fyi/results/secure-payment-confirmation/authentication-invalid-payment-entity-logo.https.html": {},
       "https://wpt.fyi/results/secure-payment-confirmation/authentication-optout.https.html": {},
       "https://wpt.fyi/results/secure-payment-confirmation/authentication-rejected.https.html": {},
       "https://wpt.fyi/results/secure-payment-confirmation/constructor-validate-payment-method-data.https.html": {},
@@ -104,6 +107,7 @@
       "https://wpt.live/secure-payment-confirmation/authentication-icon-data-url.https.html": {},
       "https://wpt.live/secure-payment-confirmation/authentication-in-iframe.sub.https.html": {},
       "https://wpt.live/secure-payment-confirmation/authentication-invalid-icon.https.html": {},
+      "https://wpt.live/secure-payment-confirmation/authentication-invalid-payment-entity-logo.https.html": {},
       "https://wpt.live/secure-payment-confirmation/authentication-optout.https.html": {},
       "https://wpt.live/secure-payment-confirmation/authentication-rejected.https.html": {},
       "https://wpt.live/secure-payment-confirmation/constructor-validate-payment-method-data.https.html": {},
@@ -192,6 +196,7 @@
         "anchors": [
           "struct",
           "implementation-defined",
+          "map-getting-the-keys",
           "map-exists",
           "list-is-empty",
           "list-append",
@@ -361,6 +366,9 @@
           "idl-unsigned-long",
           "idl-boolean",
           "idl-promise",
+          "idl-record",
+          "idl-DOMString",
+          "dfn-enumeration-value",
           "exceptiondef-typeerror",
           "notallowederror",
           "aborterror",

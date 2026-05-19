@@ -463,6 +463,13 @@
       "number": "12.5"
     },
     {
+      "id": "ua-prefers-color-scheme",
+      "href": "https://drafts.csswg.org/mediaqueries-5/#ua-prefers-color-scheme",
+      "level": 4,
+      "title": "Detecting Specifically the User’s Preferred Color Scheme: the ua-prefers-color-scheme feature",
+      "number": "12.5.1"
+    },
+    {
       "id": "prefers-reduced-data",
       "href": "https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-data",
       "level": 3,
@@ -661,6 +668,12 @@
       "title": "Changes for FPWD (since the Media Queries Level 4)"
     },
     {
+      "id": "changes-L4",
+      "href": "https://drafts.csswg.org/mediaqueries-5/#changes-L4",
+      "level": 3,
+      "title": "Changes Since Media Queries Level 4"
+    },
+    {
       "id": "acknowledgments",
       "href": "https://drafts.csswg.org/mediaqueries-5/#acknowledgments",
       "level": 2,
@@ -748,7 +761,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/mediaqueries-5/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

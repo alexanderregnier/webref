@@ -43,7 +43,7 @@
               "html": "Otherwise, if the element being focused has an ID and the ID is referenced by the <a href=\"https://w3c.github.io/aria/#aria-activedescendant\" class=\"property-reference\"><code>aria-activedescendant</code></a> attribute of an element that is focusable, the user agent <em class=\"rfc2119\">MUST</em>\n                  set <abbr title=\"Document Object Model\">DOM</abbr> focus to the element that has the <a href=\"https://w3c.github.io/aria/#aria-activedescendant\" class=\"property-reference\"><code>aria-activedescendant</code></a> attribute."
             },
             {
-              "html": "Otherwise, the user agent <em class=\"rfc2119\">MAY</em> attempt to set <abbr title=\"Document Object Model\">DOM</abbr> focus to the child element itself."
+              "html": "Otherwise, the user agent <em class=\"rfc2119\">MAY</em> attempt to set <abbr title=\"Document Object Model\">DOM</abbr> focus to the <a href=\"https://w3c.github.io/aria/#dfn-accessibility-child\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-accessibility-child-2\">accessibility child</a> itself."
             }
           ]
         },
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "html": "When the content of a <a href=\"https://w3c.github.io/aria/#dfn-live-region\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-live-region-9\">live region</a> changes, user agents <em class=\"rfc2119\">SHOULD</em> examine the changed <a data-link-type=\"dfn\" href=\"https://dom.spec.whatwg.org/#concept-element\">element</a> and traverse the ancestors to find the first element with\n              <a href=\"https://w3c.github.io/aria/#aria-atomic\" class=\"property-reference\"><code>aria-atomic</code></a> set, and apply the appropriate behavior for the cases below.",
+      "html": "When the content of a <a href=\"https://w3c.github.io/aria/#dfn-live-region\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-live-region-7\">live region</a> changes, user agents <em class=\"rfc2119\">SHOULD</em> examine the changed <a data-link-type=\"dfn\" href=\"https://dom.spec.whatwg.org/#concept-element\">element</a> and traverse the ancestors to find the first element with\n              <a href=\"https://w3c.github.io/aria/#aria-atomic\" class=\"property-reference\"><code>aria-atomic</code></a> set, and apply the appropriate behavior for the cases below.",
       "rationale": "if",
       "steps": [
         {
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "html": "<a href=\"https://w3c.github.io/aria/#assistive-technology\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-assistive-technology-57\">Assistive technologies</a> <em class=\"rfc2119\">SHOULD</em> expose the <code>aria-braillelabel</code> property as follows:",
+      "html": "<a href=\"https://w3c.github.io/aria/#assistive-technology\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-assistive-technology-56\">Assistive technologies</a> <em class=\"rfc2119\">SHOULD</em> expose the <code>aria-braillelabel</code> property as follows:",
       "rationale": "if",
       "steps": [
         {
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "html": "<a href=\"https://w3c.github.io/aria/#assistive-technology\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-assistive-technology-63\">Assistive technologies</a> <em class=\"rfc2119\">SHOULD</em> expose the <code>aria-brailleroledescription</code> property as follows:",
+      "html": "<a href=\"https://w3c.github.io/aria/#assistive-technology\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-assistive-technology-62\">Assistive technologies</a> <em class=\"rfc2119\">SHOULD</em> expose the <code>aria-brailleroledescription</code> property as follows:",
       "rationale": "if",
       "steps": [
         {
@@ -115,6 +115,29 @@
         },
         {
           "html": "Otherwise, pass the value to the user without translation."
+        }
+      ]
+    },
+    {
+      "name": "ARIANotifyMixin/ariaNotify()",
+      "href": "https://w3c.github.io/aria/#dom-arianotifymixin-arianotify",
+      "html": "The User Agent processing steps for the\n          <code><dfn data-df-type=\"method\" data-dfn-for=\"ARIANotifyMixin\" data-export=\"\" data-dfn-type=\"method\" id=\"dom-arianotifymixin-arianotify\" data-idl=\"operation\" data-title=\"ariaNotify\" data-type=\"undefined\" data-lt=\"ariaNotify()|ariaNotify(announcement)|ariaNotify(announcement, options)\" data-local-lt=\"ARIANotifyMixin.ariaNotify|ARIANotifyMixin.ariaNotify()|ariaNotify\" tabindex=\"0\" aria-haspopup=\"dialog\">ariaNotify</dfn>(<var>announcement</var>, <var>options</var>)</code>\n          method are:",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "<p>If the document is not <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/iframe-embed-object.html#allowed-to-use\">allowed to use</a> the feature identified by <a href=\"https://w3c.github.io/aria/#dfn-aria-notify\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-aria-notify-1\"><code>\"aria-notify\"</code></a> abort these steps.</p>"
+        },
+        {
+          "html": "<p>Let <var>node</var> be <code>this</code>.</p>"
+        },
+        {
+          "html": "<p>\n              Let <var>priority</var> be <var>options</var>[\"<code><a href=\"https://w3c.github.io/aria/#dom-arianotificationoptions-priority\" id=\"ref-for-dom-arianotificationoptions-priority-1\">priority</a></code>\"].\n            </p>"
+        },
+        {
+          "html": "<p>If <var>node</var> is <a href=\"https://w3c.github.io/aria/#tree_exclusion\">excluded from the accessibility tree</a>, then abort these steps.</p>"
+        },
+        {
+          "html": "<p>Run the <a href=\"https://www.w3.org/TR/core-aam-1.2/#arianotify\">aria notify steps</a> given <var>node</var>, <var>announcement</var>, and <var>priority</var>.</p>"
         }
       ]
     }

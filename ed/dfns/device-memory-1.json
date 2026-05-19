@@ -1,14 +1,14 @@
 {
   "spec": {
-    "title": "Device Memory",
+    "title": "Device Memory API",
     "url": "https://www.w3.org/TR/device-memory/"
   },
   "dfns": [
     {
-      "id": "computing-device-memory-value",
-      "href": "https://www.w3.org/TR/device-memory/#computing-device-memory-value",
+      "id": "devicememory",
+      "href": "https://www.w3.org/TR/device-memory/#devicememory",
       "linkingText": [
-        "Computing Device Memory Value"
+        "deviceMemory"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -16,32 +16,32 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "computing-device-memory-value",
-        "href": "https://www.w3.org/TR/device-memory/#computing-device-memory-value",
-        "title": "Computing Device Memory Value",
-        "number": "2.1"
+        "id": "computing-device-memory",
+        "href": "https://www.w3.org/TR/device-memory/#computing-device-memory",
+        "title": "Computing device memory value",
+        "number": "2"
       },
-      "definedIn": "heading",
+      "definedIn": "prose",
       "links": []
     },
     {
-      "id": "examples",
-      "href": "https://www.w3.org/TR/device-memory/#examples",
+      "id": "http-headerdef-sec-ch-device-memory",
+      "href": "https://www.w3.org/TR/device-memory/#http-headerdef-sec-ch-device-memory",
       "linkingText": [
-        "Examples"
+        "Sec-CH-Device-Memory"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "http-header",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
-        "id": "examples",
-        "href": "https://www.w3.org/TR/device-memory/#examples",
-        "title": "Examples",
-        "number": "2.2"
+        "id": "sec-device-memory-client-hint-header",
+        "href": "https://www.w3.org/TR/device-memory/#sec-device-memory-client-hint-header",
+        "title": "Sec-CH-Device-Memory (Client Hint) Header Field",
+        "number": "3"
       },
-      "definedIn": "heading",
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -56,10 +56,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "sec-device-memory-js-api",
-        "href": "https://www.w3.org/TR/device-memory/#sec-device-memory-js-api",
-        "title": "Device Memory JS API",
-        "number": "3"
+        "id": "device-memory-js-api",
+        "href": "https://www.w3.org/TR/device-memory/#device-memory-js-api",
+        "title": "Device Memory JavaScript API",
+        "number": "4"
       },
       "definedIn": "pre",
       "links": []
@@ -78,10 +78,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "sec-device-memory-js-api",
-        "href": "https://www.w3.org/TR/device-memory/#sec-device-memory-js-api",
-        "title": "Device Memory JS API",
-        "number": "3"
+        "id": "device-memory-js-api",
+        "href": "https://www.w3.org/TR/device-memory/#device-memory-js-api",
+        "title": "Device Memory JavaScript API",
+        "number": "4"
       },
       "definedIn": "pre",
       "links": []

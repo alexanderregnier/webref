@@ -1,0 +1,70 @@
+{
+  "spec": {
+    "title": "Confidence Method v1.0",
+    "url": "https://w3c.github.io/vc-confidence-method/"
+  },
+  "links": {
+    "rawlinks": {
+      "http://data.europa.eu/eli/reg/2024/1183/oj": {},
+      "https://pages.nist.gov/800-63-4/sp800-63.html": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/rfc/rfc2119": {},
+      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.w3.org/TR/": {},
+      "https://www.w3.org/TR/cid-1.0/": {
+        "anchors": [
+          "terminology"
+        ]
+      },
+      "https://www.w3.org/TR/vc-data-integrity/": {
+        "anchors": [
+          "dfn-verification-method"
+        ]
+      },
+      "https://www.w3.org/TR/vc-data-model-2.0/": {
+        "anchors": [
+          "securing-mechanisms",
+          "terminology"
+        ]
+      },
+      "https://www.w3.org/groups/wg/vc": {},
+      "https://www.w3.org/groups/wg/vc/ipr": {},
+      "https://www.w3.org/policies/patent-policy/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20250818/": {
+        "anchors": [
+          "recs-and-notes"
+        ]
+      }
+    },
+    "autolinks": {
+      "https://www.w3.org/TR/cid-1.0/": {
+        "anchors": [
+          "dfn-controller"
+        ]
+      },
+      "https://www.w3.org/TR/vc-data-integrity/": {
+        "anchors": [
+          "dfn-data-integrity-proof"
+        ]
+      },
+      "https://www.w3.org/TR/vc-data-model-2.0/": {
+        "anchors": [
+          "dfn-verifier",
+          "dfn-verifiable-credential",
+          "dfn-subjects",
+          "dfn-issuers",
+          "dfn-claims",
+          "dfn-presentation",
+          "defn-evidence",
+          "dfn-holders",
+          "dfn-verifiable-presentation"
+        ]
+      }
+    }
+  }
+}

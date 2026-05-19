@@ -1,7 +1,7 @@
 {
   "spec": {
-    "title": "Compositing and Blending Level 1",
-    "url": "https://drafts.fxtf.org/compositing-1/"
+    "title": "Compositing and Blending Module Level 1",
+    "url": "https://drafts.csswg.org/compositing-1/"
   },
   "links": {
     "rawlinks": {
@@ -106,9 +106,9 @@
       },
       "https://drafts.csswg.org/css-backgrounds/": {},
       "https://drafts.csswg.org/css-color-4/": {},
+      "https://drafts.csswg.org/css-masking-1/": {},
       "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/css2/": {},
-      "https://drafts.fxtf.org/css-masking-1/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/compositing/Blending_in_a_group_with_filter.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/compositing/Blending_in_a_group_with_opacity.html": {},
@@ -361,7 +361,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {},
+      "https://www.w3.org/policies/process/20250818/": {},
       "https://www.w3.org/tr/css21/visuren.html": {
         "anchors": [
           "x43"
@@ -382,15 +382,15 @@
           "valdef-color-lime"
         ]
       },
+      "https://drafts.csswg.org/css-masking-1/": {
+        "anchors": [
+          "propdef-mask"
+        ]
+      },
       "https://drafts.csswg.org/css-values-4/": {
         "anchors": [
           "comb-one",
           "mult-comma"
-        ]
-      },
-      "https://drafts.fxtf.org/css-masking-1/": {
-        "anchors": [
-          "propdef-mask"
         ]
       },
       "https://html.spec.whatwg.org/multipage/canvas.html": {
@@ -401,6 +401,11 @@
       "https://html.spec.whatwg.org/multipage/embedded-content.html": {
         "anchors": [
           "the-img-element"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/grouping-content.html": {
+        "anchors": [
+          "the-div-element"
         ]
       },
       "https://html.spec.whatwg.org/multipage/sections.html": {

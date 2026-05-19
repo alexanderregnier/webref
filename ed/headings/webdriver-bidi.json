@@ -214,10 +214,10 @@
       "number": "7.1.2.6"
     },
     {
-      "id": "type-session-SubscriptionRequest",
-      "href": "https://w3c.github.io/webdriver-bidi/#type-session-SubscriptionRequest",
+      "id": "type-session-SubscriptionParameters",
+      "href": "https://w3c.github.io/webdriver-bidi/#type-session-SubscriptionParameters",
       "level": 5,
-      "title": "The session.SubscriptionRequest Type",
+      "title": "The session.SubscribeParameters Type",
       "number": "7.1.2.7"
     },
     {
@@ -536,18 +536,25 @@
       "number": "7.3.3.10"
     },
     {
+      "id": "command-browsingContext-setBypassCSP",
+      "href": "https://w3c.github.io/webdriver-bidi/#command-browsingContext-setBypassCSP",
+      "level": 5,
+      "title": "The browsingContext.setBypassCSP Command",
+      "number": "7.3.3.11"
+    },
+    {
       "id": "command-browsingContext-setViewport",
       "href": "https://w3c.github.io/webdriver-bidi/#command-browsingContext-setViewport",
       "level": 5,
       "title": "The browsingContext.setViewport Command",
-      "number": "7.3.3.11"
+      "number": "7.3.3.12"
     },
     {
       "id": "command-browsingContext-traverseHistory",
       "href": "https://w3c.github.io/webdriver-bidi/#command-browsingContext-traverseHistory",
       "level": 5,
       "title": "The browsingContext.traverseHistory Command",
-      "number": "7.3.3.12"
+      "number": "7.3.3.13"
     },
     {
       "id": "module-contexts-events",
@@ -697,32 +704,60 @@
       "number": "7.4.2.3"
     },
     {
+      "id": "command-emulation-setNetworkConditions",
+      "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setNetworkConditions",
+      "level": 5,
+      "title": "The emulation.setNetworkConditions Command",
+      "number": "7.4.2.4"
+    },
+    {
+      "id": "command-emulation-setScreenSettingsOverride",
+      "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenSettingsOverride",
+      "level": 5,
+      "title": "The emulation.setScreenSettingsOverride Command",
+      "number": "7.4.2.5"
+    },
+    {
       "id": "command-emulation-setScreenOrientationOverride",
       "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScreenOrientationOverride",
       "level": 5,
       "title": "The emulation.setScreenOrientationOverride Command",
-      "number": "7.4.2.4"
+      "number": "7.4.2.6"
     },
     {
       "id": "command-emulation-setUserAgentOverride",
       "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setUserAgentOverride",
       "level": 5,
       "title": "The emulation.setUserAgentOverride Command",
-      "number": "7.4.2.5"
+      "number": "7.4.2.7"
     },
     {
       "id": "command-emulation-setScriptingEnabled",
       "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScriptingEnabled",
       "level": 5,
       "title": "The emulation.setScriptingEnabled Command",
-      "number": "7.4.2.6"
+      "number": "7.4.2.8"
+    },
+    {
+      "id": "command-emulation-setScrollbarTypeOverride",
+      "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setScrollbarTypeOverride",
+      "level": 5,
+      "title": "The emulation.setScrollbarTypeOverride Command",
+      "number": "7.4.2.9"
     },
     {
       "id": "command-emulation-setTimezoneOverride",
       "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setTimezoneOverride",
       "level": 5,
       "title": "The emulation.setTimezoneOverride Command",
-      "number": "7.4.2.7"
+      "number": "7.4.2.10"
+    },
+    {
+      "id": "command-emulation-setTouchOverride",
+      "href": "https://w3c.github.io/webdriver-bidi/#command-emulation-setTouchOverride",
+      "level": 5,
+      "title": "The emulation.setTouchOverride Command",
+      "number": "7.4.2.11"
     },
     {
       "id": "module-network",
@@ -1584,7 +1619,7 @@
       "id": "informative",
       "href": "https://w3c.github.io/webdriver-bidi/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "cddl-index",

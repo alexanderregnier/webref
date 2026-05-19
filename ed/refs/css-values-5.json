@@ -22,10 +22,6 @@
         "url": "https://drafts.csswg.org/css-backgrounds/"
       },
       {
-        "name": "CSS-BOX-4",
-        "url": "https://drafts.csswg.org/css-box-4/"
-      },
-      {
         "name": "CSS-CASCADE-5",
         "url": "https://drafts.csswg.org/css-cascade-5/"
       },
@@ -78,8 +74,8 @@
         "url": "https://drafts.csswg.org/css-pseudo-4/"
       },
       {
-        "name": "CSS-SCOPING-1",
-        "url": "https://drafts.csswg.org/css-scoping/"
+        "name": "CSS-SHADOW-1",
+        "url": "https://drafts.csswg.org/css-shadow-1/"
       },
       {
         "name": "CSS-SIZING-3",
@@ -130,12 +126,12 @@
         "url": "https://drafts.csswg.org/css2/"
       },
       {
-        "name": "DOM",
-        "url": "https://dom.spec.whatwg.org/"
+        "name": "CSSOM-1",
+        "url": "https://drafts.csswg.org/cssom/"
       },
       {
-        "name": "ECMASCRIPT",
-        "url": "https://tc39.es/ecma262/multipage/"
+        "name": "DOM",
+        "url": "https://dom.spec.whatwg.org/"
       },
       {
         "name": "FETCH",
@@ -184,6 +180,10 @@
     ],
     "informative": [
       {
+        "name": "CSS-BOX-4",
+        "url": "https://drafts.csswg.org/css-box-4/"
+      },
+      {
         "name": "CSS-CASCADE-4",
         "url": "https://drafts.csswg.org/css-cascade-4/"
       },
@@ -193,7 +193,7 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display/"
+        "url": "https://drafts.csswg.org/css-display-4/"
       },
       {
         "name": "CSS-LISTS-3",
@@ -202,10 +202,6 @@
       {
         "name": "CSS-VARIABLES",
         "url": "https://drafts.csswg.org/css-variables/"
-      },
-      {
-        "name": "CSSOM-1",
-        "url": "https://drafts.csswg.org/cssom/"
       },
       {
         "name": "SCROLL-ANIMATIONS-1",

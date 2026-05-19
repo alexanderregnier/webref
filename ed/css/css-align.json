@@ -82,12 +82,16 @@
       "styleDeclaration": [
         "place-content",
         "placeContent"
+      ],
+      "longhands": [
+        "align-content",
+        "justify-content"
       ]
     },
     {
       "name": "justify-self",
       "href": "https://drafts.csswg.org/css-align-3/#propdef-justify-self",
-      "value": "auto | normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ]",
+      "value": "auto | <overflow-position>? [ normal | <self-position> | left | right ] | stretch | <baseline-position>",
       "initial": "auto",
       "appliesTo": "block-level boxes, absolutely-positioned boxes, and grid items",
       "inherited": "no",
@@ -140,7 +144,7 @@
     {
       "name": "align-self",
       "href": "https://drafts.csswg.org/css-align-3/#propdef-align-self",
-      "value": "auto | normal | stretch | <baseline-position> | <overflow-position>? <self-position>",
+      "value": "auto | <overflow-position>? [ normal | <self-position> ]| stretch | <baseline-position>",
       "initial": "auto",
       "appliesTo": "flex items, grid items, and absolutely-positioned boxes",
       "inherited": "no",
@@ -190,6 +194,10 @@
       "styleDeclaration": [
         "place-self",
         "placeSelf"
+      ],
+      "longhands": [
+        "align-self",
+        "justify-self"
       ]
     },
     {
@@ -234,7 +242,7 @@
     {
       "name": "align-items",
       "href": "https://drafts.csswg.org/css-align-3/#propdef-align-items",
-      "value": "normal | stretch | <baseline-position> | [ <overflow-position>? <self-position> ]",
+      "value": "normal | stretch | <baseline-position> | <overflow-position>? <self-position>",
       "initial": "normal",
       "appliesTo": "all elements",
       "inherited": "no",
@@ -261,107 +269,10 @@
       "styleDeclaration": [
         "place-items",
         "placeItems"
-      ]
-    },
-    {
-      "name": "row-gap",
-      "href": "https://drafts.csswg.org/css-align-3/#propdef-row-gap",
-      "value": "normal | <length-percentage [0,∞]>",
-      "initial": "normal",
-      "appliesTo": "multi-column containers, flex containers, grid containers",
-      "inherited": "no",
-      "percentages": "see § 8.3 Percentages In gap Properties",
-      "computedValue": "specified keyword, else a computed <length-percentage> value",
-      "canonicalOrder": "per grammar",
-      "animationType": "by computed value type",
-      "values": [
-        {
-          "name": "normal",
-          "prose": "The value normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.",
-          "href": "https://drafts.csswg.org/css-align-3/#valdef-row-gap-normal",
-          "type": "value",
-          "value": "normal"
-        }
       ],
-      "styleDeclaration": [
-        "row-gap",
-        "rowGap"
-      ]
-    },
-    {
-      "name": "column-gap",
-      "href": "https://drafts.csswg.org/css-align-3/#propdef-column-gap",
-      "value": "normal | <length-percentage [0,∞]>",
-      "initial": "normal",
-      "appliesTo": "multi-column containers, flex containers, grid containers",
-      "inherited": "no",
-      "percentages": "see § 8.3 Percentages In gap Properties",
-      "computedValue": "specified keyword, else a computed <length-percentage> value",
-      "canonicalOrder": "per grammar",
-      "animationType": "by computed value type",
-      "values": [
-        {
-          "name": "normal",
-          "prose": "The value normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.",
-          "href": "https://drafts.csswg.org/css-align-3/#valdef-row-gap-normal",
-          "type": "value",
-          "value": "normal"
-        }
-      ],
-      "styleDeclaration": [
-        "column-gap",
-        "columnGap"
-      ]
-    },
-    {
-      "name": "gap",
-      "href": "https://drafts.csswg.org/css-align-3/#propdef-gap",
-      "value": "<'row-gap'> <'column-gap'>?",
-      "initial": "see individual properties",
-      "appliesTo": "multi-column containers, flex containers, grid containers",
-      "inherited": "no",
-      "percentages": "refer to corresponding dimension of the content area",
-      "computedValue": "see individual properties",
-      "canonicalOrder": "per grammar",
-      "animationType": "by computed value type",
-      "values": [
-        {
-          "name": "normal",
-          "prose": "The value normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.",
-          "href": "https://drafts.csswg.org/css-align-3/#valdef-row-gap-normal",
-          "type": "value",
-          "value": "normal"
-        }
-      ],
-      "styleDeclaration": [
-        "gap"
-      ]
-    },
-    {
-      "name": "grid-row-gap",
-      "href": "https://drafts.csswg.org/css-align-3/#propdef-grid-row-gap",
-      "legacyAliasOf": "row-gap",
-      "styleDeclaration": [
-        "grid-row-gap",
-        "gridRowGap"
-      ]
-    },
-    {
-      "name": "grid-column-gap",
-      "href": "https://drafts.csswg.org/css-align-3/#propdef-grid-column-gap",
-      "legacyAliasOf": "column-gap",
-      "styleDeclaration": [
-        "grid-column-gap",
-        "gridColumnGap"
-      ]
-    },
-    {
-      "name": "grid-gap",
-      "href": "https://drafts.csswg.org/css-align-3/#propdef-grid-gap",
-      "legacyAliasOf": "gap",
-      "styleDeclaration": [
-        "grid-gap",
-        "gridGap"
+      "longhands": [
+        "align-items",
+        "justify-items"
       ]
     }
   ],
@@ -555,7 +466,7 @@
       "values": [
         {
           "name": "safe",
-          "prose": "If the size of the alignment subject overflows the alignment container, the alignment subject is instead aligned as if the alignment mode were start.",
+          "prose": "If the size of the alignment subject overflows the alignment container, the alignment subject is instead aligned as if the alignment mode were flex-start.",
           "href": "https://drafts.csswg.org/css-align-3/#valdef-overflow-position-safe",
           "type": "value",
           "value": "safe"

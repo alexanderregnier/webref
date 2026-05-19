@@ -31,6 +31,7 @@
       "https://github.com/w3c/manifest/commit/1860fe4": {},
       "https://github.com/w3c/manifest/commit/1a06ac7": {},
       "https://github.com/w3c/manifest/commit/22a0b1e": {},
+      "https://github.com/w3c/manifest/commit/23f0aa1": {},
       "https://github.com/w3c/manifest/commit/2a8fc0a": {},
       "https://github.com/w3c/manifest/commit/2c55d86": {},
       "https://github.com/w3c/manifest/commit/2f54efe": {},
@@ -41,9 +42,12 @@
       "https://github.com/w3c/manifest/commit/4ab46a2": {},
       "https://github.com/w3c/manifest/commit/4c24e73": {},
       "https://github.com/w3c/manifest/commit/54acb9e": {},
+      "https://github.com/w3c/manifest/commit/5cd886a": {},
       "https://github.com/w3c/manifest/commit/5d2ac4b": {},
       "https://github.com/w3c/manifest/commit/662cc34": {},
       "https://github.com/w3c/manifest/commit/6708bc8": {},
+      "https://github.com/w3c/manifest/commit/6731c8c": {},
+      "https://github.com/w3c/manifest/commit/6d104be": {},
       "https://github.com/w3c/manifest/commit/72ba21c": {},
       "https://github.com/w3c/manifest/commit/75ae2b4": {},
       "https://github.com/w3c/manifest/commit/7d41b99": {},
@@ -56,12 +60,16 @@
       "https://github.com/w3c/manifest/commit/9888403": {},
       "https://github.com/w3c/manifest/commit/a8284f3": {},
       "https://github.com/w3c/manifest/commit/bceb2ee": {},
+      "https://github.com/w3c/manifest/commit/c0d4307": {},
       "https://github.com/w3c/manifest/commit/c3e18c8": {},
+      "https://github.com/w3c/manifest/commit/c5b38d2": {},
       "https://github.com/w3c/manifest/commit/d1699ec": {},
+      "https://github.com/w3c/manifest/commit/d79d9ca": {},
       "https://github.com/w3c/manifest/commit/ec8a23b": {},
       "https://github.com/w3c/manifest/commit/f704809": {},
       "https://github.com/w3c/manifest/commit/f8f227e": {},
       "https://github.com/w3c/manifest/issues": {},
+      "https://github.com/w3c/manifest/issues/1216": {},
       "https://github.com/w3c/manifest/issues/646": {},
       "https://github.com/w3c/manifest/issues/97": {},
       "https://github.com/w3c/manifest/pull/1011": {},
@@ -75,6 +83,11 @@
       "https://github.com/w3c/manifest/pull/1120": {},
       "https://github.com/w3c/manifest/pull/1122": {},
       "https://github.com/w3c/manifest/pull/1149": {},
+      "https://github.com/w3c/manifest/pull/1171": {},
+      "https://github.com/w3c/manifest/pull/1192": {},
+      "https://github.com/w3c/manifest/pull/1202": {},
+      "https://github.com/w3c/manifest/pull/1213": {},
+      "https://github.com/w3c/manifest/pull/1215": {},
       "https://github.com/w3c/manifest/pull/768": {},
       "https://github.com/w3c/manifest/pull/790": {},
       "https://github.com/w3c/manifest/pull/797": {},
@@ -99,6 +112,7 @@
           "nav-bc"
         ]
       },
+      "https://httpwg.org/specs/rfc8246.html": {},
       "https://httpwg.org/specs/rfc9110.html": {},
       "https://infra.spec.whatwg.org/": {},
       "https://json.schemastore.org/web-manifest": {},
@@ -178,7 +192,11 @@
           "cors-request",
           "http-origin",
           "concept-request-credentials-mode",
-          "cors-protocol"
+          "cors-protocol",
+          "concept-request",
+          "concept-request-url",
+          "concept-request-destination",
+          "concept-request-client"
         ]
       },
       "https://html.spec.whatwg.org/multipage/browsers.html": {
@@ -202,8 +220,8 @@
         "anchors": [
           "top-level-browsing-context",
           "browsing-context",
-          "create-a-fresh-top-level-traversable",
-          "nav-document"
+          "nav-document",
+          "create-a-fresh-top-level-traversable"
         ]
       },
       "https://html.spec.whatwg.org/multipage/semantics.html": {
@@ -220,6 +238,12 @@
       "https://html.spec.whatwg.org/multipage/urls-and-fetching.html": {
         "anchors": [
           "cors-settings-attribute-credentials-mode"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/webappapis.html": {
+        "anchors": [
+          "environment-settings-object",
+          "relevant-settings-object"
         ]
       },
       "https://infra.spec.whatwg.org/": {
@@ -271,6 +295,12 @@
           "dfn-identifier"
         ]
       },
+      "https://www.w3.org/TR/CSP3/": {
+        "anchors": [
+          "enforced",
+          "content-security-policy"
+        ]
+      },
       "https://www.w3.org/TR/css-color-4/": {
         "anchors": [
           "alpha-channel",
@@ -290,6 +320,8 @@
       "https://www.w3.org/TR/image-resource/": {
         "anchors": [
           "dfn-image-resource",
+          "dom-imageresource-src",
+          "dfn-fetching-an-image-resource",
           "dfn-process-an-image-resource-from-json"
         ]
       },
@@ -308,6 +340,11 @@
         "anchors": [
           "dfn-default-screen-orientation",
           "dom-orientationlocktype"
+        ]
+      },
+      "https://www.w3.org/TR/service-workers/": {
+        "anchors": [
+          "dfn-service-worker"
         ]
       }
     }

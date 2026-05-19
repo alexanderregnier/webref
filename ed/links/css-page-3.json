@@ -35,13 +35,14 @@
       "https://drafts.csswg.org/css-anchor-position-1/": {},
       "https://drafts.csswg.org/css-backgrounds-4/": {},
       "https://drafts.csswg.org/css-backgrounds/": {},
+      "https://drafts.csswg.org/css-borders-4/": {},
       "https://drafts.csswg.org/css-box-3/": {},
       "https://drafts.csswg.org/css-box-4/": {},
       "https://drafts.csswg.org/css-break-4/": {},
       "https://drafts.csswg.org/css-break/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-content-3/": {},
-      "https://drafts.csswg.org/css-display/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
       "https://drafts.csswg.org/css-gcpm/": {},
       "https://drafts.csswg.org/css-images-3/": {},
@@ -214,15 +215,19 @@
           "propdef-background-clip",
           "propdef-background-origin",
           "propdef-background-attachment",
-          "valdef-background-attachment-fixed",
-          "background-positioning-area",
-          "propdef-border-top-width",
-          "propdef-border-bottom-width"
+          "valdef-background-attachment-fixed"
         ]
       },
       "https://drafts.csswg.org/css-backgrounds-4/": {
         "anchors": [
-          "background-painting-area"
+          "background-painting-area",
+          "background-positioning-area"
+        ]
+      },
+      "https://drafts.csswg.org/css-borders-4/": {
+        "anchors": [
+          "propdef-border-top-width",
+          "propdef-border-bottom-width"
         ]
       },
       "https://drafts.csswg.org/css-box-4/": {

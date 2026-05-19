@@ -404,6 +404,7 @@
       "https://drafts.csswg.org/css-images-3/": {},
       "https://drafts.csswg.org/css-images-4/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
+      "https://drafts.csswg.org/css-masking-1/": {},
       "https://drafts.csswg.org/css-syntax/": {},
       "https://drafts.csswg.org/css-transforms/": {},
       "https://drafts.csswg.org/css-values-3/": {},
@@ -416,7 +417,6 @@
       "https://drafts.csswg.org/css-variables-2/": {},
       "https://drafts.csswg.org/css-writing-modes-4/": {},
       "https://drafts.csswg.org/css2/": {},
-      "https://drafts.fxtf.org/css-masking-1/": {},
       "https://fetch.spec.whatwg.org/": {
         "anchors": [
           "http-cors-protocol"
@@ -798,8 +798,8 @@
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://svgwg.org/specs/paths/": {},
-      "https://svgwg.org/svg2-draft/": {},
-      "https://svgwg.org/svg2-draft/paths.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/paths.html": {
         "anchors": [
           "ArcOutOfRangeParameters"
         ]
@@ -1241,13 +1241,15 @@
       "https://drafts.csswg.org/css-backgrounds-3/": {
         "anchors": [
           "propdef-border-radius",
+          "outset-adjusted-border-radius",
           "propdef-background-clip"
         ]
       },
       "https://drafts.csswg.org/css-box-4/": {
         "anchors": [
           "margin-box",
-          "typedef-visual-box"
+          "typedef-visual-box",
+          "border-box"
         ]
       },
       "https://drafts.csswg.org/css-cascade-5/": {
@@ -1278,6 +1280,13 @@
           "initial-letter"
         ]
       },
+      "https://drafts.csswg.org/css-masking-1/": {
+        "anchors": [
+          "propdef-clip",
+          "valdef-clip-rule-nonzero",
+          "propdef-clip-path"
+        ]
+      },
       "https://drafts.csswg.org/css-syntax-3/": {
         "anchors": [
           "css-invalid"
@@ -1291,11 +1300,11 @@
       "https://drafts.csswg.org/css-values-4/": {
         "anchors": [
           "css-wide-keywords",
+          "comb-one",
           "typedef-length-percentage",
           "mult-num-range",
           "mult-opt",
           "mult-num",
-          "comb-one",
           "length-value",
           "comb-comma",
           "mult-comma",
@@ -1339,24 +1348,17 @@
           "propdef-margin"
         ]
       },
-      "https://drafts.fxtf.org/css-masking-1/": {
-        "anchors": [
-          "propdef-clip",
-          "valdef-clip-rule-nonzero",
-          "propdef-clip-path"
-        ]
-      },
       "https://svgwg.org/specs/paths/": {
         "anchors": [
           "elementdef-path"
         ]
       },
-      "https://svgwg.org/svg2-draft/coords.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/coords.html": {
         "anchors": [
           "TermViewBox"
         ]
       },
-      "https://svgwg.org/svg2-draft/painting.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/painting.html": {
         "anchors": [
           "FillRuleProperty"
         ]

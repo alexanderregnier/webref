@@ -35,7 +35,7 @@
       "https://drafts.csswg.org/css-cascade-6/": {},
       "https://drafts.csswg.org/css-color-4/": {},
       "https://drafts.csswg.org/css-color-5/": {},
-      "https://drafts.csswg.org/css-display/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-fonts-3/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
@@ -47,13 +47,13 @@
       "https://drafts.csswg.org/css-text-3/": {},
       "https://drafts.csswg.org/css-text-4/": {},
       "https://drafts.csswg.org/css-text-decor-3/": {},
-      "https://drafts.csswg.org/css-text-decor-4/": {},
       "https://drafts.csswg.org/css-ui-4/": {},
       "https://drafts.csswg.org/css-values-3/": {},
       "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/css-writing-modes-4/": {},
       "https://drafts.csswg.org/css2/": {},
-      "https://drafts.fxtf.org/fill-stroke/": {},
+      "https://drafts.csswg.org/fill-stroke/": {},
+      "https://drafts.csswg.org/selectors/": {},
       "https://github.com/adobe-fonts/kenten-generic": {},
       "https://github.com/w3c/alreq/issues/86": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
@@ -173,6 +173,7 @@
     "autolinks": {
       "https://drafts.csswg.org/css-backgrounds-3/": {
         "anchors": [
+          "typedef-line-width",
           "typedef-shadow",
           "box-shadow-none",
           "propdef-box-shadow",
@@ -237,7 +238,6 @@
       },
       "https://drafts.csswg.org/css-inline-3/": {
         "anchors": [
-          "valdef-alignment-baseline-baseline",
           "propdef-vertical-align"
         ]
       },
@@ -311,20 +311,20 @@
           "writing-mode"
         ]
       },
-      "https://drafts.fxtf.org/fill-stroke-3/": {
+      "https://drafts.csswg.org/css2/": {
+        "anchors": [
+          "valdef-vertical-align-baseline"
+        ]
+      },
+      "https://drafts.csswg.org/fill-stroke-3/": {
         "anchors": [
           "propdef-stroke",
           "propdef-fill"
         ]
       },
-      "https://www.w3.org/TR/CSS2/selector.html": {
+      "https://drafts.csswg.org/selectors-4/": {
         "anchors": [
-          "x22"
-        ]
-      },
-      "https://www.w3.org/TR/css-text-decor-4/": {
-        "anchors": [
-          "propdef-text-decoration-skip-inset"
+          "pseudo-element"
         ]
       }
     }

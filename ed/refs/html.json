@@ -38,7 +38,7 @@
       },
       {
         "name": "COMPOSITE",
-        "url": "https://drafts.fxtf.org/compositing/"
+        "url": "https://drafts.csswg.org/compositing/"
       },
       {
         "name": "CONSOLE",
@@ -123,6 +123,10 @@
       {
         "name": "CSSFLEXBOX",
         "url": "https://drafts.csswg.org/css-flexbox/"
+      },
+      {
+        "name": "CSSGAPS",
+        "url": "https://drafts.csswg.org/css-gaps/"
       },
       {
         "name": "CSSGC",
@@ -253,7 +257,7 @@
       },
       {
         "name": "FILTERS",
-        "url": "https://drafts.fxtf.org/filter-effects/"
+        "url": "https://drafts.csswg.org/filter-effects/"
       },
       {
         "name": "FULLSCREEN",
@@ -261,7 +265,7 @@
       },
       {
         "name": "GEOMETRY",
-        "url": "https://drafts.fxtf.org/geometry/"
+        "url": "https://drafts.csswg.org/geometry/"
       },
       {
         "name": "HRT",
@@ -318,6 +322,10 @@
       {
         "name": "JSDYNAMICCODEBRANDCHECKS",
         "url": "https://tc39.es/proposal-dynamic-code-brand-checks/"
+      },
+      {
+        "name": "JSIMPORTTEXT",
+        "url": "https://tc39.es/proposal-import-text/"
       },
       {
         "name": "JSINTL",

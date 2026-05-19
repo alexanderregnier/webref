@@ -58,13 +58,13 @@
       "https://developer.mozilla.org/en-US/docs/Web/CSS/orphans": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/widows": {},
       "https://drafts.csswg.org/css-backgrounds/": {},
+      "https://drafts.csswg.org/css-borders-4/": {},
       "https://drafts.csswg.org/css-box-4/": {},
-      "https://drafts.csswg.org/css-break-3/issues-cr-2016": {},
-      "https://drafts.csswg.org/css-break-3/issues-lc-2015": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
-      "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
       "https://drafts.csswg.org/css-grid-1/": {},
+      "https://drafts.csswg.org/css-masking-1/": {},
       "https://drafts.csswg.org/css-multicol/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-page-3/": {},
@@ -86,7 +86,6 @@
       "https://drafts.csswg.org/css-writing-modes-4/": {},
       "https://drafts.csswg.org/css2/": {},
       "https://drafts.csswg.org/mediaqueries-5/": {},
-      "https://drafts.fxtf.org/css-masking-1/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/csswg-drafts/issues/1111": {},
       "https://github.com/w3c/csswg-drafts/issues/1529": {},
@@ -141,7 +140,6 @@
           "positioning-scheme"
         ]
       },
-      "https://www.w3.org/TR/2015/WD-css3-break-20150129/": {},
       "https://www.w3.org/TR/2016/CR-css-break-3-20160114/": {},
       "https://www.w3.org/TR/2018/CR-css-break-3-20181204/": {},
       "https://www.w3.org/TR/CSS/": {},
@@ -246,7 +244,11 @@
     "autolinks": {
       "https://drafts.csswg.org/css-backgrounds-3/": {
         "anchors": [
-          "background-positioning-area",
+          "background-positioning-area"
+        ]
+      },
+      "https://drafts.csswg.org/css-borders-4/": {
+        "anchors": [
           "propdef-border-radius",
           "propdef-border-image",
           "propdef-box-shadow"
@@ -278,6 +280,11 @@
           "block-level-box",
           "inline-box",
           "out-of-flow"
+        ]
+      },
+      "https://drafts.csswg.org/css-masking-1/": {
+        "anchors": [
+          "mask-positioning-area"
         ]
       },
       "https://drafts.csswg.org/css-overflow-3/": {
@@ -358,11 +365,6 @@
         "anchors": [
           "paged-media",
           "continuous-media"
-        ]
-      },
-      "https://drafts.fxtf.org/css-masking-1/": {
-        "anchors": [
-          "mask-positioning-area"
         ]
       }
     }

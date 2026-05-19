@@ -6,12 +6,12 @@
   "refs": {
     "normative": [
       {
-        "name": "draft-ietf-cose-dilithium-07",
-        "url": "https://www.ietf.org/archive/id/draft-ietf-cose-dilithium-07.html"
+        "name": "draft-ietf-cose-dilithium-08",
+        "url": "https://www.ietf.org/archive/id/draft-ietf-cose-dilithium-08.html"
       },
       {
-        "name": "draft-ietf-jose-pqc-kem-01",
-        "url": "https://www.ietf.org/archive/id/draft-ietf-jose-pqc-kem-01.html"
+        "name": "draft-ietf-jose-pqc-kem-05",
+        "url": "https://www.ietf.org/archive/id/draft-ietf-jose-pqc-kem-05.html"
       },
       {
         "name": "FIPS-202",
@@ -78,6 +78,10 @@
         "url": "https://www.rfc-editor.org/rfc/rfc9106"
       },
       {
+        "name": "RFC9861",
+        "url": "https://www.rfc-editor.org/rfc/rfc9861.html"
+      },
+      {
         "name": "webcrypto",
         "url": "https://www.w3.org/TR/webcrypto-2/"
       },
@@ -90,6 +94,14 @@
       {
         "name": "CSOR",
         "url": "https://csrc.nist.gov/projects/computer-security-objects-register/algorithm-registration"
+      },
+      {
+        "name": "draft-ietf-hpke-hpke",
+        "url": "https://datatracker.ietf.org/doc/draft-ietf-hpke-hpke/"
+      },
+      {
+        "name": "draft-ietf-hpke-pq",
+        "url": "https://datatracker.ietf.org/doc/draft-ietf-hpke-pq/"
       },
       {
         "name": "draft-ietf-lamps-dilithium-certificates",

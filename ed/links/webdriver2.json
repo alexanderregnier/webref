@@ -61,7 +61,8 @@
           "dom-element-scrollintoview",
           "dictdef-scrollintoviewoptions",
           "dom-scrollintoviewoptions-block",
-          "dom-scrollintoviewoptions-inline"
+          "dom-scrollintoviewoptions-inline",
+          "visual-viewport"
         ]
       },
       "https://drafts.csswg.org/cssom/": {
@@ -107,9 +108,9 @@
           "fully-exit-fullscreen"
         ]
       },
-      "https://github.com/SeleniumHQ/selenium/blob/a6b161a159c3d581b130f03a2e6e35f577f38dec/javascript/atoms/dom.js": {
+      "https://github.com/SeleniumHQ/selenium/blob/775cfb33b193eb8832cd5488f298006f45254685/javascript/atoms/dom.js": {
         "anchors": [
-          "L1007",
+          "L1005",
           "L573"
         ]
       },
@@ -227,6 +228,11 @@
           "focus"
         ]
       },
+      "https://html.spec.whatwg.org/multipage/system-state.html": {
+        "anchors": [
+          "user-agent-automation"
+        ]
+      },
       "https://httpwg.org/specs/rfc6265.html": {},
       "https://httpwg.org/specs/rfc7230.html": {},
       "https://httpwg.org/specs/rfc7231.html": {},
@@ -237,6 +243,11 @@
         "anchors": [
           "convert-an-infra-value-to-a-json-compatible-javascript-value",
           "convert-a-json-derived-javascript-value-to-an-infra-value"
+        ]
+      },
+      "https://privacycg.github.io/storage-access/": {
+        "anchors": [
+          "automation"
         ]
       },
       "https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap04.html": {
@@ -396,8 +407,8 @@
       "https://www.rfc-editor.org/rfc/rfc4632": {},
       "https://www.rfc-editor.org/rfc/rfc4648": {},
       "https://www.rfc-editor.org/rfc/rfc6570": {},
-      "https://www.unicode.org/reports/tr29/tr29-45.html": {},
-      "https://www.unicode.org/reports/tr44/tr44-34.html": {},
+      "https://www.unicode.org/reports/tr29/tr29-47.html": {},
+      "https://www.unicode.org/reports/tr44/tr44-36.html": {},
       "https://www.unicode.org/versions/Unicode9.0.0/ch03.pdf": {
         "anchors": [
           "G2212",
@@ -439,6 +450,11 @@
           "mapping_additional_nd_te"
         ]
       },
+      "https://www.w3.org/TR/compute-pressure/": {
+        "anchors": [
+          "automation"
+        ]
+      },
       "https://www.w3.org/TR/css-box-3/": {},
       "https://www.w3.org/TR/css-cascade-4/": {},
       "https://www.w3.org/TR/css-device-adapt-1/": {},
@@ -451,7 +467,27 @@
       },
       "https://www.w3.org/TR/cssom-1/": {},
       "https://www.w3.org/TR/cssom-view-1/": {},
+      "https://www.w3.org/TR/device-posture/": {
+        "anchors": [
+          "automation"
+        ]
+      },
+      "https://www.w3.org/TR/fedcm/": {
+        "anchors": [
+          "automation"
+        ]
+      },
+      "https://www.w3.org/TR/generic-sensor/": {
+        "anchors": [
+          "automation"
+        ]
+      },
       "https://www.w3.org/TR/geometry-1/": {},
+      "https://www.w3.org/TR/gpc/": {
+        "anchors": [
+          "automation"
+        ]
+      },
       "https://www.w3.org/TR/mediaqueries-4/": {
         "anchors": [
           "media-types"
@@ -464,7 +500,22 @@
           "dom-visibilitystate-visible"
         ]
       },
-      "https://www.w3.org/TR/pointerevents/": {},
+      "https://www.w3.org/TR/permissions/": {
+        "anchors": [
+          "automation-webdriver"
+        ]
+      },
+      "https://www.w3.org/TR/pointerevents4/": {},
+      "https://www.w3.org/TR/reporting-1/": {
+        "anchors": [
+          "automation"
+        ]
+      },
+      "https://www.w3.org/TR/secure-payment-confirmation/": {
+        "anchors": [
+          "sctn-automation"
+        ]
+      },
       "https://www.w3.org/TR/uievents-key/": {
         "anchors": [
           "keys-modifier"
@@ -476,6 +527,11 @@
         ]
       },
       "https://www.w3.org/TR/wai-aria-1.2/": {},
+      "https://www.w3.org/TR/webauthn-3/": {
+        "anchors": [
+          "sctn-automation"
+        ]
+      },
       "https://www.w3.org/TR/webdriver-bidi/": {},
       "https://www.w3.org/TR/xpath-10/": {},
       "https://www.w3.org/groups/wg/browser-tools-testing": {},

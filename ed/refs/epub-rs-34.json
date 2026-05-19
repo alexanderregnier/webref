@@ -14,6 +14,10 @@
         "url": "https://www.w3.org/TR/css-fonts-4/"
       },
       {
+        "name": "css2",
+        "url": "https://www.w3.org/TR/CSS2/"
+      },
+      {
         "name": "csssnapshot",
         "url": "https://www.w3.org/TR/CSS/"
       },
@@ -24,6 +28,10 @@
       {
         "name": "dom",
         "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "epub-33",
+        "url": "https://www.w3.org/TR/epub-33/"
       },
       {
         "name": "epub-34",
@@ -68,10 +76,6 @@
       {
         "name": "rfc1951",
         "url": "https://www.rfc-editor.org/rfc/rfc1951"
-      },
-      {
-        "name": "rfc2046",
-        "url": "https://www.rfc-editor.org/rfc/rfc2046"
       },
       {
         "name": "RFC2119",
@@ -140,12 +144,12 @@
     ],
     "informative": [
       {
-        "name": "css2",
-        "url": "https://www.w3.org/TR/CSS2/"
-      },
-      {
         "name": "epub-tts-10",
         "url": "https://www.w3.org/TR/epub-tts-10/"
+      },
+      {
+        "name": "fips-180-4",
+        "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf"
       },
       {
         "name": "h264",

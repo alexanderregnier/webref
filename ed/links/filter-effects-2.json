@@ -1,12 +1,11 @@
 {
   "spec": {
     "title": "Filter Effects Module Level 2",
-    "url": "https://drafts.fxtf.org/filter-effects-2/"
+    "url": "https://drafts.csswg.org/filter-effects-2/"
   },
   "links": {
     "rawlinks": {
       "http://lists.w3.org/Archives/Public/public-css-testsuite": {},
-      "http://lists.w3.org/Archives/Public/public-fx/": {},
       "http://www.w3.org/Style/CSS/Test/": {},
       "http://www.w3.org/TR/CSS/": {
         "anchors": [
@@ -38,24 +37,25 @@
       },
       "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/css2/": {},
-      "https://drafts.fxtf.org/filter-effects-1/": {
+      "https://drafts.csswg.org/filter-effects-1/": {
         "anchors": [
           "animation-of-filters",
           "blurEquivalent",
           "tainted-filter-primitives"
         ]
       },
-      "https://drafts.fxtf.org/filter-effects/": {
+      "https://drafts.csswg.org/filter-effects/": {
         "anchors": [
           "FilterProperty"
         ]
       },
-      "https://github.com/w3c/fxtf-drafts/issues": {},
+      "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/fxtf-drafts/issues/53": {},
       "https://html.spec.whatwg.org/multipage/": {},
-      "https://lists.w3.org/Archives/Public/public-fxtf-archive/": {},
-      "https://svgwg.org/svg2-draft/": {},
-      "https://www.w3.org/Style/": {},
+      "https://lists.w3.org/Archives/Public/public-css-archive/": {},
+      "https://lists.w3.org/Archives/Public/www-style/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
+      "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/TR/CSS2/zindex.html": {
         "anchors": [
           "painting-order"
@@ -91,15 +91,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/groups/wg/css": {},
-      "https://www.w3.org/groups/wg/css/ipr": {},
-      "https://www.w3.org/policies/patent-policy/20200915/": {
-        "anchors": [
-          "def-essential",
-          "sec-Disclosure"
-        ]
-      },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-values-4/": {
@@ -107,7 +99,7 @@
           "comb-one"
         ]
       },
-      "https://drafts.fxtf.org/filter-effects-1/": {
+      "https://drafts.csswg.org/filter-effects-1/": {
         "anchors": [
           "typedef-filter-value-list",
           "elementdef-filter",
@@ -119,7 +111,7 @@
           "browsing-context"
         ]
       },
-      "https://svgwg.org/svg2-draft/struct.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/struct.html": {
         "anchors": [
           "container-element"
         ]

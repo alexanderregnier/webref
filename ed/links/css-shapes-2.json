@@ -24,11 +24,17 @@
       },
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/circle": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/ellipse": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/inset": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/polygon": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/path": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/shape-image-threshold": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/shape-margin": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside": {},
       "https://drafts.csswg.org/css-box-4/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
       "https://drafts.csswg.org/css-exclusions/": {},
       "https://drafts.csswg.org/css-images-3/": {},
@@ -43,6 +49,7 @@
       "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/css-writing-modes-4/": {},
       "https://drafts.csswg.org/css2/": {},
+      "https://drafts.csswg.org/cssom/": {},
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
@@ -122,17 +129,23 @@
       "https://drafts.csswg.org/css-shapes-1/": {
         "anchors": [
           "propdef-shape-outside",
+          "typedef-basic-shape",
           "funcdef-basic-shape-shape",
+          "typedef-basic-shape-rect",
+          "funcdef-basic-shape-circle",
+          "funcdef-basic-shape-ellipse",
+          "funcdef-basic-shape-polygon",
+          "funcdef-basic-shape-path",
           "propdef-shape-margin",
-          "typedef-basic-shape"
+          "propdef-shape-image-threshold"
         ]
       },
       "https://drafts.csswg.org/css-values-4/": {
         "anchors": [
           "css-wide-keywords",
+          "comb-one",
           "fetch-a-style-resource",
           "url-value",
-          "comb-one",
           "comb-any",
           "typedef-length-percentage"
         ]
@@ -140,6 +153,11 @@
       "https://drafts.csswg.org/css-writing-modes-4/": {
         "anchors": [
           "inline-size"
+        ]
+      },
+      "https://drafts.csswg.org/cssom-1/": {
+        "anchors": [
+          "css-declaration-block"
         ]
       },
       "https://fetch.spec.whatwg.org/": {

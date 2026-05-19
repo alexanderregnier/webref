@@ -1,7 +1,7 @@
 {
   "spec": {
-    "title": "Verifiable Credentials Data Model v2.1",
-    "url": "https://w3c.github.io/vc-data-model/"
+    "title": "Verifiable Credentials Data Model v2.0",
+    "url": "https://www.w3.org/TR/vc-data-model-2.0/"
   },
   "refs": {
     "normative": [

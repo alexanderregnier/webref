@@ -286,22 +286,22 @@
       "number": "A"
     },
     {
-      "id": "finite_interpretations",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#finite_interpretations",
-      "level": 2,
-      "title": "Finite interpretations",
-      "alternateIds": [
-        "b-finite-interpretations"
-      ],
-      "number": "B"
-    },
-    {
       "id": "proofs",
       "href": "https://w3c.github.io/rdf-semantics/spec/#proofs",
       "level": 2,
       "title": "Proofs of some results",
       "alternateIds": [
-        "c-proofs-of-some-results"
+        "b-proofs-of-some-results"
+      ],
+      "number": "B"
+    },
+    {
+      "id": "adequacy",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#adequacy",
+      "level": 2,
+      "title": "Semantic Adequacy Considerations",
+      "alternateIds": [
+        "c-semantic-adequacy-considerations"
       ],
       "number": "C"
     },

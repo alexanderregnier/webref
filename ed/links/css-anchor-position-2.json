@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Anchor Positioning Level 2",
+    "title": "CSS Anchor Positioning Module Level 2",
     "url": "https://drafts.csswg.org/css-anchor-position-2/"
   },
   "links": {
@@ -29,9 +29,9 @@
         ]
       },
       "https://drafts.csswg.org/css-contain-2/": {},
-      "https://drafts.csswg.org/css-display/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-lists-3/": {},
-      "https://drafts.csswg.org/css-scoping/": {},
+      "https://drafts.csswg.org/css-shadow-1/": {},
       "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/css-writing-modes-4/": {},
       "https://drafts.csswg.org/css2/": {},
@@ -80,7 +80,7 @@
           "counter"
         ]
       },
-      "https://drafts.csswg.org/css-scoping-1/": {
+      "https://drafts.csswg.org/css-shadow-1/": {
         "anchors": [
           "css-tree-scoped-name"
         ]

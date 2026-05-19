@@ -14,10 +14,6 @@
         "url": "https://cldr.unicode.org/"
       },
       {
-        "name": "css",
-        "url": "https://www.w3.org/TR/css-2025/"
-      },
-      {
         "name": "css-fonts-3",
         "url": "https://www.w3.org/TR/css-fonts-3/"
       },
@@ -71,7 +67,7 @@
       },
       {
         "name": "ttml2",
-        "url": "https://www.w3.org/TR/ttml2/"
+        "url": "https://www.w3.org/TR/2021/CR-ttml2-20210309"
       },
       {
         "name": "UNICODE",
@@ -96,8 +92,20 @@
     ],
     "informative": [
       {
+        "name": "ARIB-TR-B39",
+        "url": "https://www.arib.or.jp/english/std_tr/broadcasting/tr-b39.html"
+      },
+      {
+        "name": "BBC-SUB",
+        "url": "https://www.bbc.co.uk/accessibility/forproducts/guides/subtitles/"
+      },
+      {
         "name": "CFF",
         "url": "https://www.uvcentral.com/"
+      },
+      {
+        "name": "CSS",
+        "url": "https://www.w3.org/TR/css-2026/"
       },
       {
         "name": "css3-background",

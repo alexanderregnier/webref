@@ -17,6 +17,11 @@
       "canonicalOrder": "per grammar",
       "styleDeclaration": [
         "outline"
+      ],
+      "longhands": [
+        "outline-width",
+        "outline-style",
+        "outline-color"
       ]
     },
     {
@@ -27,7 +32,7 @@
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
-      "computedValue": "absolute length, snapped as a border width; 0 if the outline style is none.",
+      "computedValue": "absolute length, snapped as a border width",
       "canonicalOrder": "per grammar",
       "animationType": "by computed value",
       "styleDeclaration": [
@@ -54,7 +59,7 @@
     {
       "name": "outline-color",
       "href": "https://drafts.csswg.org/css-ui-4/#propdef-outline-color",
-      "value": "auto | <color> | <image-1D>",
+      "value": "auto | <'border-top-color'>",
       "initial": "auto",
       "appliesTo": "all elements",
       "inherited": "no",
@@ -110,7 +115,7 @@
     {
       "name": "cursor",
       "href": "https://drafts.csswg.org/css-ui-4/#propdef-cursor",
-      "value": "<cursor-image>#? <cursor-predefined>",
+      "value": "[<cursor-image>,]* <cursor-predefined>",
       "initial": "auto",
       "appliesTo": "all elements",
       "inherited": "yes",
@@ -121,7 +126,7 @@
       "values": [
         {
           "name": "<cursor-image>",
-          "value": "[ <url> | <url-set> ] [<number>{2}]?",
+          "value": "[ <url> | <url-set> ] <number>{2}?",
           "href": "https://drafts.csswg.org/css-ui-4/#valdef-cursor-cursor-image",
           "type": "value"
         },
@@ -129,7 +134,7 @@
           "name": "<cursor-image>",
           "href": "https://drafts.csswg.org/css-ui-4/#typedef-cursor-cursor-image",
           "type": "type",
-          "value": "[ <url> | <url-set> ] [<number>{2}]?"
+          "value": "[ <url> | <url-set> ] <number>{2}?"
         },
         {
           "name": "<url-set>",
@@ -404,12 +409,12 @@
     {
       "name": "caret-color",
       "href": "https://drafts.csswg.org/css-ui-4/#propdef-caret-color",
-      "value": "auto | <color>",
+      "value": "auto | <color> [auto | <color>]?",
       "initial": "auto",
       "appliesTo": "text or elements that accept text input",
       "inherited": "yes",
       "percentages": "N/A",
-      "computedValue": "The computed value for auto is auto. For <color> values, see CSS Color 4 § 14. Resolving <color> Values.",
+      "computedValue": "The computed value for auto is auto. For <color> values, see CSS Color 4 § 15. Resolving <color> Values.",
       "canonicalOrder": "per grammar",
       "animationType": "by computed value",
       "styleDeclaration": [
@@ -484,7 +489,7 @@
         },
         {
           "name": "underscore",
-          "prose": "The UA must render the insertion caret as a thin line under (as defined in [CSS-WRITING-MODES-3] the next visible character following the insertion point. If there is no visible character after the insertion point, the UA must render the caret after the last visible character.",
+          "prose": "The UA must render the insertion caret as a thin line under (as defined in [CSS-WRITING-MODES-3]) the next visible character following the insertion point. If there is no visible character after the insertion point, the UA must render the caret after the last visible character.",
           "href": "https://drafts.csswg.org/css-ui-4/#valdef-caret-shape-underscore",
           "type": "value",
           "value": "underscore"
@@ -508,6 +513,11 @@
       "canonicalOrder": "per grammar",
       "styleDeclaration": [
         "caret"
+      ],
+      "longhands": [
+        "caret-color",
+        "caret-animation",
+        "caret-shape"
       ]
     },
     {
@@ -752,6 +762,10 @@
       "styleDeclaration": [
         "interest-delay",
         "interestDelay"
+      ],
+      "longhands": [
+        "interest-delay-start",
+        "interest-delay-end"
       ]
     },
     {
@@ -910,6 +924,38 @@
       ]
     },
     {
+      "name": "window-drag",
+      "href": "https://drafts.csswg.org/css-ui-4/#propdef-window-drag",
+      "value": "none | move",
+      "initial": "none",
+      "appliesTo": "all elements",
+      "inherited": "yes",
+      "percentages": "N/A",
+      "computedValue": "as specified",
+      "canonicalOrder": "per grammar",
+      "animationType": "discrete",
+      "values": [
+        {
+          "name": "none",
+          "prose": "Specifies that the element cannot be used as a drag area.",
+          "href": "https://drafts.csswg.org/css-ui-4/#valdef-window-drag-none",
+          "type": "value",
+          "value": "none"
+        },
+        {
+          "name": "move",
+          "prose": "Specifies that the element’s principal box can be used as a window drag area.",
+          "href": "https://drafts.csswg.org/css-ui-4/#valdef-window-drag-move",
+          "type": "value",
+          "value": "move"
+        }
+      ],
+      "styleDeclaration": [
+        "window-drag",
+        "windowDrag"
+      ]
+    },
+    {
       "name": "-webkit-appearance",
       "href": "https://drafts.csswg.org/css-ui-4/#propdef--webkit-appearance",
       "legacyAliasOf": "appearance",
@@ -926,7 +972,8 @@
         "-webkit-user-select",
         "WebkitUserSelect",
         "webkitUserSelect"
-      ]
+      ],
+      "value": "auto | text | none | contain | all"
     }
   ],
   "atrules": [],
@@ -936,7 +983,8 @@
       "name": "<outline-line-style>",
       "prose": "<outline-line-style> accepts the same values as <line-style> (CSS Backgrounds 3 § 3.2 Line Patterns: the border-style properties) with the same meaning, except that hidden is not a legal outline style. In addition, the outline-style property accepts the value auto.",
       "href": "https://drafts.csswg.org/css-ui-4/#typedef-outline-line-style",
-      "type": "type"
+      "type": "type",
+      "value": "none | auto | dotted | dashed | solid | double | groove | ridge | inset | outset"
     },
     {
       "name": "<cursor-predefined>",

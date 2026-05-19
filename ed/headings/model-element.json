@@ -100,12 +100,12 @@
       "number": "3.1"
     },
     {
-      "id": "enabling-interactivity",
-      "href": "https://immersive-web.github.io/model-element/#enabling-interactivity",
+      "id": "enabling-orbit-stage-mode",
+      "href": "https://immersive-web.github.io/model-element/#enabling-orbit-stage-mode",
       "level": 3,
-      "title": "Enabling interactivity",
+      "title": "Enabling orbit stage mode",
       "alternateIds": [
-        "x3-2-enabling-interactivity"
+        "x3-2-enabling-orbit-stage-mode"
       ],
       "number": "3.2"
     },
@@ -160,12 +160,12 @@
       "number": "4.1"
     },
     {
-      "id": "interactive-attribute",
-      "href": "https://immersive-web.github.io/model-element/#interactive-attribute",
+      "id": "stagemode-attribute",
+      "href": "https://immersive-web.github.io/model-element/#stagemode-attribute",
       "level": 3,
-      "title": "interactive attribute",
+      "title": "stagemode attribute",
       "alternateIds": [
-        "x4-2-interactive-attribute"
+        "x4-2-stagemode-attribute"
       ],
       "number": "4.2"
     },
@@ -220,24 +220,14 @@
       "number": "4.7"
     },
     {
-      "id": "muted-attribute",
-      "href": "https://immersive-web.github.io/model-element/#muted-attribute",
-      "level": 3,
-      "title": "muted attribute",
-      "alternateIds": [
-        "x4-8-muted-attribute"
-      ],
-      "number": "4.8"
-    },
-    {
       "id": "poster-attribute",
       "href": "https://immersive-web.github.io/model-element/#poster-attribute",
       "level": 3,
       "title": "poster attribute",
       "alternateIds": [
-        "x4-9-poster-attribute"
+        "x4-8-poster-attribute"
       ],
-      "number": "4.9"
+      "number": "4.8"
     },
     {
       "id": "src-attribute",
@@ -245,9 +235,9 @@
       "level": 3,
       "title": "src attribute",
       "alternateIds": [
-        "x4-10-src-attribute"
+        "x4-9-src-attribute"
       ],
-      "number": "4.10"
+      "number": "4.9"
     },
     {
       "id": "width-attribute",
@@ -255,9 +245,9 @@
       "level": 3,
       "title": "width attribute",
       "alternateIds": [
-        "x4-11-width-attribute"
+        "x4-10-width-attribute"
       ],
-      "number": "4.11"
+      "number": "4.10"
     },
     {
       "id": "the-htmlmodelelement-interface",
@@ -300,6 +290,26 @@
       "number": "7"
     },
     {
+      "id": "none",
+      "href": "https://immersive-web.github.io/model-element/#none",
+      "level": 3,
+      "title": "none",
+      "alternateIds": [
+        "x7-1-none"
+      ],
+      "number": "7.1"
+    },
+    {
+      "id": "orbit",
+      "href": "https://immersive-web.github.io/model-element/#orbit",
+      "level": 3,
+      "title": "orbit",
+      "alternateIds": [
+        "x7-2-orbit"
+      ],
+      "number": "7.2"
+    },
+    {
       "id": "controls",
       "href": "https://immersive-web.github.io/model-element/#controls",
       "level": 2,
@@ -320,14 +330,34 @@
       "number": "9"
     },
     {
-      "id": "orientation-camera",
-      "href": "https://immersive-web.github.io/model-element/#orientation-camera",
+      "id": "environment-map",
+      "href": "https://immersive-web.github.io/model-element/#environment-map",
       "level": 3,
-      "title": "Orientation/camera",
+      "title": "Environment map",
       "alternateIds": [
-        "x9-1-orientation-camera"
+        "x9-1-environment-map"
       ],
       "number": "9.1"
+    },
+    {
+      "id": "model-pose",
+      "href": "https://immersive-web.github.io/model-element/#model-pose",
+      "level": 3,
+      "title": "Model pose",
+      "alternateIds": [
+        "x9-2-model-pose"
+      ],
+      "number": "9.2"
+    },
+    {
+      "id": "orbit-fit",
+      "href": "https://immersive-web.github.io/model-element/#orbit-fit",
+      "level": 4,
+      "title": "Orbit fit",
+      "alternateIds": [
+        "x9-2-1-orbit-fit"
+      ],
+      "number": "9.2.1"
     },
     {
       "id": "embedded-content",
@@ -335,9 +365,9 @@
       "level": 3,
       "title": "Embedded content",
       "alternateIds": [
-        "x9-2-embedded-content"
+        "x9-3-embedded-content"
       ],
-      "number": "9.2"
+      "number": "9.3"
     },
     {
       "id": "events",
@@ -396,16 +426,6 @@
       "number": "13.2"
     },
     {
-      "id": "link-rel-ar",
-      "href": "https://immersive-web.github.io/model-element/#link-rel-ar",
-      "level": 3,
-      "title": "Link rel=\"ar\"",
-      "alternateIds": [
-        "x13-3-link-rel-ar"
-      ],
-      "number": "13.3"
-    },
-    {
       "id": "css-integrations",
       "href": "https://immersive-web.github.io/model-element/#css-integrations",
       "level": 2,
@@ -425,24 +445,14 @@
       "number": "14.1"
     },
     {
-      "id": "the-muted-and-volume-locked-pseudo-classes",
-      "href": "https://immersive-web.github.io/model-element/#the-muted-and-volume-locked-pseudo-classes",
-      "level": 3,
-      "title": "The :muted and :volume-locked pseudo-classes",
-      "alternateIds": [
-        "x14-2-the-muted-and-volume-locked-pseudo-classes"
-      ],
-      "number": "14.2"
-    },
-    {
       "id": "fullscreen-presentation-state-the-fullscreen-pseudo-class",
       "href": "https://immersive-web.github.io/model-element/#fullscreen-presentation-state-the-fullscreen-pseudo-class",
       "level": 3,
       "title": "Fullscreen Presentation State: the :fullscreen pseudo-class",
       "alternateIds": [
-        "x14-3-fullscreen-presentation-state-the-fullscreen-pseudo-class"
+        "x14-2-fullscreen-presentation-state-the-fullscreen-pseudo-class"
       ],
-      "number": "14.3"
+      "number": "14.2"
     },
     {
       "id": "fullscreen-integration",

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Pointer-driven Animations",
+    "title": "Pointer-driven Animations Module Level 1",
     "url": "https://drafts.csswg.org/pointer-animations-1/"
   },
   "ids": [
@@ -305,7 +305,7 @@
     "https://drafts.csswg.org/pointer-animations-1/#80eb9508",
     "https://drafts.csswg.org/pointer-animations-1/#cc682c89",
     "https://drafts.csswg.org/pointer-animations-1/#51330c07",
-    "https://drafts.csswg.org/pointer-animations-1/#732c4198",
+    "https://drafts.csswg.org/pointer-animations-1/#10c8aa25",
     "https://drafts.csswg.org/pointer-animations-1/#68487d22",
     "https://drafts.csswg.org/pointer-animations-1/#8a427103",
     "https://drafts.csswg.org/pointer-animations-1/#18222566",
@@ -352,7 +352,7 @@
     "https://drafts.csswg.org/pointer-animations-1/#biblio-css-cascade-5",
     "https://drafts.csswg.org/pointer-animations-1/#biblio-css-display-4",
     "https://drafts.csswg.org/pointer-animations-1/#biblio-css-position-3",
-    "https://drafts.csswg.org/pointer-animations-1/#biblio-css-scoping-1",
+    "https://drafts.csswg.org/pointer-animations-1/#biblio-css-shadow-1",
     "https://drafts.csswg.org/pointer-animations-1/#biblio-css-values-3",
     "https://drafts.csswg.org/pointer-animations-1/#biblio-css-values-4",
     "https://drafts.csswg.org/pointer-animations-1/#biblio-css-writing-modes-4",

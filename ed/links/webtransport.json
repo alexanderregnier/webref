@@ -13,6 +13,11 @@
           "section-9"
         ]
       },
+      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http2/": {
+        "anchors": [
+          "section-3.1"
+        ]
+      },
       "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3": {
         "anchors": [
           "section-4.1",
@@ -22,15 +27,18 @@
       },
       "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/": {
         "anchors": [
+          "section-3.1",
           "section-4.3"
         ]
       },
       "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview": {
         "anchors": [
+          "section-4.1-2.2.1",
+          "section-4.1",
           "section-6"
         ]
       },
-      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview-06": {
+      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview-11": {
         "anchors": [
           "name-datagrams",
           "section-4.2-6.2.1",
@@ -47,13 +55,7 @@
           "section-4.3-5"
         ]
       },
-      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview-09": {
-        "anchors": [
-          "section-4.1-2.2.1",
-          "section-3.1"
-        ]
-      },
-      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview-09.html": {
+      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview-11.html": {
         "anchors": [
           "section-4.3-9.8.1",
           "section-4.3-9.6.1",
@@ -61,18 +63,18 @@
           "section-4.3-11.2.1"
         ]
       },
-      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview-09/": {
+      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview-11/": {
         "anchors": [
           "section-4.1",
           "section-3.1"
         ]
       },
-      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview/": {
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://datatracker.ietf.org/doc/html/rfc8441": {
         "anchors": [
-          "section-TBD"
+          "section-3"
         ]
       },
-      "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://datatracker.ietf.org/doc/html/rfc9221": {
         "anchors": [
           "section-3"
@@ -87,17 +89,25 @@
       "https://encoding.spec.whatwg.org/": {},
       "https://fetch.spec.whatwg.org/": {
         "anchors": [
+          "forbidden-request-header",
           "network-partition-keys"
         ]
       },
       "https://github.com/w3c/webtransport/": {},
       "https://github.com/w3c/webtransport/issues": {},
+      "https://html.spec.whatwg.org/": {
+        "anchors": [
+          "http-structured-header-list"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/interaction.html": {
         "anchors": [
           "focus"
         ]
       },
+      "https://httpwg.org/specs/rfc8441.html": {},
+      "https://httpwg.org/specs/rfc9220.html": {},
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "tracking-vector"
@@ -109,7 +119,7 @@
           "writablestream-inflightwriterequest",
           "writablestream-writerequests",
           "rs-transfer",
-          "default-writer-constructor",
+          "writablestreamdefaultwriter-stream",
           "example-manual-write-dont-await"
         ]
       },
@@ -130,7 +140,7 @@
       },
       "https://www.github.com/w3c/webtransport/issues/127": {},
       "https://www.github.com/whatwg/html/issues/6831": {},
-      "https://www.ietf.org/archive/id/draft-ietf-webtrans-overview-06.html": {
+      "https://www.ietf.org/archive/id/draft-ietf-webtrans-overview-11.html": {
         "anchors": [
           "section-4.1-2.4.1"
         ]
@@ -157,6 +167,11 @@
           "section-5.3",
           "section-5.2",
           "section-6.1"
+        ]
+      },
+      "https://www.rfc-editor.org/rfc/rfc9220.html": {
+        "anchors": [
+          "section-3"
         ]
       },
       "https://www.rfc-editor.org/rfc/rfc9221": {},
@@ -202,20 +217,42 @@
       "https://fetch.spec.whatwg.org/": {
         "anchors": [
           "concept-connection",
-          "http-origin",
-          "credentials",
+          "headers",
           "concept-request",
           "concept-request-url",
           "concept-request-client",
+          "request-service-workers-mode",
+          "concept-request-referrer",
+          "concept-request-mode",
+          "concept-request-credentials-mode",
+          "concept-request-cache-mode",
           "concept-request-policy-container",
           "concept-request-destination",
           "concept-request-origin",
+          "request-webtransport-hash-list",
           "concept-request-redirect-mode",
-          "block-bad-port",
-          "determine-the-network-partition-key",
-          "concept-connection-obtain",
+          "concept-request-method",
+          "concept-headers-fill",
+          "concept-headers-header-list",
+          "concept-request-header-list",
+          "concept-headers-guard",
+          "concept-header-name",
+          "concept-headers-append",
+          "concept-header-list-set-structured-header",
           "concept-fetch",
-          "concept-body-stream"
+          "fetch-useparallelqueue",
+          "process-response",
+          "network-partition-key",
+          "concept-fetch-record-request",
+          "concept-request-current-url",
+          "concept-connection-obtain",
+          "concept-response",
+          "concept-network-error",
+          "concept-response-header-list",
+          "concept-header-list-delete",
+          "typedefdef-headersinit",
+          "concept-body-stream",
+          "http-origin"
         ]
       },
       "https://heycam.github.io/webidl/": {
@@ -223,12 +260,6 @@
           "dfn-create-exception",
           "domexception-name",
           "domexception-message"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/browsers.html": {
-        "anchors": [
-          "concept-origin",
-          "ascii-serialisation-of-an-origin"
         ]
       },
       "https://html.spec.whatwg.org/multipage/infrastructure.html": {
@@ -261,16 +292,21 @@
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
-          "isomorphic-encode",
           "byte-sequence",
           "implementation-defined",
           "ordered-set",
           "queue-dequeue",
           "queue-enqueue",
           "iteration-break",
-          "abort-when",
+          "list-is-empty",
+          "isomorphic-encode",
+          "ascii-lowercase",
           "code-unit-prefix",
           "byte-sequence-length",
+          "list",
+          "map-set",
+          "map-entry",
+          "abort-when",
           "queue",
           "list-iterate",
           "ascii-case-insensitive",
@@ -289,7 +325,7 @@
           "default-writer-ready",
           "writablestream-error",
           "readablestream",
-          "high-water-mark",
+          "enumdef-readablestreamtype",
           "readablestream-current-byob-request-view",
           "readablestream-pull-from-bytes",
           "readablestream-enqueue",
@@ -305,14 +341,16 @@
           "readablestream-locked",
           "readable-byte-stream",
           "readable-stream",
-          "byob-reader",
-          "ws-get-writer",
-          "writablestreamdefaultwriter",
+          "dom-readablestreambyobreaderreadoptions-min",
           "writablestream-set-up-closealgorithm",
           "writablestream-set-up-abortalgorithm",
           "default-writer-write",
+          "byob-reader",
           "default-reader",
           "readablestream-set-up-with-byte-reading-support-cancelalgorithm",
+          "writablestreamdefaultwriter",
+          "writablestreamdefaultwriter-write-a-chunk",
+          "set-up-writable-stream-default-writer",
           "ws-abort",
           "ws-close",
           "default-writer-close",
@@ -332,13 +370,11 @@
       },
       "https://w3c.github.io/hr-time/": {
         "anchors": [
-          "dom-domhighrestimestamp"
+          "typedefdef-domhighrestimestamp"
         ]
       },
       "https://w3c.github.io/webappsec-csp/": {
         "anchors": [
-          "report-for-request",
-          "should-block-request",
           "webrtc"
         ]
       },
@@ -369,20 +405,24 @@
           "idl-USVString",
           "idl-promise",
           "NewObject",
-          "idl-ArrayBuffer",
           "idl-undefined",
           "EnforceRange",
           "idl-unsigned-short",
+          "SameObject",
           "idl-DOMString",
           "idl-boolean",
           "syntaxerror",
           "notsupportederror",
           "upon-fulfillment",
           "aborterror",
+          "dfn-dictionary-member",
           "quotaexceedederror",
+          "quotaexceedederror-requested",
+          "quotaexceedederror-quota",
           "idl-sequence",
           "idl-unsigned-long-long",
           "buffersource-underlying-buffer",
+          "idl-ArrayBuffer",
           "arraybuffer-write",
           "idl-any",
           "dfn-perform-steps-once-promise-is-settled",

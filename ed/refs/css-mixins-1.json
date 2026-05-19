@@ -14,20 +14,16 @@
         "url": "https://drafts.csswg.org/css-cascade-5/"
       },
       {
+        "name": "CSS-CASCADE-6",
+        "url": "https://drafts.csswg.org/css-cascade-6/"
+      },
+      {
         "name": "CSS-CONDITIONAL-3",
         "url": "https://drafts.csswg.org/css-conditional-3/"
       },
       {
         "name": "CSS-CONDITIONAL-5",
         "url": "https://drafts.csswg.org/css-conditional-5/"
-      },
-      {
-        "name": "CSS-ENV-1",
-        "url": "https://drafts.csswg.org/css-env-1/"
-      },
-      {
-        "name": "CSS-FONTS-4",
-        "url": "https://drafts.csswg.org/css-fonts-4/"
       },
       {
         "name": "CSS-NESTING-1",
@@ -38,8 +34,8 @@
         "url": "https://drafts.css-houdini.org/css-properties-values-api-1/"
       },
       {
-        "name": "CSS-SCOPING-1",
-        "url": "https://drafts.csswg.org/css-scoping/"
+        "name": "CSS-SHADOW-1",
+        "url": "https://drafts.csswg.org/css-shadow-1/"
       },
       {
         "name": "CSS-SYNTAX-3",
@@ -54,16 +50,16 @@
         "url": "https://drafts.csswg.org/css-values-5/"
       },
       {
+        "name": "CSS-VARIABLES-1",
+        "url": "https://drafts.csswg.org/css-variables/"
+      },
+      {
         "name": "CSS-VARIABLES-2",
         "url": "https://drafts.csswg.org/css-variables-2/"
       },
       {
         "name": "CSSOM-1",
         "url": "https://drafts.csswg.org/cssom/"
-      },
-      {
-        "name": "INFRA",
-        "url": "https://infra.spec.whatwg.org/"
       },
       {
         "name": "RFC2119",
@@ -80,8 +76,16 @@
     ],
     "informative": [
       {
+        "name": "CSS-BORDERS-4",
+        "url": "https://drafts.csswg.org/css-borders-4/"
+      },
+      {
         "name": "CSS-COLOR-5",
         "url": "https://drafts.csswg.org/css-color-5/"
+      },
+      {
+        "name": "CSS-FONTS-4",
+        "url": "https://drafts.csswg.org/css-fonts-4/"
       }
     ]
   }

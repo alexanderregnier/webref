@@ -1555,7 +1555,32 @@
       "for": [
         "RTCPeerConnection"
       ],
-      "access": "private",
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "constructor",
+        "href": "https://w3c.github.io/webrtc-pc/#constructor",
+        "title": "Constructor",
+        "alternateIds": [
+          "x4-4-1-1-constructor"
+        ],
+        "number": "4.4.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-laststablestatesctptransport",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-laststablestatesctptransport",
+      "linkingText": [
+        "[[LastStableStateSctpTransport]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -8218,7 +8243,7 @@
       "for": [
         "RTCRtpTransceiver"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -10691,6 +10716,31 @@
       "href": "https://w3c.github.io/webrtc-pc/#dfn-maxmessagesize",
       "linkingText": [
         "[[MaxMessageSize]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCSctpTransport"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "create-an-instance",
+        "href": "https://w3c.github.io/webrtc-pc/#create-an-instance",
+        "title": "Create an instance",
+        "alternateIds": [
+          "sctp-transport-create"
+        ],
+        "number": "6.1.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-maxbuffersize",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-maxbuffersize",
+      "linkingText": [
+        "[[MaxBufferSize]]"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -13718,7 +13768,7 @@
       "for": [
         "RTCDataChannel"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -13742,7 +13792,7 @@
       "for": [
         "RTCDataChannel"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -13766,7 +13816,7 @@
       "for": [
         "RTCDataChannel"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -13790,7 +13840,7 @@
       "for": [
         "RTCDataChannel"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -13814,7 +13864,7 @@
       "for": [
         "RTCDataChannel"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -13838,7 +13888,7 @@
       "for": [
         "RTCDataChannel"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -13862,7 +13912,7 @@
       "for": [
         "RTCPeerConnection"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -13886,7 +13936,7 @@
       "for": [
         "RTCPeerConnection"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -13910,7 +13960,7 @@
       "for": [
         "RTCPeerConnection"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -13934,7 +13984,7 @@
       "for": [
         "RTCPeerConnection"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -13958,7 +14008,7 @@
       "for": [
         "RTCPeerConnection"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -13982,7 +14032,7 @@
       "for": [
         "RTCPeerConnection"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -14006,7 +14056,7 @@
       "for": [
         "RTCPeerConnection"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -14030,7 +14080,7 @@
       "for": [
         "RTCPeerConnection"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -14054,7 +14104,7 @@
       "for": [
         "RTCPeerConnection"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -14078,7 +14128,7 @@
       "for": [
         "RTCDTMFSender"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -14102,7 +14152,7 @@
       "for": [
         "RTCIceTransport"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -14126,7 +14176,7 @@
       "for": [
         "RTCIceTransport"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -14150,7 +14200,7 @@
       "for": [
         "RTCIceTransport"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -14174,7 +14224,7 @@
       "for": [
         "RTCDtlsTransport"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -14198,7 +14248,7 @@
       "for": [
         "RTCDtlsTransport"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -14222,7 +14272,7 @@
       "for": [
         "RTCSctpTransport"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",

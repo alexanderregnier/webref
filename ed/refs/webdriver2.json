@@ -99,7 +99,7 @@
       },
       {
         "name": "POINTER-EVENTS",
-        "url": "https://www.w3.org/TR/pointerevents/"
+        "url": "https://www.w3.org/TR/pointerevents4/"
       },
       {
         "name": "PROMISES-GUIDE",
@@ -159,11 +159,11 @@
       },
       {
         "name": "UAX29",
-        "url": "https://www.unicode.org/reports/tr29/tr29-45.html"
+        "url": "https://www.unicode.org/reports/tr29/tr29-47.html"
       },
       {
         "name": "UAX44",
-        "url": "https://www.unicode.org/reports/tr44/tr44-34.html"
+        "url": "https://www.unicode.org/reports/tr44/tr44-36.html"
       },
       {
         "name": "UI-EVENTS",

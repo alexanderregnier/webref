@@ -5,10 +5,10 @@
   },
   "dfns": [
     {
-      "id": "masonry-layout",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-layout",
+      "id": "grid-lanes-layout",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-layout",
       "linkingText": [
-        "Masonry layout"
+        "Grid lanes layout"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -16,9 +16,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "masonry-model",
-        "href": "https://drafts.csswg.org/css-grid-3/#masonry-model",
-        "title": "Masonry Layout Model",
+        "id": "grid-lanes-model",
+        "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-model",
+        "title": "Grid Lanes Layout Model",
         "number": "2"
       },
       "definedIn": "prose",
@@ -38,9 +38,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "masonry-model",
-        "href": "https://drafts.csswg.org/css-grid-3/#masonry-model",
-        "title": "Masonry Layout Model",
+        "id": "grid-lanes-model",
+        "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-model",
+        "title": "Grid Lanes Layout Model",
         "number": "2"
       },
       "definedIn": "prose",
@@ -60,59 +60,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "masonry-model",
-        "href": "https://drafts.csswg.org/css-grid-3/#masonry-model",
-        "title": "Masonry Layout Model",
+        "id": "grid-lanes-model",
+        "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-model",
+        "title": "Grid Lanes Layout Model",
         "number": "2"
       },
       "definedIn": "prose",
       "links": []
     },
     {
-      "id": "masonry-item",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-item",
+      "id": "grid-lanes-container",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-container",
       "linkingText": [
-        "masonry item"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "masonry-model",
-        "href": "https://drafts.csswg.org/css-grid-3/#masonry-model",
-        "title": "Masonry Layout Model",
-        "number": "2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "masonry-track",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-track",
-      "linkingText": [
-        "masonry track"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "masonry-model",
-        "href": "https://drafts.csswg.org/css-grid-3/#masonry-model",
-        "title": "Masonry Layout Model",
-        "number": "2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "masonry-container",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-container",
-      "linkingText": [
-        "masonry container"
+        "grid lanes container"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -120,59 +80,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "masonry-model",
-        "href": "https://drafts.csswg.org/css-grid-3/#masonry-model",
-        "title": "Masonry Layout Model",
+        "id": "grid-lanes-model",
+        "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-model",
+        "title": "Grid Lanes Layout Model",
         "number": "2"
       },
       "definedIn": "prose",
       "links": []
     },
     {
-      "id": "column-masonry-container",
-      "href": "https://drafts.csswg.org/css-grid-3/#column-masonry-container",
+      "id": "valdef-display-grid-lanes",
+      "href": "https://drafts.csswg.org/css-grid-3/#valdef-display-grid-lanes",
       "linkingText": [
-        "column masonry container"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "masonry-model",
-        "href": "https://drafts.csswg.org/css-grid-3/#masonry-model",
-        "title": "Masonry Layout Model",
-        "number": "2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "row-masonry-container",
-      "href": "https://drafts.csswg.org/css-grid-3/#row-masonry-container",
-      "linkingText": [
-        "row masonry container"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "masonry-model",
-        "href": "https://drafts.csswg.org/css-grid-3/#masonry-model",
-        "title": "Masonry Layout Model",
-        "number": "2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "valdef-display-something",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-display-something",
-      "linkingText": [
-        "something"
+        "grid-lanes"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -182,19 +102,83 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "masonry-switch",
-        "href": "https://drafts.csswg.org/css-grid-3/#masonry-switch",
-        "title": "Establishing Masonry Layout",
+        "id": "grid-lanes-containers",
+        "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-containers",
+        "title": "Establishing Grid Lanes Layout",
         "number": "2.2"
       },
       "definedIn": "dt",
       "links": []
     },
     {
-      "id": "submasonry",
-      "href": "https://drafts.csswg.org/css-grid-3/#submasonry",
+      "id": "valdef-display-inline-grid-lanes",
+      "href": "https://drafts.csswg.org/css-grid-3/#valdef-display-inline-grid-lanes",
       "linkingText": [
-        "submasonry"
+        "inline-grid-lanes"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "display"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "grid-lanes-containers",
+        "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-containers",
+        "title": "Establishing Grid Lanes Layout",
+        "number": "2.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-grid-auto-flow-normal",
+      "href": "https://drafts.csswg.org/css-grid-3/#valdef-grid-auto-flow-normal",
+      "linkingText": [
+        "normal"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "grid-auto-flow"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "grid-lanes-orientation",
+        "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-orientation",
+        "title": "Orienting Grid Lanes Layout",
+        "number": "2.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "typedef-auto-repeat",
+      "href": "https://drafts.csswg.org/css-grid-3/#typedef-auto-repeat",
+      "linkingText": [
+        "<auto-repeat>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intrinsic-auto-repeat",
+        "href": "https://drafts.csswg.org/css-grid-3/#intrinsic-auto-repeat",
+        "title": "Intrinsic Tracks and repeat()",
+        "number": "3.1.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "grid-lanes-subgrid",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-subgrid",
+      "linkingText": [
+        "grid lanes subgrid"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -211,23 +195,21 @@
       "links": []
     },
     {
-      "id": "valdef-repeat-auto-areas",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-repeat-auto-areas",
+      "id": "regular-grid-subgrid",
+      "href": "https://drafts.csswg.org/css-grid-3/#regular-grid-subgrid",
       "linkingText": [
-        "auto-areas"
+        "regular grid subgrid"
       ],
       "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "repeat()"
-      ],
+      "type": "dfn",
+      "for": [],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "repeat-auto-areas",
-        "href": "https://drafts.csswg.org/css-grid-3/#repeat-auto-areas",
-        "title": "repeat(auto-areas)",
-        "number": "3.3.1"
+        "id": "subgrids",
+        "href": "https://drafts.csswg.org/css-grid-3/#subgrids",
+        "title": "Subgrids",
+        "number": "3.2"
       },
       "definedIn": "prose",
       "links": []
@@ -253,10 +235,10 @@
       "links": []
     },
     {
-      "id": "virtual-masonry-item",
-      "href": "https://drafts.csswg.org/css-grid-3/#virtual-masonry-item",
+      "id": "virtual-grid-item",
+      "href": "https://drafts.csswg.org/css-grid-3/#virtual-grid-item",
       "linkingText": [
-        "virtual masonry item"
+        "virtual grid item"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -273,10 +255,10 @@
       "links": []
     },
     {
-      "id": "propdef-item-tolerance",
-      "href": "https://drafts.csswg.org/css-grid-3/#propdef-item-tolerance",
+      "id": "propdef-flow-tolerance",
+      "href": "https://drafts.csswg.org/css-grid-3/#propdef-flow-tolerance",
       "linkingText": [
-        "item-tolerance"
+        "flow-tolerance"
       ],
       "localLinkingText": [],
       "type": "property",
@@ -286,73 +268,73 @@
       "heading": {
         "id": "placement-tolerance",
         "href": "https://drafts.csswg.org/css-grid-3/#placement-tolerance",
-        "title": "Placement Precision: the item-tolerance property",
+        "title": "Placement Precision: the flow-tolerance property",
         "number": "4.2"
       },
       "definedIn": "table",
       "links": []
     },
     {
-      "id": "masonry-tie-threshold",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-tie-threshold",
+      "id": "grid-lanes-tie-threshold",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-tie-threshold",
       "linkingText": [
         "tie threshold"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "masonry"
+        "grid lanes"
       ],
       "access": "private",
       "informative": false,
       "heading": {
         "id": "placement-tolerance",
         "href": "https://drafts.csswg.org/css-grid-3/#placement-tolerance",
-        "title": "Placement Precision: the item-tolerance property",
+        "title": "Placement Precision: the flow-tolerance property",
         "number": "4.2"
       },
       "definedIn": "prose",
       "links": []
     },
     {
-      "id": "valdef-item-slack-normal",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-slack-normal",
+      "id": "valdef-flow-tolerance-normal",
+      "href": "https://drafts.csswg.org/css-grid-3/#valdef-flow-tolerance-normal",
       "linkingText": [
         "normal"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "item-slack"
+        "flow-tolerance"
       ],
       "access": "public",
       "informative": false,
       "heading": {
         "id": "placement-tolerance",
         "href": "https://drafts.csswg.org/css-grid-3/#placement-tolerance",
-        "title": "Placement Precision: the item-tolerance property",
+        "title": "Placement Precision: the flow-tolerance property",
         "number": "4.2"
       },
       "definedIn": "dt",
       "links": []
     },
     {
-      "id": "valdef-item-slack-infinite",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-slack-infinite",
+      "id": "valdef-flow-tolerance-infinite",
+      "href": "https://drafts.csswg.org/css-grid-3/#valdef-flow-tolerance-infinite",
       "linkingText": [
         "infinite"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "item-slack"
+        "flow-tolerance"
       ],
       "access": "public",
       "informative": false,
       "heading": {
         "id": "placement-tolerance",
         "href": "https://drafts.csswg.org/css-grid-3/#placement-tolerance",
-        "title": "Placement Precision: the item-tolerance property",
+        "title": "Placement Precision: the flow-tolerance property",
         "number": "4.2"
       },
       "definedIn": "dt",
@@ -370,9 +352,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "masonry-layout-algorithm",
-        "href": "https://drafts.csswg.org/css-grid-3/#masonry-layout-algorithm",
-        "title": "Masonry Layout and Placement Algorithm",
+        "id": "grid-lanes-layout-algorithm",
+        "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-layout-algorithm",
+        "title": "Grid Lanes Layout and Placement Algorithm",
         "number": "4.4"
       },
       "definedIn": "prose",
@@ -390,19 +372,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "masonry-layout-algorithm",
-        "href": "https://drafts.csswg.org/css-grid-3/#masonry-layout-algorithm",
-        "title": "Masonry Layout and Placement Algorithm",
+        "id": "grid-lanes-layout-algorithm",
+        "href": "https://drafts.csswg.org/css-grid-3/#grid-lanes-layout-algorithm",
+        "title": "Grid Lanes Layout and Placement Algorithm",
         "number": "4.4"
       },
       "definedIn": "prose",
       "links": []
     },
     {
-      "id": "masonry-box",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-box",
+      "id": "stacking-range",
+      "href": "https://drafts.csswg.org/css-grid-3/#stacking-range",
       "linkingText": [
-        "masonry box"
+        "stacking range"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -410,509 +392,12 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "alignment",
-        "href": "https://drafts.csswg.org/css-grid-3/#alignment",
-        "title": "Alignment and Spacing",
-        "number": "6"
+        "id": "intrinsic-sizes",
+        "href": "https://drafts.csswg.org/css-grid-3/#intrinsic-sizes",
+        "title": "Sizing Grid Containers",
+        "number": "5"
       },
       "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "propdef-item-direction",
-      "href": "https://drafts.csswg.org/css-grid-3/#propdef-item-direction",
-      "linkingText": [
-        "item-direction"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-primary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-primary-axis",
-        "title": "Item Flow Axis: item-track/item-direction"
-      },
-      "definedIn": "table",
-      "links": []
-    },
-    {
-      "id": "propdef-item-track",
-      "href": "https://drafts.csswg.org/css-grid-3/#propdef-item-track",
-      "linkingText": [
-        "item-track"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-primary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-primary-axis",
-        "title": "Item Flow Axis: item-track/item-direction"
-      },
-      "definedIn": "table",
-      "links": []
-    },
-    {
-      "id": "primary-axis",
-      "href": "https://drafts.csswg.org/css-grid-3/#primary-axis",
-      "linkingText": [
-        "primary axis"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "item-primary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-primary-axis",
-        "title": "Item Flow Axis: item-track/item-direction"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "primary-placement-axis",
-      "href": "https://drafts.csswg.org/css-grid-3/#primary-placement-axis",
-      "linkingText": [
-        "primary placement axis"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "item-primary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-primary-axis",
-        "title": "Item Flow Axis: item-track/item-direction"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "primary-track-axis",
-      "href": "https://drafts.csswg.org/css-grid-3/#primary-track-axis",
-      "linkingText": [
-        "primary track axis"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "item-primary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-primary-axis",
-        "title": "Item Flow Axis: item-track/item-direction"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "valdef-item-direction-auto",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-direction-auto",
-      "linkingText": [
-        "auto"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-direction",
-        "item-track"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-primary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-primary-axis",
-        "title": "Item Flow Axis: item-track/item-direction"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-item-direction-row",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-direction-row",
-      "linkingText": [
-        "row"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-direction",
-        "item-track"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-primary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-primary-axis",
-        "title": "Item Flow Axis: item-track/item-direction"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-item-direction-column",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-direction-column",
-      "linkingText": [
-        "column"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-direction",
-        "item-track"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-primary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-primary-axis",
-        "title": "Item Flow Axis: item-track/item-direction"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-item-direction-row-reverse",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-direction-row-reverse",
-      "linkingText": [
-        "row-reverse"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-direction",
-        "item-track"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-primary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-primary-axis",
-        "title": "Item Flow Axis: item-track/item-direction"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-item-direction-column-reverse",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-direction-column-reverse",
-      "linkingText": [
-        "column-reverse"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-direction",
-        "item-track"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-primary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-primary-axis",
-        "title": "Item Flow Axis: item-track/item-direction"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "propdef-item-wrap",
-      "href": "https://drafts.csswg.org/css-grid-3/#propdef-item-wrap",
-      "linkingText": [
-        "item-wrap"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-secondary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-secondary-axis",
-        "title": "Item Cross Axis Placement Mode: item-cross/item-wrap"
-      },
-      "definedIn": "table",
-      "links": []
-    },
-    {
-      "id": "propdef-item-cross",
-      "href": "https://drafts.csswg.org/css-grid-3/#propdef-item-cross",
-      "linkingText": [
-        "item-cross"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-secondary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-secondary-axis",
-        "title": "Item Cross Axis Placement Mode: item-cross/item-wrap"
-      },
-      "definedIn": "table",
-      "links": []
-    },
-    {
-      "id": "valdef-item-wrap-auto",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-wrap-auto",
-      "linkingText": [
-        "auto"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-wrap",
-        "item-cross"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-secondary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-secondary-axis",
-        "title": "Item Cross Axis Placement Mode: item-cross/item-wrap"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-item-wrap-nowrap",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-wrap-nowrap",
-      "linkingText": [
-        "nowrap"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-wrap",
-        "item-cross"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-secondary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-secondary-axis",
-        "title": "Item Cross Axis Placement Mode: item-cross/item-wrap"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-item-wrap-wrap",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-wrap-wrap",
-      "linkingText": [
-        "wrap"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-wrap",
-        "item-cross"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-secondary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-secondary-axis",
-        "title": "Item Cross Axis Placement Mode: item-cross/item-wrap"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-item-wrap-normal",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-wrap-normal",
-      "linkingText": [
-        "normal"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-wrap",
-        "item-cross"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-secondary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-secondary-axis",
-        "title": "Item Cross Axis Placement Mode: item-cross/item-wrap"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-item-wrap-reverse",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-wrap-reverse",
-      "linkingText": [
-        "reverse"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-wrap",
-        "item-cross"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-secondary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-secondary-axis",
-        "title": "Item Cross Axis Placement Mode: item-cross/item-wrap"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-item-wrap-wrap-reverse",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-wrap-wrap-reverse",
-      "linkingText": [
-        "wrap-reverse"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-wrap",
-        "item-cross"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-secondary-axis",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-secondary-axis",
-        "title": "Item Cross Axis Placement Mode: item-cross/item-wrap"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "propdef-item-pack",
-      "href": "https://drafts.csswg.org/css-grid-3/#propdef-item-pack",
-      "linkingText": [
-        "item-pack"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-pack-options",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-pack-options",
-        "title": "Item Placement Packing Mode: the item-pack property"
-      },
-      "definedIn": "table",
-      "links": []
-    },
-    {
-      "id": "valdef-item-pack-normal",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-pack-normal",
-      "linkingText": [
-        "normal"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-pack"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-pack-options",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-pack-options",
-        "title": "Item Placement Packing Mode: the item-pack property"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-item-pack-dense",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-pack-dense",
-      "linkingText": [
-        "dense"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-pack"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-pack-options",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-pack-options",
-        "title": "Item Placement Packing Mode: the item-pack property"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-item-pack-balance",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-pack-balance",
-      "linkingText": [
-        "balance"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-pack"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-pack-options",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-pack-options",
-        "title": "Item Placement Packing Mode: the item-pack property"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "valdef-item-pack-collapse",
-      "href": "https://drafts.csswg.org/css-grid-3/#valdef-item-pack-collapse",
-      "linkingText": [
-        "collapse"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "item-pack"
-      ],
-      "access": "public",
-      "informative": true,
-      "heading": {
-        "id": "item-pack-options",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-pack-options",
-        "title": "Item Placement Packing Mode: the item-pack property"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "propdef-item-flow",
-      "href": "https://drafts.csswg.org/css-grid-3/#propdef-item-flow",
-      "linkingText": [
-        "item-flow"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "item-flow",
-        "href": "https://drafts.csswg.org/css-grid-3/#item-flow",
-        "title": "Item Placement Shorthand: the item-flow shorthand"
-      },
-      "definedIn": "table",
       "links": []
     }
   ]
