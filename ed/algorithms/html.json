@@ -2893,10 +2893,13 @@
               "html": "<p>Let <var>message</var> be undefined if\n     <a id=\"structuredserializeinternal:isdatadescriptor\" href=\"https://tc39.es/ecma262/#sec-isdatadescriptor\" data-x-internal=\"isdatadescriptor\">IsDataDescriptor</a>(<var>valueMessageDesc</var>) is false, and\n     ? <a id=\"structuredserializeinternal:tostring\" href=\"https://tc39.es/ecma262/#sec-tostring\" data-x-internal=\"tostring\">ToString</a>(<var>valueMessageDesc</var>.[[Value]]) otherwise.</p>"
             },
             {
-              "html": "<p>Set <var>serialized</var> to { [[Type]]: \"Error\", [[Name]]: <var>name</var>,\n     [[Message]]: <var>message</var> }.</p>"
+              "html": "<p>Let <var>stack</var> be an <a id=\"structuredserializeinternal:implementation-defined\" href=\"https://infra.spec.whatwg.org/#implementation-defined\" data-x-internal=\"implementation-defined\">implementation-defined</a> string that\n     represents <var>value</var>.[[Stack]]. <a href=\"https://html.spec.whatwg.org/multipage/references.html#refsJSERRORSTACKACCESSOR\">[JSERRORSTACKACCESSOR]</a>\n     <a href=\"https://html.spec.whatwg.org/multipage/references.html#refsJSERRORSTACKS\">[JSERRORSTACKS]</a></p>"
             },
             {
-              "html": "<p>User agents should attach a serialized representation of any interesting accompanying\n      data which are not yet specified, notably the <code>stack</code> property, to\n      <var>serialized</var>.</p>"
+              "html": "<p>Set <var>serialized</var> to { [[Type]]: \"Error\", [[Name]]: <var>name</var>,\n     [[Message]]: <var>message</var>, [[Stack]]: <var>stack</var> }.</p>"
+            },
+            {
+              "html": "<p>User agents should attach a serialized representation of any interesting accompanying\n     data which are not yet specified to <var>serialized</var>.</p>"
             }
           ]
         },
@@ -3248,13 +3251,16 @@
               "html": "<p>Let <var>message</var> be <var>serialized</var>.[[Message]].</p>"
             },
             {
-              "html": "<p>Set <var>value</var> to <a id=\"structureddeserialize:ordinaryobjectcreate\" href=\"https://tc39.es/ecma262/#sec-objectcreate\" data-x-internal=\"ordinaryobjectcreate\">OrdinaryObjectCreate</a>(<var>prototype</var>, «\n     [[ErrorData]] »).</p>"
+              "html": "<p>Set <var>value</var> to <a id=\"structureddeserialize:ordinaryobjectcreate\" href=\"https://tc39.es/ecma262/#sec-objectcreate\" data-x-internal=\"ordinaryobjectcreate\">OrdinaryObjectCreate</a>(<var>prototype</var>, «\n     [[ErrorData]], [[Stack]] »).</p>"
             },
             {
               "html": "<p>Let <var>messageDesc</var> be <a id=\"structureddeserialize:propertydescriptor\" href=\"https://tc39.es/ecma262/#sec-property-descriptor-specification-type\" data-x-internal=\"propertydescriptor\">PropertyDescriptor</a> { [[Value]]:\n     <var>message</var>, [[Writable]]: true, [[Enumerable]]: false, [[Configurable]]: true\n     }.</p>"
             },
             {
               "html": "<p>If <var>message</var> is not undefined, then perform !\n     <a id=\"structureddeserialize:ordinarydefineownproperty\" href=\"https://tc39.es/ecma262/#sec-ordinarydefineownproperty\" data-x-internal=\"ordinarydefineownproperty\">OrdinaryDefineOwnProperty</a>(<var>value</var>, \"<code>message</code>\",\n     <var>messageDesc</var>).</p>"
+            },
+            {
+              "html": "<p>Set <var>value</var>.[[Stack]] to <var>serialized</var>.[[Stack]].</p>"
             },
             {
               "html": "<p>Any interesting accompanying data attached to <var>serialized</var> should be\n     deserialized and attached to <var>value</var>.</p>"
