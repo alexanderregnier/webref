@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-05-25T05:31:20.285Z",
+  "date": "2026-05-26T05:13:46.172Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "25 May 2026",
+      "date": "26 May 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -10978,11 +10978,11 @@
       ],
       "crawled": "https://www.w3.org/TR/did-resolution/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 11 May 2026 16:06:22 GMT"
+        "lastModified": "Mon, 25 May 2026 18:01:38 GMT"
       },
       "generator": "respec",
-      "date": "11 May 2026",
-      "revision": "3a0af5f6c087cbac7b951a7523176db702be41d9",
+      "date": "25 May 2026",
+      "revision": "689679d25371be2b5a67d15ae0146a0157db5e7b",
       "algorithms": "algorithms/did-resolution.json",
       "links": "links/did-resolution.json",
       "refs": "refs/did-resolution.json",
@@ -18986,11 +18986,11 @@
       ],
       "crawled": "https://www.w3.org/TR/secure-payment-confirmation/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 19 Mar 2026 03:55:36 GMT"
+        "lastModified": "Mon, 25 May 2026 21:20:24 GMT"
       },
       "generator": "bikeshed",
-      "date": "19 March 2026",
-      "revision": "6756707b0c83ba77d029277a74a0cf56a0218f60",
+      "date": "25 May 2026",
+      "revision": "31cdf436f43db0573c9466dd46e5d126be73484b",
       "algorithms": "algorithms/secure-payment-confirmation.json",
       "links": "links/secure-payment-confirmation.json",
       "refs": "refs/secure-payment-confirmation.json",
@@ -19561,11 +19561,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-rules/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 20 May 2026 10:24:29 GMT"
+        "lastModified": "Mon, 25 May 2026 20:59:33 GMT"
       },
       "generator": "respec",
-      "date": "20 May 2026",
-      "revision": "c23c75895a4ca5c053d505663b9bccd6493591cc",
+      "date": "25 May 2026",
+      "revision": "8617a679967b6cdeabf5897e5af585b916be1a12",
       "links": "links/shacl12-rules.json",
       "refs": "refs/shacl12-rules.json",
       "dfns": "dfns/shacl12-rules.json",
