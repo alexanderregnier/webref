@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-05-26T05:13:46.172Z",
+  "date": "2026-05-28T05:20:41.556Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "26 May 2026",
+      "date": "28 May 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -985,11 +985,11 @@
       ],
       "crawled": "https://www.w3.org/TR/accname-1.2/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 20 May 2026 16:47:17 GMT"
+        "lastModified": "Wed, 27 May 2026 17:40:46 GMT"
       },
       "generator": "respec",
-      "date": "20 May 2026",
-      "revision": "74b52fce833b667688ffc28f858f6f6b9f3145e6",
+      "date": "27 May 2026",
+      "revision": "12221b8c3b872242c288799c37897ac5df0512d8",
       "algorithms": "algorithms/accname-1.2.json",
       "links": "links/accname-1.2.json",
       "refs": "refs/accname-1.2.json",
@@ -1232,11 +1232,11 @@
       ],
       "crawled": "https://www.w3.org/TR/attribution/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 25 May 2026 04:49:50 GMT"
+        "lastModified": "Thu, 28 May 2026 00:02:36 GMT"
       },
       "generator": "bikeshed",
-      "date": "25 May 2026",
-      "revision": "b2461cc2e9043d87528267c9d04275d7f792caf5",
+      "date": "28 May 2026",
+      "revision": "49b6fa5050561a11e9946377f633aa8262b07165",
       "algorithms": "algorithms/attribution.json",
       "links": "links/attribution.json",
       "refs": "refs/attribution.json",
@@ -2343,11 +2343,11 @@
       ],
       "crawled": "https://www.w3.org/TR/core-aam-1.2/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 20 May 2026 16:46:38 GMT"
+        "lastModified": "Wed, 27 May 2026 09:42:47 GMT"
       },
       "generator": "respec",
-      "date": "20 May 2026",
-      "revision": "74b52fce833b667688ffc28f858f6f6b9f3145e6",
+      "date": "27 May 2026",
+      "revision": "ece017cb271dd914772bc0a8625b4c40573094d8",
       "algorithms": "algorithms/core-aam-1.2.json",
       "links": "links/core-aam-1.2.json",
       "refs": "refs/core-aam-1.2.json",
@@ -13293,11 +13293,11 @@
       ],
       "crawled": "https://www.w3.org/TR/html-aam-1.0/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 20 May 2026 16:46:52 GMT"
+        "lastModified": "Wed, 27 May 2026 13:38:00 GMT"
       },
       "generator": "respec",
-      "date": "20 May 2026",
-      "revision": "74b52fce833b667688ffc28f858f6f6b9f3145e6",
+      "date": "27 May 2026",
+      "revision": "12d8010767b7c94988386d4a3895050f80b952e6",
       "algorithms": "algorithms/html-aam-1.0.json",
       "links": "links/html-aam-1.0.json",
       "refs": "refs/html-aam-1.0.json",
@@ -19386,11 +19386,11 @@
       ],
       "crawled": "https://www.w3.org/TR/service-workers/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 09 Apr 2026 02:02:31 GMT"
+        "lastModified": "Tue, 26 May 2026 23:30:02 GMT"
       },
       "generator": "bikeshed",
-      "date": "9 April 2026",
-      "revision": "d04904e0ec53fc2e4e8af1a8053f22e91d485b69",
+      "date": "26 May 2026",
+      "revision": "28e78e758d183062215c5cbedfaebc66c2096439",
       "algorithms": "algorithms/service-workers.json",
       "links": "links/service-workers.json",
       "refs": "refs/service-workers.json",
@@ -20305,11 +20305,11 @@
       ],
       "crawled": "https://www.w3.org/TR/svg-aam-1.0/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 20 May 2026 16:46:59 GMT"
+        "lastModified": "Wed, 27 May 2026 09:42:09 GMT"
       },
       "generator": "respec",
-      "date": "20 May 2026",
-      "revision": "74b52fce833b667688ffc28f858f6f6b9f3145e6",
+      "date": "27 May 2026",
+      "revision": "f4f53d86c8fb9f5c4558578b7fed82b0247eb073",
       "algorithms": "algorithms/svg-aam-1.0.json",
       "links": "links/svg-aam-1.0.json",
       "refs": "refs/svg-aam-1.0.json",
@@ -23063,11 +23063,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-core-2/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 14 May 2026 14:26:05 GMT"
+        "lastModified": "Wed, 27 May 2026 16:02:12 GMT"
       },
       "generator": "bikeshed",
-      "date": "14 May 2026",
-      "revision": "3f3b4c209a545785e27c463f17489e0eefd194e3",
+      "date": "27 May 2026",
+      "revision": "93c7fab69e647f9ee544b97c8b2d1368ef2b526a",
       "algorithms": "algorithms/wasm-core-2.json",
       "links": "links/wasm-core-2.json",
       "refs": "refs/wasm-core-2.json",
@@ -23136,11 +23136,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-js-api-2/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 14 May 2026 14:15:29 GMT"
+        "lastModified": "Wed, 27 May 2026 15:53:01 GMT"
       },
       "generator": "bikeshed",
-      "date": "14 May 2026",
-      "revision": "3f3b4c209a545785e27c463f17489e0eefd194e3",
+      "date": "27 May 2026",
+      "revision": "93c7fab69e647f9ee544b97c8b2d1368ef2b526a",
       "algorithms": "algorithms/wasm-js-api-2.json",
       "links": "links/wasm-js-api-2.json",
       "refs": "refs/wasm-js-api-2.json",
@@ -23202,11 +23202,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-web-api-2/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 14 May 2026 14:16:00 GMT"
+        "lastModified": "Wed, 27 May 2026 15:53:06 GMT"
       },
       "generator": "bikeshed",
-      "date": "14 May 2026",
-      "revision": "3f3b4c209a545785e27c463f17489e0eefd194e3",
+      "date": "27 May 2026",
+      "revision": "93c7fab69e647f9ee544b97c8b2d1368ef2b526a",
       "algorithms": "algorithms/wasm-web-api-2.json",
       "links": "links/wasm-web-api-2.json",
       "refs": "refs/wasm-web-api-2.json",
@@ -23857,11 +23857,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webauthn-3/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 12 Jan 2026 14:22:47 GMT"
+        "lastModified": "Fri, 22 May 2026 10:04:12 GMT"
       },
       "generator": "bikeshed",
-      "date": "13 January 2026",
-      "revision": "3cf21432001065489e5e6ad904467b3c44741f04",
+      "date": "26 May 2026",
+      "revision": "1f961c91b7c2de3d1b45ef3d6ca7b64d104b84e0",
       "algorithms": "algorithms/webauthn-3.json",
       "links": "links/webauthn-3.json",
       "refs": "refs/webauthn-3.json",
@@ -24986,11 +24986,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webdriver2/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 11 May 2026 19:52:42 GMT"
+        "lastModified": "Tue, 26 May 2026 14:11:50 GMT"
       },
       "generator": "respec",
-      "date": "11 May 2026",
-      "revision": "463f7edcf571975d9a05e86c8ef5372e28eda30a",
+      "date": "26 May 2026",
+      "revision": "905860d2e4734df9c390465cc5ef1150cf2bc61b",
       "algorithms": "algorithms/webdriver2.json",
       "links": "links/webdriver2.json",
       "refs": "refs/webdriver2.json",
