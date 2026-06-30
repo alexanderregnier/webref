@@ -7,7 +7,7 @@
     "normative": [
       {
         "name": "BCP47",
-        "url": "https://www.rfc-editor.org/rfc/rfc5646"
+        "url": "https://www.rfc-editor.org/info/rfc5646/"
       },
       {
         "name": "CIPA-DC-008",
@@ -89,35 +89,35 @@
       },
       {
         "name": "rfc1123",
-        "url": "https://www.rfc-editor.org/rfc/rfc1123"
+        "url": "https://www.rfc-editor.org/info/rfc1123/"
       },
       {
         "name": "rfc1950",
-        "url": "https://www.rfc-editor.org/rfc/rfc1950"
+        "url": "https://www.rfc-editor.org/info/rfc1950/"
       },
       {
         "name": "RFC1951",
-        "url": "https://www.rfc-editor.org/rfc/rfc1951"
+        "url": "https://www.rfc-editor.org/info/rfc1951/"
       },
       {
         "name": "RFC1952",
-        "url": "https://www.rfc-editor.org/rfc/rfc1952"
+        "url": "https://www.rfc-editor.org/info/rfc1952/"
       },
       {
         "name": "RFC2119",
-        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+        "url": "https://www.rfc-editor.org/info/rfc2119/"
       },
       {
         "name": "rfc3339",
-        "url": "https://www.rfc-editor.org/rfc/rfc3339"
+        "url": "https://www.rfc-editor.org/info/rfc3339/"
       },
       {
         "name": "rfc3629",
-        "url": "https://www.rfc-editor.org/rfc/rfc3629"
+        "url": "https://www.rfc-editor.org/info/rfc3629/"
       },
       {
         "name": "RFC8174",
-        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+        "url": "https://www.rfc-editor.org/info/rfc8174/"
       },
       {
         "name": "SMPTE-170M",

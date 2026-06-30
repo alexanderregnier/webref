@@ -7,7 +7,7 @@
   "atrules": [
     {
       "name": "@route",
-      "prose": "The @route rule is an at-rule that associates a name with a URL pattern. This name can be referenced in @navigation rules and in :active-navigation() pseudo-classes.",
+      "prose": "The @route rule is an at-rule that associates an author-defined name with a URL pattern. This name can be referenced in @navigation rules and in :active-navigation() pseudo-classes.",
       "href": "https://drafts.csswg.org/css-navigation-1/#at-ruledef-route",
       "descriptors": []
     },
@@ -29,9 +29,27 @@
       "name": ":active-navigation()",
       "prose": "This specification defines a new :active-navigation() functional pseudo-class that matches link elements that link to a certain URL that is related to a navigation that is currently active.",
       "href": "https://drafts.csswg.org/css-navigation-1/#active-navigation-pseudo"
+    },
+    {
+      "name": ":trigger-link",
+      "prose": "This specification defines a new :trigger-link that matches link elements that trigger the current navigation.",
+      "href": "https://drafts.csswg.org/css-navigation-1/#trigger-link-pseudo",
+      "value": ":trigger-link"
     }
   ],
   "values": [
+    {
+      "name": "<route-location>",
+      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-route-location",
+      "type": "type",
+      "value": "<route-name> | <url-pattern()> | <url>"
+    },
+    {
+      "name": "<route-name>",
+      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-route-name",
+      "type": "type",
+      "value": "<dashed-ident>"
+    },
     {
       "name": "<route-rule>",
       "href": "https://drafts.csswg.org/css-navigation-1/#typedef-route-rule",
@@ -76,16 +94,16 @@
       "value": "url-pattern( <string> )"
     },
     {
-      "name": "<route-location>",
-      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-route-location",
+      "name": "<active-navigation-condition>",
+      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-active-navigation-condition",
       "type": "type",
-      "value": "<route-name> | <url-pattern()> | <url>"
+      "value": "<navigation-relation>? [ <route-location> | link-href ]?"
     },
     {
-      "name": "<route-name>",
-      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-route-name",
+      "name": "<navigation-relation>",
+      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-navigation-relation",
       "type": "type",
-      "value": "<dashed-ident>"
+      "value": "at | with | from | to"
     },
     {
       "name": "<navigation-condition>",
@@ -146,18 +164,6 @@
       "href": "https://drafts.csswg.org/css-navigation-1/#typedef-navigation-phase-keyword",
       "type": "type",
       "value": "loading | ready | committed"
-    },
-    {
-      "name": "<active-navigation-condition>",
-      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-active-navigation-condition",
-      "type": "type",
-      "value": "<navigation-relation>? [ <route-location> | link-href ]?"
-    },
-    {
-      "name": "<navigation-relation>",
-      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-navigation-relation",
-      "type": "type",
-      "value": "at | with | from | to"
     }
   ],
   "warnings": [

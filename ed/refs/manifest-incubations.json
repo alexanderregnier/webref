@@ -38,16 +38,24 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
+        "name": "isolated-web-apps",
+        "url": "https://github.com/WICG/isolated-web-apps"
+      },
+      {
+        "name": "MEDIAQUERIES-5",
+        "url": "https://www.w3.org/TR/mediaqueries-5/"
+      },
+      {
         "name": "mimesniff",
         "url": "https://mimesniff.spec.whatwg.org/"
       },
       {
         "name": "RFC2119",
-        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+        "url": "https://www.rfc-editor.org/info/rfc2119/"
       },
       {
         "name": "RFC8174",
-        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+        "url": "https://www.rfc-editor.org/info/rfc8174/"
       },
       {
         "name": "url",

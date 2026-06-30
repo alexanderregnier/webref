@@ -11,16 +11,16 @@
       "https://url.spec.whatwg.org/": {},
       "https://w3c.github.io/cbor-ld/": {
         "anchors": [
-          "json-ld-to-cbor-ld-compression-algorithm",
-          "cbor-ld-to-json-ld-decompression-algorithm"
+          "json-ld-to-cbor-ld-encoding-algorithm",
+          "cbor-ld-to-json-ld-decoding-algorithm"
         ]
       },
       "https://www.aamva.org/assets/best-practices,-guides,-standards,-manuals,-whitepapers/aamva-dl-id-card-design-standard-(2020)": {},
       "https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf": {},
       "https://www.iso.org/standard/65502.html": {},
       "https://www.rfc-editor.org/info/bcp14": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/cid-1.0/": {
         "anchors": [

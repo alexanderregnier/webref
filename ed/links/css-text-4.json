@@ -2185,11 +2185,7 @@
           "feature-precedence"
         ]
       },
-      "https://drafts.csswg.org/css-fonts-4/": {
-        "anchors": [
-          "font-optical-sizing-def"
-        ]
-      },
+      "https://drafts.csswg.org/css-fonts-4/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-overflow-4/": {},
@@ -2235,7 +2231,8 @@
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/csswg-drafts/issues/10161": {},
       "https://github.com/w3c/csswg-drafts/issues/10186": {},
-      "https://github.com/w3c/csswg-drafts/issues/12886": {},
+      "https://github.com/w3c/csswg-drafts/issues/10837": {},
+      "https://github.com/w3c/csswg-drafts/issues/13369": {},
       "https://github.com/w3c/csswg-drafts/issues/1484": {},
       "https://github.com/w3c/csswg-drafts/issues/1518": {},
       "https://github.com/w3c/csswg-drafts/issues/2165": {},
@@ -6548,8 +6545,8 @@
       "https://wpt.fyi/results/css/css-text/writing-system/writing-system-text-transform-001.html": {},
       "https://www.decotype.com/": {},
       "https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry": {},
-      "https://www.rfc-editor.org/rfc/rfc5646": {},
-      "https://www.rfc-editor.org/rfc/rfc6919": {},
+      "https://www.rfc-editor.org/info/rfc5646/": {},
+      "https://www.rfc-editor.org/info/rfc6919/": {},
       "https://www.unicode.org/L2/L2022/22080r-line-break-ortho-bnd.pdf": {},
       "https://www.unicode.org/reports/tr11/": {},
       "https://www.unicode.org/reports/tr11/tr11-44.html": {},
@@ -6582,6 +6579,7 @@
       "https://www.w3.org/TR/2023/WD-css-text-4-20231020/": {},
       "https://www.w3.org/TR/2024/WD-css-text-4-20240219/": {},
       "https://www.w3.org/TR/2024/WD-css-text-4-2024052": {},
+      "https://www.w3.org/TR/2026/WD-css-text-4-20260608/": {},
       "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/TR/CSS2/": {},
       "https://www.w3.org/TR/CSS2/about.html": {
@@ -6730,7 +6728,6 @@
       "https://drafts.csswg.org/css-inline-3/": {
         "anchors": [
           "line-box",
-          "propdef-initial-letter",
           "propdef-vertical-align"
         ]
       },
@@ -6808,8 +6805,6 @@
           "line-right",
           "inline-start",
           "inline-end",
-          "block-size",
-          "block-axis",
           "propdef-text-orientation",
           "propdef-text-combine-upright",
           "bidi-isolate",
@@ -6821,7 +6816,6 @@
       "https://drafts.csswg.org/css2/": {
         "anchors": [
           "doclanguage",
-          "propdef-float",
           "valdef-vertical-align-baseline"
         ]
       },
@@ -6839,6 +6833,13 @@
       "https://html.spec.whatwg.org/multipage/form-elements.html": {
         "anchors": [
           "the-textarea-element"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/obsolete.html": {
+        "anchors": [
+          "listing",
+          "xmp",
+          "plaintext"
         ]
       },
       "https://html.spec.whatwg.org/multipage/text-level-semantics.html": {

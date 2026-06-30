@@ -1675,6 +1675,13 @@
       "number": "25.22"
     },
     {
+      "id": "dom-gpufeaturename-subgroup-size-control",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-subgroup-size-control",
+      "level": 3,
+      "title": "\"subgroup-size-control\"",
+      "number": "25.23"
+    },
+    {
       "id": "appendices",
       "href": "https://gpuweb.github.io/gpuweb/#appendices",
       "level": 2,
@@ -1774,7 +1781,7 @@
       "id": "informative",
       "href": "https://gpuweb.github.io/gpuweb/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "idl-index",

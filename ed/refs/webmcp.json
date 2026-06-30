@@ -6,12 +6,12 @@
   "refs": {
     "normative": [
       {
-        "name": "CONSOLE",
-        "url": "https://console.spec.whatwg.org/"
-      },
-      {
         "name": "DOM",
         "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "ECMASCRIPT",
+        "url": "https://tc39.es/ecma262/multipage/"
       },
       {
         "name": "HTML",
@@ -50,6 +50,15 @@
         "url": "https://webidl.spec.whatwg.org/"
       }
     ],
-    "informative": []
+    "informative": [
+      {
+        "name": "SOCKPUPPETTING",
+        "url": "https://arxiv.org/abs/2601.13359"
+      },
+      {
+        "name": "SPOTLIGHTING",
+        "url": "https://arxiv.org/abs/2403.14720"
+      }
+    ]
   }
 }

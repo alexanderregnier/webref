@@ -15,10 +15,16 @@
       },
       "http://www.w3.org/ns/shacl": {
         "anchors": [
+          "ShapesGraph",
+          "DataGraph",
+          "conformsTo",
+          "validationReport",
+          "ValidationReport",
+          "usedShapesGraph",
+          "conforms",
           "Shape"
         ]
       },
-      "http://www.w3.org/ns/shacl-profiling.ttl": {},
       "http://www.w3.org/ns/shacl/profile/cd1": {},
       "http://www.w3.org/ns/shacl/profile/core": {},
       "http://www.w3.org/ns/shacl/profile/node-expr": {},
@@ -63,8 +69,8 @@
       "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/conformsTo/": {},
       "https://www.ogc.org/": {},
       "https://www.rfc-editor.org/info/bcp14": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.w3.org/2003/01/geo/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/dx-prof/": {
@@ -103,7 +109,8 @@
       "https://www.w3.org/TR/rdf12-schema/": {
         "anchors": [
           "ch_resource",
-          "ch_member"
+          "ch_member",
+          "ch_isdefinedby"
         ]
       },
       "https://www.w3.org/TR/shacl12-core/": {
@@ -115,12 +122,9 @@
           "dfn-blank-node",
           "dfn-validation",
           "validation-definition",
-          "confroms-to",
-          "has-validation-report",
           "validation-report",
-          "used-shapes-graph",
-          "shapes",
-          "ch_isdefinedby"
+          "conforms",
+          "shapes"
         ]
       },
       "https://www.w3.org/TR/shacl12-node-expr/": {},
@@ -137,17 +141,6 @@
       "https://www.w3.org/groups/wg/data-shapes": {},
       "https://www.w3.org/groups/wg/data-shapes/": {},
       "https://www.w3.org/groups/wg/data-shapes/ipr": {},
-      "https://www.w3.org/ns/shacl": {
-        "anchors": [
-          "ShapesGraph",
-          "DataGraph",
-          "conformsTo",
-          "validationReport",
-          "ValidationReport",
-          "usedShapesGraph",
-          "conforms"
-        ]
-      },
       "https://www.w3.org/policies/patent-policy/": {
         "anchors": [
           "def-essential",

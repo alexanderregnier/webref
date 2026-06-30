@@ -7,9 +7,17 @@
     "rawlinks": {
       "http://www.w3.org/community/": {},
       "https://dom.spec.whatwg.org/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
+      "https://explainers-by-googlers.github.io/user-dictionary-leaks/": {},
       "https://github.com/WICG/container-timing": {},
-      "https://github.com/kyraseevers/Partitioning-visited-links-history": {},
+      "https://github.com/explainers-by-googlers/Partitioning-visited-links-history": {},
       "https://github.com/tc39/proposal-async-context": {},
+      "https://github.com/w3c/paint-timing/issues/126": {},
+      "https://github.com/w3c/performance-timeline/issues/182": {
+        "anchors": [
+          "issuecomment-4460611895"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
         "anchors": [
@@ -33,10 +41,21 @@
         "anchors": [
           "concept-document",
           "concept-event",
-          "element",
+          "document",
           "concept-element",
-          "boundary-point-node",
-          "concept-node-insert"
+          "concept-node",
+          "concept-node-document",
+          "text",
+          "concept-tree-child",
+          "concept-document-url",
+          "concept-node-insert",
+          "concept-event-dispatch",
+          "element"
+        ]
+      },
+      "https://drafts.csswg.org/css-display-4/": {
+        "anchors": [
+          "containing-block"
         ]
       },
       "https://html.spec.whatwg.org/multipage/browsing-the-web.html": {
@@ -47,7 +66,12 @@
       },
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
         "anchors": [
-          "window"
+          "window",
+          "navigationtype",
+          "concept-document-window",
+          "dom-navigationtype-traverse",
+          "dom-navigationtype-push",
+          "dom-navigationtype-replace"
         ]
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
@@ -59,38 +83,57 @@
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
+          "64-bit-unsigned-integer",
           "struct",
           "struct-item",
+          "assert",
           "map-exists",
           "map-set",
-          "string",
-          "ordered-map"
+          "ordered-set",
+          "ordered-map",
+          "list-iterate",
+          "set-append",
+          "map-iterate",
+          "map-with-default",
+          "map-remove",
+          "string"
         ]
       },
       "https://pr-preview.s3.amazonaws.com/mmocny/event-timing/pull/165.html": {
         "anchors": [
-          "window-initial-interactionid-value",
+          "has-dispatched-input-event",
+          "performanceeventtiming-associated-event",
+          "dfn-interaction",
           "window-interaction-count",
-          "window-interactionid-increment"
+          "window-initial-interactionid-value",
+          "window-interactionid-increment",
+          "initialize-and-record-event-timing-processing-start",
+          "record-event-timing-processing-end"
+        ]
+      },
+      "https://pr-preview.s3.amazonaws.com/shaseley/largest-contentful-paint/pull/171.html": {
+        "anchors": [
+          "largest-contentful-paint-candidate",
+          "create-a-largestcontentfulpaint-entry",
+          "compute-a-new-largest-contentful-paint-candidate",
+          "report-largest-contentful-paint"
         ]
       },
       "https://w3c.github.io/event-timing/": {
         "anchors": [
-          "interaction-id",
-          "has-dispatched-input-event",
-          "dfn-interaction"
+          "dom-performanceeventtiming-interactionid",
+          "performanceeventtiming"
         ]
       },
       "https://w3c.github.io/hr-time/": {
         "anchors": [
-          "dfn-current-high-resolution-time",
-          "typedefdef-domhighrestimestamp"
+          "dfn-current-high-resolution-time"
         ]
       },
       "https://w3c.github.io/largest-contentful-paint/": {
         "anchors": [
-          "report-largest-contentful-paint",
-          "effective-visual-size"
+          "largestcontentfulpaint",
+          "dom-largestcontentfulpaint-rendertime"
         ]
       },
       "https://w3c.github.io/navigation-timing/": {
@@ -102,31 +145,32 @@
         "anchors": [
           "paint-timing-mixin",
           "paint-timing-info",
-          "paint-timing-info-rendering-update-end-time",
-          "paint-timing-info-implementation-defined-presentation-time",
-          "dom-painttimingmixin-presentationtime",
+          "default-paint-timestamp",
+          "pending-image-record",
           "pending-image-record-element",
-          "previously-reported-paints"
+          "exposed-for-paint-timing",
+          "timing-eligible",
+          "dom-painttimingmixin-presentationtime",
+          "mark-paint-timing"
         ]
       },
       "https://w3c.github.io/performance-timeline/": {
         "anchors": [
           "performanceentry",
-          "dom-performanceentry-entrytype",
-          "dom-performanceentry-starttime",
-          "dom-performanceentry-duration",
           "dfn-queue-a-performanceentry",
-          "performance-entry-buffer",
-          "dom-performanceentry-name"
+          "dom-performanceentry-starttime",
+          "dom-performanceentry-name",
+          "dom-performanceentry-entrytype",
+          "dom-performanceentry-duration",
+          "performance-entry-buffer"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "Exposed",
           "idl-unsigned-long-long",
-          "idl-DOMString",
-          "idl-object",
-          "this"
+          "this",
+          "idl-object"
         ]
       }
     }

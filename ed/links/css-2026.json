@@ -624,7 +624,6 @@
           "d50",
           "d65",
           "decreasing",
-          "display-p3-linear-space",
           "equivalent-colors",
           "gamut",
           "hex-color",
@@ -722,6 +721,7 @@
           "valdef-color-dimgray",
           "valdef-color-dimgrey",
           "valdef-color-display-p3",
+          "valdef-color-display-p3-linear",
           "valdef-color-dodgerblue",
           "valdef-color-field",
           "valdef-color-fieldtext",
@@ -886,6 +886,7 @@
           "origin-color",
           "out-of-gamut",
           "relative-color",
+          "relative-color-processing-space",
           "required-conversion",
           "resolve-to-srgb",
           "support-legacy-color-syntax",
@@ -2394,7 +2395,7 @@
           "reconsume-the-current-input-code-point",
           "token-stream-restore-a-mark",
           "css-rule",
-          "serialize-an-anb-value",
+          "serialize-an-a-n-plus-b-value",
           "simple-block",
           "statement-at-rule",
           "style-rule",
@@ -4176,11 +4177,7 @@
           "japanese-informal"
         ]
       },
-      "https://www.w3.org/TR/css-display-3/": {
-        "anchors": [
-          "invisible"
-        ]
-      },
+      "https://www.w3.org/TR/css-display-3/": {},
       "https://www.w3.org/TR/css-easing-1/": {
         "anchors": [
           "linear-easing-function"
@@ -4250,7 +4247,8 @@
           "parse-a-style-blocks-contents",
           "css-parse-a-comma-separated-list-according-to-a-css-grammar",
           "reconsume-the-current-input-token",
-          "representation"
+          "representation",
+          "serialize-an-anb-value"
         ]
       },
       "https://www.w3.org/TR/css-text-3/": {},

@@ -33944,6 +33944,26 @@
       "links": []
     },
     {
+      "id": "concept-input-indeterminate",
+      "href": "https://html.spec.whatwg.org/multipage/input.html#concept-input-indeterminate",
+      "linkingText": [
+        "indeterminateness"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-input-element",
+        "href": "https://html.spec.whatwg.org/multipage/input.html#the-input-element",
+        "title": "The input element",
+        "number": "4.10.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "dom-input-indeterminate",
       "href": "https://html.spec.whatwg.org/multipage/input.html#dom-input-indeterminate",
       "linkingText": [
@@ -86588,6 +86608,26 @@
       "links": []
     },
     {
+      "id": "allowed-to-perform-a-navigation-or-history-update",
+      "href": "https://html.spec.whatwg.org/multipage/document-sequences.html#allowed-to-perform-a-navigation-or-history-update",
+      "linkingText": [
+        "allowed to perform a navigation or history update"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigables",
+        "href": "https://html.spec.whatwg.org/multipage/document-sequences.html#navigables",
+        "title": "Navigables",
+        "number": "7.3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "nav-document",
       "href": "https://html.spec.whatwg.org/multipage/document-sequences.html#nav-document",
       "linkingText": [
@@ -102251,6 +102291,70 @@
       "links": []
     },
     {
+      "id": "dom-sethtmlunsafeoptions-runscripts",
+      "href": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sethtmlunsafeoptions-runscripts",
+      "linkingText": [
+        "runScripts"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "SetHTMLUnsafeOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dom-parsing-and-serialization",
+        "href": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-parsing-and-serialization",
+        "title": "DOM parsing and serialization APIs",
+        "number": "8.5"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "parsehtmlunsafeoptions",
+      "href": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#parsehtmlunsafeoptions",
+      "linkingText": [
+        "ParseHTMLUnsafeOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dom-parsing-and-serialization",
+        "href": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-parsing-and-serialization",
+        "title": "DOM parsing and serialization APIs",
+        "number": "8.5"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-parsehtmlunsafeoptions-sanitizer",
+      "href": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-parsehtmlunsafeoptions-sanitizer",
+      "linkingText": [
+        "sanitizer"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ParseHTMLUnsafeOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dom-parsing-and-serialization",
+        "href": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-parsing-and-serialization",
+        "title": "DOM parsing and serialization APIs",
+        "number": "8.5"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "gethtmloptions",
       "href": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#gethtmloptions",
       "linkingText": [
@@ -103225,8 +103329,10 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
-      "access": "private",
+      "for": [
+        "Sanitizer"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "the-sanitizer-interface",
@@ -114405,6 +114511,66 @@
       "links": []
     },
     {
+      "id": "syntax-processing-instruction",
+      "href": "https://html.spec.whatwg.org/multipage/syntax.html#syntax-processing-instruction",
+      "linkingText": [
+        "Processing instructions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-instructions",
+        "href": "https://html.spec.whatwg.org/multipage/syntax.html#processing-instructions",
+        "title": "Processing instructions",
+        "number": "13.1.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "syntax-pi-target",
+      "href": "https://html.spec.whatwg.org/multipage/syntax.html#syntax-pi-target",
+      "linkingText": [
+        "target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-instructions",
+        "href": "https://html.spec.whatwg.org/multipage/syntax.html#processing-instructions",
+        "title": "Processing instructions",
+        "number": "13.1.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "syntax-pi-data",
+      "href": "https://html.spec.whatwg.org/multipage/syntax.html#syntax-pi-data",
+      "linkingText": [
+        "data"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-instructions",
+        "href": "https://html.spec.whatwg.org/multipage/syntax.html#processing-instructions",
+        "title": "Processing instructions",
+        "number": "13.1.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "html-parser",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#html-parser",
       "linkingText": [
@@ -114645,6 +114811,26 @@
       "links": []
     },
     {
+      "id": "parse-error-disallowed-processing-instruction-target",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-error-disallowed-processing-instruction-target",
+      "linkingText": [
+        "disallowed-processing-instruction-target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "parse-errors",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-errors",
+        "title": "Parse errors",
+        "number": "13.2.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
       "id": "parse-error-duplicate-attribute",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-error-duplicate-attribute",
       "linkingText": [
@@ -114785,6 +114971,26 @@
       "links": []
     },
     {
+      "id": "parse-error-eof-in-processing-instruction",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-error-eof-in-processing-instruction",
+      "linkingText": [
+        "eof-in-processing-instruction"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "parse-errors",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-errors",
+        "title": "Parse errors",
+        "number": "13.2.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
       "id": "parse-error-eof-in-script-html-comment-like-text",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-error-eof-in-script-html-comment-like-text",
       "linkingText": [
@@ -114885,10 +115091,50 @@
       "links": []
     },
     {
+      "id": "parse-error-invalid-first-character-of-processing-instruction-target",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-error-invalid-first-character-of-processing-instruction-target",
+      "linkingText": [
+        "invalid-first-character-of-processing-instruction-target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "parse-errors",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-errors",
+        "title": "Parse errors",
+        "number": "13.2.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
       "id": "parse-error-invalid-first-character-of-tag-name",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-error-invalid-first-character-of-tag-name",
       "linkingText": [
         "invalid-first-character-of-tag-name"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "parse-errors",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-errors",
+        "title": "Parse errors",
+        "number": "13.2.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "parse-error-invalid-processing-instruction-target",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-error-invalid-processing-instruction-target",
+      "linkingText": [
+        "invalid-processing-instruction-target"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -115389,26 +115635,6 @@
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-error-unexpected-null-character",
       "linkingText": [
         "unexpected-null-character"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "parse-errors",
-        "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-errors",
-        "title": "Parse errors",
-        "number": "13.2.2"
-      },
-      "definedIn": "table",
-      "links": []
-    },
-    {
-      "id": "parse-error-unexpected-question-mark-instead-of-tag-name",
-      "href": "https://html.spec.whatwg.org/multipage/parsing.html#parse-error-unexpected-question-mark-instead-of-tag-name",
-      "linkingText": [
-        "unexpected-question-mark-instead-of-tag-name"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -116551,6 +116777,26 @@
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#flush-code-points-consumed-as-a-character-reference",
       "linkingText": [
         "flush code points consumed as a character reference"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "tokenization",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#tokenization",
+        "title": "Tokenization",
+        "number": "13.2.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "convert-the-temporary-buffer-to-a-comment",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#convert-the-temporary-buffer-to-a-comment",
+      "linkingText": [
+        "convert the temporary buffer to a comment"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -117987,6 +118233,106 @@
       "links": []
     },
     {
+      "id": "processing-instruction-open-state",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#processing-instruction-open-state",
+      "linkingText": [
+        "Processing instruction open state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-instruction-open-state",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#processing-instruction-open-state",
+        "title": "Processing instruction open state",
+        "number": "13.2.5.72"
+      },
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "processing-instruction-target-state",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#processing-instruction-target-state",
+      "linkingText": [
+        "Processing instruction target state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-instruction-target-state",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#processing-instruction-target-state",
+        "title": "Processing instruction target state",
+        "number": "13.2.5.73"
+      },
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "after-processing-instruction-target-state",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#after-processing-instruction-target-state",
+      "linkingText": [
+        "After processing instruction target state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "after-processing-instruction-target-state",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#after-processing-instruction-target-state",
+        "title": "After processing instruction target state",
+        "number": "13.2.5.74"
+      },
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "processing-instruction-data-state",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#processing-instruction-data-state",
+      "linkingText": [
+        "Processing instruction data state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-instruction-data-state",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#processing-instruction-data-state",
+        "title": "Processing instruction data state",
+        "number": "13.2.5.75"
+      },
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "processing-instruction-questionable-state",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#processing-instruction-questionable-state",
+      "linkingText": [
+        "Processing instruction questionable state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-instruction-questionable-state",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#processing-instruction-questionable-state",
+        "title": "Processing instruction questionable state",
+        "number": "13.2.5.76"
+      },
+      "definedIn": "heading",
+      "links": []
+    },
+    {
       "id": "character-reference-state",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#character-reference-state",
       "linkingText": [
@@ -118001,7 +118347,7 @@
         "id": "character-reference-state",
         "href": "https://html.spec.whatwg.org/multipage/parsing.html#character-reference-state",
         "title": "Character reference state",
-        "number": "13.2.5.72"
+        "number": "13.2.5.77"
       },
       "definedIn": "heading",
       "links": []
@@ -118021,7 +118367,7 @@
         "id": "named-character-reference-state",
         "href": "https://html.spec.whatwg.org/multipage/parsing.html#named-character-reference-state",
         "title": "Named character reference state",
-        "number": "13.2.5.73"
+        "number": "13.2.5.78"
       },
       "definedIn": "heading",
       "links": []
@@ -118041,7 +118387,7 @@
         "id": "ambiguous-ampersand-state",
         "href": "https://html.spec.whatwg.org/multipage/parsing.html#ambiguous-ampersand-state",
         "title": "Ambiguous ampersand state",
-        "number": "13.2.5.74"
+        "number": "13.2.5.79"
       },
       "definedIn": "heading",
       "links": []
@@ -118061,7 +118407,7 @@
         "id": "numeric-character-reference-state",
         "href": "https://html.spec.whatwg.org/multipage/parsing.html#numeric-character-reference-state",
         "title": "Numeric character reference state",
-        "number": "13.2.5.75"
+        "number": "13.2.5.80"
       },
       "definedIn": "heading",
       "links": []
@@ -118081,7 +118427,7 @@
         "id": "numeric-character-reference-state",
         "href": "https://html.spec.whatwg.org/multipage/parsing.html#numeric-character-reference-state",
         "title": "Numeric character reference state",
-        "number": "13.2.5.75"
+        "number": "13.2.5.80"
       },
       "definedIn": "prose",
       "links": []
@@ -118101,7 +118447,7 @@
         "id": "hexadecimal-character-reference-start-state",
         "href": "https://html.spec.whatwg.org/multipage/parsing.html#hexadecimal-character-reference-start-state",
         "title": "Hexadecimal character reference start state",
-        "number": "13.2.5.76"
+        "number": "13.2.5.81"
       },
       "definedIn": "heading",
       "links": []
@@ -118121,7 +118467,7 @@
         "id": "decimal-character-reference-start-state",
         "href": "https://html.spec.whatwg.org/multipage/parsing.html#decimal-character-reference-start-state",
         "title": "Decimal character reference start state",
-        "number": "13.2.5.77"
+        "number": "13.2.5.82"
       },
       "definedIn": "heading",
       "links": []
@@ -118141,7 +118487,7 @@
         "id": "hexadecimal-character-reference-state",
         "href": "https://html.spec.whatwg.org/multipage/parsing.html#hexadecimal-character-reference-state",
         "title": "Hexadecimal character reference state",
-        "number": "13.2.5.78"
+        "number": "13.2.5.83"
       },
       "definedIn": "heading",
       "links": []
@@ -118161,7 +118507,7 @@
         "id": "decimal-character-reference-state",
         "href": "https://html.spec.whatwg.org/multipage/parsing.html#decimal-character-reference-state",
         "title": "Decimal character reference state",
-        "number": "13.2.5.79"
+        "number": "13.2.5.84"
       },
       "definedIn": "heading",
       "links": []
@@ -118181,7 +118527,7 @@
         "id": "numeric-character-reference-end-state",
         "href": "https://html.spec.whatwg.org/multipage/parsing.html#numeric-character-reference-end-state",
         "title": "Numeric character reference end state",
-        "number": "13.2.5.80"
+        "number": "13.2.5.85"
       },
       "definedIn": "heading",
       "links": []
@@ -118491,6 +118837,26 @@
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#insert-a-comment",
       "linkingText": [
         "insert a comment"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "creating-and-inserting-nodes",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#creating-and-inserting-nodes",
+        "title": "Creating and inserting nodes",
+        "number": "13.2.6.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "insert-a-processing-instruction",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#insert-a-processing-instruction",
+      "linkingText": [
+        "insert a processing instruction"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -120489,10 +120855,90 @@
       "links": []
     },
     {
+      "id": "optgroup-base-appearance",
+      "href": "https://html.spec.whatwg.org/multipage/rendering.html#optgroup-base-appearance",
+      "linkingText": [
+        "rendered with base appearance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-select-element-2",
+        "href": "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "title": "The select element",
+        "number": "15.5.16"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "optgroup-legend-slot",
+      "href": "https://html.spec.whatwg.org/multipage/rendering.html#optgroup-legend-slot",
+      "linkingText": [
+        "optgroup legend slot"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-select-element-2",
+        "href": "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "title": "The select element",
+        "number": "15.5.16"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "optgroup-label-element",
+      "href": "https://html.spec.whatwg.org/multipage/rendering.html#optgroup-label-element",
+      "linkingText": [
+        "optgroup label element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-select-element-2",
+        "href": "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "title": "The select element",
+        "number": "15.5.16"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "optgroup-contents-slot",
+      "href": "https://html.spec.whatwg.org/multipage/rendering.html#optgroup-contents-slot",
+      "linkingText": [
+        "optgroup contents slot"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-select-element-2",
+        "href": "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "title": "The select element",
+        "number": "15.5.16"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "select's-options-are-being-rendered-with-base-appearance",
       "href": "https://html.spec.whatwg.org/multipage/rendering.html#select's-options-are-being-rendered-with-base-appearance",
       "linkingText": [
-        "select's options are being rendered with base appearance"
+        "select's contents are being rendered with base appearance"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -120513,6 +120959,46 @@
       "href": "https://html.spec.whatwg.org/multipage/rendering.html#option-base-appearance",
       "linkingText": [
         "rendered with base appearance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-select-element-2",
+        "href": "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "title": "The select element",
+        "number": "15.5.16"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "option-contents-slot",
+      "href": "https://html.spec.whatwg.org/multipage/rendering.html#option-contents-slot",
+      "linkingText": [
+        "option contents slot"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-select-element-2",
+        "href": "https://html.spec.whatwg.org/multipage/rendering.html#the-select-element-2",
+        "title": "The select element",
+        "number": "15.5.16"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "option-label-element",
+      "href": "https://html.spec.whatwg.org/multipage/rendering.html#option-label-element",
+      "linkingText": [
+        "option label element"
       ],
       "localLinkingText": [],
       "type": "dfn",

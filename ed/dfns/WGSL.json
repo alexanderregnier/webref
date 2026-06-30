@@ -2151,6 +2151,28 @@
       "links": []
     },
     {
+      "id": "extension-subgroup_size_control",
+      "href": "https://gpuweb.github.io/gpuweb/wgsl/#extension-subgroup_size_control",
+      "linkingText": [
+        "subgroup_size_control"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "extension"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "enable-extensions-sec",
+        "href": "https://gpuweb.github.io/gpuweb/wgsl/#enable-extensions-sec",
+        "title": "Enable Extensions",
+        "number": "4.1.1"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
       "id": "language-extension",
       "href": "https://gpuweb.github.io/gpuweb/wgsl/#language-extension",
       "linkingText": [
@@ -2455,10 +2477,10 @@
       "links": []
     },
     {
-      "id": "language_extension-immediate_data",
-      "href": "https://gpuweb.github.io/gpuweb/wgsl/#language_extension-immediate_data",
+      "id": "language_extension-immediate_address_space",
+      "href": "https://gpuweb.github.io/gpuweb/wgsl/#language_extension-immediate_address_space",
       "linkingText": [
-        "immediate_data"
+        "immediate_address_space"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2663,6 +2685,26 @@
       "href": "https://gpuweb.github.io/gpuweb/wgsl/#type",
       "linkingText": [
         "type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "types",
+        "href": "https://gpuweb.github.io/gpuweb/wgsl/#types",
+        "title": "Types",
+        "number": "6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "opaque",
+      "href": "https://gpuweb.github.io/gpuweb/wgsl/#opaque",
+      "linkingText": [
+        "opaque"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -10715,6 +10757,50 @@
       "links": []
     },
     {
+      "id": "syntax-subgroup_size_attr",
+      "href": "https://gpuweb.github.io/gpuweb/wgsl/#syntax-subgroup_size_attr",
+      "linkingText": [
+        "subgroup_size_attr"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "syntax"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "subgroup-size-attr",
+        "href": "https://gpuweb.github.io/gpuweb/wgsl/#subgroup-size-attr",
+        "title": "subgroup_size",
+        "number": "12.14"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "attribute-subgroup_size",
+      "href": "https://gpuweb.github.io/gpuweb/wgsl/#attribute-subgroup_size",
+      "linkingText": [
+        "subgroup_size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "attribute"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "subgroup-size-attr",
+        "href": "https://gpuweb.github.io/gpuweb/wgsl/#subgroup-size-attr",
+        "title": "subgroup_size",
+        "number": "12.14"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
       "id": "syntax-workgroup_size_attr",
       "href": "https://gpuweb.github.io/gpuweb/wgsl/#syntax-workgroup_size_attr",
       "linkingText": [
@@ -10731,7 +10817,7 @@
         "id": "workgroup-size-attr",
         "href": "https://gpuweb.github.io/gpuweb/wgsl/#workgroup-size-attr",
         "title": "workgroup_size",
-        "number": "12.14"
+        "number": "12.15"
       },
       "definedIn": "prose",
       "links": []
@@ -10753,7 +10839,7 @@
         "id": "workgroup-size-attr",
         "href": "https://gpuweb.github.io/gpuweb/wgsl/#workgroup-size-attr",
         "title": "workgroup_size",
-        "number": "12.14"
+        "number": "12.15"
       },
       "definedIn": "table",
       "links": []
@@ -10773,7 +10859,7 @@
         "id": "shader-stage-attr",
         "href": "https://gpuweb.github.io/gpuweb/wgsl/#shader-stage-attr",
         "title": "Shader Stage Attributes",
-        "number": "12.15"
+        "number": "12.16"
       },
       "definedIn": "prose",
       "links": []
@@ -10795,7 +10881,7 @@
         "id": "vertex-attr",
         "href": "https://gpuweb.github.io/gpuweb/wgsl/#vertex-attr",
         "title": "vertex",
-        "number": "12.15.1"
+        "number": "12.16.1"
       },
       "definedIn": "prose",
       "links": []
@@ -10817,7 +10903,7 @@
         "id": "vertex-attr",
         "href": "https://gpuweb.github.io/gpuweb/wgsl/#vertex-attr",
         "title": "vertex",
-        "number": "12.15.1"
+        "number": "12.16.1"
       },
       "definedIn": "prose",
       "links": []
@@ -10839,7 +10925,7 @@
         "id": "fragment-attr",
         "href": "https://gpuweb.github.io/gpuweb/wgsl/#fragment-attr",
         "title": "fragment",
-        "number": "12.15.2"
+        "number": "12.16.2"
       },
       "definedIn": "prose",
       "links": []
@@ -10861,7 +10947,7 @@
         "id": "fragment-attr",
         "href": "https://gpuweb.github.io/gpuweb/wgsl/#fragment-attr",
         "title": "fragment",
-        "number": "12.15.2"
+        "number": "12.16.2"
       },
       "definedIn": "prose",
       "links": []
@@ -10883,7 +10969,7 @@
         "id": "compute-attr",
         "href": "https://gpuweb.github.io/gpuweb/wgsl/#compute-attr",
         "title": "compute",
-        "number": "12.15.3"
+        "number": "12.16.3"
       },
       "definedIn": "prose",
       "links": []
@@ -10905,7 +10991,7 @@
         "id": "compute-attr",
         "href": "https://gpuweb.github.io/gpuweb/wgsl/#compute-attr",
         "title": "compute",
-        "number": "12.15.3"
+        "number": "12.16.3"
       },
       "definedIn": "prose",
       "links": []
@@ -11014,6 +11100,26 @@
       "href": "https://gpuweb.github.io/gpuweb/wgsl/#vertex-shader-stage",
       "linkingText": [
         "vertex shader stage"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "shader-stages-sec",
+        "href": "https://gpuweb.github.io/gpuweb/wgsl/#shader-stages-sec",
+        "title": "Shader Stages",
+        "number": "13.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "rasterization-fragments",
+      "href": "https://gpuweb.github.io/gpuweb/wgsl/#rasterization-fragments",
+      "linkingText": [
+        "rasterization fragments"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -17226,27 +17332,6 @@
       "links": []
     },
     {
-      "id": "recursive-descent-syntax-decimal_float_literal",
-      "href": "https://gpuweb.github.io/gpuweb/wgsl/#recursive-descent-syntax-decimal_float_literal",
-      "linkingText": [
-        "decimal_float_literal"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "recursive descent syntax"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "grammar-recursive-descent",
-        "href": "https://gpuweb.github.io/gpuweb/wgsl/#grammar-recursive-descent",
-        "title": "18. Grammar for Recursive Descent Parsing"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "recursive-descent-syntax-decimal_int_literal",
       "href": "https://gpuweb.github.io/gpuweb/wgsl/#recursive-descent-syntax-decimal_int_literal",
       "linkingText": [
@@ -17482,27 +17567,6 @@
       "href": "https://gpuweb.github.io/gpuweb/wgsl/#recursive-descent-syntax-global_value_decl",
       "linkingText": [
         "global_value_decl"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "recursive descent syntax"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "grammar-recursive-descent",
-        "href": "https://gpuweb.github.io/gpuweb/wgsl/#grammar-recursive-descent",
-        "title": "18. Grammar for Recursive Descent Parsing"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "recursive-descent-syntax-hex_float_literal",
-      "href": "https://gpuweb.github.io/gpuweb/wgsl/#recursive-descent-syntax-hex_float_literal",
-      "linkingText": [
-        "hex_float_literal"
       ],
       "localLinkingText": [],
       "type": "dfn",

@@ -10,24 +10,12 @@
         "url": "https://www.rfc-editor.org/rfc/rfc9530"
       },
       {
-        "name": "FOLDING",
-        "url": "https://www.rfc-editor.org/rfc/rfc8792"
-      },
-      {
         "name": "HTTP",
         "url": "https://www.rfc-editor.org/rfc/rfc9110"
       },
       {
         "name": "RFC2119",
         "url": "https://www.rfc-editor.org/rfc/rfc2119"
-      },
-      {
-        "name": "RFC5234",
-        "url": "https://www.rfc-editor.org/rfc/rfc5234"
-      },
-      {
-        "name": "RFC7405",
-        "url": "https://www.rfc-editor.org/rfc/rfc7405"
       },
       {
         "name": "RFC8174",
@@ -39,6 +27,10 @@
       }
     ],
     "informative": [
+      {
+        "name": "FOLDING",
+        "url": "https://www.rfc-editor.org/rfc/rfc8792"
+      },
       {
         "name": "RFC8188",
         "url": "https://www.rfc-editor.org/rfc/rfc8188"

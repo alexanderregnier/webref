@@ -1,13 +1,13 @@
 {
   "spec": {
-    "title": "JSON-LD 1.1 Processing Algorithms and API",
+    "title": "JSON-LD 1.2 Processing Algorithms and API",
     "url": "https://w3c.github.io/json-ld-api/"
   },
   "refs": {
     "normative": [
       {
         "name": "BCP47",
-        "url": "https://www.rfc-editor.org/rfc/rfc5646"
+        "url": "https://www.rfc-editor.org/info/rfc5646/"
       },
       {
         "name": "DOM",
@@ -38,6 +38,10 @@
         "url": "https://www.w3.org/TR/json-ld11/"
       },
       {
+        "name": "JSON-LD11-API",
+        "url": "https://www.w3.org/TR/json-ld11-api/"
+      },
+      {
         "name": "JSON-LD11-FRAMING",
         "url": "https://www.w3.org/TR/json-ld11-framing/"
       },
@@ -54,44 +58,44 @@
         "url": "https://www.w3.org/TR/rdf-schema/"
       },
       {
-        "name": "RDF11-CONCEPTS",
-        "url": "https://www.w3.org/TR/rdf11-concepts/"
+        "name": "RDF12-CONCEPTS",
+        "url": "https://www.w3.org/TR/rdf12-concepts/"
       },
       {
-        "name": "RDF11-MT",
-        "url": "https://www.w3.org/TR/rdf11-mt/"
+        "name": "RDF12-SCHEMA",
+        "url": "https://www.w3.org/TR/rdf12-schema/"
       },
       {
         "name": "RFC2045",
-        "url": "https://www.rfc-editor.org/rfc/rfc2045"
+        "url": "https://www.rfc-editor.org/info/rfc2045/"
       },
       {
         "name": "RFC2119",
-        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+        "url": "https://www.rfc-editor.org/info/rfc2119/"
       },
       {
         "name": "RFC3986",
-        "url": "https://www.rfc-editor.org/rfc/rfc3986"
+        "url": "https://www.rfc-editor.org/info/rfc3986/"
       },
       {
         "name": "RFC3987",
-        "url": "https://www.rfc-editor.org/rfc/rfc3987"
+        "url": "https://www.rfc-editor.org/info/rfc3987/"
       },
       {
         "name": "RFC5234",
-        "url": "https://www.rfc-editor.org/rfc/rfc5234"
+        "url": "https://www.rfc-editor.org/info/rfc5234/"
       },
       {
         "name": "RFC6839",
-        "url": "https://www.rfc-editor.org/rfc/rfc6839"
+        "url": "https://www.rfc-editor.org/info/rfc6839/"
       },
       {
         "name": "RFC8174",
-        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+        "url": "https://www.rfc-editor.org/info/rfc8174/"
       },
       {
         "name": "RFC8259",
-        "url": "https://www.rfc-editor.org/rfc/rfc8259"
+        "url": "https://www.rfc-editor.org/info/rfc8259/"
       },
       {
         "name": "RFC8288",

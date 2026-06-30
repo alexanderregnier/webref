@@ -919,7 +919,7 @@
       },
       "https://drafts.csswg.org/css-syntax-3/": {
         "anchors": [
-          "serialize-an-anb-value",
+          "serialize-an-a-n-plus-b-value",
           "parse-a-rule",
           "parse-a-stylesheets-contents",
           "environment-encoding",

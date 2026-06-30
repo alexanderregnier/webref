@@ -288,14 +288,14 @@
       "values": [
         {
           "name": "wrap",
-          "prose": "Content may break across lines at allowed soft wrap opportunities, as determined by the line-breaking rules in effect, in order to minimize inline-axis overflow.",
+          "prose": "Lines may wrap at allowed soft wrap opportunities, as determined by the line-breaking rules in effect, in order to minimize inline-axis overflow.",
           "href": "https://drafts.csswg.org/css-text-4/#valdef-text-wrap-mode-wrap",
           "type": "value",
           "value": "wrap"
         },
         {
           "name": "nowrap",
-          "prose": "Inline-level content does not break across lines; content that does not fit within the block container overflows it.",
+          "prose": "Lines only break at forced line breaks; content that does not fit within the block container overflows it.",
           "href": "https://drafts.csswg.org/css-text-4/#valdef-text-wrap-mode-nowrap",
           "type": "value",
           "value": "nowrap"
@@ -479,7 +479,7 @@
         },
         {
           "name": "balance",
-          "prose": "Line breaks are chosen to balance the remaining (empty) space in each line box, if better balance than auto is possible. This should avoid changing—​and in the case of 5 or fewer lines must not change—​the number of line boxes the block would contain if text-wrap were set to auto. The remaining space to consider is that which remains after placing floats and inline content, but before any adjustments due to text justification. Line boxes are balanced when the standard deviation from the average inline-size of the remaining space in each line box is reduced over the block (including lines that end in a forced break). Groups of lines separated by a forced line break are processed separately. If the element is affected by line-clamp, the clamping effect is applied first, then the remaining lines are balanced. The exact algorithm is UA-defined. UAs may treat this value as auto if there are more than ten lines to balance.",
+          "prose": "Line breaks are chosen to balance the remaining (empty) space in each line box, if better balance than auto is possible. This should avoid changing—​and in the case of 5 or fewer lines must not change—​the number of line boxes the block would contain if text-wrap were set to auto. The remaining space to consider is that which remains after placing floats and inline content, but before any adjustments due to text justification. Line boxes are balanced when the standard deviation from the average inline-size of the remaining space in each line box is reduced over the block (including lines that end in a forced line break). Groups of lines separated by a forced line break are processed separately. If the element is affected by line-clamp, the clamping effect is applied first, then the remaining lines are balanced. The exact algorithm is UA-defined. UAs may treat this value as auto if there are more than ten lines to balance.",
           "href": "https://drafts.csswg.org/css-text-4/#valdef-text-wrap-style-balance",
           "type": "value",
           "value": "balance"
@@ -860,22 +860,6 @@
       ]
     },
     {
-      "name": "word-wrap",
-      "href": "https://drafts.csswg.org/css-text-4/#propdef-word-wrap",
-      "value": "normal | break-word | anywhere",
-      "initial": "normal",
-      "appliesTo": "text",
-      "inherited": "yes",
-      "percentages": "n/a",
-      "computedValue": "specified keyword",
-      "canonicalOrder": "n/a",
-      "animationType": "discrete",
-      "styleDeclaration": [
-        "word-wrap",
-        "wordWrap"
-      ]
-    },
-    {
       "name": "text-align",
       "href": "https://drafts.csswg.org/css-text-4/#propdef-text-align",
       "value": "start | end | left | right | center | <string> | justify | match-parent | justify-all",
@@ -937,7 +921,7 @@
         },
         {
           "name": "justify",
-          "prose": "Text is justified according to the method specified by the text-justify property, in order to exactly fill the line box. Unless otherwise specified by text-align-last, the last line before a forced break or the end of the block is start-aligned.",
+          "prose": "Text is justified according to the method specified by the text-justify property, in order to exactly fill the line box. Unless otherwise specified by text-align-last, the last line before a forced line break is start-aligned.",
           "href": "https://drafts.csswg.org/css-text-4/#valdef-text-align-justify",
           "type": "value",
           "value": "justify"
@@ -1128,73 +1112,6 @@
       "styleDeclaration": [
         "text-group-align",
         "textGroupAlign"
-      ]
-    },
-    {
-      "name": "text-fit",
-      "href": "https://drafts.csswg.org/css-text-4/#propdef-text-fit",
-      "value": "[ none | grow | shrink ] [consistent | per-line | per-line-all]? <percentage>?",
-      "initial": "none",
-      "appliesTo": "block containers",
-      "inherited": "yes",
-      "percentages": "N/A",
-      "computedValue": "specified keywords or computed <percentage> value",
-      "canonicalOrder": "per grammar",
-      "animationType": "discrete",
-      "values": [
-        {
-          "name": "none",
-          "prose": "The user agent doesn’t scale inline-level contents to fit to the line box.",
-          "href": "https://drafts.csswg.org/css-text-4/#valdef-text-fit-none",
-          "type": "value",
-          "value": "none"
-        },
-        {
-          "name": "grow",
-          "prose": "The user agent scales up inline-level contents to fit to the line box.",
-          "href": "https://drafts.csswg.org/css-text-4/#valdef-text-fit-grow",
-          "type": "value",
-          "value": "grow"
-        },
-        {
-          "name": "shrink",
-          "prose": "The user agent scales down inline-level contents to fit to the line box.",
-          "href": "https://drafts.csswg.org/css-text-4/#valdef-text-fit-shrink",
-          "type": "value",
-          "value": "shrink"
-        },
-        {
-          "name": "consistent",
-          "prose": "Specifies that all lines in the container are scaled with a single scaling factor. This keyword has no effect if none is specified. If none of consistent, per-line, or per-line-all are specified, consistent is assumed.",
-          "href": "https://drafts.csswg.org/css-text-4/#valdef-text-fit-consistent",
-          "type": "value",
-          "value": "consistent"
-        },
-        {
-          "name": "per-line",
-          "prose": "Specifies that each line is scaled with its own scaling factor. However, the last line of the block and lines that end in a forced break are not scaled. This keyword has no effect if none is specified.",
-          "href": "https://drafts.csswg.org/css-text-4/#valdef-text-fit-per-line",
-          "type": "value",
-          "value": "per-line"
-        },
-        {
-          "name": "per-line-all",
-          "prose": "Specifies that each line is scaled with its own scaling factor, including the last line of the block and lines that end in a forced break. This keyword has no effect if none is specified.",
-          "href": "https://drafts.csswg.org/css-text-4/#valdef-text-fit-per-line-all",
-          "type": "value",
-          "value": "per-line-all"
-        },
-        {
-          "name": "<percentage>",
-          "prose": "Specifies the limit of the scaling factor. If grow is specified and the value is 100% or greater, it is the maximum scaling factor. If shrink is specified and the value is between 0% and 100% inclusive, it is the minimum scaling factor. Otherwise, or if this component is omitted, there is no limit on the scaling factor.",
-          "href": "https://drafts.csswg.org/css-text-4/#valdef-text-fit-percentage",
-          "type": "value",
-          "value": "<percentage>"
-        }
-      ],
-      "styleDeclaration": [
-        "text-fit",
-        "textFit"
       ]
     },
     {
@@ -1561,6 +1478,15 @@
       "styleDeclaration": [
         "hanging-punctuation",
         "hangingPunctuation"
+      ]
+    },
+    {
+      "name": "word-wrap",
+      "href": "https://drafts.csswg.org/css-text-4/#propdef-word-wrap",
+      "legacyAliasOf": "overflow-wrap",
+      "styleDeclaration": [
+        "word-wrap",
+        "wordWrap"
       ]
     }
   ],

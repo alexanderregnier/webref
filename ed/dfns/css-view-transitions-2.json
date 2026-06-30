@@ -764,28 +764,6 @@
       "links": []
     },
     {
-      "id": "viewtransition-transition-root-pseudo-element",
-      "href": "https://drafts.csswg.org/css-view-transitions-2/#viewtransition-transition-root-pseudo-element",
-      "linkingText": [
-        "transition root pseudo-element"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "ViewTransition"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "the-domtransition-interface",
-        "href": "https://drafts.csswg.org/css-view-transitions-2/#the-domtransition-interface",
-        "title": "The ViewTransition interface",
-        "number": "2.3"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
       "id": "viewtransition-initial-snapshot-containing-block-size",
       "href": "https://drafts.csswg.org/css-view-transitions-2/#viewtransition-initial-snapshot-containing-block-size",
       "linkingText": [
@@ -1819,6 +1797,70 @@
       "links": []
     },
     {
+      "id": "valdef-view-transition-types-none",
+      "href": "https://drafts.csswg.org/css-view-transitions-2/#valdef-view-transition-types-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "@view-transition/types"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "types-cross-doc",
+        "href": "https://drafts.csswg.org/css-view-transitions-2/#types-cross-doc",
+        "title": "Activating the transition type for cross-document view transitions",
+        "number": "9.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-view-transition-types-view-transition-type",
+      "href": "https://drafts.csswg.org/css-view-transitions-2/#valdef-view-transition-types-view-transition-type",
+      "linkingText": [
+        "<view-transition-type>+"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "@view-transition/types"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "types-cross-doc",
+        "href": "https://drafts.csswg.org/css-view-transitions-2/#types-cross-doc",
+        "title": "Activating the transition type for cross-document view transitions",
+        "number": "9.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-view-transition-type",
+      "href": "https://drafts.csswg.org/css-view-transitions-2/#typedef-view-transition-type",
+      "linkingText": [
+        "<view-transition-type>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "types-cross-doc",
+        "href": "https://drafts.csswg.org/css-view-transitions-2/#types-cross-doc",
+        "title": "Activating the transition type for cross-document view transitions",
+        "number": "9.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "propdef-view-transition-class",
       "href": "https://drafts.csswg.org/css-view-transitions-2/#propdef-view-transition-class",
       "linkingText": [
@@ -1993,28 +2035,6 @@
       "href": "https://drafts.csswg.org/css-view-transitions-2/#document-dynamic-view-transition-style-sheet",
       "linkingText": [
         "dynamic view transition style sheet"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "document"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "additions-to-document",
-        "href": "https://drafts.csswg.org/css-view-transitions-2/#additions-to-document",
-        "title": "Additions to Document",
-        "number": "12.1.1"
-      },
-      "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "document-show-view-transition-tree",
-      "href": "https://drafts.csswg.org/css-view-transitions-2/#document-show-view-transition-tree",
-      "linkingText": [
-        "show view transition tree"
       ],
       "localLinkingText": [],
       "type": "dfn",

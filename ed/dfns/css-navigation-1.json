@@ -5,226 +5,6 @@
   },
   "dfns": [
     {
-      "id": "at-ruledef-route",
-      "href": "https://drafts.csswg.org/css-navigation-1/#at-ruledef-route",
-      "linkingText": [
-        "@route"
-      ],
-      "localLinkingText": [],
-      "type": "at-rule",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "at-route",
-        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
-        "title": "Declaring named URL patterns: the @route rule",
-        "number": "1.1"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "typedef-route-rule",
-      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-route-rule",
-      "linkingText": [
-        "<route-rule>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "at-route",
-        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
-        "title": "Declaring named URL patterns: the @route rule",
-        "number": "1.1"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
-      "id": "typedef-route-descriptor",
-      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-route-descriptor",
-      "linkingText": [
-        "<route-descriptor>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "at-route",
-        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
-        "title": "Declaring named URL patterns: the @route rule",
-        "number": "1.1"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
-      "id": "typedef-pattern-descriptor",
-      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-pattern-descriptor",
-      "linkingText": [
-        "<pattern-descriptor>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "at-route",
-        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
-        "title": "Declaring named URL patterns: the @route rule",
-        "number": "1.1"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
-      "id": "typedef-init-descriptor",
-      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-init-descriptor",
-      "linkingText": [
-        "<init-descriptor>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "at-route",
-        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
-        "title": "Declaring named URL patterns: the @route rule",
-        "number": "1.1"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
-      "id": "typedef-init-descriptor-name",
-      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-init-descriptor-name",
-      "linkingText": [
-        "<init-descriptor-name>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "at-route",
-        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
-        "title": "Declaring named URL patterns: the @route rule",
-        "number": "1.1"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
-      "id": "typedef-base-descriptor",
-      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-base-descriptor",
-      "linkingText": [
-        "<base-descriptor>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "at-route",
-        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
-        "title": "Declaring named URL patterns: the @route rule",
-        "number": "1.1"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
-      "id": "funcdef-url-pattern",
-      "href": "https://drafts.csswg.org/css-navigation-1/#funcdef-url-pattern",
-      "linkingText": [
-        "url-pattern()"
-      ],
-      "localLinkingText": [],
-      "type": "function",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "url-pattern-function",
-        "href": "https://drafts.csswg.org/css-navigation-1/#url-pattern-function",
-        "title": "The url-pattern() function",
-        "number": "1.2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "create-a-url-pattern-for-url-pattern",
-      "href": "https://drafts.csswg.org/css-navigation-1/#create-a-url-pattern-for-url-pattern",
-      "linkingText": [
-        "create a URL pattern for url-pattern()"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "url-pattern-function",
-        "href": "https://drafts.csswg.org/css-navigation-1/#url-pattern-function",
-        "title": "The url-pattern() function",
-        "number": "1.2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "create-a-url-for-a-base-descriptor",
-      "href": "https://drafts.csswg.org/css-navigation-1/#create-a-url-for-a-base-descriptor",
-      "linkingText": [
-        "create a URL for a base descriptor"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "url-pattern-function",
-        "href": "https://drafts.csswg.org/css-navigation-1/#url-pattern-function",
-        "title": "The url-pattern() function",
-        "number": "1.2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "serialize-a-url-pattern-function",
-      "href": "https://drafts.csswg.org/css-navigation-1/#serialize-a-url-pattern-function",
-      "linkingText": [
-        "serialize a url-pattern() function"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "url-pattern-function",
-        "href": "https://drafts.csswg.org/css-navigation-1/#url-pattern-function",
-        "title": "The url-pattern() function",
-        "number": "1.2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "typedef-route-location",
       "href": "https://drafts.csswg.org/css-navigation-1/#typedef-route-location",
       "linkingText": [
@@ -239,7 +19,7 @@
         "id": "route-value-type",
         "href": "https://drafts.csswg.org/css-navigation-1/#route-value-type",
         "title": "The <route-location> value type",
-        "number": "1.3"
+        "number": "1.1"
       },
       "definedIn": "pre",
       "links": []
@@ -259,7 +39,7 @@
         "id": "route-value-type",
         "href": "https://drafts.csswg.org/css-navigation-1/#route-value-type",
         "title": "The <route-location> value type",
-        "number": "1.3"
+        "number": "1.1"
       },
       "definedIn": "pre",
       "links": []
@@ -281,7 +61,327 @@
         "id": "route-value-type",
         "href": "https://drafts.csswg.org/css-navigation-1/#route-value-type",
         "title": "The <route-location> value type",
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "at-ruledef-route",
+      "href": "https://drafts.csswg.org/css-navigation-1/#at-ruledef-route",
+      "linkingText": [
+        "@route"
+      ],
+      "localLinkingText": [],
+      "type": "at-rule",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "at-route",
+        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
+        "title": "Declaring named URL patterns: the @route rule",
+        "number": "1.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "typedef-route-rule",
+      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-route-rule",
+      "linkingText": [
+        "<route-rule>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "at-route",
+        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
+        "title": "Declaring named URL patterns: the @route rule",
+        "number": "1.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-route-descriptor",
+      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-route-descriptor",
+      "linkingText": [
+        "<route-descriptor>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "at-route",
+        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
+        "title": "Declaring named URL patterns: the @route rule",
+        "number": "1.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-pattern-descriptor",
+      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-pattern-descriptor",
+      "linkingText": [
+        "<pattern-descriptor>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "at-route",
+        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
+        "title": "Declaring named URL patterns: the @route rule",
+        "number": "1.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-init-descriptor",
+      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-init-descriptor",
+      "linkingText": [
+        "<init-descriptor>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "at-route",
+        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
+        "title": "Declaring named URL patterns: the @route rule",
+        "number": "1.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-init-descriptor-name",
+      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-init-descriptor-name",
+      "linkingText": [
+        "<init-descriptor-name>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "at-route",
+        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
+        "title": "Declaring named URL patterns: the @route rule",
+        "number": "1.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-base-descriptor",
+      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-base-descriptor",
+      "linkingText": [
+        "<base-descriptor>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "at-route",
+        "href": "https://drafts.csswg.org/css-navigation-1/#at-route",
+        "title": "Declaring named URL patterns: the @route rule",
+        "number": "1.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "funcdef-url-pattern",
+      "href": "https://drafts.csswg.org/css-navigation-1/#funcdef-url-pattern",
+      "linkingText": [
+        "url-pattern()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "url-pattern-function",
+        "href": "https://drafts.csswg.org/css-navigation-1/#url-pattern-function",
+        "title": "The url-pattern() function",
         "number": "1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "create-a-url-pattern-for-url-pattern",
+      "href": "https://drafts.csswg.org/css-navigation-1/#create-a-url-pattern-for-url-pattern",
+      "linkingText": [
+        "create a URL pattern for url-pattern()"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "url-pattern-function",
+        "href": "https://drafts.csswg.org/css-navigation-1/#url-pattern-function",
+        "title": "The url-pattern() function",
+        "number": "1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "create-a-url-for-a-base-descriptor",
+      "href": "https://drafts.csswg.org/css-navigation-1/#create-a-url-for-a-base-descriptor",
+      "linkingText": [
+        "create a URL for a base descriptor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "url-pattern-function",
+        "href": "https://drafts.csswg.org/css-navigation-1/#url-pattern-function",
+        "title": "The url-pattern() function",
+        "number": "1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "serialize-a-url-pattern-function",
+      "href": "https://drafts.csswg.org/css-navigation-1/#serialize-a-url-pattern-function",
+      "linkingText": [
+        "serialize a url-pattern() function"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "url-pattern-function",
+        "href": "https://drafts.csswg.org/css-navigation-1/#url-pattern-function",
+        "title": "The url-pattern() function",
+        "number": "1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "link-to-pseudo",
+      "href": "https://drafts.csswg.org/css-navigation-1/#link-to-pseudo",
+      "linkingText": [
+        ":link-to()"
+      ],
+      "localLinkingText": [],
+      "type": "selector",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "link-to-pseudo-class",
+        "href": "https://drafts.csswg.org/css-navigation-1/#link-to-pseudo-class",
+        "title": "The :link-to() pseudo-class",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "active-navigation-pseudo",
+      "href": "https://drafts.csswg.org/css-navigation-1/#active-navigation-pseudo",
+      "linkingText": [
+        ":active-navigation()"
+      ],
+      "localLinkingText": [],
+      "type": "selector",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "active-navigation-pseudo-class",
+        "href": "https://drafts.csswg.org/css-navigation-1/#active-navigation-pseudo-class",
+        "title": "The :active-navigation() pseudo-class",
+        "number": "2.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "typedef-active-navigation-condition",
+      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-active-navigation-condition",
+      "linkingText": [
+        "<active-navigation-condition>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "active-navigation-pseudo-class",
+        "href": "https://drafts.csswg.org/css-navigation-1/#active-navigation-pseudo-class",
+        "title": "The :active-navigation() pseudo-class",
+        "number": "2.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-navigation-relation",
+      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-navigation-relation",
+      "linkingText": [
+        "<navigation-relation>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "active-navigation-pseudo-class",
+        "href": "https://drafts.csswg.org/css-navigation-1/#active-navigation-pseudo-class",
+        "title": "The :active-navigation() pseudo-class",
+        "number": "2.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "trigger-link-pseudo",
+      "href": "https://drafts.csswg.org/css-navigation-1/#trigger-link-pseudo",
+      "linkingText": [
+        ":trigger-link"
+      ],
+      "localLinkingText": [],
+      "type": "selector",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "trigger-link-pseudo-class",
+        "href": "https://drafts.csswg.org/css-navigation-1/#trigger-link-pseudo-class",
+        "title": "The :trigger-link pseudo-class",
+        "number": "2.3"
       },
       "definedIn": "prose",
       "links": []
@@ -301,7 +401,7 @@
         "id": "at-navigation",
         "href": "https://drafts.csswg.org/css-navigation-1/#at-navigation",
         "title": "Navigation queries: the @navigation rule",
-        "number": "2.1"
+        "number": "3.1"
       },
       "definedIn": "prose",
       "links": []
@@ -321,7 +421,7 @@
         "id": "at-navigation",
         "href": "https://drafts.csswg.org/css-navigation-1/#at-navigation",
         "title": "Navigation queries: the @navigation rule",
-        "number": "2.1"
+        "number": "3.1"
       },
       "definedIn": "prose",
       "links": []
@@ -341,7 +441,7 @@
         "id": "at-navigation",
         "href": "https://drafts.csswg.org/css-navigation-1/#at-navigation",
         "title": "Navigation queries: the @navigation rule",
-        "number": "2.1"
+        "number": "3.1"
       },
       "definedIn": "pre",
       "links": []
@@ -361,7 +461,7 @@
         "id": "at-navigation",
         "href": "https://drafts.csswg.org/css-navigation-1/#at-navigation",
         "title": "Navigation queries: the @navigation rule",
-        "number": "2.1"
+        "number": "3.1"
       },
       "definedIn": "pre",
       "links": []
@@ -381,7 +481,7 @@
         "id": "at-navigation",
         "href": "https://drafts.csswg.org/css-navigation-1/#at-navigation",
         "title": "Navigation queries: the @navigation rule",
-        "number": "2.1"
+        "number": "3.1"
       },
       "definedIn": "pre",
       "links": []
@@ -401,7 +501,7 @@
         "id": "at-navigation",
         "href": "https://drafts.csswg.org/css-navigation-1/#at-navigation",
         "title": "Navigation queries: the @navigation rule",
-        "number": "2.1"
+        "number": "3.1"
       },
       "definedIn": "pre",
       "links": []
@@ -421,7 +521,7 @@
         "id": "at-navigation",
         "href": "https://drafts.csswg.org/css-navigation-1/#at-navigation",
         "title": "Navigation queries: the @navigation rule",
-        "number": "2.1"
+        "number": "3.1"
       },
       "definedIn": "pre",
       "links": []
@@ -441,7 +541,7 @@
         "id": "at-navigation",
         "href": "https://drafts.csswg.org/css-navigation-1/#at-navigation",
         "title": "Navigation queries: the @navigation rule",
-        "number": "2.1"
+        "number": "3.1"
       },
       "definedIn": "pre",
       "links": []
@@ -461,7 +561,7 @@
         "id": "at-navigation",
         "href": "https://drafts.csswg.org/css-navigation-1/#at-navigation",
         "title": "Navigation queries: the @navigation rule",
-        "number": "2.1"
+        "number": "3.1"
       },
       "definedIn": "pre",
       "links": []
@@ -481,7 +581,7 @@
         "id": "at-navigation",
         "href": "https://drafts.csswg.org/css-navigation-1/#at-navigation",
         "title": "Navigation queries: the @navigation rule",
-        "number": "2.1"
+        "number": "3.1"
       },
       "definedIn": "pre",
       "links": []
@@ -501,7 +601,7 @@
         "id": "at-navigation",
         "href": "https://drafts.csswg.org/css-navigation-1/#at-navigation",
         "title": "Navigation queries: the @navigation rule",
-        "number": "2.1"
+        "number": "3.1"
       },
       "definedIn": "pre",
       "links": []
@@ -521,29 +621,9 @@
         "id": "at-navigation",
         "href": "https://drafts.csswg.org/css-navigation-1/#at-navigation",
         "title": "Navigation queries: the @navigation rule",
-        "number": "2.1"
+        "number": "3.1"
       },
       "definedIn": "pre",
-      "links": []
-    },
-    {
-      "id": "documents-navigation-api",
-      "href": "https://drafts.csswg.org/css-navigation-1/#documents-navigation-api",
-      "linkingText": [
-        "document’s navigation API"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "at-navigation",
-        "href": "https://drafts.csswg.org/css-navigation-1/#at-navigation",
-        "title": "Navigation queries: the @navigation rule",
-        "number": "2.1"
-      },
-      "definedIn": "prose",
       "links": []
     },
     {
@@ -563,7 +643,7 @@
         "id": "navigation-when-function",
         "href": "https://drafts.csswg.org/css-navigation-1/#navigation-when-function",
         "title": "The navigation() function for @when",
-        "number": "2.2"
+        "number": "3.2"
       },
       "definedIn": "pre",
       "links": []
@@ -585,96 +665,16 @@
         "id": "navigation-if-function",
         "href": "https://drafts.csswg.org/css-navigation-1/#navigation-if-function",
         "title": "The navigation() function for if()",
-        "number": "2.3"
+        "number": "3.3"
       },
       "definedIn": "pre",
       "links": []
     },
     {
-      "id": "link-to-pseudo",
-      "href": "https://drafts.csswg.org/css-navigation-1/#link-to-pseudo",
+      "id": "navigation-state",
+      "href": "https://drafts.csswg.org/css-navigation-1/#navigation-state",
       "linkingText": [
-        ":link-to()"
-      ],
-      "localLinkingText": [],
-      "type": "selector",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "link-to-pseudo-class",
-        "href": "https://drafts.csswg.org/css-navigation-1/#link-to-pseudo-class",
-        "title": "The ::link-to() pseudo-class",
-        "number": "3.1"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "active-navigation-pseudo",
-      "href": "https://drafts.csswg.org/css-navigation-1/#active-navigation-pseudo",
-      "linkingText": [
-        ":active-navigation()"
-      ],
-      "localLinkingText": [],
-      "type": "selector",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "active-navigation-pseudo-class",
-        "href": "https://drafts.csswg.org/css-navigation-1/#active-navigation-pseudo-class",
-        "title": "The ::active-navigation() pseudo-class",
-        "number": "3.2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "typedef-active-navigation-condition",
-      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-active-navigation-condition",
-      "linkingText": [
-        "<active-navigation-condition>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "active-navigation-pseudo-class",
-        "href": "https://drafts.csswg.org/css-navigation-1/#active-navigation-pseudo-class",
-        "title": "The ::active-navigation() pseudo-class",
-        "number": "3.2"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
-      "id": "typedef-navigation-relation",
-      "href": "https://drafts.csswg.org/css-navigation-1/#typedef-navigation-relation",
-      "linkingText": [
-        "<navigation-relation>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "active-navigation-pseudo-class",
-        "href": "https://drafts.csswg.org/css-navigation-1/#active-navigation-pseudo-class",
-        "title": "The ::active-navigation() pseudo-class",
-        "number": "3.2"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
-      "id": "active-navigation-url",
-      "href": "https://drafts.csswg.org/css-navigation-1/#active-navigation-url",
-      "linkingText": [
-        "active navigation URL"
+        "navigation state"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -682,39 +682,173 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "active-navigation-pseudo-class",
-        "href": "https://drafts.csswg.org/css-navigation-1/#active-navigation-pseudo-class",
-        "title": "The ::active-navigation() pseudo-class",
-        "number": "3.2"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "current-from-url",
-      "href": "https://drafts.csswg.org/css-navigation-1/#current-from-url",
-      "linkingText": [
-        "current from URL"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "current-nav-urls",
-        "href": "https://drafts.csswg.org/css-navigation-1/#current-nav-urls",
-        "title": "Definitions of current navigation state",
+        "id": "processing-model",
+        "href": "https://drafts.csswg.org/css-navigation-1/#processing-model",
+        "title": "Processing model",
         "number": "4"
       },
       "definedIn": "prose",
       "links": []
     },
     {
-      "id": "current-to-url",
-      "href": "https://drafts.csswg.org/css-navigation-1/#current-to-url",
+      "id": "navigation-state-old-url",
+      "href": "https://drafts.csswg.org/css-navigation-1/#navigation-state-old-url",
       "linkingText": [
-        "current to URL"
+        "old URL"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigation state"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-model",
+        "href": "https://drafts.csswg.org/css-navigation-1/#processing-model",
+        "title": "Processing model",
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "navigation-state-new-url",
+      "href": "https://drafts.csswg.org/css-navigation-1/#navigation-state-new-url",
+      "linkingText": [
+        "new URL"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigation state"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-model",
+        "href": "https://drafts.csswg.org/css-navigation-1/#processing-model",
+        "title": "Processing model",
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "navigation-state-type",
+      "href": "https://drafts.csswg.org/css-navigation-1/#navigation-state-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigation state"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-model",
+        "href": "https://drafts.csswg.org/css-navigation-1/#processing-model",
+        "title": "Processing model",
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "navigation-state-old-index",
+      "href": "https://drafts.csswg.org/css-navigation-1/#navigation-state-old-index",
+      "linkingText": [
+        "old index"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigation state"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-model",
+        "href": "https://drafts.csswg.org/css-navigation-1/#processing-model",
+        "title": "Processing model",
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "navigation-state-new-index",
+      "href": "https://drafts.csswg.org/css-navigation-1/#navigation-state-new-index",
+      "linkingText": [
+        "new index"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigation state"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-model",
+        "href": "https://drafts.csswg.org/css-navigation-1/#processing-model",
+        "title": "Processing model",
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "navigation-state-phase",
+      "href": "https://drafts.csswg.org/css-navigation-1/#navigation-state-phase",
+      "linkingText": [
+        "phase"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigation state"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-model",
+        "href": "https://drafts.csswg.org/css-navigation-1/#processing-model",
+        "title": "Processing model",
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "navigation-state-source-element",
+      "href": "https://drafts.csswg.org/css-navigation-1/#navigation-state-source-element",
+      "linkingText": [
+        "source element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigation state"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "processing-model",
+        "href": "https://drafts.csswg.org/css-navigation-1/#processing-model",
+        "title": "Processing model",
+        "number": "4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "current-navigation-state",
+      "href": "https://drafts.csswg.org/css-navigation-1/#current-navigation-state",
+      "linkingText": [
+        "current navigation state"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -722,19 +856,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "current-nav-urls",
-        "href": "https://drafts.csswg.org/css-navigation-1/#current-nav-urls",
-        "title": "Definitions of current navigation state",
+        "id": "processing-model",
+        "href": "https://drafts.csswg.org/css-navigation-1/#processing-model",
+        "title": "Processing model",
         "number": "4"
       },
       "definedIn": "prose",
       "links": []
     },
     {
-      "id": "current-at-url",
-      "href": "https://drafts.csswg.org/css-navigation-1/#current-at-url",
+      "id": "current-navigation-url",
+      "href": "https://drafts.csswg.org/css-navigation-1/#current-navigation-url",
       "linkingText": [
-        "current at URL"
+        "current navigation URL"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -742,29 +876,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "current-nav-urls",
-        "href": "https://drafts.csswg.org/css-navigation-1/#current-nav-urls",
-        "title": "Definitions of current navigation state",
-        "number": "4"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "current-with-url",
-      "href": "https://drafts.csswg.org/css-navigation-1/#current-with-url",
-      "linkingText": [
-        "current with URL"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "current-nav-urls",
-        "href": "https://drafts.csswg.org/css-navigation-1/#current-nav-urls",
-        "title": "Definitions of current navigation state",
+        "id": "processing-model",
+        "href": "https://drafts.csswg.org/css-navigation-1/#processing-model",
+        "title": "Processing model",
         "number": "4"
       },
       "definedIn": "prose",
@@ -782,19 +896,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "current-nav-urls",
-        "href": "https://drafts.csswg.org/css-navigation-1/#current-nav-urls",
-        "title": "Definitions of current navigation state",
+        "id": "processing-model",
+        "href": "https://drafts.csswg.org/css-navigation-1/#processing-model",
+        "title": "Processing model",
         "number": "4"
       },
       "definedIn": "prose",
       "links": []
     },
     {
-      "id": "current-navigation-delta",
-      "href": "https://drafts.csswg.org/css-navigation-1/#current-navigation-delta",
+      "id": "traversing-navigate-event",
+      "href": "https://drafts.csswg.org/css-navigation-1/#traversing-navigate-event",
       "linkingText": [
-        "current navigation delta"
+        "traversing navigate event"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -802,9 +916,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "current-nav-urls",
-        "href": "https://drafts.csswg.org/css-navigation-1/#current-nav-urls",
-        "title": "Definitions of current navigation state",
+        "id": "processing-model",
+        "href": "https://drafts.csswg.org/css-navigation-1/#processing-model",
+        "title": "Processing model",
         "number": "4"
       },
       "definedIn": "prose",

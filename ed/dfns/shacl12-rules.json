@@ -5,13 +5,12 @@
   },
   "dfns": [
     {
-      "id": "dfn-shapes-rules-language-document",
-      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-shapes-rules-language-document",
+      "id": "dfn-shape-rules-document",
+      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-shape-rules-document",
       "linkingText": [
-        "shapes rules language document",
-        "shapes rules document",
+        "shape rules document",
         "ruleset document",
-        "Shapes Rules Language Document"
+        "Shape Rules Language Document"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -31,10 +30,10 @@
       "links": []
     },
     {
-      "id": "dfn-expression",
-      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-expression",
+      "id": "dfn-version-label",
+      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-version-label",
       "linkingText": [
-        "Expression"
+        "version label"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -42,22 +41,22 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "rules-defns",
-        "href": "https://w3c.github.io/data-shapes/shacl12-rules/#rules-defns",
-        "title": "Elements of the Abstract Syntax",
+        "id": "defined-version-labels",
+        "href": "https://w3c.github.io/data-shapes/shacl12-rules/#defined-version-labels",
+        "title": "Version Labels",
         "alternateIds": [
-          "x4-1-elements-of-the-abstract-syntax"
+          "x2-1-version-labels"
         ],
-        "number": "4.1"
+        "number": "2.1"
       },
-      "definedIn": "dt",
+      "definedIn": "prose",
       "links": []
     },
     {
-      "id": "dfn-condition",
-      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-condition",
+      "id": "dfn-expression",
+      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-expression",
       "linkingText": [
-        "Condition"
+        "Expression"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -147,10 +146,10 @@
       "links": []
     },
     {
-      "id": "dfn-condition-element",
-      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-condition-element",
+      "id": "dfn-filter-element",
+      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-filter-element",
       "linkingText": [
-        "Condition element"
+        "Filter element"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -213,6 +212,29 @@
         "number": "4.1"
       },
       "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-negation-element-body",
+      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-negation-element-body",
+      "linkingText": [
+        "negation element body"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://w3c.github.io/data-shapes/shacl12-rules/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -287,12 +309,10 @@
       "links": []
     },
     {
-      "id": "dfn-rule-body-element",
-      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-rule-body-element",
+      "id": "dfn-rule-element",
+      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-rule-element",
       "linkingText": [
-        "rule body element",
-        "rule element",
-        "Rule body element"
+        "Rule element"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -433,6 +453,29 @@
       "links": []
     },
     {
+      "id": "dfn-general-rule",
+      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-general-rule",
+      "linkingText": [
+        "General rule"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://w3c.github.io/data-shapes/shacl12-rules/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "dfn-rule-set",
       "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-rule-set",
       "linkingText": [
@@ -548,6 +591,29 @@
       "links": []
     },
     {
+      "id": "dfn-well-formed-sequence",
+      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-well-formed-sequence",
+      "linkingText": [
+        "well-formed sequence"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "wellformed",
+        "href": "https://w3c.github.io/data-shapes/shacl12-rules/#wellformed",
+        "title": "Well-formedness Conditions",
+        "alternateIds": [
+          "x4-2-well-formedness-conditions"
+        ],
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "dfn-well-formed-rule",
       "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-well-formed-rule",
       "linkingText": [
@@ -571,11 +637,10 @@
       "links": []
     },
     {
-      "id": "dfn-closed-dependency",
-      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-closed-dependency",
+      "id": "dfn-well-formed-rule-set",
+      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-well-formed-rule-set",
       "linkingText": [
-        "closed dependency",
-        "closed rule dependency"
+        "well-formed rule set"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -583,37 +648,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "rule-dependency",
-        "href": "https://w3c.github.io/data-shapes/shacl12-rules/#rule-dependency",
-        "title": "Rule Dependency",
+        "id": "wellformed",
+        "href": "https://w3c.github.io/data-shapes/shacl12-rules/#wellformed",
+        "title": "Well-formedness Conditions",
         "alternateIds": [
-          "x4-3-rule-dependency"
+          "x4-2-well-formedness-conditions"
         ],
-        "number": "4.3"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "dfn-open-dependency",
-      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-open-dependency",
-      "linkingText": [
-        "open dependency",
-        "open rule dependency"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "rule-dependency",
-        "href": "https://w3c.github.io/data-shapes/shacl12-rules/#rule-dependency",
-        "title": "Rule Dependency",
-        "alternateIds": [
-          "x4-3-rule-dependency"
-        ],
-        "number": "4.3"
+        "number": "4.2"
       },
       "definedIn": "prose",
       "links": []
@@ -645,6 +686,7 @@
       "id": "dfn-triple-pattern-dependency",
       "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-triple-pattern-dependency",
       "linkingText": [
+        "triple-pattern-dependency",
         "Triple pattern dependency"
       ],
       "localLinkingText": [],
@@ -718,7 +760,55 @@
       "id": "dfn-rule-dependency",
       "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-rule-dependency",
       "linkingText": [
+        "rule dependency",
+        "depends on",
         "Rule dependency"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-dependency",
+        "href": "https://w3c.github.io/data-shapes/shacl12-rules/#rule-dependency",
+        "title": "Rule Dependency",
+        "alternateIds": [
+          "x4-3-rule-dependency"
+        ],
+        "number": "4.3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-closed-dependency",
+      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-closed-dependency",
+      "linkingText": [
+        "Closed dependency"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-dependency",
+        "href": "https://w3c.github.io/data-shapes/shacl12-rules/#rule-dependency",
+        "title": "Rule Dependency",
+        "alternateIds": [
+          "x4-3-rule-dependency"
+        ],
+        "number": "4.3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-open-dependency",
+      "href": "https://w3c.github.io/data-shapes/shacl12-rules/#dfn-open-dependency",
+      "linkingText": [
+        "Open dependency"
       ],
       "localLinkingText": [],
       "type": "dfn",
