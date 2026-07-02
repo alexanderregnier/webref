@@ -2820,10 +2820,10 @@
           "rationale": "initialize",
           "steps": [
             {
-              "html": "Initialize a new empty <a class=\"changed\" data-cite=\"INFRA#ordered-map\" data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#ordered-map\">map</a> result."
+              "html": "Initialize a new empty <a class=\"changed\" data-cite=\"INFRA#ordered-map\" data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#ordered-map\">map</a> <var>result</var>."
             },
             {
-              "html": "Initialize <var>converted value</var> to <var>value</var>."
+              "html": "Initialize <var>converted value</var> to <var>null</var>."
             },
             {
               "html": "Initialize <var>type</var> to <code>null</code>"
@@ -2836,7 +2836,7 @@
                   "html": "If the\n                  <a data-cite=\"RDF12-CONCEPTS#dfn-datatype-iri\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-datatype-iri\">datatype <abbr title=\"Internationalized Resource Identifier\">IRI</abbr></a>\n                  of <var>value</var> equals <code>xsd:string</code>, set\n                  <var>converted value</var> to the\n                  <a href=\"https://w3c.github.io/json-ld-api/#dfn-lexical-form\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-lexical-form-4\">lexical form</a>\n                  of <var>value</var>."
                 },
                 {
-                  "html": "Otherwise, if the\n                  <a data-cite=\"RDF12-CONCEPTS#dfn-datatype-iri\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-datatype-iri\">datatype <abbr title=\"Internationalized Resource Identifier\">IRI</abbr></a>\n                  of <var>value</var> equals <code>xsd:boolean</code>, set\n                  <var>converted value</var> to <code>true</code> if the\n                  <a href=\"https://w3c.github.io/json-ld-api/#dfn-lexical-form\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-lexical-form-5\">lexical form</a>\n                  \n                    of <var>value</var> matches <code>\"true\"</code> or <code>\"1\"</code>, or <code>false</code>\n                    if it matches <code>\"false\"</code> or <code>\"0\"</code>.\n                  \n                  If it matches neither,\n                  set <var>type</var> to <code>xsd:boolean</code>."
+                  "html": "Otherwise, if the\n                  <a data-cite=\"RDF12-CONCEPTS#dfn-datatype-iri\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-datatype-iri\">datatype <abbr title=\"Internationalized Resource Identifier\">IRI</abbr></a>\n                  of <var>value</var> equals <code>xsd:boolean</code>, set\n                  <var>converted value</var> to <code>true</code> if the\n                  <a href=\"https://w3c.github.io/json-ld-api/#dfn-lexical-form\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-lexical-form-5\">lexical form</a>\n                  of <var>value</var> matches <code>\"true\"</code> or <code>\"1\"</code>, or <code>false</code>\n                  if it matches <code>\"false\"</code> or <code>\"0\"</code>."
                 },
                 {
                   "html": "Otherwise, if the\n                  <a data-cite=\"RDF12-CONCEPTS#dfn-datatype-iri\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-datatype-iri\">datatype <abbr title=\"Internationalized Resource Identifier\">IRI</abbr></a>\n                  of <var>value</var> equals <code>xsd:integer</code> or\n                  <code>xsd:double</code> and its\n                  <a href=\"https://w3c.github.io/json-ld-api/#dfn-lexical-form\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-lexical-form-6\">lexical form</a>\n                  is a valid <code>xsd:integer</code> or <code>xsd:double</code>\n                  according to [<cite><a class=\"bibref\" data-link-type=\"biblio\" href=\"https://w3c.github.io/json-ld-api/#bib-xmlschema11-2\" title=\"W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes\">XMLSCHEMA11-2</a></cite>]:",
@@ -2847,37 +2847,40 @@
                     },
                     {
                       "html": "If the conversion is successful, set <var>converted value</var>\n                      to its result."
-                    },
-                    {
-                      "html": "Otherwise, set <var>type</var> to <a data-cite=\"RDF12-CONCEPTS#dfn-datatype-iri\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-datatype-iri\">datatype <abbr title=\"Internationalized Resource Identifier\">IRI</abbr></a>\n                      of <var>value</var>."
                     }
                   ]
                 }
               ]
             },
             {
-              "html": "Otherwise, if <a data-cite=\"JSON-LD11#dfn-processing-mode\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/json-ld11/#dfn-processing-mode\">processing mode</a> is not <code>json-ld-1.0</code>,\n              and <var>value</var> is a <a data-cite=\"JSON-LD11#dfn-json-literal\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/json-ld11/#dfn-json-literal\">JSON literal</a>,\n              set <var>converted value</var> to the result of\n              turning the lexical value of <var>value</var>\n              into the <a data-cite=\"JSON-LD11-API#dfn-internal-representation\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/json-ld11-api/#dfn-internal-representation\">JSON-LD internal representation</a>, and set <var>type</var> to <code>@json</code>.\n              If the lexical value of <var>value</var> is not valid JSON according to\n              the <a data-cite=\"RFC8259#section-2\" href=\"https://www.rfc-editor.org/info/rfc8259/#section-2\">JSON Grammar</a> [<cite><a class=\"bibref\" data-link-type=\"biblio\" href=\"https://w3c.github.io/json-ld-api/#bib-rfc8259\" title=\"The JavaScript Object Notation (JSON) Data Interchange Format\">RFC8259</a></cite>],\n              an <a data-link-for=\"JsonLdErrorCode\" href=\"https://w3c.github.io/json-ld-api/#dom-jsonlderrorcode-invalid-json-literal\" class=\"internalDFN\" data-link-type=\"idl\" id=\"ref-for-dom-jsonlderrorcode-invalid-json-literal-1\"><code>invalid JSON literal</code></a>\n              error has been detected and processing is aborted."
-            },
-            {
-              "html": "Otherwise, if the <a data-cite=\"RDF12-CONCEPTS#dfn-datatype-iri\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-datatype-iri\">datatype <abbr title=\"Internationalized Resource Identifier\">IRI</abbr></a> of <var>value</var> starts with <code>https://www.w3.org/ns/i18n#</code>,\n              and <a data-link-type=\"idl\" data-xref-type=\"attribute|dict-member|const\" data-link-for=\"JsonLdOptions\" data-xref-for=\"JsonLdOptions\" href=\"https://w3c.github.io/json-ld-api/#dom-jsonldoptions-rdfdirection\" class=\"internalDFN\" id=\"ref-for-dom-jsonldoptions-rdfdirection-13\"><code>rdfDirection</code></a> is <code>i18n-datatype</code>:",
+              "html": "If <var>converted value</var> is <code>null</code>,",
               "rationale": "set",
               "steps": [
                 {
                   "html": "Set <var>converted value</var> to the <a href=\"https://w3c.github.io/json-ld-api/#dfn-lexical-form\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-lexical-form-8\">lexical form</a> of <var>value</var>."
                 },
                 {
-                  "html": "If the string prefix of the <a data-cite=\"RFC3986#section-3.5\" href=\"https://www.rfc-editor.org/info/rfc3986/#section-3.5\">fragment identifier</a>\n                  of the <a data-cite=\"RDF12-CONCEPTS#dfn-datatype-iri\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-datatype-iri\">datatype <abbr title=\"Internationalized Resource Identifier\">IRI</abbr></a> up until the underscore (<code>\"_\"</code>) is not empty,\n                  add an <a data-cite=\"INFRA#map-entry\" data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-entry\">entry</a> <code>@language</code> to <var>result</var> and set its value to that prefix."
+                  "html": "If <a data-cite=\"JSON-LD11#dfn-processing-mode\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/json-ld11/#dfn-processing-mode\">processing mode</a> is not <code>json-ld-1.0</code>,\n                  and <var>value</var> is a <a data-cite=\"JSON-LD11#dfn-json-literal\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/json-ld11/#dfn-json-literal\">JSON literal</a>,\n                  set <var>converted value</var> to the result of\n                  turning the lexical value of <var>value</var>\n                  into the <a data-cite=\"JSON-LD11-API#dfn-internal-representation\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/json-ld11-api/#dfn-internal-representation\">JSON-LD internal representation</a>, and set <var>type</var> to <code>@json</code>.\n                  If the lexical value of <var>value</var> is not valid JSON according to\n                  the <a data-cite=\"RFC8259#section-2\" href=\"https://www.rfc-editor.org/info/rfc8259/#section-2\">JSON Grammar</a> [<cite><a class=\"bibref\" data-link-type=\"biblio\" href=\"https://w3c.github.io/json-ld-api/#bib-rfc8259\" title=\"The JavaScript Object Notation (JSON) Data Interchange Format\">RFC8259</a></cite>],\n                  an <a data-link-for=\"JsonLdErrorCode\" href=\"https://w3c.github.io/json-ld-api/#dom-jsonlderrorcode-invalid-json-literal\" class=\"internalDFN\" data-link-type=\"idl\" id=\"ref-for-dom-jsonlderrorcode-invalid-json-literal-1\"><code>invalid JSON literal</code></a>\n                  error has been detected and processing is aborted."
                 },
                 {
-                  "html": "Add an <a data-cite=\"INFRA#map-entry\" data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-entry\">entry</a> <code>@direction</code> to <var>result</var> and set its value to the substring of the\n                  <a data-cite=\"RFC3986#section-3.5\" href=\"https://www.rfc-editor.org/info/rfc3986/#section-3.5\">fragment identifier</a> following\n                  the underscore (<code>\"_\"</code>)."
+                  "html": "Otherwise, if the <a data-cite=\"RDF12-CONCEPTS#dfn-datatype-iri\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-datatype-iri\">datatype <abbr title=\"Internationalized Resource Identifier\">IRI</abbr></a> of <var>value</var> starts with <code>https://www.w3.org/ns/i18n#</code>,\n                  and <a data-link-type=\"idl\" data-xref-type=\"attribute|dict-member|const\" data-link-for=\"JsonLdOptions\" data-xref-for=\"JsonLdOptions\" href=\"https://w3c.github.io/json-ld-api/#dom-jsonldoptions-rdfdirection\" class=\"internalDFN\" id=\"ref-for-dom-jsonldoptions-rdfdirection-13\"><code>rdfDirection</code></a> is <code>i18n-datatype</code>:",
+                  "rationale": "if",
+                  "steps": [
+                    {
+                      "html": "If the string prefix of the <a data-cite=\"RFC3986#section-3.5\" href=\"https://www.rfc-editor.org/info/rfc3986/#section-3.5\">fragment identifier</a>\n                      of the <a data-cite=\"RDF12-CONCEPTS#dfn-datatype-iri\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-datatype-iri\">datatype <abbr title=\"Internationalized Resource Identifier\">IRI</abbr></a> up until the underscore (<code>\"_\"</code>) is not empty,\n                      add an <a data-cite=\"INFRA#map-entry\" data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-entry\">entry</a> <code>@language</code> to <var>result</var> and set its value to that prefix."
+                    },
+                    {
+                      "html": "Add an <a data-cite=\"INFRA#map-entry\" data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-entry\">entry</a> <code>@direction</code> to <var>result</var> and set its value to the substring of the\n                      <a data-cite=\"RFC3986#section-3.5\" href=\"https://www.rfc-editor.org/info/rfc3986/#section-3.5\">fragment identifier</a> following\n                      the underscore (<code>\"_\"</code>)."
+                    }
+                  ]
+                },
+                {
+                  "html": "Otherwise, if <var>value</var> is a\n                  <a data-cite=\"RDF12-CONCEPTS#dfn-language-tagged-string\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-language-tagged-string\">language-tagged string</a>\n                  add an <a data-cite=\"INFRA#map-entry\" data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-entry\">entry</a> <code>@language</code> to <var>result</var> and set its value to the\n                  <a data-cite=\"RDF12-CONCEPTS#dfn-language-tag\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-language-tag\">language tag</a> of <var>value</var>."
+                },
+                {
+                  "html": "Otherwise, set <var>type</var> to the\n                  <a data-cite=\"RDF12-CONCEPTS#dfn-datatype-iri\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-datatype-iri\">datatype <abbr title=\"Internationalized Resource Identifier\">IRI</abbr></a>\n                  of <var>value</var>, unless it equals <code>xsd:string</code> which is ignored."
                 }
               ]
-            },
-            {
-              "html": "Otherwise, if <var>value</var> is a\n              <a data-cite=\"RDF12-CONCEPTS#dfn-language-tagged-string\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-language-tagged-string\">language-tagged string</a>\n              add an <a data-cite=\"INFRA#map-entry\" data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-entry\">entry</a> <code>@language</code> to <var>result</var> and set its value to the\n              <a data-cite=\"RDF12-CONCEPTS#dfn-language-tag\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-language-tag\">language tag</a> of <var>value</var>."
-            },
-            {
-              "html": "Otherwise, set <var>type</var> to the\n              <a data-cite=\"RDF12-CONCEPTS#dfn-datatype-iri\" data-link-type=\"dfn\" href=\"https://www.w3.org/TR/rdf12-concepts/#dfn-datatype-iri\">datatype <abbr title=\"Internationalized Resource Identifier\">IRI</abbr></a>\n              of <var>value</var>, unless it equals <code>xsd:string</code> which is ignored."
             },
             {
               "html": "Add an <a data-cite=\"INFRA#map-entry\" data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#map-entry\">entry</a> <code>@value</code> to <var>result</var> whose value\n              is set to <var>converted value</var>."
