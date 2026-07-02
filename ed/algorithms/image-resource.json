@@ -113,9 +113,12 @@
     {
       "name": "fetching an image resource",
       "href": "https://w3c.github.io/image-resource/#dfn-fetching-an-image-resource",
-      "html": "The steps for <dfn data-export=\"\" id=\"dfn-fetching-an-image-resource\" tabindex=\"0\" aria-haspopup=\"dialog\" data-dfn-type=\"dfn\">fetching an image resource</dfn> are\n        given by the following algorithm. The algorithm takes an <a data-link-type=\"dfn|abstract-op\" href=\"https://w3c.github.io/image-resource/#dfn-image-resource\" class=\"internalDFN\" id=\"ref-for-dfn-image-resource-7\">image resource</a> <var>image</var>, and an optional <a data-link-type=\"dfn\" data-cite=\"fetch\" data-cite-path=\"\" data-cite-frag=\"concept-request\" href=\"https://fetch.spec.whatwg.org/#concept-request\">Request</a> <var>request</var>. It returns a\n        <a data-link-type=\"dfn\" data-cite=\"fetch\" data-cite-path=\"\" data-cite-frag=\"concept-response\" href=\"https://fetch.spec.whatwg.org/#concept-response\">Response</a>.",
-      "rationale": "if",
+      "html": "The steps for <dfn data-export=\"\" id=\"dfn-fetching-an-image-resource\" tabindex=\"0\" aria-haspopup=\"dialog\" data-dfn-type=\"dfn\">fetching an image resource</dfn> are\n        given by the following algorithm. The algorithm takes an <a data-link-type=\"dfn|abstract-op\" href=\"https://w3c.github.io/image-resource/#dfn-image-resource\" class=\"internalDFN\" id=\"ref-for-dfn-image-resource-7\">image resource</a> <var>image</var>, an optional <a data-link-type=\"dfn\" data-cite=\"fetch\" data-cite-path=\"\" data-cite-frag=\"concept-request\" href=\"https://fetch.spec.whatwg.org/#concept-request\">Request</a> <var>request</var>, and an optional\n        <a data-link-type=\"dfn\" data-link-for=\"request\" data-xref-for=\"request\" data-cite=\"fetch\" data-cite-path=\"\" data-cite-frag=\"concept-request-mode\" href=\"https://fetch.spec.whatwg.org/#concept-request-mode\">Mode</a> <var>mode</var> (default \"<code>cors</code>\"). It returns a\n        <a data-link-type=\"dfn\" data-cite=\"fetch\" data-cite-path=\"\" data-cite-frag=\"concept-response\" href=\"https://fetch.spec.whatwg.org/#concept-response\">Response</a>.",
+      "rationale": "assert",
       "steps": [
+        {
+          "html": "<a data-link-type=\"dfn\" data-cite=\"infra\" data-cite-path=\"\" data-cite-frag=\"assert\" href=\"https://infra.spec.whatwg.org/#assert\">Assert</a>: <var>mode</var> is \"<code>cors</code>\" or \"<code>same-origin</code>\"."
+        },
         {
           "html": "If <var>request</var> is <code>undefined</code>:",
           "rationale": "set",
@@ -135,7 +138,10 @@
           ]
         },
         {
-          "html": "If <var>request</var>'s <a data-link-type=\"dfn\" data-link-for=\"request\" data-xref-for=\"request\" data-cite=\"fetch\" data-cite-path=\"\" data-cite-frag=\"concept-request-client\" href=\"https://fetch.spec.whatwg.org/#concept-request-client\">Client</a> is null, throw a <a data-xref-type=\"_IDL_\" data-link-type=\"exception\" data-lt=\"TypeError\" data-cite=\"webidl\" data-cite-path=\"\" data-cite-frag=\"exceptiondef-typeerror\" href=\"https://webidl.spec.whatwg.org/#exceptiondef-typeerror\"><code>TypeError</code></a>."
+          "html": "<a data-link-type=\"dfn\" data-cite=\"infra\" data-cite-path=\"\" data-cite-frag=\"assert\" href=\"https://infra.spec.whatwg.org/#assert\">Assert</a>: <var>request</var>'s <a data-link-type=\"dfn\" data-link-for=\"request\" data-xref-for=\"request\" data-cite=\"fetch\" data-cite-path=\"\" data-cite-frag=\"concept-request-client\" href=\"https://fetch.spec.whatwg.org/#concept-request-client\">Client</a> is not null."
+        },
+        {
+          "html": "Set <var>request</var>'s <a data-link-type=\"dfn\" data-link-for=\"request\" data-xref-for=\"request\" data-cite=\"fetch\" data-cite-path=\"\" data-cite-frag=\"concept-request-mode\" href=\"https://fetch.spec.whatwg.org/#concept-request-mode\">Mode</a> to <var>mode</var>."
         },
         {
           "html": "Perform a <a data-link-type=\"dfn\" data-cite=\"fetch\" data-cite-path=\"\" data-cite-frag=\"concept-fetch\" href=\"https://fetch.spec.whatwg.org/#concept-fetch\">fetch</a> using <var>request</var> and return the <a data-link-type=\"dfn\" data-cite=\"fetch\" data-cite-path=\"\" data-cite-frag=\"concept-response\" href=\"https://fetch.spec.whatwg.org/#concept-response\">Response</a>."

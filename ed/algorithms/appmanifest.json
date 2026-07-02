@@ -669,7 +669,7 @@
     {
       "name": "create a new application context",
       "href": "https://w3c.github.io/manifest/#dfn-create-a-new-application-context",
-      "html": "The steps to <dfn data-export=\"\" id=\"dfn-create-a-new-application-context\" tabindex=\"0\" aria-haspopup=\"dialog\" data-dfn-type=\"dfn\">create a new application\n          context</dfn> is given by the following algorithm. The algorithm\n          takes a <a data-link-type=\"dfn|abstract-op\" data-link-for=\"Document\" data-xref-for=\"Document\" href=\"https://w3c.github.io/manifest/#dfn-processed-manifest\" class=\"internalDFN\" id=\"ref-for-dfn-processed-manifest-5\">processed manifest</a> <var data-type=\"processed\n          manifest\">manifest</var>, an optional <a data-link-type=\"dfn\" data-cite=\"url\" data-cite-path=\"\" data-cite-frag=\"concept-url\" href=\"https://url.spec.whatwg.org/#concept-url\" id=\"ref-for-index-term-url-14\">URL</a> <var data-type=\"URL\">target URL</var>, an optional <a data-link-type=\"dfn\" data-cite=\"html\" data-cite-path=\"/browsing-the-web.html\" data-cite-frag=\"post-resource\" href=\"https://html.spec.whatwg.org/multipage/browsing-the-web.html#post-resource\" id=\"ref-for-index-term-post-resource-2\">POST resource</a> <var>POST resource</var> and returns an <a data-link-type=\"dfn|abstract-op\" href=\"https://w3c.github.io/manifest/#dfn-application-context\" class=\"internalDFN\" id=\"ref-for-dfn-application-context-10\">application context</a>.",
+      "html": "The steps to <dfn data-export=\"\" id=\"dfn-create-a-new-application-context\" tabindex=\"0\" aria-haspopup=\"dialog\" data-dfn-type=\"dfn\">create a new application\n          context</dfn> is given by the following algorithm. The algorithm\n          takes a <a data-link-type=\"dfn|abstract-op\" data-link-for=\"Document\" data-xref-for=\"Document\" href=\"https://w3c.github.io/manifest/#dfn-processed-manifest\" class=\"internalDFN\" id=\"ref-for-dfn-processed-manifest-5\">processed manifest</a> <var data-type=\"processed\n          manifest\">manifest</var>, an optional <a data-link-type=\"dfn\" data-cite=\"url\" data-cite-path=\"\" data-cite-frag=\"concept-url\" href=\"https://url.spec.whatwg.org/#concept-url\" id=\"ref-for-index-term-url-14\">URL</a> <var data-type=\"URL\">target URL</var>, an optional <a data-link-type=\"dfn\" data-cite=\"html\" data-cite-path=\"/browsing-the-web.html\" data-cite-frag=\"post-resource\" href=\"https://html.spec.whatwg.org/multipage/browsing-the-web.html#post-resource\" id=\"ref-for-index-term-post-resource-2\">POST resource</a> <var>POST resource</var> and returns an <a data-link-type=\"dfn|abstract-op\" href=\"https://w3c.github.io/manifest/#dfn-application-context\" class=\"internalDFN\" id=\"ref-for-dfn-application-context-12\">application context</a>.",
       "rationale": ".algorithm",
       "steps": [
         {
@@ -679,13 +679,10 @@
           "html": "Let <var>traversable</var> be the result of running the steps to <a data-link-type=\"dfn\" data-cite=\"html\" data-cite-path=\"/document-sequences.html\" data-cite-frag=\"create-a-fresh-top-level-traversable\" href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#create-a-fresh-top-level-traversable\" id=\"ref-for-index-term-create-a-fresh-top-level-traversable-1\">create a fresh top-level traversable</a> with <var data-type=\"URL\">target URL</var> and <var>POST\n          resource</var>."
         },
         {
-          "html": "Let <var>browsing context</var> be the <var>traversable</var>'s <a data-cite=\"html#nav-bc\" href=\"https://html.spec.whatwg.org/multipage/#nav-bc\" id=\"ref-for-index-term-active-browsing-context-1\">active browsing context</a>."
+          "html": "<a data-link-type=\"dfn|abstract-op\" href=\"https://w3c.github.io/manifest/#dfn-apply\" class=\"internalDFN\" id=\"ref-for-dfn-apply-15\">Apply</a> <var data-type=\"processed\n          manifest\">manifest</var> to <var>traversable</var>."
         },
         {
-          "html": "<a data-link-type=\"dfn|abstract-op\" href=\"https://w3c.github.io/manifest/#dfn-apply\" class=\"internalDFN\" id=\"ref-for-dfn-apply-15\">Apply</a> <var data-type=\"processed\n          manifest\">manifest</var> to <var>browsing context</var>."
-        },
-        {
-          "html": "Return <var>browsing context</var>."
+          "html": "Return <var>traversable</var>."
         }
       ]
     },
