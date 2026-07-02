@@ -50,6 +50,7 @@
       "https://github.com/w3c/pointerevents/commits": {},
       "https://github.com/w3c/pointerevents/issues/100": {},
       "https://github.com/w3c/pointerevents/issues/285": {},
+      "https://github.com/w3c/pointerevents/issues/646": {},
       "https://github.com/w3c/pointerevents/pull/495": {},
       "https://html.spec.whatwg.org/multipage/": {
         "anchors": [
@@ -70,8 +71,8 @@
       "https://w3c.github.io/touch-events/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://www.rfc-editor.org/info/bcp14": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/2024/WD-uievents-20240907/": {
         "anchors": [
