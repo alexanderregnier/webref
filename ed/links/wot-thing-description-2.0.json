@@ -199,6 +199,7 @@
       },
       "https://www.w3.org/TR/i18n-glossary/": {
         "anchors": [
+          "dfn-base-direction",
           "dfn-first-strong-detection"
         ]
       }
