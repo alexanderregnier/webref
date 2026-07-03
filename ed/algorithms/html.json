@@ -24089,13 +24089,13 @@
               "rationale": "if",
               "steps": [
                 {
-                  "html": "<p>If <var>type</var> is \"<code>method</code>\" and <var>e</var> has neither\n       [[NeedsGet]] nor [[NeedsSet]], then return.</p>"
+                  "html": "<p>If <var>type</var> is \"<code>method</code>\" and <var>e</var> has neither\n       [[NeedsGetter]] nor [[NeedsSetter]], then return.</p>"
                 },
                 {
-                  "html": "<p>Otherwise, if <var>type</var> is \"<code>getter</code>\" and\n       <var>e</var>.[[NeedsGet]] is true, then return.</p>"
+                  "html": "<p>Otherwise, if <var>type</var> is \"<code>getter</code>\" and\n       <var>e</var>.[[NeedsGetter]] is true, then return.</p>"
                 },
                 {
-                  "html": "<p>Otherwise, if <var>type</var> is \"<code>setter</code>\" and\n       <var>e</var>.[[NeedsSet]] is true, then return.</p>"
+                  "html": "<p>Otherwise, if <var>type</var> is \"<code>setter</code>\" and\n       <var>e</var>.[[NeedsSetter]] is true, then return.</p>"
                 }
               ]
             }
@@ -24115,10 +24115,10 @@
           "html": "<p><a id=\"crossoriginproperties-(-o-):assert\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>O</var> is a <code id=\"crossoriginproperties-(-o-):location\"><a href=\"https://html.spec.whatwg.org/multipage/nav-history-apis.html#location\">Location</a></code> or <code id=\"crossoriginproperties-(-o-):window\"><a href=\"https://html.spec.whatwg.org/multipage/nav-history-apis.html#window\">Window</a></code>\n   object.</p>"
         },
         {
-          "html": "<p>If <var>O</var> is a <code id=\"crossoriginproperties-(-o-):location-2\"><a href=\"https://html.spec.whatwg.org/multipage/nav-history-apis.html#location\">Location</a></code> object, then return «\n   { [[Property]]: \"<code>href</code>\", [[NeedsGet]]: false, [[NeedsSet]]: true },\n   { [[Property]]: \"<code>replace</code>\" } ».</p>"
+          "html": "<p>If <var>O</var> is a <code id=\"crossoriginproperties-(-o-):location-2\"><a href=\"https://html.spec.whatwg.org/multipage/nav-history-apis.html#location\">Location</a></code> object, then return «\n   { [[Property]]: \"<code>href</code>\", [[NeedsGetter]]: false, [[NeedsSetter]]: true },\n   { [[Property]]: \"<code>replace</code>\" } ».</p>"
         },
         {
-          "html": "<p>Return «\n   { [[Property]]: \"<code>window</code>\", [[NeedsGet]]: true, [[NeedsSet]]: false },\n   { [[Property]]: \"<code>self</code>\", [[NeedsGet]]: true, [[NeedsSet]]: false },\n   { [[Property]]: \"<code>location</code>\", [[NeedsGet]]: true, [[NeedsSet]]: true },\n   { [[Property]]: \"<code>close</code>\" },\n   { [[Property]]: \"<code>closed</code>\", [[NeedsGet]]: true, [[NeedsSet]]: false },\n   { [[Property]]: \"<code>focus</code>\" },\n   { [[Property]]: \"<code>blur</code>\" },\n   { [[Property]]: \"<code>frames</code>\", [[NeedsGet]]: true, [[NeedsSet]]: false },\n   { [[Property]]: \"<code>length</code>\", [[NeedsGet]]: true, [[NeedsSet]]: false },\n   { [[Property]]: \"<code>top</code>\", [[NeedsGet]]: true, [[NeedsSet]]: false },\n   { [[Property]]: \"<code>opener</code>\", [[NeedsGet]]: true, [[NeedsSet]]: false },\n   { [[Property]]: \"<code>parent</code>\", [[NeedsGet]]: true, [[NeedsSet]]: false },\n   { [[Property]]: \"<code>postMessage</code>\" } ».</p>"
+          "html": "<p>Return «\n   { [[Property]]: \"<code>window</code>\", [[NeedsGetter]]: true, [[NeedsSetter]]: false },\n   { [[Property]]: \"<code>self</code>\", [[NeedsGetter]]: true, [[NeedsSetter]]: false },\n   { [[Property]]: \"<code>location</code>\", [[NeedsGetter]]: true, [[NeedsSetter]]: true },\n   { [[Property]]: \"<code>close</code>\" },\n   { [[Property]]: \"<code>closed</code>\", [[NeedsGetter]]: true, [[NeedsSetter]]: false },\n   { [[Property]]: \"<code>focus</code>\" },\n   { [[Property]]: \"<code>blur</code>\" },\n   { [[Property]]: \"<code>frames</code>\", [[NeedsGetter]]: true, [[NeedsSetter]]: false },\n   { [[Property]]: \"<code>length</code>\", [[NeedsGetter]]: true, [[NeedsSetter]]: false },\n   { [[Property]]: \"<code>top</code>\", [[NeedsGetter]]: true, [[NeedsSetter]]: false },\n   { [[Property]]: \"<code>opener</code>\", [[NeedsGetter]]: true, [[NeedsSetter]]: false },\n   { [[Property]]: \"<code>parent</code>\", [[NeedsGetter]]: true, [[NeedsSetter]]: false },\n   { [[Property]]: \"<code>postMessage</code>\" } ».</p>"
         }
       ]
     },
@@ -24171,7 +24171,7 @@
                   "html": "<p>Let <var>crossOriginDesc</var> be undefined.</p>"
                 },
                 {
-                  "html": "If <var>e</var>.[[NeedsGet]] and <var>e</var>.[[NeedsSet]] are absent:",
+                  "html": "If <var>e</var>.[[NeedsGetter]] and <var>e</var>.[[NeedsSetter]] are absent:",
                   "rationale": "let",
                   "steps": [
                     {
@@ -24190,19 +24190,19 @@
                   "rationale": "let",
                   "steps": [
                     {
-                      "html": "<p>Let <var>crossOriginGet</var> be undefined.</p>"
+                      "html": "<p>Let <var>crossOriginGetter</var> be undefined.</p>"
                     },
                     {
-                      "html": "<p>If <var>e</var>.[[NeedsGet]] is true, then set <var>crossOriginGet</var> to an\n         anonymous built-in function, created in the <a id=\"crossorigingetownpropertyhelper-(-o,-p-):current-realm-2\" href=\"https://tc39.es/ecma262/#current-realm\" data-x-internal=\"current-realm\">current realm</a>, that performs the\n         same steps as the getter of the IDL attribute <var>P</var> on object\n         <var>O</var>.</p>"
+                      "html": "<p>If <var>e</var>.[[NeedsGetter]] is true, then set <var>crossOriginGetter</var> to an\n         anonymous built-in function, created in the <a id=\"crossorigingetownpropertyhelper-(-o,-p-):current-realm-2\" href=\"https://tc39.es/ecma262/#current-realm\" data-x-internal=\"current-realm\">current realm</a>, that performs the\n         same steps as the getter of the IDL attribute <var>P</var> on object\n         <var>O</var>.</p>"
                     },
                     {
-                      "html": "<p>Let <var>crossOriginSet</var> be undefined.</p>"
+                      "html": "<p>Let <var>crossOriginSetter</var> be undefined.</p>"
                     },
                     {
-                      "html": "<p>If <var>e</var>.[[NeedsSet]] is true, then set <var>crossOriginSet</var> to an\n         anonymous built-in function, created in the <a id=\"crossorigingetownpropertyhelper-(-o,-p-):current-realm-3\" href=\"https://tc39.es/ecma262/#current-realm\" data-x-internal=\"current-realm\">current realm</a>, that performs the\n         same steps as the setter of the IDL attribute <var>P</var> on object\n         <var>O</var>.</p>"
+                      "html": "<p>If <var>e</var>.[[NeedsSetter]] is true, then set <var>crossOriginSetter</var> to an\n         anonymous built-in function, created in the <a id=\"crossorigingetownpropertyhelper-(-o,-p-):current-realm-3\" href=\"https://tc39.es/ecma262/#current-realm\" data-x-internal=\"current-realm\">current realm</a>, that performs the\n         same steps as the setter of the IDL attribute <var>P</var> on object\n         <var>O</var>.</p>"
                     },
                     {
-                      "html": "<p>Set <var>crossOriginDesc</var> to <a id=\"crossorigingetownpropertyhelper-(-o,-p-):propertydescriptor-2\" href=\"https://tc39.es/ecma262/#sec-property-descriptor-specification-type\" data-x-internal=\"propertydescriptor\">PropertyDescriptor</a> {\n         [[Get]]: <var>crossOriginGet</var>,\n         [[Set]]: <var>crossOriginSet</var>,\n         [[Enumerable]]: false,\n         [[Configurable]]: true }.</p>"
+                      "html": "<p>Set <var>crossOriginDesc</var> to <a id=\"crossorigingetownpropertyhelper-(-o,-p-):propertydescriptor-2\" href=\"https://tc39.es/ecma262/#sec-property-descriptor-specification-type\" data-x-internal=\"propertydescriptor\">PropertyDescriptor</a> {\n         [[Getter]]: <var>crossOriginGetter</var>,\n         [[Setter]]: <var>crossOriginSetter</var>,\n         [[Enumerable]]: false,\n         [[Configurable]]: true }.</p>"
                     }
                   ]
                 },
@@ -24239,7 +24239,7 @@
           "html": "<p><a id=\"crossoriginget-(-o,-p,-receiver-):assert-2\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <a id=\"crossoriginget-(-o,-p,-receiver-):isaccessordescriptor\" href=\"https://tc39.es/ecma262/#sec-isaccessordescriptor\" data-x-internal=\"isaccessordescriptor\">IsAccessorDescriptor</a>(<var>desc</var>) is true.</p>"
         },
         {
-          "html": "<p>Let <var>getter</var> be <var>desc</var>.[[Get]].</p>"
+          "html": "<p>Let <var>getter</var> be <var>desc</var>.[[Getter]].</p>"
         },
         {
           "html": "<p>If <var>getter</var> is undefined, then throw a <a id=\"crossoriginget-(-o,-p,-receiver-):securityerror\" href=\"https://webidl.spec.whatwg.org/#securityerror\" data-x-internal=\"securityerror\">\"<code>SecurityError</code>\"</a>\n   <code id=\"crossoriginget-(-o,-p,-receiver-):domexception\"><a data-x-internal=\"domexception\" href=\"https://webidl.spec.whatwg.org/#dfn-DOMException\">DOMException</a></code>.</p>"
@@ -24261,11 +24261,11 @@
           "html": "<p><a id=\"crossoriginset-(-o,-p,-v,-receiver-):assert\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>desc</var> is not undefined.</p>"
         },
         {
-          "html": "If <var>desc</var>.[[Set]] is present and its value is not undefined:",
+          "html": "If <var>desc</var>.[[Setter]] is present and its value is not undefined:",
           "rationale": "perform",
           "steps": [
             {
-              "html": "<p>Perform ? <a id=\"crossoriginset-(-o,-p,-v,-receiver-):call\" href=\"https://tc39.es/ecma262/#sec-call\" data-x-internal=\"call\">Call</a>(<var>desc</var>.[[Set]], <var>Receiver</var>,\n     « <var>V</var> »).</p>"
+              "html": "<p>Perform ? <a id=\"crossoriginset-(-o,-p,-v,-receiver-):call\" href=\"https://tc39.es/ecma262/#sec-call\" data-x-internal=\"call\">Call</a>(<var>desc</var>.[[Setter]], <var>Receiver</var>,\n     « <var>V</var> »).</p>"
             },
             {
               "html": "<p>Return true.</p>"
