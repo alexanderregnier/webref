@@ -17786,6 +17786,26 @@
       "links": []
     },
     {
+      "id": "img-dimensions",
+      "href": "https://html.spec.whatwg.org/multipage/embedded-content.html#img-dimensions",
+      "linkingText": [
+        "dimensions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-img-element",
+        "href": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element",
+        "title": "The img element",
+        "number": "4.8.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "dom-img-width",
       "href": "https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-width",
       "linkingText": [

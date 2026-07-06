@@ -7500,16 +7500,33 @@
       ]
     },
     {
+      "name": "dimensions",
+      "href": "https://html.spec.whatwg.org/multipage/embedded-content.html#img-dimensions",
+      "html": "To determine the <dfn id=\"img-dimensions\">dimensions</dfn> of an <code id=\"the-img-element:the-img-element-18\"><a href=\"https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element\">img</a></code> element\n  <var>image</var>:",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "<p>If <var>image</var> is <a id=\"the-img-element:being-rendered\" href=\"https://html.spec.whatwg.org/multipage/rendering.html#being-rendered\">being rendered</a>, then return its rendered width and\n   height, in <a href=\"https://drafts.csswg.org/css-values/#px\" id=\"the-img-element:'px'\" data-x-internal=\"'px'\">CSS pixels</a>. <a href=\"https://html.spec.whatwg.org/multipage/references.html#refsCSS\">[CSS]</a></p>"
+        },
+        {
+          "html": "<p>If <var>image</var> is <i id=\"the-img-element:img-available-5\"><a href=\"https://html.spec.whatwg.org/multipage/images.html#img-available\">available</a></i> and has\n   <a id=\"the-img-element:density-corrected-intrinsic-width-and-height-2\" href=\"https://html.spec.whatwg.org/multipage/images.html#density-corrected-intrinsic-width-and-height\">density-corrected natural width and height</a>, then return its\n   <a id=\"the-img-element:density-corrected-intrinsic-width-and-height-3\" href=\"https://html.spec.whatwg.org/multipage/images.html#density-corrected-intrinsic-width-and-height\">density-corrected natural width and height</a>, in <a href=\"https://drafts.csswg.org/css-values/#px\" id=\"the-img-element:'px'-2\" data-x-internal=\"'px'\">CSS\n   pixels</a>.</p>"
+        },
+        {
+          "html": "<p>Return a width of 0 and a height of 0.</p>"
+        }
+      ]
+    },
+    {
       "name": "HTMLImageElement/naturalWidth",
       "href": "https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-naturalwidth",
       "html": "The <dfn data-dfn-for=\"HTMLImageElement\" id=\"dom-img-naturalwidth\" data-dfn-type=\"attribute\"><code>naturalWidth</code></dfn> and <dfn data-dfn-for=\"HTMLImageElement\" id=\"dom-img-naturalheight\" data-dfn-type=\"attribute\"><code>naturalHeight</code></dfn> getter\n  steps are:",
       "rationale": "if",
       "steps": [
         {
-          "html": "<p>If the image is not <i id=\"the-img-element:img-available-7\"><a href=\"https://html.spec.whatwg.org/multipage/images.html#img-available\">available</a></i>, then return 0.</p>"
+          "html": "<p>If the image is not <i id=\"the-img-element:img-available-6\"><a href=\"https://html.spec.whatwg.org/multipage/images.html#img-available\">available</a></i>, then return 0.</p>"
         },
         {
-          "html": "<p>Return the respective component of the image's <a id=\"the-img-element:density-corrected-intrinsic-width-and-height-5\" href=\"https://html.spec.whatwg.org/multipage/images.html#density-corrected-intrinsic-width-and-height\">density-corrected natural width and\n   height</a>, in <a href=\"https://drafts.csswg.org/css-values/#px\" id=\"the-img-element:'px'-3\" data-x-internal=\"'px'\">CSS pixels</a>. <a href=\"https://html.spec.whatwg.org/multipage/references.html#refsCSS\">[CSS]</a></p>"
+          "html": "<p>Return the respective component of the image's <a id=\"the-img-element:density-corrected-intrinsic-width-and-height-4\" href=\"https://html.spec.whatwg.org/multipage/images.html#density-corrected-intrinsic-width-and-height\">density-corrected natural width and\n   height</a>, in <a href=\"https://drafts.csswg.org/css-values/#px\" id=\"the-img-element:'px'-3\" data-x-internal=\"'px'\">CSS pixels</a>. <a href=\"https://html.spec.whatwg.org/multipage/references.html#refsCSS\">[CSS]</a></p>"
         }
       ]
     },
@@ -7520,7 +7537,7 @@
       "rationale": "if",
       "steps": [
         {
-          "html": "<p>If any of the following are true:</p>\n\n    <ul><li><p>both the <code id=\"the-img-element:attr-img-src-11\"><a href=\"https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-src\">src</a></code> attribute and the <code id=\"the-img-element:attr-img-srcset-7\"><a href=\"https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-srcset\">srcset</a></code> attribute are omitted;</p></li><li><p>the <code id=\"the-img-element:attr-img-srcset-8\"><a href=\"https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-srcset\">srcset</a></code> attribute is omitted and the <code id=\"the-img-element:attr-img-src-12\"><a href=\"https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-src\">src</a></code> attribute's value is the empty string;</p></li><li><p>the <code id=\"the-img-element:the-img-element-18\"><a href=\"https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element\">img</a></code> element's <a id=\"the-img-element:current-request\" href=\"https://html.spec.whatwg.org/multipage/images.html#current-request\">current request</a>'s <a href=\"https://html.spec.whatwg.org/multipage/images.html#img-req-state\" id=\"the-img-element:img-req-state\">state</a> is <a href=\"https://html.spec.whatwg.org/multipage/images.html#img-all\" id=\"the-img-element:img-all\">completely available</a> and\n     its <a id=\"the-img-element:pending-request\" href=\"https://html.spec.whatwg.org/multipage/images.html#pending-request\">pending request</a> is null; or</p></li><li><p>the <code id=\"the-img-element:the-img-element-19\"><a href=\"https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element\">img</a></code> element's <a id=\"the-img-element:current-request-2\" href=\"https://html.spec.whatwg.org/multipage/images.html#current-request\">current request</a>'s <a href=\"https://html.spec.whatwg.org/multipage/images.html#img-req-state\" id=\"the-img-element:img-req-state-2\">state</a> is <a href=\"https://html.spec.whatwg.org/multipage/images.html#img-error\" id=\"the-img-element:img-error\">broken</a> and its\n     <a id=\"the-img-element:pending-request-2\" href=\"https://html.spec.whatwg.org/multipage/images.html#pending-request\">pending request</a> is null,</p></li></ul>\n\n    <p>then return true.</p>"
+          "html": "<p>If any of the following are true:</p>\n\n    <ul><li><p>both the <code id=\"the-img-element:attr-img-src-11\"><a href=\"https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-src\">src</a></code> attribute and the <code id=\"the-img-element:attr-img-srcset-7\"><a href=\"https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-srcset\">srcset</a></code> attribute are omitted;</p></li><li><p>the <code id=\"the-img-element:attr-img-srcset-8\"><a href=\"https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-srcset\">srcset</a></code> attribute is omitted and the <code id=\"the-img-element:attr-img-src-12\"><a href=\"https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-src\">src</a></code> attribute's value is the empty string;</p></li><li><p>the <code id=\"the-img-element:the-img-element-19\"><a href=\"https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element\">img</a></code> element's <a id=\"the-img-element:current-request\" href=\"https://html.spec.whatwg.org/multipage/images.html#current-request\">current request</a>'s <a href=\"https://html.spec.whatwg.org/multipage/images.html#img-req-state\" id=\"the-img-element:img-req-state\">state</a> is <a href=\"https://html.spec.whatwg.org/multipage/images.html#img-all\" id=\"the-img-element:img-all\">completely available</a> and\n     its <a id=\"the-img-element:pending-request\" href=\"https://html.spec.whatwg.org/multipage/images.html#pending-request\">pending request</a> is null; or</p></li><li><p>the <code id=\"the-img-element:the-img-element-20\"><a href=\"https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element\">img</a></code> element's <a id=\"the-img-element:current-request-2\" href=\"https://html.spec.whatwg.org/multipage/images.html#current-request\">current request</a>'s <a href=\"https://html.spec.whatwg.org/multipage/images.html#img-req-state\" id=\"the-img-element:img-req-state-2\">state</a> is <a href=\"https://html.spec.whatwg.org/multipage/images.html#img-error\" id=\"the-img-element:img-error\">broken</a> and its\n     <a id=\"the-img-element:pending-request-2\" href=\"https://html.spec.whatwg.org/multipage/images.html#pending-request\">pending request</a> is null,</p></li></ul>\n\n    <p>then return true.</p>"
         },
         {
           "html": "<p>Return false.</p>"
@@ -7541,10 +7558,10 @@
           "rationale": "let",
           "steps": [
             {
-              "html": "<p>Let <var>global</var> be <a id=\"the-img-element:this\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"the-img-element:concept-relevant-global\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global\">relevant global\n     object</a>.</p>"
+              "html": "<p>Let <var>global</var> be <a id=\"the-img-element:this-3\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"the-img-element:concept-relevant-global\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global\">relevant global\n     object</a>.</p>"
             },
             {
-              "html": "<p>If any of the following are true:</p>\n\n      <ul><li><p><a id=\"the-img-element:this-2\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"the-img-element:node-document\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a> is not <a id=\"the-img-element:fully-active\" href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active\">fully active</a>;\n       or</p></li><li><p><a id=\"the-img-element:this-3\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"the-img-element:current-request-4\" href=\"https://html.spec.whatwg.org/multipage/images.html#current-request\">current request</a>'s <a href=\"https://html.spec.whatwg.org/multipage/images.html#img-req-state\" id=\"the-img-element:img-req-state-3\">state</a> is <a href=\"https://html.spec.whatwg.org/multipage/images.html#img-error\" id=\"the-img-element:img-error-2\">broken</a>,</p></li></ul>\n\n      <p>then reject <var>promise</var> with an <a id=\"the-img-element:encodingerror-2\" href=\"https://webidl.spec.whatwg.org/#encodingerror\" data-x-internal=\"encodingerror\">\"<code>EncodingError</code>\"</a>\n      <code id=\"the-img-element:domexception-2\"><a data-x-internal=\"domexception\" href=\"https://webidl.spec.whatwg.org/#dfn-DOMException\">DOMException</a></code>.</p>"
+              "html": "<p>If any of the following are true:</p>\n\n      <ul><li><p><a id=\"the-img-element:this-4\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"the-img-element:node-document\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a> is not <a id=\"the-img-element:fully-active\" href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#fully-active\">fully active</a>;\n       or</p></li><li><p><a id=\"the-img-element:this-5\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"the-img-element:current-request-4\" href=\"https://html.spec.whatwg.org/multipage/images.html#current-request\">current request</a>'s <a href=\"https://html.spec.whatwg.org/multipage/images.html#img-req-state\" id=\"the-img-element:img-req-state-3\">state</a> is <a href=\"https://html.spec.whatwg.org/multipage/images.html#img-error\" id=\"the-img-element:img-error-2\">broken</a>,</p></li></ul>\n\n      <p>then reject <var>promise</var> with an <a id=\"the-img-element:encodingerror-2\" href=\"https://webidl.spec.whatwg.org/#encodingerror\" data-x-internal=\"encodingerror\">\"<code>EncodingError</code>\"</a>\n      <code id=\"the-img-element:domexception-2\"><a data-x-internal=\"domexception\" href=\"https://webidl.spec.whatwg.org/#dfn-DOMException\">DOMException</a></code>.</p>"
             },
             {
               "html": "Otherwise, <a id=\"the-img-element:in-parallel-2\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\">in parallel</a>, wait for one of the following cases to occur, and\n      perform the corresponding actions:",
@@ -9236,6 +9253,34 @@
               "html": "The <code id=\"the-video-element:the-video-element-21\"><a href=\"https://html.spec.whatwg.org/multipage/media.html#the-video-element\">video</a></code> element <a id=\"the-video-element:represents-5\" href=\"https://html.spec.whatwg.org/multipage/dom.html#represents\">represents</a> the frame of video at the continuously\n   increasing <a href=\"https://html.spec.whatwg.org/multipage/media.html#current-playback-position\" id=\"the-video-element:current-playback-position-4\">\"current\" position</a>. When the\n   <a href=\"https://html.spec.whatwg.org/multipage/media.html#current-playback-position\" id=\"the-video-element:current-playback-position-5\">current playback position</a> changes such that the last frame rendered is no longer the\n   frame corresponding to the <a href=\"https://html.spec.whatwg.org/multipage/media.html#current-playback-position\" id=\"the-video-element:current-playback-position-6\">current playback position</a> in the video, the new frame\n   must be rendered."
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "HTMLVideoElement/videoWidth",
+      "href": "https://html.spec.whatwg.org/multipage/media.html#dom-video-videowidth",
+      "html": "The <dfn data-dfn-for=\"HTMLVideoElement\" id=\"dom-video-videowidth\" data-dfn-type=\"attribute\"><code>videoWidth</code></dfn> getter steps are:",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "<p>If <a id=\"the-video-element:this\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <code id=\"the-video-element:dom-media-readystate-3\"><a href=\"https://html.spec.whatwg.org/multipage/media.html#dom-media-readystate\">readyState</a></code> attribute is\n   <code id=\"the-video-element:dom-media-have_nothing-2\"><a href=\"https://html.spec.whatwg.org/multipage/media.html#dom-media-have_nothing\">HAVE_NOTHING</a></code>, then return 0.</p>"
+        },
+        {
+          "html": "<p>Return the <a href=\"https://html.spec.whatwg.org/multipage/media.html#concept-video-intrinsic-width\" id=\"the-video-element:concept-video-intrinsic-width-2\">natural width</a> of the video in\n   <a href=\"https://drafts.csswg.org/css-values/#px\" id=\"the-video-element:'px'-2\" data-x-internal=\"'px'\">CSS pixels</a>.</p>"
+        }
+      ]
+    },
+    {
+      "name": "HTMLVideoElement/videoHeight",
+      "href": "https://html.spec.whatwg.org/multipage/media.html#dom-video-videoheight",
+      "html": "The <dfn data-dfn-for=\"HTMLVideoElement\" id=\"dom-video-videoheight\" data-dfn-type=\"attribute\"><code>videoHeight</code></dfn> getter steps are:",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "<p>If <a id=\"the-video-element:this-2\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <code id=\"the-video-element:dom-media-readystate-4\"><a href=\"https://html.spec.whatwg.org/multipage/media.html#dom-media-readystate\">readyState</a></code> attribute is\n   <code id=\"the-video-element:dom-media-have_nothing-3\"><a href=\"https://html.spec.whatwg.org/multipage/media.html#dom-media-have_nothing\">HAVE_NOTHING</a></code>, then return 0.</p>"
+        },
+        {
+          "html": "<p>Return the <a href=\"https://html.spec.whatwg.org/multipage/media.html#concept-video-intrinsic-height\" id=\"the-video-element:concept-video-intrinsic-height-2\">natural height</a> of the video\n   in <a href=\"https://drafts.csswg.org/css-values/#px\" id=\"the-video-element:'px'-3\" data-x-internal=\"'px'\">CSS pixels</a>.</p>"
         }
       ]
     },

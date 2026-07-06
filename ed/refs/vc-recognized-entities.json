@@ -34,6 +34,11 @@
         "url": "https://www.w3.org/TR/vc-data-model-2.0/"
       }
     ],
-    "informative": []
+    "informative": [
+      {
+        "name": "RFC2397",
+        "url": "https://www.rfc-editor.org/info/rfc2397/"
+      }
+    ]
   }
 }
