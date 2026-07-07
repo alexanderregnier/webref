@@ -7634,66 +7634,6 @@
       "links": []
     },
     {
-      "id": "select-element-inner-content-elements-2",
-      "href": "https://html.spec.whatwg.org/multipage/dom.html#select-element-inner-content-elements-2",
-      "linkingText": [
-        "select element inner content elements"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "select-element-inner-content-elements",
-        "href": "https://html.spec.whatwg.org/multipage/dom.html#select-element-inner-content-elements",
-        "title": "select element inner content elements",
-        "number": "3.2.5.2.10"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "optgroup-element-inner-content-elements-2",
-      "href": "https://html.spec.whatwg.org/multipage/dom.html#optgroup-element-inner-content-elements-2",
-      "linkingText": [
-        "optgroup element inner content elements"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "optgroup-element-inner-content-elements",
-        "href": "https://html.spec.whatwg.org/multipage/dom.html#optgroup-element-inner-content-elements",
-        "title": "optgroup element inner content elements",
-        "number": "3.2.5.2.11"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "option-element-inner-content-elements-2",
-      "href": "https://html.spec.whatwg.org/multipage/dom.html#option-element-inner-content-elements-2",
-      "linkingText": [
-        "option element inner content elements"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "option-element-inner-content-elements",
-        "href": "https://html.spec.whatwg.org/multipage/dom.html#option-element-inner-content-elements",
-        "title": "option element inner content elements",
-        "number": "3.2.5.2.12"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "transparent",
       "href": "https://html.spec.whatwg.org/multipage/dom.html#transparent",
       "linkingText": [
