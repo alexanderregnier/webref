@@ -26517,28 +26517,6 @@
       "links": []
     },
     {
-      "id": "texttrack-text-track",
-      "href": "https://html.spec.whatwg.org/multipage/media.html#texttrack-text-track",
-      "linkingText": [
-        "text track"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "TextTrack"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "text-track-api",
-        "href": "https://html.spec.whatwg.org/multipage/media.html#text-track-api",
-        "title": "Text track API",
-        "number": "4.8.11.11.5"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "dom-media-addtexttrack",
       "href": "https://html.spec.whatwg.org/multipage/media.html#dom-media-addtexttrack",
       "linkingText": [
