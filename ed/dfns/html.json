@@ -25661,6 +25661,26 @@
       "links": []
     },
     {
+      "id": "text-track-identifier",
+      "href": "https://html.spec.whatwg.org/multipage/media.html#text-track-identifier",
+      "linkingText": [
+        "An identifier"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "text-track-model",
+        "href": "https://html.spec.whatwg.org/multipage/media.html#text-track-model",
+        "title": "Text track model",
+        "number": "4.8.11.11.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "text-track-readiness-state",
       "href": "https://html.spec.whatwg.org/multipage/media.html#text-track-readiness-state",
       "linkingText": [
@@ -26497,6 +26517,28 @@
       "links": []
     },
     {
+      "id": "texttrack-text-track",
+      "href": "https://html.spec.whatwg.org/multipage/media.html#texttrack-text-track",
+      "linkingText": [
+        "text track"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "TextTrack"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "text-track-api",
+        "href": "https://html.spec.whatwg.org/multipage/media.html#text-track-api",
+        "title": "Text track API",
+        "number": "4.8.11.11.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "dom-media-addtexttrack",
       "href": "https://html.spec.whatwg.org/multipage/media.html#dom-media-addtexttrack",
       "linkingText": [
@@ -26760,7 +26802,7 @@
         "title": "Text track API",
         "number": "4.8.11.11.5"
       },
-      "definedIn": "dt",
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -26782,7 +26824,7 @@
         "title": "Text track API",
         "number": "4.8.11.11.5"
       },
-      "definedIn": "dt",
+      "definedIn": "prose",
       "links": []
     },
     {
@@ -26804,7 +26846,7 @@
         "title": "Text track API",
         "number": "4.8.11.11.5"
       },
-      "definedIn": "dt",
+      "definedIn": "prose",
       "links": []
     },
     {
