@@ -116433,6 +116433,46 @@
       "links": []
     },
     {
+      "id": "root-insertion-target",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#root-insertion-target",
+      "linkingText": [
+        "root insertion target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "other-parsing-state-flags",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#other-parsing-state-flags",
+        "title": "Other parsing state flags",
+        "number": "13.2.4.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "allow-declarative-shadow-roots",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#allow-declarative-shadow-roots",
+      "linkingText": [
+        "allow declarative shadow roots"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "other-parsing-state-flags",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#other-parsing-state-flags",
+        "title": "Other parsing state flags",
+        "number": "13.2.4.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "scripting-mode",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode",
       "linkingText": [
@@ -118673,6 +118713,26 @@
       "links": []
     },
     {
+      "id": "adjusted-insertion-location",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#adjusted-insertion-location",
+      "linkingText": [
+        "adjusted insertion location"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "creating-and-inserting-nodes",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#creating-and-inserting-nodes",
+        "title": "Creating and inserting nodes",
+        "number": "13.2.6.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "insert-an-element-at-the-adjusted-insertion-location",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#insert-an-element-at-the-adjusted-insertion-location",
       "linkingText": [
@@ -119953,26 +120013,6 @@
       "links": []
     },
     {
-      "id": "concept-frag-parse-context",
-      "href": "https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context",
-      "linkingText": [
-        "context"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "parsing-html-fragments",
-        "href": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-html-fragments",
-        "title": "Parsing HTML fragments",
-        "number": "13.4"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "fragment-case",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#fragment-case",
       "linkingText": [
@@ -119990,6 +120030,26 @@
         "number": "13.4"
       },
       "definedIn": "note",
+      "links": []
+    },
+    {
+      "id": "concept-frag-parse-context",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context",
+      "linkingText": [
+        "context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "parsing-html-fragments",
+        "href": "https://html.spec.whatwg.org/multipage/parsing.html#parsing-html-fragments",
+        "title": "Parsing HTML fragments",
+        "number": "13.4"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {

@@ -4583,7 +4583,7 @@
           "html": "<p>Let <var>document</var> be <var>element</var>'s <a id=\"the-base-element:node-document-2\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a>.\n\n   </p>"
         },
         {
-          "html": "<p>Let <var>urlRecord</var> be the result of <a href=\"https://url.spec.whatwg.org/#concept-url-parser\" id=\"the-base-element:url-parser\" data-x-internal=\"url-parser\">parsing</a> the\n   value of <var>element</var>'s <code id=\"the-base-element:attr-base-href-10\"><a href=\"https://html.spec.whatwg.org/multipage/semantics.html#attr-base-href\">href</a></code> content attribute with\n   <var>document</var>'s <a id=\"the-base-element:fallback-base-url\" href=\"https://html.spec.whatwg.org/multipage/urls-and-fetching.html#fallback-base-url\">fallback base URL</a>, and <var>document</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-document-encoding\" id=\"the-base-element:document's-character-encoding\" data-x-internal=\"document's-character-encoding\">character encoding</a>. (Thus, the <code id=\"the-base-element:the-base-element-17\"><a href=\"https://html.spec.whatwg.org/multipage/semantics.html#the-base-element\">base</a></code>\n   element isn't affected by itself.)</p>"
+          "html": "<p>Let <var>urlRecord</var> be the result of <a href=\"https://url.spec.whatwg.org/#concept-url-parser\" id=\"the-base-element:url-parser\" data-x-internal=\"url-parser\">parsing</a> the\n   value of <var>element</var>'s <code id=\"the-base-element:attr-base-href-9\"><a href=\"https://html.spec.whatwg.org/multipage/semantics.html#attr-base-href\">href</a></code> content attribute with\n   <var>document</var>'s <a id=\"the-base-element:fallback-base-url\" href=\"https://html.spec.whatwg.org/multipage/urls-and-fetching.html#fallback-base-url\">fallback base URL</a>, and <var>document</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-document-encoding\" id=\"the-base-element:document's-character-encoding\" data-x-internal=\"document's-character-encoding\">character encoding</a>. (Thus, the <code id=\"the-base-element:the-base-element-17\"><a href=\"https://html.spec.whatwg.org/multipage/semantics.html#the-base-element\">base</a></code>\n   element isn't affected by itself.)</p>"
         },
         {
           "html": "<p>If any of the following are true:</p>\n\n    <ul><li><p><var>urlRecord</var> is failure;</p></li><li><p><var>urlRecord</var>'s <a href=\"https://url.spec.whatwg.org/#concept-url-scheme\" id=\"the-base-element:concept-url-scheme\" data-x-internal=\"concept-url-scheme\">scheme</a> is \"<code>data</code>\" or \"<code>javascript</code>\"; or</p></li><li><p>running <a id=\"the-base-element:is-base-allowed-for-document\" href=\"https://w3c.github.io/webappsec-csp/#allow-base-for-document\" data-x-internal=\"is-base-allowed-for-document\">Is base allowed for Document?</a> on <var>urlRecord</var> and\n     <var>document</var> returns \"<code>Blocked</code>\",</p></li></ul>\n\n    <p>then set <var>element</var>'s <a href=\"https://html.spec.whatwg.org/multipage/semantics.html#frozen-base-url\" id=\"the-base-element:frozen-base-url-2\">frozen base URL</a> to <var>document</var>'s\n    <a id=\"the-base-element:fallback-base-url-2\" href=\"https://html.spec.whatwg.org/multipage/urls-and-fetching.html#fallback-base-url\">fallback base URL</a> and return.</p>"
@@ -4606,7 +4606,7 @@
           "html": "<p>Let <var>document</var> be <var>element</var>'s <a id=\"the-base-element:node-document-3\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a>.\n\n   </p>"
         },
         {
-          "html": "<p>Let <var>url</var> be the value of the <code id=\"the-base-element:attr-base-href-11\"><a href=\"https://html.spec.whatwg.org/multipage/semantics.html#attr-base-href\">href</a></code>\n   attribute of this element, if it has one, and the empty string otherwise.</p>"
+          "html": "<p>Let <var>url</var> be the value of the <code id=\"the-base-element:attr-base-href-10\"><a href=\"https://html.spec.whatwg.org/multipage/semantics.html#attr-base-href\">href</a></code>\n   attribute of this element, if it has one, and the empty string otherwise.</p>"
         },
         {
           "html": "<p>Let <var>urlRecord</var> be the result of <a href=\"https://url.spec.whatwg.org/#concept-url-parser\" id=\"the-base-element:url-parser-2\" data-x-internal=\"url-parser\">parsing</a>\n   <var>url</var> with <var>document</var>'s <a id=\"the-base-element:fallback-base-url-3\" href=\"https://html.spec.whatwg.org/multipage/urls-and-fetching.html#fallback-base-url\">fallback base URL</a>, and\n   <var>document</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-document-encoding\" id=\"the-base-element:document's-character-encoding-2\" data-x-internal=\"document's-character-encoding\">character encoding</a>.\n   (Thus, the <code id=\"the-base-element:the-base-element-18\"><a href=\"https://html.spec.whatwg.org/multipage/semantics.html#the-base-element\">base</a></code> element isn't affected by other <code id=\"the-base-element:the-base-element-19\"><a href=\"https://html.spec.whatwg.org/multipage/semantics.html#the-base-element\">base</a></code> elements or\n   itself.)</p>"
@@ -32323,7 +32323,7 @@
           "html": "<p>If <var>document</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-document-url\" id=\"read-html:the-document's-address\" data-x-internal=\"the-document's-address\">URL</a> is\n    <code id=\"read-html:about:blank\"><a href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#about:blank\">about:blank</a></code>, then <a href=\"https://html.spec.whatwg.org/multipage/document-lifecycle.html#populate-with-html/head/body\" id=\"read-html:populate-with-html/head/body\">populate with\n    <code>html</code>/<code>head</code>/<code>body</code></a> given <var>document</var>.</p>"
         },
         {
-          "html": "<p>Otherwise, create an <a id=\"read-html:html-parser-2\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\">HTML parser</a> and associate it with the <var>document</var>.\n    Each <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-task\" id=\"read-html:concept-task\">task</a> that the <a id=\"read-html:networking-task-source\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#networking-task-source\">networking task source</a>\n    places on the <a id=\"read-html:task-queue\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#task-queue\">task queue</a> while fetching runs must then fill the parser's\n    <a id=\"read-html:the-input-byte-stream\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#the-input-byte-stream\">input byte stream</a> with the fetched bytes and cause the <a id=\"read-html:html-parser-3\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\">HTML parser</a> to\n    perform the appropriate processing of the input stream.</p>\n\n    <p>The first <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-task\" id=\"read-html:concept-task-2\">task</a> that the <a id=\"read-html:networking-task-source-2\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#networking-task-source\">networking task\n    source</a> places on the <a id=\"read-html:task-queue-2\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#task-queue\">task queue</a> while fetching runs must <a id=\"read-html:process-link-headers\" href=\"https://html.spec.whatwg.org/multipage/semantics.html#process-link-headers\">process link\n    headers</a> given <var>document</var>, <var>navigationParams</var>'s <a href=\"https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-params-response\" id=\"read-html:navigation-params-response\">response</a>, and \"<code>media</code>\", after\n    the task has been processed by the <a id=\"read-html:html-parser-4\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\">HTML parser</a>.</p>\n\n    <p>Before any script execution occurs, the user agent must wait for <a id=\"read-html:scripts-may-run-for-the-newly-created-document\" href=\"https://html.spec.whatwg.org/multipage/browsing-the-web.html#scripts-may-run-for-the-newly-created-document\">scripts may run for\n    the newly-created document</a> to be true for <var>document</var>.</p>\n\n    \n\n    <p>When no more bytes are available, the user agent must <a id=\"read-html:queue-a-global-task\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-global-task\">queue a global task</a> on\n    the <a id=\"read-html:networking-task-source-3\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#networking-task-source\">networking task source</a> given <var>document</var>'s <a id=\"read-html:concept-relevant-global\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global\">relevant global\n    object</a> to have the parser process the implied EOF character, which eventually causes\n    a <code id=\"read-html:event-load\"><a href=\"https://html.spec.whatwg.org/multipage/indices.html#event-load\">load</a></code> event to be fired.</p>"
+          "html": "<p>Otherwise, create an <a id=\"read-html:html-parser-2\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\">HTML parser</a> whose <a id=\"read-html:allow-declarative-shadow-roots\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#allow-declarative-shadow-roots\">allow declarative shadow\n    roots</a> is true and associate it with <var>document</var>.</p>\n\n    <p>Each <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-task\" id=\"read-html:concept-task\">task</a> that the <a id=\"read-html:networking-task-source\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#networking-task-source\">networking task source</a>\n    places on the <a id=\"read-html:task-queue\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#task-queue\">task queue</a> while fetching runs must then fill the parser's\n    <a id=\"read-html:the-input-byte-stream\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#the-input-byte-stream\">input byte stream</a> with the fetched bytes and cause the <a id=\"read-html:html-parser-3\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\">HTML parser</a> to\n    perform the appropriate processing of the input stream.</p>\n\n    <p>The first <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-task\" id=\"read-html:concept-task-2\">task</a> that the <a id=\"read-html:networking-task-source-2\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#networking-task-source\">networking task\n    source</a> places on the <a id=\"read-html:task-queue-2\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#task-queue\">task queue</a> while fetching runs must <a id=\"read-html:process-link-headers\" href=\"https://html.spec.whatwg.org/multipage/semantics.html#process-link-headers\">process link\n    headers</a> given <var>document</var>, <var>navigationParams</var>'s <a href=\"https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-params-response\" id=\"read-html:navigation-params-response\">response</a>, and \"<code>media</code>\", after\n    the task has been processed by the <a id=\"read-html:html-parser-4\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\">HTML parser</a>.</p>\n\n    <p>Before any script execution occurs, the user agent must wait for <a id=\"read-html:scripts-may-run-for-the-newly-created-document\" href=\"https://html.spec.whatwg.org/multipage/browsing-the-web.html#scripts-may-run-for-the-newly-created-document\">scripts may run for\n    the newly-created document</a> to be true for <var>document</var>.</p>\n\n    \n\n    <p>When no more bytes are available, the user agent must <a id=\"read-html:queue-a-global-task\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-global-task\">queue a global task</a> on\n    the <a id=\"read-html:networking-task-source-3\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#networking-task-source\">networking task source</a> given <var>document</var>'s <a id=\"read-html:concept-relevant-global\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global\">relevant global\n    object</a> to have the parser process the implied EOF character, which eventually causes\n    a <code id=\"read-html:event-load\"><a href=\"https://html.spec.whatwg.org/multipage/indices.html#event-load\">load</a></code> event to be fired.</p>"
         },
         {
           "html": "<p>Return <var>document</var>.</p>"
@@ -37629,7 +37629,7 @@
           "html": "<p>Set <var>document</var> to <a id=\"opening-the-input-stream:no-quirks-mode\" href=\"https://dom.spec.whatwg.org/#concept-document-no-quirks\" data-x-internal=\"no-quirks-mode\">no-quirks mode</a>.</p>"
         },
         {
-          "html": "<p>Create a new <a id=\"opening-the-input-stream:html-parser\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\">HTML parser</a> and associate it with <var>document</var>. This is a\n   <dfn id=\"script-created-parser\">script-created parser</dfn> (meaning that it can be closed by the <code id=\"opening-the-input-stream:dom-document-open-5\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-open\">document.open()</a></code> and <code id=\"opening-the-input-stream:dom-document-close\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-close\">document.close()</a></code> methods, and that the tokenizer will wait for\n   an explicit call to <code id=\"opening-the-input-stream:dom-document-close-2\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-close\">document.close()</a></code> before emitting an\n   end-of-file token). The encoding <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-encoding-confidence\" id=\"opening-the-input-stream:concept-encoding-confidence\">confidence</a> is\n   <i>irrelevant</i>.</p>"
+          "html": "<p>Create an <a id=\"opening-the-input-stream:html-parser\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\">HTML parser</a> whose <a id=\"opening-the-input-stream:allow-declarative-shadow-roots\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#allow-declarative-shadow-roots\">allow declarative shadow roots</a> is\n   <var>document</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-document-allow-declarative-shadow-roots\" id=\"opening-the-input-stream:concept-document-allow-declarative-shadow-roots\" data-x-internal=\"concept-document-allow-declarative-shadow-roots\">allow\n   declarative shadow roots</a>, and associate it with <var>document</var>. This is a\n   <dfn id=\"script-created-parser\">script-created parser</dfn> (meaning that it can be closed by the <code id=\"opening-the-input-stream:dom-document-open-5\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-open\">document.open()</a></code> and <code id=\"opening-the-input-stream:dom-document-close\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-close\">document.close()</a></code> methods, and that the tokenizer will wait for\n   an explicit call to <code id=\"opening-the-input-stream:dom-document-close-2\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-close\">document.close()</a></code> before emitting an\n   end-of-file token). The encoding <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-encoding-confidence\" id=\"opening-the-input-stream:concept-encoding-confidence\">confidence</a> is\n   <i>irrelevant</i>.</p>"
         },
         {
           "html": "<p>Set the <a id=\"opening-the-input-stream:insertion-point\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#insertion-point\">insertion point</a> to point at just before the end of the <a id=\"opening-the-input-stream:input-stream\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#input-stream\">input\n   stream</a> (which at this point will be empty).</p>"
@@ -37820,7 +37820,7 @@
           "html": "<p>Set <var>document</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-document-type\" id=\"the-domparser-interface:concept-document-type\" data-x-internal=\"concept-document-type\">type</a> to \"<code>html</code>\".</p>"
         },
         {
-          "html": "<p>Create an <a id=\"the-domparser-interface:html-parser\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\">HTML parser</a> <var>parser</var>, associated with\n   <var>document</var>.</p>"
+          "html": "<p>Let <var>parser</var> be a new <a id=\"the-domparser-interface:html-parser\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\">HTML parser</a> whose <a id=\"the-domparser-interface:allow-declarative-shadow-roots\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#allow-declarative-shadow-roots\">allow declarative\n   shadow roots</a> is <var>document</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-document-allow-declarative-shadow-roots\" id=\"the-domparser-interface:concept-document-allow-declarative-shadow-roots\" data-x-internal=\"concept-document-allow-declarative-shadow-roots\">allow declarative shadow roots</a>,\n   associated with <var>document</var>.</p>"
         },
         {
           "html": "<p>Place <var>html</var> into the <a id=\"the-domparser-interface:input-stream\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#input-stream\">input stream</a> for <var>parser</var>. The\n   encoding <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-encoding-confidence\" id=\"the-domparser-interface:concept-encoding-confidence\">confidence</a> is\n   <i>irrelevant</i>.</p>"
@@ -37840,7 +37840,7 @@
           "html": "<p>Let <var>target</var> be <a id=\"html-parsing-methods:this\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"html-parsing-methods:template-contents\" href=\"https://html.spec.whatwg.org/multipage/scripting.html#template-contents\">template contents</a> if\n   <a id=\"html-parsing-methods:this-2\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a> is a <code id=\"html-parsing-methods:the-template-element\"><a href=\"https://html.spec.whatwg.org/multipage/scripting.html#the-template-element\">template</a></code> element; otherwise <a id=\"html-parsing-methods:this-3\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>.</p>"
         },
         {
-          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#set-and-filter-html\" id=\"html-parsing-methods:set-and-filter-html\">Set and filter HTML</a> given <var>target</var>, <a id=\"html-parsing-methods:this-4\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>,\n   <var>html</var>, <var>options</var>, and true.</p>"
+          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#set-and-filter-html\" id=\"html-parsing-methods:set-and-filter-html\">Set and filter HTML</a> given <var>target</var>, <var>html</var>,\n   <var>options</var>, and true.</p>"
         }
       ]
     },
@@ -37851,7 +37851,7 @@
       "rationale": "set",
       "steps": [
         {
-          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#set-and-filter-html\" id=\"html-parsing-methods:set-and-filter-html-2\">Set and filter HTML</a> given <a id=\"html-parsing-methods:this-5\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>, <a id=\"html-parsing-methods:this-6\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a href=\"https://dom.spec.whatwg.org/#concept-documentfragment-host\" id=\"html-parsing-methods:concept-documentfragment-host-3\" data-x-internal=\"concept-documentfragment-host\">shadow host</a>, <var>html</var>, <var>options</var>,\n   and true.</p>"
+          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#set-and-filter-html\" id=\"html-parsing-methods:set-and-filter-html-2\">Set and filter HTML</a> given <a id=\"html-parsing-methods:this-4\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>, <var>html</var>,\n   <var>options</var>, and true.</p>"
         }
       ]
     },
@@ -37862,13 +37862,13 @@
       "rationale": "let",
       "steps": [
         {
-          "html": "<p>Let <var>compliantHTML</var> be the result of invoking the <a href=\"https://w3c.github.io/trusted-types/dist/spec/#get-trusted-type-compliant-string\" id=\"html-parsing-methods:tt-getcompliantstring\" data-x-internal=\"tt-getcompliantstring\">get trusted type compliant string</a> algorithm with <code id=\"html-parsing-methods:tt-trustedhtml\"><a data-x-internal=\"tt-trustedhtml\" href=\"https://w3c.github.io/trusted-types/dist/spec/#trustedhtml\">TrustedHTML</a></code>, <a id=\"html-parsing-methods:this-7\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"html-parsing-methods:concept-relevant-global\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global\">relevant global\n   object</a>, <var>html</var>, \"<code>Element setHTMLUnsafe</code>\", and \"<code>script</code>\".</p>"
+          "html": "<p>Let <var>compliantHTML</var> be the result of invoking the <a href=\"https://w3c.github.io/trusted-types/dist/spec/#get-trusted-type-compliant-string\" id=\"html-parsing-methods:tt-getcompliantstring\" data-x-internal=\"tt-getcompliantstring\">get trusted type compliant string</a> algorithm with <code id=\"html-parsing-methods:tt-trustedhtml\"><a data-x-internal=\"tt-trustedhtml\" href=\"https://w3c.github.io/trusted-types/dist/spec/#trustedhtml\">TrustedHTML</a></code>, <a id=\"html-parsing-methods:this-5\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"html-parsing-methods:concept-relevant-global\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global\">relevant global\n   object</a>, <var>html</var>, \"<code>Element setHTMLUnsafe</code>\", and \"<code>script</code>\".</p>"
         },
         {
-          "html": "<p>Let <var>target</var> be <a id=\"html-parsing-methods:this-8\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"html-parsing-methods:template-contents-2\" href=\"https://html.spec.whatwg.org/multipage/scripting.html#template-contents\">template contents</a> if\n   <a id=\"html-parsing-methods:this-9\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a> is a <code id=\"html-parsing-methods:the-template-element-2\"><a href=\"https://html.spec.whatwg.org/multipage/scripting.html#the-template-element\">template</a></code> element; otherwise <a id=\"html-parsing-methods:this-10\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>.</p>"
+          "html": "<p>Let <var>target</var> be <a id=\"html-parsing-methods:this-6\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"html-parsing-methods:template-contents-2\" href=\"https://html.spec.whatwg.org/multipage/scripting.html#template-contents\">template contents</a> if\n   <a id=\"html-parsing-methods:this-7\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a> is a <code id=\"html-parsing-methods:the-template-element-2\"><a href=\"https://html.spec.whatwg.org/multipage/scripting.html#the-template-element\">template</a></code> element; otherwise <a id=\"html-parsing-methods:this-8\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>.</p>"
         },
         {
-          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#set-and-filter-html\" id=\"html-parsing-methods:set-and-filter-html-3\">Set and filter HTML</a> given <var>target</var>, <a id=\"html-parsing-methods:this-11\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>,\n   <var>compliantHTML</var>, <var>options</var>, and false.</p>"
+          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#set-and-filter-html\" id=\"html-parsing-methods:set-and-filter-html-3\">Set and filter HTML</a> given <var>target</var>, <var>compliantHTML</var>,\n   <var>options</var>, and false.</p>"
         }
       ]
     },
@@ -37879,10 +37879,10 @@
       "rationale": "let",
       "steps": [
         {
-          "html": "<p>Let <var>compliantHTML</var> be the result of invoking the <a href=\"https://w3c.github.io/trusted-types/dist/spec/#get-trusted-type-compliant-string\" id=\"html-parsing-methods:tt-getcompliantstring-2\" data-x-internal=\"tt-getcompliantstring\">get trusted type compliant string</a> algorithm with <code id=\"html-parsing-methods:tt-trustedhtml-2\"><a data-x-internal=\"tt-trustedhtml\" href=\"https://w3c.github.io/trusted-types/dist/spec/#trustedhtml\">TrustedHTML</a></code>, <a id=\"html-parsing-methods:this-12\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"html-parsing-methods:concept-relevant-global-2\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global\">relevant global\n   object</a>, <var>html</var>, \"<code>ShadowRoot setHTMLUnsafe</code>\", and \"<code>script</code>\".</p>"
+          "html": "<p>Let <var>compliantHTML</var> be the result of invoking the <a href=\"https://w3c.github.io/trusted-types/dist/spec/#get-trusted-type-compliant-string\" id=\"html-parsing-methods:tt-getcompliantstring-2\" data-x-internal=\"tt-getcompliantstring\">get trusted type compliant string</a> algorithm with <code id=\"html-parsing-methods:tt-trustedhtml-2\"><a data-x-internal=\"tt-trustedhtml\" href=\"https://w3c.github.io/trusted-types/dist/spec/#trustedhtml\">TrustedHTML</a></code>, <a id=\"html-parsing-methods:this-9\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"html-parsing-methods:concept-relevant-global-2\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global\">relevant global\n   object</a>, <var>html</var>, \"<code>ShadowRoot setHTMLUnsafe</code>\", and \"<code>script</code>\".</p>"
         },
         {
-          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#set-and-filter-html\" id=\"html-parsing-methods:set-and-filter-html-4\">Set and filter HTML</a> given <a id=\"html-parsing-methods:this-13\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>, <a id=\"html-parsing-methods:this-14\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a href=\"https://dom.spec.whatwg.org/#concept-documentfragment-host\" id=\"html-parsing-methods:concept-documentfragment-host-4\" data-x-internal=\"concept-documentfragment-host\">shadow host</a>, <var>compliantHTML</var>,\n   <var>options</var>, and false.</p>"
+          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#set-and-filter-html\" id=\"html-parsing-methods:set-and-filter-html-4\">Set and filter HTML</a> given <a id=\"html-parsing-methods:this-10\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>, <var>compliantHTML</var>,\n   <var>options</var>, and false.</p>"
         }
       ]
     },
@@ -37919,7 +37919,7 @@
       "rationale": "let",
       "steps": [
         {
-          "html": "<p>Let <var>compliantHTML</var> be the result of invoking the <a href=\"https://w3c.github.io/trusted-types/dist/spec/#get-trusted-type-compliant-string\" id=\"html-parsing-methods:tt-getcompliantstring-3\" data-x-internal=\"tt-getcompliantstring\">get trusted type compliant string</a> algorithm with <code id=\"html-parsing-methods:tt-trustedhtml-3\"><a data-x-internal=\"tt-trustedhtml\" href=\"https://w3c.github.io/trusted-types/dist/spec/#trustedhtml\">TrustedHTML</a></code>, <a id=\"html-parsing-methods:this-15\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"html-parsing-methods:concept-relevant-global-3\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global\">relevant global\n   object</a>, <var>html</var>, \"<code>Document parseHTMLUnsafe</code>\", and \"<code>script</code>\".</p>"
+          "html": "<p>Let <var>compliantHTML</var> be the result of invoking the <a href=\"https://w3c.github.io/trusted-types/dist/spec/#get-trusted-type-compliant-string\" id=\"html-parsing-methods:tt-getcompliantstring-3\" data-x-internal=\"tt-getcompliantstring\">get trusted type compliant string</a> algorithm with <code id=\"html-parsing-methods:tt-trustedhtml-3\"><a data-x-internal=\"tt-trustedhtml\" href=\"https://w3c.github.io/trusted-types/dist/spec/#trustedhtml\">TrustedHTML</a></code>, <a id=\"html-parsing-methods:this-11\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"html-parsing-methods:concept-relevant-global-3\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global\">relevant global\n   object</a>, <var>html</var>, \"<code>Document parseHTMLUnsafe</code>\", and \"<code>script</code>\".</p>"
         },
         {
           "html": "<p>Let <var>document</var> be a new <code id=\"html-parsing-methods:document-4\"><a href=\"https://html.spec.whatwg.org/multipage/dom.html#document\">Document</a></code>, whose <a href=\"https://dom.spec.whatwg.org/#concept-document-content-type\" id=\"html-parsing-methods:concept-document-content-type-2\" data-x-internal=\"concept-document-content-type\">content type</a> is \"<code>text/html</code>\".</p>"
@@ -37961,29 +37961,17 @@
     {
       "name": "fragment parsing algorithm steps",
       "href": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#fragment-parsing-algorithm-steps",
-      "html": "The <dfn id=\"fragment-parsing-algorithm-steps\" data-export=\"\">fragment parsing algorithm steps</dfn>, given an <code id=\"the-innerhtml-property:element-2\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code>\n  <var>context</var>, a string <var>markup</var>, and an optional <a id=\"the-innerhtml-property:parser-scripting-mode\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#parser-scripting-mode\">parser scripting mode</a>\n  <var>scriptingMode</var> (default <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-inert\" id=\"the-innerhtml-property:scripting-mode-inert\">Inert</a>), are:",
+      "html": "The <dfn id=\"fragment-parsing-algorithm-steps\" data-export=\"\">fragment parsing algorithm steps</dfn>, given an <code id=\"the-innerhtml-property:element-2\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code> or\n  <code id=\"the-innerhtml-property:documentfragment-2\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code> <var>target</var>, a string <var>markup</var>, and an optional\n  <a id=\"the-innerhtml-property:parser-scripting-mode\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#parser-scripting-mode\">parser scripting mode</a> <var>scriptingMode</var> (default <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-inert\" id=\"the-innerhtml-property:scripting-mode-inert\">Inert</a>), are:",
       "rationale": "assert",
       "steps": [
         {
           "html": "<p><a id=\"the-innerhtml-property:assert\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>scriptingMode</var> is either <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-inert\" id=\"the-innerhtml-property:scripting-mode-inert-2\">Inert</a> or <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-fragment\" id=\"the-innerhtml-property:scripting-mode-fragment\">Fragment</a>.\n\n   </p>"
         },
         {
-          "html": "<p>Let <var>newChildren</var> be null.</p>"
+          "html": "<p>If <var>target</var>'s <a id=\"the-innerhtml-property:node-document-2\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a> is an <a href=\"https://dom.spec.whatwg.org/#xml-document\" id=\"the-innerhtml-property:xml-documents\" data-x-internal=\"xml-documents\">XML\n   document</a>, then return the result of invoking the <a id=\"the-innerhtml-property:xml-fragment-parsing-algorithm\" href=\"https://html.spec.whatwg.org/multipage/xhtml.html#xml-fragment-parsing-algorithm\">XML fragment parsing\n   algorithm</a> given <var>target</var> and <var>markup</var>.</p>"
         },
         {
-          "html": "<p>If <var>context</var>'s <a id=\"the-innerhtml-property:node-document-2\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a> is an <a href=\"https://dom.spec.whatwg.org/#xml-document\" id=\"the-innerhtml-property:xml-documents\" data-x-internal=\"xml-documents\">XML\n   document</a>, then set <var>newChildren</var> to the result of invoking the <a id=\"the-innerhtml-property:xml-fragment-parsing-algorithm\" href=\"https://html.spec.whatwg.org/multipage/xhtml.html#xml-fragment-parsing-algorithm\">XML fragment\n   parsing algorithm</a> given <var>context</var> and <var>markup</var>.</p>"
-        },
-        {
-          "html": "<p>Otherwise, set <var>newChildren</var> to the result of invoking the <a id=\"the-innerhtml-property:html-fragment-parsing-algorithm\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-fragment-parsing-algorithm\">HTML fragment\n   parsing algorithm</a> given <var>context</var>, <var>markup</var>, false, and\n   <var>scriptingMode</var>.</p>"
-        },
-        {
-          "html": "<p>Let <var>fragment</var> be a new <code id=\"the-innerhtml-property:documentfragment-2\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code> whose <a id=\"the-innerhtml-property:node-document-3\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node\n   document</a> is <var>context</var>'s <a id=\"the-innerhtml-property:node-document-4\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a>.</p>"
-        },
-        {
-          "html": "<p>For each <var>node</var> of <var>newChildren</var>, in <a id=\"the-innerhtml-property:tree-order\" href=\"https://dom.spec.whatwg.org/#concept-tree-order\" data-x-internal=\"tree-order\">tree order</a>: <a href=\"https://dom.spec.whatwg.org/#concept-node-append\" id=\"the-innerhtml-property:concept-node-append\" data-x-internal=\"concept-node-append\">append</a> <var>node</var> to <var>fragment</var>.</p>"
-        },
-        {
-          "html": "<p>Return <var>fragment</var>.</p>"
+          "html": "<p>Return the result of the <a id=\"the-innerhtml-property:html-fragment-parsing-algorithm\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-fragment-parsing-algorithm\">HTML fragment parsing algorithm</a> given\n   <var>target</var>, <var>markup</var>, false, and <var>scriptingMode</var>.</p>"
         }
       ]
     },
@@ -37995,16 +37983,16 @@
           "html": "<p>Let <var>compliantString</var> be the result of invoking the <a href=\"https://w3c.github.io/trusted-types/dist/spec/#get-trusted-type-compliant-string\" id=\"the-innerhtml-property:tt-getcompliantstring\" data-x-internal=\"tt-getcompliantstring\">get trusted type compliant string</a> algorithm with <code id=\"the-innerhtml-property:tt-trustedhtml\"><a data-x-internal=\"tt-trustedhtml\" href=\"https://w3c.github.io/trusted-types/dist/spec/#trustedhtml\">TrustedHTML</a></code>, <a id=\"the-innerhtml-property:this-3\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"the-innerhtml-property:concept-relevant-global\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global\">relevant global\n    object</a>, the given value, \"<code>Element innerHTML</code>\", and \"<code>script</code>\".</p>"
         },
         {
-          "html": "<p>Let <var>context</var> be <a id=\"the-innerhtml-property:this-4\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>.</p>"
+          "html": "<p>Let <var>target</var> be <a id=\"the-innerhtml-property:this-4\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>.</p>"
         },
         {
-          "html": "<p>Let <var>fragment</var> be the result of invoking the <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#fragment-parsing-algorithm-steps\" id=\"the-innerhtml-property:fragment-parsing-algorithm-steps\">fragment parsing algorithm\n    steps</a> with <var>context</var> and <var>compliantString</var>.</p>"
+          "html": "<p>If <var>target</var> is a <code id=\"the-innerhtml-property:the-template-element\"><a href=\"https://html.spec.whatwg.org/multipage/scripting.html#the-template-element\">template</a></code> element, then set <var>target</var> to the\n     <code id=\"the-innerhtml-property:the-template-element-2\"><a href=\"https://html.spec.whatwg.org/multipage/scripting.html#the-template-element\">template</a></code> element's <a id=\"the-innerhtml-property:template-contents\" href=\"https://html.spec.whatwg.org/multipage/scripting.html#template-contents\">template contents</a> (a\n     <code id=\"the-innerhtml-property:documentfragment-3\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code>).</p>"
         },
         {
-          "html": "<p>If <var>context</var> is a <code id=\"the-innerhtml-property:the-template-element\"><a href=\"https://html.spec.whatwg.org/multipage/scripting.html#the-template-element\">template</a></code> element, then set <var>context</var> to\n     the <code id=\"the-innerhtml-property:the-template-element-2\"><a href=\"https://html.spec.whatwg.org/multipage/scripting.html#the-template-element\">template</a></code> element's <a id=\"the-innerhtml-property:template-contents\" href=\"https://html.spec.whatwg.org/multipage/scripting.html#template-contents\">template contents</a> (a\n     <code id=\"the-innerhtml-property:documentfragment-3\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code>).</p>"
+          "html": "<p>Let <var>fragment</var> be the result of invoking the <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#fragment-parsing-algorithm-steps\" id=\"the-innerhtml-property:fragment-parsing-algorithm-steps\">fragment parsing algorithm\n    steps</a> with <var>target</var> and <var>compliantString</var>.</p>"
         },
         {
-          "html": "<p><a href=\"https://dom.spec.whatwg.org/#concept-node-replace-all\" id=\"the-innerhtml-property:concept-node-replace-all\" data-x-internal=\"concept-node-replace-all\">Replace all</a> with <var>fragment</var>\n    within <var>context</var>.</p>"
+          "html": "<p><a href=\"https://dom.spec.whatwg.org/#concept-node-replace-all\" id=\"the-innerhtml-property:concept-node-replace-all\" data-x-internal=\"concept-node-replace-all\">Replace all</a> with <var>fragment</var>\n    within <var>target</var>.</p>"
         }
       ]
     },
@@ -38016,10 +38004,7 @@
           "html": "<p>Let <var>compliantString</var> be the result of invoking the <a href=\"https://w3c.github.io/trusted-types/dist/spec/#get-trusted-type-compliant-string\" id=\"the-innerhtml-property:tt-getcompliantstring-2\" data-x-internal=\"tt-getcompliantstring\">get trusted type compliant string</a> algorithm with <code id=\"the-innerhtml-property:tt-trustedhtml-2\"><a data-x-internal=\"tt-trustedhtml\" href=\"https://w3c.github.io/trusted-types/dist/spec/#trustedhtml\">TrustedHTML</a></code>, <a id=\"the-innerhtml-property:this-5\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a id=\"the-innerhtml-property:concept-relevant-global-2\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global\">relevant global\n    object</a>, the given value, \"<code>ShadowRoot innerHTML</code>\", and \"<code>script</code>\".</p>"
         },
         {
-          "html": "<p>Let <var>context</var> be <a id=\"the-innerhtml-property:this-6\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>'s <a href=\"https://dom.spec.whatwg.org/#concept-documentfragment-host\" id=\"the-innerhtml-property:concept-documentfragment-host\" data-x-internal=\"concept-documentfragment-host\">host</a>.</p>"
-        },
-        {
-          "html": "<p>Let <var>fragment</var> be the result of invoking the <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#fragment-parsing-algorithm-steps\" id=\"the-innerhtml-property:fragment-parsing-algorithm-steps-2\">fragment parsing algorithm\n    steps</a> with <var>context</var> and <var>compliantString</var>.</p>"
+          "html": "<p>Let <var>fragment</var> be the result of invoking the <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#fragment-parsing-algorithm-steps\" id=\"the-innerhtml-property:fragment-parsing-algorithm-steps-2\">fragment parsing algorithm\n    steps</a> with <a id=\"the-innerhtml-property:this-6\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a> and <var>compliantString</var>.</p>"
         },
         {
           "html": "<p><a href=\"https://dom.spec.whatwg.org/#concept-node-replace-all\" id=\"the-innerhtml-property:concept-node-replace-all-2\" data-x-internal=\"concept-node-replace-all\">Replace all</a> with <var>fragment</var>\n    within <a id=\"the-innerhtml-property:this-7\" href=\"https://webidl.spec.whatwg.org/#this\" data-x-internal=\"this\">this</a>.</p>"
@@ -38935,11 +38920,17 @@
     {
       "name": "set and filter HTML",
       "href": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#set-and-filter-html",
-      "html": "To <dfn id=\"set-and-filter-html\">set and filter HTML</dfn>, given an <code id=\"sanitization-algorithms:element\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code> or\n  <code id=\"sanitization-algorithms:documentfragment\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code> <var>target</var>, an <code id=\"sanitization-algorithms:element-2\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code>\n  <var>contextElement</var>, a <a id=\"sanitization-algorithms:string\" href=\"https://infra.spec.whatwg.org/#string\" data-x-internal=\"string\">string</a> <var>html</var>, a dictionary <var>options</var>,\n  and a boolean <var>safe</var>:",
-      "rationale": "if",
+      "html": "To <dfn id=\"set-and-filter-html\">set and filter HTML</dfn>, given an <code id=\"sanitization-algorithms:element\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code> or\n  <code id=\"sanitization-algorithms:documentfragment\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code> <var>target</var>, a <a id=\"sanitization-algorithms:string\" href=\"https://infra.spec.whatwg.org/#string\" data-x-internal=\"string\">string</a> <var>html</var>, a\n  dictionary <var>options</var>, and a boolean <var>safe</var>:",
+      "rationale": "let",
       "steps": [
         {
-          "html": "<p>If all of the following are true:</p>\n\n    <ul class=\"brief\"><li><p><var>safe</var>;</p></li><li><p><var>contextElement</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-element-local-name\" id=\"sanitization-algorithms:concept-element-local-name\" data-x-internal=\"concept-element-local-name\">local name</a>\n     is \"<code id=\"sanitization-algorithms:the-script-element\"><a href=\"https://html.spec.whatwg.org/multipage/scripting.html#the-script-element\">script</a></code>\"; and</p></li><li><p><var>contextElement</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-element-namespace\" id=\"sanitization-algorithms:concept-element-namespace\" data-x-internal=\"concept-element-namespace\">namespace</a> is\n     the <a id=\"sanitization-algorithms:html-namespace-2\" href=\"https://infra.spec.whatwg.org/#html-namespace\" data-x-internal=\"html-namespace-2\">HTML namespace</a> or the <a id=\"sanitization-algorithms:svg-namespace\" href=\"https://infra.spec.whatwg.org/#svg-namespace\" data-x-internal=\"svg-namespace\">SVG namespace</a>,</p></li></ul>\n\n    <p>then return.</p>"
+          "html": "<p>Let <var>context</var> be <var>target</var> if <var>target</var> is an\n   <code id=\"sanitization-algorithms:element-2\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code>; otherwise <var>target</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-documentfragment-host\" id=\"sanitization-algorithms:concept-documentfragment-host\" data-x-internal=\"concept-documentfragment-host\">host</a>.</p>"
+        },
+        {
+          "html": "<p><a id=\"sanitization-algorithms:assert\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>context</var> is non-null.</p>"
+        },
+        {
+          "html": "<p>If all of the following are true:</p>\n\n    <ul class=\"brief\"><li><p><var>safe</var>;</p></li><li><p><var>context</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-element-local-name\" id=\"sanitization-algorithms:concept-element-local-name\" data-x-internal=\"concept-element-local-name\">local name</a> is\n     \"<code id=\"sanitization-algorithms:the-script-element\"><a href=\"https://html.spec.whatwg.org/multipage/scripting.html#the-script-element\">script</a></code>\"; and</p></li><li><p><var>context</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-element-namespace\" id=\"sanitization-algorithms:concept-element-namespace\" data-x-internal=\"concept-element-namespace\">namespace</a> is the\n     <a id=\"sanitization-algorithms:html-namespace-2\" href=\"https://infra.spec.whatwg.org/#html-namespace\" data-x-internal=\"html-namespace-2\">HTML namespace</a> or the <a id=\"sanitization-algorithms:svg-namespace\" href=\"https://infra.spec.whatwg.org/#svg-namespace\" data-x-internal=\"svg-namespace\">SVG namespace</a>,</p></li></ul>\n\n    <p>then return.</p>"
         },
         {
           "html": "<p>Let <var>sanitizer</var> be the result of calling <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#get-a-sanitizer-instance-from-options\" id=\"sanitization-algorithms:get-a-sanitizer-instance-from-options\">getting a sanitizer</a> from <var>options</var> given <var>safe</var>.</p>"
@@ -38952,7 +38943,7 @@
           "rationale": "assert",
           "steps": [
             {
-              "html": "<p><a id=\"sanitization-algorithms:assert\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>safe</var> is false.</p>"
+              "html": "<p><a id=\"sanitization-algorithms:assert-2\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>safe</var> is false.</p>"
             },
             {
               "html": "<p>Set <var>scriptingMode</var> to <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-fragment\" id=\"sanitization-algorithms:scripting-mode-fragment\">Fragment</a>.</p>"
@@ -38960,13 +38951,7 @@
           ]
         },
         {
-          "html": "<p>Let <var>newChildren</var> be the result of <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-fragment-parsing-algorithm\" id=\"sanitization-algorithms:html-fragment-parsing-algorithm\">parsing a fragment</a> given <var>contextElement</var>, <var>html</var>, true, and\n    <var>scriptingMode</var>.</p>"
-        },
-        {
-          "html": "<p>Let <var>fragment</var> be a new <code id=\"sanitization-algorithms:documentfragment-2\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code> whose <a id=\"sanitization-algorithms:node-document\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node\n   document</a> is <var>contextElement</var>'s <a id=\"sanitization-algorithms:node-document-2\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a>.</p>"
-        },
-        {
-          "html": "<p><a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate\" data-x-internal=\"list-iterate\">For each</a> <var>node</var> in <var>newChildren</var>,\n   <a href=\"https://dom.spec.whatwg.org/#concept-node-append\" id=\"sanitization-algorithms:concept-node-append\" data-x-internal=\"concept-node-append\">append</a> <var>node</var> to <var>fragment</var>.</p>"
+          "html": "<p>Let <var>fragment</var> be the result of invoking the <a id=\"sanitization-algorithms:html-fragment-parsing-algorithm\" href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-fragment-parsing-algorithm\">HTML fragment parsing\n    algorithm</a> given <var>target</var>, <var>html</var>, true, and\n    <var>scriptingMode</var>.</p>"
         },
         {
           "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitize\" id=\"sanitization-algorithms:sanitize\">Sanitize</a> <var>fragment</var> given <var>sanitizer</var> and\n   <var>safe</var>.</p>"
@@ -38989,14 +38974,14 @@
           "html": "<p>If <var>options</var>[\"<code id=\"sanitization-algorithms:dom-sethtmloptions-sanitizer\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sethtmloptions-sanitizer\">sanitizer</a></code>\"]\n   <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists\" data-x-internal=\"map-exists\">exists</a>, then set <var>sanitizerSpec</var> to\n   <var>options</var>[\"<code id=\"sanitization-algorithms:dom-sethtmloptions-sanitizer-2\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sethtmloptions-sanitizer\">sanitizer</a></code>\"].</p>"
         },
         {
-          "html": "<p><a id=\"sanitization-algorithms:assert-2\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>sanitizerSpec</var> is either a <code id=\"sanitization-algorithms:sanitizer\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizer\">Sanitizer</a></code> instance,\n   a <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizerpresets\" id=\"sanitization-algorithms:sanitizerpresets\">SanitizerPresets</a> member, or a <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizerconfig\" id=\"sanitization-algorithms:sanitizerconfig\">SanitizerConfig</a> dictionary.</p>"
+          "html": "<p><a id=\"sanitization-algorithms:assert-3\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>sanitizerSpec</var> is either a <code id=\"sanitization-algorithms:sanitizer\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizer\">Sanitizer</a></code> instance,\n   a <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizerpresets\" id=\"sanitization-algorithms:sanitizerpresets\">SanitizerPresets</a> member, or a <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizerconfig\" id=\"sanitization-algorithms:sanitizerconfig\">SanitizerConfig</a> dictionary.</p>"
         },
         {
           "html": "If <var>sanitizerSpec</var> is a string:",
           "rationale": "assert",
           "steps": [
             {
-              "html": "<p><a id=\"sanitization-algorithms:assert-3\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>sanitizerSpec</var> is \"<code id=\"sanitization-algorithms:dom-sanitizerpresets-default-2\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerpresets-default\">default</a></code>\".</p>"
+              "html": "<p><a id=\"sanitization-algorithms:assert-4\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>sanitizerSpec</var> is \"<code id=\"sanitization-algorithms:dom-sanitizerpresets-default-2\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerpresets-default\">default</a></code>\".</p>"
             },
             {
               "html": "<p>Set <var>sanitizerSpec</var> to the <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#built-in-safe-default-configuration\" id=\"sanitization-algorithms:built-in-safe-default-configuration\">built-in safe default\n     configuration</a>.</p>"
@@ -39036,7 +39021,7 @@
           "html": "<p>Let <var>configuration</var> be <var>sanitizer</var>'s\n   <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#configuration\" id=\"sanitization-algorithms:configuration\">configuration</a>.</p>"
         },
         {
-          "html": "<p><a id=\"sanitization-algorithms:assert-4\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>configuration</var> is <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-valid\" id=\"sanitization-algorithms:dom-sanitizerconfig-valid\">valid</a>.</p>"
+          "html": "<p><a id=\"sanitization-algorithms:assert-5\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>configuration</var> is <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-valid\" id=\"sanitization-algorithms:dom-sanitizerconfig-valid\">valid</a>.</p>"
         },
         {
           "html": "<p>If <var>safe</var> is true, then <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#remove-unsafe\" id=\"sanitization-algorithms:remove-unsafe\">remove unsafe</a> from\n   <var>configuration</var>.</p>"
@@ -39053,11 +39038,11 @@
       "rationale": "for",
       "steps": [
         {
-          "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-2\" data-x-internal=\"list-iterate\">For each</a> <var>child</var> of <var>node</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-tree-child\" id=\"sanitization-algorithms:concept-tree-child\" data-x-internal=\"concept-tree-child\">children</a>:",
+          "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate\" data-x-internal=\"list-iterate\">For each</a> <var>child</var> of <var>node</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-tree-child\" id=\"sanitization-algorithms:concept-tree-child\" data-x-internal=\"concept-tree-child\">children</a>:",
           "rationale": "assert",
           "steps": [
             {
-              "html": "<p><a id=\"sanitization-algorithms:assert-5\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>child</var> is a <code id=\"sanitization-algorithms:text\"><a data-x-internal=\"text\" href=\"https://dom.spec.whatwg.org/#interface-text\">Text</a></code>, <code id=\"sanitization-algorithms:comment-2\"><a data-x-internal=\"comment-2\" href=\"https://dom.spec.whatwg.org/#interface-comment\">Comment</a></code>,\n     <code id=\"sanitization-algorithms:element-3\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code>, <code id=\"sanitization-algorithms:processinginstruction\"><a data-x-internal=\"processinginstruction\" href=\"https://dom.spec.whatwg.org/#interface-processinginstruction\">ProcessingInstruction</a></code>, or <code id=\"sanitization-algorithms:documenttype\"><a data-x-internal=\"documenttype\" href=\"https://dom.spec.whatwg.org/#interface-documenttype\">DocumentType</a></code>\n     node.</p>"
+              "html": "<p><a id=\"sanitization-algorithms:assert-6\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>child</var> is a <code id=\"sanitization-algorithms:text\"><a data-x-internal=\"text\" href=\"https://dom.spec.whatwg.org/#interface-text\">Text</a></code>, <code id=\"sanitization-algorithms:comment-2\"><a data-x-internal=\"comment-2\" href=\"https://dom.spec.whatwg.org/#interface-comment\">Comment</a></code>,\n     <code id=\"sanitization-algorithms:element-3\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code>, <code id=\"sanitization-algorithms:processinginstruction\"><a data-x-internal=\"processinginstruction\" href=\"https://dom.spec.whatwg.org/#interface-processinginstruction\">ProcessingInstruction</a></code>, or <code id=\"sanitization-algorithms:documenttype\"><a data-x-internal=\"documenttype\" href=\"https://dom.spec.whatwg.org/#interface-documenttype\">DocumentType</a></code>\n     node.</p>"
             },
             {
               "html": "<p>If <var>child</var> is a <code id=\"sanitization-algorithms:documenttype-2\"><a data-x-internal=\"documenttype\" href=\"https://dom.spec.whatwg.org/#interface-documenttype\">DocumentType</a></code> or <code id=\"sanitization-algorithms:text-2\"><a data-x-internal=\"text\" href=\"https://dom.spec.whatwg.org/#interface-text\">Text</a></code> node, then\n     <a id=\"sanitization-algorithms:continue\" href=\"https://infra.spec.whatwg.org/#iteration-continue\" data-x-internal=\"continue\">continue</a>.</p>"
@@ -39113,19 +39098,19 @@
                   "rationale": "assert",
                   "steps": [
                     {
-                      "html": "<p><a id=\"sanitization-algorithms:assert-6\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>node</var> is not a <code id=\"sanitization-algorithms:document\"><a href=\"https://html.spec.whatwg.org/multipage/dom.html#document\">Document</a></code>.</p>"
+                      "html": "<p><a id=\"sanitization-algorithms:assert-7\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>node</var> is not a <code id=\"sanitization-algorithms:document\"><a href=\"https://html.spec.whatwg.org/multipage/dom.html#document\">Document</a></code>.</p>"
                     },
                     {
                       "html": "<p>Run the <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#inner-sanitize-steps\" id=\"sanitization-algorithms:inner-sanitize-steps-2\">inner sanitize steps</a> given <var>child</var>,\n         <var>configuration</var>, and <var>handleJavascriptNavigationUrls</var>.</p>"
                     },
                     {
-                      "html": "<p>Let <var>fragment</var> be a new <code id=\"sanitization-algorithms:documentfragment-3\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code> whose <a id=\"sanitization-algorithms:node-document-3\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node\n         document</a> is <var>node</var>'s <a id=\"sanitization-algorithms:node-document-4\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a>.</p>"
+                      "html": "<p>Let <var>fragment</var> be a new <code id=\"sanitization-algorithms:documentfragment-2\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code> whose <a id=\"sanitization-algorithms:node-document\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node\n         document</a> is <var>node</var>'s <a id=\"sanitization-algorithms:node-document-2\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a>.</p>"
                     },
                     {
-                      "html": "<p><a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-3\" data-x-internal=\"list-iterate\">For each</a> <var>innerChild</var> of\n         <var>child</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-tree-child\" id=\"sanitization-algorithms:concept-tree-child-2\" data-x-internal=\"concept-tree-child\">children</a>, <a href=\"https://dom.spec.whatwg.org/#concept-node-append\" id=\"sanitization-algorithms:concept-node-append-2\" data-x-internal=\"concept-node-append\">append</a> <var>innerChild</var> to\n         <var>fragment</var>.</p>"
+                      "html": "<p><a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-2\" data-x-internal=\"list-iterate\">For each</a> <var>innerChild</var> of\n         <var>child</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-tree-child\" id=\"sanitization-algorithms:concept-tree-child-2\" data-x-internal=\"concept-tree-child\">children</a>, <a href=\"https://dom.spec.whatwg.org/#concept-node-append\" id=\"sanitization-algorithms:concept-node-append\" data-x-internal=\"concept-node-append\">append</a> <var>innerChild</var> to\n         <var>fragment</var>.</p>"
                     },
                     {
-                      "html": "<p><a href=\"https://dom.spec.whatwg.org/#concept-node-replace\" id=\"sanitization-algorithms:concept-node-replace\" data-x-internal=\"concept-node-replace\">Replace</a> <var>child</var> with\n         <var>fragment</var> within <var>node</var>. <a id=\"sanitization-algorithms:assert-7\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a> that this did not\n         throw.</p>"
+                      "html": "<p><a href=\"https://dom.spec.whatwg.org/#concept-node-replace\" id=\"sanitization-algorithms:concept-node-replace\" data-x-internal=\"concept-node-replace\">Replace</a> <var>child</var> with\n         <var>fragment</var> within <var>node</var>. <a id=\"sanitization-algorithms:assert-8\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a> that this did not\n         throw.</p>"
                     },
                     {
                       "html": "<p><a id=\"sanitization-algorithms:continue-3\" href=\"https://infra.spec.whatwg.org/#iteration-continue\" data-x-internal=\"continue\">Continue</a>.</p>"
@@ -39163,7 +39148,7 @@
                   "html": "<p>If <var>configuration</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-3\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-5\" data-x-internal=\"map-exists\">exists</a> and <var>configuration</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-4\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#list-contain\" id=\"sanitization-algorithms:list-contains-6\" data-x-internal=\"list-contains\">contains</a> <var>elementName</var>, then set\n       <var>elementWithLocalAttributes</var> to <var>configuration</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-5\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"][<var>elementName</var>].</p>"
                 },
                 {
-                  "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-4\" data-x-internal=\"list-iterate\">For each</a> <var>attribute</var> in <var>child</var>'s\n        <a id=\"sanitization-algorithms:attribute-list\" href=\"https://dom.spec.whatwg.org/#concept-element-attribute\" data-x-internal=\"attribute-list\">attribute list</a>:",
+                  "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-3\" data-x-internal=\"list-iterate\">For each</a> <var>attribute</var> in <var>child</var>'s\n        <a id=\"sanitization-algorithms:attribute-list\" href=\"https://dom.spec.whatwg.org/#concept-element-attribute\" data-x-internal=\"attribute-list\">attribute list</a>:",
                   "rationale": "let",
                   "steps": [
                     {
@@ -39243,7 +39228,7 @@
       "rationale": "assert",
       "steps": [
         {
-          "html": "<p><a id=\"sanitization-algorithms:assert-8\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>configuration</var> is <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-valid\" id=\"sanitization-algorithms:dom-sanitizerconfig-valid-2\">valid</a>.</p>"
+          "html": "<p><a id=\"sanitization-algorithms:assert-9\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>configuration</var> is <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-valid\" id=\"sanitization-algorithms:dom-sanitizerconfig-valid-2\">valid</a>.</p>"
         },
         {
           "html": "<p>Set <var>element</var> to the result of <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#canonicalize-a-sanitizer-element\" id=\"sanitization-algorithms:canonicalize-a-sanitizer-element\">canonicalizing</a> <var>element</var>.</p>"
@@ -39296,7 +39281,7 @@
       "rationale": "assert",
       "steps": [
         {
-          "html": "<p><a id=\"sanitization-algorithms:assert-9\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>configuration</var> is <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-valid\" id=\"sanitization-algorithms:dom-sanitizerconfig-valid-3\">valid</a>.</p>"
+          "html": "<p><a id=\"sanitization-algorithms:assert-10\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>configuration</var> is <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-valid\" id=\"sanitization-algorithms:dom-sanitizerconfig-valid-3\">valid</a>.</p>"
         },
         {
           "html": "<p>Set <var>attribute</var> to the result of <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#canonicalize-a-sanitizer-name\" id=\"sanitization-algorithms:canonicalize-a-sanitizer-name\">canonicalizing</a> <var>attribute</var>.</p>"
@@ -39313,7 +39298,7 @@
               "rationale": "for",
               "steps": [
                 {
-                  "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-5\" data-x-internal=\"list-iterate\">For each</a> <var>element</var> of\n        <var>configuration</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-10\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"]:",
+                  "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-4\" data-x-internal=\"list-iterate\">For each</a> <var>element</var> of\n        <var>configuration</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-10\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"]:",
                   "rationale": "if",
                   "steps": [
                     {
@@ -39333,7 +39318,7 @@
                       "rationale": "assert",
                       "steps": [
                         {
-                          "html": "<p><a id=\"sanitization-algorithms:assert-10\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>modified</var> is true.</p>"
+                          "html": "<p><a id=\"sanitization-algorithms:assert-11\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>modified</var> is true.</p>"
                         },
                         {
                           "html": "<p><a href=\"https://infra.spec.whatwg.org/#list-remove\" id=\"sanitization-algorithms:list-remove-5\" data-x-internal=\"list-remove\">Remove</a> <var>attribute</var> from\n           <var>element</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerelementnamespacewithattributes-removeattributes-4\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerelementnamespacewithattributes-removeattributes\">removeAttributes</a></code>\"].</p>"
@@ -39361,7 +39346,7 @@
               "rationale": "for",
               "steps": [
                 {
-                  "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-6\" data-x-internal=\"list-iterate\">For each</a> <var>element</var> in\n        <var>configuration</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-12\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"]:",
+                  "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-5\" data-x-internal=\"list-iterate\">For each</a> <var>element</var> in\n        <var>configuration</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-12\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"]:",
                   "rationale": "if",
                   "steps": [
                     {
@@ -39391,13 +39376,13 @@
       "rationale": "assert",
       "steps": [
         {
-          "html": "<p><a id=\"sanitization-algorithms:assert-11\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>configuration</var> is <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-valid\" id=\"sanitization-algorithms:dom-sanitizerconfig-valid-4\">valid</a>.</p>"
+          "html": "<p><a id=\"sanitization-algorithms:assert-12\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>configuration</var> is <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-valid\" id=\"sanitization-algorithms:dom-sanitizerconfig-valid-4\">valid</a>.</p>"
         },
         {
           "html": "<p>Let <var>result</var> be false.</p>"
         },
         {
-          "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-7\" data-x-internal=\"list-iterate\">For each</a> <var>element</var> in <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#built-in-safe-baseline-configuration\" id=\"sanitization-algorithms:built-in-safe-baseline-configuration\">built-in safe\n    baseline configuration</a>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-removeelements-4\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-removeelements\">removeElements</a></code>\"]:",
+          "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-6\" data-x-internal=\"list-iterate\">For each</a> <var>element</var> in <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#built-in-safe-baseline-configuration\" id=\"sanitization-algorithms:built-in-safe-baseline-configuration\">built-in safe\n    baseline configuration</a>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-removeelements-4\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-removeelements\">removeElements</a></code>\"]:",
           "rationale": "if",
           "steps": [
             {
@@ -39406,7 +39391,7 @@
           ]
         },
         {
-          "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-8\" data-x-internal=\"list-iterate\">For each</a> <var>attribute</var> in <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#built-in-safe-baseline-configuration\" id=\"sanitization-algorithms:built-in-safe-baseline-configuration-2\">built-in safe\n    baseline configuration</a>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-removeattributes-4\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-removeattributes\">removeAttributes</a></code>\"]:",
+          "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-7\" data-x-internal=\"list-iterate\">For each</a> <var>attribute</var> in <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#built-in-safe-baseline-configuration\" id=\"sanitization-algorithms:built-in-safe-baseline-configuration-2\">built-in safe\n    baseline configuration</a>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-removeattributes-4\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-removeattributes\">removeAttributes</a></code>\"]:",
           "rationale": "if",
           "steps": [
             {
@@ -39415,7 +39400,7 @@
           ]
         },
         {
-          "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-9\" data-x-internal=\"list-iterate\">For each</a> <var>attribute</var> that is an <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#event-handler-content-attributes\" id=\"sanitization-algorithms:event-handler-content-attributes\">event handler content attribute</a>:",
+          "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-8\" data-x-internal=\"list-iterate\">For each</a> <var>attribute</var> that is an <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#event-handler-content-attributes\" id=\"sanitization-algorithms:event-handler-content-attributes\">event handler content attribute</a>:",
           "rationale": "if",
           "steps": [
             {
@@ -39508,25 +39493,25 @@
       "rationale": "assert",
       "steps": [
         {
-          "html": "<p><a id=\"sanitization-algorithms:assert-12\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-13\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-16\" data-x-internal=\"map-exists\">exists</a>\n   or <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-removeelements-5\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-removeelements\">removeElements</a></code>\"]\n   <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-17\" data-x-internal=\"map-exists\">exists</a>.</p>"
+          "html": "<p><a id=\"sanitization-algorithms:assert-13\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-13\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-16\" data-x-internal=\"map-exists\">exists</a>\n   or <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-removeelements-5\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-removeelements\">removeElements</a></code>\"]\n   <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-17\" data-x-internal=\"map-exists\">exists</a>.</p>"
         },
         {
           "html": "<p>If <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-14\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-18\" data-x-internal=\"map-exists\">exists</a> and <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-removeelements-6\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-removeelements\">removeElements</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-19\" data-x-internal=\"map-exists\">exists</a>, then return false.</p>"
         },
         {
-          "html": "<p><a id=\"sanitization-algorithms:assert-13\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: Either <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-processinginstructions-3\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-processinginstructions\">processingInstructions</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-20\" data-x-internal=\"map-exists\">exists</a> or <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-removeprocessinginstructions-2\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-removeprocessinginstructions\">removeProcessingInstructions</a></code>\"]\n   <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-21\" data-x-internal=\"map-exists\">exists</a>.</p>"
+          "html": "<p><a id=\"sanitization-algorithms:assert-14\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: Either <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-processinginstructions-3\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-processinginstructions\">processingInstructions</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-20\" data-x-internal=\"map-exists\">exists</a> or <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-removeprocessinginstructions-2\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-removeprocessinginstructions\">removeProcessingInstructions</a></code>\"]\n   <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-21\" data-x-internal=\"map-exists\">exists</a>.</p>"
         },
         {
           "html": "<p>If <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-processinginstructions-4\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-processinginstructions\">processingInstructions</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-22\" data-x-internal=\"map-exists\">exists</a> and <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-removeprocessinginstructions-3\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-removeprocessinginstructions\">removeProcessingInstructions</a></code>\"]\n   <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-23\" data-x-internal=\"map-exists\">exists</a>, then return false.</p>"
         },
         {
-          "html": "<p><a id=\"sanitization-algorithms:assert-14\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: Either <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-attributes-5\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-attributes\">attributes</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-24\" data-x-internal=\"map-exists\">exists</a> or <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-removeattributes-5\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-removeattributes\">removeAttributes</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-25\" data-x-internal=\"map-exists\">exists</a>.</p>"
+          "html": "<p><a id=\"sanitization-algorithms:assert-15\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: Either <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-attributes-5\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-attributes\">attributes</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-24\" data-x-internal=\"map-exists\">exists</a> or <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-removeattributes-5\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-removeattributes\">removeAttributes</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-25\" data-x-internal=\"map-exists\">exists</a>.</p>"
         },
         {
           "html": "<p>If <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-attributes-6\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-attributes\">attributes</a></code>\"]\n   <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-26\" data-x-internal=\"map-exists\">exists</a> and <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-removeattributes-6\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-removeattributes\">removeAttributes</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-27\" data-x-internal=\"map-exists\">exists</a>, then return false.</p>"
         },
         {
-          "html": "<p><a id=\"sanitization-algorithms:assert-15\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: All <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizerelementnamespacewithattributes\" id=\"sanitization-algorithms:sanitizerelementnamespacewithattributes\">SanitizerElementNamespaceWithAttributes</a>,\n   <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizerelementnamespace\" id=\"sanitization-algorithms:sanitizerelementnamespace-2\">SanitizerElementNamespace</a>, <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizerprocessinginstruction\" id=\"sanitization-algorithms:sanitizerprocessinginstruction\">SanitizerProcessingInstruction</a>, and\n   <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizerattributenamespace\" id=\"sanitization-algorithms:sanitizerattributenamespace-2\">SanitizerAttributeNamespace</a> items in <var>config</var> are canonical, meaning they\n   have been run through <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#canonicalize-a-sanitizer-name\" id=\"sanitization-algorithms:canonicalize-a-sanitizer-name-2\">canonicalizing</a>, as\n   appropriate.</p>"
+          "html": "<p><a id=\"sanitization-algorithms:assert-16\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: All <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizerelementnamespacewithattributes\" id=\"sanitization-algorithms:sanitizerelementnamespacewithattributes\">SanitizerElementNamespaceWithAttributes</a>,\n   <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizerelementnamespace\" id=\"sanitization-algorithms:sanitizerelementnamespace-2\">SanitizerElementNamespace</a>, <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizerprocessinginstruction\" id=\"sanitization-algorithms:sanitizerprocessinginstruction\">SanitizerProcessingInstruction</a>, and\n   <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#sanitizerattributenamespace\" id=\"sanitization-algorithms:sanitizerattributenamespace-2\">SanitizerAttributeNamespace</a> items in <var>config</var> are canonical, meaning they\n   have been run through <a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#canonicalize-a-sanitizer-name\" id=\"sanitization-algorithms:canonicalize-a-sanitizer-name-2\">canonicalizing</a>, as\n   appropriate.</p>"
         },
         {
           "html": "If <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-15\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-28\" data-x-internal=\"map-exists\">exists</a>:",
@@ -39590,7 +39575,7 @@
           "rationale": "for",
           "steps": [
             {
-              "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-10\" data-x-internal=\"list-iterate\">For each</a> <var>element</var> of <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-replacewithchildrenelements-6\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-replacewithchildrenelements\">replaceWithChildrenElements</a></code>\"]:",
+              "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-9\" data-x-internal=\"list-iterate\">For each</a> <var>element</var> of <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-replacewithchildrenelements-6\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-replacewithchildrenelements\">replaceWithChildrenElements</a></code>\"]:",
               "rationale": "if",
               "steps": [
                 {
@@ -39623,14 +39608,14 @@
           "rationale": "assert",
           "steps": [
             {
-              "html": "<p><a id=\"sanitization-algorithms:assert-16\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-dataattributes-2\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-dataattributes\">dataAttributes</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-35\" data-x-internal=\"map-exists\">exists</a>.</p>"
+              "html": "<p><a id=\"sanitization-algorithms:assert-17\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-dataattributes-2\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-dataattributes\">dataAttributes</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-35\" data-x-internal=\"map-exists\">exists</a>.</p>"
             },
             {
               "html": "If <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-19\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-36\" data-x-internal=\"map-exists\">exists</a>:",
               "rationale": "for",
               "steps": [
                 {
-                  "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-11\" data-x-internal=\"list-iterate\">For each</a> <var>element</var> of\n        <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-20\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"]:",
+                  "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-10\" data-x-internal=\"list-iterate\">For each</a> <var>element</var> of\n        <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-20\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"]:",
                   "rationale": "if",
                   "steps": [
                     {
@@ -39666,7 +39651,7 @@
               "rationale": "for",
               "steps": [
                 {
-                  "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-12\" data-x-internal=\"list-iterate\">For each</a> <var>element</var> of\n        <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-22\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"]:",
+                  "html": "<a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"sanitization-algorithms:list-iterate-11\" data-x-internal=\"list-iterate\">For each</a> <var>element</var> of\n        <var>config</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-elements-22\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-elements\">elements</a></code>\"]:",
                   "rationale": "if",
                   "steps": [
                     {
@@ -46427,22 +46412,42 @@
       ]
     },
     {
+      "name": "adjusted insertion location",
+      "href": "https://html.spec.whatwg.org/multipage/parsing.html#adjusted-insertion-location",
+      "html": "To compute the <dfn id=\"adjusted-insertion-location\">adjusted insertion location</dfn> with an optional insertion location\n  <var>insertionLocation</var> (default null):",
+      "rationale": "let",
+      "steps": [
+        {
+          "html": "<p>Let <var>overrideTarget</var> be null if <var>insertionLocation</var> is null;\n   otherwise the node in which <var>insertionLocation</var> finds itself.</p>"
+        },
+        {
+          "html": "<p>Let the <var>adjustedInsertionLocation</var> be the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#appropriate-place-for-inserting-a-node\" id=\"creating-and-inserting-nodes:appropriate-place-for-inserting-a-node\">appropriate place for inserting\n   a node</a> given <var>overrideTarget</var>.</p>"
+        },
+        {
+          "html": "<p>If the node in which the <var>adjustedInsertionLocation</var> finds itself is the first\n   element in the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#stack-of-open-elements\" id=\"creating-and-inserting-nodes:stack-of-open-elements-7\">stack of open elements</a> and the parser's <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#root-insertion-target\" id=\"creating-and-inserting-nodes:root-insertion-target\">root insertion\n   target</a> is non-null, then set the <var>adjustedInsertionLocation</var> to the parser's\n   <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#root-insertion-target\" id=\"creating-and-inserting-nodes:root-insertion-target-2\">root insertion target</a>, after its last child (if any).</p>"
+        },
+        {
+          "html": "<p>Return the <var>adjustedInsertionLocation</var>.</p>"
+        }
+      ]
+    },
+    {
       "name": "insert an element at the adjusted insertion location",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#insert-an-element-at-the-adjusted-insertion-location",
       "html": "To <dfn id=\"insert-an-element-at-the-adjusted-insertion-location\">insert an element at the adjusted insertion location</dfn> with an element\n  <var>element</var>:",
       "rationale": "let",
       "steps": [
         {
-          "html": "<p>Let the <var>adjusted insertion location</var> be the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#appropriate-place-for-inserting-a-node\" id=\"creating-and-inserting-nodes:appropriate-place-for-inserting-a-node\">appropriate place for\n   inserting a node</a>.</p>"
+          "html": "<p>Let <var>insertionLocation</var> be the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#adjusted-insertion-location\" id=\"creating-and-inserting-nodes:adjusted-insertion-location\">adjusted insertion location</a>.</p>"
         },
         {
-          "html": "<p>If it is not possible to insert <var>element</var> at the <var>adjusted insertion\n   location</var>, abort these steps.</p>"
+          "html": "<p>If it is not possible to insert <var>element</var> at <var>insertionLocation</var>, abort\n   these steps.</p>"
         },
         {
           "html": "<p>If the parser was not created as part of the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-fragment-parsing-algorithm\" id=\"creating-and-inserting-nodes:html-fragment-parsing-algorithm-2\">HTML fragment parsing\n   algorithm</a>, then push a new <a id=\"creating-and-inserting-nodes:element-queue-3\" href=\"https://html.spec.whatwg.org/multipage/custom-elements.html#element-queue\">element queue</a> onto <var>element</var>'s\n   <a id=\"creating-and-inserting-nodes:relevant-agent-3\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-agent\">relevant agent</a>'s <a id=\"creating-and-inserting-nodes:custom-element-reactions-stack-3\" href=\"https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element-reactions-stack\">custom element reactions stack</a>.</p>"
         },
         {
-          "html": "<p>Insert <var>element</var> at the <var>adjusted insertion location</var>.</p>"
+          "html": "<p>Insert <var>element</var> at <var>insertionLocation</var>.</p>"
         },
         {
           "html": "<p>If the parser was not created as part of the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-fragment-parsing-algorithm\" id=\"creating-and-inserting-nodes:html-fragment-parsing-algorithm-3\">HTML fragment parsing\n   algorithm</a>, then pop the <a id=\"creating-and-inserting-nodes:element-queue-4\" href=\"https://html.spec.whatwg.org/multipage/custom-elements.html#element-queue\">element queue</a> from <var>element</var>'s\n   <a id=\"creating-and-inserting-nodes:relevant-agent-4\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#relevant-agent\">relevant agent</a>'s <a id=\"creating-and-inserting-nodes:custom-element-reactions-stack-4\" href=\"https://html.spec.whatwg.org/multipage/custom-elements.html#custom-element-reactions-stack\">custom element reactions stack</a>, and <a id=\"creating-and-inserting-nodes:invoke-custom-element-reactions-2\" href=\"https://html.spec.whatwg.org/multipage/custom-elements.html#invoke-custom-element-reactions\">invoke\n   custom element reactions</a> in that queue.</p>"
@@ -46465,7 +46470,7 @@
           "html": "<p>If <var>onlyAddToElementStack</var> is false, then run <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#insert-an-element-at-the-adjusted-insertion-location\" id=\"creating-and-inserting-nodes:insert-an-element-at-the-adjusted-insertion-location\">insert an element at the\n   adjusted insertion location</a> with <var>element</var>.</p>"
         },
         {
-          "html": "<p>Push <var>element</var> onto the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#stack-of-open-elements\" id=\"creating-and-inserting-nodes:stack-of-open-elements-7\">stack of open elements</a> so that it is the new\n   <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#current-node\" id=\"creating-and-inserting-nodes:current-node-2\">current node</a>.</p>"
+          "html": "<p>Push <var>element</var> onto the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#stack-of-open-elements\" id=\"creating-and-inserting-nodes:stack-of-open-elements-8\">stack of open elements</a> so that it is the new\n   <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#current-node\" id=\"creating-and-inserting-nodes:current-node-2\">current node</a>.</p>"
         },
         {
           "html": "<p>Return <var>element</var>.</p>"
@@ -46479,43 +46484,43 @@
       "rationale": "let",
       "steps": [
         {
-          "html": "<p>Let <var>data</var> be the characters passed to the algorithm, or, if no\n   characters were explicitly specified, the character of the character token being\n   processed.</p>"
+          "html": "<p>Let <var>data</var> be the characters passed to the algorithm, or, if no characters were\n   explicitly specified, the character of the character token being processed.</p>"
         },
         {
-          "html": "<p>Let the <var>adjusted insertion location</var> be the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#appropriate-place-for-inserting-a-node\" id=\"creating-and-inserting-nodes:appropriate-place-for-inserting-a-node-3\">appropriate\n   place for inserting a node</a>.</p>"
+          "html": "<p>Let <var>insertionLocation</var> be the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#adjusted-insertion-location\" id=\"creating-and-inserting-nodes:adjusted-insertion-location-3\">adjusted insertion location</a>.</p>"
         },
         {
-          "html": "<p>If the <var>adjusted insertion location</var> is in a <code id=\"creating-and-inserting-nodes:document-2\"><a href=\"https://html.spec.whatwg.org/multipage/dom.html#document\">Document</a></code> node,\n    then return.\n\n    </p>"
+          "html": "<p>If <var>insertionLocation</var> is in a <code id=\"creating-and-inserting-nodes:document-2\"><a href=\"https://html.spec.whatwg.org/multipage/dom.html#document\">Document</a></code> node, then return.</p>"
         },
         {
-          "html": "<p>If there is a <code id=\"creating-and-inserting-nodes:text-2\"><a data-x-internal=\"text\" href=\"https://dom.spec.whatwg.org/#interface-text\">Text</a></code> node immediately before the <var>adjusted insertion\n    location</var>, then append <var>data</var> to that <code id=\"creating-and-inserting-nodes:text-3\"><a data-x-internal=\"text\" href=\"https://dom.spec.whatwg.org/#interface-text\">Text</a></code> node's <a href=\"https://dom.spec.whatwg.org/#concept-cd-data\" id=\"creating-and-inserting-nodes:concept-cd-data\" data-x-internal=\"concept-cd-data\">data</a>.</p>\n\n    <p>Otherwise, create a new <code id=\"creating-and-inserting-nodes:text-4\"><a data-x-internal=\"text\" href=\"https://dom.spec.whatwg.org/#interface-text\">Text</a></code> node whose <a href=\"https://dom.spec.whatwg.org/#concept-cd-data\" id=\"creating-and-inserting-nodes:concept-cd-data-2\" data-x-internal=\"concept-cd-data\">data</a> is <var>data</var> and\n    whose <a id=\"creating-and-inserting-nodes:node-document-2\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a> is the same as that of the\n    element in which the <var>adjusted insertion location</var> finds itself, and insert\n    the newly created node at the <var>adjusted insertion location</var>.</p>"
+          "html": "<p>If there is a <code id=\"creating-and-inserting-nodes:text-2\"><a data-x-internal=\"text\" href=\"https://dom.spec.whatwg.org/#interface-text\">Text</a></code> node immediately before <var>insertionLocation</var>, then\n    append <var>data</var> to that <code id=\"creating-and-inserting-nodes:text-3\"><a data-x-internal=\"text\" href=\"https://dom.spec.whatwg.org/#interface-text\">Text</a></code> node's <a href=\"https://dom.spec.whatwg.org/#concept-cd-data\" id=\"creating-and-inserting-nodes:concept-cd-data\" data-x-internal=\"concept-cd-data\">data</a>.</p>\n\n    <p>Otherwise, create a new <code id=\"creating-and-inserting-nodes:text-4\"><a data-x-internal=\"text\" href=\"https://dom.spec.whatwg.org/#interface-text\">Text</a></code> node whose <a href=\"https://dom.spec.whatwg.org/#concept-cd-data\" id=\"creating-and-inserting-nodes:concept-cd-data-2\" data-x-internal=\"concept-cd-data\">data</a> is <var>data</var> and whose <a id=\"creating-and-inserting-nodes:node-document-2\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a> is\n    the same as that of the element in which <var>insertionLocation</var> finds itself, and insert\n    the newly created node at <var>insertionLocation</var>.</p>"
         }
       ]
     },
     {
       "name": "insert a comment",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#insert-a-comment",
-      "html": "When the steps below require the user agent to <dfn id=\"insert-a-comment\">insert a comment</dfn> while processing a\n  comment token, optionally with an explicit insertion position <var>position</var>, the\n  user agent must run the following steps:",
+      "html": "When the steps below require the user agent to <dfn id=\"insert-a-comment\">insert a comment</dfn> while processing a\n  comment token, with an optional insertion location <var>insertionLocation</var> (default null),\n  the user agent must run the following steps:",
       "rationale": "let",
       "steps": [
         {
           "html": "<p>Let <var>data</var> be the data given in the comment token being\n   processed.</p>"
         },
         {
-          "html": "<p>If <var>position</var> was specified, then let the <var>adjusted\n   insertion location</var> be <var>position</var>. Otherwise, let <var>adjusted\n   insertion location</var> be the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#appropriate-place-for-inserting-a-node\" id=\"creating-and-inserting-nodes:appropriate-place-for-inserting-a-node-4\">appropriate place for inserting a node</a>.</p>"
+          "html": "<p>Set <var>insertionLocation</var> to the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#adjusted-insertion-location\" id=\"creating-and-inserting-nodes:adjusted-insertion-location-4\">adjusted insertion location</a> given\n   <var>insertionLocation</var>.</p>"
         },
         {
-          "html": "<p>Create a <code id=\"creating-and-inserting-nodes:comment-2\"><a data-x-internal=\"comment-2\" href=\"https://dom.spec.whatwg.org/#interface-comment\">Comment</a></code> node whose <code>data</code> attribute is set to\n   <var>data</var> and whose <a id=\"creating-and-inserting-nodes:node-document-3\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a> is\n   the same as that of the node in which the <var>adjusted insertion location</var> finds\n   itself.</p>"
+          "html": "<p>Create a <code id=\"creating-and-inserting-nodes:comment-2\"><a data-x-internal=\"comment-2\" href=\"https://dom.spec.whatwg.org/#interface-comment\">Comment</a></code> node whose <code>data</code> attribute is set to\n   <var>data</var> and whose <a id=\"creating-and-inserting-nodes:node-document-3\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a> is the same as that of the node in which the\n   <var>insertionLocation</var> finds itself.</p>"
         },
         {
-          "html": "<p>Insert the newly created node at the <var>adjusted insertion\n   location</var>.</p>"
+          "html": "<p>Insert the newly created node at <var>insertionLocation</var>.</p>"
         }
       ]
     },
     {
       "name": "insert a processing instruction",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#insert-a-processing-instruction",
-      "html": "When the steps below require the user agent to <dfn id=\"insert-a-processing-instruction\">insert a processing instruction</dfn> while\n  processing a processing instruction token, the user agent must run the following steps:",
+      "html": "When the steps below require the user agent to <dfn id=\"insert-a-processing-instruction\">insert a processing instruction</dfn> while\n  processing a processing instruction token, with an optional insertion location\n  <var>insertionLocation</var> (default null), the user agent must run the following steps:",
       "rationale": "let",
       "steps": [
         {
@@ -46525,10 +46530,13 @@
           "html": "<p>Let <var>data</var> be the data given in the processing instruction token being\n   processed.</p>"
         },
         {
-          "html": "<p>Create a <code id=\"creating-and-inserting-nodes:processinginstruction\"><a data-x-internal=\"processinginstruction\" href=\"https://dom.spec.whatwg.org/#interface-processinginstruction\">ProcessingInstruction</a></code> node whose <a href=\"https://dom.spec.whatwg.org/#concept-pi-target\" id=\"creating-and-inserting-nodes:concept-pi-target\" data-x-internal=\"concept-pi-target\">target</a> is <var>target</var>, <a href=\"https://dom.spec.whatwg.org/#concept-cd-data\" id=\"creating-and-inserting-nodes:concept-cd-data-3\" data-x-internal=\"concept-cd-data\">data</a> is <var>data</var>, and <a id=\"creating-and-inserting-nodes:node-document-4\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a> is the\n   same as that of the node in which the <var>adjusted insertion location</var> finds itself.</p>"
+          "html": "<p>Set <var>insertionLocation</var> to the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#adjusted-insertion-location\" id=\"creating-and-inserting-nodes:adjusted-insertion-location-5\">adjusted insertion location</a> given\n   <var>insertionLocation</var>.</p>"
         },
         {
-          "html": "<p>Insert the newly created node at the <var>adjusted insertion location</var>.</p>"
+          "html": "<p>Create a <code id=\"creating-and-inserting-nodes:processinginstruction\"><a data-x-internal=\"processinginstruction\" href=\"https://dom.spec.whatwg.org/#interface-processinginstruction\">ProcessingInstruction</a></code> node whose <a href=\"https://dom.spec.whatwg.org/#concept-pi-target\" id=\"creating-and-inserting-nodes:concept-pi-target\" data-x-internal=\"concept-pi-target\">target</a> is <var>target</var>, <a href=\"https://dom.spec.whatwg.org/#concept-cd-data\" id=\"creating-and-inserting-nodes:concept-cd-data-3\" data-x-internal=\"concept-cd-data\">data</a> is <var>data</var>, and <a id=\"creating-and-inserting-nodes:node-document-4\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a> is the\n   same as that of the node in which the <var>insertionLocation</var> finds itself.</p>"
+        },
+        {
+          "html": "<p>Insert the newly created node at <var>insertionLocation</var>.</p>"
         }
       ]
     },
@@ -46739,10 +46747,10 @@
               "rationale": "let",
               "steps": [
                 {
-                  "html": "<p>Let the <var>adjusted insertion location</var> be the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#appropriate-place-for-inserting-a-node\" id=\"parsing-main-inhead:appropriate-place-for-inserting-a-node\">appropriate place\n     for inserting a node</a>.</p>"
+                  "html": "<p>Let the <var>adjustedInsertionLocation</var> be the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#appropriate-place-for-inserting-a-node\" id=\"parsing-main-inhead:appropriate-place-for-inserting-a-node\">appropriate place for\n     inserting a node</a>.</p>"
                 },
                 {
-                  "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#create-an-element-for-the-token\" id=\"parsing-main-inhead:create-an-element-for-the-token\">Create an element for the token</a> in the <a id=\"parsing-main-inhead:html-namespace-2\" href=\"https://infra.spec.whatwg.org/#html-namespace\" data-x-internal=\"html-namespace-2\">HTML namespace</a>, with\n     the intended parent being the element in which the <var>adjusted insertion\n     location</var> finds itself.</p>"
+                  "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#create-an-element-for-the-token\" id=\"parsing-main-inhead:create-an-element-for-the-token\">Create an element for the token</a> in the <a id=\"parsing-main-inhead:html-namespace-2\" href=\"https://infra.spec.whatwg.org/#html-namespace\" data-x-internal=\"html-namespace-2\">HTML namespace</a>, with\n     the intended parent being the element in which the <var>adjustedInsertionLocation</var> finds\n     itself.</p>"
                 },
                 {
                   "html": "<p>If the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode\" id=\"parsing-main-inhead:scripting-mode-3\">scripting mode</a> is not <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-fragment\" id=\"parsing-main-inhead:scripting-mode-fragment\">Fragment</a>, then set the element's\n      <a id=\"parsing-main-inhead:parser-document\" href=\"https://html.spec.whatwg.org/multipage/scripting.html#parser-document\">parser document</a> to the <code id=\"parsing-main-inhead:document\"><a href=\"https://html.spec.whatwg.org/multipage/dom.html#document\">Document</a></code>.</p>"
@@ -46757,7 +46765,7 @@
                   "html": "<p>If the parser was invoked via the <code id=\"parsing-main-inhead:dom-document-write-2\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-write\">document.write()</a></code> or <code id=\"parsing-main-inhead:dom-document-writeln\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-writeln\">document.writeln()</a></code> methods, then optionally set the\n     <code id=\"parsing-main-inhead:the-script-element-2\"><a href=\"https://html.spec.whatwg.org/multipage/scripting.html#the-script-element\">script</a></code> element's <a id=\"parsing-main-inhead:already-started-2\" href=\"https://html.spec.whatwg.org/multipage/scripting.html#already-started\">already started</a> to true. (For example, the user\n     agent might use this clause to prevent execution of <a href=\"https://html.spec.whatwg.org/multipage/browsers.html#concept-origin\" id=\"parsing-main-inhead:concept-origin\">cross-origin</a>\n     scripts inserted via <code id=\"parsing-main-inhead:dom-document-write-3\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-write\">document.write()</a></code> under slow\n     network conditions, or when the page has already taken a long time to load.)</p>"
                 },
                 {
-                  "html": "<p>Insert the newly created element at the <var>adjusted insertion\n     location</var>.</p>"
+                  "html": "<p>Insert the newly created element at the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#adjusted-insertion-location\" id=\"parsing-main-inhead:adjusted-insertion-location\">adjusted insertion location</a> given\n     <var>adjustedInsertionLocation</var>.</p>"
                 },
                 {
                   "html": "<p>Push the element onto the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#stack-of-open-elements\" id=\"parsing-main-inhead:stack-of-open-elements-3\">stack of open elements</a> so that it is the new\n     <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#current-node\" id=\"parsing-main-inhead:current-node-3\">current node</a>.</p>"
@@ -46811,7 +46819,7 @@
                   "html": "<p>Let <var>document</var> be <var>intendedParent</var>'s <a id=\"parsing-main-inhead:node-document\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node\n     document</a>.</p>"
                 },
                 {
-                  "html": "<p>If any of the following are false:</p>\n\n      <ul><li><var>templateStartTag</var>'s <code id=\"parsing-main-inhead:attr-template-shadowrootmode\"><a href=\"https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootmode\">shadowrootmode</a></code> is not in the <a href=\"https://html.spec.whatwg.org/multipage/scripting.html#attr-shadowrootmode-none-state\" id=\"parsing-main-inhead:attr-shadowrootmode-none-state\">None</a> state;</li><li><var>document</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-document-allow-declarative-shadow-roots\" id=\"parsing-main-inhead:concept-document-allow-declarative-shadow-roots\" data-x-internal=\"concept-document-allow-declarative-shadow-roots\">allow declarative shadow\n       roots</a> is true; or</li><li>the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#adjusted-current-node\" id=\"parsing-main-inhead:adjusted-current-node\">adjusted current node</a> is not the topmost element in the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#stack-of-open-elements\" id=\"parsing-main-inhead:stack-of-open-elements-5\">stack of\n       open elements</a>,</li></ul>\n\n      <p>then <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#insert-an-html-element\" id=\"parsing-main-inhead:insert-an-html-element-4\">insert an HTML element</a> for the token.</p>"
+                  "html": "<p>If any of the following are false:</p>\n\n      <ul><li><var>templateStartTag</var>'s <code id=\"parsing-main-inhead:attr-template-shadowrootmode\"><a href=\"https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootmode\">shadowrootmode</a></code> is not in the <a href=\"https://html.spec.whatwg.org/multipage/scripting.html#attr-shadowrootmode-none-state\" id=\"parsing-main-inhead:attr-shadowrootmode-none-state\">None</a> state;</li><li>the parser's <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#allow-declarative-shadow-roots\" id=\"parsing-main-inhead:allow-declarative-shadow-roots\">allow declarative shadow roots</a> is true; or</li><li>the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#adjusted-current-node\" id=\"parsing-main-inhead:adjusted-current-node\">adjusted current node</a> is not the topmost element in the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#stack-of-open-elements\" id=\"parsing-main-inhead:stack-of-open-elements-5\">stack of\n       open elements</a>,</li></ul>\n\n      <p>then <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#insert-an-html-element\" id=\"parsing-main-inhead:insert-an-html-element-4\">insert an HTML element</a> for the token.</p>"
                 },
                 {
                   "html": "Otherwise:",
@@ -47803,7 +47811,10 @@
               ]
             },
             {
-              "html": "<p>Insert whatever <var>lastNode</var> ended up being in the previous step at the\n     <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#appropriate-place-for-inserting-a-node\" id=\"parsing-main-inbody:appropriate-place-for-inserting-a-node\">appropriate place for inserting a node</a>, but using <var>commonAncestor</var>\n     as the <i>override target</i>.</p>"
+              "html": "<p>Let <var>insertionLocation</var> be <var>commonAncestor</var>, after its last child, if\n     any.</p>"
+            },
+            {
+              "html": "<p>Insert whatever <var>lastNode</var> ended up being in the previous step at the\n     <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#adjusted-insertion-location\" id=\"parsing-main-inbody:adjusted-insertion-location\">adjusted insertion location</a> given <var>insertionLocation</var>.</p>"
             },
             {
               "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#create-an-element-for-the-token\" id=\"parsing-main-inbody:create-an-element-for-the-token-2\">Create an element for the token</a> for which <var>formattingElement</var> was created,\n     in the <a id=\"parsing-main-inbody:html-namespace-2-2\" href=\"https://infra.spec.whatwg.org/#html-namespace\" data-x-internal=\"html-namespace-2\">HTML namespace</a>, with <var>furthestBlock</var> as the intended parent.</p>"
@@ -49221,29 +49232,32 @@
     {
       "name": "HTML fragment parsing algorithm",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#html-fragment-parsing-algorithm",
-      "html": "The <dfn id=\"html-fragment-parsing-algorithm\">HTML fragment parsing algorithm</dfn>, given an <code id=\"parsing-html-fragments:element\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code> node <dfn id=\"concept-frag-parse-context\"><var>context</var></dfn>, string <var>input</var>, an\n  optional boolean <var>allowDeclarativeShadowRoots</var> (default false), and an optional\n  <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#parser-scripting-mode\" id=\"parsing-html-fragments:parser-scripting-mode\">parser scripting mode</a> <var>scriptingMode</var> (default <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-inert\" id=\"parsing-html-fragments:scripting-mode-inert\">Inert</a>) is the following steps. They return a list of zero or\n  more nodes.",
+      "html": "The <dfn id=\"html-fragment-parsing-algorithm\">HTML fragment parsing algorithm</dfn>, given an <code id=\"parsing-html-fragments:element\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code> or\n  <code id=\"parsing-html-fragments:documentfragment\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code> <var>target</var>, a string <var>input</var>, an optional boolean\n  <var>allowDeclarativeShadowRoots</var> (default false), and an optional <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#parser-scripting-mode\" id=\"parsing-html-fragments:parser-scripting-mode\">parser scripting\n  mode</a> <var>scriptingMode</var> (default <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-inert\" id=\"parsing-html-fragments:scripting-mode-inert\">Inert</a>),\n  is the following steps. They return a <code id=\"parsing-html-fragments:documentfragment-2\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code>.",
       "rationale": "assert",
       "steps": [
         {
           "html": "<p><a id=\"parsing-html-fragments:assert\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var>scriptingMode</var> is either <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-inert\" id=\"parsing-html-fragments:scripting-mode-inert-2\">Inert</a> or <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-fragment\" id=\"parsing-html-fragments:scripting-mode-fragment\">Fragment</a>.\n\n   </p>"
         },
         {
+          "html": "<p>Let <dfn id=\"concept-frag-parse-context\"><var>context</var></dfn> be\n   <var>target</var> if <var>target</var> is an <code id=\"parsing-html-fragments:element-2\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code>; otherwise\n   <var>target</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-documentfragment-host\" id=\"parsing-html-fragments:concept-documentfragment-host\" data-x-internal=\"concept-documentfragment-host\">host</a>.</p>"
+        },
+        {
+          "html": "<p><a id=\"parsing-html-fragments:assert-2\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var id=\"parsing-html-fragments:concept-frag-parse-context\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var> is\n   non-null.</p>"
+        },
+        {
           "html": "<p>Let <var>document</var> be a <code id=\"parsing-html-fragments:document\"><a href=\"https://html.spec.whatwg.org/multipage/dom.html#document\">Document</a></code> node whose <a href=\"https://dom.spec.whatwg.org/#concept-document-type\" id=\"parsing-html-fragments:concept-document-type\" data-x-internal=\"concept-document-type\">type</a> is \"<code>html</code>\".</p>"
         },
         {
-          "html": "<p>Let <var>contextDocument</var> be <var id=\"parsing-html-fragments:concept-frag-parse-context\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var>'s\n   <a id=\"parsing-html-fragments:node-document\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a>.</p>"
+          "html": "<p>Let <var>contextDocument</var> be <var id=\"parsing-html-fragments:concept-frag-parse-context-2\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var>'s <a id=\"parsing-html-fragments:node-document\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a>.</p>"
         },
         {
           "html": "<p>If <var>contextDocument</var> is in <a id=\"parsing-html-fragments:quirks-mode\" href=\"https://dom.spec.whatwg.org/#concept-document-quirks\" data-x-internal=\"quirks-mode\">quirks mode</a>, then set\n   <var>document</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-document-mode\" id=\"parsing-html-fragments:concept-document-mode\" data-x-internal=\"concept-document-mode\">mode</a> to \"<code>quirks</code>\".</p>"
         },
         {
-          "html": "<p>Otherwise, if <var id=\"parsing-html-fragments:concept-frag-parse-context-2\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var>'s <a id=\"parsing-html-fragments:node-document-2\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node\n   document</a> is in <a id=\"parsing-html-fragments:limited-quirks-mode\" href=\"https://dom.spec.whatwg.org/#concept-document-limited-quirks\" data-x-internal=\"limited-quirks-mode\">limited-quirks mode</a>, then set <var>document</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-document-mode\" id=\"parsing-html-fragments:concept-document-mode-2\" data-x-internal=\"concept-document-mode\">mode</a> to \"<code>limited-quirks</code>\".</p>"
+          "html": "<p>Otherwise, if <var>contextDocument</var> is in <a id=\"parsing-html-fragments:limited-quirks-mode\" href=\"https://dom.spec.whatwg.org/#concept-document-limited-quirks\" data-x-internal=\"limited-quirks-mode\">limited-quirks mode</a>, then set\n   <var>document</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-document-mode\" id=\"parsing-html-fragments:concept-document-mode-2\" data-x-internal=\"concept-document-mode\">mode</a> to \"<code>limited-quirks</code>\".</p>"
         },
         {
-          "html": "<p>If <var>allowDeclarativeShadowRoots</var> is true, then set <var>document</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-document-allow-declarative-shadow-roots\" id=\"parsing-html-fragments:concept-document-allow-declarative-shadow-roots\" data-x-internal=\"concept-document-allow-declarative-shadow-roots\">allow declarative shadow roots</a> to\n   true.</p>"
-        },
-        {
-          "html": "<p>Create a new <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\" id=\"parsing-html-fragments:html-parser-2\">HTML parser</a>, and associate it with <var>document</var>.</p>"
+          "html": "<p>Create a new <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\" id=\"parsing-html-fragments:html-parser-2\">HTML parser</a> whose <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#allow-declarative-shadow-roots\" id=\"parsing-html-fragments:allow-declarative-shadow-roots\">allow declarative shadow roots</a> is\n   <var>allowDeclarativeShadowRoots</var>, and associate it with <var>document</var>.</p>"
         },
         {
           "html": "<p>If <var>contextDocument</var>'s <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-n-script\" id=\"parsing-html-fragments:concept-n-script\">scripting is\n   disabled</a>, then set <var>scriptingMode</var> to <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode-disabled\" id=\"parsing-html-fragments:scripting-mode-disabled\">Disabled</a>.</p>"
@@ -49252,7 +49266,7 @@
           "html": "<p>Set the parser's <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#scripting-mode\" id=\"parsing-html-fragments:scripting-mode\">scripting mode</a> to <var>scriptingMode</var>.</p>"
         },
         {
-          "html": "Set the state of the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\" id=\"parsing-html-fragments:html-parser-3\">HTML parser</a>'s <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#tokenization\" id=\"parsing-html-fragments:tokenization\">tokenization</a> stage as\n    follows, switching on the <var id=\"parsing-html-fragments:concept-frag-parse-context-3\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var> element:",
+          "html": "Set the state of the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\" id=\"parsing-html-fragments:html-parser-3\">HTML parser</a>'s <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#tokenization\" id=\"parsing-html-fragments:tokenization\">tokenization</a> stage as\n    follows, switching on <var id=\"parsing-html-fragments:concept-frag-parse-context-3\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var>:",
           "rationale": ".switch",
           "steps": [
             {
@@ -49307,13 +49321,19 @@
           ]
         },
         {
-          "html": "<p>Let <var>root</var> be the result of <a href=\"https://dom.spec.whatwg.org/#concept-create-element\" id=\"parsing-html-fragments:create-an-element\" data-x-internal=\"create-an-element\">creating an\n   element</a> given <var>document</var>, \"<code>html</code>\", the <a id=\"parsing-html-fragments:html-namespace-2\" href=\"https://infra.spec.whatwg.org/#html-namespace\" data-x-internal=\"html-namespace-2\">HTML\n   namespace</a>, null, null, false, and <var>context</var>'s <a href=\"https://dom.spec.whatwg.org/#element-custom-element-registry\" id=\"parsing-html-fragments:element-custom-element-registry\" data-x-internal=\"element-custom-element-registry\">custom element registry</a>.</p>"
+          "html": "<p>Let <var>root</var> be the result of <a href=\"https://dom.spec.whatwg.org/#concept-create-element\" id=\"parsing-html-fragments:create-an-element\" data-x-internal=\"create-an-element\">creating an\n   element</a> given <var>document</var>, \"<code>html</code>\", the <a id=\"parsing-html-fragments:html-namespace-2\" href=\"https://infra.spec.whatwg.org/#html-namespace\" data-x-internal=\"html-namespace-2\">HTML\n   namespace</a>, null, null, false, and the result of <a href=\"https://html.spec.whatwg.org/multipage/custom-elements.html#look-up-a-custom-element-registry\" id=\"parsing-html-fragments:look-up-a-custom-element-registry\">looking up a custom element registry</a> given <var>target</var>.</p>"
         },
         {
           "html": "<p><a href=\"https://dom.spec.whatwg.org/#concept-node-append\" id=\"parsing-html-fragments:concept-node-append\" data-x-internal=\"concept-node-append\">Append</a> <var>root</var> to\n   <var>document</var>.</p>"
         },
         {
           "html": "<p>Set up the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\" id=\"parsing-html-fragments:html-parser-4\">HTML parser</a>'s <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#stack-of-open-elements\" id=\"parsing-html-fragments:stack-of-open-elements\">stack of open elements</a> so that it\n   contains just the single element <var>root</var>.</p>"
+        },
+        {
+          "html": "<p>Let <var>fragment</var> be a new <code id=\"parsing-html-fragments:documentfragment-3\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code> whose <a id=\"parsing-html-fragments:node-document-2\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node\n   document</a> is <var>target</var>'s <a id=\"parsing-html-fragments:node-document-3\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a>.</p>"
+        },
+        {
+          "html": "<p>Set the parser's <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#root-insertion-target\" id=\"parsing-html-fragments:root-insertion-target\">root insertion target</a> to <var>fragment</var>.</p>"
         },
         {
           "html": "<p>If <var id=\"parsing-html-fragments:concept-frag-parse-context-4\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var> is a <code id=\"parsing-html-fragments:the-template-element\"><a href=\"https://html.spec.whatwg.org/multipage/scripting.html#the-template-element\">template</a></code>\n   element, then push \"<a href=\"https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-intemplate\" id=\"parsing-html-fragments:parsing-main-intemplate\">in template</a>\" onto the\n   <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#stack-of-template-insertion-modes\" id=\"parsing-html-fragments:stack-of-template-insertion-modes\">stack of template insertion modes</a> so that it is the new <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#current-template-insertion-mode\" id=\"parsing-html-fragments:current-template-insertion-mode\">current template\n   insertion mode</a>.</p>"
@@ -49334,7 +49354,7 @@
           "html": "<p>Start the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-parser\" id=\"parsing-html-fragments:html-parser-7\">HTML parser</a> and let it run until it has consumed all the characters\n   just inserted into the input stream.</p>"
         },
         {
-          "html": "<p>Return <var>root</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-tree-child\" id=\"parsing-html-fragments:concept-tree-child\" data-x-internal=\"concept-tree-child\">children</a>, in <a id=\"parsing-html-fragments:tree-order\" href=\"https://dom.spec.whatwg.org/#concept-tree-order\" data-x-internal=\"tree-order\">tree\n   order</a>.</p>"
+          "html": "<p>Return <var>fragment</var>.</p>"
         }
       ]
     },
@@ -49362,20 +49382,26 @@
     {
       "name": "XML fragment parsing algorithm",
       "href": "https://html.spec.whatwg.org/multipage/xhtml.html#xml-fragment-parsing-algorithm",
-      "html": "The <dfn id=\"xml-fragment-parsing-algorithm\">XML fragment parsing algorithm</dfn> given an <code id=\"parsing-xhtml-fragments:element\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code> node <var id=\"parsing-xhtml-fragments:concept-frag-parse-context\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var> and a string <var>input</var>, runs the\n  following steps. They return a list of nodes.",
-      "rationale": "create",
+      "html": "The <dfn id=\"xml-fragment-parsing-algorithm\">XML fragment parsing algorithm</dfn> given an <code id=\"parsing-xhtml-fragments:element\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code> or\n  <code id=\"parsing-xhtml-fragments:documentfragment\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code> node <var>target</var> and a string <var>input</var>, runs the\n  following steps. They return a <code id=\"parsing-xhtml-fragments:documentfragment-2\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code>.",
+      "rationale": "let",
       "steps": [
+        {
+          "html": "<p>Let <var id=\"parsing-xhtml-fragments:concept-frag-parse-context\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var> be <var>target</var> if\n   <var>target</var> is an <code id=\"parsing-xhtml-fragments:element-2\"><a data-x-internal=\"element\" href=\"https://dom.spec.whatwg.org/#interface-element\">Element</a></code>; otherwise <var>target</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-documentfragment-host\" id=\"parsing-xhtml-fragments:concept-documentfragment-host\" data-x-internal=\"concept-documentfragment-host\">host</a>.</p>"
+        },
+        {
+          "html": "<p><a id=\"parsing-xhtml-fragments:assert\" href=\"https://infra.spec.whatwg.org/#assert\" data-x-internal=\"assert\">Assert</a>: <var id=\"parsing-xhtml-fragments:concept-frag-parse-context-2\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var> is\n   non-null.</p>"
+        },
         {
           "html": "<p>Create a new <a href=\"https://html.spec.whatwg.org/multipage/xhtml.html#xml-parser\" id=\"parsing-xhtml-fragments:xml-parser\">XML parser</a>.</p>"
         },
         {
-          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/xhtml.html#feed-the-parser\" id=\"parsing-xhtml-fragments:feed-the-parser\">Feed the parser</a> just created the string corresponding to the start tag of <var id=\"parsing-xhtml-fragments:concept-frag-parse-context-2\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var>, declaring all the namespace prefixes that are\n    in scope on that element in the DOM, as well as declaring the default namespace (if any) that is\n    in scope on that element in the DOM.</p>\n\n    <p>A namespace prefix is in scope if the DOM <code>lookupNamespaceURI()</code> method\n    on the element would return a non-null value for that prefix.</p>\n\n    <p>The default namespace is the namespace for which the DOM <code>isDefaultNamespace()</code> method on the element would return true.</p>"
+          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/xhtml.html#feed-the-parser\" id=\"parsing-xhtml-fragments:feed-the-parser\">Feed the parser</a> just created the string corresponding to the start tag of <var id=\"parsing-xhtml-fragments:concept-frag-parse-context-3\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var>, declaring all the namespace prefixes that are\n    in scope on that element in the DOM, as well as declaring the default namespace (if any) that is\n    in scope on that element in the DOM.</p>\n\n    <p>A namespace prefix is in scope if the DOM <code>lookupNamespaceURI()</code> method\n    on the element would return a non-null value for that prefix.</p>\n\n    <p>The default namespace is the namespace for which the DOM <code>isDefaultNamespace()</code> method on the element would return true.</p>"
         },
         {
           "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/xhtml.html#feed-the-parser\" id=\"parsing-xhtml-fragments:feed-the-parser-2\">Feed the parser</a> just created the string <var>input</var>.</p>"
         },
         {
-          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/xhtml.html#feed-the-parser\" id=\"parsing-xhtml-fragments:feed-the-parser-3\">Feed the parser</a> just created the string corresponding to the end tag of <var id=\"parsing-xhtml-fragments:concept-frag-parse-context-3\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var>.</p>"
+          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/xhtml.html#feed-the-parser\" id=\"parsing-xhtml-fragments:feed-the-parser-3\">Feed the parser</a> just created the string corresponding to the end tag of <var id=\"parsing-xhtml-fragments:concept-frag-parse-context-4\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#concept-frag-parse-context\">context</a></var>.</p>"
         },
         {
           "html": "<p>If there is an XML well-formedness or XML namespace well-formedness error, then throw a\n   <a id=\"parsing-xhtml-fragments:syntaxerror\" href=\"https://webidl.spec.whatwg.org/#syntaxerror\" data-x-internal=\"syntaxerror\">\"<code>SyntaxError</code>\"</a> <code id=\"parsing-xhtml-fragments:domexception\"><a data-x-internal=\"domexception\" href=\"https://webidl.spec.whatwg.org/#dfn-DOMException\">DOMException</a></code>.</p>"
@@ -49384,7 +49410,16 @@
           "html": "<p>If the <a id=\"parsing-xhtml-fragments:document-element\" href=\"https://dom.spec.whatwg.org/#document-element\" data-x-internal=\"document-element\">document element</a> of the resulting <code id=\"parsing-xhtml-fragments:document\"><a href=\"https://html.spec.whatwg.org/multipage/dom.html#document\">Document</a></code> has any\n   sibling nodes, then throw a <a id=\"parsing-xhtml-fragments:syntaxerror-2\" href=\"https://webidl.spec.whatwg.org/#syntaxerror\" data-x-internal=\"syntaxerror\">\"<code>SyntaxError</code>\"</a>\n   <code id=\"parsing-xhtml-fragments:domexception-2\"><a data-x-internal=\"domexception\" href=\"https://webidl.spec.whatwg.org/#dfn-DOMException\">DOMException</a></code>.</p>"
         },
         {
-          "html": "<p>Return the resulting <code id=\"parsing-xhtml-fragments:document-2\"><a href=\"https://html.spec.whatwg.org/multipage/dom.html#document\">Document</a></code> node's <a id=\"parsing-xhtml-fragments:document-element-2\" href=\"https://dom.spec.whatwg.org/#document-element\" data-x-internal=\"document-element\">document element</a>'s <a href=\"https://dom.spec.whatwg.org/#concept-tree-child\" id=\"parsing-xhtml-fragments:concept-tree-child\" data-x-internal=\"concept-tree-child\">children</a>, in <a id=\"parsing-xhtml-fragments:tree-order\" href=\"https://dom.spec.whatwg.org/#concept-tree-order\" data-x-internal=\"tree-order\">tree order</a>.</p>"
+          "html": "<p>Let <var>newChildren</var> be the resulting <code id=\"parsing-xhtml-fragments:document-2\"><a href=\"https://html.spec.whatwg.org/multipage/dom.html#document\">Document</a></code> node's <a id=\"parsing-xhtml-fragments:document-element-2\" href=\"https://dom.spec.whatwg.org/#document-element\" data-x-internal=\"document-element\">document\n   element</a>'s <a href=\"https://dom.spec.whatwg.org/#concept-tree-child\" id=\"parsing-xhtml-fragments:concept-tree-child\" data-x-internal=\"concept-tree-child\">children</a>, in <a id=\"parsing-xhtml-fragments:tree-order\" href=\"https://dom.spec.whatwg.org/#concept-tree-order\" data-x-internal=\"tree-order\">tree order</a>.</p>"
+        },
+        {
+          "html": "<p>Let <var>fragment</var> be a new <code id=\"parsing-xhtml-fragments:documentfragment-3\"><a data-x-internal=\"documentfragment\" href=\"https://dom.spec.whatwg.org/#interface-documentfragment\">DocumentFragment</a></code> whose <a id=\"parsing-xhtml-fragments:node-document\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node\n   document</a> is <var>context</var>'s <a id=\"parsing-xhtml-fragments:node-document-2\" href=\"https://dom.spec.whatwg.org/#concept-node-document\" data-x-internal=\"node-document\">node document</a>.</p>"
+        },
+        {
+          "html": "<p>For each <var>node</var> of <var>newChildren</var>, in <a id=\"parsing-xhtml-fragments:tree-order-2\" href=\"https://dom.spec.whatwg.org/#concept-tree-order\" data-x-internal=\"tree-order\">tree order</a>: <a href=\"https://dom.spec.whatwg.org/#concept-node-append\" id=\"parsing-xhtml-fragments:concept-node-append\" data-x-internal=\"concept-node-append\">append</a> <var>node</var> to <var>fragment</var>.</p>"
+        },
+        {
+          "html": "<p>Return <var>fragment</var>.</p>"
         }
       ]
     },
