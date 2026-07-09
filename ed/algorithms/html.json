@@ -39079,7 +39079,7 @@
               "rationale": "let",
               "steps": [
                 {
-                  "html": "<p>Let <var>piTarget</var> be <var>child</var>'s <a href=\"https://dom.spec.whatwg.org/#dom-processinginstruction-target\" id=\"sanitization-algorithms:dom-processinginstruction-target\" data-x-internal=\"dom-processinginstruction-target\">target</a>.</p>"
+                  "html": "<p>Let <var>piTarget</var> be <var>child</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-pi-target\" id=\"sanitization-algorithms:concept-pi-target\" data-x-internal=\"concept-pi-target\">target</a>.</p>"
                 },
                 {
                   "html": "If <var>configuration</var>[\"<code id=\"sanitization-algorithms:dom-sanitizerconfig-processinginstructions\"><a href=\"https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-sanitizerconfig-processinginstructions\">processingInstructions</a></code>\"] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"sanitization-algorithms:map-exists-2\" data-x-internal=\"map-exists\">exists</a>:",
@@ -49067,7 +49067,7 @@
                   "html": "<p>If <var>shadow</var>'s <a href=\"https://dom.spec.whatwg.org/#shadowroot-mode\" id=\"serialising-html-fragments:concept-shadow-root-mode\" data-x-internal=\"concept-shadow-root-mode\">mode</a>\n       is \"<code>open</code>\", then append \"<code>open</code>\".\n       Otherwise, append \"<code>closed</code>\".</p>"
                 },
                 {
-                  "html": "<p>Append \"<code>\"</code>\".</p>"
+                  "html": "<p>Append U+0022 (\").</p>"
                 },
                 {
                   "html": "<p>If <var>shadow</var>'s <a id=\"serialising-html-fragments:delegates-focus\" href=\"https://dom.spec.whatwg.org/#shadowroot-delegates-focus\" data-x-internal=\"delegates-focus\">delegates focus</a> is set, then append\n       \"<code> shadowrootdelegatesfocus=\"\"</code>\".</p>"
@@ -49106,7 +49106,7 @@
                   "html": "<p>If <var>shouldAppendRegistryAttribute</var> is true, then append \"<code> shadowrootcustomelementregistry=\"\"</code>\".</p>"
                 },
                 {
-                  "html": "<p>Append \"<code>&gt;</code>\".</p>"
+                  "html": "<p>Append U+003E (&gt;).</p>"
                 },
                 {
                   "html": "<p>Append the value of running the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#html-fragment-serialisation-algorithm\" id=\"serialising-html-fragments:html-fragment-serialisation-algorithm\">HTML fragment serialization algorithm</a> with\n       <var>shadow</var>, <var>serializableShadowRoots</var>, and <var>shadowRoots</var> (thus recursing\n       into this algorithm for that element).</p>"
@@ -49174,15 +49174,15 @@
                     },
                     {
                       "case": "If current node is a Comment",
-                      "html": "<p>Append \"<code>&lt;!--</code>\" (U+003C LESS-THAN SIGN, U+0021\n        EXCLAMATION MARK, U+002D HYPHEN-MINUS, U+002D HYPHEN-MINUS), followed by the value of\n        <var>current node</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-cd-data\" id=\"serialising-html-fragments:concept-cd-data-3\" data-x-internal=\"concept-cd-data\">data</a>, followed by the\n        literal string \"<code>--&gt;</code>\" (U+002D HYPHEN-MINUS, U+002D HYPHEN-MINUS,\n        U+003E GREATER-THAN SIGN).</p>"
+                      "html": "<p>Append \"<code>&lt;!--</code>\", followed by the value of <var>current\n       node</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-cd-data\" id=\"serialising-html-fragments:concept-cd-data-3\" data-x-internal=\"concept-cd-data\">data</a>, and \"<code>--&gt;</code>\".</p>"
                     },
                     {
                       "case": "If current node is a ProcessingInstruction",
-                      "html": "<p>Append \"<code>&lt;?</code>\" (U+003C LESS-THAN SIGN, U+003F\n        QUESTION MARK), followed by the value of <var>current node</var>'s <code>target</code> IDL attribute, followed by a single U+0020 SPACE character, followed\n        by the value of <var>current node</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-cd-data\" id=\"serialising-html-fragments:concept-cd-data-4\" data-x-internal=\"concept-cd-data\">data</a>,\n        followed by a single U+003E GREATER-THAN SIGN character (&gt;).</p>"
+                      "html": "<p>Append \"<code>&lt;?</code>\", followed by the value of <var>current\n       node</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-pi-target\" id=\"serialising-html-fragments:concept-pi-target\" data-x-internal=\"concept-pi-target\">target</a>, U+0020 SPACE, the value of\n       <var>current node</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-cd-data\" id=\"serialising-html-fragments:concept-cd-data-4\" data-x-internal=\"concept-cd-data\">data</a>, and \"<code>?&gt;</code>\".</p>"
                     },
                     {
                       "case": "If current node is a DocumentType",
-                      "html": "<p>Append \"<code>&lt;!DOCTYPE</code>\" (U+003C LESS-THAN SIGN, U+0021\n        EXCLAMATION MARK, U+0044 LATIN CAPITAL LETTER D, U+004F LATIN CAPITAL LETTER O, U+0043 LATIN\n        CAPITAL LETTER C, U+0054 LATIN CAPITAL LETTER T, U+0059 LATIN CAPITAL LETTER Y, U+0050 LATIN\n        CAPITAL LETTER P, U+0045 LATIN CAPITAL LETTER E), followed by a space (U+0020 SPACE),\n        followed by the value of <var>current node</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-doctype-name\" id=\"serialising-html-fragments:concept-doctype-name\" data-x-internal=\"concept-doctype-name\">name</a>, followed by \"<code>&gt;</code>\"\n        (U+003E GREATER-THAN SIGN).</p>"
+                      "html": "<p>Append \"<code>&lt;!DOCTYPE </code>\", followed by the value of <var>current\n       node</var>'s <a href=\"https://dom.spec.whatwg.org/#concept-doctype-name\" id=\"serialising-html-fragments:concept-doctype-name\" data-x-internal=\"concept-doctype-name\">name</a> and U+003E (&gt;).</p>"
                     }
                   ]
                 }
