@@ -467,7 +467,7 @@
           "html": "<a class=\"self-link\" href=\"https://drafts.csswg.org/css-color-4/#raytrace-footnote-2\"></a>\n\t\t\t1.0 represents the maximum in-gamut channel value,\n\t\t\tand it is assumed all channels have the same maximum."
         },
         {
-          "html": "<a class=\"self-link\" href=\"https://drafts.csswg.org/css-color-4/#raytrace-footnote-3\"></a>\n\t\t\tThis places the <var>current</var> color back on the chroma reduction curve,\n\t\t\tif it has deviated."
+          "html": "<a class=\"self-link\" href=\"https://drafts.csswg.org/css-color-4/#raytrace-footnote-3\"></a>\n\t\t\tThis places the current color back on the chroma reduction curve,\n\t\t\tif it has deviated."
         },
         {
           "html": "<a class=\"self-link\" href=\"https://drafts.csswg.org/css-color-4/#raytrace-footnote-4\"></a>\n\t\t\tThis means <var>origin_rgb</var> is below the gamut surface,\n\t\t\tso we use it as an anchor closer to the gamut surface."
