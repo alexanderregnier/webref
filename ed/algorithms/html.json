@@ -5465,7 +5465,10 @@
               "html": "<p>If <var>inclusiveAncestor</var> is an <a href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#html-elements\" id=\"heading-levels-&amp;-offsets:html-elements-2\">HTML element</a>\n     and has a <code id=\"heading-levels-&amp;-offsets:attr-headingreset\"><a href=\"https://html.spec.whatwg.org/multipage/sections.html#attr-headingreset\">headingreset</a></code> attribute, then return\n     <var>offset</var>.</p>"
             },
             {
-              "html": "<p>Set <var>inclusiveAncestor</var> to the parent node of <var>inclusiveAncestor</var>\n     within the <a id=\"heading-levels-&amp;-offsets:flat-tree\" href=\"https://drafts.csswg.org/css-scoping/#flat-tree\" data-x-internal=\"flat-tree\">flat tree</a>.</p>"
+              "html": "<p>If <var>inclusiveAncestor</var>'s parent is a <a id=\"heading-levels-&amp;-offsets:shadow-root\" href=\"https://dom.spec.whatwg.org/#concept-shadow-root\" data-x-internal=\"shadow-root\">shadow root</a>, then set\n     <var>inclusiveAncestor</var> to that <a id=\"heading-levels-&amp;-offsets:shadow-root-2\" href=\"https://dom.spec.whatwg.org/#concept-shadow-root\" data-x-internal=\"shadow-root\">shadow root</a>'s <a href=\"https://dom.spec.whatwg.org/#concept-documentfragment-host\" id=\"heading-levels-&amp;-offsets:concept-documentfragment-host\" data-x-internal=\"concept-documentfragment-host\">host</a> and <a id=\"heading-levels-&amp;-offsets:continue\" href=\"https://infra.spec.whatwg.org/#iteration-continue\" data-x-internal=\"continue\">continue</a>.</p>"
+            },
+            {
+              "html": "<p>Set <var>inclusiveAncestor</var> to <var>inclusiveAncestor</var>'s <a id=\"heading-levels-&amp;-offsets:parent-element\" href=\"https://dom.spec.whatwg.org/#parent-element\" data-x-internal=\"parent-element\">parent\n     element</a>.</p>"
             }
           ]
         },
