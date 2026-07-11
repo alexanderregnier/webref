@@ -22971,7 +22971,7 @@
           "rationale": "let",
           "steps": [
             {
-              "html": "<p>Let <var>targetPopover</var> be <var>currentNode</var>'s <a href=\"https://html.spec.whatwg.org/multipage/popover.html#popover-target-element\" id=\"popover-light-dismiss:popover-target-element\">popover target\n     element</a>.</p>"
+              "html": "<p>Let <var>targetPopover</var> be <var>currentNode</var>'s <a href=\"https://html.spec.whatwg.org/multipage/popover.html#target-popover\" id=\"popover-light-dismiss:target-popover\">target\n     popover</a>.</p>"
             },
             {
               "html": "<p>If <var>targetPopover</var> is not null and <var>targetPopover</var>'s <code id=\"popover-light-dismiss:attr-popover-2\"><a href=\"https://html.spec.whatwg.org/multipage/popover.html#attr-popover\">popover</a></code> attribute is in the <a href=\"https://html.spec.whatwg.org/multipage/popover.html#attr-popover-auto-state\" id=\"popover-light-dismiss:attr-popover-auto-state-3\">Auto</a> state or the <a href=\"https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint-state\" id=\"popover-light-dismiss:attr-popover-hint-state-3\">Hint</a> state, and <var>targetPopover</var>'s\n     <a href=\"https://html.spec.whatwg.org/multipage/popover.html#popover-visibility-state\" id=\"popover-light-dismiss:popover-visibility-state\">popover visibility state</a> is <a href=\"https://html.spec.whatwg.org/multipage/popover.html#popover-showing-state\" id=\"popover-light-dismiss:popover-showing-state\">showing</a>,\n     then return <var>targetPopover</var>.</p>"
@@ -22980,6 +22980,53 @@
               "html": "<p>Set <var>currentNode</var> to <var>currentNode</var>'s ancestor in the <a id=\"popover-light-dismiss:flat-tree\" href=\"https://drafts.csswg.org/css-scoping/#flat-tree\" data-x-internal=\"flat-tree\">flat\n     tree</a>.</p>"
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "target popover",
+      "href": "https://html.spec.whatwg.org/multipage/popover.html#target-popover",
+      "html": "To get the <dfn id=\"target-popover\">target popover</dfn> given a <code id=\"popover-light-dismiss:node-3\"><a data-x-internal=\"node\" href=\"https://dom.spec.whatwg.org/#interface-node\">Node</a></code> <var>node</var>, perform the\n  following steps. They return an <a href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#html-elements\" id=\"popover-light-dismiss:html-elements-2\">HTML element</a> or null.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "<p>If <var>node</var> is not a <code id=\"popover-light-dismiss:the-button-element\"><a href=\"https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element\">button</a></code> element, then return <var>node</var>'s\n   <a href=\"https://html.spec.whatwg.org/multipage/popover.html#popover-target-element\" id=\"popover-light-dismiss:popover-target-element\">popover target element</a>.</p>"
+        },
+        {
+          "html": "<p>If <var>node</var> is <a href=\"https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#concept-fe-disabled\" id=\"popover-light-dismiss:concept-fe-disabled\">disabled</a>, then return\n   null.</p>"
+        },
+        {
+          "html": "<p>Let <var>target</var> be the result of running <var>node</var>'s <a href=\"https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#attr-associated-element\" id=\"popover-light-dismiss:attr-associated-element\">get the <code>commandfor</code>-associated\n   element</a>.</p>"
+        },
+        {
+          "html": "<p>If <var>target</var> is null, then return <var>node</var>'s <a href=\"https://html.spec.whatwg.org/multipage/popover.html#popover-target-element\" id=\"popover-light-dismiss:popover-target-element-2\">popover target\n   element</a>.</p>"
+        },
+        {
+          "html": "If <var>node</var> has a <a id=\"popover-light-dismiss:form-owner\" href=\"https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#form-owner\">form owner</a>:",
+          "rationale": "if",
+          "steps": [
+            {
+              "html": "<p>If <var>element</var> is a <a href=\"https://html.spec.whatwg.org/multipage/forms.html#concept-submit-button\" id=\"popover-light-dismiss:concept-submit-button\">submit button</a>,\n     then return null.</p>"
+            },
+            {
+              "html": "<p>If <var>element</var>'s <code id=\"popover-light-dismiss:attr-button-type\"><a href=\"https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-type\">type</a></code> attribute is in the\n     <a href=\"https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-type-reset-state\" id=\"popover-light-dismiss:attr-button-type-reset-state\">Reset Button</a> state, then return\n     null.</p>"
+            },
+            {
+              "html": "<p>If <var>element</var>'s <code id=\"popover-light-dismiss:attr-button-type-2\"><a href=\"https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-type\">type</a></code> attribute is in the\n     <a href=\"https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-type-auto-state\" id=\"popover-light-dismiss:attr-button-type-auto-state\">Auto</a> state, then return null.</p>"
+            }
+          ]
+        },
+        {
+          "html": "<p>Let <var>command</var> be <var>node</var>'s <code id=\"popover-light-dismiss:attr-button-command\"><a href=\"https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command\">command</a></code> attribute.</p>"
+        },
+        {
+          "html": "<p>If <var>command</var> is not in the <a href=\"https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-toggle-popover-state\" id=\"popover-light-dismiss:attr-button-command-toggle-popover-state\">Toggle Popover</a>, <a href=\"https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-hide-popover-state\" id=\"popover-light-dismiss:attr-button-command-hide-popover-state\">Hide Popover</a>, or <a href=\"https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-show-popover-state\" id=\"popover-light-dismiss:attr-button-command-show-popover-state\">Show Popover</a> states, then return\n   null.</p>"
+        },
+        {
+          "html": "<p>If <var>target</var>'s <code id=\"popover-light-dismiss:attr-popover-3\"><a href=\"https://html.spec.whatwg.org/multipage/popover.html#attr-popover\">popover</a></code> attribute is in the\n   <a href=\"https://html.spec.whatwg.org/multipage/popover.html#attr-popover-none-state\" id=\"popover-light-dismiss:attr-popover-none-state\">No Popover</a> state, then return null.</p>"
+        },
+        {
+          "html": "<p>Return <var>target</var>.</p>"
         }
       ]
     },

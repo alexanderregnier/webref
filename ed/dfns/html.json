@@ -72575,6 +72575,26 @@
       "links": []
     },
     {
+      "id": "target-popover",
+      "href": "https://html.spec.whatwg.org/multipage/popover.html#target-popover",
+      "linkingText": [
+        "target popover"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "popover-light-dismiss",
+        "href": "https://html.spec.whatwg.org/multipage/popover.html#popover-light-dismiss",
+        "title": "Popover light dismiss",
+        "number": "6.12.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "concept-origin",
       "href": "https://html.spec.whatwg.org/multipage/browsers.html#concept-origin",
       "linkingText": [
