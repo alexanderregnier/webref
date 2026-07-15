@@ -34668,13 +34668,13 @@
           "html": "<p>Let <var>moduleMap</var> be <var>settingsObject</var>'s <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-module-map\" id=\"fetching-scripts:concept-settings-object-module-map\">module map</a>.</p>"
         },
         {
-          "html": "<p>If <var>moduleMap</var>[(<var>url</var>, <var>moduleType</var>)] is\n   \"<code>fetching</code>\", wait <a id=\"fetching-scripts:in-parallel-2\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel\">in parallel</a> until that entry's value\n   changes, then <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task\" id=\"fetching-scripts:queue-a-task-2\">queue a task</a> on the <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#networking-task-source\" id=\"fetching-scripts:networking-task-source-2\">networking task source</a> to proceed\n   with running the following steps.</p>"
+          "html": "<p>If <var>moduleMap</var>[(<var>url</var>, <var>moduleType</var>)] is a\n   <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#module-script\" id=\"fetching-scripts:module-script-13\">module script</a> or null, run <var>onComplete</var> given\n   <var>moduleMap</var>[(<var>url</var>, <var>moduleType</var>)], and return.</p>"
         },
         {
-          "html": "<p>If <var>moduleMap</var>[(<var>url</var>, <var>moduleType</var>)] <a href=\"https://infra.spec.whatwg.org/#map-exists\" id=\"fetching-scripts:map-exists-3\" data-x-internal=\"map-exists\">exists</a>, run <var>onComplete</var> given\n   <var>moduleMap</var>[(<var>url</var>, <var>moduleType</var>)], and return.</p>"
+          "html": "<p>If <var>moduleMap</var>[(<var>url</var>, <var>moduleType</var>)] is a <a id=\"fetching-scripts:list\" href=\"https://infra.spec.whatwg.org/#list\" data-x-internal=\"list\">list</a>,\n   <a href=\"https://infra.spec.whatwg.org/#list-append\" id=\"fetching-scripts:list-append\" data-x-internal=\"list-append\">append</a> <var>onComplete</var> to\n   <var>moduleMap</var>[(<var>url</var>, <var>moduleType</var>)], and return.</p>"
         },
         {
-          "html": "<p><a href=\"https://infra.spec.whatwg.org/#map-set\" id=\"fetching-scripts:map-set-2\" data-x-internal=\"map-set\">Set</a> <var>moduleMap</var>[(<var>url</var>,\n   <var>moduleType</var>)] to \"<code>fetching</code>\".</p>"
+          "html": "<p><a href=\"https://infra.spec.whatwg.org/#map-set\" id=\"fetching-scripts:map-set-2\" data-x-internal=\"map-set\">Set</a> <var>moduleMap</var>[(<var>url</var>,\n   <var>moduleType</var>)] to « <var>onComplete</var> ».</p>"
         },
         {
           "html": "<p>Let <var>request</var> be a new <a href=\"https://fetch.spec.whatwg.org/#concept-request\" id=\"fetching-scripts:concept-request-9\" data-x-internal=\"concept-request\">request</a> whose\n   <a href=\"https://fetch.spec.whatwg.org/#concept-request-url\" id=\"fetching-scripts:concept-request-url-4\" data-x-internal=\"concept-request-url\">URL</a> is <var>url</var>, <a href=\"https://fetch.spec.whatwg.org/#concept-request-mode\" id=\"fetching-scripts:concept-request-mode-2\" data-x-internal=\"concept-request-mode\">mode</a> is \"<code>cors</code>\", <a href=\"https://fetch.spec.whatwg.org/#concept-request-referrer\" id=\"fetching-scripts:concept-request-referrer-2\" data-x-internal=\"concept-request-referrer\">referrer</a> is <var>referrer</var>, and <a href=\"https://fetch.spec.whatwg.org/#concept-request-client\" id=\"fetching-scripts:concept-request-client-4\" data-x-internal=\"concept-request-client\">client</a> is <var>fetchClient</var>.</p>"
@@ -34696,7 +34696,22 @@
           "rationale": "if",
           "steps": [
             {
-              "html": "<p>If any of the following are true:</p>\n\n      <ul><li><p><var>bodyBytes</var> is null or failure; or</p></li><li><p><var>response</var>'s <a href=\"https://fetch.spec.whatwg.org/#concept-response-status\" id=\"fetching-scripts:concept-response-status-4\" data-x-internal=\"concept-response-status\">status</a> is not an\n       <a id=\"fetching-scripts:ok-status-4\" href=\"https://fetch.spec.whatwg.org/#ok-status\" data-x-internal=\"ok-status\">ok status</a>,</p></li></ul>\n\n      <p>then <a href=\"https://infra.spec.whatwg.org/#map-set\" id=\"fetching-scripts:map-set-3\" data-x-internal=\"map-set\">set</a> <var>moduleMap</var>[(<var>url</var>,\n      <var>moduleType</var>)] to null, run <var>onComplete</var> given null, and abort these\n      steps.</p>"
+              "html": "then:",
+              "rationale": "let",
+              "steps": [
+                {
+                  "html": "<p>Let <var>callbacks</var> be\n       <var>moduleMap</var>[(<var>url</var>, <var>moduleType</var>)].</p>"
+                },
+                {
+                  "html": "<p><a href=\"https://infra.spec.whatwg.org/#map-remove\" id=\"fetching-scripts:map-remove\" data-x-internal=\"map-remove\">Remove</a>\n       <var>moduleMap</var>[(<var>url</var>, <var>moduleType</var>)].</p>"
+                },
+                {
+                  "html": "<p><a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"fetching-scripts:list-iterate\" data-x-internal=\"list-iterate\">For each</a> <var>callback</var> of\n       <var>callbacks</var>: run <var>callback</var> given null.</p>"
+                },
+                {
+                  "html": "<p>Return.</p>"
+                }
+              ]
             },
             {
               "html": "<p>Let <var>mimeType</var> be the result of <a href=\"https://fetch.spec.whatwg.org/#concept-header-extract-mime-type\" id=\"fetching-scripts:extract-a-mime-type-4\" data-x-internal=\"extract-a-mime-type\">extracting\n     a MIME type</a> from <var>response</var>'s <a href=\"https://fetch.spec.whatwg.org/#concept-response-header-list\" id=\"fetching-scripts:concept-response-header-list-4\" data-x-internal=\"concept-response-header-list\">header list</a>.</p>"
@@ -34735,7 +34750,13 @@
               ]
             },
             {
-              "html": "<p><a href=\"https://infra.spec.whatwg.org/#map-set\" id=\"fetching-scripts:map-set-4\" data-x-internal=\"map-set\">Set</a> <var>moduleMap</var>[(<var>url</var>,\n      <var>moduleType</var>)] to <var>moduleScript</var>, and run <var>onComplete</var> given\n      <var>moduleScript</var>.</p>"
+              "html": "<p>Let <var>callbacks</var> be\n     <var>moduleMap</var>[(<var>url</var>, <var>moduleType</var>)].</p>"
+            },
+            {
+              "html": "<p>If <var>moduleScript</var> is null, then <a href=\"https://infra.spec.whatwg.org/#map-remove\" id=\"fetching-scripts:map-remove-2\" data-x-internal=\"map-remove\">remove</a>\n      <var>moduleMap</var>[(<var>url</var>, <var>moduleType</var>)]; otherwise\n      <a href=\"https://infra.spec.whatwg.org/#map-set\" id=\"fetching-scripts:map-set-3\" data-x-internal=\"map-set\">set</a> <var>moduleMap</var>[(<var>url</var>,\n      <var>moduleType</var>)] to <var>moduleScript</var>.</p>"
+            },
+            {
+              "html": "<p><a href=\"https://infra.spec.whatwg.org/#list-iterate\" id=\"fetching-scripts:list-iterate-2\" data-x-internal=\"list-iterate\">For each</a> <var>callback</var> of\n     <var>callbacks</var>: run <var>callback</var> given <var>moduleScript</var>.</p>"
             }
           ]
         }
@@ -34744,7 +34765,7 @@
     {
       "name": "fetch a single imported module script",
       "href": "https://html.spec.whatwg.org/multipage/webappapis.html#fetch-a-single-imported-module-script",
-      "html": "To <dfn id=\"fetch-a-single-imported-module-script\">fetch a single imported module script</dfn>, given a <a id=\"fetching-scripts:url-13\" href=\"https://url.spec.whatwg.org/#concept-url\" data-x-internal=\"url\">URL</a> <var>url</var>,\n  an <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"fetching-scripts:environment-settings-object-19\">environment settings object</a> <var>fetchClient</var>, a <a href=\"https://fetch.spec.whatwg.org/#concept-request-destination\" id=\"fetching-scripts:concept-request-destination-11\" data-x-internal=\"concept-request-destination\">destination</a> <var>destination</var>, a <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#script-fetch-options\" id=\"fetching-scripts:script-fetch-options-11\">script\n  fetch options</a> <var>options</var>, <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"fetching-scripts:environment-settings-object-20\">environment settings object</a>\n  <var>settingsObject</var>, a <a href=\"https://fetch.spec.whatwg.org/#concept-request-referrer\" id=\"fetching-scripts:concept-request-referrer-3\" data-x-internal=\"concept-request-referrer\">referrer</a>\n  <var>referrer</var>, a <a id=\"fetching-scripts:modulerequest-record-2\" href=\"https://tc39.es/ecma262/#modulerequest-record\" data-x-internal=\"modulerequest-record\">ModuleRequest Record</a> <var>moduleRequest</var>, an\n  algorithm <var>onComplete</var>, and an optional <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#fetching-scripts-perform-fetch\" id=\"fetching-scripts:fetching-scripts-perform-fetch-9\">perform the fetch hook</a> <var>performFetch</var>, run\n  these steps. <var>onComplete</var> must be an algorithm accepting null (on failure) or a\n  <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#module-script\" id=\"fetching-scripts:module-script-14\">module script</a> (on success).",
+      "html": "To <dfn id=\"fetch-a-single-imported-module-script\">fetch a single imported module script</dfn>, given a <a id=\"fetching-scripts:url-13\" href=\"https://url.spec.whatwg.org/#concept-url\" data-x-internal=\"url\">URL</a> <var>url</var>,\n  an <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"fetching-scripts:environment-settings-object-19\">environment settings object</a> <var>fetchClient</var>, a <a href=\"https://fetch.spec.whatwg.org/#concept-request-destination\" id=\"fetching-scripts:concept-request-destination-11\" data-x-internal=\"concept-request-destination\">destination</a> <var>destination</var>, a <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#script-fetch-options\" id=\"fetching-scripts:script-fetch-options-11\">script\n  fetch options</a> <var>options</var>, <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object\" id=\"fetching-scripts:environment-settings-object-20\">environment settings object</a>\n  <var>settingsObject</var>, a <a href=\"https://fetch.spec.whatwg.org/#concept-request-referrer\" id=\"fetching-scripts:concept-request-referrer-3\" data-x-internal=\"concept-request-referrer\">referrer</a>\n  <var>referrer</var>, a <a id=\"fetching-scripts:modulerequest-record-2\" href=\"https://tc39.es/ecma262/#modulerequest-record\" data-x-internal=\"modulerequest-record\">ModuleRequest Record</a> <var>moduleRequest</var>, an\n  algorithm <var>onComplete</var>, and an optional <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#fetching-scripts-perform-fetch\" id=\"fetching-scripts:fetching-scripts-perform-fetch-9\">perform the fetch hook</a> <var>performFetch</var>, run\n  these steps. <var>onComplete</var> must be an algorithm accepting null (on failure) or a\n  <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#module-script\" id=\"fetching-scripts:module-script-15\">module script</a> (on success).",
       "rationale": "assert",
       "steps": [
         {
