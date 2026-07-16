@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-07-15T04:15:58.372Z",
+  "date": "2026-07-16T04:19:43.358Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "15 July 2026",
+      "date": "16 July 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -1843,11 +1843,11 @@
       ],
       "crawled": "https://www.w3.org/TR/cbor-ld-10/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 08 Jul 2026 16:28:25 GMT"
+        "lastModified": "Wed, 15 Jul 2026 19:36:56 GMT"
       },
       "generator": "respec",
-      "date": "08 July 2026",
-      "revision": "a8ed441a5e5bd9c1927594136dd3d64800b1d787",
+      "date": "15 July 2026",
+      "revision": "843fb52c1844cf600be8917c7021aaa652f4ac37",
       "algorithms": "algorithms/cbor-ld-10.json",
       "links": "links/cbor-ld-10.json",
       "refs": "refs/cbor-ld-10.json",
@@ -4154,11 +4154,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-color-4/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 18 Jun 2026 16:29:14 GMT"
+        "lastModified": "Wed, 15 Jul 2026 12:56:49 GMT"
       },
       "generator": "bikeshed",
-      "date": "18 June 2026",
-      "revision": "8829a2dba606e04519a87a7e2e6c9b58ec0afa05",
+      "date": "15 July 2026",
+      "revision": "324e9d7e0fb1477bc7584d21c6862c00b1b742ae",
       "algorithms": "algorithms/css-color-4.json",
       "links": "links/css-color-4.json",
       "refs": "refs/css-color-4.json",
@@ -11039,11 +11039,11 @@
       ],
       "crawled": "https://www.w3.org/TR/digital-credentials/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 09 Jul 2026 08:41:14 GMT"
+        "lastModified": "Wed, 15 Jul 2026 18:41:11 GMT"
       },
       "generator": "respec",
-      "date": "09 July 2026",
-      "revision": "900fd3f6ff3981d2e5499bc433162afd83edc31c",
+      "date": "15 July 2026",
+      "revision": "e650a1006aa081f9dfae2f18c3763109ff4dd355",
       "algorithms": "algorithms/digital-credentials.json",
       "links": "links/digital-credentials.json",
       "refs": "refs/digital-credentials.json",
@@ -21629,11 +21629,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vc-barcodes-1.0/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 23 Jun 2026 17:10:17 GMT"
+        "lastModified": "Wed, 15 Jul 2026 19:09:19 GMT"
       },
       "generator": "respec",
-      "date": "23 June 2026",
-      "revision": "262a3db1366521ad98a6e935c25bd0763e33c881",
+      "date": "15 July 2026",
+      "revision": "a087758a40f1b8383f107da6c1afd683e9bd20fb",
       "algorithms": "algorithms/vc-barcodes-1.0.json",
       "links": "links/vc-barcodes-1.0.json",
       "refs": "refs/vc-barcodes-1.0.json",
