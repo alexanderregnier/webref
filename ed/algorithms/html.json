@@ -46188,8 +46188,12 @@
               "html": "Append the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#current-input-character\" id=\"numeric-character-reference-state:current-input-character\">current input character</a> to the <var id=\"numeric-character-reference-state:temporary-buffer\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#temporary-buffer\">temporary buffer</a></var>. Switch to the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#hexadecimal-character-reference-start-state\" id=\"numeric-character-reference-state:hexadecimal-character-reference-start-state\">hexadecimal character reference start\n    state</a>."
             },
             {
+              "case": "ASCII digit",
+              "html": "<a href=\"https://html.spec.whatwg.org/multipage/parsing.html#reconsume\" id=\"numeric-character-reference-state:reconsume\">Reconsume</a> in the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#decimal-character-reference-state\" id=\"numeric-character-reference-state:decimal-character-reference-state\">decimal character reference state</a>."
+            },
+            {
               "case": "Anything else",
-              "html": "<a href=\"https://html.spec.whatwg.org/multipage/parsing.html#reconsume\" id=\"numeric-character-reference-state:reconsume\">Reconsume</a> in the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#decimal-character-reference-start-state\" id=\"numeric-character-reference-state:decimal-character-reference-start-state\">decimal character reference start state</a>."
+              "html": "This is an <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#parse-error-absence-of-digits-in-numeric-character-reference\" id=\"numeric-character-reference-state:parse-error-absence-of-digits-in-numeric-character-reference\">absence-of-digits-in-numeric-character-reference</a>\n    <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#parse-errors\" id=\"numeric-character-reference-state:parse-errors\">parse error</a>. <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#flush-code-points-consumed-as-a-character-reference\" id=\"numeric-character-reference-state:flush-code-points-consumed-as-a-character-reference\">Flush code points consumed as a character reference</a>.\n    <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#reconsume\" id=\"numeric-character-reference-state:reconsume-2\">Reconsume</a> in the <var id=\"numeric-character-reference-state:return-state\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#return-state\">return state</a></var>."
             }
           ]
         }
@@ -46209,25 +46213,6 @@
             {
               "case": "Anything else",
               "html": "This is an <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#parse-error-absence-of-digits-in-numeric-character-reference\" id=\"hexadecimal-character-reference-start-state:parse-error-absence-of-digits-in-numeric-character-reference\">absence-of-digits-in-numeric-character-reference</a>\n    <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#parse-errors\" id=\"hexadecimal-character-reference-start-state:parse-errors\">parse error</a>. <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#flush-code-points-consumed-as-a-character-reference\" id=\"hexadecimal-character-reference-start-state:flush-code-points-consumed-as-a-character-reference\">Flush code points consumed as a character reference</a>.\n    <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#reconsume\" id=\"hexadecimal-character-reference-start-state:reconsume-2\">Reconsume</a> in the <var id=\"hexadecimal-character-reference-start-state:return-state\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#return-state\">return state</a></var>."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "html": "Consume the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#next-input-character\" id=\"decimal-character-reference-start-state:next-input-character\">next input character</a>:",
-      "rationale": ".switch",
-      "steps": [
-        {
-          "operation": "switch",
-          "steps": [
-            {
-              "case": "ASCII digit",
-              "html": "<a href=\"https://html.spec.whatwg.org/multipage/parsing.html#reconsume\" id=\"decimal-character-reference-start-state:reconsume\">Reconsume</a> in the <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#decimal-character-reference-state\" id=\"decimal-character-reference-start-state:decimal-character-reference-state\">decimal character reference state</a>."
-            },
-            {
-              "case": "Anything else",
-              "html": "This is an <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#parse-error-absence-of-digits-in-numeric-character-reference\" id=\"decimal-character-reference-start-state:parse-error-absence-of-digits-in-numeric-character-reference\">absence-of-digits-in-numeric-character-reference</a>\n    <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#parse-errors\" id=\"decimal-character-reference-start-state:parse-errors\">parse error</a>. <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#flush-code-points-consumed-as-a-character-reference\" id=\"decimal-character-reference-start-state:flush-code-points-consumed-as-a-character-reference\">Flush code points consumed as a character reference</a>.\n    <a href=\"https://html.spec.whatwg.org/multipage/parsing.html#reconsume\" id=\"decimal-character-reference-start-state:reconsume-2\">Reconsume</a> in the <var id=\"decimal-character-reference-start-state:return-state\"><a href=\"https://html.spec.whatwg.org/multipage/parsing.html#return-state\">return state</a></var>."
             }
           ]
         }

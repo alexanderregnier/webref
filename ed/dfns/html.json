@@ -118493,26 +118493,6 @@
       "links": []
     },
     {
-      "id": "decimal-character-reference-start-state",
-      "href": "https://html.spec.whatwg.org/multipage/parsing.html#decimal-character-reference-start-state",
-      "linkingText": [
-        "Decimal character reference start state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "decimal-character-reference-start-state",
-        "href": "https://html.spec.whatwg.org/multipage/parsing.html#decimal-character-reference-start-state",
-        "title": "Decimal character reference start state",
-        "number": "13.2.5.82"
-      },
-      "definedIn": "heading",
-      "links": []
-    },
-    {
       "id": "hexadecimal-character-reference-state",
       "href": "https://html.spec.whatwg.org/multipage/parsing.html#hexadecimal-character-reference-state",
       "linkingText": [
@@ -118527,7 +118507,7 @@
         "id": "hexadecimal-character-reference-state",
         "href": "https://html.spec.whatwg.org/multipage/parsing.html#hexadecimal-character-reference-state",
         "title": "Hexadecimal character reference state",
-        "number": "13.2.5.83"
+        "number": "13.2.5.82"
       },
       "definedIn": "heading",
       "links": []
@@ -118547,7 +118527,7 @@
         "id": "decimal-character-reference-state",
         "href": "https://html.spec.whatwg.org/multipage/parsing.html#decimal-character-reference-state",
         "title": "Decimal character reference state",
-        "number": "13.2.5.84"
+        "number": "13.2.5.83"
       },
       "definedIn": "heading",
       "links": []
@@ -118567,7 +118547,7 @@
         "id": "numeric-character-reference-end-state",
         "href": "https://html.spec.whatwg.org/multipage/parsing.html#numeric-character-reference-end-state",
         "title": "Numeric character reference end state",
-        "number": "13.2.5.85"
+        "number": "13.2.5.84"
       },
       "definedIn": "heading",
       "links": []
