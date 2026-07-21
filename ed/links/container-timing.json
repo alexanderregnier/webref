@@ -24,7 +24,9 @@
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "element",
-          "document"
+          "dom-parentnode-movebefore",
+          "document",
+          "concept-node-document"
         ]
       },
       "https://drafts.csswg.org/geometry-1/": {
