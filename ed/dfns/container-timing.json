@@ -414,6 +414,7 @@
       "id": "dom-element-containertiming",
       "href": "https://wicg.github.io/container-timing/#dom-element-containertiming",
       "linkingText": [
+        "containerTiming",
         "containertiming"
       ],
       "localLinkingText": [],
@@ -436,7 +437,7 @@
       "id": "dom-element-containertimingignore",
       "href": "https://wicg.github.io/container-timing/#dom-element-containertimingignore",
       "linkingText": [
-        "containertimingIgnore",
+        "containerTimingIgnore",
         "containertimingignore"
       ],
       "localLinkingText": [],
@@ -570,6 +571,28 @@
       "href": "https://wicg.github.io/container-timing/#container-timing-record-lastnewpaintedareaelement",
       "linkingText": [
         "lastNewPaintedAreaElement"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Container Timing Record"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "container-timing-record",
+        "href": "https://wicg.github.io/container-timing/#container-timing-record",
+        "title": "Container Timing Record",
+        "number": "6.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "container-timing-record-lastnewpaintedareasize",
+      "href": "https://wicg.github.io/container-timing/#container-timing-record-lastnewpaintedareasize",
+      "linkingText": [
+        "lastNewPaintedAreaSize"
       ],
       "localLinkingText": [],
       "type": "dfn",
