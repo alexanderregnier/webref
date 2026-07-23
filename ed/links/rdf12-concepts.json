@@ -297,7 +297,8 @@
       "https://www.w3.org/TR/i18n-glossary/": {
         "anchors": [
           "dfn-unicode-normalization-form-c",
-          "dfn-unicode-bidi-algorithm"
+          "dfn-unicode-bidi-algorithm",
+          "dfn-bidi-isolation"
         ]
       },
       "https://www.w3.org/TR/rdf12-semantics/": {
