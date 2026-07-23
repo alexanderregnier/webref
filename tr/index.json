@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-07-22T04:27:58.563Z",
+  "date": "2026-07-23T04:25:59.184Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "22 July 2026",
+      "date": "23 July 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -1232,11 +1232,11 @@
       ],
       "crawled": "https://www.w3.org/TR/attribution/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 20 Jul 2026 14:05:32 GMT"
+        "lastModified": "Wed, 22 Jul 2026 14:22:09 GMT"
       },
       "generator": "bikeshed",
-      "date": "20 July 2026",
-      "revision": "1b503c69cff010248ce5fbf2a0c9e6bd6847047f",
+      "date": "22 July 2026",
+      "revision": "dafb094368377e4254100dfc1d47c4fe3b740464",
       "algorithms": "algorithms/attribution.json",
       "links": "links/attribution.json",
       "refs": "refs/attribution.json",
@@ -19447,11 +19447,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-core/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 20 Jul 2026 10:03:15 GMT"
+        "lastModified": "Thu, 23 Jul 2026 01:07:42 GMT"
       },
       "generator": "respec",
-      "date": "20 July 2026",
-      "revision": "3f074dd0eec0010d4f8c2afb02f098e2d684a135",
+      "date": "23 July 2026",
+      "revision": "3bbc7249e4b2980160ad07d5dda1aecab7204123",
       "algorithms": "algorithms/shacl12-core.json",
       "links": "links/shacl12-core.json",
       "refs": "refs/shacl12-core.json",
@@ -19564,11 +19564,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-rules/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 21 Jul 2026 07:07:05 GMT"
+        "lastModified": "Wed, 22 Jul 2026 08:26:32 GMT"
       },
       "generator": "respec",
-      "date": "21 July 2026",
-      "revision": "c2e68c7d600c9d06aa0340e9ad509d98bcc4786d",
+      "date": "22 July 2026",
+      "revision": "485c780a90e542c9cbb81b4de6809b2306dc0984",
       "links": "links/shacl12-rules.json",
       "refs": "refs/shacl12-rules.json",
       "dfns": "dfns/shacl12-rules.json",
@@ -19620,11 +19620,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-sparql/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 21 Jul 2026 20:33:42 GMT"
+        "lastModified": "Thu, 23 Jul 2026 01:07:32 GMT"
       },
       "generator": "respec",
-      "date": "21 July 2026",
-      "revision": "a46192d6cd85f3125678995dceaf8b8eee8efeba",
+      "date": "23 July 2026",
+      "revision": "3bbc7249e4b2980160ad07d5dda1aecab7204123",
       "algorithms": "algorithms/shacl12-sparql.json",
       "links": "links/shacl12-sparql.json",
       "refs": "refs/shacl12-sparql.json",
@@ -23139,11 +23139,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-js-api-2/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 27 May 2026 15:53:01 GMT"
+        "lastModified": "Wed, 22 Jul 2026 14:28:07 GMT"
       },
       "generator": "bikeshed",
-      "date": "27 May 2026",
-      "revision": "93c7fab69e647f9ee544b97c8b2d1368ef2b526a",
+      "date": "22 July 2026",
+      "revision": "4bc9c3880d556390d0a6742946df85fe76f943be",
       "algorithms": "algorithms/wasm-js-api-2.json",
       "links": "links/wasm-js-api-2.json",
       "refs": "refs/wasm-js-api-2.json",
@@ -23205,11 +23205,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-web-api-2/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 27 May 2026 15:53:06 GMT"
+        "lastModified": "Wed, 22 Jul 2026 14:28:14 GMT"
       },
       "generator": "bikeshed",
-      "date": "27 May 2026",
-      "revision": "93c7fab69e647f9ee544b97c8b2d1368ef2b526a",
+      "date": "22 July 2026",
+      "revision": "4bc9c3880d556390d0a6742946df85fe76f943be",
       "algorithms": "algorithms/wasm-web-api-2.json",
       "links": "links/wasm-web-api-2.json",
       "refs": "refs/wasm-web-api-2.json",
@@ -26980,11 +26980,11 @@
       ],
       "crawled": "https://www.w3.org/TR/yaml-ld-10/",
       "crawlCacheInfo": {
-        "lastModified": "Sat, 18 Jul 2026 20:19:54 GMT"
+        "lastModified": "Wed, 22 Jul 2026 18:23:23 GMT"
       },
       "generator": "respec",
-      "date": "18 July 2026",
-      "revision": "af4c9c8eb77454645a0b16e69ec16b28a322ff06",
+      "date": "22 July 2026",
+      "revision": "d54e9c004d70c9a8133344d4b60e08168122da8d",
       "links": "links/yaml-ld-10.json",
       "refs": "refs/yaml-ld-10.json",
       "idl": "idl/yaml-ld.idl",
