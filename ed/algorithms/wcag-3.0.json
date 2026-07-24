@@ -908,15 +908,6 @@
       ]
     },
     {
-      "html": "For each breakpoint defined by the author and at minimum width:",
-      "rationale": "check",
-      "steps": [
-        {
-          "html": "Check that all keyboard input tests work."
-        }
-      ]
-    },
-    {
       "html": "For each situation where elements that have or contain keyboard focus are removed:",
       "rationale": "check",
       "steps": [
@@ -1502,7 +1493,7 @@
       ]
     },
     {
-      "html": "For each variation of <a href=\"https://w3c.github.io/wcag3/guidelines/#dfn-page\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-page-22\">pages</a>/<a href=\"https://w3c.github.io/wcag3/guidelines/#dfn-view\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-view-24\">views</a> in the <a href=\"https://w3c.github.io/wcag3/guidelines/#dfn-conformance-scope\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-conformance-scope-10\">conformance scope</a>:",
+      "html": "For each variation of <a href=\"https://w3c.github.io/wcag3/guidelines/#dfn-page\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-page-21\">pages</a>/<a href=\"https://w3c.github.io/wcag3/guidelines/#dfn-view\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-view-23\">views</a> in the <a href=\"https://w3c.github.io/wcag3/guidelines/#dfn-conformance-scope\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-conformance-scope-10\">conformance scope</a>:",
       "rationale": "check",
       "steps": [
         {
