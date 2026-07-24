@@ -396,7 +396,7 @@
       "rationale": "check",
       "steps": [
         {
-          "html": "Check that the attributes of the block of text are within the attributes in the table for the closest language."
+          "html": "Check that the attributes of the block of text are within the attributes specified in this provision."
         }
       ]
     },
@@ -405,7 +405,7 @@
       "rationale": "check",
       "steps": [
         {
-          "html": "Check that the attributes of the block of text are within the attributes in the table for the closest language."
+          "html": "Check that the attributes of the block of text are within the attributes specified in the provision."
         }
       ]
     },
@@ -429,7 +429,7 @@
       "rationale": "apply",
       "steps": [
         {
-          "html": "Apply the highest level of change of each attribute from the table, for that language/script."
+          "html": "Apply the highest level of change of each attribute specified in the provision."
         },
         {
           "html": "Check that the text is changed by the override."
@@ -441,7 +441,7 @@
       "rationale": "apply",
       "steps": [
         {
-          "html": "Apply the highest level of change of each attribute from the table, for the closest language."
+          "html": "Apply the highest level of change of each attribute specified in the provision."
         },
         {
           "html": "Check that the text is changed by the override."
@@ -1333,18 +1333,6 @@
       "steps": [
         {
           "html": "Check that there is a setting to pause or turn off the audio shifting."
-        }
-      ]
-    },
-    {
-      "html": "For each page/view:",
-      "rationale": "check",
-      "steps": [
-        {
-          "html": "Examine the source code of the HTML document and check that the first <code>title</code> element is not-empty."
-        },
-        {
-          "html": "Check that the title element describes the document."
         }
       ]
     },
