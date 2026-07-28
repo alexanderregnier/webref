@@ -128,7 +128,7 @@
       ]
     },
     {
-      "html": "This algorithm takes a map <code>state</code> and a map or array of\nmaps <code>inputDocuments</code>, and returns a map containing a map <code>state</code> and a map or\narray of maps <code>outputMaps</code>.",
+      "html": "This algorithm takes a map <code>state</code> and a map or array of\nmaps <code>inputDocuments</code>, and returns a map or\narray of maps <code>outputMaps</code>, respectively.",
       "rationale": "if",
       "steps": [
         {
@@ -551,10 +551,10 @@
                   "html": "If <code>key</code> is odd, set <code>plural</code> to true. Otherwise, set <code>plural</code> to false."
                 },
                 {
-                  "html": "If <code>plural</code> is <code>true</code>, set <code>term</code> to the value of <code>id</code> minus 1 in <code>state</code>.<code>idToTerm</code>.\nIf that value does not have an entry, throw an error ERR_UNKNOWN_CBORLD_TERM_ID."
+                  "html": "If <code>plural</code> is <code>true</code>, set <code>term</code> to the value of <code>key</code> minus 1 in <code>state</code>.<code>idToTerm</code>.\nIf that value does not have an entry, throw an error ERR_UNKNOWN_CBORLD_TERM_ID."
                 },
                 {
-                  "html": "Otherwise, set <code>term</code> to the value of <code>id</code> in <code>state</code>.<code>idToTerm</code>. If that value does not have\nan entry, throw an error ERR_UNKNOWN_CBORLD_TERM_ID."
+                  "html": "Otherwise, set <code>term</code> to the value of <code>key</code> in <code>state</code>.<code>idToTerm</code>. If that value does not have\nan entry, throw an error ERR_UNKNOWN_CBORLD_TERM_ID."
                 }
               ]
             },
@@ -785,7 +785,7 @@
       ]
     },
     {
-      "html": "This algorithm takes maps <code>state</code>, <code>activeTermMap</code>, and map or array <code>contexts</code> as well as booleans <code>typeScope</code>\nand <code>propertyScope</code>, both of which default to <code>false</code> if not provided, as inputs. It returns maps <code>state</code>\nand <code>activeTermMap</code>.",
+      "html": "This algorithm takes maps <code>state</code>, <code>activeTermMap</code>, and value <code>contexts</code> as well as booleans <code>typeScope</code>\nand <code>propertyScope</code>, both of which default to <code>false</code> if not provided, as inputs. It returns maps <code>state</code>\nand <code>activeTermMap</code>.",
       "rationale": "if",
       "steps": [
         {
