@@ -6,6 +6,10 @@
   "refs": {
     "normative": [
       {
+        "name": "BCP47",
+        "url": "https://www.rfc-editor.org/info/bcp47"
+      },
+      {
         "name": "CSP3",
         "url": "https://www.w3.org/TR/CSP3/"
       },
@@ -15,23 +19,23 @@
       },
       {
         "name": "RFC2119",
-        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+        "url": "https://www.rfc-editor.org/info/rfc2119/"
       },
       {
         "name": "RFC2397",
-        "url": "https://www.rfc-editor.org/rfc/rfc2397"
+        "url": "https://www.rfc-editor.org/info/rfc2397/"
       },
       {
         "name": "RFC6838",
-        "url": "https://www.rfc-editor.org/rfc/rfc6838"
+        "url": "https://www.rfc-editor.org/info/rfc6838/"
       },
       {
         "name": "RFC6901",
-        "url": "https://www.rfc-editor.org/rfc/rfc6901"
+        "url": "https://www.rfc-editor.org/info/rfc6901/"
       },
       {
         "name": "RFC8174",
-        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+        "url": "https://www.rfc-editor.org/info/rfc8174/"
       },
       {
         "name": "URL",
@@ -49,7 +53,7 @@
     "informative": [
       {
         "name": "RFC9458",
-        "url": "https://www.rfc-editor.org/rfc/rfc9458"
+        "url": "https://www.rfc-editor.org/info/rfc9458/"
       }
     ]
   }
