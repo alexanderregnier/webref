@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-07-31T04:33:28.378Z",
+  "date": "2026-08-01T04:30:44.157Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "31 July 2026",
+      "date": "1 August 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -4224,11 +4224,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-color-5/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 18 Jun 2026 16:27:34 GMT"
+        "lastModified": "Fri, 31 Jul 2026 19:45:15 GMT"
       },
       "generator": "bikeshed",
-      "date": "18 June 2026",
-      "revision": "8829a2dba606e04519a87a7e2e6c9b58ec0afa05",
+      "date": "31 July 2026",
+      "revision": "e595770f2216380e954462fab5b54222b6c066bf",
       "algorithms": "algorithms/css-color-5.json",
       "links": "links/css-color-5.json",
       "refs": "refs/css-color-5.json",
@@ -19621,11 +19621,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-sparql/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 31 Jul 2026 01:43:38 GMT"
+        "lastModified": "Sat, 01 Aug 2026 02:05:19 GMT"
       },
       "generator": "respec",
-      "date": "31 July 2026",
-      "revision": "99b4450239c7b2413e7f4bf3042f7bc04dc0d891",
+      "date": "01 August 2026",
+      "revision": "d63d5050209ec646d36dc28e8bde01fdd36921e3",
       "algorithms": "algorithms/shacl12-sparql.json",
       "links": "links/shacl12-sparql.json",
       "refs": "refs/shacl12-sparql.json",
