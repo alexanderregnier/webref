@@ -80,6 +80,7 @@
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
         "anchors": [
+          "concept-document-url",
           "document",
           "concept-event-fire",
           "dom-event-cancelable",
@@ -186,6 +187,7 @@
       },
       "https://url.spec.whatwg.org/": {
         "anchors": [
+          "concept-url",
           "concept-url-equals",
           "url-equals-exclude-fragments",
           "concept-url-fragment",
