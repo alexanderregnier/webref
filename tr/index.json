@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-08-10T03:20:11.253Z",
+  "date": "2026-08-11T03:12:58.469Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "10 August 2026",
+      "date": "11 August 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -25055,11 +25055,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webgpu/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 14 Jul 2026 19:51:36 GMT"
+        "lastModified": "Mon, 10 Aug 2026 20:38:16 GMT"
       },
       "generator": "bikeshed",
-      "date": "14 July 2026",
-      "revision": "760104ed565f37053d3e0268774ab00899acb806",
+      "date": "10 August 2026",
+      "revision": "9904fcd30d75895d81e5e7a14e2eac568baafcaa",
       "algorithms": "algorithms/webgpu.json",
       "links": "links/webgpu.json",
       "refs": "refs/webgpu.json",
