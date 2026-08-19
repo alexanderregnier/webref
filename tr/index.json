@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-08-18T02:24:31.451Z",
+  "date": "2026-08-19T02:27:05.587Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "18 August 2026",
+      "date": "19 August 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -5480,11 +5480,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-fonts-4/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 17 Aug 2026 10:33:29 GMT"
+        "lastModified": "Tue, 18 Aug 2026 09:32:41 GMT"
       },
       "generator": "bikeshed",
-      "date": "17 August 2026",
-      "revision": "2cb84cd81b0bdabd20a2a4f6e705989bd5b53487",
+      "date": "18 August 2026",
+      "revision": "7539965d98f6a6aae2933753b28aa505288a14d4",
       "algorithms": "algorithms/css-fonts-4.json",
       "links": "links/css-fonts-4.json",
       "refs": "refs/css-fonts-4.json",
@@ -12046,11 +12046,11 @@
       ],
       "crawled": "https://www.w3.org/TR/epub-a11y-12/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 21 Jul 2026 21:19:07 GMT"
+        "lastModified": "Tue, 18 Aug 2026 15:57:02 GMT"
       },
       "generator": "respec",
-      "date": "21 July 2026",
-      "revision": "47f116da05ec970e46df570d2a0a5b04fe1e5a1b",
+      "date": "18 August 2026",
+      "revision": "9f157b2200918c0c96558e153df8ae83748b65dd",
       "links": "links/epub-a11y-12.json",
       "refs": "refs/epub-a11y-12.json",
       "dfns": "dfns/epub-a11y-12.json",
@@ -24909,11 +24909,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webdriver-bidi/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 29 Jun 2026 09:57:09 GMT"
+        "lastModified": "Tue, 18 Aug 2026 12:24:41 GMT"
       },
       "generator": "bikeshed",
-      "date": "29 June 2026",
-      "revision": "d636c85720119ff2f7d5371c01e1ac63168e249f",
+      "date": "18 August 2026",
+      "revision": "1e5e36c43adbe24f2a4052c2ec091635c006c352",
       "algorithms": "algorithms/webdriver-bidi.json",
       "links": "links/webdriver-bidi.json",
       "refs": "refs/webdriver-bidi.json",
