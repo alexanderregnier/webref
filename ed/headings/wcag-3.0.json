@@ -186,16 +186,16 @@
       "title": "Transcripts findable Developing"
     },
     {
-      "id": "x2-1-4-2-dialog-transcripts-available-prerecorded",
-      "href": "https://w3c.github.io/wcag3/guidelines/#x2-1-4-2-dialog-transcripts-available-prerecorded",
+      "id": "x2-1-4-2-dialogue-transcripts-available-prerecorded",
+      "href": "https://w3c.github.io/wcag3/guidelines/#x2-1-4-2-dialogue-transcripts-available-prerecorded",
       "level": 5,
-      "title": "Dialog transcripts available (prerecorded) Developing"
+      "title": "Dialogue transcripts available (prerecorded) Developing"
     },
     {
-      "id": "x2-1-4-3-dialog-transcripts-available-live",
-      "href": "https://w3c.github.io/wcag3/guidelines/#x2-1-4-3-dialog-transcripts-available-live",
+      "id": "x2-1-4-3-dialogue-transcripts-available-live",
+      "href": "https://w3c.github.io/wcag3/guidelines/#x2-1-4-3-dialogue-transcripts-available-live",
       "level": 5,
-      "title": "Dialog transcripts available (live) Developing"
+      "title": "Dialogue transcripts available (live) Developing"
     },
     {
       "id": "x2-1-4-4-transcripts-equivalent-prerecorded",

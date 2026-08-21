@@ -820,10 +820,10 @@
       "links": []
     },
     {
-      "id": "dfn-dialog-transcript",
-      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-dialog-transcript",
+      "id": "dfn-dialogue-transcript",
+      "href": "https://w3c.github.io/wcag3/guidelines/#dfn-dialogue-transcript",
       "linkingText": [
-        "dialog transcript"
+        "dialogue transcript"
       ],
       "localLinkingText": [],
       "type": "dfn",
