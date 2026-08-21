@@ -1356,158 +1356,165 @@
       "number": "7.1.5"
     },
     {
+      "id": "sec-snaptointeger",
+      "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-snaptointeger",
+      "title": "SnapToInteger ( arg, nonIntHandling [ , minimum [ , maximum ] ] )",
+      "level": 3,
+      "number": "7.1.6"
+    },
+    {
       "id": "sec-tofixedsizeinteger",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tofixedsizeinteger",
       "title": "ToFixedSizeInteger ( int, signed, bitWidth )",
       "level": 3,
-      "number": "7.1.6"
+      "number": "7.1.7"
     },
     {
       "id": "sec-toint32",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toint32",
       "title": "ToInt32 ( arg )",
       "level": 3,
-      "number": "7.1.7"
+      "number": "7.1.8"
     },
     {
       "id": "sec-touint32",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-touint32",
       "title": "ToUint32 ( arg )",
       "level": 3,
-      "number": "7.1.8"
+      "number": "7.1.9"
     },
     {
       "id": "sec-toint16",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toint16",
       "title": "ToInt16 ( arg )",
       "level": 3,
-      "number": "7.1.9"
+      "number": "7.1.10"
     },
     {
       "id": "sec-touint16",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-touint16",
       "title": "ToUint16 ( arg )",
       "level": 3,
-      "number": "7.1.10"
+      "number": "7.1.11"
     },
     {
       "id": "sec-toint8",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toint8",
       "title": "ToInt8 ( arg )",
       "level": 3,
-      "number": "7.1.11"
+      "number": "7.1.12"
     },
     {
       "id": "sec-touint8",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-touint8",
       "title": "ToUint8 ( arg )",
       "level": 3,
-      "number": "7.1.12"
+      "number": "7.1.13"
     },
     {
       "id": "sec-touint8clamp",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-touint8clamp",
       "title": "ToUint8Clamp ( arg )",
       "level": 3,
-      "number": "7.1.13"
+      "number": "7.1.14"
     },
     {
       "id": "sec-tobigint",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tobigint",
       "title": "ToBigInt ( arg )",
       "level": 3,
-      "number": "7.1.14"
+      "number": "7.1.15"
     },
     {
       "id": "sec-stringtobigint",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-stringtobigint",
       "title": "StringToBigInt ( string )",
       "level": 3,
-      "number": "7.1.15"
+      "number": "7.1.16"
     },
     {
       "id": "sec-stringintegerliteral-grammar",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-stringintegerliteral-grammar",
       "title": "StringIntegerLiteral Grammar",
       "level": 4,
-      "number": "7.1.15.1"
+      "number": "7.1.16.1"
     },
     {
       "id": "sec-runtime-semantics-mv-for-stringintegerliteral",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-runtime-semantics-mv-for-stringintegerliteral",
       "title": "Runtime Semantics: MV",
       "level": 4,
-      "number": "7.1.15.2"
+      "number": "7.1.16.2"
     },
     {
       "id": "sec-tobigint64",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tobigint64",
       "title": "ToBigInt64 ( arg )",
       "level": 3,
-      "number": "7.1.16"
+      "number": "7.1.17"
     },
     {
       "id": "sec-tobiguint64",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tobiguint64",
       "title": "ToBigUint64 ( arg )",
       "level": 3,
-      "number": "7.1.17"
+      "number": "7.1.18"
     },
     {
       "id": "sec-tostring",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tostring",
       "title": "ToString ( arg )",
       "level": 3,
-      "number": "7.1.18"
+      "number": "7.1.19"
     },
     {
       "id": "sec-toobject",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toobject",
       "title": "ToObject ( arg )",
       "level": 3,
-      "number": "7.1.19"
+      "number": "7.1.20"
     },
     {
       "id": "sec-topropertykey",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-topropertykey",
       "title": "ToPropertyKey ( arg )",
       "level": 3,
-      "number": "7.1.20"
+      "number": "7.1.21"
     },
     {
       "id": "sec-tolength",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-tolength",
       "title": "ToLength ( arg )",
       "level": 3,
-      "number": "7.1.21"
+      "number": "7.1.22"
     },
     {
       "id": "sec-canonicalnumericindexstring",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-canonicalnumericindexstring",
       "title": "CanonicalNumericIndexString ( arg )",
       "level": 3,
-      "number": "7.1.22"
+      "number": "7.1.23"
     },
     {
       "id": "sec-toindex",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toindex",
       "title": "ToIndex ( arg )",
       "level": 3,
-      "number": "7.1.23"
+      "number": "7.1.24"
     },
     {
       "id": "sec-toabsoluteindex",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toabsoluteindex",
       "title": "ToAbsoluteIndex ( value, length )",
       "level": 3,
-      "number": "7.1.24"
+      "number": "7.1.25"
     },
     {
       "id": "sec-toclampedindex",
       "href": "https://tc39.es/ecma262/multipage/abstract-operations.html#sec-toclampedindex",
       "title": "ToClampedIndex ( value, length )",
       "level": 3,
-      "number": "7.1.25"
+      "number": "7.1.26"
     },
     {
       "id": "sec-testing-and-comparison-operations",
@@ -9315,137 +9322,144 @@
       "number": "21.4.1.16"
     },
     {
+      "id": "sec-epoch-nanoseconds",
+      "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-epoch-nanoseconds",
+      "title": "Epoch Nanoseconds and Range",
+      "level": 4,
+      "number": "21.4.1.17"
+    },
+    {
       "id": "sec-getutcepochnanoseconds",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-getutcepochnanoseconds",
       "title": "GetUTCEpochNanoseconds ( year, month, day, hour, minute, second, millisecond, microsecond, nanosecond )",
       "level": 4,
-      "number": "21.4.1.17"
+      "number": "21.4.1.18"
     },
     {
       "id": "sec-time-zone-identifiers",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-time-zone-identifiers",
       "title": "Time Zone Identifiers",
       "level": 4,
-      "number": "21.4.1.18"
+      "number": "21.4.1.19"
     },
     {
       "id": "sec-getnamedtimezoneepochnanoseconds",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-getnamedtimezoneepochnanoseconds",
       "title": "GetNamedTimeZoneEpochNanoseconds ( timeZoneIdentifier, year, month, day, hour, minute, second, millisecond, microsecond, nanosecond )",
       "level": 4,
-      "number": "21.4.1.19"
+      "number": "21.4.1.20"
     },
     {
       "id": "sec-getnamedtimezoneoffsetnanoseconds",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-getnamedtimezoneoffsetnanoseconds",
       "title": "GetNamedTimeZoneOffsetNanoseconds ( timeZoneIdentifier, epochNanoseconds )",
       "level": 4,
-      "number": "21.4.1.20"
+      "number": "21.4.1.21"
     },
     {
       "id": "sec-time-zone-identifier-record",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-time-zone-identifier-record",
       "title": "Time Zone Identifier Record",
       "level": 4,
-      "number": "21.4.1.21"
+      "number": "21.4.1.22"
     },
     {
       "id": "sec-availablenamedtimezoneidentifiers",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-availablenamedtimezoneidentifiers",
       "title": "AvailableNamedTimeZoneIdentifiers ( )",
       "level": 4,
-      "number": "21.4.1.22"
+      "number": "21.4.1.23"
     },
     {
       "id": "sec-systemtimezoneidentifier",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-systemtimezoneidentifier",
       "title": "SystemTimeZoneIdentifier ( )",
       "level": 4,
-      "number": "21.4.1.23"
+      "number": "21.4.1.24"
     },
     {
       "id": "sec-localtime",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-localtime",
       "title": "LocalTime ( tv )",
       "level": 4,
-      "number": "21.4.1.24"
+      "number": "21.4.1.25"
     },
     {
       "id": "sec-utc-t",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-utc-t",
       "title": "UTC ( t )",
       "level": 4,
-      "number": "21.4.1.25"
+      "number": "21.4.1.26"
     },
     {
       "id": "sec-maketime",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-maketime",
       "title": "MakeTime ( hour, min, sec, ms )",
       "level": 4,
-      "number": "21.4.1.26"
+      "number": "21.4.1.27"
     },
     {
       "id": "sec-makeday",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-makeday",
       "title": "MakeDay ( year, month, date )",
       "level": 4,
-      "number": "21.4.1.27"
+      "number": "21.4.1.28"
     },
     {
       "id": "sec-makedate",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-makedate",
       "title": "MakeDate ( day, time )",
       "level": 4,
-      "number": "21.4.1.28"
+      "number": "21.4.1.29"
     },
     {
       "id": "sec-makefullyear",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-makefullyear",
       "title": "MakeFullYear ( year )",
       "level": 4,
-      "number": "21.4.1.29"
+      "number": "21.4.1.30"
     },
     {
       "id": "sec-timeclip",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-timeclip",
       "title": "TimeClip ( time )",
       "level": 4,
-      "number": "21.4.1.30"
+      "number": "21.4.1.31"
     },
     {
       "id": "sec-date-time-string-format",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date-time-string-format",
       "title": "Date Time String Format",
       "level": 4,
-      "number": "21.4.1.31"
+      "number": "21.4.1.32"
     },
     {
       "id": "sec-expanded-years",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-expanded-years",
       "title": "Expanded Years",
       "level": 5,
-      "number": "21.4.1.31.1"
+      "number": "21.4.1.32.1"
     },
     {
       "id": "sec-time-zone-offset-strings",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-time-zone-offset-strings",
       "title": "Time Zone Offset String Format",
       "level": 4,
-      "number": "21.4.1.32"
+      "number": "21.4.1.33"
     },
     {
       "id": "sec-istimezoneoffsetstring",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-istimezoneoffsetstring",
       "title": "IsTimeZoneOffsetString ( offsetString )",
       "level": 5,
-      "number": "21.4.1.32.1"
+      "number": "21.4.1.33.1"
     },
     {
       "id": "sec-parsetimezoneoffsetstring",
       "href": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-parsetimezoneoffsetstring",
       "title": "ParseTimeZoneOffsetString ( offsetString )",
       "level": 5,
-      "number": "21.4.1.32.2"
+      "number": "21.4.1.33.2"
     },
     {
       "id": "sec-date-constructor",
