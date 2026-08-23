@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-08-22T02:24:18.441Z",
+  "date": "2026-08-23T02:32:03.624Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "22 August 2026",
+      "date": "23 August 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -2606,7 +2606,7 @@
       ],
       "crawled": "https://www.w3.org/TR/css-2022/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 21 Nov 2022 19:18:17 GMT"
+        "lastModified": "Thu, 30 Jul 2026 17:17:50 GMT"
       },
       "generator": "bikeshed",
       "date": "22 November 2022",
@@ -21627,11 +21627,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vc-barcodes-1.0/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 06 Aug 2026 14:00:54 GMT"
+        "lastModified": "Sat, 22 Aug 2026 20:55:16 GMT"
       },
       "generator": "respec",
-      "date": "06 August 2026",
-      "revision": "bb06df9a9048793d01c4b9fd5e8f84ee1df55f9b",
+      "date": "22 August 2026",
+      "revision": "25cd10bcbb7fc0b2be91cfc84aed7437f27aac7d",
       "algorithms": "algorithms/vc-barcodes-1.0.json",
       "links": "links/vc-barcodes-1.0.json",
       "refs": "refs/vc-barcodes-1.0.json",
@@ -22401,11 +22401,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vc-render-method/",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 16 Aug 2026 18:12:41 GMT"
+        "lastModified": "Sat, 22 Aug 2026 17:36:00 GMT"
       },
       "generator": "respec",
-      "date": "16 August 2026",
-      "revision": "ac1c33ebe394813b64bc195676eff1f39e02b8bd",
+      "date": "22 August 2026",
+      "revision": "295bfbb7ca83f8407c8ae6c2698b072c10319687",
       "algorithms": "algorithms/vc-render-method.json",
       "links": "links/vc-render-method.json",
       "refs": "refs/vc-render-method.json",
@@ -24718,7 +24718,7 @@
       ],
       "crawled": "https://www.w3.org/TR/webcodecs-vp9-codec-registration/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 14 May 2025 22:01:18 GMT"
+        "lastModified": "Thu, 30 Jul 2026 17:19:14 GMT"
       },
       "generator": "bikeshed",
       "date": "14 May 2025",
