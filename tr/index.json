@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-08-25T02:26:40.339Z",
+  "date": "2026-08-26T02:33:14.525Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "25 August 2026",
+      "date": "26 August 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -4154,11 +4154,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-color-4/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 06 Aug 2026 14:08:02 GMT"
+        "lastModified": "Tue, 25 Aug 2026 15:52:34 GMT"
       },
       "generator": "bikeshed",
-      "date": "6 August 2026",
-      "revision": "87b44e016626bbbf5c55953ea622e3fe1483131f",
+      "date": "25 August 2026",
+      "revision": "86ff5dd6478d7261084361d60357b8676a4d0caf",
       "algorithms": "algorithms/css-color-4.json",
       "links": "links/css-color-4.json",
       "refs": "refs/css-color-4.json",
@@ -5480,11 +5480,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-fonts-4/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 18 Aug 2026 09:32:41 GMT"
+        "lastModified": "Tue, 25 Aug 2026 10:16:48 GMT"
       },
       "generator": "bikeshed",
-      "date": "18 August 2026",
-      "revision": "7539965d98f6a6aae2933753b28aa505288a14d4",
+      "date": "25 August 2026",
+      "revision": "e87f13d5f9206a72f06f14ddde555b92e4c60ee6",
       "algorithms": "algorithms/css-fonts-4.json",
       "links": "links/css-fonts-4.json",
       "refs": "refs/css-fonts-4.json",
@@ -23859,11 +23859,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webauthn-3/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 22 May 2026 10:04:12 GMT"
+        "lastModified": "Wed, 19 Aug 2026 15:41:58 GMT"
       },
       "generator": "bikeshed",
-      "date": "26 May 2026",
-      "revision": "1f961c91b7c2de3d1b45ef3d6ca7b64d104b84e0",
+      "date": "25 August 2026",
+      "revision": "0a33db2d8901277e5107a89cb3152db125b328de",
       "algorithms": "algorithms/webauthn-3.json",
       "links": "links/webauthn-3.json",
       "refs": "refs/webauthn-3.json",
@@ -24910,11 +24910,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webdriver-bidi/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 24 Aug 2026 06:57:53 GMT"
+        "lastModified": "Tue, 25 Aug 2026 10:59:04 GMT"
       },
       "generator": "bikeshed",
-      "date": "24 August 2026",
-      "revision": "f685b9312940dbc7fa9ccf5ed36979bd351ddcc0",
+      "date": "25 August 2026",
+      "revision": "27a2f4b1aa258bb8c6859eb7ee265add0f9840fb",
       "algorithms": "algorithms/webdriver-bidi.json",
       "links": "links/webdriver-bidi.json",
       "refs": "refs/webdriver-bidi.json",
@@ -25826,11 +25826,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webxr-depth-sensing-1/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 10 Dec 2025 21:13:42 GMT"
+        "lastModified": "Tue, 25 Aug 2026 20:35:36 GMT"
       },
       "generator": "bikeshed",
-      "date": "10 December 2025",
-      "revision": "2e5e9876756505b11a47efe9ce3effc53ea07608",
+      "date": "25 August 2026",
+      "revision": "e4b58e863683e0598a84f083c452bca9ecf264f8",
       "algorithms": "algorithms/webxr-depth-sensing-1.json",
       "links": "links/webxr-depth-sensing-1.json",
       "refs": "refs/webxr-depth-sensing-1.json",
