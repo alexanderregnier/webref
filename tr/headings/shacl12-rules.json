@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "SHACL 1.2 Rules",
+    "title": "SPARQL 1.2 RL",
     "url": "https://www.w3.org/TR/shacl12-rules/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://www.w3.org/TR/shacl12-rules/#title",
       "level": 1,
-      "title": "SHACL 1.2 Rules"
+      "title": "SPARQL 1.2 RL"
     },
     {
       "id": "toc",
@@ -72,9 +72,9 @@
       "id": "overview",
       "href": "https://www.w3.org/TR/shacl12-rules/#overview",
       "level": 2,
-      "title": "SHACL Rules",
+      "title": "SPARQL-RL",
       "alternateIds": [
-        "x3-shacl-rules"
+        "x3-sparql-rl"
       ],
       "number": "3"
     },
@@ -169,22 +169,12 @@
       "number": "3.9"
     },
     {
-      "id": "shacl-extension",
-      "href": "https://www.w3.org/TR/shacl12-rules/#shacl-extension",
-      "level": 3,
-      "title": "SHACL Integration",
-      "alternateIds": [
-        "x3-10-shacl-integration"
-      ],
-      "number": "3.10"
-    },
-    {
       "id": "rules-abstract-syntax",
       "href": "https://www.w3.org/TR/shacl12-rules/#rules-abstract-syntax",
       "level": 2,
-      "title": "Shape Rules Abstract Syntax",
+      "title": "SPARQL-RL Abstract Syntax",
       "alternateIds": [
-        "x4-shape-rules-abstract-syntax"
+        "x4-sparql-rl-abstract-syntax"
       ],
       "number": "4"
     },
@@ -279,12 +269,12 @@
       "number": "4.5"
     },
     {
-      "id": "rules-sparql-relationship",
-      "href": "https://www.w3.org/TR/shacl12-rules/#rules-sparql-relationship",
+      "id": "srl-sparql-relationship",
+      "href": "https://www.w3.org/TR/shacl12-rules/#srl-sparql-relationship",
       "level": 2,
-      "title": "Relationship between SRL and SPARQL",
+      "title": "Relationship between SPARQL-RL and SPARQL",
       "alternateIds": [
-        "x5-relationship-between-srl-and-sparql"
+        "x5-relationship-between-sparql-rl-and-sparql"
       ],
       "number": "5"
     },
@@ -389,12 +379,12 @@
       "number": "6.6.3"
     },
     {
-      "id": "shapes-rules-grammar",
-      "href": "https://www.w3.org/TR/shacl12-rules/#shapes-rules-grammar",
+      "id": "sparql-rl-grammar",
+      "href": "https://www.w3.org/TR/shacl12-rules/#sparql-rl-grammar",
       "level": 2,
-      "title": "Shape Rules Language Grammar",
+      "title": "SPARQL-RL Grammar",
       "alternateIds": [
-        "x7-shape-rules-language-grammar"
+        "x7-sparql-rl-grammar"
       ],
       "number": "7"
     },
@@ -509,24 +499,14 @@
       "number": "D"
     },
     {
-      "id": "internationalization",
-      "href": "https://www.w3.org/TR/shacl12-rules/#internationalization",
-      "level": 2,
-      "title": "Internationalization Considerations",
-      "alternateIds": [
-        "e-internationalization-considerations"
-      ],
-      "number": "E"
-    },
-    {
       "id": "ack",
       "href": "https://www.w3.org/TR/shacl12-rules/#ack",
       "level": 2,
       "title": "Acknowledgements",
       "alternateIds": [
-        "f-acknowledgements"
+        "e-acknowledgements"
       ],
-      "number": "F"
+      "number": "E"
     },
     {
       "id": "index",
@@ -534,9 +514,9 @@
       "level": 2,
       "title": "Index",
       "alternateIds": [
-        "g-index"
+        "f-index"
       ],
-      "number": "G"
+      "number": "F"
     },
     {
       "id": "index-defined-here",
@@ -544,9 +524,9 @@
       "level": 3,
       "title": "Terms defined by this specification",
       "alternateIds": [
-        "g-1-terms-defined-by-this-specification"
+        "f-1-terms-defined-by-this-specification"
       ],
-      "number": "G.1"
+      "number": "F.1"
     },
     {
       "id": "index-defined-elsewhere",
@@ -554,9 +534,9 @@
       "level": 3,
       "title": "Terms defined by reference",
       "alternateIds": [
-        "g-2-terms-defined-by-reference"
+        "f-2-terms-defined-by-reference"
       ],
-      "number": "G.2"
+      "number": "F.2"
     },
     {
       "id": "issue-summary",
@@ -564,9 +544,9 @@
       "level": 2,
       "title": "Issue summary",
       "alternateIds": [
-        "h-issue-summary"
+        "g-issue-summary"
       ],
-      "number": "H"
+      "number": "G"
     },
     {
       "id": "references",
@@ -574,9 +554,9 @@
       "level": 2,
       "title": "References",
       "alternateIds": [
-        "i-references"
+        "h-references"
       ],
-      "number": "I"
+      "number": "H"
     },
     {
       "id": "normative-references",
@@ -584,9 +564,9 @@
       "level": 3,
       "title": "Normative references",
       "alternateIds": [
-        "i-1-normative-references"
+        "h-1-normative-references"
       ],
-      "number": "I.1"
+      "number": "H.1"
     }
   ]
 }

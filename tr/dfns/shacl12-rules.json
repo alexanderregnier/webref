@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "SHACL 1.2 Rules",
+    "title": "SPARQL 1.2 RL",
     "url": "https://www.w3.org/TR/shacl12-rules/"
   },
   "dfns": [
@@ -593,6 +593,29 @@
       "href": "https://www.w3.org/TR/shacl12-rules/#dfn-query",
       "linkingText": [
         "Query"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/shacl12-rules/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-sparql-rl-processor",
+      "href": "https://www.w3.org/TR/shacl12-rules/#dfn-sparql-rl-processor",
+      "linkingText": [
+        "SPARQL-RL processor"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1216,11 +1239,11 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "shapes-rules-grammar",
-        "href": "https://www.w3.org/TR/shacl12-rules/#shapes-rules-grammar",
-        "title": "Shape Rules Language Grammar",
+        "id": "sparql-rl-grammar",
+        "href": "https://www.w3.org/TR/shacl12-rules/#sparql-rl-grammar",
+        "title": "SPARQL-RL Grammar",
         "alternateIds": [
-          "x7-shape-rules-language-grammar"
+          "x7-sparql-rl-grammar"
         ],
         "number": "7"
       },
