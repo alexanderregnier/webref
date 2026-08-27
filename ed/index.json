@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-08-26T20:41:10.837Z",
+  "date": "2026-08-27T10:25:38.017Z",
   "options": {
     "fallback": "ed/index.json",
     "output": "report",
@@ -1545,9 +1545,9 @@
       ],
       "crawled": "https://httpwg.org/http-extensions/draft-ietf-httpbis-layered-cookies.html",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 25 Aug 2026 15:23:19 GMT"
+        "lastModified": "Thu, 27 Aug 2026 06:21:07 GMT"
       },
-      "date": "25 August 2026",
+      "date": "27 August 2026",
       "algorithms": "algorithms/layered-cookies.json",
       "links": "links/layered-cookies.json",
       "refs": "refs/layered-cookies.json",
@@ -1594,9 +1594,9 @@
       ],
       "crawled": "https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 25 Aug 2026 15:23:19 GMT"
+        "lastModified": "Thu, 27 Aug 2026 06:21:07 GMT"
       },
-      "date": "25 August 2026",
+      "date": "27 August 2026",
       "algorithms": "algorithms/no-vary-search.json",
       "links": "links/no-vary-search.json",
       "refs": "refs/no-vary-search.json",
@@ -1643,9 +1643,9 @@
       ],
       "crawled": "https://httpwg.org/http-extensions/draft-ietf-httpbis-rfc6265bis.html",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 25 Aug 2026 15:23:19 GMT"
+        "lastModified": "Thu, 27 Aug 2026 06:21:07 GMT"
       },
-      "date": "25 August 2026",
+      "date": "27 August 2026",
       "algorithms": "algorithms/rfc6265bis.json",
       "links": "links/rfc6265bis.json",
       "refs": "refs/rfc6265bis.json",
@@ -1692,9 +1692,9 @@
       ],
       "crawled": "https://httpwg.org/http-extensions/draft-ietf-httpbis-unencoded-digest.html",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 25 Aug 2026 15:23:19 GMT"
+        "lastModified": "Thu, 27 Aug 2026 06:21:07 GMT"
       },
-      "date": "25 August 2026",
+      "date": "27 August 2026",
       "links": "links/unencoded-digest.json",
       "refs": "refs/unencoded-digest.json",
       "headings": "headings/unencoded-digest.json",
@@ -3352,9 +3352,9 @@
       ],
       "crawled": "https://html.spec.whatwg.org/multipage/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 18:52:06 GMT"
+        "lastModified": "Thu, 27 Aug 2026 06:31:45 GMT"
       },
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "algorithms": "algorithms/html.json",
       "links": "links/html.json",
       "refs": "refs/html.json",
@@ -4484,7 +4484,7 @@
       "links": "links/EXT_color_buffer_half_float.json",
       "idl": "idl/EXT_color_buffer_half_float.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_color_buffer_half_float/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_color_buffer_half_float/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 65)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query_webgl2/",
@@ -4744,7 +4744,7 @@
       "links": "links/EXT_shader_texture_lod.json",
       "idl": "idl/EXT_shader_texture_lod.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_shader_texture_lod/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 70)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_shader_texture_lod/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/EXT_sRGB/",
@@ -4952,7 +4952,7 @@
       "links": "links/EXT_texture_filter_anisotropic.json",
       "idl": "idl/EXT_texture_filter_anisotropic.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_texture_filter_anisotropic/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_texture_filter_anisotropic/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 74)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/EXT_texture_norm16/",
@@ -6996,7 +6996,7 @@
       ],
       "crawled": "https://tc39.es/ecma262/multipage/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 16:52:21 GMT"
+        "lastModified": "Wed, 26 Aug 2026 16:52:22 GMT"
       },
       "date": "26 August 2026",
       "links": "links/ecmascript.json",
@@ -10732,11 +10732,11 @@
       ],
       "crawled": "https://webmachinelearning.github.io/webmcp/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:14:36 GMT"
+        "lastModified": "Wed, 26 Aug 2026 20:24:00 GMT"
       },
       "generator": "bikeshed",
       "date": "26 August 2026",
-      "revision": "2ac94f537214c4b84f55eb03b644198be44289f0",
+      "revision": "41d12f057167ccf5954dbcf49d99502cb6c84491",
       "algorithms": "algorithms/webmcp.json",
       "links": "links/webmcp.json",
       "refs": "refs/webmcp.json",
@@ -13234,11 +13234,11 @@
       ],
       "crawled": "https://wicg.github.io/nav-speculation/prefetch.html",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 14 May 2026 10:43:04 GMT"
+        "lastModified": "Thu, 27 Aug 2026 00:58:33 GMT"
       },
       "generator": "bikeshed",
-      "date": "14 May 2026",
-      "revision": "8f51f04ce5f03acd4dfc7ca3cb2ef99c81fc3d4e",
+      "date": "27 August 2026",
+      "revision": "45e9c0ac7c8d85efa48ef6f9bcf3cfa46b80511d",
       "algorithms": "algorithms/prefetch.json",
       "links": "links/prefetch.json",
       "refs": "refs/prefetch.json",
@@ -13294,11 +13294,11 @@
       ],
       "crawled": "https://wicg.github.io/nav-speculation/prerendering.html",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 14 May 2026 10:43:04 GMT"
+        "lastModified": "Thu, 27 Aug 2026 00:58:33 GMT"
       },
       "generator": "bikeshed",
-      "date": "14 May 2026",
-      "revision": "8f51f04ce5f03acd4dfc7ca3cb2ef99c81fc3d4e",
+      "date": "27 August 2026",
+      "revision": "45e9c0ac7c8d85efa48ef6f9bcf3cfa46b80511d",
       "algorithms": "algorithms/prerendering-revamped.json",
       "links": "links/prerendering-revamped.json",
       "refs": "refs/prerendering-revamped.json",
@@ -15587,7 +15587,7 @@
         "https://www.rfc-editor.org/rfc/rfc2397"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc2397/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc2397.json",
       "headings": "headings/rfc2397.json",
       "ids": "ids/rfc2397.json",
@@ -15631,7 +15631,7 @@
         "https://www.rfc-editor.org/rfc/rfc4120"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc4120/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc4120.json",
       "headings": "headings/rfc4120.json",
       "ids": "ids/rfc4120.json",
@@ -15829,7 +15829,7 @@
         "https://www.rfc-editor.org/rfc/rfc6386"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc6386/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc6386.json",
       "headings": "headings/rfc6386.json",
       "ids": "ids/rfc6386.json",
@@ -15873,7 +15873,7 @@
         "https://www.rfc-editor.org/rfc/rfc6454"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc6454/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc6454.json",
       "headings": "headings/rfc6454.json",
       "ids": "ids/rfc6454.json",
@@ -15917,7 +15917,7 @@
         "https://www.rfc-editor.org/rfc/rfc6455"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc6455/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc6455.json",
       "headings": "headings/rfc6455.json",
       "ids": "ids/rfc6455.json",
@@ -15961,7 +15961,7 @@
         "https://www.rfc-editor.org/rfc/rfc6797"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc6797/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc6797.json",
       "headings": "headings/rfc6797.json",
       "ids": "ids/rfc6797.json",
@@ -16005,7 +16005,7 @@
         "https://www.rfc-editor.org/rfc/rfc7034"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc7034/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc7034.json",
       "headings": "headings/rfc7034.json",
       "ids": "ids/rfc7034.json",
@@ -16049,7 +16049,7 @@
         "https://www.rfc-editor.org/rfc/rfc7239"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc7239/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc7239.json",
       "headings": "headings/rfc7239.json",
       "ids": "ids/rfc7239.json",
@@ -16145,7 +16145,7 @@
         "https://www.rfc-editor.org/rfc/rfc7469"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc7469/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc7469.json",
       "headings": "headings/rfc7469.json",
       "ids": "ids/rfc7469.json",
@@ -16189,7 +16189,7 @@
         "https://www.rfc-editor.org/rfc/rfc7578"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc7578/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc7578.json",
       "headings": "headings/rfc7578.json",
       "ids": "ids/rfc7578.json",
@@ -16437,7 +16437,7 @@
         "https://www.rfc-editor.org/rfc/rfc7932"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc7932/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc7932.json",
       "headings": "headings/rfc7932.json",
       "ids": "ids/rfc7932.json",
@@ -16687,7 +16687,7 @@
         "https://www.rfc-editor.org/rfc/rfc8610"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc8610/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc8610.json",
       "headings": "headings/rfc8610.json",
       "ids": "ids/rfc8610.json",
@@ -16731,7 +16731,7 @@
         "https://www.rfc-editor.org/rfc/rfc8878"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc8878/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc8878.json",
       "refs": "refs/rfc8878.json",
       "headings": "headings/rfc8878.json",
@@ -17087,7 +17087,7 @@
         "https://www.rfc-editor.org/rfc/rfc9163"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc9163/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "algorithms": "algorithms/rfc9163.json",
       "links": "links/rfc9163.json",
       "refs": "refs/rfc9163.json",
@@ -17293,7 +17293,7 @@
         "https://www.rfc-editor.org/rfc/rfc9649"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc9649/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "algorithms": "algorithms/rfc9649.json",
       "links": "links/rfc9649.json",
       "refs": "refs/rfc9649.json",
@@ -17339,7 +17339,7 @@
         "https://www.rfc-editor.org/rfc/rfc9659"
       ],
       "crawled": "https://www.rfc-editor.org/info/rfc9659/",
-      "date": "26 August 2026",
+      "date": "27 August 2026",
       "links": "links/rfc9659.json",
       "refs": "refs/rfc9659.json",
       "headings": "headings/rfc9659.json",
@@ -26976,7 +26976,7 @@
       ],
       "crawled": "https://drafts.csswg.org/css-writing-modes-3/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 25 Aug 2026 15:57:25 GMT"
+        "lastModified": "Tue, 25 Aug 2026 15:57:26 GMT"
       },
       "generator": "bikeshed",
       "date": "18 January 2026",
@@ -27830,11 +27830,11 @@
       ],
       "crawled": "https://w3c-fedid.github.io/digital-credentials/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 21 Aug 2026 01:24:13 GMT"
+        "lastModified": "Thu, 27 Aug 2026 08:26:56 GMT"
       },
       "generator": "respec",
-      "date": "21 August 2026",
-      "revision": "2e9b6877a4fde28f4d35d8c2ad1843c686f1e299",
+      "date": "27 August 2026",
+      "revision": "a3b699ec293d16e4e3c2bc9e2723b99cb131830c",
       "algorithms": "algorithms/digital-credentials.json",
       "links": "links/digital-credentials.json",
       "refs": "refs/digital-credentials.json",
@@ -37483,9 +37483,9 @@
       ],
       "crawled": "https://w3c.github.io/svgwg/svg2-draft/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 18 Aug 2026 08:11:12 GMT"
+        "lastModified": "Thu, 27 Aug 2026 06:25:32 GMT"
       },
-      "date": "18 August 2026",
+      "date": "27 August 2026",
       "algorithms": "algorithms/SVG2.json",
       "links": "links/SVG2.json",
       "refs": "refs/SVG2.json",
@@ -39656,10 +39656,10 @@
       ],
       "crawled": "https://w3c.github.io/aria/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 25 Aug 2026 08:47:30 GMT"
+        "lastModified": "Thu, 27 Aug 2026 07:24:10 GMT"
       },
       "generator": "respec",
-      "date": "20 August 2026",
+      "date": "27 August 2026",
       "algorithms": "algorithms/wai-aria-1.2.json",
       "links": "links/wai-aria-1.2.json",
       "refs": "refs/wai-aria-1.2.json",
@@ -39721,10 +39721,10 @@
       ],
       "crawled": "https://w3c.github.io/aria/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 25 Aug 2026 08:47:30 GMT"
+        "lastModified": "Thu, 27 Aug 2026 07:24:10 GMT"
       },
       "generator": "respec",
-      "date": "20 August 2026",
+      "date": "27 August 2026",
       "algorithms": "algorithms/wai-aria-1.3.json",
       "links": "links/wai-aria-1.3.json",
       "refs": "refs/wai-aria-1.3.json",
@@ -39799,11 +39799,11 @@
       ],
       "crawled": "https://webassembly.github.io/spec/core/bikeshed/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 12 Aug 2026 19:01:32 GMT"
+        "lastModified": "Wed, 26 Aug 2026 22:07:35 GMT"
       },
       "generator": "bikeshed",
-      "date": "12 August 2026",
-      "revision": "fc209c5ed8afc4dfeb9252024d217da3376c7a6f",
+      "date": "26 August 2026",
+      "revision": "4b29bdbced924599346ea2ffd9e975af5d28c735",
       "algorithms": "algorithms/wasm-core-2.json",
       "links": "links/wasm-core-2.json",
       "refs": "refs/wasm-core-2.json",
@@ -39872,11 +39872,11 @@
       ],
       "crawled": "https://webassembly.github.io/spec/js-api/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 12 Aug 2026 19:01:32 GMT"
+        "lastModified": "Wed, 26 Aug 2026 22:07:35 GMT"
       },
       "generator": "bikeshed",
-      "date": "12 August 2026",
-      "revision": "fc209c5ed8afc4dfeb9252024d217da3376c7a6f",
+      "date": "26 August 2026",
+      "revision": "4b29bdbced924599346ea2ffd9e975af5d28c735",
       "algorithms": "algorithms/wasm-js-api-2.json",
       "links": "links/wasm-js-api-2.json",
       "refs": "refs/wasm-js-api-2.json",
@@ -39938,11 +39938,11 @@
       ],
       "crawled": "https://webassembly.github.io/spec/web-api/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 12 Aug 2026 19:01:32 GMT"
+        "lastModified": "Wed, 26 Aug 2026 22:07:35 GMT"
       },
       "generator": "bikeshed",
-      "date": "12 August 2026",
-      "revision": "fc209c5ed8afc4dfeb9252024d217da3376c7a6f",
+      "date": "26 August 2026",
+      "revision": "4b29bdbced924599346ea2ffd9e975af5d28c735",
       "algorithms": "algorithms/wasm-web-api-2.json",
       "links": "links/wasm-web-api-2.json",
       "refs": "refs/wasm-web-api-2.json",
@@ -39997,7 +39997,7 @@
       ],
       "crawled": "https://w3c.github.io/wcag3/guidelines/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 19:09:59 GMT"
+        "lastModified": "Wed, 26 Aug 2026 23:58:22 GMT"
       },
       "generator": "respec",
       "date": "26 August 2026",
@@ -40457,11 +40457,11 @@
       ],
       "crawled": "https://webaudio.github.io/web-audio-api/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 31 Jul 2026 23:42:18 GMT"
+        "lastModified": "Wed, 26 Aug 2026 23:38:15 GMT"
       },
       "generator": "bikeshed",
-      "date": "31 July 2026",
-      "revision": "ad5d2ed145e43f1a818bfe29a792365e9386eb6a",
+      "date": "26 August 2026",
+      "revision": "bfc7143fcf798a5a0fc056a2e31f78f679e219ea",
       "algorithms": "algorithms/webaudio-1.0.json",
       "links": "links/webaudio-1.0.json",
       "refs": "refs/webaudio-1.0.json",
@@ -40524,11 +40524,11 @@
       ],
       "crawled": "https://webaudio.github.io/web-audio-api/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 31 Jul 2026 23:42:18 GMT"
+        "lastModified": "Wed, 26 Aug 2026 23:38:15 GMT"
       },
       "generator": "bikeshed",
-      "date": "31 July 2026",
-      "revision": "ad5d2ed145e43f1a818bfe29a792365e9386eb6a",
+      "date": "26 August 2026",
+      "revision": "bfc7143fcf798a5a0fc056a2e31f78f679e219ea",
       "algorithms": "algorithms/webaudio-1.1.json",
       "links": "links/webaudio-1.1.json",
       "refs": "refs/webaudio-1.1.json",
@@ -40650,7 +40650,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/aac_codec_registration.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "19 March 2026",
@@ -40708,7 +40708,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/alaw_codec_registration.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "8 June 2026",
@@ -40764,7 +40764,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/av1_codec_registration.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "8 June 2026",
@@ -40822,7 +40822,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "8 June 2026",
@@ -40880,7 +40880,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/codec_registry.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "12 February 2026",
@@ -40938,7 +40938,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/flac_codec_registration.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "14 May 2025",
@@ -40997,7 +40997,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/hevc_codec_registration.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "8 June 2026",
@@ -41055,7 +41055,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/mp3_codec_registration.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "8 June 2026",
@@ -41111,7 +41111,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/opus_codec_registration.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "8 June 2026",
@@ -41170,7 +41170,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/pcm_codec_registration.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "8 June 2026",
@@ -41226,7 +41226,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/ulaw_codec_registration.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "14 May 2025",
@@ -41282,7 +41282,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/video_frame_metadata_registry.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "14 April 2026",
@@ -41338,7 +41338,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/vorbis_codec_registration.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "8 June 2026",
@@ -41394,7 +41394,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/vp8_codec_registration.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "9 September 2024",
@@ -41450,7 +41450,7 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/vp9_codec_registration.html",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "4 December 2025",
@@ -41514,11 +41514,11 @@
       ],
       "crawled": "https://w3c.github.io/webcodecs/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 17:52:33 GMT"
+        "lastModified": "Wed, 26 Aug 2026 21:27:53 GMT"
       },
       "generator": "bikeshed",
       "date": "26 August 2026",
-      "revision": "3474eda40f3d2cb2f529e8f6e5423562ee384aa8",
+      "revision": "1aaeafbb9ec8d5476c9fb29618ff0820f502850b",
       "algorithms": "algorithms/webcodecs.json",
       "links": "links/webcodecs.json",
       "refs": "refs/webcodecs.json",

@@ -2087,7 +2087,7 @@
       "id": "conformance",
       "href": "https://w3c.github.io/wcag3/guidelines/#conformance",
       "level": 2,
-      "title": "ConformanceExploratory",
+      "title": "ConformanceDeveloping",
       "alternateIds": [
         "x3-conformance"
       ],
@@ -2134,24 +2134,14 @@
       "number": "3.2"
     },
     {
-      "id": "conformance-level",
-      "href": "https://w3c.github.io/wcag3/guidelines/#conformance-level",
-      "level": 4,
-      "title": "Conformance level",
-      "alternateIds": [
-        "x3-2-1-conformance-level"
-      ],
-      "number": "3.2.1"
-    },
-    {
       "id": "accessibility-supported",
       "href": "https://w3c.github.io/wcag3/guidelines/#accessibility-supported",
       "level": 4,
       "title": "Accessibility supported",
       "alternateIds": [
-        "x3-2-2-accessibility-supported"
+        "x3-2-1-accessibility-supported"
       ],
-      "number": "3.2.2"
+      "number": "3.2.1"
     },
     {
       "id": "accessibility-support-set",
@@ -2159,9 +2149,9 @@
       "level": 5,
       "title": "Accessibility support set",
       "alternateIds": [
-        "x3-2-2-1-accessibility-support-set"
+        "x3-2-1-1-accessibility-support-set"
       ],
-      "number": "3.2.2.1"
+      "number": "3.2.1.1"
     },
     {
       "id": "defined-conformance-scope",
@@ -2169,19 +2159,9 @@
       "level": 4,
       "title": "Defined conformance scope",
       "alternateIds": [
-        "x3-2-3-defined-conformance-scope"
+        "x3-2-2-defined-conformance-scope"
       ],
-      "number": "3.2.3"
-    },
-    {
-      "id": "function-performance-statements",
-      "href": "https://w3c.github.io/wcag3/guidelines/#function-performance-statements",
-      "level": 3,
-      "title": "Functional performance statements (expanded)",
-      "alternateIds": [
-        "x3-3-functional-performance-statements-expanded"
-      ],
-      "number": "3.3"
+      "number": "3.2.2"
     },
     {
       "id": "glossary",
