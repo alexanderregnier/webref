@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-08-27T11:11:22.226Z",
+  "date": "2026-08-28T12:45:03.909Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "27 August 2026",
+      "date": "28 August 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -1232,11 +1232,11 @@
       ],
       "crawled": "https://www.w3.org/TR/attribution/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 20 Aug 2026 12:49:22 GMT"
+        "lastModified": "Fri, 28 Aug 2026 10:04:45 GMT"
       },
       "generator": "bikeshed",
-      "date": "20 August 2026",
-      "revision": "f5f075fbfe6879e1af479676d85cddd11abe1499",
+      "date": "28 August 2026",
+      "revision": "2f3520c29c5a255d0b853aa2130fbd0a73bddb88",
       "algorithms": "algorithms/attribution.json",
       "links": "links/attribution.json",
       "refs": "refs/attribution.json",
@@ -5480,11 +5480,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-fonts-4/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 25 Aug 2026 10:16:48 GMT"
+        "lastModified": "Fri, 28 Aug 2026 07:33:18 GMT"
       },
       "generator": "bikeshed",
-      "date": "25 August 2026",
-      "revision": "e87f13d5f9206a72f06f14ddde555b92e4c60ee6",
+      "date": "28 August 2026",
+      "revision": "0dba269181941a3e5db62118dbf50695fdaff455",
       "algorithms": "algorithms/css-fonts-4.json",
       "links": "links/css-fonts-4.json",
       "refs": "refs/css-fonts-4.json",
@@ -10978,10 +10978,11 @@
       ],
       "crawled": "https://www.w3.org/TR/did-resolution/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 03 Aug 2026 07:00:54 GMT"
+        "lastModified": "Fri, 28 Aug 2026 06:35:18 GMT"
       },
       "generator": "respec",
-      "date": "06 August 2026",
+      "date": "28 August 2026",
+      "revision": "71a50058090417f9947b9f13985fc8b561a4ad59",
       "algorithms": "algorithms/did-resolution.json",
       "links": "links/did-resolution.json",
       "refs": "refs/did-resolution.json",
@@ -18652,11 +18653,11 @@
       ],
       "crawled": "https://www.w3.org/TR/screen-capture/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 23 Jul 2026 15:05:55 GMT"
+        "lastModified": "Thu, 27 Aug 2026 14:08:19 GMT"
       },
       "generator": "respec",
-      "date": "23 July 2026",
-      "revision": "993ba183ad4644badd022625e37d03a87fb82d12",
+      "date": "27 August 2026",
+      "revision": "6c933dd2ccd99c835ea2b6b6112dded5cf139298",
       "algorithms": "algorithms/screen-capture.json",
       "links": "links/screen-capture.json",
       "refs": "refs/screen-capture.json",
@@ -19897,11 +19898,11 @@
       ],
       "crawled": "https://www.w3.org/TR/sparql12-query/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 20 Aug 2026 18:34:16 GMT"
+        "lastModified": "Thu, 27 Aug 2026 17:00:07 GMT"
       },
       "generator": "respec",
-      "date": "20 August 2026",
-      "revision": "50868caa61c9a022c1e00f537e90b43ab6dd0557",
+      "date": "27 August 2026",
+      "revision": "db17cbc7979948d7d80a28cf1ba7da230b3f4763",
       "algorithms": "algorithms/sparql12-query.json",
       "links": "links/sparql12-query.json",
       "refs": "refs/sparql12-query.json",
@@ -24782,11 +24783,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webcodecs/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 21:27:27 GMT"
+        "lastModified": "Thu, 27 Aug 2026 18:39:28 GMT"
       },
       "generator": "bikeshed",
-      "date": "26 August 2026",
-      "revision": "1aaeafbb9ec8d5476c9fb29618ff0820f502850b",
+      "date": "27 August 2026",
+      "revision": "db320a818347f7af913f58e0020855bb9a6e16a5",
       "algorithms": "algorithms/webcodecs.json",
       "links": "links/webcodecs.json",
       "refs": "refs/webcodecs.json",
