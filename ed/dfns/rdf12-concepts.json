@@ -5,6 +5,29 @@
   },
   "dfns": [
     {
+      "id": "dfn-interpretation",
+      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-interpretation",
+      "linkingText": [
+        "interpretation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "data-model",
+        "href": "https://w3c.github.io/rdf-concepts/spec/#data-model",
+        "title": "Graph-based Abstract Data Model",
+        "alternateIds": [
+          "x1-1-graph-based-abstract-data-model"
+        ],
+        "number": "1.1"
+      },
+      "definedIn": "note",
+      "links": []
+    },
+    {
       "id": "dfn-denote",
       "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-denote",
       "linkingText": [
@@ -427,6 +450,29 @@
         "number": "1.8"
       },
       "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-entailment-regime-0",
+      "href": "https://w3c.github.io/rdf-concepts/spec/#dfn-entailment-regime-0",
+      "linkingText": [
+        "entailment regime"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "entailment",
+        "href": "https://w3c.github.io/rdf-concepts/spec/#entailment",
+        "title": "Equivalence, Entailment and Inconsistency",
+        "alternateIds": [
+          "x1-8-equivalence-entailment-and-inconsistency"
+        ],
+        "number": "1.8"
+      },
+      "definedIn": "prose",
       "links": []
     },
     {
