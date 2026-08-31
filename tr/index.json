@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-08-30T06:29:26.496Z",
+  "date": "2026-08-31T06:57:23.897Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "30 August 2026",
+      "date": "31 August 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -4154,11 +4154,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-color-4/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 25 Aug 2026 15:52:34 GMT"
+        "lastModified": "Sun, 30 Aug 2026 17:40:32 GMT"
       },
       "generator": "bikeshed",
-      "date": "25 August 2026",
-      "revision": "86ff5dd6478d7261084361d60357b8676a4d0caf",
+      "date": "30 August 2026",
+      "revision": "37cc7367ae86722feddacdd1a0be5f6884a274e7",
       "algorithms": "algorithms/css-color-4.json",
       "links": "links/css-color-4.json",
       "refs": "refs/css-color-4.json",
