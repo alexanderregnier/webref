@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-08-31T06:57:23.897Z",
+  "date": "2026-09-01T06:29:53.525Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "31 August 2026",
+      "date": "1 September 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -5480,11 +5480,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-fonts-4/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 28 Aug 2026 07:33:18 GMT"
+        "lastModified": "Mon, 31 Aug 2026 12:10:48 GMT"
       },
       "generator": "bikeshed",
-      "date": "28 August 2026",
-      "revision": "0dba269181941a3e5db62118dbf50695fdaff455",
+      "date": "31 August 2026",
+      "revision": "5d2c1174100094cc514c0b270fa671107ce8cc59",
       "algorithms": "algorithms/css-fonts-4.json",
       "links": "links/css-fonts-4.json",
       "refs": "refs/css-fonts-4.json",
@@ -23066,11 +23066,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-core-2/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 22:06:42 GMT"
+        "lastModified": "Mon, 31 Aug 2026 22:49:11 GMT"
       },
       "generator": "bikeshed",
-      "date": "26 August 2026",
-      "revision": "4b29bdbced924599346ea2ffd9e975af5d28c735",
+      "date": "31 August 2026",
+      "revision": "98773554ea57bf039ac3c1e32cfa1f6cc2c13424",
       "algorithms": "algorithms/wasm-core-2.json",
       "links": "links/wasm-core-2.json",
       "refs": "refs/wasm-core-2.json",
@@ -23139,11 +23139,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-js-api-2/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 21:57:34 GMT"
+        "lastModified": "Mon, 31 Aug 2026 22:39:26 GMT"
       },
       "generator": "bikeshed",
-      "date": "26 August 2026",
-      "revision": "4b29bdbced924599346ea2ffd9e975af5d28c735",
+      "date": "31 August 2026",
+      "revision": "98773554ea57bf039ac3c1e32cfa1f6cc2c13424",
       "algorithms": "algorithms/wasm-js-api-2.json",
       "links": "links/wasm-js-api-2.json",
       "refs": "refs/wasm-js-api-2.json",
@@ -23205,11 +23205,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-web-api-2/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 21:57:42 GMT"
+        "lastModified": "Mon, 31 Aug 2026 22:39:33 GMT"
       },
       "generator": "bikeshed",
-      "date": "26 August 2026",
-      "revision": "4b29bdbced924599346ea2ffd9e975af5d28c735",
+      "date": "31 August 2026",
+      "revision": "98773554ea57bf039ac3c1e32cfa1f6cc2c13424",
       "algorithms": "algorithms/wasm-web-api-2.json",
       "links": "links/wasm-web-api-2.json",
       "refs": "refs/wasm-web-api-2.json",
@@ -24911,11 +24911,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webdriver-bidi/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 25 Aug 2026 10:59:04 GMT"
+        "lastModified": "Tue, 01 Sep 2026 05:10:57 GMT"
       },
       "generator": "bikeshed",
-      "date": "25 August 2026",
-      "revision": "27a2f4b1aa258bb8c6859eb7ee265add0f9840fb",
+      "date": "1 September 2026",
+      "revision": "9a7f8b6ab273fcf799e494ae4e668086191a9c85",
       "algorithms": "algorithms/webdriver-bidi.json",
       "links": "links/webdriver-bidi.json",
       "refs": "refs/webdriver-bidi.json",
@@ -26356,11 +26356,11 @@
       ],
       "crawled": "https://www.w3.org/TR/WGSL/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 25 Aug 2026 00:07:03 GMT"
+        "lastModified": "Mon, 31 Aug 2026 18:58:40 GMT"
       },
       "generator": "bikeshed",
-      "date": "25 August 2026",
-      "revision": "7af79e816d5ae53626cb28b79be1fe83bb63c871",
+      "date": "31 August 2026",
+      "revision": "ebf79e6d632b803ad66ad55fa34ef7db65ff7e78",
       "algorithms": "algorithms/WGSL.json",
       "links": "links/WGSL.json",
       "refs": "refs/WGSL.json",
