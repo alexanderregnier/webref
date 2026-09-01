@@ -323,7 +323,6 @@
       },
       "https://drafts.csswg.org/css-multicol-2/": {},
       "https://drafts.csswg.org/css-multicol/": {},
-      "https://drafts.csswg.org/css-page-3/": {},
       "https://drafts.csswg.org/css-sizing-4/": {},
       "https://drafts.csswg.org/css-text-4/": {},
       "https://drafts.csswg.org/css-ui-3/": {
@@ -343,6 +342,7 @@
       "https://drafts.csswg.org/cssom/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/csswg-drafts/issues/10601": {},
+      "https://github.com/w3c/csswg-drafts/issues/10619": {},
       "https://github.com/w3c/csswg-drafts/issues/1132": {},
       "https://github.com/w3c/csswg-drafts/issues/1771": {},
       "https://github.com/w3c/csswg-drafts/issues/1938": {},
@@ -365,7 +365,6 @@
       "https://github.com/w3c/csswg-drafts/issues/6391": {},
       "https://github.com/w3c/csswg-drafts/issues/6822": {},
       "https://github.com/w3c/csswg-drafts/issues/7206": {},
-      "https://github.com/w3c/csswg-drafts/issues/820": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-sizing/animation/height-composition.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-sizing/animation/height-interpolation.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-sizing/animation/height-no-interpolation.html": {},
@@ -999,7 +998,8 @@
         "anchors": [
           "self-alignment-properties",
           "valdef-justify-self-stretch",
-          "valdef-align-self-stretch"
+          "valdef-align-self-stretch",
+          "self-align"
         ]
       },
       "https://drafts.csswg.org/css-borders-4/": {
@@ -1021,6 +1021,7 @@
       },
       "https://drafts.csswg.org/css-cascade-5/": {
         "anchors": [
+          "used-value",
           "computed-value",
           "initial-value"
         ]
@@ -1082,19 +1083,17 @@
       },
       "https://drafts.csswg.org/css-logical-1/": {
         "anchors": [
+          "propdef-inline-size",
           "propdef-block-size",
+          "propdef-min-inline-size",
+          "propdef-min-block-size",
+          "propdef-max-inline-size",
           "propdef-max-block-size"
         ]
       },
       "https://drafts.csswg.org/css-multicol-2/": {
         "anchors": [
           "propdef-column-width"
-        ]
-      },
-      "https://drafts.csswg.org/css-page-3/": {
-        "anchors": [
-          "at-ruledef-page",
-          "descdef-page-size"
         ]
       },
       "https://drafts.csswg.org/css-sizing-4/": {
