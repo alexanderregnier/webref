@@ -20,6 +20,38 @@
       ]
     },
     {
+      "name": "min-size",
+      "href": "https://drafts.csswg.org/css-sizing-4/#propdef-min-size",
+      "value": "<'min-width'> <'min-height'>?",
+      "initial": "auto",
+      "appliesTo": "all elements",
+      "inherited": "see individual properties",
+      "percentages": "see individual properties",
+      "computedValue": "see individual properties",
+      "animationType": "see individual properties",
+      "canonicalOrder": "per grammar",
+      "styleDeclaration": [
+        "min-size",
+        "minSize"
+      ]
+    },
+    {
+      "name": "max-size",
+      "href": "https://drafts.csswg.org/css-sizing-4/#propdef-max-size",
+      "value": "<'max-width'> <'max-height'>?",
+      "initial": "none",
+      "appliesTo": "all elements",
+      "inherited": "see individual properties",
+      "percentages": "see individual properties",
+      "computedValue": "see individual properties",
+      "animationType": "see individual properties",
+      "canonicalOrder": "per grammar",
+      "styleDeclaration": [
+        "max-size",
+        "maxSize"
+      ]
+    },
+    {
       "name": "width",
       "newValues": "contain | fit-content(<length-percentage [0,∞]>)",
       "values": [
@@ -35,6 +67,11 @@
           "href": "https://drafts.csswg.org/css-sizing-4/#valdef-width-contain",
           "type": "value",
           "value": "contain"
+        },
+        {
+          "name": "calc-size()",
+          "href": "https://drafts.csswg.org/css-sizing-4/#funcdef-width-calc-size",
+          "type": "function"
         }
       ],
       "styleDeclaration": [
@@ -57,6 +94,11 @@
           "href": "https://drafts.csswg.org/css-sizing-4/#valdef-width-contain",
           "type": "value",
           "value": "contain"
+        },
+        {
+          "name": "calc-size()",
+          "href": "https://drafts.csswg.org/css-sizing-4/#funcdef-width-calc-size",
+          "type": "function"
         }
       ],
       "styleDeclaration": [
@@ -79,6 +121,11 @@
           "href": "https://drafts.csswg.org/css-sizing-4/#valdef-width-contain",
           "type": "value",
           "value": "contain"
+        },
+        {
+          "name": "calc-size()",
+          "href": "https://drafts.csswg.org/css-sizing-4/#funcdef-width-calc-size",
+          "type": "function"
         }
       ],
       "styleDeclaration": [
@@ -102,6 +149,11 @@
           "href": "https://drafts.csswg.org/css-sizing-4/#valdef-width-contain",
           "type": "value",
           "value": "contain"
+        },
+        {
+          "name": "calc-size()",
+          "href": "https://drafts.csswg.org/css-sizing-4/#funcdef-width-calc-size",
+          "type": "function"
         }
       ],
       "styleDeclaration": [
@@ -125,6 +177,11 @@
           "href": "https://drafts.csswg.org/css-sizing-4/#valdef-width-contain",
           "type": "value",
           "value": "contain"
+        },
+        {
+          "name": "calc-size()",
+          "href": "https://drafts.csswg.org/css-sizing-4/#funcdef-width-calc-size",
+          "type": "function"
         }
       ],
       "styleDeclaration": [
@@ -148,6 +205,11 @@
           "href": "https://drafts.csswg.org/css-sizing-4/#valdef-width-contain",
           "type": "value",
           "value": "contain"
+        },
+        {
+          "name": "calc-size()",
+          "href": "https://drafts.csswg.org/css-sizing-4/#funcdef-width-calc-size",
+          "type": "function"
         }
       ],
       "styleDeclaration": [
@@ -487,7 +549,7 @@
     },
     {
       "name": "column-width",
-      "newValues": "stretch | min-content | max-content | fit-content | fit-content(<length-percentage>)",
+      "newValues": "<box-size>",
       "computedValue": "as specified, with <length-percentage> values computed",
       "animationType": "by computed value type",
       "values": [
@@ -534,7 +596,14 @@
   ],
   "atrules": [],
   "selectors": [],
-  "values": [],
+  "values": [
+    {
+      "name": "<box-size>",
+      "href": "https://drafts.csswg.org/css-sizing-4/#typedef-box-size",
+      "type": "type",
+      "value": "<length-percentage> | stretch | contain | min-content | max-content | fit-content | fit-content() | calc-size()"
+    }
+  ],
   "warnings": [
     {
       "msg": "Dangling value",
@@ -642,6 +711,48 @@
       "href": "https://drafts.csswg.org/css-sizing-4/#valdef-width-contain",
       "type": "value",
       "value": "contain",
+      "for": "max-block-size"
+    },
+    {
+      "msg": "Dangling value",
+      "name": "calc-size()",
+      "href": "https://drafts.csswg.org/css-sizing-4/#funcdef-width-calc-size",
+      "type": "function",
+      "for": "inline-size"
+    },
+    {
+      "msg": "Dangling value",
+      "name": "calc-size()",
+      "href": "https://drafts.csswg.org/css-sizing-4/#funcdef-width-calc-size",
+      "type": "function",
+      "for": "block-size"
+    },
+    {
+      "msg": "Dangling value",
+      "name": "calc-size()",
+      "href": "https://drafts.csswg.org/css-sizing-4/#funcdef-width-calc-size",
+      "type": "function",
+      "for": "min-inline-size"
+    },
+    {
+      "msg": "Dangling value",
+      "name": "calc-size()",
+      "href": "https://drafts.csswg.org/css-sizing-4/#funcdef-width-calc-size",
+      "type": "function",
+      "for": "min-block-size"
+    },
+    {
+      "msg": "Dangling value",
+      "name": "calc-size()",
+      "href": "https://drafts.csswg.org/css-sizing-4/#funcdef-width-calc-size",
+      "type": "function",
+      "for": "max-inline-size"
+    },
+    {
+      "msg": "Dangling value",
+      "name": "calc-size()",
+      "href": "https://drafts.csswg.org/css-sizing-4/#funcdef-width-calc-size",
+      "type": "function",
       "for": "max-block-size"
     }
   ]

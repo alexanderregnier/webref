@@ -345,10 +345,13 @@
       "https://github.com/w3c/csswg-drafts/issues/10601": {},
       "https://github.com/w3c/csswg-drafts/issues/10619": {},
       "https://github.com/w3c/csswg-drafts/issues/11006": {},
+      "https://github.com/w3c/csswg-drafts/issues/11044": {},
       "https://github.com/w3c/csswg-drafts/issues/11076": {},
       "https://github.com/w3c/csswg-drafts/issues/1132": {},
       "https://github.com/w3c/csswg-drafts/issues/11716": {},
       "https://github.com/w3c/csswg-drafts/issues/12076": {},
+      "https://github.com/w3c/csswg-drafts/issues/12612": {},
+      "https://github.com/w3c/csswg-drafts/issues/13478": {},
       "https://github.com/w3c/csswg-drafts/issues/1771": {},
       "https://github.com/w3c/csswg-drafts/issues/1938": {},
       "https://github.com/w3c/csswg-drafts/issues/2297": {},
@@ -364,7 +367,6 @@
       "https://github.com/w3c/csswg-drafts/issues/4961": {},
       "https://github.com/w3c/csswg-drafts/issues/6072": {},
       "https://github.com/w3c/csswg-drafts/issues/6220": {},
-      "https://github.com/w3c/csswg-drafts/issues/6265": {},
       "https://github.com/w3c/csswg-drafts/issues/6308": {},
       "https://github.com/w3c/csswg-drafts/issues/6341": {},
       "https://github.com/w3c/csswg-drafts/issues/6348": {},
@@ -1068,7 +1070,8 @@
           "multi-line-flex-container",
           "flex-layout",
           "cross-size",
-          "flex-item"
+          "flex-item",
+          "main-axis"
         ]
       },
       "https://drafts.csswg.org/css-gaps-1/": {
