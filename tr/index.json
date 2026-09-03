@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-09-02T05:42:15.660Z",
+  "date": "2026-09-03T05:45:49.881Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "2 September 2026",
+      "date": "3 September 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -1843,11 +1843,11 @@
       ],
       "crawled": "https://www.w3.org/TR/cbor-ld-10/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 19:53:16 GMT"
+        "lastModified": "Wed, 02 Sep 2026 16:15:08 GMT"
       },
       "generator": "respec",
-      "date": "26 August 2026",
-      "revision": "9e1bea64a3b81c6b98a19c6374ea527e6e28a955",
+      "date": "02 September 2026",
+      "revision": "2739d8033f4d1d9c17741d09cd832a06679d4888",
       "algorithms": "algorithms/cbor-ld-10.json",
       "links": "links/cbor-ld-10.json",
       "refs": "refs/cbor-ld-10.json",
@@ -4224,11 +4224,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-color-5/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 31 Jul 2026 19:45:15 GMT"
+        "lastModified": "Wed, 02 Sep 2026 19:17:25 GMT"
       },
       "generator": "bikeshed",
-      "date": "31 July 2026",
-      "revision": "e595770f2216380e954462fab5b54222b6c066bf",
+      "date": "2 September 2026",
+      "revision": "fca78a77be6632a7bcee2cdd98c8f98e5ed28315",
       "algorithms": "algorithms/css-color-5.json",
       "links": "links/css-color-5.json",
       "refs": "refs/css-color-5.json",
@@ -16549,11 +16549,11 @@
       ],
       "crawled": "https://www.w3.org/TR/paint-timing/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 24 Mar 2026 13:05:00 GMT"
+        "lastModified": "Wed, 02 Sep 2026 07:32:04 GMT"
       },
       "generator": "bikeshed",
-      "date": "24 March 2026",
-      "revision": "448d1426e34c0e9b360ed606df64f4d545dae9cb",
+      "date": "2 September 2026",
+      "revision": "053f575b305f714ab46869aec01201abdc4dbe34",
       "algorithms": "algorithms/paint-timing.json",
       "links": "links/paint-timing.json",
       "refs": "refs/paint-timing.json",
@@ -19561,11 +19561,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-rules/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 26 Aug 2026 19:27:34 GMT"
+        "lastModified": "Wed, 02 Sep 2026 20:22:38 GMT"
       },
       "generator": "respec",
-      "date": "26 August 2026",
-      "revision": "d4756bf2cf5efea29f704a9d2956ffe2224c4de0",
+      "date": "02 September 2026",
+      "revision": "9c863967bceaef1a87c24e4dd761eda763823120",
       "algorithms": "algorithms/shacl12-rules.json",
       "links": "links/shacl12-rules.json",
       "refs": "refs/shacl12-rules.json",
@@ -21739,11 +21739,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vc-confidence-method/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 17 Aug 2026 16:38:41 GMT"
+        "lastModified": "Thu, 03 Sep 2026 01:33:36 GMT"
       },
       "generator": "respec",
-      "date": "17 August 2026",
-      "revision": "54889ba3ef21b2bdcec979256f44eee12a119e99",
+      "date": "03 September 2026",
+      "revision": "1fd370ac02357e1cc82774de318ae861883e2b80",
       "links": "links/vc-confidence-method.json",
       "refs": "refs/vc-confidence-method.json",
       "dfns": "dfns/vc-confidence-method.json",
@@ -21796,10 +21796,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vc-data-integrity-1.1/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 10 Apr 2026 16:00:52 GMT"
+        "lastModified": "Wed, 02 Sep 2026 12:15:09 GMT"
       },
       "generator": "respec",
-      "date": "16 April 2026",
+      "date": "02 September 2026",
+      "revision": "57d0a5a82494d7c1f7f21f3bcb02108b35698b49",
       "algorithms": "algorithms/vc-data-integrity-1.1.json",
       "links": "links/vc-data-integrity-1.1.json",
       "refs": "refs/vc-data-integrity-1.1.json",
@@ -22016,11 +22017,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vc-di-bbs/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 07 Apr 2026 16:11:07 GMT"
+        "lastModified": "Wed, 02 Sep 2026 18:49:24 GMT"
       },
       "generator": "respec",
-      "date": "07 April 2026",
-      "revision": "d1036535bc9da24919548831db3ddd487dfce83f",
+      "date": "02 September 2026",
+      "revision": "d2f50397d84b157b54e1f7fd0627711ad39997f5",
       "algorithms": "algorithms/vc-di-bbs.json",
       "links": "links/vc-di-bbs.json",
       "refs": "refs/vc-di-bbs.json",
