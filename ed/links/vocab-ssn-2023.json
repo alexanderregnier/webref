@@ -112,6 +112,7 @@
         ]
       },
       "https://docs.ogc.org/is/23-001/23-001.html": {},
+      "https://docs.ogc.org/pol/08-131r7/08-131r7.html": {},
       "https://doi.org/10.1016/B978-0-12-385965-5.10008-1": {},
       "https://doi.org/10.15497/RDA00071": {},
       "https://doi.org/10.25504/FAIRsharing.d3pqw7": {},
@@ -136,7 +137,6 @@
       "https://inkbird.com/products/ibs-th2-plus": {},
       "https://linked.data.gov.au/def/project/": {},
       "https://obofoundry.org/": {},
-      "https://portal.ogc.org/files/?artifact_id=34762": {},
       "https://portal.ogc.org/files/?artifact_id=41157": {},
       "https://portal.ogc.org/files/?artifact_id=41579": {},
       "https://qudt.org/schema/qudt/quantity": {},
