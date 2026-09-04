@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-09-03T05:45:49.881Z",
+  "date": "2026-09-04T05:51:26.997Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "3 September 2026",
+      "date": "4 September 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -2408,11 +2408,11 @@
       ],
       "crawled": "https://www.w3.org/TR/credential-management-1/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 02 Jul 2026 09:53:50 GMT"
+        "lastModified": "Thu, 03 Sep 2026 07:56:35 GMT"
       },
       "generator": "bikeshed",
-      "date": "2 July 2026",
-      "revision": "adb8c0273aa9c17da9ab6ce85198ddf76e329750",
+      "date": "3 September 2026",
+      "revision": "0a74859abde0e0717f34d79835de94a12431291a",
       "algorithms": "algorithms/credential-management-1.json",
       "links": "links/credential-management-1.json",
       "refs": "refs/credential-management-1.json",
@@ -11039,11 +11039,11 @@
       ],
       "crawled": "https://www.w3.org/TR/digital-credentials/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 27 Aug 2026 08:26:32 GMT"
+        "lastModified": "Thu, 03 Sep 2026 08:56:54 GMT"
       },
       "generator": "respec",
-      "date": "27 August 2026",
-      "revision": "a3b699ec293d16e4e3c2bc9e2723b99cb131830c",
+      "date": "03 September 2026",
+      "revision": "47c1423d2714dbbd532f843887273f9093883266",
       "algorithms": "algorithms/digital-credentials.json",
       "links": "links/digital-credentials.json",
       "refs": "refs/digital-credentials.json",
@@ -18138,11 +18138,11 @@
       ],
       "crawled": "https://www.w3.org/TR/rdf12-turtle/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 12 Aug 2026 10:27:47 GMT"
+        "lastModified": "Thu, 03 Sep 2026 16:51:07 GMT"
       },
       "generator": "respec",
-      "date": "12 August 2026",
-      "revision": "5043363c517929be00eda9416109a1c2c1fee8dc",
+      "date": "03 September 2026",
+      "revision": "d1bb18fd1342ea0998e3cd31303bb99afa0c3012",
       "links": "links/rdf12-turtle.json",
       "refs": "refs/rdf12-turtle.json",
       "dfns": "dfns/rdf12-turtle.json",
@@ -22806,11 +22806,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vocab-ssn-2023/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 19 Aug 2026 17:41:36 GMT"
+        "lastModified": "Fri, 04 Sep 2026 03:13:36 GMT"
       },
       "generator": "respec",
-      "date": "19 August 2026",
-      "revision": "37fa55298187464b41c3712620dcbf5bd438b1b2",
+      "date": "04 September 2026",
+      "revision": "95c7549d1ad21052e7c881d7e944da8f21898c4f",
       "links": "links/vocab-ssn-2023.json",
       "refs": "refs/vocab-ssn-2023.json",
       "dfns": "dfns/vocab-ssn-2023.json",
@@ -24912,11 +24912,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webdriver-bidi/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 01 Sep 2026 05:10:57 GMT"
+        "lastModified": "Thu, 03 Sep 2026 18:58:07 GMT"
       },
       "generator": "bikeshed",
-      "date": "1 September 2026",
-      "revision": "9a7f8b6ab273fcf799e494ae4e668086191a9c85",
+      "date": "3 September 2026",
+      "revision": "242588ec0f4320cda30ec8a7ca1093f86641d3c5",
       "algorithms": "algorithms/webdriver-bidi.json",
       "links": "links/webdriver-bidi.json",
       "refs": "refs/webdriver-bidi.json",
