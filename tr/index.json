@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-09-04T05:51:26.997Z",
+  "date": "2026-09-05T05:35:16.819Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "4 September 2026",
+      "date": "5 September 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -8461,11 +8461,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-sizing-3/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 17 Dec 2021 00:34:42 GMT"
+        "lastModified": "Fri, 04 Sep 2026 21:46:26 GMT"
       },
       "generator": "bikeshed",
-      "date": "17 December 2021",
-      "revision": "74d32e0e545678eec748fbc75d910b35d21e2802",
+      "date": "4 September 2026",
+      "revision": "a21c626c81ca94dc624c1f81c642b1ef4806920a",
       "algorithms": "algorithms/css-sizing-3.json",
       "links": "links/css-sizing-3.json",
       "refs": "refs/css-sizing-3.json",
@@ -8530,13 +8530,15 @@
       ],
       "crawled": "https://www.w3.org/TR/css-sizing-4/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 20 May 2021 21:24:19 GMT"
+        "lastModified": "Fri, 04 Sep 2026 21:58:41 GMT"
       },
       "generator": "bikeshed",
-      "date": "20 May 2021",
-      "revision": "d029b05bf50e85d61ec4c2032f64a5e85328f1d9",
+      "date": "4 September 2026",
+      "revision": "137a8d9d698e5e4a40893e34f9353fefa8d90710",
+      "algorithms": "algorithms/css-sizing-4.json",
       "links": "links/css-sizing-4.json",
       "refs": "refs/css-sizing-4.json",
+      "idl": "idl/css-sizing-4.idl",
       "css": "css/css-sizing-4.json",
       "dfns": "dfns/css-sizing-4.json",
       "headings": "headings/css-sizing-4.json",
@@ -11039,11 +11041,11 @@
       ],
       "crawled": "https://www.w3.org/TR/digital-credentials/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 03 Sep 2026 08:56:54 GMT"
+        "lastModified": "Fri, 04 Sep 2026 14:16:20 GMT"
       },
       "generator": "respec",
-      "date": "03 September 2026",
-      "revision": "47c1423d2714dbbd532f843887273f9093883266",
+      "date": "04 September 2026",
+      "revision": "b31343b4890a39ad3aa6d2bf066db1069458da4f",
       "algorithms": "algorithms/digital-credentials.json",
       "links": "links/digital-credentials.json",
       "refs": "refs/digital-credentials.json",
@@ -25181,11 +25183,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webnn/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 13 Aug 2026 03:33:39 GMT"
+        "lastModified": "Fri, 04 Sep 2026 23:48:49 GMT"
       },
       "generator": "bikeshed",
-      "date": "13 August 2026",
-      "revision": "36224cf52a6c54ca8abe42c7f8ce1b65b72bd1a2",
+      "date": "4 September 2026",
+      "revision": "f4a9b25c1e2088ef852eaab78115a3f721323683",
       "algorithms": "algorithms/webnn.json",
       "links": "links/webnn.json",
       "refs": "refs/webnn.json",
