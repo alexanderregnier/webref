@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-09-06T06:06:31.531Z",
+  "date": "2026-09-07T06:13:01.548Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "6 September 2026",
+      "date": "7 September 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -5480,11 +5480,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-fonts-4/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 31 Aug 2026 12:10:48 GMT"
+        "lastModified": "Sun, 06 Sep 2026 14:51:08 GMT"
       },
       "generator": "bikeshed",
-      "date": "31 August 2026",
-      "revision": "5d2c1174100094cc514c0b270fa671107ce8cc59",
+      "date": "6 September 2026",
+      "revision": "81c50fcb76c30cbffe6af36484531dfc153abe88",
       "algorithms": "algorithms/css-fonts-4.json",
       "links": "links/css-fonts-4.json",
       "refs": "refs/css-fonts-4.json",
@@ -22808,11 +22808,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vocab-ssn-2023/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 04 Sep 2026 03:13:36 GMT"
+        "lastModified": "Mon, 07 Sep 2026 04:52:32 GMT"
       },
       "generator": "respec",
-      "date": "04 September 2026",
-      "revision": "95c7549d1ad21052e7c881d7e944da8f21898c4f",
+      "date": "07 September 2026",
+      "revision": "fab3a77cde8e891c92b89b374f04e4734257bb2f",
       "links": "links/vocab-ssn-2023.json",
       "refs": "refs/vocab-ssn-2023.json",
       "dfns": "dfns/vocab-ssn-2023.json",
