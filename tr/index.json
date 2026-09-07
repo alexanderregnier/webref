@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-09-06T01:36:12.909Z",
+  "date": "2026-09-07T01:25:57.691Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -826,7 +826,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "6 September 2026",
+      "date": "7 September 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -5501,11 +5501,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-fonts-4/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 31 Aug 2026 12:10:48 GMT"
+        "lastModified": "Sun, 06 Sep 2026 14:51:08 GMT"
       },
       "generator": "bikeshed",
-      "date": "31 August 2026",
-      "revision": "5d2c1174100094cc514c0b270fa671107ce8cc59",
+      "date": "6 September 2026",
+      "revision": "81c50fcb76c30cbffe6af36484531dfc153abe88",
       "algorithms": "algorithms/css-fonts-4.json",
       "links": "links/css-fonts-4.json",
       "refs": "refs/css-fonts-4.json",
@@ -22660,11 +22660,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vc-recognized-entities-1.0/",
       "crawlCacheInfo": {
-        "lastModified": "Sat, 05 Sep 2026 21:53:52 GMT"
+        "lastModified": "Sun, 06 Sep 2026 14:19:42 GMT"
       },
       "generator": "respec",
-      "date": "05 September 2026",
-      "revision": "84581ea61659ba18e3fc0694465442f54758dd1c",
+      "date": "06 September 2026",
+      "revision": "d8b51e600c95f1421a54bb8d3c684ba900b202b9",
       "algorithms": "algorithms/vc-recognized-entities-1.0.json",
       "links": "links/vc-recognized-entities-1.0.json",
       "refs": "refs/vc-recognized-entities-1.0.json",
