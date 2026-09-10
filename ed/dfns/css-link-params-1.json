@@ -27,6 +27,92 @@
       "links": []
     },
     {
+      "id": "funcdef-param",
+      "href": "https://drafts.csswg.org/css-link-params-1/#funcdef-param",
+      "linkingText": [
+        "param()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "param",
+        "href": "https://drafts.csswg.org/css-link-params-1/#param",
+        "title": "The param() Function",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "typedef-param-name",
+      "href": "https://drafts.csswg.org/css-link-params-1/#typedef-param-name",
+      "linkingText": [
+        "<param-name>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "param",
+        "href": "https://drafts.csswg.org/css-link-params-1/#param",
+        "title": "The param() Function",
+        "number": "2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "valdef-param-color",
+      "href": "https://drafts.csswg.org/css-link-params-1/#valdef-param-color",
+      "linkingText": [
+        "color"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "param()",
+        "<param-name>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "param",
+        "href": "https://drafts.csswg.org/css-link-params-1/#param",
+        "title": "The param() Function",
+        "number": "2.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-param-accent-color",
+      "href": "https://drafts.csswg.org/css-link-params-1/#valdef-param-accent-color",
+      "linkingText": [
+        "accent-color"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "param()",
+        "<param-name>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "param",
+        "href": "https://drafts.csswg.org/css-link-params-1/#param",
+        "title": "The param() Function",
+        "number": "2.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
       "id": "propdef-link-parameters",
       "href": "https://drafts.csswg.org/css-link-params-1/#propdef-link-parameters",
       "linkingText": [
@@ -41,7 +127,7 @@
         "id": "link-param-prop",
         "href": "https://drafts.csswg.org/css-link-params-1/#link-param-prop",
         "title": "In CSS: the link-parameters property",
-        "number": "2.1"
+        "number": "2.2"
       },
       "definedIn": "table",
       "links": []
@@ -63,7 +149,7 @@
         "id": "link-param-prop",
         "href": "https://drafts.csswg.org/css-link-params-1/#link-param-prop",
         "title": "In CSS: the link-parameters property",
-        "number": "2.1"
+        "number": "2.2"
       },
       "definedIn": "dt",
       "links": []
@@ -85,29 +171,9 @@
         "id": "link-param-prop",
         "href": "https://drafts.csswg.org/css-link-params-1/#link-param-prop",
         "title": "In CSS: the link-parameters property",
-        "number": "2.1"
+        "number": "2.2"
       },
       "definedIn": "dt",
-      "links": []
-    },
-    {
-      "id": "funcdef-param",
-      "href": "https://drafts.csswg.org/css-link-params-1/#funcdef-param",
-      "linkingText": [
-        "param()"
-      ],
-      "localLinkingText": [],
-      "type": "function",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "link-param-prop",
-        "href": "https://drafts.csswg.org/css-link-params-1/#link-param-prop",
-        "title": "In CSS: the link-parameters property",
-        "number": "2.1"
-      },
-      "definedIn": "prose",
       "links": []
     },
     {
@@ -125,7 +191,7 @@
         "id": "url-frag",
         "href": "https://drafts.csswg.org/css-link-params-1/#url-frag",
         "title": "In The URL",
-        "number": "2.2"
+        "number": "2.3"
       },
       "definedIn": "prose",
       "links": []

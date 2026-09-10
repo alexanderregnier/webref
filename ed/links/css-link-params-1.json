@@ -29,6 +29,7 @@
           "ignore"
         ]
       },
+      "https://www.w3.org/TR/css-cascade-5/": {},
       "https://www.w3.org/TR/css-cascade/": {
         "anchors": [
           "initial-values",
@@ -40,6 +41,7 @@
       "https://www.w3.org/TR/css-color-4/": {},
       "https://www.w3.org/TR/css-env-1/": {},
       "https://www.w3.org/TR/css-syntax-3/": {},
+      "https://www.w3.org/TR/css-ui-4/": {},
       "https://www.w3.org/TR/css-values-4/": {},
       "https://www.w3.org/TR/css-values/": {
         "anchors": [
@@ -106,8 +108,14 @@
           "text-directive"
         ]
       },
+      "https://www.w3.org/TR/css-cascade-5/": {
+        "anchors": [
+          "initial-value"
+        ]
+      },
       "https://www.w3.org/TR/css-color-4/": {
         "anchors": [
+          "propdef-color",
           "valdef-color-blue"
         ]
       },
@@ -122,15 +130,20 @@
           "css-parse-something-according-to-a-css-grammar"
         ]
       },
+      "https://www.w3.org/TR/css-ui-4/": {
+        "anchors": [
+          "propdef-accent-color"
+        ]
+      },
       "https://www.w3.org/TR/css-values-4/": {
         "anchors": [
           "typedef-dashed-ident",
           "funcdef-url",
           "typedef-url-modifier",
-          "comb-one",
-          "mult-comma",
           "comb-comma",
-          "mult-opt"
+          "mult-opt",
+          "comb-one",
+          "mult-comma"
         ]
       },
       "https://www.w3.org/TR/css-variables-1/": {

@@ -46,25 +46,32 @@
       "number": "2"
     },
     {
+      "id": "param",
+      "href": "https://drafts.csswg.org/css-link-params-1/#param",
+      "level": 3,
+      "title": "The param() Function",
+      "number": "2.1"
+    },
+    {
       "id": "link-param-prop",
       "href": "https://drafts.csswg.org/css-link-params-1/#link-param-prop",
       "level": 3,
       "title": "In CSS: the link-parameters property",
-      "number": "2.1"
+      "number": "2.2"
     },
     {
       "id": "url-frag",
       "href": "https://drafts.csswg.org/css-link-params-1/#url-frag",
       "level": 3,
       "title": "In The URL",
-      "number": "2.2"
+      "number": "2.3"
     },
     {
       "id": "setting-url",
       "href": "https://drafts.csswg.org/css-link-params-1/#setting-url",
       "level": 3,
       "title": "Setting via the CSS url() Function",
-      "number": "2.3"
+      "number": "2.4"
     },
     {
       "id": "using",
@@ -150,12 +157,6 @@
       "href": "https://drafts.csswg.org/css-link-params-1/#normative",
       "level": 3,
       "title": "Normative References"
-    },
-    {
-      "id": "informative",
-      "href": "https://drafts.csswg.org/css-link-params-1/#informative",
-      "level": 3,
-      "title": "Non-Normative References"
     },
     {
       "id": "property-index",
