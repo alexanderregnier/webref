@@ -14,8 +14,20 @@
         "url": "https://www.w3.org/TR/css-color-4/"
       },
       {
+        "name": "CSS-COLOR-5",
+        "url": "https://www.w3.org/TR/css-color-5/"
+      },
+      {
+        "name": "CSS-COLOR-ADJUST-1",
+        "url": "https://www.w3.org/TR/css-color-adjust-1/"
+      },
+      {
         "name": "CSS-ENV-1",
         "url": "https://www.w3.org/TR/css-env-1/"
+      },
+      {
+        "name": "CSS-MIXINS-1",
+        "url": "https://www.w3.org/TR/css-mixins-1/"
       },
       {
         "name": "CSS-SYNTAX-3",
@@ -30,6 +42,10 @@
         "url": "https://www.w3.org/TR/css-values-4/"
       },
       {
+        "name": "CSS-VALUES-5",
+        "url": "https://www.w3.org/TR/css-values-5/"
+      },
+      {
         "name": "CSS-VARIABLES-1",
         "url": "https://www.w3.org/TR/css-variables-1/"
       },
@@ -40,6 +56,14 @@
       {
         "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/"
+      },
+      {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "MEDIAQUERIES-5",
+        "url": "https://www.w3.org/TR/mediaqueries-5/"
       },
       {
         "name": "RFC2119",
