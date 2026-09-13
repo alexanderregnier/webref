@@ -5,52 +5,6 @@
   },
   "dfns": [
     {
-      "id": "dfn-performanceentry",
-      "href": "https://w3c.github.io/timing-entrytypes-registry/#dfn-performanceentry",
-      "linkingText": [
-        "PerformanceEntry"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "purpose",
-        "href": "https://w3c.github.io/timing-entrytypes-registry/#purpose",
-        "title": "Purpose",
-        "alternateIds": [
-          "x1-purpose"
-        ],
-        "number": "1"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
-      "id": "dfn-performanceentry-entrytype",
-      "href": "https://w3c.github.io/timing-entrytypes-registry/#dfn-performanceentry-entrytype",
-      "linkingText": [
-        "PerformanceEntry.entryType"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "purpose",
-        "href": "https://w3c.github.io/timing-entrytypes-registry/#purpose",
-        "title": "Purpose",
-        "alternateIds": [
-          "x1-purpose"
-        ],
-        "number": "1"
-      },
-      "definedIn": "prose",
-      "links": []
-    },
-    {
       "id": "dfn-availablefromtimeline",
       "href": "https://w3c.github.io/timing-entrytypes-registry/#dfn-availablefromtimeline",
       "linkingText": [
@@ -59,15 +13,12 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
-      "informative": true,
+      "access": "public",
+      "informative": false,
       "heading": {
         "id": "registration",
         "href": "https://w3c.github.io/timing-entrytypes-registry/#registration",
         "title": "Registration Entry Requirements and Update Process",
-        "alternateIds": [
-          "x2-registration-entry-requirements-and-update-process"
-        ],
         "number": "2"
       },
       "definedIn": "prose",
@@ -82,15 +33,12 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
-      "informative": true,
+      "access": "public",
+      "informative": false,
       "heading": {
         "id": "registration",
         "href": "https://w3c.github.io/timing-entrytypes-registry/#registration",
         "title": "Registration Entry Requirements and Update Process",
-        "alternateIds": [
-          "x2-registration-entry-requirements-and-update-process"
-        ],
         "number": "2"
       },
       "definedIn": "prose",
@@ -105,15 +53,12 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
-      "informative": true,
+      "access": "public",
+      "informative": false,
       "heading": {
         "id": "registration",
         "href": "https://w3c.github.io/timing-entrytypes-registry/#registration",
         "title": "Registration Entry Requirements and Update Process",
-        "alternateIds": [
-          "x2-registration-entry-requirements-and-update-process"
-        ],
         "number": "2"
       },
       "definedIn": "prose",

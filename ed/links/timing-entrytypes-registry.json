@@ -5,10 +5,107 @@
   },
   "links": {
     "rawlinks": {
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://github.com/w3c/timing-entrytypes-registry/": {},
+      "https://github.com/w3c/timing-entrytypes-registry/issues": {},
+      "https://html.spec.whatwg.org/multipage/": {},
+      "https://w3c.github.io/element-timing/": {},
+      "https://w3c.github.io/event-timing/": {},
+      "https://w3c.github.io/hr-time/": {},
+      "https://w3c.github.io/largest-contentful-paint/": {},
+      "https://w3c.github.io/long-animation-frames/": {},
+      "https://w3c.github.io/longtasks/": {},
+      "https://w3c.github.io/navigation-timing/": {},
+      "https://w3c.github.io/paint-timing/": {},
+      "https://w3c.github.io/performance-timeline/": {},
+      "https://w3c.github.io/resource-timing/": {},
+      "https://w3c.github.io/user-timing/": {},
+      "https://whatwg.org/": {},
+      "https://wicg.github.io/container-timing/": {},
+      "https://wicg.github.io/layout-instability/": {},
       "https://wicg.io/": {},
+      "https://www.w3.org/policies/process/20250818/": {},
       "https://www.w3.org/webperf/": {}
     },
-    "autolinks": {}
+    "autolinks": {
+      "https://html.spec.whatwg.org/multipage/interaction.html": {
+        "anchors": [
+          "visibilitystateentry"
+        ]
+      },
+      "https://w3c.github.io/element-timing/": {
+        "anchors": [
+          "performanceelementtiming"
+        ]
+      },
+      "https://w3c.github.io/event-timing/": {
+        "anchors": [
+          "performanceeventtiming",
+          "should-add-performanceeventtiming"
+        ]
+      },
+      "https://w3c.github.io/hr-time/": {
+        "anchors": [
+          "performance"
+        ]
+      },
+      "https://w3c.github.io/largest-contentful-paint/": {
+        "anchors": [
+          "largestcontentfulpaint"
+        ]
+      },
+      "https://w3c.github.io/long-animation-frames/": {
+        "anchors": [
+          "performancelonganimationframetiming"
+        ]
+      },
+      "https://w3c.github.io/longtasks/": {
+        "anchors": [
+          "performancelongtasktiming"
+        ]
+      },
+      "https://w3c.github.io/navigation-timing/": {
+        "anchors": [
+          "performancenavigationtiming"
+        ]
+      },
+      "https://w3c.github.io/paint-timing/": {
+        "anchors": [
+          "performancepainttiming"
+        ]
+      },
+      "https://w3c.github.io/performance-timeline/": {
+        "anchors": [
+          "dom-performanceentry-entrytype",
+          "performanceentry",
+          "dictdef-performanceobserverinit",
+          "registered-performance-observer",
+          "options-list",
+          "observer",
+          "observer-buffer"
+        ]
+      },
+      "https://w3c.github.io/resource-timing/": {
+        "anchors": [
+          "performanceresourcetiming"
+        ]
+      },
+      "https://w3c.github.io/user-timing/": {
+        "anchors": [
+          "performancemark",
+          "performancemeasure"
+        ]
+      },
+      "https://wicg.github.io/container-timing/": {
+        "anchors": [
+          "performancecontainertiming"
+        ]
+      },
+      "https://wicg.github.io/layout-instability/": {
+        "anchors": [
+          "layoutshift"
+        ]
+      }
+    }
   }
 }
