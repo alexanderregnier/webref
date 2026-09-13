@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-09-12T06:16:44.748Z",
+  "date": "2026-09-13T06:15:07.622Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "12 September 2026",
+      "date": "13 September 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -12049,11 +12049,11 @@
       ],
       "crawled": "https://www.w3.org/TR/epub-a11y-12/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 18 Aug 2026 15:57:02 GMT"
+        "lastModified": "Sat, 12 Sep 2026 11:25:43 GMT"
       },
       "generator": "respec",
-      "date": "18 August 2026",
-      "revision": "9f157b2200918c0c96558e153df8ae83748b65dd",
+      "date": "12 September 2026",
+      "revision": "29c4f0f652f74826af4a2563f02819902b8f1460",
       "links": "links/epub-a11y-12.json",
       "refs": "refs/epub-a11y-12.json",
       "dfns": "dfns/epub-a11y-12.json",
@@ -12468,11 +12468,11 @@
       ],
       "crawled": "https://www.w3.org/TR/FileAPI/",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 23 Aug 2026 07:44:15 GMT"
+        "lastModified": "Sat, 12 Sep 2026 11:39:12 GMT"
       },
       "generator": "bikeshed",
-      "date": "23 August 2026",
-      "revision": "1341d2687a5dbfc1fa6168e4e45a1c6afb0d6fb4",
+      "date": "12 September 2026",
+      "revision": "2f610830afbbcb8116c3f3fc22062c0980456291",
       "algorithms": "algorithms/FileAPI.json",
       "links": "links/FileAPI.json",
       "refs": "refs/FileAPI.json",
@@ -19900,11 +19900,11 @@
       ],
       "crawled": "https://www.w3.org/TR/sparql12-query/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 10 Sep 2026 18:06:41 GMT"
+        "lastModified": "Sat, 12 Sep 2026 18:17:54 GMT"
       },
       "generator": "respec",
-      "date": "10 September 2026",
-      "revision": "17ed801a3a70ed3018fa79229d964fbc88039e2e",
+      "date": "12 September 2026",
+      "revision": "150ff373fcfc4867355b71e07991fd762218f02f",
       "algorithms": "algorithms/sparql12-query.json",
       "links": "links/sparql12-query.json",
       "refs": "refs/sparql12-query.json",
