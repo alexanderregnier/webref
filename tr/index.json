@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-09-18T06:01:11.421Z",
+  "date": "2026-09-19T06:06:20.431Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "18 September 2026",
+      "date": "19 September 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -19446,11 +19446,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-core/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 17 Sep 2026 09:38:42 GMT"
+        "lastModified": "Fri, 18 Sep 2026 21:35:35 GMT"
       },
       "generator": "respec",
-      "date": "17 September 2026",
-      "revision": "e7d1180fa678e32b0c9cdd52b22a7a4e842c3a2b",
+      "date": "18 September 2026",
+      "revision": "323182230793fdc396973cd260f36805781d411e",
       "algorithms": "algorithms/shacl12-core.json",
       "links": "links/shacl12-core.json",
       "refs": "refs/shacl12-core.json",
@@ -19609,7 +19609,7 @@
         "sourcePath": "shacl12-sparql/index.html",
         "filename": "index.html"
       },
-      "title": "SHACL 1.2 SPARQL Extensions",
+      "title": "SHACL 1.2 SPARQL-Related Features",
       "source": "w3c",
       "shortTitle": "SHACL 1.2 SPARQL Extensions",
       "categories": [],
@@ -19620,11 +19620,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-sparql/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 28 Aug 2026 22:36:38 GMT"
+        "lastModified": "Fri, 18 Sep 2026 21:35:16 GMT"
       },
       "generator": "respec",
-      "date": "28 August 2026",
-      "revision": "4199e8125ef6fcc460b6c7c836e3abb46b4770fc",
+      "date": "18 September 2026",
+      "revision": "323182230793fdc396973cd260f36805781d411e",
       "algorithms": "algorithms/shacl12-sparql.json",
       "links": "links/shacl12-sparql.json",
       "refs": "refs/shacl12-sparql.json",
