@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-09-19T06:06:20.431Z",
+  "date": "2026-09-20T06:02:16.576Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "19 September 2026",
+      "date": "20 September 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -19563,11 +19563,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-rules/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 02 Sep 2026 20:22:38 GMT"
+        "lastModified": "Sat, 19 Sep 2026 20:21:17 GMT"
       },
       "generator": "respec",
-      "date": "02 September 2026",
-      "revision": "9c863967bceaef1a87c24e4dd761eda763823120",
+      "date": "19 September 2026",
+      "revision": "0ccfab4f28324edaac59a1227f8c60ad5b7bbf89",
       "algorithms": "algorithms/shacl12-rules.json",
       "links": "links/shacl12-rules.json",
       "refs": "refs/shacl12-rules.json",
@@ -21798,11 +21798,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vc-data-integrity-1.1/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 02 Sep 2026 12:15:09 GMT"
+        "lastModified": "Sat, 19 Sep 2026 17:15:49 GMT"
       },
       "generator": "respec",
-      "date": "02 September 2026",
-      "revision": "57d0a5a82494d7c1f7f21f3bcb02108b35698b49",
+      "date": "19 September 2026",
+      "revision": "a71ab2e044b80fb47864c9f72cdac0b4ffac4739",
       "algorithms": "algorithms/vc-data-integrity-1.1.json",
       "links": "links/vc-data-integrity-1.1.json",
       "refs": "refs/vc-data-integrity-1.1.json",
