@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-09-22T06:28:13.427Z",
+  "date": "2026-09-23T06:13:29.971Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "22 September 2026",
+      "date": "23 September 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -985,11 +985,11 @@
       ],
       "crawled": "https://www.w3.org/TR/accname-1.2/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 11 Sep 2026 17:02:02 GMT"
+        "lastModified": "Tue, 22 Sep 2026 17:33:47 GMT"
       },
       "generator": "respec",
-      "date": "27 August 2026",
-      "revision": "72b0856bcbc1aa2d457ef42185a5134fa87ff253",
+      "date": "22 September 2026",
+      "revision": "02e0992d874990ef1e05bea7698eb1d85481fc8a",
       "algorithms": "algorithms/accname-1.2.json",
       "links": "links/accname-1.2.json",
       "refs": "refs/accname-1.2.json",
@@ -2343,11 +2343,11 @@
       ],
       "crawled": "https://www.w3.org/TR/core-aam-1.2/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 11 Sep 2026 17:01:59 GMT"
+        "lastModified": "Tue, 22 Sep 2026 17:39:54 GMT"
       },
       "generator": "respec",
-      "date": "29 August 2026",
-      "revision": "2f5c69b053c2b03f03fb00b4c9ff2c4ce517af55",
+      "date": "22 September 2026",
+      "revision": "02e0992d874990ef1e05bea7698eb1d85481fc8a",
       "algorithms": "algorithms/core-aam-1.2.json",
       "links": "links/core-aam-1.2.json",
       "refs": "refs/core-aam-1.2.json",
@@ -13298,11 +13298,11 @@
       ],
       "crawled": "https://www.w3.org/TR/html-aam-1.0/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 11 Sep 2026 17:01:59 GMT"
+        "lastModified": "Tue, 22 Sep 2026 17:31:10 GMT"
       },
       "generator": "respec",
-      "date": "29 August 2026",
-      "revision": "2f5c69b053c2b03f03fb00b4c9ff2c4ce517af55",
+      "date": "22 September 2026",
+      "revision": "02e0992d874990ef1e05bea7698eb1d85481fc8a",
       "algorithms": "algorithms/html-aam-1.0.json",
       "links": "links/html-aam-1.0.json",
       "refs": "refs/html-aam-1.0.json",
@@ -16933,11 +16933,11 @@
       ],
       "crawled": "https://www.w3.org/TR/permissions-policy-1/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 22 Sep 2026 01:41:55 GMT"
+        "lastModified": "Tue, 22 Sep 2026 18:36:45 GMT"
       },
       "generator": "bikeshed",
       "date": "22 September 2026",
-      "revision": "c6a439ae91ee118d8a994c653c802d9e50663080",
+      "revision": "29398046f1e0cb45c091adda853df74925dc740a",
       "algorithms": "algorithms/permissions-policy-1.json",
       "links": "links/permissions-policy-1.json",
       "refs": "refs/permissions-policy-1.json",
@@ -20309,11 +20309,11 @@
       ],
       "crawled": "https://www.w3.org/TR/svg-aam-1.0/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 27 Aug 2026 07:15:40 GMT"
+        "lastModified": "Tue, 22 Sep 2026 17:43:55 GMT"
       },
       "generator": "respec",
-      "date": "27 August 2026",
-      "revision": "72b0856bcbc1aa2d457ef42185a5134fa87ff253",
+      "date": "22 September 2026",
+      "revision": "02e0992d874990ef1e05bea7698eb1d85481fc8a",
       "algorithms": "algorithms/svg-aam-1.0.json",
       "links": "links/svg-aam-1.0.json",
       "refs": "refs/svg-aam-1.0.json",
@@ -22809,11 +22809,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vocab-ssn-2023/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 14 Sep 2026 07:15:30 GMT"
+        "lastModified": "Wed, 23 Sep 2026 05:13:40 GMT"
       },
       "generator": "respec",
-      "date": "14 September 2026",
-      "revision": "d4d11cacc4ffc523f99089e1c0aed79a21be6992",
+      "date": "23 September 2026",
+      "revision": "08e31834697c5e9bf5f6a267bf9982bf42084b6c",
       "links": "links/vocab-ssn-2023.json",
       "refs": "refs/vocab-ssn-2023.json",
       "dfns": "dfns/vocab-ssn-2023.json",
@@ -24914,11 +24914,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webdriver-bidi/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 16 Sep 2026 15:11:48 GMT"
+        "lastModified": "Wed, 23 Sep 2026 05:59:10 GMT"
       },
       "generator": "bikeshed",
-      "date": "16 September 2026",
-      "revision": "ff4f83dfae2c8c51482acd503c50fb5abfac2cca",
+      "date": "23 September 2026",
+      "revision": "0bdadfff7f6b02afcc08ab4f94f9aaa1924e926d",
       "algorithms": "algorithms/webdriver-bidi.json",
       "links": "links/webdriver-bidi.json",
       "refs": "refs/webdriver-bidi.json",
