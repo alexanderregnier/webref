@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-09-23T06:13:29.971Z",
+  "date": "2026-09-24T06:05:19.152Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "23 September 2026",
+      "date": "24 September 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -985,11 +985,11 @@
       ],
       "crawled": "https://www.w3.org/TR/accname-1.2/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 22 Sep 2026 17:33:47 GMT"
+        "lastModified": "Wed, 23 Sep 2026 15:04:30 GMT"
       },
       "generator": "respec",
-      "date": "22 September 2026",
-      "revision": "02e0992d874990ef1e05bea7698eb1d85481fc8a",
+      "date": "23 September 2026",
+      "revision": "46d4e44fd29f76142f58308279ce6509a779b1e8",
       "algorithms": "algorithms/accname-1.2.json",
       "links": "links/accname-1.2.json",
       "refs": "refs/accname-1.2.json",
@@ -2343,11 +2343,11 @@
       ],
       "crawled": "https://www.w3.org/TR/core-aam-1.2/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 22 Sep 2026 17:39:54 GMT"
+        "lastModified": "Wed, 23 Sep 2026 15:11:19 GMT"
       },
       "generator": "respec",
-      "date": "22 September 2026",
-      "revision": "02e0992d874990ef1e05bea7698eb1d85481fc8a",
+      "date": "23 September 2026",
+      "revision": "7f0665aab0ebc85139e7cc3f95b4c900b9536fd0",
       "algorithms": "algorithms/core-aam-1.2.json",
       "links": "links/core-aam-1.2.json",
       "refs": "refs/core-aam-1.2.json",
@@ -13298,11 +13298,11 @@
       ],
       "crawled": "https://www.w3.org/TR/html-aam-1.0/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 22 Sep 2026 17:31:10 GMT"
+        "lastModified": "Wed, 23 Sep 2026 15:05:45 GMT"
       },
       "generator": "respec",
-      "date": "22 September 2026",
-      "revision": "02e0992d874990ef1e05bea7698eb1d85481fc8a",
+      "date": "23 September 2026",
+      "revision": "46d4e44fd29f76142f58308279ce6509a779b1e8",
       "algorithms": "algorithms/html-aam-1.0.json",
       "links": "links/html-aam-1.0.json",
       "refs": "refs/html-aam-1.0.json",
@@ -20309,11 +20309,11 @@
       ],
       "crawled": "https://www.w3.org/TR/svg-aam-1.0/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 22 Sep 2026 17:43:55 GMT"
+        "lastModified": "Wed, 23 Sep 2026 14:58:35 GMT"
       },
       "generator": "respec",
-      "date": "22 September 2026",
-      "revision": "02e0992d874990ef1e05bea7698eb1d85481fc8a",
+      "date": "23 September 2026",
+      "revision": "46d4e44fd29f76142f58308279ce6509a779b1e8",
       "algorithms": "algorithms/svg-aam-1.0.json",
       "links": "links/svg-aam-1.0.json",
       "refs": "refs/svg-aam-1.0.json",
@@ -22809,11 +22809,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vocab-ssn-2023/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 23 Sep 2026 05:13:40 GMT"
+        "lastModified": "Thu, 24 Sep 2026 02:10:58 GMT"
       },
       "generator": "respec",
-      "date": "23 September 2026",
-      "revision": "08e31834697c5e9bf5f6a267bf9982bf42084b6c",
+      "date": "24 September 2026",
+      "revision": "e96aa3d9f52fe6cddd114e18a2095a603290050b",
       "links": "links/vocab-ssn-2023.json",
       "refs": "refs/vocab-ssn-2023.json",
       "dfns": "dfns/vocab-ssn-2023.json",
