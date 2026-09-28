@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-09-27T06:33:03.481Z",
+  "date": "2026-09-28T06:38:52.846Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "27 September 2026",
+      "date": "28 September 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -21964,11 +21964,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vc-data-model-2.1/",
       "crawlCacheInfo": {
-        "lastModified": "Sat, 26 Sep 2026 20:39:40 GMT"
+        "lastModified": "Sun, 27 Sep 2026 15:54:08 GMT"
       },
       "generator": "respec",
-      "date": "26 September 2026",
-      "revision": "0ab249a9338d558a81224bb72ebb6e12a3c6f966",
+      "date": "27 September 2026",
+      "revision": "3e11623c0101b6470c8d81295a64ef303d0211f6",
       "algorithms": "algorithms/vc-data-model-2.1.json",
       "links": "links/vc-data-model-2.1.json",
       "refs": "refs/vc-data-model-2.1.json",
@@ -22407,7 +22407,7 @@
       ],
       "crawled": "https://www.w3.org/TR/vc-render-method/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 08 Sep 2026 14:35:18 GMT"
+        "lastModified": "Fri, 11 Sep 2026 17:01:59 GMT"
       },
       "generator": "respec",
       "date": "08 September 2026",
