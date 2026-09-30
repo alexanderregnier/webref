@@ -160,26 +160,26 @@
       "number": "4.4"
     },
     {
-      "id": "sd-jwt-claim-312ycEsStyy3UHUfu-p4eOdMkeg6YYJrPeq4Wpuubic",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-312ycEsStyy3UHUfu-p4eOdMkeg6YYJrPeq4Wpuubic",
+      "id": "sd-jwt-claim-gLx2tWjeMduwmq8p1bXBxWu_Qqmk20cYcqy6ryQh7uY",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-gLx2tWjeMduwmq8p1bXBxWu_Qqmk20cYcqy6ryQh7uY",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-tSZpz51-STdeKJrgXE2HnPCiv73CFkG_BzAAYTVfqH8",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-tSZpz51-STdeKJrgXE2HnPCiv73CFkG_BzAAYTVfqH8",
+      "id": "sd-jwt-claim-Ra7eXmMT7MVtSxa94QE-7yidDL8cOUT77WEje5w0x4A",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-Ra7eXmMT7MVtSxa94QE-7yidDL8cOUT77WEje5w0x4A",
       "level": 3,
       "title": "Claim: type"
     },
     {
-      "id": "sd-jwt-claim-J-hOmCDcSFveFgE7bagnXVbuGLst-RsX-3m1kUvun-4",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-J-hOmCDcSFveFgE7bagnXVbuGLst-RsX-3m1kUvun-4",
+      "id": "sd-jwt-claim-kqxBWOTwTJoo7fYWtCD4PiSY3bMch7LLvwoXo64Gss8",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-kqxBWOTwTJoo7fYWtCD4PiSY3bMch7LLvwoXo64Gss8",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-JmCB6fQowNKncYfAJ0gCMN1TlZIwO1p0j-uA9S5fXDY",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-JmCB6fQowNKncYfAJ0gCMN1TlZIwO1p0j-uA9S5fXDY",
+      "id": "sd-jwt-claim-EfgBl-K9G7rv-r7VT6wHHyeAUR_DAbUG5rReAoxjExM",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-EfgBl-K9G7rv-r7VT6wHHyeAUR_DAbUG5rReAoxjExM",
       "level": 3,
       "title": "Claim: type"
     },
@@ -194,26 +194,26 @@
       "number": "4.5"
     },
     {
-      "id": "sd-jwt-claim-kqa6M8AkPPLnvx6EDzgieX4kq1He8rBFYgpXCgE-BaA",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-kqa6M8AkPPLnvx6EDzgieX4kq1He8rBFYgpXCgE-BaA",
+      "id": "sd-jwt-claim-3E5sQTlBk3Fy8eCU1CxAWzRG--jevgUD3RSRO_WZZYU",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-3E5sQTlBk3Fy8eCU1CxAWzRG--jevgUD3RSRO_WZZYU",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-M4m-8DLAB0QxsCMGC9r9aQYCKQZ5OKyiQADdicNhyDQ",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-M4m-8DLAB0QxsCMGC9r9aQYCKQZ5OKyiQADdicNhyDQ",
+      "id": "sd-jwt-claim-N7z5KKRSYpyGHE5jWefxaoEGdTW4LwXSfZXkin0nEh8",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-N7z5KKRSYpyGHE5jWefxaoEGdTW4LwXSfZXkin0nEh8",
       "level": 3,
       "title": "Claim: type"
     },
     {
-      "id": "sd-jwt-claim-xaJtCPOErMJjfuOHg-Cio-KRcHZBKtR8FXZzDXAJJDQ",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-xaJtCPOErMJjfuOHg-Cio-KRcHZBKtR8FXZzDXAJJDQ",
+      "id": "sd-jwt-claim-PGvW0tdQ0XiuU3-2c-qbSFIfXbrU7aiO6mByVQv0mtc",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-PGvW0tdQ0XiuU3-2c-qbSFIfXbrU7aiO6mByVQv0mtc",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-YiwxtZwAN7AkrhfpyYrJjEePrr5AYLzC9vcFkB7J3go",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-YiwxtZwAN7AkrhfpyYrJjEePrr5AYLzC9vcFkB7J3go",
+      "id": "sd-jwt-claim-6imyxBOP32Z3VgXoIOHlGcOFlo2OTYEWYvEXBYvdm9k",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-6imyxBOP32Z3VgXoIOHlGcOFlo2OTYEWYvEXBYvdm9k",
       "level": 3,
       "title": "Claim: type"
     },
@@ -228,32 +228,32 @@
       "number": "4.6"
     },
     {
-      "id": "sd-jwt-claim-nTYfUQYEKTOLkmxR4CnIGN_YJRxo8B5Nz49BSv4bqzA",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-nTYfUQYEKTOLkmxR4CnIGN_YJRxo8B5Nz49BSv4bqzA",
+      "id": "sd-jwt-claim-i7uaN75hnf1UKsNDMe1UoRrXZYqX3DYmyvM3Hpa9q5I",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-i7uaN75hnf1UKsNDMe1UoRrXZYqX3DYmyvM3Hpa9q5I",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-foql-OSb3XZ9ZJHe6-L7nDicA8wa9tLxHjKrI-tqR_E",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-foql-OSb3XZ9ZJHe6-L7nDicA8wa9tLxHjKrI-tqR_E",
+      "id": "sd-jwt-claim-mbOKFusHeNraGJCKJg5AZntfXCZgYvF-1A6COZSeYmM",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-mbOKFusHeNraGJCKJg5AZntfXCZgYvF-1A6COZSeYmM",
       "level": 3,
       "title": "Claim: type"
     },
     {
-      "id": "sd-jwt-claim-lfUXb6S0tp45ogRYrRPPlc5KALKIFVecS74Y-jYWnC8",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-lfUXb6S0tp45ogRYrRPPlc5KALKIFVecS74Y-jYWnC8",
+      "id": "sd-jwt-claim-tiq6xd-PtOe44BG_xZ30p3b2jp8BRCOzlCNICdw0Qrc",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-tiq6xd-PtOe44BG_xZ30p3b2jp8BRCOzlCNICdw0Qrc",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-r-oitlzzAmHlKtvxMWcygzCb1jCoSq365nmV4h2RVMw",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-r-oitlzzAmHlKtvxMWcygzCb1jCoSq365nmV4h2RVMw",
+      "id": "sd-jwt-claim-CdfEMauI2ayDPz5z4K0bW-1b1I10l5GV3IRllvZEwH8",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-CdfEMauI2ayDPz5z4K0bW-1b1I10l5GV3IRllvZEwH8",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-P-wC62mb8opyMOgAsa4RM83wxcHxBWZhW9fUN1MNLg0",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-P-wC62mb8opyMOgAsa4RM83wxcHxBWZhW9fUN1MNLg0",
+      "id": "sd-jwt-claim-MWVsr8C9w4nwG3NGXhO1w2YdKEXg6sHSNTocJ7NaZoA",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-MWVsr8C9w4nwG3NGXhO1w2YdKEXg6sHSNTocJ7NaZoA",
       "level": 3,
       "title": "Claim: type"
     },
@@ -268,56 +268,56 @@
       "number": "4.7"
     },
     {
-      "id": "sd-jwt-claim-jOkR-NEk13JSe-V3QFoTXFLk3VgxQ-CKnGiMDDGTcQw",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-jOkR-NEk13JSe-V3QFoTXFLk3VgxQ-CKnGiMDDGTcQw",
+      "id": "sd-jwt-claim-Kr_PRYRqSXm_4g-oXn6orLU6jOBaBFyKwkpvjR14PoY",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-Kr_PRYRqSXm_4g-oXn6orLU6jOBaBFyKwkpvjR14PoY",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-6Lbs3c1n5i-wwM1Ak9HNJxnbqREDaPy6iwcsSTt1xFw",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-6Lbs3c1n5i-wwM1Ak9HNJxnbqREDaPy6iwcsSTt1xFw",
+      "id": "sd-jwt-claim-sBeIUKIrIWgmUH3nZgnsOsR1Cg-RupKE4wIUH1vq0eA",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-sBeIUKIrIWgmUH3nZgnsOsR1Cg-RupKE4wIUH1vq0eA",
       "level": 3,
       "title": "Claim: type"
     },
     {
-      "id": "sd-jwt-claim-wH0NplubOWODLmjxKXCEZAcFR8zgmip4ekfLBh3oeLw",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-wH0NplubOWODLmjxKXCEZAcFR8zgmip4ekfLBh3oeLw",
+      "id": "sd-jwt-claim-bxaiF6c1r6jcJ7c3UxeLFbTSp0M-9lwKjUbC7ScEezA",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-bxaiF6c1r6jcJ7c3UxeLFbTSp0M-9lwKjUbC7ScEezA",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-V6pnv2nIDl6wCew_IEaCVbN1jTcxZaVfMe8K23vSMZo",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-V6pnv2nIDl6wCew_IEaCVbN1jTcxZaVfMe8K23vSMZo",
+      "id": "sd-jwt-claim-HdHdwNpcJVYG_iHLS2gP-lIZytAbWfRj_mmrSXUx4sA",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-HdHdwNpcJVYG_iHLS2gP-lIZytAbWfRj_mmrSXUx4sA",
       "level": 3,
       "title": "Claim: type"
     },
     {
-      "id": "sd-jwt-claim-CxHrusXB6CpA7mTMjn49TXJoiTTqW1ThAlqYHtmoqAg",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-CxHrusXB6CpA7mTMjn49TXJoiTTqW1ThAlqYHtmoqAg",
+      "id": "sd-jwt-claim-0woPDQBddSOW2hH0p-loduA9-1DKoYqHI8pdrgKdajw",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-0woPDQBddSOW2hH0p-loduA9-1DKoYqHI8pdrgKdajw",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-D1C9Undl1iwCuORTebxBjsCZ4b6zRWAe90wWzKRaRsI",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-D1C9Undl1iwCuORTebxBjsCZ4b6zRWAe90wWzKRaRsI",
+      "id": "sd-jwt-claim-CcQOfr17k_HPZdvJeXhWYE6FHMHOM_Z7m8x34skLCHI",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-CcQOfr17k_HPZdvJeXhWYE6FHMHOM_Z7m8x34skLCHI",
       "level": 3,
       "title": "Claim: type"
     },
     {
-      "id": "sd-jwt-claim-Mg7EuTjORoEF2N5JoFUFE-xugUFqMVatxd5GglOB-8E",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-Mg7EuTjORoEF2N5JoFUFE-xugUFqMVatxd5GglOB-8E",
+      "id": "sd-jwt-claim-GbedIH_nWypNMzVMqv7UACBIDfblUKH8plwvHavDjPc",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-GbedIH_nWypNMzVMqv7UACBIDfblUKH8plwvHavDjPc",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-jcRK-WLqtDQzWFwqrq-utHphB3XBnp6Ny65__jrWd6A",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-jcRK-WLqtDQzWFwqrq-utHphB3XBnp6Ny65__jrWd6A",
+      "id": "sd-jwt-claim-q2p07PnGaHEn4kMi7U-B28N_VP0F_UOnFV8z2QJnnBQ",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-q2p07PnGaHEn4kMi7U-B28N_VP0F_UOnFV8z2QJnnBQ",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-7k8R0w29eV9cFHbI2v3Yjq-RkjaeiTV-tIZ0s1Fc8Is",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-7k8R0w29eV9cFHbI2v3Yjq-RkjaeiTV-tIZ0s1Fc8Is",
+      "id": "sd-jwt-claim-tbhZQQWs_XU3dW7aXbeymUhtcu2DO3Ol_ZqEYjIG8MU",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-tbhZQQWs_XU3dW7aXbeymUhtcu2DO3Ol_ZqEYjIG8MU",
       "level": 3,
       "title": "Claim: type"
     },
@@ -332,26 +332,26 @@
       "number": "4.8"
     },
     {
-      "id": "sd-jwt-claim-Er0d03mzRI68eFBykg-EBAVjc-ATWKuIoJVxX6kIDd4",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-Er0d03mzRI68eFBykg-EBAVjc-ATWKuIoJVxX6kIDd4",
+      "id": "sd-jwt-claim-s9HaHLBLVqxeLApDfLz5IZRxDNVyr4ZS7PUDTC5jvaQ",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-s9HaHLBLVqxeLApDfLz5IZRxDNVyr4ZS7PUDTC5jvaQ",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-A734GpoX9X-2TSGQoFulLt_WuQgVcnDlIXLsVlyWFT4",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-A734GpoX9X-2TSGQoFulLt_WuQgVcnDlIXLsVlyWFT4",
+      "id": "sd-jwt-claim-XcaN-IRJ24Ul7XV_vf0xssHrHr1AknJrWCuSrW5E8zw",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-XcaN-IRJ24Ul7XV_vf0xssHrHr1AknJrWCuSrW5E8zw",
       "level": 3,
       "title": "Claim: type"
     },
     {
-      "id": "sd-jwt-claim-O6PZEs6bDhcRY-Bkc24GL8AkOMIUY1ibTQehuEMtR6E",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-O6PZEs6bDhcRY-Bkc24GL8AkOMIUY1ibTQehuEMtR6E",
+      "id": "sd-jwt-claim-tJEZ6GoQ4jEMWx5psplR1mgVFQPl30vS5Ym-QAyi35Y",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-tJEZ6GoQ4jEMWx5psplR1mgVFQPl30vS5Ym-QAyi35Y",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-VcqOdcAmTcbE6khFMw6NU0WgRKwtXeZK8xP51N9uzfY",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-VcqOdcAmTcbE6khFMw6NU0WgRKwtXeZK8xP51N9uzfY",
+      "id": "sd-jwt-claim-uuEZujVwvOhacoFhQd_b5iwPgtCuYsB1YTVgyXMfDrI",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-uuEZujVwvOhacoFhQd_b5iwPgtCuYsB1YTVgyXMfDrI",
       "level": 3,
       "title": "Claim: type"
     },
@@ -366,26 +366,26 @@
       "number": "4.9"
     },
     {
-      "id": "sd-jwt-claim-amHzcPybzkkheWIf7aZyPJjWe33YahLcz7X_wB4AdtI",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-amHzcPybzkkheWIf7aZyPJjWe33YahLcz7X_wB4AdtI",
+      "id": "sd-jwt-claim-j_4UTz1ZpQXG4CMDCcAOTg5vnvbISH0y2n1Ogimsh38",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-j_4UTz1ZpQXG4CMDCcAOTg5vnvbISH0y2n1Ogimsh38",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-gdHFvnG3DYh4z-4IHFn2Kd5hgzB3XziZppONqvL3j6k",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-gdHFvnG3DYh4z-4IHFn2Kd5hgzB3XziZppONqvL3j6k",
+      "id": "sd-jwt-claim-zcAR2tML9qUDFiDSPF90uoH4Vx8G6YZVUOEoMUmnj7c",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-zcAR2tML9qUDFiDSPF90uoH4Vx8G6YZVUOEoMUmnj7c",
       "level": 3,
       "title": "Claim: type"
     },
     {
-      "id": "sd-jwt-claim-maM0I1ga6ABWipZlIJFR6Foy5IaJUlbpqK09qBENO8s",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-maM0I1ga6ABWipZlIJFR6Foy5IaJUlbpqK09qBENO8s",
+      "id": "sd-jwt-claim--myhXfZgS_N5sW9VPYT655ipUn6_-CfiBXHmCmHCSiw",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim--myhXfZgS_N5sW9VPYT655ipUn6_-CfiBXHmCmHCSiw",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-gYWFkzS5rCfocQZqG6tsPfexW5dlrVPoMhtDWH4hw4c",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-gYWFkzS5rCfocQZqG6tsPfexW5dlrVPoMhtDWH4hw4c",
+      "id": "sd-jwt-claim-IdW9J1bLbXXeOf1lOrppJqRdbFQoxQ5fZNEgtRTXG6o",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-IdW9J1bLbXXeOf1lOrppJqRdbFQoxQ5fZNEgtRTXG6o",
       "level": 3,
       "title": "Claim: type"
     },
@@ -484,20 +484,20 @@
       "number": "5.2"
     },
     {
-      "id": "sd-jwt-claim-IXx4_McuL-jIyxAPeI9VFSjG9vyvLlRglvqgj2MZPA8",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-IXx4_McuL-jIyxAPeI9VFSjG9vyvLlRglvqgj2MZPA8",
+      "id": "sd-jwt-claim-_9J0EcMuuBA7z-LHbEEz-_63TQQ5gt4X2_OfOY-2TJc",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-_9J0EcMuuBA7z-LHbEEz-_63TQQ5gt4X2_OfOY-2TJc",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-RjG0GEDmhnfJiLW-YXGLPCYI4xIAwpfzLoJXByBPm3s",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-RjG0GEDmhnfJiLW-YXGLPCYI4xIAwpfzLoJXByBPm3s",
+      "id": "sd-jwt-claim-KYZJ5yJRFdtVxl3kGSPMMda-_vHAiAsxNZYkCWQFXfs",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-KYZJ5yJRFdtVxl3kGSPMMda-_vHAiAsxNZYkCWQFXfs",
       "level": 3,
       "title": "Claim: type"
     },
     {
-      "id": "sd-jwt-claim-qYrM0MdADCGTvTcnst6GpFo84SGzlizKpiY_x5DCpPo",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-qYrM0MdADCGTvTcnst6GpFo84SGzlizKpiY_x5DCpPo",
+      "id": "sd-jwt-claim-qS0JpDol-4acrVIHU1sBj1rO7V2voT5z2DXGjrZMo9E",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-qS0JpDol-4acrVIHU1sBj1rO7V2voT5z2DXGjrZMo9E",
       "level": 3,
       "title": "Claim: id"
     },
@@ -912,20 +912,20 @@
       "number": "B.2"
     },
     {
-      "id": "sd-jwt-claim-dcnrA8e4Qozk7gnp72XaNHEl0QglYgyBeO60ssnVMvA",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-dcnrA8e4Qozk7gnp72XaNHEl0QglYgyBeO60ssnVMvA",
+      "id": "sd-jwt-claim-ZbWn655TcXXumydJDa61mf0okXp25qPD28X6GdQwCnI",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-ZbWn655TcXXumydJDa61mf0okXp25qPD28X6GdQwCnI",
       "level": 3,
       "title": "Claim: id"
     },
     {
-      "id": "sd-jwt-claim-R0ZM6HtFPGQuQFAAyq8rx0uSGdeGbYbXsoMOCPmLebw",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-R0ZM6HtFPGQuQFAAyq8rx0uSGdeGbYbXsoMOCPmLebw",
+      "id": "sd-jwt-claim-eVFv5ucgF3MdhWJi3ZjBtkOXiBTUMhu1-qCvcZZxy3U",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-eVFv5ucgF3MdhWJi3ZjBtkOXiBTUMhu1-qCvcZZxy3U",
       "level": 3,
       "title": "Claim: type"
     },
     {
-      "id": "sd-jwt-claim-EVb-GSL0NJjeP5xZ26vSA2bT0MCdPq4vYIVZBKh1af8",
-      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-EVb-GSL0NJjeP5xZ26vSA2bT0MCdPq4vYIVZBKh1af8",
+      "id": "sd-jwt-claim-E8m_lYKmrWNir6Cyy6rLMFIEHeNPxiFJUXKlmV6Ypow",
+      "href": "https://w3c.github.io/vc-data-model/#sd-jwt-claim-E8m_lYKmrWNir6Cyy6rLMFIEHeNPxiFJUXKlmV6Ypow",
       "level": 3,
       "title": "Claim: type"
     },
