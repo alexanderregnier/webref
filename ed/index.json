@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-10-03T11:56:40.359Z",
+  "date": "2026-10-03T16:38:39.943Z",
   "options": {
     "fallback": "ed/index.json",
     "output": "report",
@@ -4642,7 +4642,7 @@
       "links": "links/EXT_float_blend.json",
       "idl": "idl/EXT_float_blend.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_float_blend/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_float_blend/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 68)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/EXT_frag_depth/",
@@ -4746,7 +4746,7 @@
       "links": "links/EXT_shader_texture_lod.json",
       "idl": "idl/EXT_shader_texture_lod.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_shader_texture_lod/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 70)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_shader_texture_lod/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/EXT_sRGB/",
@@ -5110,7 +5110,7 @@
       "links": "links/OES_draw_buffers_indexed.json",
       "idl": "idl/OES_draw_buffers_indexed.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 77)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/OES_element_index_uint/",
@@ -5370,7 +5370,7 @@
       "links": "links/OES_texture_float.json",
       "idl": "idl/OES_texture_float.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/OES_texture_float/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/OES_texture_float/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 82)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/OES_texture_half_float_linear/",
@@ -5994,7 +5994,7 @@
       "links": "links/WEBGL_compressed_texture_s3tc_srgb.json",
       "idl": "idl/WEBGL_compressed_texture_s3tc_srgb.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_s3tc_srgb/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_s3tc_srgb/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 94)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_s3tc/",
@@ -6202,7 +6202,7 @@
       "links": "links/WEBGL_depth_texture.json",
       "idl": "idl/WEBGL_depth_texture.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_depth_texture/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_depth_texture/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 98)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/WEBGL_draw_buffers/",
@@ -6254,7 +6254,7 @@
       "links": "links/WEBGL_draw_buffers.json",
       "idl": "idl/WEBGL_draw_buffers.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_draw_buffers/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_draw_buffers/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 99)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/WEBGL_draw_instanced_base_vertex_base_instance/",
@@ -6358,7 +6358,7 @@
       "links": "links/WEBGL_lose_context.json",
       "idl": "idl/WEBGL_lose_context.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_lose_context/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_lose_context/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 101)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/",
@@ -6410,7 +6410,7 @@
       "links": "links/WEBGL_multi_draw_instanced_base_vertex_base_instance.json",
       "idl": "idl/WEBGL_multi_draw_instanced_base_vertex_base_instance.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 102)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/",
@@ -6462,7 +6462,7 @@
       "links": "links/WEBGL_multi_draw.json",
       "idl": "idl/WEBGL_multi_draw.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 103)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/",
@@ -6514,7 +6514,7 @@
       "links": "links/WEBGL_provoking_vertex.json",
       "idl": "idl/WEBGL_provoking_vertex.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 104)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/specs/latest/1.0/",
@@ -6572,7 +6572,7 @@
       "headings": "headings/webgl1.json",
       "ids": "ids/webgl1.json",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/specs/latest/1.0/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/specs/latest/1.0/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 105)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/specs/latest/2.0/",
@@ -6630,7 +6630,7 @@
       "headings": "headings/webgl2.json",
       "ids": "ids/webgl2.json",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/specs/latest/2.0/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/specs/latest/2.0/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 106)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://screen-share.github.io/captured-mouse-events/",
@@ -6998,7 +6998,7 @@
       ],
       "crawled": "https://tc39.es/ecma262/multipage/",
       "crawlCacheInfo": {
-        "lastModified": "Sat, 03 Oct 2026 08:48:16 GMT"
+        "lastModified": "Sat, 03 Oct 2026 08:48:19 GMT"
       },
       "date": "3 October 2026",
       "links": "links/ecmascript.json",
@@ -21819,7 +21819,7 @@
       ],
       "crawled": "https://drafts.csswg.org/css-display-4/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 02 Oct 2026 23:14:52 GMT"
+        "lastModified": "Fri, 02 Oct 2026 23:14:53 GMT"
       },
       "generator": "bikeshed",
       "date": "5 June 2026",
@@ -21956,7 +21956,7 @@
       ],
       "crawled": "https://drafts.csswg.org/css-easing-2/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 02 Oct 2026 23:14:52 GMT"
+        "lastModified": "Fri, 02 Oct 2026 23:14:53 GMT"
       },
       "generator": "bikeshed",
       "date": "23 February 2026",
@@ -23055,7 +23055,7 @@
       ],
       "crawled": "https://drafts.csswg.org/css-inline-3/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 02 Oct 2026 23:14:52 GMT"
+        "lastModified": "Fri, 02 Oct 2026 23:14:53 GMT"
       },
       "generator": "bikeshed",
       "date": "11 August 2026",
