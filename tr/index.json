@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-10-03T06:22:34.863Z",
+  "date": "2026-10-04T06:48:54.236Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "3 October 2026",
+      "date": "4 October 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -23071,11 +23071,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-core-2/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 02 Oct 2026 12:48:59 GMT"
+        "lastModified": "Sat, 03 Oct 2026 09:18:15 GMT"
       },
       "generator": "bikeshed",
-      "date": "2 October 2026",
-      "revision": "2e44bf79e68cc4fe689f43eea8e7d25b6fdfbce1",
+      "date": "3 October 2026",
+      "revision": "970c4116e644e2bf7acb39aab8b733db14ccdf28",
       "algorithms": "algorithms/wasm-core-2.json",
       "links": "links/wasm-core-2.json",
       "refs": "refs/wasm-core-2.json",
@@ -23144,11 +23144,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-js-api-2/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 02 Oct 2026 12:41:51 GMT"
+        "lastModified": "Sat, 03 Oct 2026 09:10:54 GMT"
       },
       "generator": "bikeshed",
-      "date": "2 October 2026",
-      "revision": "2e44bf79e68cc4fe689f43eea8e7d25b6fdfbce1",
+      "date": "3 October 2026",
+      "revision": "970c4116e644e2bf7acb39aab8b733db14ccdf28",
       "algorithms": "algorithms/wasm-js-api-2.json",
       "links": "links/wasm-js-api-2.json",
       "refs": "refs/wasm-js-api-2.json",
@@ -23210,11 +23210,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-web-api-2/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 02 Oct 2026 12:38:00 GMT"
+        "lastModified": "Sat, 03 Oct 2026 09:11:12 GMT"
       },
       "generator": "bikeshed",
-      "date": "2 October 2026",
-      "revision": "2e44bf79e68cc4fe689f43eea8e7d25b6fdfbce1",
+      "date": "3 October 2026",
+      "revision": "970c4116e644e2bf7acb39aab8b733db14ccdf28",
       "algorithms": "algorithms/wasm-web-api-2.json",
       "links": "links/wasm-web-api-2.json",
       "refs": "refs/wasm-web-api-2.json",
