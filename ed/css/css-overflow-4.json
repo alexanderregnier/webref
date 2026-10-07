@@ -309,14 +309,14 @@
         },
         {
           "name": "<max-lines>",
-          "prose": "Sets continue to collapse if either or both values are specified, unless the -webkit-legacy keyword is also specified (see below). Sets max-lines to the specified <integer> or to none if omitted, and block-ellipsis to other component of the value if specified or to auto if omitted. Sets max-lines and block-ellipsis to the corresponding values, or to max-lines: auto and block-ellipsis: ellipsis respectively if omitted.",
+          "prose": "Sets continue to collapse if either or both values are specified, unless the -webkit-legacy keyword is also specified (see below). Sets max-lines and block-ellipsis to the corresponding values, or to max-lines: auto and block-ellipsis: ellipsis respectively if omitted.",
           "href": "https://drafts.csswg.org/css-overflow-4/#valdef-line-clamp-max-lines",
           "type": "value",
           "value": "<max-lines>"
         },
         {
           "name": "<block-ellipsis>",
-          "prose": "Sets continue to collapse if either or both values are specified, unless the -webkit-legacy keyword is also specified (see below). Sets max-lines to the specified <integer> or to none if omitted, and block-ellipsis to other component of the value if specified or to auto if omitted. Sets max-lines and block-ellipsis to the corresponding values, or to max-lines: auto and block-ellipsis: ellipsis respectively if omitted.",
+          "prose": "Sets continue to collapse if either or both values are specified, unless the -webkit-legacy keyword is also specified (see below). Sets max-lines and block-ellipsis to the corresponding values, or to max-lines: auto and block-ellipsis: ellipsis respectively if omitted.",
           "href": "https://drafts.csswg.org/css-overflow-4/#valdef-line-clamp-block-ellipsis",
           "type": "value",
           "value": "<block-ellipsis>"

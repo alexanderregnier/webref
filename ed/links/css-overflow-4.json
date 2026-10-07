@@ -1084,12 +1084,6 @@
           "valdef-scrollbar-gutter-stable"
         ]
       },
-      "https://drafts.csswg.org/css-overflow-4/": {
-        "anchors": [
-          "valdef-max-lines-none",
-          "valdef-block-ellipsis-auto"
-        ]
-      },
       "https://drafts.csswg.org/css-page-floats-3/": {
         "anchors": [
           "float"
