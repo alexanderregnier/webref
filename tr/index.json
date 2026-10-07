@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-10-06T07:29:58.790Z",
+  "date": "2026-10-07T07:09:16.191Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "6 October 2026",
+      "date": "7 October 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -20748,9 +20748,9 @@
       ],
       "crawled": "https://www.w3.org/TR/SVG2/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 02 Oct 2018 17:56:01 GMT"
+        "lastModified": "Fri, 02 Oct 2026 13:48:26 GMT"
       },
-      "date": "04 October 2018",
+      "date": "06 October 2026",
       "algorithms": "algorithms/SVG2.json",
       "links": "links/SVG2.json",
       "refs": "refs/SVG2.json",
@@ -22407,11 +22407,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vc-render-method/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 29 Sep 2026 14:33:36 GMT"
+        "lastModified": "Tue, 06 Oct 2026 13:56:20 GMT"
       },
       "generator": "respec",
-      "date": "29 September 2026",
-      "revision": "d00c2f111ae97794ae4a2619787c386d153cdc7d",
+      "date": "06 October 2026",
+      "revision": "a22ebe02286eb0fda871799277720518567855df",
       "algorithms": "algorithms/vc-render-method.json",
       "links": "links/vc-render-method.json",
       "refs": "refs/vc-render-method.json",
@@ -24787,11 +24787,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webcodecs/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 21 Sep 2026 18:00:15 GMT"
+        "lastModified": "Wed, 07 Oct 2026 05:23:53 GMT"
       },
       "generator": "bikeshed",
-      "date": "21 September 2026",
-      "revision": "91160a493a2f59060c8b1ba4831e398f820c6e6d",
+      "date": "7 October 2026",
+      "revision": "6cee71b7367f89ce34bbd1b529b56d1ae2b1a211",
       "algorithms": "algorithms/webcodecs.json",
       "links": "links/webcodecs.json",
       "refs": "refs/webcodecs.json",
