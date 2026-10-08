@@ -92,14 +92,15 @@
       "https://dom.spec.whatwg.org/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-contain-2/": {},
+      "https://drafts.csswg.org/css-content-3/": {},
       "https://drafts.csswg.org/css-counter-styles/": {},
       "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-images-3/": {},
       "https://drafts.csswg.org/css-images-4/": {},
       "https://drafts.csswg.org/css-lists-3/": {
         "anchors": [
-          "inheriting-counters",
-          "auto-numbering"
+          "auto-numbering",
+          "inheriting-counters"
         ]
       },
       "https://drafts.csswg.org/css-namespaces/": {},
@@ -258,6 +259,7 @@
           "changes"
         ]
       },
+      "https://www.w3.org/TR/2025/WD-css-content-3-20251204/": {},
       "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/TR/CSS2/about.html": {
         "anchors": [
@@ -308,12 +310,18 @@
     "autolinks": {
       "https://drafts.csswg.org/css-cascade-5/": {
         "anchors": [
+          "inherited-value",
           "computed-value"
         ]
       },
       "https://drafts.csswg.org/css-contain-2/": {
         "anchors": [
           "style-containment"
+        ]
+      },
+      "https://drafts.csswg.org/css-content-3/": {
+        "anchors": [
+          "valdef-quotes-match-parent"
         ]
       },
       "https://drafts.csswg.org/css-counter-styles-3/": {
@@ -379,9 +387,9 @@
         "anchors": [
           "css-wide-keywords",
           "comb-one",
+          "mult-opt",
           "string-value",
           "mult-one-plus",
-          "mult-opt",
           "url-value",
           "comb-comma",
           "identifier-value",
