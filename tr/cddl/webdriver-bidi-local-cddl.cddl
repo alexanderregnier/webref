@@ -829,18 +829,18 @@ script.ChannelProperties = {
   ? ownership: script.ResultOwnership,
 }
 
-script.EvaluateResult = (
-  script.EvaluateResultSuccess /
-  script.EvaluateResultException
+script.EvaluationResult = (
+  script.EvaluationResultSuccess /
+  script.EvaluationResultException
 )
 
-script.EvaluateResultSuccess = {
+script.EvaluationResultSuccess = {
   type: "success",
   result: script.RemoteValue,
   realm: script.Realm
 }
 
-script.EvaluateResultException = {
+script.EvaluationResultException = {
   type: "exception",
   exceptionDetails: script.ExceptionDetails
   realm: script.Realm
@@ -1240,7 +1240,9 @@ script.AddPreloadScriptResult = {
 
 script.DisownResult = EmptyResult
 
-script.CallFunctionResult = script.EvaluateResult
+script.CallFunctionResult = script.EvaluationResult
+
+script.EvaluateResult = script.EvaluationResult
 
 script.GetRealmsResult = {
   realms: [*script.RealmInfo]
@@ -2477,18 +2479,18 @@ script.ChannelProperties = {
   ? ownership: script.ResultOwnership,
 }
 
-script.EvaluateResult = (
-  script.EvaluateResultSuccess /
-  script.EvaluateResultException
+script.EvaluationResult = (
+  script.EvaluationResultSuccess /
+  script.EvaluationResultException
 )
 
-script.EvaluateResultSuccess = {
+script.EvaluationResultSuccess = {
   type: "success",
   result: script.RemoteValue,
   realm: script.Realm
 }
 
-script.EvaluateResultException = {
+script.EvaluationResultException = {
   type: "exception",
   exceptionDetails: script.ExceptionDetails
   realm: script.Realm
@@ -4016,18 +4018,18 @@ script.ChannelProperties = {
   ? ownership: script.ResultOwnership,
 }
 
-script.EvaluateResult = (
-  script.EvaluateResultSuccess /
-  script.EvaluateResultException
+script.EvaluationResult = (
+  script.EvaluationResultSuccess /
+  script.EvaluationResultException
 )
 
-script.EvaluateResultSuccess = {
+script.EvaluationResultSuccess = {
   type: "success",
   result: script.RemoteValue,
   realm: script.Realm
 }
 
-script.EvaluateResultException = {
+script.EvaluationResultException = {
   type: "exception",
   exceptionDetails: script.ExceptionDetails
   realm: script.Realm
@@ -4427,7 +4429,9 @@ script.AddPreloadScriptResult = {
 
 script.DisownResult = EmptyResult
 
-script.CallFunctionResult = script.EvaluateResult
+script.CallFunctionResult = script.EvaluationResult
+
+script.EvaluateResult = script.EvaluationResult
 
 script.GetRealmsResult = {
   realms: [*script.RealmInfo]
