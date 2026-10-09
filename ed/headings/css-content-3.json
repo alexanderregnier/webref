@@ -68,7 +68,7 @@
       "id": "strings",
       "href": "https://drafts.csswg.org/css-content-3/#strings",
       "level": 2,
-      "title": "Basic Strings and Images: <string>, <attr()>, <counter>, and <image> values",
+      "title": "Basic Strings and Images: <string>, <attr()>, <counter>, <symbolic-glyph>, and <image> values",
       "number": "2"
     },
     {
@@ -184,45 +184,39 @@
       "number": "7.3"
     },
     {
-      "id": "symbols",
-      "href": "https://drafts.csswg.org/css-content-3/#symbols",
-      "level": 2,
-      "title": "Bullets and Other Symbols: <symbolic-counter-style> values",
-      "number": "8"
-    },
-    {
       "id": "bookmark-generation",
       "href": "https://drafts.csswg.org/css-content-3/#bookmark-generation",
       "level": 2,
       "title": "Bookmarks",
-      "number": "9"
+      "number": "8"
     },
     {
       "id": "bookmark-level",
       "href": "https://drafts.csswg.org/css-content-3/#bookmark-level",
       "level": 3,
       "title": "Setting a Bookmark: the bookmark-level property",
-      "number": "9.1"
+      "number": "8.1"
     },
     {
       "id": "bookmark-label",
       "href": "https://drafts.csswg.org/css-content-3/#bookmark-label",
       "level": 3,
       "title": "Labelling a Bookmark: the bookmark-label property",
-      "number": "9.2"
+      "number": "8.2"
     },
     {
       "id": "bookmark-state",
       "href": "https://drafts.csswg.org/css-content-3/#bookmark-state",
       "level": 3,
       "title": "Initial Bookmark Toggle State: the bookmark-state property",
-      "number": "9.3"
+      "number": "8.3"
     },
     {
       "id": "changes",
       "href": "https://drafts.csswg.org/css-content-3/#changes",
       "level": 2,
-      "title": "10. Changes"
+      "title": "Changes",
+      "number": "9"
     },
     {
       "id": "acknowledgements",

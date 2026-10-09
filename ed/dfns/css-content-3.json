@@ -211,7 +211,7 @@
       "heading": {
         "id": "strings",
         "href": "https://drafts.csswg.org/css-content-3/#strings",
-        "title": "Basic Strings and Images: <string>, <attr()>, <counter>, and <image> values",
+        "title": "Basic Strings and Images: <string>, <attr()>, <counter>, <symbolic-glyph>, and <image> values",
         "number": "2"
       },
       "definedIn": "prose",
@@ -1032,26 +1032,6 @@
       "links": []
     },
     {
-      "id": "typedef-symbolic-counter-style",
-      "href": "https://drafts.csswg.org/css-content-3/#typedef-symbolic-counter-style",
-      "linkingText": [
-        "<symbolic-counter-style>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "symbols",
-        "href": "https://drafts.csswg.org/css-content-3/#symbols",
-        "title": "Bullets and Other Symbols: <symbolic-counter-style> values",
-        "number": "8"
-      },
-      "definedIn": "pre",
-      "links": []
-    },
-    {
       "id": "bookmarks",
       "href": "https://drafts.csswg.org/css-content-3/#bookmarks",
       "linkingText": [
@@ -1066,7 +1046,7 @@
         "id": "bookmark-generation",
         "href": "https://drafts.csswg.org/css-content-3/#bookmark-generation",
         "title": "Bookmarks",
-        "number": "9"
+        "number": "8"
       },
       "definedIn": "prose",
       "links": []
@@ -1086,7 +1066,7 @@
         "id": "bookmark-level",
         "href": "https://drafts.csswg.org/css-content-3/#bookmark-level",
         "title": "Setting a Bookmark: the bookmark-level property",
-        "number": "9.1"
+        "number": "8.1"
       },
       "definedIn": "table",
       "links": []
@@ -1108,7 +1088,7 @@
         "id": "bookmark-level",
         "href": "https://drafts.csswg.org/css-content-3/#bookmark-level",
         "title": "Setting a Bookmark: the bookmark-level property",
-        "number": "9.1"
+        "number": "8.1"
       },
       "definedIn": "dt",
       "links": []
@@ -1128,7 +1108,7 @@
         "id": "bookmark-label",
         "href": "https://drafts.csswg.org/css-content-3/#bookmark-label",
         "title": "Labelling a Bookmark: the bookmark-label property",
-        "number": "9.2"
+        "number": "8.2"
       },
       "definedIn": "table",
       "links": []
@@ -1150,7 +1130,7 @@
         "id": "bookmark-label",
         "href": "https://drafts.csswg.org/css-content-3/#bookmark-label",
         "title": "Labelling a Bookmark: the bookmark-label property",
-        "number": "9.2"
+        "number": "8.2"
       },
       "definedIn": "dt",
       "links": []
@@ -1170,7 +1150,7 @@
         "id": "bookmark-state",
         "href": "https://drafts.csswg.org/css-content-3/#bookmark-state",
         "title": "Initial Bookmark Toggle State: the bookmark-state property",
-        "number": "9.3"
+        "number": "8.3"
       },
       "definedIn": "table",
       "links": []
@@ -1192,7 +1172,7 @@
         "id": "bookmark-state",
         "href": "https://drafts.csswg.org/css-content-3/#bookmark-state",
         "title": "Initial Bookmark Toggle State: the bookmark-state property",
-        "number": "9.3"
+        "number": "8.3"
       },
       "definedIn": "dt",
       "links": []
@@ -1214,7 +1194,7 @@
         "id": "bookmark-state",
         "href": "https://drafts.csswg.org/css-content-3/#bookmark-state",
         "title": "Initial Bookmark Toggle State: the bookmark-state property",
-        "number": "9.3"
+        "number": "8.3"
       },
       "definedIn": "dt",
       "links": []
