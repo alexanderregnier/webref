@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-10-10T06:58:54.030Z",
+  "date": "2026-10-11T07:03:36.215Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "10 October 2026",
+      "date": "11 October 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -17861,11 +17861,11 @@
       ],
       "crawled": "https://www.w3.org/TR/rdf12-n-quads/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 08 Oct 2026 16:16:21 GMT"
+        "lastModified": "Sat, 10 Oct 2026 18:36:21 GMT"
       },
       "generator": "respec",
-      "date": "08 October 2026",
-      "revision": "6873719a265e8f314fda0e7f48057e58cbcbbffc",
+      "date": "10 October 2026",
+      "revision": "af9193d2644bd1979f2da5dd80818dfb73d0dac6",
       "links": "links/rdf12-n-quads.json",
       "refs": "refs/rdf12-n-quads.json",
       "dfns": "dfns/rdf12-n-quads.json",
@@ -17973,11 +17973,11 @@
       ],
       "crawled": "https://www.w3.org/TR/rdf12-schema/",
       "crawlCacheInfo": {
-        "lastModified": "Sat, 28 Mar 2026 12:54:02 GMT"
+        "lastModified": "Sat, 10 Oct 2026 08:43:47 GMT"
       },
       "generator": "respec",
-      "date": "28 March 2026",
-      "revision": "17cccd0692a6ca32f2062d82a6179256421661d8",
+      "date": "10 October 2026",
+      "revision": "e8eebcdcee2265735ab1058d1cc7a2b365a70567",
       "links": "links/rdf12-schema.json",
       "refs": "refs/rdf12-schema.json",
       "headings": "headings/rdf12-schema.json",
@@ -19447,11 +19447,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-core/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 08 Oct 2026 02:49:05 GMT"
+        "lastModified": "Sun, 11 Oct 2026 02:29:58 GMT"
       },
       "generator": "respec",
-      "date": "08 October 2026",
-      "revision": "0df9824181c143e14430b2e807468bcb00eef384",
+      "date": "11 October 2026",
+      "revision": "02d2de38fc7cb2261aec57a4958568fc537e6d22",
       "algorithms": "algorithms/shacl12-core.json",
       "links": "links/shacl12-core.json",
       "refs": "refs/shacl12-core.json",
@@ -19621,11 +19621,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-sparql/",
       "crawlCacheInfo": {
-        "lastModified": "Sat, 10 Oct 2026 03:01:49 GMT"
+        "lastModified": "Sun, 11 Oct 2026 02:29:20 GMT"
       },
       "generator": "respec",
-      "date": "10 October 2026",
-      "revision": "07458ebb1ece6addc664636d70b08444a7b66609",
+      "date": "11 October 2026",
+      "revision": "02d2de38fc7cb2261aec57a4958568fc537e6d22",
       "algorithms": "algorithms/shacl12-sparql.json",
       "links": "links/shacl12-sparql.json",
       "refs": "refs/shacl12-sparql.json",
