@@ -7,7 +7,7 @@
     "normative": [
       {
         "name": "BCP47",
-        "url": "https://www.rfc-editor.org/info/rfc5646/"
+        "url": "https://www.rfc-editor.org/info/bcp47"
       },
       {
         "name": "DOM",
@@ -103,7 +103,7 @@
       },
       {
         "name": "UAX9",
-        "url": "https://www.unicode.org/reports/tr9/tr9-51.html"
+        "url": "https://www.unicode.org/reports/tr9/tr9-52.html"
       },
       {
         "name": "UNICODE",
