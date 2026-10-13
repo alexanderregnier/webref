@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-10-12T07:15:13.331Z",
+  "date": "2026-10-13T07:39:46.616Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "12 October 2026",
+      "date": "13 October 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -985,11 +985,11 @@
       ],
       "crawled": "https://www.w3.org/TR/accname-1.2/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 02 Oct 2026 08:38:46 GMT"
+        "lastModified": "Mon, 12 Oct 2026 08:43:54 GMT"
       },
       "generator": "respec",
-      "date": "02 October 2026",
-      "revision": "40cccbd3dd7779b10a4334cf9eba9b74aeca754e",
+      "date": "12 October 2026",
+      "revision": "cde788b68f8e19175c7a1f4c7017b2cbd5f0cc0d",
       "algorithms": "algorithms/accname-1.2.json",
       "links": "links/accname-1.2.json",
       "refs": "refs/accname-1.2.json",
@@ -1170,11 +1170,11 @@
       ],
       "crawled": "https://www.w3.org/TR/appmanifest/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 09 Oct 2026 06:34:55 GMT"
+        "lastModified": "Tue, 13 Oct 2026 03:07:03 GMT"
       },
       "generator": "respec",
-      "date": "09 October 2026",
-      "revision": "5b7041c94e79261d92c83b63cff7583dceee97dd",
+      "date": "13 October 2026",
+      "revision": "36abda23d9a3133f659f87cd6a6bc602ba4ea0fc",
       "algorithms": "algorithms/appmanifest.json",
       "links": "links/appmanifest.json",
       "refs": "refs/appmanifest.json",
@@ -2343,11 +2343,11 @@
       ],
       "crawled": "https://www.w3.org/TR/core-aam-1.2/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 29 Sep 2026 22:02:42 GMT"
+        "lastModified": "Mon, 12 Oct 2026 08:50:25 GMT"
       },
       "generator": "respec",
-      "date": "23 September 2026",
-      "revision": "7f0665aab0ebc85139e7cc3f95b4c900b9536fd0",
+      "date": "12 October 2026",
+      "revision": "cde788b68f8e19175c7a1f4c7017b2cbd5f0cc0d",
       "algorithms": "algorithms/core-aam-1.2.json",
       "links": "links/core-aam-1.2.json",
       "refs": "refs/core-aam-1.2.json",
@@ -13298,11 +13298,11 @@
       ],
       "crawled": "https://www.w3.org/TR/html-aam-1.0/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 05 Oct 2026 16:26:10 GMT"
+        "lastModified": "Mon, 12 Oct 2026 08:38:02 GMT"
       },
       "generator": "respec",
-      "date": "05 October 2026",
-      "revision": "a4af4eb449462c00f673f264956ef9c63f0e9e06",
+      "date": "12 October 2026",
+      "revision": "cde788b68f8e19175c7a1f4c7017b2cbd5f0cc0d",
       "algorithms": "algorithms/html-aam-1.0.json",
       "links": "links/html-aam-1.0.json",
       "refs": "refs/html-aam-1.0.json",
@@ -13589,11 +13589,11 @@
       ],
       "crawled": "https://www.w3.org/TR/IFT/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 10 Nov 2025 07:41:31 GMT"
+        "lastModified": "Thu, 08 Oct 2026 15:35:52 GMT"
       },
       "generator": "bikeshed",
-      "date": "18 November 2025",
-      "revision": "40f09b4d63d2a3ac906a51e0acf18b905bef222a",
+      "date": "13 October 2026",
+      "revision": "583d022ff790f7b34ffb09269a11a25f9577cb36",
       "algorithms": "algorithms/IFT.json",
       "links": "links/IFT.json",
       "refs": "refs/IFT.json",
@@ -19447,11 +19447,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-core/",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 11 Oct 2026 23:52:17 GMT"
+        "lastModified": "Mon, 12 Oct 2026 23:11:11 GMT"
       },
       "generator": "respec",
-      "date": "11 October 2026",
-      "revision": "af518a38d55f86cdb9bf4c15bb75b4c1ebd49365",
+      "date": "12 October 2026",
+      "revision": "8c9d0f6a20667fbfc24bbcd18e919da6b5ffac53",
       "algorithms": "algorithms/shacl12-core.json",
       "links": "links/shacl12-core.json",
       "refs": "refs/shacl12-core.json",
@@ -19564,11 +19564,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-rules/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 08 Oct 2026 08:44:09 GMT"
+        "lastModified": "Mon, 12 Oct 2026 14:06:42 GMT"
       },
       "generator": "respec",
-      "date": "08 October 2026",
-      "revision": "25aaa15a77a021b58985c3112e9669e3376ab6c8",
+      "date": "12 October 2026",
+      "revision": "79eebfd92bbf603170f9ba7dabdafe1a6a80e916",
       "algorithms": "algorithms/shacl12-rules.json",
       "links": "links/shacl12-rules.json",
       "refs": "refs/shacl12-rules.json",
@@ -20310,11 +20310,11 @@
       ],
       "crawled": "https://www.w3.org/TR/svg-aam-1.0/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 29 Sep 2026 22:02:44 GMT"
+        "lastModified": "Mon, 12 Oct 2026 08:44:57 GMT"
       },
       "generator": "respec",
-      "date": "24 September 2026",
-      "revision": "ffa9651ce86686fce2774e4b860179eb298d5e12",
+      "date": "12 October 2026",
+      "revision": "cde788b68f8e19175c7a1f4c7017b2cbd5f0cc0d",
       "algorithms": "algorithms/svg-aam-1.0.json",
       "links": "links/svg-aam-1.0.json",
       "refs": "refs/svg-aam-1.0.json",
@@ -22297,10 +22297,10 @@
       ],
       "crawled": "https://www.w3.org/TR/vc-jose-cose/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 05 May 2025 13:52:01 GMT"
+        "lastModified": "Fri, 09 Oct 2026 06:04:36 GMT"
       },
       "generator": "respec",
-      "date": "15 May 2025",
+      "date": "13 October 2026",
       "algorithms": "algorithms/vc-jose-cose.json",
       "links": "links/vc-jose-cose.json",
       "refs": "refs/vc-jose-cose.json",
@@ -22810,11 +22810,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vocab-ssn-2023/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 07 Oct 2026 12:02:53 GMT"
+        "lastModified": "Mon, 12 Oct 2026 21:09:21 GMT"
       },
       "generator": "respec",
-      "date": "07 October 2026",
-      "revision": "918fdd5b6314256103280a03ff8a5e44e8d0d645",
+      "date": "12 October 2026",
+      "revision": "610c0ae593a560509d36bb33bbdd2a04fac99603",
       "links": "links/vocab-ssn-2023.json",
       "refs": "refs/vocab-ssn-2023.json",
       "dfns": "dfns/vocab-ssn-2023.json",
@@ -23071,11 +23071,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-core-2/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 09 Oct 2026 20:24:51 GMT"
+        "lastModified": "Mon, 12 Oct 2026 10:16:25 GMT"
       },
       "generator": "bikeshed",
-      "date": "9 October 2026",
-      "revision": "7e9fb78c63d65018cc111422f657947b3df80d7b",
+      "date": "12 October 2026",
+      "revision": "4278406de8d8d1f3b3672f0856ec248ae717872c",
       "algorithms": "algorithms/wasm-core-2.json",
       "links": "links/wasm-core-2.json",
       "refs": "refs/wasm-core-2.json",
@@ -23144,11 +23144,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-js-api-2/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 09 Oct 2026 20:17:25 GMT"
+        "lastModified": "Mon, 12 Oct 2026 10:08:16 GMT"
       },
       "generator": "bikeshed",
-      "date": "9 October 2026",
-      "revision": "7e9fb78c63d65018cc111422f657947b3df80d7b",
+      "date": "12 October 2026",
+      "revision": "4278406de8d8d1f3b3672f0856ec248ae717872c",
       "algorithms": "algorithms/wasm-js-api-2.json",
       "links": "links/wasm-js-api-2.json",
       "refs": "refs/wasm-js-api-2.json",
@@ -23210,11 +23210,11 @@
       ],
       "crawled": "https://www.w3.org/TR/wasm-web-api-2/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 09 Oct 2026 20:17:31 GMT"
+        "lastModified": "Mon, 12 Oct 2026 10:08:10 GMT"
       },
       "generator": "bikeshed",
-      "date": "9 October 2026",
-      "revision": "7e9fb78c63d65018cc111422f657947b3df80d7b",
+      "date": "12 October 2026",
+      "revision": "4278406de8d8d1f3b3672f0856ec248ae717872c",
       "algorithms": "algorithms/wasm-web-api-2.json",
       "links": "links/wasm-web-api-2.json",
       "refs": "refs/wasm-web-api-2.json",
@@ -24037,11 +24037,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webcodecs-av1-codec-registration/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 08 Jun 2026 11:44:21 GMT"
+        "lastModified": "Tue, 13 Oct 2026 06:55:40 GMT"
       },
       "generator": "bikeshed",
-      "date": "8 June 2026",
-      "revision": "86d0dec6f1f17b4d686a76c64d69dd628a29a132",
+      "date": "13 October 2026",
+      "revision": "97421577cdffa6deee258e7beedea692e012f6c6",
       "links": "links/webcodecs-av1-codec-registration.json",
       "refs": "refs/webcodecs-av1-codec-registration.json",
       "idl": "idl/webcodecs-av1-codec-registration.idl",

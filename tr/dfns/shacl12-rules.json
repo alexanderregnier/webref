@@ -1447,9 +1447,9 @@
         "href": "https://www.w3.org/TR/shacl12-rules/#alg-imports",
         "title": "Example Imports Algorithm",
         "alternateIds": [
-          "a-example-imports-algorithm"
+          "b-example-imports-algorithm"
         ],
-        "number": "A"
+        "number": "B"
       },
       "definedIn": "prose",
       "links": []
