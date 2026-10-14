@@ -74,7 +74,6 @@
       "http://wpt.live/css/css-overflow/line-clamp/line-clamp-009.html": {},
       "http://wpt.live/css/css-overflow/line-clamp/line-clamp-010.html": {},
       "http://wpt.live/css/css-overflow/line-clamp/line-clamp-011.html": {},
-      "http://wpt.live/css/css-overflow/line-clamp/line-clamp-013.tentative.html": {},
       "http://wpt.live/css/css-overflow/line-clamp/line-clamp-014.html": {},
       "http://wpt.live/css/css-overflow/line-clamp/line-clamp-015.html": {},
       "http://wpt.live/css/css-overflow/line-clamp/line-clamp-016.html": {},
@@ -331,7 +330,6 @@
       },
       "https://compat.spec.whatwg.org/": {},
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
-      "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-line-clamp": {},
       "https://dom.spec.whatwg.org/": {},
       "https://drafts.csswg.org/css-backgrounds-3/": {
         "anchors": [
@@ -473,7 +471,6 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/line-clamp/line-clamp-009.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/line-clamp/line-clamp-010.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/line-clamp/line-clamp-011.html": {},
-      "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/line-clamp/line-clamp-013.tentative.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/line-clamp/line-clamp-014.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/line-clamp/line-clamp-015.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/line-clamp/line-clamp-016.html": {},
@@ -786,7 +783,6 @@
       "https://wpt.fyi/results/css/css-overflow/line-clamp/line-clamp-009.html": {},
       "https://wpt.fyi/results/css/css-overflow/line-clamp/line-clamp-010.html": {},
       "https://wpt.fyi/results/css/css-overflow/line-clamp/line-clamp-011.html": {},
-      "https://wpt.fyi/results/css/css-overflow/line-clamp/line-clamp-013.tentative.html": {},
       "https://wpt.fyi/results/css/css-overflow/line-clamp/line-clamp-014.html": {},
       "https://wpt.fyi/results/css/css-overflow/line-clamp/line-clamp-015.html": {},
       "https://wpt.fyi/results/css/css-overflow/line-clamp/line-clamp-016.html": {},
