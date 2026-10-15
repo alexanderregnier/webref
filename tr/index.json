@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-10-14T06:04:35.928Z",
+  "date": "2026-10-15T05:50:26.858Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "14 October 2026",
+      "date": "15 October 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -16551,11 +16551,11 @@
       ],
       "crawled": "https://www.w3.org/TR/paint-timing/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 02 Oct 2026 14:00:08 GMT"
+        "lastModified": "Wed, 14 Oct 2026 08:17:45 GMT"
       },
       "generator": "bikeshed",
-      "date": "2 October 2026",
-      "revision": "52ce488efd9c0c0bf96c6f92174da0970469809b",
+      "date": "14 October 2026",
+      "revision": "4bceb4c50227d23ec605d81c127712b40c9fd35f",
       "algorithms": "algorithms/paint-timing.json",
       "links": "links/paint-timing.json",
       "refs": "refs/paint-timing.json",
@@ -19447,11 +19447,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-core/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 13 Oct 2026 07:54:14 GMT"
+        "lastModified": "Wed, 14 Oct 2026 14:21:51 GMT"
       },
       "generator": "respec",
-      "date": "13 October 2026",
-      "revision": "056ab61a06b1ddff167c629fdac6f2d8be0cecf0",
+      "date": "14 October 2026",
+      "revision": "4b57350497cf739229474c0e924581b11369e6b8",
       "algorithms": "algorithms/shacl12-core.json",
       "links": "links/shacl12-core.json",
       "refs": "refs/shacl12-core.json",
@@ -19564,11 +19564,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-rules/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 12 Oct 2026 14:06:42 GMT"
+        "lastModified": "Wed, 14 Oct 2026 13:45:28 GMT"
       },
       "generator": "respec",
-      "date": "12 October 2026",
-      "revision": "79eebfd92bbf603170f9ba7dabdafe1a6a80e916",
+      "date": "14 October 2026",
+      "revision": "72a0523d6e54382d314648c1c16e88c5710beef4",
       "algorithms": "algorithms/shacl12-rules.json",
       "links": "links/shacl12-rules.json",
       "refs": "refs/shacl12-rules.json",
