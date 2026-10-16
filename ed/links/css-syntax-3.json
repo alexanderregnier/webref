@@ -86,7 +86,6 @@
       "https://drafts.csswg.org/css-namespaces/": {},
       "https://drafts.csswg.org/css-nesting/": {},
       "https://drafts.csswg.org/css-page-3/": {},
-      "https://drafts.csswg.org/css-syntax/": {},
       "https://drafts.csswg.org/css-text-decor-3/": {},
       "https://drafts.csswg.org/css-text-decor-4/": {},
       "https://drafts.csswg.org/css-transforms/": {},
@@ -109,31 +108,7 @@
       "https://drafts.csswg.org/selectors-3/": {},
       "https://drafts.csswg.org/selectors/": {},
       "https://encoding.spec.whatwg.org/": {},
-      "https://github.com/w3c/csswg-drafts/commit/64becb59fe678760608a6f2a8d6bfb3a334500c9": {
-        "anchors": [
-          "diff-9d409f899ee6e2cc8cd87356d0e2a0ff739c5aa9663d83f49c951c379a38f1f6"
-        ]
-      },
       "https://github.com/w3c/csswg-drafts/issues": {},
-      "https://github.com/w3c/csswg-drafts/issues/5633": {},
-      "https://github.com/w3c/csswg-drafts/issues/5728": {},
-      "https://github.com/w3c/csswg-drafts/issues/7129": {},
-      "https://github.com/w3c/csswg-drafts/issues/7961": {
-        "anchors": [
-          "issuecomment-1514955984"
-        ]
-      },
-      "https://github.com/w3c/csswg-drafts/issues/8738": {},
-      "https://github.com/w3c/csswg-drafts/issues/8834": {},
-      "https://github.com/w3c/csswg-drafts/issues/8835": {},
-      "https://github.com/w3c/csswg-drafts/issues/9317": {},
-      "https://github.com/w3c/csswg-drafts/issues/9336": {},
-      "https://github.com/w3c/csswg-drafts/issues/9473": {},
-      "https://github.com/w3c/csswg-drafts/milestone/5?closed=1": {},
-      "https://github.com/w3c/csswg-drafts/pull/10386": {},
-      "https://github.com/w3c/csswg-drafts/pull/11129": {},
-      "https://github.com/w3c/csswg-drafts/pull/6874": {},
-      "https://github.com/w3c/csswg-drafts/pull/7997": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-syntax/anb-parsing.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-syntax/anb-serialization.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-syntax/at-rule-in-declaration-list.html": {},
@@ -240,8 +215,7 @@
       "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/TR/CSS2/syndata.html": {
         "anchors": [
-          "rule-sets",
-          "unexpected-eof"
+          "rule-sets"
         ]
       },
       "https://www.w3.org/TR/css3-values/": {
@@ -437,18 +411,12 @@
           "stack-pop",
           "list-iterate",
           "list-append",
-          "list-remove",
-          "scalar-value"
+          "list-remove"
         ]
       },
       "https://url.spec.whatwg.org/": {
         "anchors": [
           "concept-url"
-        ]
-      },
-      "https://www.w3.org/TR/css-syntax-3/": {
-        "anchors": [
-          "parse-a-blocks-contents"
         ]
       }
     }
