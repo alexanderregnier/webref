@@ -1908,7 +1908,7 @@
         "anchors": [
           "TermObjectBoundingBox",
           "bounding-box",
-          "InterfaceSVGAnimatedTransformList"
+          "svganimatedtransformlist"
         ]
       },
       "https://w3c.github.io/svgwg/svg2-draft/embedded.html": {
@@ -2004,10 +2004,10 @@
       },
       "https://w3c.github.io/svgwg/svg2-draft/types.html": {
         "anchors": [
-          "InterfaceSVGElement",
-          "InterfaceSVGAnimatedEnumeration",
-          "InterfaceSVGUnitTypes",
-          "InterfaceSVGAnimatedLength"
+          "svgelement",
+          "svganimatedenumeration",
+          "svgunittypes",
+          "svganimatedlength"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
