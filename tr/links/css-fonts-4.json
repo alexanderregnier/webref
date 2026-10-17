@@ -464,6 +464,9 @@
       "http://wpt.live/css/css-fonts/standard-font-family-8.html": {},
       "http://wpt.live/css/css-fonts/standard-font-family-9.html": {},
       "http://wpt.live/css/css-fonts/standard-font-family.html": {},
+      "http://wpt.live/css/css-fonts/synthetic-bold-combining-mark-001.html": {},
+      "http://wpt.live/css/css-fonts/synthetic-bold-combining-mark-002.html": {},
+      "http://wpt.live/css/css-fonts/synthetic-bold-does-not-widen-advances.html": {},
       "http://wpt.live/css/css-fonts/synthetic-bold-out-of-capabilities-range.html": {},
       "http://wpt.live/css/css-fonts/synthetic-bold-space-width.html": {},
       "http://wpt.live/css/css-fonts/synthetic-bold-zero-advance-glyph.html": {},
@@ -509,6 +512,7 @@
       "http://wpt.live/css/css-fonts/variations/font-weight-matching.html": {},
       "http://wpt.live/css/css-fonts/variations/font-weight-metrics.html": {},
       "http://wpt.live/css/css-fonts/variations/font-weight-parsing.html": {},
+      "http://wpt.live/css/css-fonts/variations/ital-variable.html": {},
       "http://wpt.live/css/css-fonts/variations/slnt-backslant-variable.html": {},
       "http://wpt.live/css/css-fonts/variations/slnt-variable.html": {},
       "http://wpt.live/css/css-fonts/variations/variable-avar2-rvrn.html": {},
@@ -570,6 +574,7 @@
         ]
       },
       "https://github.com/w3c/csswg-drafts/issues/4497": {},
+      "https://github.com/w3c/csswg-drafts/issues/6723": {},
       "https://github.com/w3c/csswg-drafts/issues/7999": {},
       "https://github.com/w3c/csswg-drafts/issues/807": {
         "anchors": [
@@ -1047,6 +1052,9 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/standard-font-family-8.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/standard-font-family-9.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/standard-font-family.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/synthetic-bold-combining-mark-001.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/synthetic-bold-combining-mark-002.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/synthetic-bold-does-not-widen-advances.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/synthetic-bold-out-of-capabilities-range.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/synthetic-bold-space-width.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/synthetic-bold-zero-advance-glyph.html": {},
@@ -1092,6 +1100,7 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/variations/font-weight-matching.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/variations/font-weight-metrics.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/variations/font-weight-parsing.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/variations/ital-variable.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/variations/slnt-backslant-variable.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/variations/slnt-variable.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-fonts/variations/variable-avar2-rvrn.html": {},
@@ -1587,6 +1596,9 @@
       "https://wpt.fyi/results/css/css-fonts/standard-font-family-8.html": {},
       "https://wpt.fyi/results/css/css-fonts/standard-font-family-9.html": {},
       "https://wpt.fyi/results/css/css-fonts/standard-font-family.html": {},
+      "https://wpt.fyi/results/css/css-fonts/synthetic-bold-combining-mark-001.html": {},
+      "https://wpt.fyi/results/css/css-fonts/synthetic-bold-combining-mark-002.html": {},
+      "https://wpt.fyi/results/css/css-fonts/synthetic-bold-does-not-widen-advances.html": {},
       "https://wpt.fyi/results/css/css-fonts/synthetic-bold-out-of-capabilities-range.html": {},
       "https://wpt.fyi/results/css/css-fonts/synthetic-bold-space-width.html": {},
       "https://wpt.fyi/results/css/css-fonts/synthetic-bold-zero-advance-glyph.html": {},
@@ -1632,6 +1644,7 @@
       "https://wpt.fyi/results/css/css-fonts/variations/font-weight-matching.html": {},
       "https://wpt.fyi/results/css/css-fonts/variations/font-weight-metrics.html": {},
       "https://wpt.fyi/results/css/css-fonts/variations/font-weight-parsing.html": {},
+      "https://wpt.fyi/results/css/css-fonts/variations/ital-variable.html": {},
       "https://wpt.fyi/results/css/css-fonts/variations/slnt-backslant-variable.html": {},
       "https://wpt.fyi/results/css/css-fonts/variations/slnt-variable.html": {},
       "https://wpt.fyi/results/css/css-fonts/variations/variable-avar2-rvrn.html": {},
@@ -1664,8 +1677,8 @@
       "https://www.rfc-editor.org/info/rfc8081/": {},
       "https://www.un.org/en/about-us/universal-declaration-of-human-rights": {},
       "https://www.unicode.org/charts/": {},
-      "https://www.unicode.org/reports/tr29/tr29-47.html": {},
-      "https://www.unicode.org/reports/tr51/tr51-29.html": {},
+      "https://www.unicode.org/reports/tr29/tr29-49.html": {},
+      "https://www.unicode.org/reports/tr51/tr51-31.html": {},
       "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/Style/CSS/Test/": {},
       "https://www.w3.org/Submission/2008/SUBM-EOT-20080305/": {},
@@ -1800,12 +1813,6 @@
       }
     },
     "autolinks": {
-      "https://drafts.csswg.org/css-syntax-3/": {
-        "anchors": [
-          "typedef-unicode-range-token",
-          "typedef-declaration-rule-list"
-        ]
-      },
       "https://drafts.csswg.org/css-values-4/": {
         "anchors": [
           "font-affecting-property"
@@ -1916,6 +1923,8 @@
           "css-invalid",
           "typedef-declaration-list",
           "css-parse-a-comma-separated-list-according-to-a-css-grammar",
+          "typedef-unicode-range-token",
+          "typedef-declaration-rule-list",
           "at-rule"
         ]
       },

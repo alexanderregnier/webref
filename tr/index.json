@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-10-16T05:46:03.110Z",
+  "date": "2026-10-17T05:32:19.805Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "16 October 2026",
+      "date": "17 October 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -1170,11 +1170,11 @@
       ],
       "crawled": "https://www.w3.org/TR/appmanifest/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 13 Oct 2026 03:07:03 GMT"
+        "lastModified": "Fri, 16 Oct 2026 21:21:13 GMT"
       },
       "generator": "respec",
-      "date": "13 October 2026",
-      "revision": "36abda23d9a3133f659f87cd6a6bc602ba4ea0fc",
+      "date": "16 October 2026",
+      "revision": "004ad627062a1efb2ba228e0ac1a6379753699d8",
       "algorithms": "algorithms/appmanifest.json",
       "links": "links/appmanifest.json",
       "refs": "refs/appmanifest.json",
@@ -5480,11 +5480,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-fonts-4/",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 13 Sep 2026 12:27:42 GMT"
+        "lastModified": "Fri, 16 Oct 2026 18:27:58 GMT"
       },
       "generator": "bikeshed",
-      "date": "13 September 2026",
-      "revision": "63e3e134b8cf63788b38750af897edcb6f6f0222",
+      "date": "16 October 2026",
+      "revision": "a17071ddd3a207698d6b5625234a71268a008c13",
       "algorithms": "algorithms/css-fonts-4.json",
       "links": "links/css-fonts-4.json",
       "refs": "refs/css-fonts-4.json",
