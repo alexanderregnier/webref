@@ -231,7 +231,7 @@
       },
       "https://w3c.github.io/svgwg/svg2-draft/embedded.html": {
         "anchors": [
-          "InterfaceSVGImageElement"
+          "svgimageelement"
         ]
       },
       "https://w3c.github.io/webrtc-pc/": {
