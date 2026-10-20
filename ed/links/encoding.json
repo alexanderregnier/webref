@@ -55,7 +55,7 @@
           "list-append",
           "list-contain",
           "list-iterate",
-          "the-range",
+          "the-exclusive-range",
           "iteration-break",
           "list-insert",
           "list-prepend",
