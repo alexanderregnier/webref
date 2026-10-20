@@ -189,6 +189,11 @@
           "current-realm"
         ]
       },
+      "https://w3c.github.io/svgwg/svg2-draft/embedded.html": {
+        "anchors": [
+          "svgimageelement"
+        ]
+      },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "Exposed",
@@ -229,11 +234,6 @@
           "idl-unrestricted-float",
           "the-given-value",
           "quotaexceedederror"
-        ]
-      },
-      "https://www.w3.org/TR/SVG2/embedded.html": {
-        "anchors": [
-          "InterfaceSVGImageElement"
         ]
       },
       "https://www.w3.org/TR/css-images-3/": {

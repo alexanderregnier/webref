@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-10-19T06:01:17.154Z",
+  "date": "2026-10-20T05:53:30.722Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "19 October 2026",
+      "date": "20 October 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -11041,11 +11041,11 @@
       ],
       "crawled": "https://www.w3.org/TR/digital-credentials/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 15 Oct 2026 17:39:58 GMT"
+        "lastModified": "Tue, 20 Oct 2026 02:18:45 GMT"
       },
       "generator": "respec",
-      "date": "15 October 2026",
-      "revision": "c02b49cb508f226f7472ec47a1f89592b2d6f5b6",
+      "date": "20 October 2026",
+      "revision": "60514a844ebc8d0a8b1132a5454e89ea2de02a0b",
       "algorithms": "algorithms/digital-credentials.json",
       "links": "links/digital-credentials.json",
       "refs": "refs/digital-credentials.json",
@@ -24787,11 +24787,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webcodecs/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 07 Oct 2026 19:44:44 GMT"
+        "lastModified": "Mon, 19 Oct 2026 20:58:38 GMT"
       },
       "generator": "bikeshed",
-      "date": "7 October 2026",
-      "revision": "7be369921f9e1a9ad3e12e8f8d4080cf98d8bf92",
+      "date": "19 October 2026",
+      "revision": "e68317fdb284f777ed86284270f5efbbc122d52e",
       "algorithms": "algorithms/webcodecs.json",
       "links": "links/webcodecs.json",
       "refs": "refs/webcodecs.json",
