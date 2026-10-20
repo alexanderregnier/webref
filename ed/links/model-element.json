@@ -8,6 +8,7 @@
       "http://accessibility.linuxfoundation.org/a11yspecs/ia2/docs/html/": {},
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://developer.apple.com/reference/appkit/nsaccessibility": {},
+      "https://dom.spec.whatwg.org/": {},
       "https://drafts.csswg.org/css-box-3/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-sizing-3/": {},
@@ -20,6 +21,7 @@
       "https://drafts.csswg.org/cssom-view/": {},
       "https://drafts.csswg.org/geometry/": {},
       "https://drafts.csswg.org/selectors/": {},
+      "https://fetch.spec.whatwg.org/": {},
       "https://fullscreen.spec.whatwg.org/": {},
       "https://github.com/immersive-web/model-element/commit/1a4f45f80fc32b6a19071e3ea02dbea548d4f5f5": {},
       "https://github.com/immersive-web/model-element/commit/1b25a02892d9adf04c780340f236543d791d431d": {},
@@ -103,6 +105,8 @@
       "https://w3c.github.io/aria/": {},
       "https://w3c.github.io/aria/html-aam/": {},
       "https://w3c.github.io/html-aria/": {},
+      "https://w3c.github.io/webappsec-mixed-content/": {},
+      "https://w3c.github.io/webappsec-secure-contexts/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://www.iana.org/assignments/media-types/media-types.xhtml": {
         "anchors": [
@@ -111,6 +115,13 @@
       }
     },
     "autolinks": {
+      "https://dom.spec.whatwg.org/": {
+        "anchors": [
+          "concept-node-document",
+          "concept-node-adopt-ext",
+          "concept-node-adopt"
+        ]
+      },
       "https://drafts.csswg.org/css-box-3/": {
         "anchors": [
           "content-box"
@@ -213,6 +224,13 @@
           "valid-non-empty-url-potentially-surrounded-by-spaces"
         ]
       },
+      "https://html.spec.whatwg.org/multipage/webappapis.html": {
+        "anchors": [
+          "secure-context",
+          "relevant-settings-object",
+          "dom-issecurecontext"
+        ]
+      },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "list",
@@ -224,11 +242,13 @@
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "Exposed",
+          "SecureContext",
           "idl-promise",
           "idl-USVString",
           "idl-undefined",
           "idl-DOMString",
-          "new"
+          "new",
+          "securityerror"
         ]
       }
     }
