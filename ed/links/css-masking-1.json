@@ -543,7 +543,9 @@
       "https://drafts.csswg.org/css-images-3/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
       "https://drafts.csswg.org/css-masking-1/": {},
+      "https://drafts.csswg.org/css-multicol-2/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
+      "https://drafts.csswg.org/css-page-3/": {},
       "https://drafts.csswg.org/css-shapes/": {},
       "https://drafts.csswg.org/css-text-4/": {},
       "https://drafts.csswg.org/css-text-decor-4/": {},
@@ -1746,6 +1748,7 @@
       },
       "https://drafts.csswg.org/css-break-4/": {
         "anchors": [
+          "fragment",
           "propdef-box-decoration-break"
         ]
       },
@@ -1792,10 +1795,20 @@
           "propdef-dominant-baseline"
         ]
       },
+      "https://drafts.csswg.org/css-multicol-2/": {
+        "anchors": [
+          "multi-column-container"
+        ]
+      },
       "https://drafts.csswg.org/css-overflow-3/": {
         "anchors": [
           "propdef-overflow",
           "valdef-overflow-visible"
+        ]
+      },
+      "https://drafts.csswg.org/css-page-3/": {
+        "anchors": [
+          "page-box"
         ]
       },
       "https://drafts.csswg.org/css-shapes-1/": {

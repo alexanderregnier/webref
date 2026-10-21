@@ -92,14 +92,16 @@
     "autolinks": {
       "https://drafts.csswg.org/css-syntax-3/": {
         "anchors": [
-          "typedef-number-token"
+          "typedef-number-token",
+          "typedef-ident-token"
         ]
       },
       "https://drafts.csswg.org/css-values-4/": {
         "anchors": [
           "typedef-ident",
           "mult-comma",
-          "comb-one"
+          "comb-one",
+          "mult-opt"
         ]
       },
       "https://drafts.csswg.org/selectors-4/": {

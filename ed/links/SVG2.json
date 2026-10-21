@@ -20,7 +20,6 @@
           "interface-document",
           "interface-nodelist",
           "concept-tree-order",
-          "mixin-documentorshadowroot",
           "interface-characterdata",
           "ref-for-dom-event-type",
           "dispatching-events",
@@ -217,6 +216,7 @@
       "https://github.com/w3c/svgwg/issues/1169": {},
       "https://github.com/w3c/svgwg/issues/1171": {},
       "https://github.com/w3c/svgwg/issues/1174": {},
+      "https://github.com/w3c/svgwg/issues/1214": {},
       "https://github.com/w3c/svgwg/issues/129": {},
       "https://github.com/w3c/svgwg/issues/196": {},
       "https://github.com/w3c/svgwg/issues/210": {},
@@ -1285,7 +1285,6 @@
           "interface-element",
           "interface-document",
           "interface-nodelist",
-          "interface-shadowroot",
           "dom-domtokenlist-value",
           "interface-domtokenlist"
         ]
@@ -1497,6 +1496,11 @@
           "SetElementToAttribute",
           "AnimateTransformElementTypeAttribute",
           "ValuesAttribute"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/struct.html": {
+        "anchors": [
+          "InterfaceSVGUseElementShadowRoot"
         ]
       },
       "https://w3c.github.io/trusted-types/dist/spec/": {
