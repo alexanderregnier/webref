@@ -47,6 +47,7 @@
         ]
       },
       "https://drafts.csswg.org/css-grid-2/": {},
+      "https://drafts.csswg.org/css-grid-3/": {},
       "https://drafts.csswg.org/css-inline-3/": {
         "anchors": [
           "baseline-synthesis"
@@ -86,6 +87,7 @@
       "https://github.com/w3c/csswg-drafts/issues/13089": {},
       "https://github.com/w3c/csswg-drafts/issues/13421": {},
       "https://github.com/w3c/csswg-drafts/issues/14008": {},
+      "https://github.com/w3c/csswg-drafts/issues/14052": {},
       "https://github.com/w3c/csswg-drafts/issues/7641": {},
       "https://github.com/w3c/csswg-drafts/issues/7655": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
@@ -208,6 +210,7 @@
       },
       "https://drafts.csswg.org/css-cascade-5/": {
         "anchors": [
+          "css-legacy-value-alias",
           "used-value",
           "shorthand-property",
           "computed-value",
@@ -328,12 +331,12 @@
       "https://drafts.csswg.org/css-position-3/": {
         "anchors": [
           "valdef-top-auto",
-          "static-position",
           "absolute-position",
           "inset-modified-containing-block",
           "original-containing-block",
           "fixed-position",
           "static-position-containing-block",
+          "static-position",
           "propdef-top",
           "propdef-right",
           "propdef-bottom",
