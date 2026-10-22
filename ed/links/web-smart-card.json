@@ -122,6 +122,7 @@
           "resolve",
           "idl-sequence",
           "idl-DOMString",
+          "a-promise-rejected-with",
           "invalidstateerror",
           "idl-undefined",
           "idl-unsigned-long",

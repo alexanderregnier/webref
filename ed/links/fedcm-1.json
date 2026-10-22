@@ -343,7 +343,8 @@
           "dom-credentialrequestoptions-mediation",
           "dom-credentialmediationrequirement-silent",
           "origin-requires-user-mediation",
-          "dom-credentialmediationrequirement-required"
+          "dom-credentialmediationrequirement-required",
+          "enumdef-credentialmediationrequirement"
         ]
       },
       "https://w3c.github.io/webappsec-csp/": {},
