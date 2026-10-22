@@ -185,8 +185,8 @@
       "https://pytorch.org/docs/stable/generated/torch.squeeze.html": {},
       "https://pytorch.org/docs/stable/generated/torch.unsqueeze.html": {},
       "https://tc39.es/ecma262/multipage/": {},
-      "https://tc39.es/process-document/": {},
       "https://webidl.spec.whatwg.org/": {},
+      "https://www.opencompute.org/documents/ocp-8-bit-floating-point-specification-ofp8-revision-1-1-final-pdf": {},
       "https://www.unicode.org/reports/tr36/": {
         "anchors": [
           "Bidirectional_Text_Spoofing"
@@ -363,6 +363,7 @@
           "idl-unsigned-long-long",
           "idl-unsigned-long",
           "idl-sequence",
+          "idl-Uint16Array",
           "idl-long",
           "idl-frozen-array",
           "idl-bigint",
@@ -380,8 +381,7 @@
           "idl-BigUint64Array",
           "idl-Int32Array",
           "idl-Uint32Array",
-          "idl-Int8Array",
-          "idl-Uint16Array"
+          "idl-Int8Array"
         ]
       },
       "https://www.w3.org/TR/permissions-policy-1/": {
