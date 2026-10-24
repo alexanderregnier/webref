@@ -133,13 +133,13 @@
           "rationale": ".algorithm",
           "steps": [
             {
-              "html": "<b>didResolutionMetadata</b>: <code>«[ ... ]»</code>"
+              "html": "<b>didResolutionMetadata</b>: <code>«[ \"contentType\" → </code><var>output DID document media type</var><code>, ... ]»</code>"
             },
             {
               "html": "<b>didDocument</b>: <var>output DID document</var>"
             },
             {
-              "html": "<b>didDocumentMetadata</b>:\n<code>«[ \"contentType\" → </code><var>output DID document media type</var><code>, ... ]»</code>"
+              "html": "<b>didDocumentMetadata</b>:\n<code>«[ ... ]»</code>"
             }
           ]
         }
