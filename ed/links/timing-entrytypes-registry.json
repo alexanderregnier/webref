@@ -9,6 +9,7 @@
       "https://github.com/w3c/timing-entrytypes-registry/": {},
       "https://github.com/w3c/timing-entrytypes-registry/issues": {},
       "https://html.spec.whatwg.org/multipage/": {},
+      "https://w3c.github.io/container-timing/": {},
       "https://w3c.github.io/element-timing/": {},
       "https://w3c.github.io/event-timing/": {},
       "https://w3c.github.io/hr-time/": {},
@@ -21,7 +22,6 @@
       "https://w3c.github.io/resource-timing/": {},
       "https://w3c.github.io/user-timing/": {},
       "https://whatwg.org/": {},
-      "https://wicg.github.io/container-timing/": {},
       "https://wicg.github.io/layout-instability/": {},
       "https://wicg.github.io/soft-navigations/": {},
       "https://wicg.io/": {},
@@ -32,6 +32,11 @@
       "https://html.spec.whatwg.org/multipage/interaction.html": {
         "anchors": [
           "visibilitystateentry"
+        ]
+      },
+      "https://w3c.github.io/container-timing/": {
+        "anchors": [
+          "performancecontainertiming"
         ]
       },
       "https://w3c.github.io/element-timing/": {
@@ -58,11 +63,6 @@
       "https://w3c.github.io/long-animation-frames/": {
         "anchors": [
           "performancelonganimationframetiming"
-        ]
-      },
-      "https://w3c.github.io/longtasks/": {
-        "anchors": [
-          "performancelongtasktiming"
         ]
       },
       "https://w3c.github.io/navigation-timing/": {
@@ -95,11 +95,6 @@
         "anchors": [
           "performancemark",
           "performancemeasure"
-        ]
-      },
-      "https://wicg.github.io/container-timing/": {
-        "anchors": [
-          "performancecontainertiming"
         ]
       },
       "https://wicg.github.io/layout-instability/": {
