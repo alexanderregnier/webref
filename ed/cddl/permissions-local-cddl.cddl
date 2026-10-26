@@ -3,8 +3,8 @@
 ; (https://github.com/w3c/webref)
 ; Source: Permissions (https://w3c.github.io/permissions/)
 
-permissions.PermissionDescriptor = {
+CDDLpermissions.PermissionDescriptor = {
   name: text,
 }
 
-permissions.PermissionState = "granted" / "denied" / "prompt"
+CDDLpermissions.PermissionState = "granted" / "denied" / "prompt"

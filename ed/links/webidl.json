@@ -30,6 +30,11 @@
       "https://mcc.id.au/": {},
       "https://opensource.org/licenses/BSD-3-Clause": {},
       "https://streams.spec.whatwg.org/": {},
+      "https://tc39.es/ecma262/": {
+        "anchors": [
+          "sec-promise-objects"
+        ]
+      },
       "https://tc39.es/ecma262/multipage/": {},
       "https://tc39.es/ecma262/multipage/notational-conventions.html": {
         "anchors": [
@@ -48,11 +53,6 @@
         ]
       },
       "https://tc39.es/proposal-float16array/": {},
-      "https://tc39.github.io/ecma262/": {
-        "anchors": [
-          "sec-promise-objects"
-        ]
-      },
       "https://w3c.github.io/IndexedDB/": {},
       "https://w3c.github.io/ServiceWorker/": {},
       "https://w3ctag.github.io/design-principles/": {},

@@ -3,11 +3,11 @@
 ; (https://github.com/w3c/webref)
 ; Source: Permissions (https://w3c.github.io/permissions/)
 
-PermissionsCommand = (
+CDDLPermissionsCommand = (
   permissions.setPermission
 )
 
-permissions.setPermission = (
+CDDLpermissions.setPermission = (
   method: "permissions.setPermission",
   params: permissions.SetPermissionParameters
 )
