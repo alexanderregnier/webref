@@ -3,17 +3,17 @@
 ; (https://github.com/w3c/webref)
 ; Source: Permissions (https://www.w3.org/TR/permissions/)
 
-PermissionsCommand = (
+CDDLPermissionsCommand = (
   permissions.setPermission
 )
 
-permissions.PermissionDescriptor = {
+CDDLpermissions.PermissionDescriptor = {
   name: text,
 }
 
-permissions.PermissionState = "granted" / "denied" / "prompt"
+CDDLpermissions.PermissionState = "granted" / "denied" / "prompt"
 
-permissions.setPermission = (
+CDDLpermissions.setPermission = (
   method: "permissions.setPermission",
   params: permissions.SetPermissionParameters
 )
