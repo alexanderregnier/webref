@@ -810,7 +810,8 @@
     "autolinks": {
       "https://drafts.csswg.org/css-cascade-5/": {
         "anchors": [
-          "computed-value"
+          "computed-value",
+          "css-legacy-value-alias"
         ]
       },
       "https://drafts.csswg.org/css-content-3/": {
