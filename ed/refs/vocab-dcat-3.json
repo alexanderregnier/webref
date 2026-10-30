@@ -1,7 +1,7 @@
 {
   "spec": {
     "title": "Data Catalog Vocabulary (DCAT) - Version 3",
-    "url": "https://w3c.github.io/dxwg/dcat/"
+    "url": "https://w3c.github.io/dx-dcat/TR/"
   },
   "refs": {
     "normative": [
@@ -117,7 +117,7 @@
       },
       {
         "name": "BCP47",
-        "url": "https://www.rfc-editor.org/info/rfc5646/"
+        "url": "https://www.rfc-editor.org/info/bcp47"
       },
       {
         "name": "CSW",
