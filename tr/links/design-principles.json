@@ -586,9 +586,9 @@
           "the-img-element",
           "attr-img-src",
           "dom-img-width",
+          "htmlimageelement",
           "attr-img-ismap",
-          "dom-img-ismap",
-          "htmlimageelement"
+          "dom-img-ismap"
         ]
       },
       "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html": {
@@ -776,6 +776,12 @@
           "surrogate",
           "implementation-defined",
           "ascii-code-point"
+        ]
+      },
+      "https://streams.spec.whatwg.org/": {
+        "anchors": [
+          "readablestream",
+          "writablestream"
         ]
       },
       "https://tc39.es/ecma262/multipage/control-abstraction-objects.html": {
