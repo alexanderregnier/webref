@@ -1874,7 +1874,10 @@
           "css-parse-a-comma-separated-list-according-to-a-css-grammar",
           "typedef-unicode-range-token",
           "typedef-declaration-rule-list",
-          "at-rule"
+          "at-rule",
+          "css-rule",
+          "declaration",
+          "css-parse-something-according-to-a-css-grammar"
         ]
       },
       "https://drafts.csswg.org/css-text-4/": {
@@ -1919,6 +1922,7 @@
           "typedef-dashed-ident",
           "math-function",
           "funcdef-calc",
+          "css-keyword",
           "ch"
         ]
       },
@@ -1949,7 +1953,11 @@
           "cssstyledeclaration-declarations",
           "cssstyledeclaration",
           "cssomstring",
-          "cssrule"
+          "cssrule",
+          "serialize-a-css-rule",
+          "serialize-a-css-component-value",
+          "serialize-a-css-declaration",
+          "serialize-an-identifier"
         ]
       },
       "https://fetch.spec.whatwg.org/": {
@@ -1966,7 +1974,15 @@
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "tuple",
-          "code-unit"
+          "code-unit",
+          "string",
+          "ascii-lowercase",
+          "list",
+          "map-set",
+          "list-iterate",
+          "map-iterate",
+          "list-append",
+          "string-concatenate"
         ]
       },
       "https://w3c.github.io/i18n-glossary/": {
@@ -1985,6 +2001,7 @@
           "idl-sequence",
           "idl-unsigned-long",
           "idl-undefined",
+          "dfn-map-entries",
           "invalidaccesserror"
         ]
       }

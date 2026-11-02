@@ -1267,6 +1267,7 @@
       "https://drafts.csswg.org/css-color-4/": {
         "anchors": [
           "valdef-color-transparent",
+          "interpolation-color-space",
           "color-interpolation-method",
           "transparent-black",
           "computed-color"

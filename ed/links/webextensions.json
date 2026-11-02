@@ -72,7 +72,11 @@
           "concept-url-scheme"
         ]
       },
-      "https://w3c.github.io/webextensions/specification/window.browser.html": {},
+      "https://w3c.github.io/webextensions/specification/window.browser.html": {
+        "anchors": [
+          "browser-interface"
+        ]
+      },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "dfn-platform-object",
