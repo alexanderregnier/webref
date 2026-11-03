@@ -48,6 +48,7 @@
       "https://www.w3.org/TR/mst-content-hint/": {},
       "https://www.w3.org/TR/webaudio-1.1/": {},
       "https://www.w3.org/TR/webcodecs-codec-registry/": {},
+      "https://www.w3.org/TR/webrtc-stats/": {},
       "https://www.w3.org/TR/webrtc-svc/": {},
       "https://www.w3.org/TR/webrtc/": {},
       "https://www.w3.org/groups/wg/media/": {},
@@ -265,12 +266,14 @@
       "https://www.w3.org/TR/media-capabilities/": {
         "anchors": [
           "dom-mediacapabilities-decodinginfo",
+          "dom-mediacapabilities-encodinginfo",
           "dom-mediacapabilitiesinfo-powerefficient"
         ]
       },
       "https://www.w3.org/TR/media-source-2/": {
         "anchors": [
-          "dom-mediasource-istypesupported"
+          "dom-mediasource-istypesupported",
+          "dom-mediasource"
         ]
       },
       "https://www.w3.org/TR/mediastream-recording/": {
