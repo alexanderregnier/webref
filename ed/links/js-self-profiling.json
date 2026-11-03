@@ -46,6 +46,9 @@
       "https://www.w3.org/TR/hr-time-3/": {},
       "https://www.w3.org/TR/html5/": {
         "anchors": [
+          "environment-settings-object",
+          "concept-settings-object-origin",
+          "concept-settings-object-cross-origin-isolated-capability",
           "muted-errors",
           "concept-script",
           "concept-script-base-url",
@@ -71,6 +74,11 @@
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "eventtarget"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/browsers.html": {
+        "anchors": [
+          "same-origin"
         ]
       },
       "https://html.spec.whatwg.org/multipage/infrastructure.html": {

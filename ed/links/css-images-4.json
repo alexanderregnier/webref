@@ -414,6 +414,7 @@
       "https://drafts.csswg.org/cssom/": {},
       "https://drafts.csswg.org/selectors-3/": {},
       "https://drafts.csswg.org/selectors/": {},
+      "https://en.wikipedia.org/wiki/Mach_bands": {},
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/w3c/csswg-drafts/commit/ab20b4cbccf41db8e61850f58b2f1c1afc6ec66a": {},
       "https://github.com/w3c/csswg-drafts/commit/edb0b3090bdd73abb765023475e58afe52c701b9": {},
@@ -1269,13 +1270,18 @@
           "valdef-color-transparent",
           "interpolation-color-space",
           "color-interpolation-method",
+          "css-gamut-mapped",
+          "valdef-oklch-oklch",
+          "valdef-color-srgb",
+          "valdef-color-display-p3",
           "transparent-black",
           "computed-color"
         ]
       },
       "https://drafts.csswg.org/css-color-5/": {
         "anchors": [
-          "typedef-color"
+          "typedef-color",
+          "out-of-gamut"
         ]
       },
       "https://drafts.csswg.org/css-flexbox-2/": {
