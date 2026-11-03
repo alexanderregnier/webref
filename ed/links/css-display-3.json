@@ -700,6 +700,7 @@
       },
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
+      "https://tc39.es/ecma262/multipage/": {},
       "https://w3c.github.io/svgwg/svg2-draft/": {},
       "https://wpt.fyi/results/css/css-display/animations/display-interpolation.html": {},
       "https://wpt.fyi/results/css/css-display/display-change-iframe.html": {},
@@ -1080,7 +1081,6 @@
       "https://drafts.csswg.org/css-cascade-5/": {
         "anchors": [
           "computed-value",
-          "inherited-property",
           "css-inheritance",
           "specified-value"
         ]
@@ -1280,6 +1280,11 @@
         "anchors": [
           "the-br-element",
           "the-wbr-element"
+        ]
+      },
+      "https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html": {
+        "anchors": [
+          "inherited-property"
         ]
       },
       "https://w3c.github.io/svgwg/svg2-draft/pservers.html": {

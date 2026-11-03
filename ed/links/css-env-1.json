@@ -25,7 +25,9 @@
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://dom.spec.whatwg.org/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
+      "https://drafts.csswg.org/css-color-5/": {},
       "https://drafts.csswg.org/css-conditional-3/": {},
+      "https://drafts.csswg.org/css-link-params/": {},
       "https://drafts.csswg.org/css-size-adjust-1/": {},
       "https://drafts.csswg.org/css-syntax/": {},
       "https://drafts.csswg.org/css-values-4/": {},
@@ -57,9 +59,19 @@
           "shorthand-property"
         ]
       },
+      "https://drafts.csswg.org/css-color-5/": {
+        "anchors": [
+          "typedef-color"
+        ]
+      },
       "https://drafts.csswg.org/css-conditional-3/": {
         "anchors": [
           "at-ruledef-media"
+        ]
+      },
+      "https://drafts.csswg.org/css-link-params-1/": {
+        "anchors": [
+          "css-link-parameter"
         ]
       },
       "https://drafts.csswg.org/css-size-adjust-1/": {
