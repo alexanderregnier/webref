@@ -21206,10 +21206,13 @@
       "rationale": "if",
       "steps": [
         {
-          "html": "<p>If <var>target</var>'s <a id=\"focus-processing-model:node-navigable-3\" href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#node-navigable\">node navigable</a>'s <a href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#nav-top\" id=\"focus-processing-model:nav-top\">top-level\n   traversable</a> does not have <a href=\"https://html.spec.whatwg.org/multipage/interaction.html#system-focus\" id=\"focus-processing-model:system-focus-4\">system focus</a>, then return false.</p>"
+          "html": "<p>If <var>target</var>'s <a id=\"focus-processing-model:node-navigable-3\" href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#node-navigable\">node navigable</a> is null, then return false.</p>"
         },
         {
-          "html": "<p>Let <var>candidate</var> be <var>target</var>'s <a id=\"focus-processing-model:node-navigable-4\" href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#node-navigable\">node navigable</a>'s <a href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#nav-top\" id=\"focus-processing-model:nav-top-2\">top-level traversable</a>'s <a id=\"focus-processing-model:active-document\" href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#active-document\">active document</a>.</p>"
+          "html": "<p>If <var>target</var>'s <a id=\"focus-processing-model:node-navigable-4\" href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#node-navigable\">node navigable</a>'s <a href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#nav-top\" id=\"focus-processing-model:nav-top\">top-level\n   traversable</a> does not have <a href=\"https://html.spec.whatwg.org/multipage/interaction.html#system-focus\" id=\"focus-processing-model:system-focus-4\">system focus</a>, then return false.</p>"
+        },
+        {
+          "html": "<p>Let <var>candidate</var> be <var>target</var>'s <a id=\"focus-processing-model:node-navigable-5\" href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#node-navigable\">node navigable</a>'s <a href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#nav-top\" id=\"focus-processing-model:nav-top-2\">top-level traversable</a>'s <a id=\"focus-processing-model:active-document\" href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#active-document\">active document</a>.</p>"
         },
         {
           "html": "While true:",
