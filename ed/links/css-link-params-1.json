@@ -85,7 +85,9 @@
     "autolinks": {
       "https://drafts.csswg.org/css-env-1/": {
         "anchors": [
-          "custom-environment-variable"
+          "custom-environment-variable",
+          "valdef-env-color",
+          "valdef-env-accent-color"
         ]
       },
       "https://html.spec.whatwg.org/multipage/embedded-content.html": {
