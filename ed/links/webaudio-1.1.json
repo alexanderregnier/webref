@@ -98,6 +98,7 @@
       },
       "https://tc39.es/ecma262/": {
         "anchors": [
+          "sec-createbytedatablock",
           "sec-setintegritylevel",
           "sec-returnifabrupt-shorthands",
           "sec-iscallable",
@@ -109,7 +110,6 @@
       "https://tc39.es/ecma262/multipage/": {},
       "https://tc39.github.io/ecma262/": {
         "anchors": [
-          "sec-createbytedatablock",
           "sec-get-o-p",
           "sec-completion-record-specification-type",
           "sec-call",
