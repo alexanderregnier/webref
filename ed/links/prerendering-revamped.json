@@ -5,6 +5,7 @@
   },
   "links": {
     "rawlinks": {
+      "https://bluetooth.spec.whatwg.org/": {},
       "https://console.spec.whatwg.org/": {},
       "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search": {},
       "https://dom.spec.whatwg.org/": {},
@@ -13,6 +14,7 @@
       "https://github.com/WICG/nav-speculation/issues/319": {},
       "https://github.com/shivanigithub/fenced-frame": {},
       "https://github.com/w3c/webdriver-bidi/issues/321": {},
+      "https://hid.spec.whatwg.org/": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/browsers.html": {
         "anchors": [
@@ -46,8 +48,10 @@
       "https://immersive-web.github.io/webxr/": {},
       "https://infra.spec.whatwg.org/": {},
       "https://notifications.spec.whatwg.org/": {},
+      "https://serial.spec.whatwg.org/": {},
       "https://storage.spec.whatwg.org/": {},
       "https://url.spec.whatwg.org/": {},
+      "https://usb.spec.whatwg.org/": {},
       "https://w3c.github.io/ServiceWorker/": {},
       "https://w3c.github.io/battery/": {},
       "https://w3c.github.io/clipboard-apis/": {},
@@ -82,7 +86,6 @@
       "https://webaudio.github.io/web-audio-api/": {},
       "https://webaudio.github.io/web-midi-api/": {},
       "https://webaudio.github.io/web-speech-api/": {},
-      "https://webbluetoothcg.github.io/web-bluetooth/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://wicg.github.io/background-fetch/": {},
       "https://wicg.github.io/background-sync/spec/": {},
@@ -91,14 +94,17 @@
       "https://wicg.github.io/idle-detection/": {},
       "https://wicg.github.io/keyboard-lock/": {},
       "https://wicg.github.io/nav-speculation/prefetch.html": {},
-      "https://wicg.github.io/serial/": {},
-      "https://wicg.github.io/webhid/": {},
-      "https://wicg.github.io/webusb/": {},
       "https://www.w3.org/community/": {},
       "https://www.w3.org/community/about/agreements/cla/": {},
       "https://www.w3.org/community/wicg/": {}
     },
     "autolinks": {
+      "https://bluetooth.spec.whatwg.org/": {
+        "anchors": [
+          "dom-bluetooth-getdevices",
+          "dom-bluetooth-requestdevice"
+        ]
+      },
       "https://console.spec.whatwg.org/": {
         "anchors": [
           "report-a-warning-to-the-console"
@@ -136,6 +142,12 @@
       "https://fullscreen.spec.whatwg.org/": {
         "anchors": [
           "dom-element-requestfullscreen"
+        ]
+      },
+      "https://hid.spec.whatwg.org/": {
+        "anchors": [
+          "dom-hid-getdevices",
+          "dom-hid-requestdevice"
         ]
       },
       "https://html.spec.whatwg.org/multipage/browsers.html": {
@@ -395,6 +407,12 @@
           "get-the-notifications-permission-state"
         ]
       },
+      "https://serial.spec.whatwg.org/": {
+        "anchors": [
+          "dom-serial-requestport",
+          "dom-serial-getports"
+        ]
+      },
       "https://storage.spec.whatwg.org/": {
         "anchors": [
           "dom-storagemanager-persist"
@@ -410,6 +428,12 @@
           "concept-url",
           "concept-url-scheme",
           "concept-url-origin"
+        ]
+      },
+      "https://usb.spec.whatwg.org/": {
+        "anchors": [
+          "dom-usb-getdevices",
+          "dom-usb-requestdevice"
         ]
       },
       "https://w3c-cg.github.io/web-nfc/": {
@@ -610,12 +634,6 @@
           "dom-speechrecognition-abort"
         ]
       },
-      "https://webbluetoothcg.github.io/web-bluetooth/": {
-        "anchors": [
-          "dom-bluetooth-getdevices",
-          "dom-bluetooth-requestdevice"
-        ]
-      },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "idl-boolean",
@@ -687,24 +705,6 @@
           "prefetch-record-is-expected-to-match-a-url",
           "prefetch-record-start-time",
           "prefetch-record-cancel-and-discard"
-        ]
-      },
-      "https://wicg.github.io/serial/": {
-        "anchors": [
-          "dom-serial-requestport",
-          "dom-serial-getports"
-        ]
-      },
-      "https://wicg.github.io/webhid/": {
-        "anchors": [
-          "dom-hid-getdevices",
-          "dom-hid-requestdevice"
-        ]
-      },
-      "https://wicg.github.io/webusb/": {
-        "anchors": [
-          "dom-usb-getdevices",
-          "dom-usb-requestdevice"
         ]
       },
       "https://www.rfc-editor.org/rfc/rfc8941.html": {
