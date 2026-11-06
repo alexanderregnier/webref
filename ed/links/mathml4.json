@@ -57,6 +57,7 @@
       },
       "https://html.spec.whatwg.org/multipage/": {},
       "https://httpwg.org/specs/rfc9110.html": {},
+      "https://ieeexplore.ieee.org/document/8766229": {},
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "ascii-case-insensitive"
@@ -356,6 +357,8 @@
         ]
       },
       "https://openmath.org/standard/om20-2019-07-01/omstd20.html": {},
+      "https://pdfa.org/resource/best-practice-guide-math-in-pdf/": {},
+      "https://pdfa.org/resource/iso-32000-2": {},
       "https://w3c.github.io/aria/": {
         "anchors": [
           "aria-braillelabel"
@@ -448,8 +451,6 @@
       "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/Math/": {},
       "https://www.w3.org/TR/": {},
-      "https://www.w3.org/TR/1998/REC-MathML-19980407/": {},
-      "https://www.w3.org/TR/2008/REC-xhtml-modularization-20081008/": {},
       "https://www.w3.org/TR/CSS2/": {},
       "https://www.w3.org/TR/MathML3/": {},
       "https://www.w3.org/TR/REC-xml-names/": {
@@ -482,7 +483,6 @@
         ]
       },
       "https://www.w3.org/TR/mathml-core/privacy-considerations": {},
-      "https://www.w3.org/TR/mathml-types/": {},
       "https://www.w3.org/TR/rdf-concepts/": {},
       "https://www.w3.org/TR/wai-aria-1.1/": {
         "anchors": [
@@ -494,6 +494,7 @@
           "aria-description"
         ]
       },
+      "https://www.w3.org/TR/xhtml-modularization/": {},
       "https://www.w3.org/TR/xml-entity-names/": {},
       "https://www.w3.org/TR/xml-entity-names/script.html": {},
       "https://www.w3.org/TR/xml-names/": {},
