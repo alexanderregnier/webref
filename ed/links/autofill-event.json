@@ -39,7 +39,14 @@
         "anchors": [
           "autofill",
           "attr-fe-autocomplete",
-          "autofill-field"
+          "autofill-field",
+          "form-owner"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/form-elements.html": {
+        "anchors": [
+          "the-select-element",
+          "the-textarea-element"
         ]
       },
       "https://html.spec.whatwg.org/multipage/forms.html": {
@@ -50,6 +57,11 @@
       "https://html.spec.whatwg.org/multipage/infrastructure.html": {
         "anchors": [
           "in-parallel"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/input.html": {
+        "anchors": [
+          "the-input-element"
         ]
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {

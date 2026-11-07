@@ -191,6 +191,8 @@
           "min-content",
           "max-content",
           "available",
+          "inline-size",
+          "block-size",
           "valdef-width-auto",
           "stretch-fit-inline-size",
           "intrinsic-size"
@@ -208,8 +210,6 @@
       },
       "https://drafts.csswg.org/css-writing-modes-4/": {
         "anchors": [
-          "inline-size",
-          "block-size",
           "abstract-dimensions",
           "inline-start",
           "block-start"
