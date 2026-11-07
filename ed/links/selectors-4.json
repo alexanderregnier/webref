@@ -848,7 +848,12 @@
       "https://drafts.csswg.org/css2/": {},
       "https://drafts.csswg.org/cssom/": {},
       "https://drafts.csswg.org/selectors-3/": {},
-      "https://drafts.csswg.org/selectors-5/": {},
+      "https://drafts.csswg.org/selectors-5/": {
+        "anchors": [
+          "grid-structural-selectors",
+          "time-pseudos"
+        ]
+      },
       "https://en.wikipedia.org/wiki/Emmet_(software)": {},
       "https://fullscreen.spec.whatwg.org/": {},
       "https://github.com/explainers-by-googlers/Partitioning-visited-links-history": {},
