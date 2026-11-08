@@ -10,14 +10,13 @@
       "https://dom.spec.whatwg.org/": {},
       "https://drafts.csswg.org/css-break-4/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
-      "https://drafts.csswg.org/css-color-3/": {},
+      "https://drafts.csswg.org/css-color-4/": {},
       "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-transforms/": {},
       "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/css-writing-modes-4/": {},
-      "https://drafts.csswg.org/css2/": {},
       "https://drafts.csswg.org/cssom-view/": {},
       "https://drafts.csswg.org/geometry/": {},
       "https://drafts.csswg.org/resize-observer/": {},
@@ -55,9 +54,9 @@
           "computed-value"
         ]
       },
-      "https://drafts.csswg.org/css-color-3/": {
+      "https://drafts.csswg.org/css-color-4/": {
         "anchors": [
-          "opacity"
+          "propdef-opacity"
         ]
       },
       "https://drafts.csswg.org/css-display-4/": {
@@ -65,6 +64,8 @@
           "box",
           "principal-box",
           "text-nodes",
+          "propdef-visibility",
+          "valdef-visibility-visible",
           "initial-containing-block",
           "containing-block-chain"
         ]
@@ -98,6 +99,8 @@
       },
       "https://drafts.csswg.org/cssom-view-1/": {
         "anchors": [
+          "dom-visualviewport-width",
+          "dom-visualviewport-height",
           "dom-element-getboundingclientrect"
         ]
       },
@@ -121,7 +124,8 @@
           "browsing-context",
           "top-level-browsing-context",
           "list-of-the-descendant-browsing-contexts",
-          "child-browsing-context"
+          "child-browsing-context",
+          "fully-active"
         ]
       },
       "https://html.spec.whatwg.org/multipage/indices.html": {
@@ -170,6 +174,7 @@
       },
       "https://w3c.github.io/performance-timeline/": {
         "anchors": [
+          "performanceobserver",
           "performanceentry",
           "dom-performanceobserver-supportedentrytypes",
           "dom-performanceentry-name",
@@ -208,16 +213,9 @@
           "this"
         ]
       },
-      "https://www.w3.org/TR/CSS2/visufx.html": {
-        "anchors": [
-          "propdef-visibility"
-        ]
-      },
       "https://www.w3.org/TR/cssom-view-1/": {
         "anchors": [
           "viewport",
-          "dom-visualviewport-width",
-          "dom-visualviewport-height",
           "css-pixels"
         ]
       },
