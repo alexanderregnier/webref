@@ -19,12 +19,12 @@
         ]
       },
       "https://lists.w3.org/Archives/Public/public-media-wg/": {},
-      "https://svgwg.org/svg2-draft/": {},
       "https://w3c.github.io/security-questionnaire/": {
         "anchors": [
           "questions"
         ]
       },
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
       "https://webaudio.github.io/web-audio-api/": {
         "anchors": [
           "allowed-to-start"
@@ -73,7 +73,7 @@
           "navigator"
         ]
       },
-      "https://svgwg.org/svg2-draft/embedded.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/embedded.html": {
         "anchors": [
           "elementdef-image"
         ]

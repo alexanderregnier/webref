@@ -6,7 +6,6 @@
   "links": {
     "rawlinks": {
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
-      "https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement/csp": {},
       "https://dom.spec.whatwg.org/": {},
       "https://drafts.csswg.org/css-values-4/": {},
       "https://encoding.spec.whatwg.org/": {},
@@ -27,8 +26,8 @@
         ]
       },
       "https://webidl.spec.whatwg.org/": {},
-      "https://www.rfc-editor.org/rfc/rfc3864": {},
-      "https://www.rfc-editor.org/rfc/rfc5234": {},
+      "https://www.rfc-editor.org/info/rfc3864/": {},
+      "https://www.rfc-editor.org/info/rfc5234/": {},
       "https://www.w3.org/Mail/Request": {},
       "https://www.w3.org/groups/wg/webappsec": {},
       "https://www.w3.org/groups/wg/webappsec/ipr": {},
