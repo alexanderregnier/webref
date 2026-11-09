@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-11-08T07:09:10.469Z",
+  "date": "2026-11-09T07:54:15.837Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "8 November 2026",
+      "date": "9 November 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -1232,11 +1232,11 @@
       ],
       "crawled": "https://www.w3.org/TR/attribution/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 30 Oct 2026 10:34:50 GMT"
+        "lastModified": "Mon, 09 Nov 2026 06:49:52 GMT"
       },
       "generator": "bikeshed",
-      "date": "30 October 2026",
-      "revision": "5a961863ab29ee6cc0ff93d128491618617b4d23",
+      "date": "9 November 2026",
+      "revision": "1e63b8dc31ab79aaebc41d4812ecc3a7fb3ac887",
       "algorithms": "algorithms/attribution.json",
       "links": "links/attribution.json",
       "refs": "refs/attribution.json",
@@ -11868,11 +11868,11 @@
       ],
       "crawled": "https://www.w3.org/TR/encrypted-media-2/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 02 Nov 2026 20:00:58 GMT"
+        "lastModified": "Sun, 08 Nov 2026 09:45:29 GMT"
       },
       "generator": "respec",
-      "date": "02 November 2026",
-      "revision": "abe2867701ae20cd30706818d09dfbf32dc7133e",
+      "date": "08 November 2026",
+      "revision": "a3cba7b61554facb0507ec31c30c12014e1ffee9",
       "algorithms": "algorithms/encrypted-media-2.json",
       "links": "links/encrypted-media-2.json",
       "refs": "refs/encrypted-media-2.json",
