@@ -5,13 +5,16 @@
   },
   "links": {
     "rawlinks": {
+      "http://www.w3.org/community/": {},
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://immersive-web.github.io/webxr-ar-module/": {},
       "https://immersive-web.github.io/webxr/": {},
       "https://infra.spec.whatwg.org/": {},
       "https://webidl.spec.whatwg.org/": {},
-      "https://www.w3.org/TR/webxr/": {}
+      "https://www.w3.org/TR/webxr/": {},
+      "https://www.w3.org/community/about/agreements/cla/": {},
+      "https://www.w3.org/community/immersive-web/": {}
     },
     "autolinks": {
       "https://html.spec.whatwg.org/multipage/browsers.html": {
@@ -48,6 +51,7 @@
           "SameObject",
           "this",
           "Exposed",
+          "dfn-iterable",
           "idl-unsigned-long",
           "dfn-value-pairs-to-iterate-over",
           "value-pair"
