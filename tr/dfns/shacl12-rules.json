@@ -1500,11 +1500,11 @@
       "links": []
     },
     {
-      "id": "dfn-srl-document",
-      "href": "https://www.w3.org/TR/shacl12-rules/#dfn-srl-document",
+      "id": "dfn-sparql-rl-document",
+      "href": "https://www.w3.org/TR/shacl12-rules/#dfn-sparql-rl-document",
       "linkingText": [
-        "SRL document",
-        "SPARQL-RL document"
+        "SPARQL-RL document",
+        "SRL document"
       ],
       "localLinkingText": [],
       "type": "dfn",
