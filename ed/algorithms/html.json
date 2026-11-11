@@ -17207,7 +17207,7 @@
     {
       "name": "initialize a CanvasSettings output bitmap",
       "href": "https://html.spec.whatwg.org/multipage/canvas.html#canvas-setting-init-bitmap",
-      "html": "To <dfn id=\"canvas-setting-init-bitmap\">initialize a <code>CanvasSettings</code> output\n  bitmap</dfn>, given a <code id=\"the-canvas-settings:canvassettings-13\"><a href=\"https://html.spec.whatwg.org/multipage/canvas.html#canvassettings\">CanvasSettings</a></code> <var>context</var> and a\n  <code id=\"the-canvas-settings:canvasrenderingcontext2dsettings\"><a href=\"https://html.spec.whatwg.org/multipage/canvas.html#canvasrenderingcontext2dsettings\">CanvasRenderingContext2DSettings</a></code> <var>settings</var>:",
+      "html": "To <dfn id=\"canvas-setting-init-bitmap\">initialize a <code>CanvasSettings</code> output\n  bitmap</dfn>, given a <code id=\"the-canvas-settings:canvassettings-15\"><a href=\"https://html.spec.whatwg.org/multipage/canvas.html#canvassettings\">CanvasSettings</a></code> <var>context</var> and a\n  <code id=\"the-canvas-settings:canvasrenderingcontext2dsettings\"><a href=\"https://html.spec.whatwg.org/multipage/canvas.html#canvasrenderingcontext2dsettings\">CanvasRenderingContext2DSettings</a></code> <var>settings</var>:",
       "rationale": "set",
       "steps": [
         {
@@ -17218,6 +17218,9 @@
         },
         {
           "html": "<p>Set <var>context</var>'s <a href=\"https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-color-space\" id=\"the-canvas-settings:concept-canvas-color-space-2\">color space</a> to\n   <var>settings</var>[\"<dfn data-dfn-for=\"CanvasRenderingContext2DSettings\" id=\"dom-canvasrenderingcontext2dsettings-colorspace\" data-dfn-type=\"dict-member\"><code>colorSpace</code></dfn>\"].</p>"
+        },
+        {
+          "html": "<p>Set <var>context</var>'s <a href=\"https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-tone-mapping\" id=\"the-canvas-settings:concept-canvas-tone-mapping-2\">tone mapping</a> to\n   the result of <a href=\"https://html.spec.whatwg.org/multipage/canvas.html#get-a-canvas-tone-mapping\" id=\"the-canvas-settings:get-a-canvas-tone-mapping\">getting a canvas tone mapping</a> from\n   <var>settings</var>[\"<dfn data-dfn-for=\"CanvasRenderingContext2DSettings\" id=\"dom-canvasrenderingcontext2dsettings-tonemapping\" data-dfn-type=\"dict-member\"><code>toneMapping</code></dfn>\"].</p>"
         },
         {
           "html": "<p>Set <var>context</var>'s <a href=\"https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-color-type\" id=\"the-canvas-settings:concept-canvas-color-type-2\">color type</a> to\n   <var>settings</var>[\"<dfn data-dfn-for=\"CanvasRenderingContext2DSettings\" id=\"dom-canvasrenderingcontext2dsettings-colortype\" data-dfn-type=\"dict-member\"><code>colorType</code></dfn>\"].</p>"

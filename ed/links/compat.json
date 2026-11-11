@@ -170,7 +170,8 @@
       },
       "https://drafts.csswg.org/css-color-4/": {
         "anchors": [
-          "valdef-color-currentcolor"
+          "valdef-color-currentcolor",
+          "computed-color"
         ]
       },
       "https://drafts.csswg.org/css-color-5/": {

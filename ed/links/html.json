@@ -1568,6 +1568,12 @@
           "pages-supported-color-schemes"
         ]
       },
+      "https://drafts.csswg.org/css-color-hdr/": {
+        "anchors": [
+          "hdr-headroom",
+          "propdef-dynamic-range-limit"
+        ]
+      },
       "https://drafts.csswg.org/css-color/": {
         "anchors": [
           "named-color",

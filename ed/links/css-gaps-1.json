@@ -452,7 +452,8 @@
       "https://drafts.csswg.org/css-grid-2/": {},
       "https://drafts.csswg.org/css-grid-3/": {
         "anchors": [
-          "gutters"
+          "gutters",
+          "stacking-self-alignment"
         ]
       },
       "https://drafts.csswg.org/css-multicol-1/": {
@@ -504,6 +505,7 @@
       "https://github.com/w3c/csswg-drafts/issues/14154": {},
       "https://github.com/w3c/csswg-drafts/issues/14156": {},
       "https://github.com/w3c/csswg-drafts/issues/14169": {},
+      "https://github.com/w3c/csswg-drafts/issues/14648": {},
       "https://github.com/w3c/csswg-drafts/issues/8402": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-gaps/agnostic/gap-decorations-003.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-gaps/agnostic/gap-decorations-004.html": {},

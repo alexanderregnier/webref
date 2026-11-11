@@ -442,7 +442,6 @@
         "anchors": [
           "window",
           "concept-document-window",
-          "dom-document-defaultview",
           "window-navigable",
           "blocking-webtransport",
           "windowproxy",
