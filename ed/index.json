@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-11-11T06:59:22.612Z",
+  "date": "2026-11-11T19:51:13.901Z",
   "options": {
     "fallback": "ed/index.json",
     "output": "report",
@@ -1345,11 +1345,11 @@
       ],
       "crawled": "https://cookiestore.spec.whatwg.org/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 10 Nov 2026 09:52:54 GMT"
+        "lastModified": "Wed, 11 Nov 2026 16:11:48 GMT"
       },
       "generator": "bikeshed",
-      "date": "10 November 2026",
-      "revision": "4a0fd5d7b7b42cd64d446a32db17a722854b94e9",
+      "date": "11 November 2026",
+      "revision": "04ce032e2c17e5270f47ddd88f087cca25fee56d",
       "algorithms": "algorithms/cookiestore.json",
       "links": "links/cookiestore.json",
       "refs": "refs/cookiestore.json",
@@ -1751,11 +1751,11 @@
       ],
       "crawled": "https://dom.spec.whatwg.org/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 10 Nov 2026 10:01:15 GMT"
+        "lastModified": "Wed, 11 Nov 2026 16:59:48 GMT"
       },
       "generator": "bikeshed",
-      "date": "10 November 2026",
-      "revision": "3e656a58421f173518398d79be387941d457f9ee",
+      "date": "11 November 2026",
+      "revision": "0a3d3ebe03b5ba7c59ced24e79e302a8ecfdabdc",
       "algorithms": "algorithms/dom.json",
       "links": "links/dom.json",
       "refs": "refs/dom.json",
@@ -1813,11 +1813,11 @@
       ],
       "crawled": "https://drafts.css-houdini.org/css-typed-om-2/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 09 Nov 2026 21:11:50 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:09:10 GMT"
       },
       "generator": "bikeshed",
       "date": "28 December 2025",
-      "revision": "f539caff5b5a52d8b9bfc17d63f8d007dc6baa61",
+      "revision": "48dfca575716e21c50050e6f6b3d9a2774360fbd",
       "links": "links/css-typed-om-2.json",
       "refs": "refs/css-typed-om-2.json",
       "headings": "headings/css-typed-om-2.json",
@@ -1863,11 +1863,11 @@
       ],
       "crawled": "https://drafts.css-houdini.org/font-metrics-api-1/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 09 Nov 2026 21:11:50 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:09:10 GMT"
       },
       "generator": "bikeshed",
       "date": "12 January 2026",
-      "revision": "f539caff5b5a52d8b9bfc17d63f8d007dc6baa61",
+      "revision": "48dfca575716e21c50050e6f6b3d9a2774360fbd",
       "links": "links/font-metrics-api-1.json",
       "refs": "refs/font-metrics-api-1.json",
       "idl": "idl/font-metrics-api.idl",
@@ -2510,7 +2510,7 @@
       ],
       "crawled": "https://drafts.csswg.org/css-page-4/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 11 Nov 2026 03:29:01 GMT"
+        "lastModified": "Wed, 11 Nov 2026 03:29:02 GMT"
       },
       "generator": "bikeshed",
       "date": "30 November 2025",
@@ -2700,7 +2700,7 @@
       ],
       "crawled": "https://drafts.csswg.org/css-size-adjust-1/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 11 Nov 2026 03:29:01 GMT"
+        "lastModified": "Wed, 11 Nov 2026 03:29:02 GMT"
       },
       "generator": "bikeshed",
       "date": "14 January 2026",
@@ -3354,7 +3354,7 @@
       ],
       "crawled": "https://html.spec.whatwg.org/multipage/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 11 Nov 2026 06:43:13 GMT"
+        "lastModified": "Wed, 11 Nov 2026 18:51:25 GMT"
       },
       "date": "11 November 2026",
       "algorithms": "algorithms/html.json",
@@ -3848,11 +3848,11 @@
       ],
       "crawled": "https://notifications.spec.whatwg.org/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 19 Oct 2026 11:57:39 GMT"
+        "lastModified": "Wed, 11 Nov 2026 14:38:22 GMT"
       },
       "generator": "bikeshed",
-      "date": "19 October 2026",
-      "revision": "4cf42508117bbe1162a6bcfd583d407533afaebd",
+      "date": "11 November 2026",
+      "revision": "8d7d9eeedf108f7f1973a7141c19f3edd445386d",
       "algorithms": "algorithms/notifications.json",
       "links": "links/notifications.json",
       "refs": "refs/notifications.json",
@@ -4747,7 +4747,7 @@
       "links": "links/EXT_shader_texture_lod.json",
       "idl": "idl/EXT_shader_texture_lod.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_shader_texture_lod/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_shader_texture_lod/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 70)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/EXT_sRGB/",
@@ -4799,7 +4799,7 @@
       "links": "links/EXT_sRGB.json",
       "idl": "idl/EXT_sRGB.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_sRGB/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_sRGB/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 71)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/EXT_texture_compression_bptc/",
@@ -4851,7 +4851,7 @@
       "links": "links/EXT_texture_compression_bptc.json",
       "idl": "idl/EXT_texture_compression_bptc.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_texture_compression_bptc/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_texture_compression_bptc/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 72)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/EXT_texture_compression_rgtc/",
@@ -4955,7 +4955,7 @@
       "links": "links/EXT_texture_filter_anisotropic.json",
       "idl": "idl/EXT_texture_filter_anisotropic.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_texture_filter_anisotropic/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_texture_filter_anisotropic/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 74)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/EXT_texture_norm16/",
@@ -5007,7 +5007,7 @@
       "links": "links/EXT_texture_norm16.json",
       "idl": "idl/EXT_texture_norm16.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_texture_norm16/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/EXT_texture_norm16/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 75)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/KHR_parallel_shader_compile/",
@@ -5215,7 +5215,7 @@
       "links": "links/OES_fbo_render_mipmap.json",
       "idl": "idl/OES_fbo_render_mipmap.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/OES_fbo_render_mipmap/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/OES_fbo_render_mipmap/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 79)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/OES_standard_derivatives/",
@@ -5735,7 +5735,7 @@
       "links": "links/WEBGL_color_buffer_float.json",
       "idl": "idl/WEBGL_color_buffer_float.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_color_buffer_float/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 89)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_color_buffer_float/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_astc/",
@@ -5943,7 +5943,7 @@
       "links": "links/WEBGL_compressed_texture_pvrtc.json",
       "idl": "idl/WEBGL_compressed_texture_pvrtc.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_pvrtc/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_pvrtc/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 93)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_s3tc_srgb/",
@@ -6151,7 +6151,7 @@
       "links": "links/WEBGL_debug_shaders.json",
       "idl": "idl/WEBGL_debug_shaders.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_debug_shaders/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_debug_shaders/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 97)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/WEBGL_depth_texture/",
@@ -6359,7 +6359,7 @@
       "links": "links/WEBGL_lose_context.json",
       "idl": "idl/WEBGL_lose_context.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_lose_context/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_lose_context/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 101)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/",
@@ -6411,7 +6411,7 @@
       "links": "links/WEBGL_multi_draw_instanced_base_vertex_base_instance.json",
       "idl": "idl/WEBGL_multi_draw_instanced_base_vertex_base_instance.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 102)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/",
@@ -6463,7 +6463,7 @@
       "links": "links/WEBGL_multi_draw.json",
       "idl": "idl/WEBGL_multi_draw.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 103)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/",
@@ -6515,7 +6515,7 @@
       "links": "links/WEBGL_provoking_vertex.json",
       "idl": "idl/WEBGL_provoking_vertex.idl",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 104)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://registry.khronos.org/webgl/specs/latest/1.0/",
@@ -6631,7 +6631,7 @@
       "headings": "headings/webgl2.json",
       "ids": "ids/webgl2.json",
       "cddl": [],
-      "error": "Error: Loading https://registry.khronos.org/webgl/specs/latest/2.0/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://registry.khronos.org/webgl/specs/latest/2.0/ triggered HTTP status 403\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 106)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://screen-share.github.io/captured-mouse-events/",
@@ -6999,7 +6999,7 @@
       ],
       "crawled": "https://tc39.es/ecma262/multipage/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 11 Nov 2026 01:31:49 GMT"
+        "lastModified": "Wed, 11 Nov 2026 01:31:50 GMT"
       },
       "date": "11 November 2026",
       "links": "links/ecmascript.json",
@@ -7104,9 +7104,9 @@
       ],
       "crawled": "https://tc39.es/ecma426/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 10 Nov 2026 07:04:33 GMT"
+        "lastModified": "Wed, 11 Nov 2026 18:09:05 GMT"
       },
-      "date": "10 November 2026",
+      "date": "11 November 2026",
       "links": "links/ecma-426.json",
       "refs": "refs/ecma-426.json",
       "dfns": "dfns/ecma-426.json",
@@ -8284,7 +8284,7 @@
       ],
       "crawled": "https://w3c.github.io/data-shapes/shacl12-cs/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 10 Nov 2026 22:29:09 GMT"
+        "lastModified": "Wed, 11 Nov 2026 09:23:14 GMT"
       },
       "generator": "respec",
       "date": "04 August 2025",
@@ -8331,10 +8331,10 @@
       ],
       "crawled": "https://w3c.github.io/data-shapes/shacl12-profiling/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 10 Nov 2026 22:29:09 GMT"
+        "lastModified": "Wed, 11 Nov 2026 09:23:14 GMT"
       },
       "generator": "respec",
-      "date": "10 November 2026",
+      "date": "11 November 2026",
       "algorithms": "algorithms/shacl12-profiling.json",
       "links": "links/shacl12-profiling.json",
       "refs": "refs/shacl12-profiling.json",
@@ -8380,10 +8380,10 @@
       ],
       "crawled": "https://w3c.github.io/data-shapes/shacl12-ui/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 10 Nov 2026 22:29:09 GMT"
+        "lastModified": "Wed, 11 Nov 2026 09:23:14 GMT"
       },
       "generator": "respec",
-      "date": "10 November 2026",
+      "date": "11 November 2026",
       "algorithms": "algorithms/shacl12-ui.json",
       "links": "links/shacl12-ui.json",
       "refs": "refs/shacl12-ui.json",
@@ -10527,7 +10527,7 @@
       "headings": "headings/web-bluetooth-scanning.json",
       "ids": "ids/web-bluetooth-scanning.json",
       "cddl": [],
-      "error": "Error: Loading https://webbluetoothcg.github.io/web-bluetooth/scanning.html triggered HTTP status 404\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)"
+      "error": "Error: Loading https://webbluetoothcg.github.io/web-bluetooth/scanning.html triggered HTTP status 404\n    at processSpecification (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/util.js:486:19)\n    at async crawlSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:109:22)\n    at async processSpec (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:452:22)\n    at async ThrottledQueue.runThrottled (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/throttled-queue.js:78:22)\n    at async Promise.all (index 181)\n    at async crawlList (file:///home/runner/work/webref/webref/node_modules/reffy/src/lib/specs-crawler.js:473:21)"
     },
     {
       "url": "https://webidl.spec.whatwg.org/",
@@ -10573,11 +10573,11 @@
       ],
       "crawled": "https://webidl.spec.whatwg.org/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 10 Nov 2026 13:37:14 GMT"
+        "lastModified": "Wed, 11 Nov 2026 16:09:03 GMT"
       },
       "generator": "bikeshed",
-      "date": "10 November 2026",
-      "revision": "0d862c6573d0ecca327b7ba00210e7c051c988b3",
+      "date": "11 November 2026",
+      "revision": "d55d45828c816de7bd8203ee4c847ac672bb0739",
       "algorithms": "algorithms/webidl.json",
       "links": "links/webidl.json",
       "refs": "refs/webidl.json",
@@ -10730,11 +10730,11 @@
       ],
       "crawled": "https://webmachinelearning.github.io/webmcp/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 10 Nov 2026 20:04:42 GMT"
+        "lastModified": "Wed, 11 Nov 2026 16:23:21 GMT"
       },
       "generator": "bikeshed",
-      "date": "10 November 2026",
-      "revision": "aa1b51cf61aef6ed849b0e9e732617fd57872757",
+      "date": "11 November 2026",
+      "revision": "0c3e712f1743638a299cd8e1a4777ceeaec3cbc8",
       "algorithms": "algorithms/webmcp.json",
       "links": "links/webmcp.json",
       "refs": "refs/webmcp.json",
@@ -12361,10 +12361,10 @@
       ],
       "crawled": "https://wicg.github.io/handwriting-recognition/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 09 Jul 2025 15:17:15 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:16:44 GMT"
       },
       "generator": "bikeshed",
-      "date": "9 July 2025",
+      "date": "11 November 2026",
       "algorithms": "algorithms/handwriting-recognition.json",
       "links": "links/handwriting-recognition.json",
       "refs": "refs/handwriting-recognition.json",
@@ -14906,7 +14906,7 @@
       ],
       "crawled": "https://wicg.github.io/web-app-launch/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 11 Nov 2026 05:07:40 GMT"
+        "lastModified": "Wed, 11 Nov 2026 17:50:49 GMT"
       },
       "generator": "respec",
       "date": "11 November 2026",
@@ -17942,10 +17942,10 @@
       ],
       "crawled": "https://w3c.github.io/manifest/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 06 Nov 2026 01:39:33 GMT"
+        "lastModified": "Wed, 11 Nov 2026 09:02:36 GMT"
       },
       "generator": "respec",
-      "date": "06 November 2026",
+      "date": "11 November 2026",
       "algorithms": "algorithms/appmanifest.json",
       "links": "links/appmanifest.json",
       "refs": "refs/appmanifest.json",
@@ -19305,11 +19305,11 @@
       ],
       "crawled": "https://w3c.github.io/webappsec-csp/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 27 Oct 2026 09:11:18 GMT"
+        "lastModified": "Wed, 11 Nov 2026 10:52:46 GMT"
       },
       "generator": "bikeshed",
-      "date": "27 October 2026",
-      "revision": "251d288dad4d6166e73541877ca2073864edeb8f",
+      "date": "11 November 2026",
+      "revision": "e3461f7cc5296346e2fbbcfb24bbd05eb54a3fb5",
       "algorithms": "algorithms/CSP3.json",
       "links": "links/CSP3.json",
       "refs": "refs/CSP3.json",
@@ -19683,7 +19683,7 @@
       ],
       "crawled": "https://drafts.csswg.org/css-align-3/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 11 Nov 2026 03:29:01 GMT"
+        "lastModified": "Wed, 11 Nov 2026 03:29:02 GMT"
       },
       "generator": "bikeshed",
       "date": "21 October 2026",
@@ -19888,11 +19888,11 @@
       ],
       "crawled": "https://drafts.css-houdini.org/css-animationworklet-1/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 09 Nov 2026 21:11:50 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:09:10 GMT"
       },
       "generator": "bikeshed",
       "date": "25 February 2026",
-      "revision": "f539caff5b5a52d8b9bfc17d63f8d007dc6baa61",
+      "revision": "48dfca575716e21c50050e6f6b3d9a2774360fbd",
       "algorithms": "algorithms/css-animation-worklet-1.json",
       "links": "links/css-animation-worklet-1.json",
       "refs": "refs/css-animation-worklet-1.json",
@@ -21621,7 +21621,7 @@
       ],
       "crawled": "https://drafts.csswg.org/css-content-3/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 11 Nov 2026 03:29:02 GMT"
+        "lastModified": "Wed, 11 Nov 2026 03:29:03 GMT"
       },
       "generator": "bikeshed",
       "date": "21 October 2026",
@@ -22925,7 +22925,7 @@
       ],
       "crawled": "https://drafts.csswg.org/css-images-3/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 11 Nov 2026 03:29:01 GMT"
+        "lastModified": "Wed, 11 Nov 2026 03:29:02 GMT"
       },
       "generator": "bikeshed",
       "date": "8 October 2026",
@@ -23131,11 +23131,11 @@
       ],
       "crawled": "https://drafts.css-houdini.org/css-layout-api-1/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 09 Nov 2026 21:11:50 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:09:10 GMT"
       },
       "generator": "bikeshed",
       "date": "9 November 2026",
-      "revision": "f539caff5b5a52d8b9bfc17d63f8d007dc6baa61",
+      "revision": "48dfca575716e21c50050e6f6b3d9a2774360fbd",
       "algorithms": "algorithms/css-layout-api-1.json",
       "links": "links/css-layout-api-1.json",
       "refs": "refs/css-layout-api-1.json",
@@ -24280,11 +24280,11 @@
       ],
       "crawled": "https://drafts.css-houdini.org/css-paint-api-1/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 09 Nov 2026 21:11:50 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:09:10 GMT"
       },
       "generator": "bikeshed",
       "date": "25 February 2026",
-      "revision": "f539caff5b5a52d8b9bfc17d63f8d007dc6baa61",
+      "revision": "48dfca575716e21c50050e6f6b3d9a2774360fbd",
       "algorithms": "algorithms/css-paint-api-1.json",
       "links": "links/css-paint-api-1.json",
       "refs": "refs/css-paint-api-1.json",
@@ -24486,11 +24486,11 @@
       ],
       "crawled": "https://drafts.css-houdini.org/css-properties-values-api-1/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 09 Nov 2026 21:11:50 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:09:10 GMT"
       },
       "generator": "bikeshed",
       "date": "31 October 2026",
-      "revision": "f539caff5b5a52d8b9bfc17d63f8d007dc6baa61",
+      "revision": "48dfca575716e21c50050e6f6b3d9a2774360fbd",
       "algorithms": "algorithms/css-properties-values-api-1.json",
       "links": "links/css-properties-values-api-1.json",
       "refs": "refs/css-properties-values-api-1.json",
@@ -25861,7 +25861,7 @@
       ],
       "crawled": "https://drafts.csswg.org/css-text-decor-4/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 11 Nov 2026 03:29:01 GMT"
+        "lastModified": "Wed, 11 Nov 2026 03:29:02 GMT"
       },
       "generator": "bikeshed",
       "date": "17 August 2026",
@@ -26212,11 +26212,11 @@
       ],
       "crawled": "https://drafts.css-houdini.org/css-typed-om-1/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 09 Nov 2026 21:11:50 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:09:10 GMT"
       },
       "generator": "bikeshed",
-      "date": "6 August 2026",
-      "revision": "f539caff5b5a52d8b9bfc17d63f8d007dc6baa61",
+      "date": "11 November 2026",
+      "revision": "48dfca575716e21c50050e6f6b3d9a2774360fbd",
       "algorithms": "algorithms/css-typed-om-1.json",
       "links": "links/css-typed-om-1.json",
       "refs": "refs/css-typed-om-1.json",
@@ -26421,7 +26421,7 @@
       ],
       "crawled": "https://drafts.csswg.org/css-values-3/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 11 Nov 2026 03:29:01 GMT"
+        "lastModified": "Wed, 11 Nov 2026 03:29:02 GMT"
       },
       "generator": "bikeshed",
       "date": "8 October 2026",
@@ -28710,10 +28710,10 @@
       ],
       "crawled": "https://w3c.github.io/epub-specs/epub33/core/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 06 Nov 2026 13:11:29 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:57:35 GMT"
       },
       "generator": "respec",
-      "date": "06 November 2026",
+      "date": "11 November 2026",
       "algorithms": "algorithms/epub-33.json",
       "links": "links/epub-33.json",
       "refs": "refs/epub-33.json",
@@ -28768,10 +28768,10 @@
       ],
       "crawled": "https://w3c.github.io/epub-specs/epub34/authoring/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 06 Nov 2026 13:11:29 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:57:35 GMT"
       },
       "generator": "respec",
-      "date": "06 November 2026",
+      "date": "11 November 2026",
       "algorithms": "algorithms/epub-34.json",
       "links": "links/epub-34.json",
       "refs": "refs/epub-34.json",
@@ -28828,10 +28828,10 @@
       ],
       "crawled": "https://w3c.github.io/epub-specs/epub34/a11y/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 06 Nov 2026 13:11:29 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:57:35 GMT"
       },
       "generator": "respec",
-      "date": "06 November 2026",
+      "date": "11 November 2026",
       "links": "links/epub-a11y-12.json",
       "refs": "refs/epub-a11y-12.json",
       "dfns": "dfns/epub-a11y-12.json",
@@ -28884,10 +28884,10 @@
       ],
       "crawled": "https://w3c.github.io/epub-specs/epub33/rs/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 06 Nov 2026 13:11:29 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:57:35 GMT"
       },
       "generator": "respec",
-      "date": "06 November 2026",
+      "date": "11 November 2026",
       "algorithms": "algorithms/epub-rs-33.json",
       "links": "links/epub-rs-33.json",
       "refs": "refs/epub-rs-33.json",
@@ -28941,10 +28941,10 @@
       ],
       "crawled": "https://w3c.github.io/epub-specs/epub34/rs/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 06 Nov 2026 13:11:29 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:57:35 GMT"
       },
       "generator": "respec",
-      "date": "06 November 2026",
+      "date": "11 November 2026",
       "algorithms": "algorithms/epub-rs-34.json",
       "links": "links/epub-rs-34.json",
       "refs": "refs/epub-rs-34.json",
@@ -31342,10 +31342,10 @@
       ],
       "crawled": "https://w3c.github.io/mathml/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 06 Nov 2026 08:30:07 GMT"
+        "lastModified": "Wed, 11 Nov 2026 14:53:28 GMT"
       },
       "generator": "respec",
-      "date": "06 November 2026",
+      "date": "11 November 2026",
       "algorithms": "algorithms/mathml4.json",
       "links": "links/mathml4.json",
       "refs": "refs/mathml4.json",
@@ -34390,7 +34390,7 @@
       ],
       "crawled": "https://w3c.github.io/push-api/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 11 Nov 2026 04:19:48 GMT"
+        "lastModified": "Wed, 11 Nov 2026 10:10:24 GMT"
       },
       "generator": "respec",
       "date": "11 November 2026",
@@ -34556,10 +34556,10 @@
       ],
       "crawled": "https://w3c.github.io/rdf-concepts/spec/",
       "crawlCacheInfo": {
-        "lastModified": "Sat, 12 Sep 2026 08:44:05 GMT"
+        "lastModified": "Wed, 11 Nov 2026 17:12:27 GMT"
       },
       "generator": "respec",
-      "date": "12 September 2026",
+      "date": "11 November 2026",
       "algorithms": "algorithms/rdf12-concepts.json",
       "links": "links/rdf12-concepts.json",
       "refs": "refs/rdf12-concepts.json",
@@ -34888,10 +34888,10 @@
       ],
       "crawled": "https://w3c.github.io/rdf-turtle/spec/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 05 Nov 2026 18:03:07 GMT"
+        "lastModified": "Wed, 11 Nov 2026 17:13:48 GMT"
       },
       "generator": "respec",
-      "date": "05 November 2026",
+      "date": "11 November 2026",
       "links": "links/rdf12-turtle.json",
       "refs": "refs/rdf12-turtle.json",
       "dfns": "dfns/rdf12-turtle.json",
@@ -35531,7 +35531,7 @@
       ],
       "crawled": "https://w3c.github.io/screen-wake-lock/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 11 Nov 2026 05:26:01 GMT"
+        "lastModified": "Wed, 11 Nov 2026 10:42:21 GMT"
       },
       "generator": "respec",
       "date": "11 November 2026",
@@ -36188,10 +36188,10 @@
       ],
       "crawled": "https://w3c.github.io/data-shapes/shacl12-core/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 10 Nov 2026 22:29:09 GMT"
+        "lastModified": "Wed, 11 Nov 2026 09:23:14 GMT"
       },
       "generator": "respec",
-      "date": "10 November 2026",
+      "date": "11 November 2026",
       "algorithms": "algorithms/shacl12-core.json",
       "links": "links/shacl12-core.json",
       "refs": "refs/shacl12-core.json",
@@ -36244,10 +36244,10 @@
       ],
       "crawled": "https://w3c.github.io/data-shapes/shacl12-node-expr/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 10 Nov 2026 22:29:09 GMT"
+        "lastModified": "Wed, 11 Nov 2026 09:23:14 GMT"
       },
       "generator": "respec",
-      "date": "10 November 2026",
+      "date": "11 November 2026",
       "algorithms": "algorithms/shacl12-node-expr.json",
       "links": "links/shacl12-node-expr.json",
       "refs": "refs/shacl12-node-expr.json",
@@ -36360,10 +36360,10 @@
       ],
       "crawled": "https://w3c.github.io/data-shapes/shacl12-sparql/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 10 Nov 2026 22:29:09 GMT"
+        "lastModified": "Wed, 11 Nov 2026 09:23:14 GMT"
       },
       "generator": "respec",
-      "date": "10 November 2026",
+      "date": "11 November 2026",
       "algorithms": "algorithms/shacl12-sparql.json",
       "links": "links/shacl12-sparql.json",
       "refs": "refs/shacl12-sparql.json",
@@ -38421,10 +38421,10 @@
       ],
       "crawled": "https://w3c.github.io/vc-bitstring-status-list/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 21 Oct 2026 15:54:24 GMT"
+        "lastModified": "Wed, 11 Nov 2026 15:55:24 GMT"
       },
       "generator": "respec",
-      "date": "21 October 2026",
+      "date": "11 November 2026",
       "algorithms": "algorithms/vc-bitstring-status-list.json",
       "links": "links/vc-bitstring-status-list.json",
       "refs": "refs/vc-bitstring-status-list.json",
@@ -39135,7 +39135,7 @@
       ],
       "crawled": "https://w3c.github.io/vc-render-method/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 10 Nov 2026 17:02:16 GMT"
+        "lastModified": "Tue, 10 Nov 2026 17:02:48 GMT"
       },
       "generator": "respec",
       "date": "10 November 2026",
@@ -39532,10 +39532,10 @@
       ],
       "crawled": "https://w3c.github.io/sdw-sosa-ssn/ssn/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 04 Nov 2026 03:24:07 GMT"
+        "lastModified": "Wed, 11 Nov 2026 08:20:21 GMT"
       },
       "generator": "respec",
-      "date": "04 November 2026",
+      "date": "11 November 2026",
       "links": "links/vocab-ssn-2023.json",
       "refs": "refs/vocab-ssn-2023.json",
       "dfns": "dfns/vocab-ssn-2023.json",
@@ -41636,11 +41636,11 @@
       ],
       "crawled": "https://w3c.github.io/webdriver-bidi/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 10 Nov 2026 23:32:57 GMT"
+        "lastModified": "Wed, 11 Nov 2026 12:13:57 GMT"
       },
       "generator": "bikeshed",
-      "date": "10 November 2026",
-      "revision": "2fae7336bcf68c4789a29d49ef0028fa924852ab",
+      "date": "11 November 2026",
+      "revision": "24ff1a2fca1ab3b52dc0a5a675ceddfa636a06e1",
       "algorithms": "algorithms/webdriver-bidi.json",
       "links": "links/webdriver-bidi.json",
       "refs": "refs/webdriver-bidi.json",
@@ -43768,11 +43768,11 @@
       ],
       "crawled": "https://xhr.spec.whatwg.org/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 28 Oct 2026 07:20:53 GMT"
+        "lastModified": "Wed, 11 Nov 2026 07:31:22 GMT"
       },
       "generator": "bikeshed",
-      "date": "28 October 2026",
-      "revision": "b2c6fce86bd5c5dbce907caa1b3fe19b4845a4ab",
+      "date": "11 November 2026",
+      "revision": "58093a166546de227aa34dc2261d550e8872988b",
       "algorithms": "algorithms/xhr.json",
       "links": "links/xhr.json",
       "refs": "refs/xhr.json",

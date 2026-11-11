@@ -650,7 +650,7 @@
       "heading": {
         "id": "api-query-handwriting-recognizer",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query-handwriting-recognizer",
-        "title": "queryHandwritingRecognizer(constraint)",
+        "title": "queryHandwritingRecognizer(constraint)Info about the 'queryHandwritingRecognizer(constraint)' reference.#queryhandwritingrecognizer-constraintPossible linking syntaxes:[=queryHandwritingRecognizer(constraint)=][=/queryHandwritingRecognizer(constraint)=]",
         "number": "3.1"
       },
       "definedIn": "heading",
@@ -736,7 +736,7 @@
       "heading": {
         "id": "api-create-handwriting-recognizer",
         "href": "https://wicg.github.io/handwriting-recognition/#api-create-handwriting-recognizer",
-        "title": "createHandwritingRecognizer(constraint) method",
+        "title": "createHandwritingRecognizer(constraint)Info about the 'createHandwritingRecognizer(constraint)' reference.#createhandwritingrecognizer-constraintPossible linking syntaxes:[=createHandwritingRecognizer(constraint)=][=/createHandwritingRecognizer(constraint)=] method",
         "number": "4.1"
       },
       "definedIn": "heading",
@@ -974,7 +974,7 @@
       "heading": {
         "id": "handwriting-recognizer-create-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-create-drawing",
-        "title": "startDrawing(hints)",
+        "title": "startDrawing(hints)Info about the 'startDrawing(hints)' reference.#startdrawing-hintsPossible linking syntaxes:[=startDrawing(hints)=][=/startDrawing(hints)=]",
         "number": "5.2"
       },
       "definedIn": "heading",
@@ -996,7 +996,7 @@
       "heading": {
         "id": "handwriting-recognizer-create-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-create-drawing",
-        "title": "startDrawing(hints)",
+        "title": "startDrawing(hints)Info about the 'startDrawing(hints)' reference.#startdrawing-hintsPossible linking syntaxes:[=startDrawing(hints)=][=/startDrawing(hints)=]",
         "number": "5.2"
       },
       "definedIn": "prose",
@@ -1018,7 +1018,7 @@
       "heading": {
         "id": "handwriting-recognizer-create-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-create-drawing",
-        "title": "startDrawing(hints)",
+        "title": "startDrawing(hints)Info about the 'startDrawing(hints)' reference.#startdrawing-hintsPossible linking syntaxes:[=startDrawing(hints)=][=/startDrawing(hints)=]",
         "number": "5.2"
       },
       "definedIn": "prose",
@@ -1038,7 +1038,7 @@
       "heading": {
         "id": "handwriting-recognizer-finish",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-finish",
-        "title": "finish()",
+        "title": "finish()Info about the 'finish()' reference.#finishPossible linking syntaxes:[=finish()=][=/finish()=]",
         "number": "5.3"
       },
       "definedIn": "heading",

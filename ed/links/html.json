@@ -1291,7 +1291,7 @@
           "dom-document-createelementns",
           "dom-nonelementparentnode-getelementbyid",
           "dom-document-getelementsbyclassname",
-          "dom-node-append",
+          "dom-parentnode-append",
           "dom-node-appendchild",
           "dom-node-clonenode",
           "dom-parentnode-movebefore",
@@ -1398,7 +1398,7 @@
           "concept-document-encoding",
           "concept-document-mode",
           "document-custom-element-registry",
-          "concept-document-allow-declarative-shadow-roots",
+          "document-allow-declarative-shadow-roots",
           "concept-document-content-type",
           "get-the-base-url",
           "document-base-url-override",
@@ -1565,7 +1565,7 @@
       "https://drafts.csswg.org/css-color-adjust/": {
         "anchors": [
           "color-scheme-prop",
-          "pages-supported-color-schemes"
+          "pages-supported-color-scheme"
         ]
       },
       "https://drafts.csswg.org/css-color-hdr/": {
@@ -1585,7 +1585,7 @@
           "valdef-color-srgb",
           "valdef-color-srgb-linear",
           "valdef-color-display-p3",
-          "display-p3-linear-space",
+          "valdef-color-display-p3-linear",
           "parse-a-css-color-value",
           "serializing-color-values",
           "color-serialization-html-compatible-serialization-is-requested",
@@ -1667,14 +1667,20 @@
           "valdef-font-variant-caps-all-petite-caps",
           "valdef-font-variant-caps-unicase",
           "valdef-font-variant-caps-titling-caps",
-          "valdef-font-stretch-ultra-condensed",
-          "valdef-font-stretch-extra-condensed",
-          "valdef-font-stretch-condensed",
-          "valdef-font-stretch-semi-condensed",
-          "valdef-font-stretch-semi-expanded",
-          "valdef-font-stretch-expanded",
-          "valdef-font-stretch-extra-expanded",
-          "valdef-font-stretch-ultra-expanded"
+          "valdef-font-width-ultra-condensed",
+          "valdef-font-width-extra-condensed",
+          "valdef-font-width-condensed",
+          "valdef-font-width-semi-condensed",
+          "valdef-font-width-semi-expanded",
+          "valdef-font-width-expanded",
+          "valdef-font-width-extra-expanded",
+          "valdef-font-width-ultra-expanded"
+        ]
+      },
+      "https://drafts.csswg.org/css-forms-1/": {
+        "anchors": [
+          "propdef-field-sizing",
+          "valdef-field-sizing-content"
         ]
       },
       "https://drafts.csswg.org/css-forms/": {
@@ -1930,8 +1936,6 @@
           "typedef-appearance-compat-auto",
           "valdef-appearance-textfield",
           "valdef-appearance-menulist-button",
-          "field-sizing",
-          "valdef-field-sizing-content",
           "widget",
           "native-appearance",
           "primitive-appearance",
@@ -1967,7 +1971,7 @@
         "anchors": [
           "resolve-inbound-cross-document-view-transition",
           "setup-cross-document-view-transition",
-          "can-navigation-trigger-a-cross-document-view-transition"
+          "navigation-can-trigger-a-cross-document-view-transition"
         ]
       },
       "https://drafts.csswg.org/css-view-transitions/": {

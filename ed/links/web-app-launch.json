@@ -10,7 +10,8 @@
       "https://html.spec.whatwg.org/multipage/": {
         "anchors": [
           "nav-current-history-entry",
-          "she-url"
+          "she-url",
+          "activation-notification"
         ]
       },
       "https://infra.spec.whatwg.org/": {
@@ -55,6 +56,11 @@
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
         "anchors": [
           "nav-document"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/interaction.html": {
+        "anchors": [
+          "transient-activation"
         ]
       },
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
