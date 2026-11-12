@@ -25539,7 +25539,7 @@
           "html": "<p>Let <var>browsingContext</var> be <var>thisTraversable</var>'s <a href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#nav-bc\" id=\"apis-for-creating-and-navigating-browsing-contexts-by-name:nav-bc-4\">active browsing context</a>.</p>"
         },
         {
-          "html": "<p>Let <var>sourceSnapshotParams</var> be the result of <a id=\"apis-for-creating-and-navigating-browsing-contexts-by-name:snapshotting-source-snapshot-params\" href=\"https://html.spec.whatwg.org/multipage/browsing-the-web.html#snapshotting-source-snapshot-params\">snapshotting source snapshot\n   params</a> given <var>thisTraversable</var>'s <a href=\"https://html.spec.whatwg.org/multipage/document-sequences.html#nav-document\" id=\"apis-for-creating-and-navigating-browsing-contexts-by-name:nav-document-2\">active\n   document</a>.</p>"
+          "html": "<p>Let <var>sourceSnapshotParams</var> be the result of <a id=\"apis-for-creating-and-navigating-browsing-contexts-by-name:snapshotting-source-snapshot-params\" href=\"https://html.spec.whatwg.org/multipage/browsing-the-web.html#snapshotting-source-snapshot-params\">snapshotting source snapshot\n   params</a> given the <a href=\"https://html.spec.whatwg.org/multipage/webappapis.html#concept-incumbent-global\" id=\"apis-for-creating-and-navigating-browsing-contexts-by-name:concept-incumbent-global\">incumbent global object</a>'s\n   <a href=\"https://html.spec.whatwg.org/multipage/nav-history-apis.html#concept-document-window\" id=\"apis-for-creating-and-navigating-browsing-contexts-by-name:concept-document-window-2\">associated <code>Document</code></a>.</p>"
         },
         {
           "html": "then:",

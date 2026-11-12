@@ -3,181 +3,181 @@
 ; (https://github.com/w3c/webref)
 ; Source: AT Driver (https://w3c.github.io/at-driver/)
 
-Command = {
-  id: uint,
+CommandInfo about the 'Command'  reference.#cddl-type-command = {
+  idInfo about the 'id'  reference.#cddl-key-command-id: uint,
   CommandData,
   Extensible,
 }
 
-CommandData = (
+CommandDataInfo about the 'CommandData'  reference.#cddl-type-commanddataReferenced in:5.1. Definition  = (
   SessionCommand //
   SettingsCommand //
   InteractionCommand
 )
 
-EmptyParams = { Extensible }
+EmptyParamsInfo about the 'EmptyParams'  reference.#cddl-type-emptyparamsReferenced in:7.2.3.3. The settings.getSupportedSettings Command  = { Extensible }
 
-Message = (
+MessageInfo about the 'Message'  reference.#cddl-type-messageReferenced in:Appendix B: Example Session (2) (3) (4) (5) (6)  = (
   CommandResponse //
   ErrorResponse //
   Event
 )
 
-CommandResponse = {
-  id: uint,
-  result: ResultData,
+CommandResponseInfo about the 'CommandResponse'  reference.#cddl-type-commandresponseReferenced in:5.1. Definition  = {
+  idInfo about the 'id'  reference.#cddl-key-commandresponse-id: uint,
+  resultInfo about the 'result'  reference.#cddl-key-commandresponse-result: ResultData,
   Extensible,
 }
 
-ErrorResponse = {
-  id: uint / null,
-  error: "unknown error" / "unknown command" / "invalid argument" / "session not created",
-  message: text,
-  ?stacktrace: text,
+ErrorResponseInfo about the 'ErrorResponse'  reference.#cddl-type-errorresponseReferenced in:5.1. Definition  = {
+  idInfo about the 'id'  reference.#cddl-key-errorresponse-id: uint / null,
+  errorInfo about the 'error'  reference.#cddl-key-errorresponse-error: "unknown error"Info about the '"unknown error"'  reference.#cddl-value-errorresponse-error-unknown-error / "unknown command"Info about the '"unknown command"'  reference.#cddl-value-errorresponse-error-unknown-command / "invalid argument"Info about the '"invalid argument"'  reference.#cddl-value-errorresponse-error-invalid-argument / "session not created"Info about the '"session not created"'  reference.#cddl-value-errorresponse-error-session-not-created,
+  messageInfo about the 'message'  reference.#cddl-key-errorresponse-message: text,
+  ?stacktraceInfo about the 'stacktrace'  reference.#cddl-key-errorresponse-stacktrace: text,
   Extensible,
 }
 
-ResultData = (
+ResultDataInfo about the 'ResultData'  reference.#cddl-type-resultdataReferenced in:5.1. Definition  = (
   EmptyResult /
   SessionResult /
   SettingsResult
 )
 
-EmptyResult = {}
+EmptyResultInfo about the 'EmptyResult'  reference.#cddl-type-emptyresultReferenced in:5.1. Definition 7.3.3.1. The interaction.userIntent Command  = {}
 
-Event = {
+EventInfo about the 'Event'  reference.#cddl-type-eventReferenced in:5.1. Definition  = {
   EventData,
   Extensible,
 }
 
-EventData = (
+EventDataInfo about the 'EventData'  reference.#cddl-type-eventdataReferenced in:5.1. Definition  = (
   InteractionEvent
 )
 
-Extensible = {
+ExtensibleInfo about the 'Extensible'  reference.#cddl-type-extensibleReferenced in:5.1. Definition (2) (3) (4) (5) 7.1.2.1. The session.CapabilitiesRequest Type 7.1.3.1. The session.new Command 7.2.2.1. The SettingsGetSettingsResult type 7.2.3.1. The settings.setSettings Command 7.2.3.2. The settings.getSettings Command 7.3.2. Types 7.3.3.1. The interaction.userIntent Command  = {
   *text => any
 }
 
-SessionCommand = (SessionNewCommand)
+SessionCommandInfo about the 'SessionCommand'  reference.#cddl-type-sessioncommandReferenced in:5.1. Definition  = (SessionNewCommand)
 
-SessionResult = (SessionNewResult)
+SessionResultInfo about the 'SessionResult'  reference.#cddl-type-sessionresultReferenced in:5.1. Definition  = (SessionNewResult)
 
-CapabilitiesRequest = {
-  ?atName: text,
-  ?atVersion: text,
-  ?platformName: text,
+CapabilitiesRequestInfo about the 'CapabilitiesRequest'  reference.#cddl-type-capabilitiesrequestReferenced in:7.1.3.1. The session.new Command  = {
+  ?atNameInfo about the 'atName'  reference.#cddl-key-capabilitiesrequest-atname: text,
+  ?atVersionInfo about the 'atVersion'  reference.#cddl-key-capabilitiesrequest-atversion: text,
+  ?platformNameInfo about the 'platformName'  reference.#cddl-key-capabilitiesrequest-platformname: text,
   Extensible,
 }
 
-SessionNewCommand = {
-  method: "session.new",
-  params: {capabilities: CapabilitiesRequestParameters},
+SessionNewCommandInfo about the 'SessionNewCommand'  reference.#cddl-type-sessionnewcommandReferenced in:7.1.1. Definition  = {
+  methodInfo about the 'method'  reference.#cddl-key-sessionnewcommand-method: "session.new"Info about the '"session.new"'  reference.#cddl-value-sessionnewcommand-method-sessionnew,
+  paramsInfo about the 'params'  reference.#cddl-key-sessionnewcommand-params: {capabilitiesInfo about the 'capabilities'  reference.#cddl-key-sessionnewcommand-params-capabilities: CapabilitiesRequestParameters},
 }
 
-CapabilitiesRequestParameters = {
-  ?alwaysMatch: CapabilitiesRequest,
+CapabilitiesRequestParametersInfo about the 'CapabilitiesRequestParameters'  reference.#cddl-type-capabilitiesrequestparametersReferenced in:7.1.3.1. The session.new Command  = {
+  ?alwaysMatchInfo about the 'alwaysMatch'  reference.#cddl-key-capabilitiesrequestparameters-alwaysmatch: CapabilitiesRequest,
 }
 
-SessionNewResult = {
-  sessionId: text,
-  capabilities: {
-    atName: text,
-    atVersion: text,
-    platformName: text,
+SessionNewResultInfo about the 'SessionNewResult'  reference.#cddl-type-sessionnewresultReferenced in:7.1.1. Definition  = {
+  sessionIdInfo about the 'sessionId'  reference.#cddl-key-sessionnewresult-sessionid: text,
+  capabilitiesInfo about the 'capabilities'  reference.#cddl-key-sessionnewresult-capabilities: {
+    atNameInfo about the 'atName'  reference.#cddl-key-sessionnewresult-capabilities-atname: text,
+    atVersionInfo about the 'atVersion'  reference.#cddl-key-sessionnewresult-capabilities-atversion: text,
+    platformNameInfo about the 'platformName'  reference.#cddl-key-sessionnewresult-capabilities-platformname: text,
     Extensible,
   }
 }
 
-SettingsCommand = {
+SettingsCommandInfo about the 'SettingsCommand'  reference.#cddl-type-settingscommandReferenced in:5.1. Definition  = {
   SettingsSetSettingsCommand //
   SettingsGetSettingsCommand //
   SettingsGetSupportedSettingsCommand
 }
 
-SettingsResult = {
+SettingsResultInfo about the 'SettingsResult'  reference.#cddl-type-settingsresultReferenced in:5.1. Definition  = {
   SettingsGetSettingsResult
 }
 
-SettingsGetSettingsResult = {
-  settings: [1* SettingsGetSettingsResultItem ],
+SettingsGetSettingsResultInfo about the 'SettingsGetSettingsResult'  reference.#cddl-type-settingsgetsettingsresultReferenced in:7.2.1. Definition  = {
+  settingsInfo about the 'settings'  reference.#cddl-key-settingsgetsettingsresult-settings: [1* SettingsGetSettingsResultItem ],
 }
 
-SettingsGetSettingsResultItem = {
-  name: text,
-  value: any,
+SettingsGetSettingsResultItemInfo about the 'SettingsGetSettingsResultItem'  reference.#cddl-type-settingsgetsettingsresultitemReferenced in:7.2.2.1. The SettingsGetSettingsResult type  = {
+  nameInfo about the 'name'  reference.#cddl-key-settingsgetsettingsresultitem-name: text,
+  valueInfo about the 'value'  reference.#cddl-key-settingsgetsettingsresultitem-value: any,
   Extensible,
 }
 
-SettingsSetSettingsCommand = {
-  method: "settings.setSettings",
-  params: SettingsSetSettingsParameters
+SettingsSetSettingsCommandInfo about the 'SettingsSetSettingsCommand'  reference.#cddl-type-settingssetsettingscommandReferenced in:7.2.1. Definition  = {
+  methodInfo about the 'method'  reference.#cddl-key-settingssetsettingscommand-method: "settings.setSettings"Info about the '"settings.setSettings"'  reference.#cddl-value-settingssetsettingscommand-method-settingssetsettings,
+  paramsInfo about the 'params'  reference.#cddl-key-settingssetsettingscommand-params: SettingsSetSettingsParameters
 }
 
-SettingsSetSettingsParameters = {
-  settings: [1* SettingsSetSettingsParametersItem ],
+SettingsSetSettingsParametersInfo about the 'SettingsSetSettingsParameters'  reference.#cddl-type-settingssetsettingsparametersReferenced in:7.2.3.1. The settings.setSettings Command  = {
+  settingsInfo about the 'settings'  reference.#cddl-key-settingssetsettingsparameters-settings: [1* SettingsSetSettingsParametersItem ],
 }
 
-SettingsSetSettingsParametersItem = {
-  name: text,
-  value: any,
+SettingsSetSettingsParametersItemInfo about the 'SettingsSetSettingsParametersItem'  reference.#cddl-type-settingssetsettingsparametersitemReferenced in:7.2.3.1. The settings.setSettings Command  = {
+  nameInfo about the 'name'  reference.#cddl-key-settingssetsettingsparametersitem-name: text,
+  valueInfo about the 'value'  reference.#cddl-key-settingssetsettingsparametersitem-value: any,
   Extensible,
 }
 
-SettingsGetSettingsCommand = {
-  method: "settings.getSettings",
-  params: SettingsGetSettingsParameters
+SettingsGetSettingsCommandInfo about the 'SettingsGetSettingsCommand'  reference.#cddl-type-settingsgetsettingscommandReferenced in:7.2.1. Definition  = {
+  methodInfo about the 'method'  reference.#cddl-key-settingsgetsettingscommand-method: "settings.getSettings"Info about the '"settings.getSettings"'  reference.#cddl-value-settingsgetsettingscommand-method-settingsgetsettings,
+  paramsInfo about the 'params'  reference.#cddl-key-settingsgetsettingscommand-params: SettingsGetSettingsParameters
 }
 
-SettingsGetSettingsParameters = {
-  settings: [1* SettingsGetSettingsParametersItem ],
+SettingsGetSettingsParametersInfo about the 'SettingsGetSettingsParameters'  reference.#cddl-type-settingsgetsettingsparametersReferenced in:7.2.3.2. The settings.getSettings Command  = {
+  settingsInfo about the 'settings'  reference.#cddl-key-settingsgetsettingsparameters-settings: [1* SettingsGetSettingsParametersItem ],
 }
 
-SettingsGetSettingsParametersItem = {
-  name: text,
+SettingsGetSettingsParametersItemInfo about the 'SettingsGetSettingsParametersItem'  reference.#cddl-type-settingsgetsettingsparametersitemReferenced in:7.2.3.2. The settings.getSettings Command  = {
+  nameInfo about the 'name'  reference.#cddl-key-settingsgetsettingsparametersitem-name: text,
   Extensible,
 }
 
-SettingsGetSupportedSettingsCommand = {
-  method: "settings.getSupportedSettings",
-  params: EmptyParams
+SettingsGetSupportedSettingsCommandInfo about the 'SettingsGetSupportedSettingsCommand'  reference.#cddl-type-settingsgetsupportedsettingscommandReferenced in:7.2.1. Definition  = {
+  methodInfo about the 'method'  reference.#cddl-key-settingsgetsupportedsettingscommand-method: "settings.getSupportedSettings"Info about the '"settings.getSupportedSettings"'  reference.#cddl-value-settingsgetsupportedsettingscommand-method-settingsgetsupportedsettings,
+  paramsInfo about the 'params'  reference.#cddl-key-settingsgetsupportedsettingscommand-params: EmptyParams
 }
 
-InteractionCommand = (InteractionUserIntentCommand)
+InteractionCommandInfo about the 'InteractionCommand'  reference.#cddl-type-interactioncommandReferenced in:5.1. Definition  = (InteractionUserIntentCommand)
 
-InteractionEvent = (InteractionCapturedOutputEvent)
+InteractionEventInfo about the 'InteractionEvent'  reference.#cddl-type-interactioneventReferenced in:5.1. Definition  = (InteractionCapturedOutputEvent)
 
-InteractionCapturedOutputParameters = {
-  data: text,
+InteractionCapturedOutputParametersInfo about the 'InteractionCapturedOutputParameters'  reference.#cddl-type-interactioncapturedoutputparametersReferenced in:7.3.4.1. The interaction.capturedOutput Event  = {
+  dataInfo about the 'data'  reference.#cddl-key-interactioncapturedoutputparameters-data: text,
   Extensible,
 }
 
-InteractionUserIntentCommand = {
-  method: "interaction.userIntent",
-  params: InteractionUserIntentParameters
+InteractionUserIntentCommandInfo about the 'InteractionUserIntentCommand'  reference.#cddl-type-interactionuserintentcommandReferenced in:7.3.1. Definition  = {
+  methodInfo about the 'method'  reference.#cddl-key-interactionuserintentcommand-method: "interaction.userIntent"Info about the '"interaction.userIntent"'  reference.#cddl-value-interactionuserintentcommand-method-interactionuserintent,
+  paramsInfo about the 'params'  reference.#cddl-key-interactionuserintentcommand-params: InteractionUserIntentParameters
 }
 
-InteractionUserIntentParameters = (
+InteractionUserIntentParametersInfo about the 'InteractionUserIntentParameters'  reference.#cddl-type-interactionuserintentparametersReferenced in:7.3.3.1. The interaction.userIntent Command  = (
   PressKeysIntentParameters /
   ExtensionIntentParameters
 )
 
-PressKeysIntentParameters = {
-  "name" => "pressKeys",
-  "keys" => KeyCombination,
+PressKeysIntentParametersInfo about the 'PressKeysIntentParameters'  reference.#cddl-type-presskeysintentparametersReferenced in:7.3.3.1. The interaction.userIntent Command  = {
+  "name"Info about the '"name"'  reference.#cddl-key-presskeysintentparameters-name => "pressKeys"Info about the '"pressKeys"'  reference.#cddl-value-presskeysintentparameters-name-presskeys,
+  "keys"Info about the '"keys"'  reference.#cddl-key-presskeysintentparameters-keys => KeyCombination,
 }
 
-KeyCombination = [
+KeyCombinationInfo about the 'KeyCombination'  reference.#cddl-type-keycombinationReferenced in:7.3.3.1. The interaction.userIntent Command  = [
   1* text
 ]
 
-ExtensionIntentParameters = {
-  "name" => text,
+ExtensionIntentParametersInfo about the 'ExtensionIntentParameters'  reference.#cddl-type-extensionintentparametersReferenced in:7.3.3.1. The interaction.userIntent Command  = {
+  "name"Info about the '"name"'  reference.#cddl-key-extensionintentparameters-name => text,
   Extensible,
 }
 
-InteractionCapturedOutputEvent = {
-  method: "interaction.capturedOutput",
-  params: InteractionCapturedOutputParameters
+InteractionCapturedOutputEventInfo about the 'InteractionCapturedOutputEvent'  reference.#cddl-type-interactioncapturedoutputeventReferenced in:7.3.1. Definition  = {
+  methodInfo about the 'method'  reference.#cddl-key-interactioncapturedoutputevent-method: "interaction.capturedOutput"Info about the '"interaction.capturedOutput"'  reference.#cddl-value-interactioncapturedoutputevent-method-interactioncapturedoutput,
+  paramsInfo about the 'params'  reference.#cddl-key-interactioncapturedoutputevent-params: InteractionCapturedOutputParameters
 }
 
 Command = {
