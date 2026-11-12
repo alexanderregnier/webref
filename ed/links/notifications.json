@@ -104,6 +104,7 @@
           "eventhandler",
           "concept-relevant-global",
           "relevant-settings-object",
+          "current-settings-object",
           "current-global-object",
           "concept-relevant-realm",
           "queue-a-global-task",
@@ -148,6 +149,7 @@
           "serviceworkerregistration",
           "extendableevent",
           "dictdef-extendableeventinit",
+          "serviceworkerregistration-service-worker-registration",
           "dfn-active-worker",
           "fire-functional-event"
         ]

@@ -9,11 +9,8 @@
         "format": "fire an event phrasing",
         "href": "https://websockets.spec.whatwg.org/#ref-for-concept-event-fire"
       },
-      "href": "https://websockets.spec.whatwg.org/#eventdef-websocket-open",
-      "type": "open",
-      "targets": [
-        "WebSocket"
-      ],
+      "href": "https://websockets.spec.whatwg.org/#ref-for-concept-event-fire",
+      "type": "openInfo",
       "interface": "Event"
     },
     {
@@ -21,11 +18,8 @@
         "format": "fire an event phrasing",
         "href": "https://websockets.spec.whatwg.org/#ref-for-concept-event-fire%E2%91%A0"
       },
-      "href": "https://websockets.spec.whatwg.org/#eventdef-websocket-message",
-      "type": "message",
-      "targets": [
-        "WebSocket"
-      ],
+      "href": "https://websockets.spec.whatwg.org/#ref-for-concept-event-fire%E2%91%A0",
+      "type": "messageInfo",
       "interface": "MessageEvent"
     },
     {
@@ -33,11 +27,8 @@
         "format": "fire an event phrasing",
         "href": "https://websockets.spec.whatwg.org/#ref-for-concept-event-fire%E2%91%A1"
       },
-      "href": "https://websockets.spec.whatwg.org/#eventdef-websocket-error",
-      "type": "error",
-      "targets": [
-        "WebSocket"
-      ],
+      "href": "https://websockets.spec.whatwg.org/#ref-for-concept-event-fire%E2%91%A1",
+      "type": "errorInfo",
       "interface": "Event"
     },
     {
@@ -45,12 +36,49 @@
         "format": "fire an event phrasing",
         "href": "https://websockets.spec.whatwg.org/#ref-for-concept-event-fire%E2%91%A2"
       },
-      "href": "https://websockets.spec.whatwg.org/#eventdef-websocket-close",
+      "href": "https://websockets.spec.whatwg.org/#ref-for-concept-event-fire%E2%91%A2",
+      "type": "closeInfo",
+      "interface": "CloseEvent"
+    },
+    {
+      "type": "open",
+      "targets": [
+        "WebSocket"
+      ],
+      "src": {
+        "format": "IDL eventHandler"
+      },
+      "href": "https://websockets.spec.whatwg.org/#eventdef-websocket-open"
+    },
+    {
+      "type": "error",
+      "targets": [
+        "WebSocket"
+      ],
+      "src": {
+        "format": "IDL eventHandler"
+      },
+      "href": "https://websockets.spec.whatwg.org/#eventdef-websocket-error"
+    },
+    {
       "type": "close",
       "targets": [
         "WebSocket"
       ],
-      "interface": "CloseEvent"
+      "src": {
+        "format": "IDL eventHandler"
+      },
+      "href": "https://websockets.spec.whatwg.org/#eventdef-websocket-close"
+    },
+    {
+      "type": "message",
+      "targets": [
+        "WebSocket"
+      ],
+      "src": {
+        "format": "IDL eventHandler"
+      },
+      "href": "https://websockets.spec.whatwg.org/#eventdef-websocket-message"
     }
   ]
 }

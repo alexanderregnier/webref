@@ -331,6 +331,7 @@
       "http://wpt.live/css/css-overflow/parsing/max-lines-invalid.html": {},
       "http://wpt.live/css/css-overflow/parsing/max-lines-valid.html": {},
       "http://wpt.live/css/css-overflow/parsing/webkit-box-computed.html": {},
+      "http://wpt.live/css/css-overflow/parsing/webkit-line-clamp-computed.html": {},
       "http://wpt.live/css/css-overflow/parsing/webkit-line-clamp-invalid.html": {},
       "http://wpt.live/css/css-overflow/parsing/webkit-line-clamp-valid.html": {},
       "http://wpt.live/css/css-overflow/text-overflow-string-006.html": {},
@@ -757,6 +758,7 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/parsing/max-lines-invalid.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/parsing/max-lines-valid.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/parsing/webkit-box-computed.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/parsing/webkit-line-clamp-computed.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/parsing/webkit-line-clamp-invalid.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/parsing/webkit-line-clamp-valid.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-overflow/text-overflow-string-006.html": {},
@@ -1097,6 +1099,7 @@
       "https://wpt.fyi/results/css/css-overflow/parsing/max-lines-invalid.html": {},
       "https://wpt.fyi/results/css/css-overflow/parsing/max-lines-valid.html": {},
       "https://wpt.fyi/results/css/css-overflow/parsing/webkit-box-computed.html": {},
+      "https://wpt.fyi/results/css/css-overflow/parsing/webkit-line-clamp-computed.html": {},
       "https://wpt.fyi/results/css/css-overflow/parsing/webkit-line-clamp-invalid.html": {},
       "https://wpt.fyi/results/css/css-overflow/parsing/webkit-line-clamp-valid.html": {},
       "https://wpt.fyi/results/css/css-overflow/text-overflow-string-006.html": {},
@@ -1361,8 +1364,8 @@
           "mult-num-range",
           "typedef-length-percentage",
           "percentage-value",
-          "mult-opt",
           "integer-value",
+          "mult-opt",
           "comb-all"
         ]
       },
