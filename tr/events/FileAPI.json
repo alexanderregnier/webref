@@ -10,7 +10,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/FileAPI/#dfn-loadstart-event"
       },
-      "type": "loadstart",
+      "type": "loadstartInfo about the 'loadstart'  reference.#dfn-loadstart-eventReferenced in:6.2. The FileReader API (2) 6.2.1. Event Handler Content Attributes 6.4.2. Summary of Event Invariants (2) (3) Possible linking syntaxes:{{FileReader/loadstart}}",
       "targets": [
         "FileReader"
       ],
@@ -22,7 +22,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/FileAPI/#dfn-progress-event"
       },
-      "type": "progress",
+      "type": "progressInfo about the 'progress'  reference.#dfn-progress-eventReferenced in:6.2. The FileReader API 6.2.1. Event Handler Content Attributes 6.4.2. Summary of Event Invariants (2) (3) Possible linking syntaxes:{{FileReader/progress}}",
       "targets": [
         "FileReader"
       ],
@@ -34,7 +34,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/FileAPI/#dfn-abort-event"
       },
-      "type": "abort",
+      "type": "abortInfo about the 'abort'  reference.#dfn-abort-eventPossible linking syntaxes:{{FileReader/abort}}",
       "targets": [
         "FileReader"
       ],
@@ -46,7 +46,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/FileAPI/#dfn-error-event"
       },
-      "type": "error",
+      "type": "errorInfo about the 'error'  reference.#dfn-error-eventPossible linking syntaxes:{{FileReader/error}}",
       "targets": [
         "FileReader"
       ],
@@ -58,7 +58,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/FileAPI/#dfn-load-event"
       },
-      "type": "load",
+      "type": "loadInfo about the 'load'  reference.#dfn-load-eventReferenced in:6.2. The FileReader API (2) 6.2.1. Event Handler Content Attributes 6.4.2. Summary of Event Invariants (2) (3) (4) Possible linking syntaxes:{{FileReader/load}}",
       "targets": [
         "FileReader"
       ],
@@ -70,11 +70,77 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/FileAPI/#dfn-loadend-event"
       },
-      "type": "loadend",
+      "type": "loadendInfo about the 'loadend'  reference.#dfn-loadend-eventReferenced in:6.2. The FileReader API (2) (3) (4) 6.2.1. Event Handler Content Attributes 6.2.3.5. The abort() method 6.4.2. Summary of Event Invariants (2) (3) Possible linking syntaxes:{{FileReader/loadend}}",
       "targets": [
         "FileReader"
       ],
       "interface": "ProgressEvent"
+    },
+    {
+      "type": "loadstart",
+      "targets": [
+        "FileReader"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://www.w3.org/TR/FileAPI/#dfn-loadstart-event"
+      },
+      "href": "https://www.w3.org/TR/FileAPI/#dfn-loadstart-event"
+    },
+    {
+      "type": "progress",
+      "targets": [
+        "FileReader"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://www.w3.org/TR/FileAPI/#dfn-progress-event"
+      },
+      "href": "https://www.w3.org/TR/FileAPI/#dfn-progress-event"
+    },
+    {
+      "type": "abort",
+      "targets": [
+        "FileReader"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://www.w3.org/TR/FileAPI/#dfn-abort-event"
+      },
+      "href": "https://www.w3.org/TR/FileAPI/#dfn-abort-event"
+    },
+    {
+      "type": "error",
+      "targets": [
+        "FileReader"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://www.w3.org/TR/FileAPI/#dfn-error-event"
+      },
+      "href": "https://www.w3.org/TR/FileAPI/#dfn-error-event"
+    },
+    {
+      "type": "load",
+      "targets": [
+        "FileReader"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://www.w3.org/TR/FileAPI/#dfn-load-event"
+      },
+      "href": "https://www.w3.org/TR/FileAPI/#dfn-load-event"
+    },
+    {
+      "type": "loadend",
+      "targets": [
+        "FileReader"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://www.w3.org/TR/FileAPI/#dfn-loadend-event"
+      },
+      "href": "https://www.w3.org/TR/FileAPI/#dfn-loadend-event"
     }
   ]
 }
