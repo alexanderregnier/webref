@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-11-13T07:50:10.270Z",
+  "date": "2026-11-14T07:36:20.075Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "13 November 2026",
+      "date": "14 November 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -11986,11 +11986,11 @@
       ],
       "crawled": "https://www.w3.org/TR/epub-34/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 12 Nov 2026 18:01:54 GMT"
+        "lastModified": "Fri, 13 Nov 2026 13:43:55 GMT"
       },
       "generator": "respec",
-      "date": "12 November 2026",
-      "revision": "c559a0b1701e62e54a8bb877a277aa97626dd397",
+      "date": "13 November 2026",
+      "revision": "fe97f8e70a118cfb89ecd5c48c7c859335d3b057",
       "algorithms": "algorithms/epub-34.json",
       "links": "links/epub-34.json",
       "refs": "refs/epub-34.json",
@@ -12274,11 +12274,11 @@
       ],
       "crawled": "https://www.w3.org/TR/event-timing/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 13 Oct 2026 16:05:14 GMT"
+        "lastModified": "Fri, 13 Nov 2026 20:36:16 GMT"
       },
       "generator": "bikeshed",
-      "date": "13 October 2026",
-      "revision": "f8e11d6cd1818cdf4ae883da0a323520b9c6b403",
+      "date": "13 November 2026",
+      "revision": "a2f18d730f34e0866b4f964bf11b97f915e03cdd",
       "algorithms": "algorithms/event-timing.json",
       "links": "links/event-timing.json",
       "refs": "refs/event-timing.json",
@@ -15287,11 +15287,11 @@
       ],
       "crawled": "https://www.w3.org/TR/mediasession/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 09 Nov 2026 08:28:42 GMT"
+        "lastModified": "Sat, 14 Nov 2026 03:51:26 GMT"
       },
       "generator": "bikeshed",
-      "date": "9 November 2026",
-      "revision": "2e9305a240ce13e572fae33e7c118760477013c1",
+      "date": "14 November 2026",
+      "revision": "420075a901a42f3f3c45231e429c8ac2543aa13f",
       "algorithms": "algorithms/mediasession.json",
       "links": "links/mediasession.json",
       "refs": "refs/mediasession.json",
@@ -17801,11 +17801,11 @@
       ],
       "crawled": "https://www.w3.org/TR/rdf12-concepts/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 12 Nov 2026 15:07:42 GMT"
+        "lastModified": "Fri, 13 Nov 2026 08:40:28 GMT"
       },
       "generator": "respec",
-      "date": "12 November 2026",
-      "revision": "19a5e6a28f4892b56696286dad1eb3df762f7a6e",
+      "date": "13 November 2026",
+      "revision": "3b600b8a1dae3b3a71f55c5f374d061a0cac93ad",
       "algorithms": "algorithms/rdf12-concepts.json",
       "links": "links/rdf12-concepts.json",
       "refs": "refs/rdf12-concepts.json",
@@ -18083,11 +18083,11 @@
       ],
       "crawled": "https://www.w3.org/TR/rdf12-trig/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 05 Nov 2026 18:04:48 GMT"
+        "lastModified": "Fri, 13 Nov 2026 08:42:52 GMT"
       },
       "generator": "respec",
-      "date": "05 November 2026",
-      "revision": "046001bd3bc14c2267c37f5e786fd045eff16283",
+      "date": "13 November 2026",
+      "revision": "57e06def577d7f090c4f3202eaf52bab35a87135",
       "links": "links/rdf12-trig.json",
       "refs": "refs/rdf12-trig.json",
       "dfns": "dfns/rdf12-trig.json",
@@ -21798,11 +21798,11 @@
       ],
       "crawled": "https://www.w3.org/TR/vc-data-integrity-1.1/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 06 Nov 2026 16:31:19 GMT"
+        "lastModified": "Fri, 13 Nov 2026 21:20:02 GMT"
       },
       "generator": "respec",
-      "date": "06 November 2026",
-      "revision": "2864e1c98a150524159041ccbc09c1dee6f91a57",
+      "date": "13 November 2026",
+      "revision": "cbd923ab8ed3bd9d256e694e90fce48d41e23ae1",
       "algorithms": "algorithms/vc-data-integrity-1.1.json",
       "links": "links/vc-data-integrity-1.1.json",
       "refs": "refs/vc-data-integrity-1.1.json",
@@ -24914,11 +24914,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webdriver-bidi/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 12 Nov 2026 10:43:45 GMT"
+        "lastModified": "Fri, 13 Nov 2026 13:11:04 GMT"
       },
       "generator": "bikeshed",
-      "date": "12 November 2026",
-      "revision": "085f76a831efd761d08d67680d502963a5ef0f6c",
+      "date": "13 November 2026",
+      "revision": "cce53ea8cfa8ef9f693d9237af5079f8e4d0a20c",
       "algorithms": "algorithms/webdriver-bidi.json",
       "links": "links/webdriver-bidi.json",
       "refs": "refs/webdriver-bidi.json",
