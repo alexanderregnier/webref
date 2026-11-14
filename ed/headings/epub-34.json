@@ -2478,94 +2478,14 @@
       "number": "D.5"
     },
     {
-      "id": "app-item-properties-vocab",
-      "href": "https://w3c.github.io/epub-specs/epub34/authoring/#app-item-properties-vocab",
-      "level": 3,
-      "title": "Manifest properties vocabulary",
-      "alternateIds": [
-        "d-6-manifest-properties-vocabulary"
-      ],
-      "number": "D.6"
-    },
-    {
-      "id": "sec-cover-image",
-      "href": "https://w3c.github.io/epub-specs/epub34/authoring/#sec-cover-image",
-      "level": 4,
-      "title": "cover-image",
-      "alternateIds": [
-        "d-6-1-cover-image"
-      ],
-      "number": "D.6.1"
-    },
-    {
-      "id": "sec-mathml",
-      "href": "https://w3c.github.io/epub-specs/epub34/authoring/#sec-mathml",
-      "level": 4,
-      "title": "mathml",
-      "alternateIds": [
-        "d-6-2-mathml"
-      ],
-      "number": "D.6.2"
-    },
-    {
-      "id": "sec-nav-prop",
-      "href": "https://w3c.github.io/epub-specs/epub34/authoring/#sec-nav-prop",
-      "level": 4,
-      "title": "nav",
-      "alternateIds": [
-        "d-6-3-nav"
-      ],
-      "number": "D.6.3"
-    },
-    {
-      "id": "sec-remote-resources",
-      "href": "https://w3c.github.io/epub-specs/epub34/authoring/#sec-remote-resources",
-      "level": 4,
-      "title": "remote-resources",
-      "alternateIds": [
-        "d-6-4-remote-resources"
-      ],
-      "number": "D.6.4"
-    },
-    {
-      "id": "sec-scripted",
-      "href": "https://w3c.github.io/epub-specs/epub34/authoring/#sec-scripted",
-      "level": 4,
-      "title": "scripted",
-      "alternateIds": [
-        "d-6-5-scripted"
-      ],
-      "number": "D.6.5"
-    },
-    {
-      "id": "sec-svg-prop",
-      "href": "https://w3c.github.io/epub-specs/epub34/authoring/#sec-svg-prop",
-      "level": 4,
-      "title": "svg",
-      "alternateIds": [
-        "d-6-6-svg"
-      ],
-      "number": "D.6.6"
-    },
-    {
-      "id": "sec-switch",
-      "href": "https://w3c.github.io/epub-specs/epub34/authoring/#sec-switch",
-      "level": 4,
-      "title": "switch",
-      "alternateIds": [
-        "d-6-7-switch"
-      ],
-      "number": "D.6.7"
-    },
-    {
       "id": "app-itemref-properties-vocab",
       "href": "https://w3c.github.io/epub-specs/epub34/authoring/#app-itemref-properties-vocab",
       "level": 3,
       "title": "Spine properties vocabulary",
       "alternateIds": [
-        "d-7-spine-properties-vocabulary"
+        "d-6-spine-properties-vocabulary"
       ],
-      "number": "D.7"
+      "number": "D.6"
     },
     {
       "id": "sec-page-spread-left",
@@ -2573,9 +2493,9 @@
       "level": 4,
       "title": "page-spread-left",
       "alternateIds": [
-        "d-7-1-page-spread-left"
+        "d-6-1-page-spread-left"
       ],
-      "number": "D.7.1"
+      "number": "D.6.1"
     },
     {
       "id": "sec-page-spread-right",
@@ -2583,9 +2503,9 @@
       "level": 4,
       "title": "page-spread-right",
       "alternateIds": [
-        "d-7-2-page-spread-right"
+        "d-6-2-page-spread-right"
       ],
-      "number": "D.7.2"
+      "number": "D.6.2"
     },
     {
       "id": "examples-itemref-properties",
@@ -2593,9 +2513,9 @@
       "level": 4,
       "title": "Examples",
       "alternateIds": [
-        "d-7-3-examples"
+        "d-6-3-examples"
       ],
-      "number": "D.7.3"
+      "number": "D.6.3"
     },
     {
       "id": "app-overlays-vocab",
@@ -2603,9 +2523,9 @@
       "level": 3,
       "title": "Media overlays vocabulary",
       "alternateIds": [
-        "d-8-media-overlays-vocabulary"
+        "d-7-media-overlays-vocabulary"
       ],
-      "number": "D.8"
+      "number": "D.7"
     },
     {
       "id": "sec-active-class",
@@ -2613,9 +2533,9 @@
       "level": 4,
       "title": "active-class",
       "alternateIds": [
-        "d-8-1-active-class"
+        "d-7-1-active-class"
       ],
-      "number": "D.8.1"
+      "number": "D.7.1"
     },
     {
       "id": "sec-duration",
@@ -2623,9 +2543,9 @@
       "level": 4,
       "title": "duration",
       "alternateIds": [
-        "d-8-2-duration"
+        "d-7-2-duration"
       ],
-      "number": "D.8.2"
+      "number": "D.7.2"
     },
     {
       "id": "sec-narrator",
@@ -2633,9 +2553,9 @@
       "level": 4,
       "title": "narrator",
       "alternateIds": [
-        "d-8-3-narrator"
+        "d-7-3-narrator"
       ],
-      "number": "D.8.3"
+      "number": "D.7.3"
     },
     {
       "id": "sec-playback-active-class",
@@ -2643,9 +2563,9 @@
       "level": 4,
       "title": "playback-active-class",
       "alternateIds": [
-        "d-8-4-playback-active-class"
+        "d-7-4-playback-active-class"
       ],
-      "number": "D.8.4"
+      "number": "D.7.4"
     },
     {
       "id": "app-obsolete",
