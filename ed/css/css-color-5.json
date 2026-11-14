@@ -416,7 +416,7 @@
       "values": [
         {
           "name": "none",
-          "prose": "The noneInfo about the 'none' reference.#valdef-light-dark-noneReferenced in:4.2. Relative Color Syntax (2) Possible linking syntaxes:''light-dark()/none'' keyword computes to image(transparent) (a fully transparent image with no natural size).",
+          "prose": "The noneInfo about the 'none' reference.#valdef-light-dark-nonePossible linking syntaxes:''light-dark()/none'' keyword computes to image(transparent) (a fully transparent image with no natural size).",
           "href": "https://drafts.csswg.org/css-color-5/#valdef-light-dark-none",
           "type": "value",
           "value": "none"

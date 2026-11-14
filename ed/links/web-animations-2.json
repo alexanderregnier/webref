@@ -125,11 +125,6 @@
           "dictdef-eventinit"
         ]
       },
-      "https://drafts.csswg.org/animation-triggers-1/": {
-        "anchors": [
-          "animationtrigger"
-        ]
-      },
       "https://drafts.csswg.org/scroll-animations-1/": {
         "anchors": [
           "event-loop"
@@ -212,6 +207,11 @@
           "idl-unrestricted-double",
           "idl-sequence",
           "idl-unsigned-long"
+        ]
+      },
+      "https://www.w3.org/TR/animation-triggers-1/": {
+        "anchors": [
+          "animationtrigger"
         ]
       },
       "https://www.w3.org/TR/css-animations-1/": {
