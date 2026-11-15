@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-11-14T07:36:20.075Z",
+  "date": "2026-11-15T07:48:26.540Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "14 November 2026",
+      "date": "15 November 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -4154,11 +4154,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-color-4/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 12 Nov 2026 20:48:20 GMT"
+        "lastModified": "Thu, 12 Nov 2026 22:53:35 GMT"
       },
       "generator": "bikeshed",
       "date": "12 November 2026",
-      "revision": "a33dd512d6a5406438430a7ebaf7b3506b9a322e",
+      "revision": "8e3693ea9baa53f5411eb18d3b18201e8c15fb14",
       "algorithms": "algorithms/css-color-4.json",
       "links": "links/css-color-4.json",
       "refs": "refs/css-color-4.json",
@@ -4224,11 +4224,11 @@
       ],
       "crawled": "https://www.w3.org/TR/css-color-5/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 12 Nov 2026 21:36:27 GMT"
+        "lastModified": "Sat, 14 Nov 2026 16:45:20 GMT"
       },
       "generator": "bikeshed",
-      "date": "12 November 2026",
-      "revision": "a7a5194860ce68405f875d004eb6c04480c95994",
+      "date": "14 November 2026",
+      "revision": "7844b41372beab3157f2ede1e8c2428867207907",
       "algorithms": "algorithms/css-color-5.json",
       "links": "links/css-color-5.json",
       "refs": "refs/css-color-5.json",
@@ -12466,11 +12466,11 @@
       ],
       "crawled": "https://www.w3.org/TR/FileAPI/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 12 Nov 2026 11:18:45 GMT"
+        "lastModified": "Sat, 14 Nov 2026 16:08:30 GMT"
       },
       "generator": "bikeshed",
-      "date": "12 November 2026",
-      "revision": "d2852027a9578c2f163eb0843dc2820cef7c3074",
+      "date": "14 November 2026",
+      "revision": "528c64a385e01e248a95d428a11afc7c3f6595fe",
       "algorithms": "algorithms/FileAPI.json",
       "links": "links/FileAPI.json",
       "refs": "refs/FileAPI.json",
@@ -12720,11 +12720,11 @@
       ],
       "crawled": "https://www.w3.org/TR/gamepad/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 13 Nov 2026 00:45:48 GMT"
+        "lastModified": "Sat, 14 Nov 2026 17:39:13 GMT"
       },
       "generator": "respec",
-      "date": "13 November 2026",
-      "revision": "668d76b194189dcec250bb9efdbcf1068a2fea9c",
+      "date": "14 November 2026",
+      "revision": "79da99093ec2e65ee451d0160046764d5824d44b",
       "algorithms": "algorithms/gamepad.json",
       "links": "links/gamepad.json",
       "refs": "refs/gamepad.json",
