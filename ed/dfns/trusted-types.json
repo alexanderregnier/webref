@@ -58,7 +58,7 @@
       "heading": {
         "id": "trusted-html",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-html",
-        "title": "TrustedHTML",
+        "title": "TrustedHTMLInfo about the 'TrustedHTML' reference.#trustedhtmlReferenced in:2.2.1. TrustedHTML 2.3. Policies 2.3.1. Using together with a sanitizer 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) (6) (7) 2.3.3. TrustedTypePolicy 2.4.2. Sanitization enforcement with createParserOptions 2.4.3. Summary of input enforcement (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13) (14) (15) 3.4. Get Trusted Type compliant input (2) 3.6. Get Trusted Type compliant parser options 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute 4. Integrations 5.4. Best practices for policy design (2) Possible linking syntaxes:{{TrustedHTML}}",
         "number": "2.2.1"
       },
       "definedIn": "heading",
@@ -80,7 +80,7 @@
       "heading": {
         "id": "trusted-html",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-html",
-        "title": "TrustedHTML",
+        "title": "TrustedHTMLInfo about the 'TrustedHTML' reference.#trustedhtmlReferenced in:2.2.1. TrustedHTML 2.3. Policies 2.3.1. Using together with a sanitizer 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) (6) (7) 2.3.3. TrustedTypePolicy 2.4.2. Sanitization enforcement with createParserOptions 2.4.3. Summary of input enforcement (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13) (14) (15) 3.4. Get Trusted Type compliant input (2) 3.6. Get Trusted Type compliant parser options 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute 4. Integrations 5.4. Best practices for policy design (2) Possible linking syntaxes:{{TrustedHTML}}",
         "number": "2.2.1"
       },
       "definedIn": "prose",
@@ -102,7 +102,7 @@
       "heading": {
         "id": "trusted-html",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-html",
-        "title": "TrustedHTML",
+        "title": "TrustedHTMLInfo about the 'TrustedHTML' reference.#trustedhtmlReferenced in:2.2.1. TrustedHTML 2.3. Policies 2.3.1. Using together with a sanitizer 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) (6) (7) 2.3.3. TrustedTypePolicy 2.4.2. Sanitization enforcement with createParserOptions 2.4.3. Summary of input enforcement (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13) (14) (15) 3.4. Get Trusted Type compliant input (2) 3.6. Get Trusted Type compliant parser options 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute 4. Integrations 5.4. Best practices for policy design (2) Possible linking syntaxes:{{TrustedHTML}}",
         "number": "2.2.1"
       },
       "definedIn": "prose",
@@ -124,7 +124,7 @@
       "heading": {
         "id": "trusted-html",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-html",
-        "title": "TrustedHTML",
+        "title": "TrustedHTMLInfo about the 'TrustedHTML' reference.#trustedhtmlReferenced in:2.2.1. TrustedHTML 2.3. Policies 2.3.1. Using together with a sanitizer 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) (6) (7) 2.3.3. TrustedTypePolicy 2.4.2. Sanitization enforcement with createParserOptions 2.4.3. Summary of input enforcement (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13) (14) (15) 3.4. Get Trusted Type compliant input (2) 3.6. Get Trusted Type compliant parser options 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute 4. Integrations 5.4. Best practices for policy design (2) Possible linking syntaxes:{{TrustedHTML}}",
         "number": "2.2.1"
       },
       "definedIn": "prose",
@@ -144,7 +144,7 @@
       "heading": {
         "id": "trusted-script",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-script",
-        "title": "TrustedScript",
+        "title": "TrustedScriptInfo about the 'TrustedScript' reference.#trustedscriptReferenced in:2.2.2. TrustedScript 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) (6) (7) 2.3.3. TrustedTypePolicy 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute 4. Integrations 4.2.1.1. require-trusted-types-for Pre-Navigation check (2) Possible linking syntaxes:{{TrustedScript}}",
         "number": "2.2.2"
       },
       "definedIn": "heading",
@@ -166,7 +166,7 @@
       "heading": {
         "id": "trusted-script",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-script",
-        "title": "TrustedScript",
+        "title": "TrustedScriptInfo about the 'TrustedScript' reference.#trustedscriptReferenced in:2.2.2. TrustedScript 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) (6) (7) 2.3.3. TrustedTypePolicy 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute 4. Integrations 4.2.1.1. require-trusted-types-for Pre-Navigation check (2) Possible linking syntaxes:{{TrustedScript}}",
         "number": "2.2.2"
       },
       "definedIn": "prose",
@@ -188,7 +188,7 @@
       "heading": {
         "id": "trusted-script",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-script",
-        "title": "TrustedScript",
+        "title": "TrustedScriptInfo about the 'TrustedScript' reference.#trustedscriptReferenced in:2.2.2. TrustedScript 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) (6) (7) 2.3.3. TrustedTypePolicy 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute 4. Integrations 4.2.1.1. require-trusted-types-for Pre-Navigation check (2) Possible linking syntaxes:{{TrustedScript}}",
         "number": "2.2.2"
       },
       "definedIn": "prose",
@@ -210,7 +210,7 @@
       "heading": {
         "id": "trusted-script",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-script",
-        "title": "TrustedScript",
+        "title": "TrustedScriptInfo about the 'TrustedScript' reference.#trustedscriptReferenced in:2.2.2. TrustedScript 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) (6) (7) 2.3.3. TrustedTypePolicy 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute 4. Integrations 4.2.1.1. require-trusted-types-for Pre-Navigation check (2) Possible linking syntaxes:{{TrustedScript}}",
         "number": "2.2.2"
       },
       "definedIn": "prose",
@@ -230,7 +230,7 @@
       "heading": {
         "id": "trused-script-url",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trused-script-url",
-        "title": "TrustedScriptURL",
+        "title": "TrustedScriptURLInfo about the 'TrustedScriptURL' reference.#trustedscripturlReferenced in:2.2.3. TrustedScriptURL 2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 3.8. Prepare the script text 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute (2) (3) 4. Integrations Possible linking syntaxes:{{TrustedScriptURL}}",
         "number": "2.2.3"
       },
       "definedIn": "heading",
@@ -252,7 +252,7 @@
       "heading": {
         "id": "trused-script-url",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trused-script-url",
-        "title": "TrustedScriptURL",
+        "title": "TrustedScriptURLInfo about the 'TrustedScriptURL' reference.#trustedscripturlReferenced in:2.2.3. TrustedScriptURL 2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 3.8. Prepare the script text 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute (2) (3) 4. Integrations Possible linking syntaxes:{{TrustedScriptURL}}",
         "number": "2.2.3"
       },
       "definedIn": "prose",
@@ -274,7 +274,7 @@
       "heading": {
         "id": "trused-script-url",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trused-script-url",
-        "title": "TrustedScriptURL",
+        "title": "TrustedScriptURLInfo about the 'TrustedScriptURL' reference.#trustedscripturlReferenced in:2.2.3. TrustedScriptURL 2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 3.8. Prepare the script text 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute (2) (3) 4. Integrations Possible linking syntaxes:{{TrustedScriptURL}}",
         "number": "2.2.3"
       },
       "definedIn": "prose",
@@ -296,7 +296,7 @@
       "heading": {
         "id": "trused-script-url",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trused-script-url",
-        "title": "TrustedScriptURL",
+        "title": "TrustedScriptURLInfo about the 'TrustedScriptURL' reference.#trustedscripturlReferenced in:2.2.3. TrustedScriptURL 2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 3.8. Prepare the script text 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute (2) (3) 4. Integrations Possible linking syntaxes:{{TrustedScriptURL}}",
         "number": "2.2.3"
       },
       "definedIn": "prose",
@@ -316,7 +316,7 @@
       "heading": {
         "id": "trusted-html-parser-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-html-parser-options",
-        "title": "TrustedHTMLParserOptions",
+        "title": "TrustedHTMLParserOptionsInfo about the 'TrustedHTMLParserOptions' reference.#trustedhtmlparseroptionsReferenced in:2.2.4. TrustedHTMLParserOptions (2) (3) 2.3.1. Using together with a sanitizer 2.3.3. TrustedTypePolicy 2.4.3. Summary of input enforcement (2) (3) (4) 3.2. Create a Trusted Type 3.4. Get Trusted Type compliant input (2) 3.6. Get Trusted Type compliant parser options (2) (3) (4) (5) Possible linking syntaxes:{{TrustedHTMLParserOptions}}",
         "number": "2.2.4"
       },
       "definedIn": "heading",
@@ -338,7 +338,7 @@
       "heading": {
         "id": "trusted-html-parser-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-html-parser-options",
-        "title": "TrustedHTMLParserOptions",
+        "title": "TrustedHTMLParserOptionsInfo about the 'TrustedHTMLParserOptions' reference.#trustedhtmlparseroptionsReferenced in:2.2.4. TrustedHTMLParserOptions (2) (3) 2.3.1. Using together with a sanitizer 2.3.3. TrustedTypePolicy 2.4.3. Summary of input enforcement (2) (3) (4) 3.2. Create a Trusted Type 3.4. Get Trusted Type compliant input (2) 3.6. Get Trusted Type compliant parser options (2) (3) (4) (5) Possible linking syntaxes:{{TrustedHTMLParserOptions}}",
         "number": "2.2.4"
       },
       "definedIn": "prose",
@@ -360,7 +360,7 @@
       "heading": {
         "id": "trusted-html-parser-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-html-parser-options",
-        "title": "TrustedHTMLParserOptions",
+        "title": "TrustedHTMLParserOptionsInfo about the 'TrustedHTMLParserOptions' reference.#trustedhtmlparseroptionsReferenced in:2.2.4. TrustedHTMLParserOptions (2) (3) 2.3.1. Using together with a sanitizer 2.3.3. TrustedTypePolicy 2.4.3. Summary of input enforcement (2) (3) (4) 3.2. Create a Trusted Type 3.4. Get Trusted Type compliant input (2) 3.6. Get Trusted Type compliant parser options (2) (3) (4) (5) Possible linking syntaxes:{{TrustedHTMLParserOptions}}",
         "number": "2.2.4"
       },
       "definedIn": "prose",
@@ -380,7 +380,7 @@
       "heading": {
         "id": "policies-hdr",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#policies-hdr",
-        "title": "Policies",
+        "title": "PoliciesInfo about the 'Policies' reference.#policiesReferenced in:1. Introduction 1.3. Use cases 2.3. Policies 2.4. Enforcement 2.4.1. Content Security Policy 4.2.2. trusted-types directive 5.4. Best practices for policy design Possible linking syntaxes:[=Policies=][=/Policies=]",
         "number": "2.3"
       },
       "definedIn": "heading",
@@ -400,7 +400,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "heading",
@@ -423,7 +423,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "pre",
@@ -446,7 +446,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "pre",
@@ -468,7 +468,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "pre",
@@ -490,7 +490,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "pre",
@@ -512,7 +512,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "pre",
@@ -536,7 +536,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "pre",
@@ -560,7 +560,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "pre",
@@ -584,7 +584,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "pre",
@@ -608,7 +608,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "pre",
@@ -631,7 +631,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "pre",
@@ -654,7 +654,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "pre",
@@ -677,7 +677,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "pre",
@@ -699,7 +699,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "prose",
@@ -721,7 +721,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "prose",
@@ -744,7 +744,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "dt",
@@ -766,7 +766,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "dt",
@@ -788,7 +788,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "dt",
@@ -810,7 +810,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "dt",
@@ -833,7 +833,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "dt",
@@ -857,7 +857,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "dt",
@@ -879,7 +879,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "dt",
@@ -901,7 +901,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "dt",
@@ -923,7 +923,7 @@
       "heading": {
         "id": "trusted-type-policy-factory",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-factory",
-        "title": "TrustedTypePolicyFactory",
+        "title": "TrustedTypePolicyFactoryInfo about the 'TrustedTypePolicyFactory' reference.#trustedtypepolicyfactoryReferenced in:2.3.2. TrustedTypePolicyFactory (2) (3) 3.1. Create a Trusted Type Policy 4.1. Integration with HTML 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{TrustedTypePolicyFactory}}",
         "number": "2.3.2"
       },
       "definedIn": "dt",
@@ -943,7 +943,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "heading",
@@ -965,7 +965,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "pre",
@@ -988,7 +988,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "pre",
@@ -1011,7 +1011,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "pre",
@@ -1034,7 +1034,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "pre",
@@ -1057,7 +1057,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "pre",
@@ -1080,7 +1080,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "pre",
@@ -1103,7 +1103,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "pre",
@@ -1127,7 +1127,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "pre",
@@ -1151,7 +1151,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "pre",
@@ -1173,7 +1173,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "prose",
@@ -1195,7 +1195,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "prose",
@@ -1218,7 +1218,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "dt",
@@ -1241,7 +1241,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "dt",
@@ -1264,7 +1264,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "dt",
@@ -1288,7 +1288,7 @@
       "heading": {
         "id": "trusted-type-policy",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy",
-        "title": "TrustedTypePolicy",
+        "title": "TrustedTypePolicyInfo about the 'TrustedTypePolicy' reference.#trustedtypepolicyReferenced in:2.2.1. TrustedHTML 2.2.2. TrustedScript 2.2.3. TrustedScriptURL 2.2.4. TrustedHTMLParserOptions 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.3. Get Trusted Type policy value 4.2.5. Should Trusted Type policy creation be blocked by Content Security Policy? Possible linking syntaxes:{{TrustedTypePolicy}}",
         "number": "2.3.3"
       },
       "definedIn": "dt",
@@ -1308,7 +1308,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "heading",
@@ -1330,7 +1330,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1352,7 +1352,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1374,7 +1374,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1396,7 +1396,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1416,7 +1416,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1438,7 +1438,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1460,7 +1460,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1480,7 +1480,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1502,7 +1502,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1524,7 +1524,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1544,7 +1544,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1566,7 +1566,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1588,7 +1588,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1608,7 +1608,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1630,7 +1630,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1652,7 +1652,7 @@
       "heading": {
         "id": "trusted-type-policy-options",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-type-policy-options",
-        "title": "TrustedTypePolicyOptions",
+        "title": "TrustedTypePolicyOptionsInfo about the 'TrustedTypePolicyOptions' reference.#dictdef-trustedtypepolicyoptionsReferenced in:2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 2.3.4. TrustedTypePolicyOptions 3.1. Create a Trusted Type Policy Possible linking syntaxes:{{TrustedTypePolicyOptions}}",
         "number": "2.3.4"
       },
       "definedIn": "pre",
@@ -1672,7 +1672,7 @@
       "heading": {
         "id": "default-policy-hdr",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#default-policy-hdr",
-        "title": "Default policy",
+        "title": "Default policyInfo about the 'Default policy' reference.#default-policy-explanationReferenced in:4.2.1.1. require-trusted-types-for Pre-Navigation check Possible linking syntaxes:[=default-policy-explanation=][=/default-policy-explanation=]",
         "number": "2.3.5"
       },
       "definedIn": "heading",
@@ -1692,7 +1692,7 @@
       "heading": {
         "id": "enforcement-hdr",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#enforcement-hdr",
-        "title": "Enforcement",
+        "title": "EnforcementInfo about the 'Enforcement' reference.#enforcementReferenced in:1.3. Use cases 2.1. Injection sinks 2.3. Policies (2) 2.3.5. Default policy 3.5. Get Trusted Type compliant string Possible linking syntaxes:[=Enforcement=][=/Enforcement=]",
         "number": "2.4"
       },
       "definedIn": "heading",
@@ -2099,7 +2099,7 @@
       "heading": {
         "id": "require-trusted-types-for-csp-directive",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#require-trusted-types-for-csp-directive",
-        "title": "require-trusted-types-for directive",
+        "title": "require-trusted-types-forInfo about the 'require-trusted-types-for' reference.#require-trusted-types-for-directiveReferenced in:1.3. Use cases 2.4.1. Content Security Policy 4.2.1. require-trusted-types-for directive 4.2.1.1. require-trusted-types-for Pre-Navigation check (2) Possible linking syntaxes:[=require-trusted-types-for-directive=][=/require-trusted-types-for-directive=] directive",
         "number": "4.2.1"
       },
       "definedIn": "heading",
@@ -2119,7 +2119,7 @@
       "heading": {
         "id": "require-trusted-types-for-csp-directive",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#require-trusted-types-for-csp-directive",
-        "title": "require-trusted-types-for directive",
+        "title": "require-trusted-types-forInfo about the 'require-trusted-types-for' reference.#require-trusted-types-for-directiveReferenced in:1.3. Use cases 2.4.1. Content Security Policy 4.2.1. require-trusted-types-for directive 4.2.1.1. require-trusted-types-for Pre-Navigation check (2) Possible linking syntaxes:[=require-trusted-types-for-directive=][=/require-trusted-types-for-directive=] directive",
         "number": "4.2.1"
       },
       "definedIn": "pre",
@@ -2139,7 +2139,7 @@
       "heading": {
         "id": "require-trusted-types-for-csp-directive",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#require-trusted-types-for-csp-directive",
-        "title": "require-trusted-types-for directive",
+        "title": "require-trusted-types-forInfo about the 'require-trusted-types-for' reference.#require-trusted-types-for-directiveReferenced in:1.3. Use cases 2.4.1. Content Security Policy 4.2.1. require-trusted-types-for directive 4.2.1.1. require-trusted-types-for Pre-Navigation check (2) Possible linking syntaxes:[=require-trusted-types-for-directive=][=/require-trusted-types-for-directive=] directive",
         "number": "4.2.1"
       },
       "definedIn": "pre",
@@ -2159,7 +2159,7 @@
       "heading": {
         "id": "trusted-types-csp-directive",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-types-csp-directive",
-        "title": "trusted-types directive",
+        "title": "trusted-typesInfo about the 'trusted-types' reference.#trusted-types-directiveReferenced in:1.3. Use cases 2.3.2. TrustedTypePolicyFactory 4.2.2. trusted-types directive Possible linking syntaxes:[=trusted-types-directive=][=/trusted-types-directive=] directive",
         "number": "4.2.2"
       },
       "definedIn": "heading",
@@ -2179,7 +2179,7 @@
       "heading": {
         "id": "trusted-types-csp-directive",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-types-csp-directive",
-        "title": "trusted-types directive",
+        "title": "trusted-typesInfo about the 'trusted-types' reference.#trusted-types-directiveReferenced in:1.3. Use cases 2.3.2. TrustedTypePolicyFactory 4.2.2. trusted-types directive Possible linking syntaxes:[=trusted-types-directive=][=/trusted-types-directive=] directive",
         "number": "4.2.2"
       },
       "definedIn": "pre",
@@ -2199,7 +2199,7 @@
       "heading": {
         "id": "trusted-types-csp-directive",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-types-csp-directive",
-        "title": "trusted-types directive",
+        "title": "trusted-typesInfo about the 'trusted-types' reference.#trusted-types-directiveReferenced in:1.3. Use cases 2.3.2. TrustedTypePolicyFactory 4.2.2. trusted-types directive Possible linking syntaxes:[=trusted-types-directive=][=/trusted-types-directive=] directive",
         "number": "4.2.2"
       },
       "definedIn": "pre",
@@ -2219,7 +2219,7 @@
       "heading": {
         "id": "trusted-types-csp-directive",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-types-csp-directive",
-        "title": "trusted-types directive",
+        "title": "trusted-typesInfo about the 'trusted-types' reference.#trusted-types-directiveReferenced in:1.3. Use cases 2.3.2. TrustedTypePolicyFactory 4.2.2. trusted-types directive Possible linking syntaxes:[=trusted-types-directive=][=/trusted-types-directive=] directive",
         "number": "4.2.2"
       },
       "definedIn": "pre",
@@ -2239,7 +2239,7 @@
       "heading": {
         "id": "trusted-types-csp-directive",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-types-csp-directive",
-        "title": "trusted-types directive",
+        "title": "trusted-typesInfo about the 'trusted-types' reference.#trusted-types-directiveReferenced in:1.3. Use cases 2.3.2. TrustedTypePolicyFactory 4.2.2. trusted-types directive Possible linking syntaxes:[=trusted-types-directive=][=/trusted-types-directive=] directive",
         "number": "4.2.2"
       },
       "definedIn": "pre",
@@ -2259,7 +2259,7 @@
       "heading": {
         "id": "trusted-types-csp-directive",
         "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-types-csp-directive",
-        "title": "trusted-types directive",
+        "title": "trusted-typesInfo about the 'trusted-types' reference.#trusted-types-directiveReferenced in:1.3. Use cases 2.3.2. TrustedTypePolicyFactory 4.2.2. trusted-types directive Possible linking syntaxes:[=trusted-types-directive=][=/trusted-types-directive=] directive",
         "number": "4.2.2"
       },
       "definedIn": "pre",

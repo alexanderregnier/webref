@@ -27,46 +27,46 @@ interface TrustedHTMLParserOptions {
 
 [Exposed=(Window,Worker)] interface TrustedTypePolicyFactory {
     TrustedTypePolicy createPolicy(
-        DOMString policyName, optional TrustedTypePolicyOptions policyOptions = {});
-    boolean isHTML(any value);
-    boolean isScript(any value);
-    boolean isScriptURL(any value);
+        DOMString policyNameInfo about the 'policyName'  reference.#dom-trustedtypepolicyfactory-createpolicy-policyname-policyoptions-policynamePossible linking syntaxes:{{TrustedTypePolicyFactory/createPolicy(policyName/policyName}}{{policyOptions)/policyName}}{{TrustedTypePolicyFactory/createPolicy(policyName)/policyName}}, optional TrustedTypePolicyOptions policyOptionsInfo about the 'policyOptions'  reference.#dom-trustedtypepolicyfactory-createpolicy-policyname-policyoptions-policyoptionsPossible linking syntaxes:{{TrustedTypePolicyFactory/createPolicy(policyName/policyOptions}}{{policyOptions)/policyOptions}}{{TrustedTypePolicyFactory/createPolicy(policyName)/policyOptions}} = {});
+    boolean isHTML(any valueInfo about the 'value'  reference.#dom-trustedtypepolicyfactory-ishtml-value-valuePossible linking syntaxes:{{TrustedTypePolicyFactory/isHTML(value)/value}});
+    boolean isScript(any valueInfo about the 'value'  reference.#dom-trustedtypepolicyfactory-isscript-value-valuePossible linking syntaxes:{{TrustedTypePolicyFactory/isScript(value)/value}});
+    boolean isScriptURL(any valueInfo about the 'value'  reference.#dom-trustedtypepolicyfactory-isscripturl-value-valuePossible linking syntaxes:{{TrustedTypePolicyFactory/isScriptURL(value)/value}});
     readonly attribute TrustedHTML emptyHTML;
     readonly attribute TrustedScript emptyScript;
     DOMString? getAttributeType(
-        DOMString tagName,
-        DOMString attribute,
-        optional DOMString? elementNs = "",
-        optional DOMString? attrNs = "");
+        DOMString tagNameInfo about the 'tagName'  reference.#dom-trustedtypepolicyfactory-getattributetype-tagname-attribute-elementns-attrns-tagnamePossible linking syntaxes:{{TrustedTypePolicyFactory/getAttributeType(tagName/tagName}}{{attribute/tagName}}{{elementNs/tagName}}{{attrNs)/tagName}}{{TrustedTypePolicyFactory/getAttributeType(tagName/tagName}}{{attribute/tagName}}{{elementNs)/tagName}}{{TrustedTypePolicyFactory/getAttributeType(tagName/tagName}}{{attribute)/tagName}},
+        DOMString attributeInfo about the 'attribute'  reference.#dom-trustedtypepolicyfactory-getattributetype-tagname-attribute-elementns-attrns-attributePossible linking syntaxes:{{TrustedTypePolicyFactory/getAttributeType(tagName/attribute}}{{attribute/attribute}}{{elementNs/attribute}}{{attrNs)/attribute}}{{TrustedTypePolicyFactory/getAttributeType(tagName/attribute}}{{attribute/attribute}}{{elementNs)/attribute}}{{TrustedTypePolicyFactory/getAttributeType(tagName/attribute}}{{attribute)/attribute}},
+        optional DOMString? elementNsInfo about the 'elementNs'  reference.#dom-trustedtypepolicyfactory-getattributetype-tagname-attribute-elementns-attrns-elementnsPossible linking syntaxes:{{TrustedTypePolicyFactory/getAttributeType(tagName/elementNs}}{{attribute/elementNs}}{{elementNs/elementNs}}{{attrNs)/elementNs}}{{TrustedTypePolicyFactory/getAttributeType(tagName/elementNs}}{{attribute/elementNs}}{{elementNs)/elementNs}}{{TrustedTypePolicyFactory/getAttributeType(tagName/elementNs}}{{attribute)/elementNs}} = "",
+        optional DOMString? attrNsInfo about the 'attrNs'  reference.#dom-trustedtypepolicyfactory-getattributetype-tagname-attribute-elementns-attrns-attrnsPossible linking syntaxes:{{TrustedTypePolicyFactory/getAttributeType(tagName/attrNs}}{{attribute/attrNs}}{{elementNs/attrNs}}{{attrNs)/attrNs}}{{TrustedTypePolicyFactory/getAttributeType(tagName/attrNs}}{{attribute/attrNs}}{{elementNs)/attrNs}}{{TrustedTypePolicyFactory/getAttributeType(tagName/attrNs}}{{attribute)/attrNs}} = "");
     DOMString? getPropertyType(
-        DOMString tagName,
-        DOMString property,
-        optional DOMString? elementNs = "");
+        DOMString tagNameInfo about the 'tagName'  reference.#dom-trustedtypepolicyfactory-getpropertytype-tagname-property-elementns-tagnamePossible linking syntaxes:{{TrustedTypePolicyFactory/getPropertyType(tagName/tagName}}{{property/tagName}}{{elementNs)/tagName}}{{TrustedTypePolicyFactory/getPropertyType(tagName/tagName}}{{property)/tagName}},
+        DOMString propertyInfo about the 'property'  reference.#dom-trustedtypepolicyfactory-getpropertytype-tagname-property-elementns-propertyPossible linking syntaxes:{{TrustedTypePolicyFactory/getPropertyType(tagName/property}}{{property/property}}{{elementNs)/property}}{{TrustedTypePolicyFactory/getPropertyType(tagName/property}}{{property)/property}},
+        optional DOMString? elementNsInfo about the 'elementNs'  reference.#dom-trustedtypepolicyfactory-getpropertytype-tagname-property-elementns-elementnsPossible linking syntaxes:{{TrustedTypePolicyFactory/getPropertyType(tagName/elementNs}}{{property/elementNs}}{{elementNs)/elementNs}}{{TrustedTypePolicyFactory/getPropertyType(tagName/elementNs}}{{property)/elementNs}} = "");
     readonly attribute TrustedTypePolicy? defaultPolicy;
 };
 
 [Exposed=(Window,Worker)]
 interface TrustedTypePolicy {
-  readonly attribute DOMString name;
-  TrustedHTML createHTML(DOMString input, any... arguments);
-  TrustedScript createScript(DOMString input, any... arguments);
-  TrustedScriptURL createScriptURL(DOMString input, any... arguments);
-  [Exposed=Window] TrustedHTMLParserOptions createParserOptions(optional SetHTMLUnsafeOptions options = {}, any... arguments);
+  readonly attribute DOMString nameInfo about the 'name'  reference.#dom-trustedtypepolicy-namePossible linking syntaxes:{{TrustedTypePolicy/name}};
+  TrustedHTML createHTML(DOMString inputInfo about the 'input'  reference.#dom-trustedtypepolicy-createhtml-input-arguments-inputPossible linking syntaxes:{{TrustedTypePolicy/createHTML(input/input}}{{...arguments)/input}}{{TrustedTypePolicy/createHTML(input)/input}}, any... argumentsInfo about the 'arguments'  reference.#dom-trustedtypepolicy-createhtml-input-arguments-argumentsPossible linking syntaxes:{{TrustedTypePolicy/createHTML(input/arguments}}{{...arguments)/arguments}}{{TrustedTypePolicy/createHTML(input)/arguments}});
+  TrustedScript createScript(DOMString inputInfo about the 'input'  reference.#dom-trustedtypepolicy-createscript-input-arguments-inputPossible linking syntaxes:{{TrustedTypePolicy/createScript(input/input}}{{...arguments)/input}}{{TrustedTypePolicy/createScript(input)/input}}, any... argumentsInfo about the 'arguments'  reference.#dom-trustedtypepolicy-createscript-input-arguments-argumentsPossible linking syntaxes:{{TrustedTypePolicy/createScript(input/arguments}}{{...arguments)/arguments}}{{TrustedTypePolicy/createScript(input)/arguments}});
+  TrustedScriptURL createScriptURL(DOMString inputInfo about the 'input'  reference.#dom-trustedtypepolicy-createscripturl-input-arguments-inputPossible linking syntaxes:{{TrustedTypePolicy/createScriptURL(input/input}}{{...arguments)/input}}{{TrustedTypePolicy/createScriptURL(input)/input}}, any... argumentsInfo about the 'arguments'  reference.#dom-trustedtypepolicy-createscripturl-input-arguments-argumentsPossible linking syntaxes:{{TrustedTypePolicy/createScriptURL(input/arguments}}{{...arguments)/arguments}}{{TrustedTypePolicy/createScriptURL(input)/arguments}});
+  [Exposed=Window] TrustedHTMLParserOptions createParserOptions(optional SetHTMLUnsafeOptions optionsInfo about the 'options'  reference.#dom-trustedtypepolicy-createparseroptions-options-arguments-optionsPossible linking syntaxes:{{TrustedTypePolicy/createParserOptions(options/options}}{{...arguments)/options}}{{TrustedTypePolicy/createParserOptions(options)/options}}{{TrustedTypePolicy/createParserOptions()/options}} = {}, any... argumentsInfo about the 'arguments'  reference.#dom-trustedtypepolicy-createparseroptions-options-arguments-argumentsPossible linking syntaxes:{{TrustedTypePolicy/createParserOptions(options/arguments}}{{...arguments)/arguments}}{{TrustedTypePolicy/createParserOptions(options)/arguments}}{{TrustedTypePolicy/createParserOptions()/arguments}});
 };
 
 dictionary TrustedTypePolicyOptions {
-   CreateHTMLCallback createHTML;
-   CreateScriptCallback createScript;
-   CreateScriptURLCallback createScriptURL;
-   CreateParserOptionsCallback createParserOptions;
+   CreateHTMLCallback createHTMLInfo about the 'createHTML'  reference.#dom-trustedtypepolicyoptions-createhtmlReferenced in:2.3.1. Using together with a sanitizer (2) 2.4.2. Sanitization enforcement with createParserOptions 2.4.3. Summary of input enforcement (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13) (14) 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.6. Get Trusted Type compliant parser options Possible linking syntaxes:{{TrustedTypePolicyOptions/createHTML}};
+   CreateScriptCallback createScriptInfo about the 'createScript'  reference.#dom-trustedtypepolicyoptions-createscriptReferenced in:3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type Possible linking syntaxes:{{TrustedTypePolicyOptions/createScript}};
+   CreateScriptURLCallback createScriptURLInfo about the 'createScriptURL'  reference.#dom-trustedtypepolicyoptions-createscripturlReferenced in:3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type Possible linking syntaxes:{{TrustedTypePolicyOptions/createScriptURL}};
+   CreateParserOptionsCallback createParserOptionsInfo about the 'createParserOptions'  reference.#dom-trustedtypepolicyoptions-createparseroptionsReferenced in:2.3.1. Using together with a sanitizer (2) 2.4.3. Summary of input enforcement (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13) (14) (15) (16) (17) (18) (19) (20) 3.1. Create a Trusted Type Policy 3.2. Create a Trusted Type 3.6. Get Trusted Type compliant parser options (2) (3) (4) 5.4. Best practices for policy design (2) (3) Possible linking syntaxes:{{TrustedTypePolicyOptions/createParserOptions}};
 };
-callback CreateHTMLCallback = DOMString? (DOMString input, any... arguments);
-callback CreateScriptCallback = DOMString? (DOMString input, any... arguments);
-callback CreateScriptURLCallback = USVString? (DOMString input, any... arguments);
-callback CreateParserOptionsCallback = SetHTMLUnsafeOptions? (SetHTMLUnsafeOptions options, any... arguments);
+callback CreateHTMLCallbackInfo about the 'CreateHTMLCallback'  reference.#callbackdef-createhtmlcallbackReferenced in:2.3.4. TrustedTypePolicyOptions Possible linking syntaxes:{{CreateHTMLCallback}} = DOMString? (DOMString inputInfo about the 'input'  reference.#dom-createhtmlcallback-inputPossible linking syntaxes:{{CreateHTMLCallback/input}}, any... argumentsInfo about the 'arguments'  reference.#dom-createhtmlcallback-argumentsPossible linking syntaxes:{{CreateHTMLCallback/arguments}});
+callback CreateScriptCallbackInfo about the 'CreateScriptCallback'  reference.#callbackdef-createscriptcallbackReferenced in:2.3.4. TrustedTypePolicyOptions Possible linking syntaxes:{{CreateScriptCallback}} = DOMString? (DOMString inputInfo about the 'input'  reference.#dom-createscriptcallback-inputPossible linking syntaxes:{{CreateScriptCallback/input}}, any... argumentsInfo about the 'arguments'  reference.#dom-createscriptcallback-argumentsPossible linking syntaxes:{{CreateScriptCallback/arguments}});
+callback CreateScriptURLCallbackInfo about the 'CreateScriptURLCallback'  reference.#callbackdef-createscripturlcallbackReferenced in:2.3.4. TrustedTypePolicyOptions Possible linking syntaxes:{{CreateScriptURLCallback}} = USVString? (DOMString inputInfo about the 'input'  reference.#dom-createscripturlcallback-inputPossible linking syntaxes:{{CreateScriptURLCallback/input}}, any... argumentsInfo about the 'arguments'  reference.#dom-createscripturlcallback-argumentsPossible linking syntaxes:{{CreateScriptURLCallback/arguments}});
+callback CreateParserOptionsCallbackInfo about the 'CreateParserOptionsCallback'  reference.#callbackdef-createparseroptionscallbackReferenced in:2.3.4. TrustedTypePolicyOptions Possible linking syntaxes:{{CreateParserOptionsCallback}} = SetHTMLUnsafeOptions? (SetHTMLUnsafeOptions optionsInfo about the 'options'  reference.#dom-createparseroptionscallback-optionsPossible linking syntaxes:{{CreateParserOptionsCallback/options}}, any... argumentsInfo about the 'arguments'  reference.#dom-createparseroptionscallback-argumentsPossible linking syntaxes:{{CreateParserOptionsCallback/arguments}});
 
-typedef (TrustedHTML or TrustedScript or TrustedScriptURL) TrustedType;
+typedef (TrustedHTML or TrustedScript or TrustedScriptURL) TrustedTypeInfo about the 'TrustedType'  reference.#typedefdef-trustedtypeReferenced in:3.5. Get Trusted Type compliant string (2) 3.7. Process value with a default policy (2) 3.9. Get Trusted Type compliant attribute value Possible linking syntaxes:{{TrustedType}};
 
 partial interface mixin WindowOrWorkerGlobalScope {
-  readonly attribute TrustedTypePolicyFactory trustedTypes;
+  readonly attribute TrustedTypePolicyFactory trustedTypesInfo about the 'trustedTypes'  reference.#dom-windoworworkerglobalscope-trustedtypesReferenced in:2.4. Enforcement 4.1.1. Extensions to the WindowOrWorkerGlobalScope interface Possible linking syntaxes:{{WindowOrWorkerGlobalScope/trustedTypes}};
 };
