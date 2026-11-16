@@ -38,6 +38,13 @@
         ]
       },
       "https://www.w3.org/TR/vc-recognized-entities-1.0/": {},
+      "https://www.w3.org/TR/vc-recognized-entities-threat-model-1.0/": {
+        "anchors": [
+          "privacy-leakage-via-list-fetch",
+          "stale-recognition-acceptance",
+          "unvetted-recognized-entity-credential-propagation"
+        ]
+      },
       "https://www.w3.org/TR/vc-use-cases/": {
         "anchors": [
           "chain-of-gs1-credentials-to-identify-a-trade-item"
