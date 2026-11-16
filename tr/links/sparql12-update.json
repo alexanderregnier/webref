@@ -64,7 +64,8 @@
           "BGPsparqlBNodes",
           "rUsingClause",
           "dfn-sparql-update-string",
-          "grammar"
+          "grammar",
+          "versionLabels"
         ]
       },
       "https://www.w3.org/TR/sparql12-results-csv-tsv/": {},
