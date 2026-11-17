@@ -68,8 +68,8 @@
           "url-rendering-simplification"
         ]
       },
-      "https://www.iana.org/assignments/http-fields/": {},
       "https://www.iana.org/assignments/http-fields/http-fields.xhtml": {},
+      "https://www.iana.org/assignments/no-vary-search/": {},
       "https://www.rfc-editor.org/rfc/rfc2119": {},
       "https://www.rfc-editor.org/rfc/rfc3986": {},
       "https://www.rfc-editor.org/rfc/rfc6454": {},

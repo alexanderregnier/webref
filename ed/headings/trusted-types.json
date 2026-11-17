@@ -98,14 +98,14 @@
       "id": "trusted-script",
       "href": "https://w3c.github.io/trusted-types/dist/spec/#trusted-script",
       "level": 4,
-      "title": "TrustedScriptInfo about the 'TrustedScript' reference.#trustedscriptReferenced in:2.2.2. TrustedScript 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) (6) (7) 2.3.3. TrustedTypePolicy 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute 4. Integrations 4.2.1.1. require-trusted-types-for Pre-Navigation check (2) Possible linking syntaxes:{{TrustedScript}}",
+      "title": "TrustedScriptInfo about the 'TrustedScript' reference.#trustedscriptReferenced in:2.2.2. TrustedScript 2.3.2. TrustedTypePolicyFactory (2) (3) (4) (5) (6) (7) 2.3.3. TrustedTypePolicy 3.8. Prepare the script text 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute 4. Integrations 4.2.1.1. require-trusted-types-for Pre-Navigation check (2) Possible linking syntaxes:{{TrustedScript}}",
       "number": "2.2.2"
     },
     {
       "id": "trused-script-url",
       "href": "https://w3c.github.io/trusted-types/dist/spec/#trused-script-url",
       "level": 4,
-      "title": "TrustedScriptURLInfo about the 'TrustedScriptURL' reference.#trustedscripturlReferenced in:2.2.3. TrustedScriptURL 2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 3.8. Prepare the script text 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute (2) (3) 4. Integrations Possible linking syntaxes:{{TrustedScriptURL}}",
+      "title": "TrustedScriptURLInfo about the 'TrustedScriptURL' reference.#trustedscripturlReferenced in:2.2.3. TrustedScriptURL 2.3.2. TrustedTypePolicyFactory (2) 2.3.3. TrustedTypePolicy 3.9. Get Trusted Type compliant attribute value 3.10. Get Trusted Type data for attribute (2) (3) 4. Integrations Possible linking syntaxes:{{TrustedScriptURL}}",
       "number": "2.2.3"
     },
     {
