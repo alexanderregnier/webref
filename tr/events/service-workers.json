@@ -10,7 +10,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/service-workers/#eventdef-serviceworker-statechange"
       },
-      "type": "statechange",
+      "type": "statechangeInfo about the 'statechange'  reference.#eventdef-serviceworker-statechangeReferenced in:3.1.6. Event handler Update Worker State Possible linking syntaxes:{{ServiceWorker/statechange}}",
       "targets": [
         "ServiceWorker"
       ],
@@ -22,7 +22,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/service-workers/#service-worker-registration-updatefound-event"
       },
-      "type": "updatefound",
+      "type": "updatefoundInfo about the 'updatefound'  reference.#service-worker-registration-updatefound-eventReferenced in:3.2.10. Event handler Possible linking syntaxes:{{ServiceWorkerRegistration/updatefound}}",
       "targets": [
         "ServiceWorkerRegistration"
       ],
@@ -34,7 +34,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/service-workers/#service-worker-container-controllerchange-event"
       },
-      "type": "controllerchange",
+      "type": "controllerchangeInfo about the 'controllerchange'  reference.#service-worker-container-controllerchange-eventReferenced in:3.4.7. Event handlers Possible linking syntaxes:{{ServiceWorkerContainer/controllerchange}}",
       "targets": [
         "ServiceWorkerContainer"
       ],
@@ -46,7 +46,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/service-workers/#service-worker-container-message-event"
       },
-      "type": "message",
+      "type": "messageInfo about the 'message'  reference.#service-worker-container-message-eventReferenced in:3.4.7. Event handlers Possible linking syntaxes:{{ServiceWorkerContainer/message}}",
       "targets": [
         "ServiceWorkerContainer"
       ],
@@ -58,7 +58,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/service-workers/#service-worker-container-messageerror-event"
       },
-      "type": "messageerror",
+      "type": "messageerrorInfo about the 'messageerror'  reference.#service-worker-container-messageerror-eventReferenced in:3.4.7. Event handlers 4.2.6. postMessage(message, options) Possible linking syntaxes:{{ServiceWorkerContainer/messageerror}}",
       "targets": [
         "ServiceWorkerContainer"
       ],
@@ -70,7 +70,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/service-workers/#service-worker-global-scope-install-event"
       },
-      "type": "install",
+      "type": "installInfo about the 'install'  reference.#service-worker-global-scope-install-eventReferenced in:2.1.2. Events 4.1.5. Event handlers 4.4. ExtendableEvent (2) (3) Install Possible linking syntaxes:{{ServiceWorkerGlobalScope/install}}",
       "targets": [
         "ServiceWorkerGlobalScope"
       ],
@@ -82,7 +82,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/service-workers/#service-worker-global-scope-activate-event"
       },
-      "type": "activate",
+      "type": "activateInfo about the 'activate'  reference.#service-worker-global-scope-activate-eventReferenced in:2.1.2. Events 4.1.5. Event handlers 4.4. ExtendableEvent (2) (3) Activate Possible linking syntaxes:{{ServiceWorkerGlobalScope/activate}}",
       "targets": [
         "ServiceWorkerGlobalScope"
       ],
@@ -94,7 +94,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/service-workers/#service-worker-global-scope-fetch-event"
       },
-      "type": "fetch",
+      "type": "fetchInfo about the 'fetch'  reference.#service-worker-global-scope-fetch-eventReferenced in:2.1.2. Events 2.6. Task Sources 4.1.5. Event handlers 4.5.1. event.addRoutes(rules) 4.6. FetchEvent (2) 6.7. Implementer Concerns Create Fetch Event and Dispatch Possible linking syntaxes:{{ServiceWorkerGlobalScope/fetch}}",
       "targets": [
         "ServiceWorkerGlobalScope"
       ],
@@ -161,7 +161,7 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/service-workers/#eventdef-serviceworkerglobalscope-message"
       },
-      "type": "message",
+      "type": "messageInfo about the 'message'  reference.#eventdef-serviceworkerglobalscope-messageReferenced in:2.1.2. Events 3.1.5. postMessage(message, options) 4.1.5. Event handlers 4.7. ExtendableMessageEvent (2) Possible linking syntaxes:{{ServiceWorkerGlobalScope/message}}",
       "targets": [
         "ServiceWorkerGlobalScope"
       ],
@@ -173,11 +173,124 @@
         "format": "summary table",
         "href": "https://www.w3.org/TR/service-workers/#eventdef-serviceworkerglobalscope-messageerror"
       },
-      "type": "messageerror",
+      "type": "messageerrorInfo about the 'messageerror'  reference.#eventdef-serviceworkerglobalscope-messageerrorReferenced in:2.1.2. Events 3.1.5. postMessage(message, options) 4.1.5. Event handlers Possible linking syntaxes:{{ServiceWorkerGlobalScope/messageerror}}",
       "targets": [
         "ServiceWorkerGlobalScope"
       ],
       "interface": "ExtendableMessageEvent"
+    },
+    {
+      "src": {
+        "format": "fire an event phrasing",
+        "href": "https://www.w3.org/TR/service-workers/#ref-for-concept-event-fire"
+      },
+      "href": "https://www.w3.org/TR/service-workers/#service-worker-container-messageerror-event",
+      "type": "messageerror",
+      "targets": [
+        "ServiceWorkerContainer"
+      ],
+      "interface": "MessageEvent"
+    },
+    {
+      "src": {
+        "format": "fire an event phrasing",
+        "href": "https://www.w3.org/TR/service-workers/#ref-for-concept-event-fire%E2%91%A1"
+      },
+      "href": "https://www.w3.org/TR/service-workers/#eventdef-serviceworker-statechange",
+      "type": "statechange",
+      "targets": [
+        "ServiceWorker"
+      ],
+      "interface": "Event"
+    },
+    {
+      "src": {
+        "format": "fire an event phrasing",
+        "href": "https://www.w3.org/TR/service-workers/#ref-for-concept-event-fire%E2%91%A2"
+      },
+      "href": "https://www.w3.org/TR/service-workers/#ref-for-concept-event-fire%E2%91%A2",
+      "type": "controllerchange",
+      "targets": [
+        "ServiceWorkerContainer"
+      ],
+      "interface": "Event"
+    },
+    {
+      "type": "updatefound",
+      "targets": [
+        "ServiceWorkerRegistration"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://www.w3.org/TR/service-workers/#service-worker-registration-updatefound-event"
+      },
+      "href": "https://www.w3.org/TR/service-workers/#service-worker-registration-updatefound-event"
+    },
+    {
+      "type": "message",
+      "targets": [
+        "ServiceWorkerContainer"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://www.w3.org/TR/service-workers/#service-worker-container-message-event"
+      },
+      "href": "https://www.w3.org/TR/service-workers/#service-worker-container-message-event"
+    },
+    {
+      "type": "install",
+      "targets": [
+        "ServiceWorkerGlobalScope"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://www.w3.org/TR/service-workers/#service-worker-global-scope-install-event"
+      },
+      "href": "https://www.w3.org/TR/service-workers/#service-worker-global-scope-install-event"
+    },
+    {
+      "type": "activate",
+      "targets": [
+        "ServiceWorkerGlobalScope"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://www.w3.org/TR/service-workers/#service-worker-global-scope-activate-event"
+      },
+      "href": "https://www.w3.org/TR/service-workers/#service-worker-global-scope-activate-event"
+    },
+    {
+      "type": "fetch",
+      "targets": [
+        "ServiceWorkerGlobalScope"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://www.w3.org/TR/service-workers/#service-worker-global-scope-fetch-event"
+      },
+      "href": "https://www.w3.org/TR/service-workers/#service-worker-global-scope-fetch-event"
+    },
+    {
+      "type": "message",
+      "targets": [
+        "ServiceWorkerGlobalScope"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://www.w3.org/TR/service-workers/#eventdef-serviceworkerglobalscope-message"
+      },
+      "href": "https://www.w3.org/TR/service-workers/#eventdef-serviceworkerglobalscope-message"
+    },
+    {
+      "type": "messageerror",
+      "targets": [
+        "ServiceWorkerGlobalScope"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://www.w3.org/TR/service-workers/#eventdef-serviceworkerglobalscope-messageerror"
+      },
+      "href": "https://www.w3.org/TR/service-workers/#eventdef-serviceworkerglobalscope-messageerror"
     }
   ]
 }

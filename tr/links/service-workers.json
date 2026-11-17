@@ -85,7 +85,6 @@
           "fire-a-sync-event"
         ]
       },
-      "https://wicg.github.io/csp-next/scripting-policy.html": {},
       "https://wicg.github.io/page-lifecycle/": {},
       "https://www.rfc-editor.org/info/rfc5234/": {},
       "https://www.w3.org/2001/tag/doc/unsanctioned-tracking/": {},
@@ -100,7 +99,6 @@
       "https://www.w3.org/TR/hr-time-3/": {},
       "https://www.w3.org/TR/navigation-timing-2/": {},
       "https://www.w3.org/TR/resource-timing/": {},
-      "https://www.w3.org/TR/screen-capture/": {},
       "https://www.w3.org/TR/secure-contexts/": {},
       "https://www.w3.org/TR/trusted-types/": {},
       "https://www.w3.org/groups/wg/webapps": {},
@@ -282,6 +280,7 @@
       },
       "https://html.spec.whatwg.org/multipage/dom.html": {
         "anchors": [
+          "documentvisibilitystate",
           "concept-document-ancestor-origins-list"
         ]
       },
@@ -608,11 +607,6 @@
           "resolve"
         ]
       },
-      "https://wicg.github.io/csp-next/scripting-policy.html": {
-        "anchors": [
-          "scripting-policy-pair-enforced"
-        ]
-      },
       "https://wicg.github.io/page-lifecycle/": {
         "anchors": [
           "discarded"
@@ -644,11 +638,6 @@
       "https://www.w3.org/TR/resource-timing/": {
         "anchors": [
           "performanceresourcetiming"
-        ]
-      },
-      "https://www.w3.org/TR/screen-capture/": {
-        "anchors": [
-          "dfn-monitor"
         ]
       },
       "https://www.w3.org/TR/secure-contexts/": {
