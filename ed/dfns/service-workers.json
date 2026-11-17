@@ -7498,7 +7498,7 @@
       "heading": {
         "id": "create-job-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#create-job-algorithm",
-        "title": "Create Job"
+        "title": "Create JobInfo about the 'Create Job' reference.#create-jobReferenced in:3.2.8. update() 3.2.9. unregister() Start Register Soft Update Possible linking syntaxes:[=Create Job=][=/Create Job=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7517,7 +7517,7 @@
       "heading": {
         "id": "schedule-job-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#schedule-job-algorithm",
-        "title": "Schedule Job"
+        "title": "Schedule JobInfo about the 'Schedule Job' reference.#schedule-jobReferenced in:3.2.8. update() 3.2.9. unregister() Start Register Soft Update Possible linking syntaxes:[=Schedule Job=][=/Schedule Job=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7536,7 +7536,7 @@
       "heading": {
         "id": "run-job-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#run-job-algorithm",
-        "title": "Run Job"
+        "title": "Run JobInfo about the 'Run Job' reference.#run-jobReferenced in:Schedule Job Finish Job Possible linking syntaxes:[=Run Job=][=/Run Job=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7555,7 +7555,7 @@
       "heading": {
         "id": "finish-job-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#finish-job-algorithm",
-        "title": "Finish Job"
+        "title": "Finish JobInfo about the 'Finish Job' reference.#finish-jobReferenced in:Register (2) (3) (4) Update (2) (3) (4) (5) Install (2) Unregister (2) Possible linking syntaxes:[=Finish Job=][=/Finish Job=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7574,7 +7574,7 @@
       "heading": {
         "id": "resolve-job-promise-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#resolve-job-promise-algorithm",
-        "title": "Resolve Job Promise"
+        "title": "Resolve Job PromiseInfo about the 'Resolve Job Promise' reference.#resolve-job-promiseReferenced in:Register Update Install Unregister (2) Possible linking syntaxes:[=Resolve Job Promise=][=/Resolve Job Promise=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7593,7 +7593,7 @@
       "heading": {
         "id": "reject-job-promise-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#reject-job-promise-algorithm",
-        "title": "Reject Job Promise"
+        "title": "Reject Job PromiseInfo about the 'Reject Job Promise' reference.#reject-job-promiseReferenced in:Register (2) (3) Update (2) (3) (4) (5) (6) (7) Possible linking syntaxes:[=Reject Job Promise=][=/Reject Job Promise=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7612,7 +7612,7 @@
       "heading": {
         "id": "start-register-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#start-register-algorithm",
-        "title": "Start Register"
+        "title": "Start RegisterInfo about the 'Start Register' reference.#start-registerReferenced in:3.4.3. register(scriptURL, options) Possible linking syntaxes:[=Start Register=][=/Start Register=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7631,7 +7631,7 @@
       "heading": {
         "id": "register-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#register-algorithm",
-        "title": "Register"
+        "title": "RegisterInfo about the 'Register' reference.#registerReferenced in:2.3.1. Lifetime 4.1. ServiceWorkerGlobalScope Run Job Possible linking syntaxes:[=Register=][=/Register=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7650,7 +7650,7 @@
       "heading": {
         "id": "update-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#update-algorithm",
-        "title": "Update"
+        "title": "UpdateInfo about the 'Update' reference.#updateReferenced in:Run Job Register Update Possible linking syntaxes:[=Update=][=/Update=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7669,7 +7669,7 @@
       "heading": {
         "id": "soft-update-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#soft-update-algorithm",
-        "title": "Soft Update"
+        "title": "Soft UpdateInfo about the 'Soft Update' reference.#soft-updateReferenced in:Update Request Soft Update Handle Fetch (2) (3) Create Fetch Event and Dispatch (2) (3) Fire Functional Event (2) (3) Possible linking syntaxes:[=Soft Update=][=/Soft Update=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7688,7 +7688,7 @@
       "heading": {
         "id": "request-soft-update-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#request-soft-update-algorithm",
-        "title": "Request Soft Update"
+        "title": "Request Soft UpdateInfo about the 'Request Soft Update' reference.#request-soft-updatePossible linking syntaxes:[=Request Soft Update=][=/Request Soft Update=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7707,7 +7707,7 @@
       "heading": {
         "id": "installation-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#installation-algorithm",
-        "title": "Install"
+        "title": "InstallInfo about the 'Install' reference.#installReferenced in:3.5. Events 4.8. Events Update Possible linking syntaxes:[=Install=][=/Install=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7726,7 +7726,7 @@
       "heading": {
         "id": "activation-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#activation-algorithm",
-        "title": "Activate"
+        "title": "ActivateInfo about the 'Activate' reference.#activateReferenced in:3.5. Events (2) 4.8. Events Install (2) Try Activate Handle User Agent Shutdown Possible linking syntaxes:[=Activate=][=/Activate=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7745,7 +7745,7 @@
       "heading": {
         "id": "try-activate-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#try-activate-algorithm",
-        "title": "Try Activate"
+        "title": "Try ActivateInfo about the 'Try Activate' reference.#try-activateReferenced in:4.1.4. skipWaiting() 4.4. ExtendableEvent Install (2) Handle Service Worker Client Unload Possible linking syntaxes:[=Try Activate=][=/Try Activate=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7764,7 +7764,7 @@
       "heading": {
         "id": "setup-serviceworkerglobalscope-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#setup-serviceworkerglobalscope-algorithm",
-        "title": "Setup ServiceWorkerGlobalScope"
+        "title": "Setup ServiceWorkerGlobalScopeInfo about the 'Setup ServiceWorkerGlobalScope' reference.#setup-serviceworkerglobalscopeReferenced in:Run Service Worker Handle Fetch Possible linking syntaxes:[=Setup ServiceWorkerGlobalScope=][=/Setup ServiceWorkerGlobalScope=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7783,7 +7783,7 @@
       "heading": {
         "id": "run-service-worker-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#run-service-worker-algorithm",
-        "title": "Run Service Worker"
+        "title": "Run Service WorkerInfo about the 'Run Service Worker' reference.#run-service-workerReferenced in:3.1.5. postMessage(message, options) 6.2. Content Security Policy Update (2) Install Activate Setup ServiceWorkerGlobalScope Create Fetch Event and Dispatch (2) Fire Functional Event Possible linking syntaxes:[=Run Service Worker=][=/Run Service Worker=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7802,7 +7802,7 @@
       "heading": {
         "id": "all-fetch-listeners-are-empty-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#all-fetch-listeners-are-empty-algorithm",
-        "title": "All Fetch Listeners Are Empty"
+        "title": "All Fetch Listeners Are EmptyInfo about the 'All Fetch Listeners Are Empty' reference.#all-fetch-listeners-are-emptyReferenced in:Run Service Worker Possible linking syntaxes:[=All Fetch Listeners Are Empty=][=/All Fetch Listeners Are Empty=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7821,7 +7821,7 @@
       "heading": {
         "id": "terminate-service-worker-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#terminate-service-worker-algorithm",
-        "title": "Terminate Service Worker"
+        "title": "Terminate Service WorkerInfo about the 'Terminate Service Worker' reference.#terminate-service-workerReferenced in:2.1.1. Lifetime 2.3. Service Worker Registration 4.4. ExtendableEvent Install Activate Run Service Worker Handle Service Worker Client Unload Clear Registration (2) (3) Possible linking syntaxes:[=Terminate Service Worker=][=/Terminate Service Worker=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7840,7 +7840,7 @@
       "heading": {
         "id": "on-fetch-request-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#on-fetch-request-algorithm",
-        "title": "Handle Fetch"
+        "title": "Handle FetchInfo about the 'Handle Fetch' reference.#handle-fetchReferenced in:3.4.3. register(scriptURL, options) 4.6.7. event.respondWith(r) (2) 4.8. Events (2) 6.7. Implementer Concerns Handle Fetch Possible linking syntaxes:[=Handle Fetch=][=/Handle Fetch=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7859,7 +7859,7 @@
       "heading": {
         "id": "create-fetch-event-and-dispatch-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#create-fetch-event-and-dispatch-algorithm",
-        "title": "Create Fetch Event and Dispatch"
+        "title": "Create Fetch Event and DispatchInfo about the 'Create Fetch Event and Dispatch' reference.#create-fetch-event-and-dispatchReferenced in:Handle Fetch (2) Possible linking syntaxes:[=Create Fetch Event and Dispatch=][=/Create Fetch Event and Dispatch=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7878,7 +7878,7 @@
       "heading": {
         "id": "parse-urlpattern-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#parse-urlpattern-algorithm",
-        "title": "Parse URL Pattern"
+        "title": "Parse URL PatternInfo about the 'Parse URL Pattern' reference.#parse-url-patternReferenced in:Verify Router Condition Match Router Condition Possible linking syntaxes:[=Parse URL Pattern=][=/Parse URL Pattern=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7897,7 +7897,7 @@
       "heading": {
         "id": "verify-router-rule-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#verify-router-rule-algorithm",
-        "title": "Verify Router Condition"
+        "title": "Verify Router ConditionInfo about the 'Verify Router Condition' reference.#verify-router-conditionReferenced in:4.5.1. event.addRoutes(rules) Verify Router Condition (2) Match Router Condition Possible linking syntaxes:[=Verify Router Condition=][=/Verify Router Condition=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7916,7 +7916,7 @@
       "heading": {
         "id": "match-router-condition-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#match-router-condition-algorithm",
-        "title": "Match Router Condition"
+        "title": "Match Router ConditionInfo about the 'Match Router Condition' reference.#match-router-conditionReferenced in:Match Router Condition (2) Get Router Source Possible linking syntaxes:[=Match Router Condition=][=/Match Router Condition=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7935,7 +7935,7 @@
       "heading": {
         "id": "check-router-registration-limit-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#check-router-registration-limit-algorithm",
-        "title": "Check Router Registration Limit"
+        "title": "Check Router Registration LimitInfo about the 'Check Router Registration Limit' reference.#check-router-registration-limitReferenced in:4.5.1. event.addRoutes(rules) Possible linking syntaxes:[=Check Router Registration Limit=][=/Check Router Registration Limit=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7954,7 +7954,7 @@
       "heading": {
         "id": "count-router-inner-conditions-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#count-router-inner-conditions-algorithm",
-        "title": "Count Router Inner Conditions"
+        "title": "Count Router Inner ConditionsInfo about the 'Count Router Inner Conditions' reference.#count-router-inner-conditionsReferenced in:Check Router Registration Limit Count Router Inner Conditions (2) Possible linking syntaxes:[=Count Router Inner Conditions=][=/Count Router Inner Conditions=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7973,7 +7973,7 @@
       "heading": {
         "id": "get-router-source-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#get-router-source-algorithm",
-        "title": "Get Router Source"
+        "title": "Get Router SourceInfo about the 'Get Router Source' reference.#get-router-sourceReferenced in:Handle Fetch Possible linking syntaxes:[=Get Router Source=][=/Get Router Source=]"
       },
       "definedIn": "heading",
       "links": []
@@ -7992,7 +7992,7 @@
       "heading": {
         "id": "should-skip-event-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#should-skip-event-algorithm",
-        "title": "Should Skip Event"
+        "title": "Should Skip EventInfo about the 'Should Skip Event' reference.#should-skip-eventReferenced in:3.1.5. postMessage(message, options) Install Activate Create Fetch Event and Dispatch Fire Functional Event Possible linking syntaxes:[=Should Skip Event=][=/Should Skip Event=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8012,7 +8012,7 @@
       "heading": {
         "id": "fire-functional-event-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#fire-functional-event-algorithm",
-        "title": "Fire Functional Event"
+        "title": "Fire Functional EventInfo about the 'Fire Functional Event' reference.#fire-functional-eventReferenced in:7.4. Firing Functional Events Fire Functional Event (2) Possible linking syntaxes:[=Fire Functional Event=][=Fire a functional event=][=/Fire Functional Event=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8031,7 +8031,7 @@
       "heading": {
         "id": "on-client-unload-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#on-client-unload-algorithm",
-        "title": "Handle Service Worker Client Unload"
+        "title": "Handle Service Worker Client UnloadInfo about the 'Handle Service Worker Client Unload' reference.#handle-service-worker-client-unloadReferenced in:4.3.4. claim() Install Unregister Possible linking syntaxes:[=Handle Service Worker Client Unload=][=/Handle Service Worker Client Unload=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8050,7 +8050,7 @@
       "heading": {
         "id": "on-user-agent-shutdown-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#on-user-agent-shutdown-algorithm",
-        "title": "Handle User Agent Shutdown"
+        "title": "Handle User Agent ShutdownInfo about the 'Handle User Agent Shutdown' reference.#handle-user-agent-shutdownReferenced in:2.7. User Agent Shutdown Possible linking syntaxes:[=Handle User Agent Shutdown=][=/Handle User Agent Shutdown=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8069,7 +8069,7 @@
       "heading": {
         "id": "update-service-worker-extended-events-set-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#update-service-worker-extended-events-set-algorithm",
-        "title": "Update Service Worker Extended Events Set"
+        "title": "Update Service Worker Extended Events SetInfo about the 'Update Service Worker Extended Events Set' reference.#update-service-worker-extended-events-setReferenced in:3.1.5. postMessage(message, options) Create Fetch Event and Dispatch Fire Functional Event Possible linking syntaxes:[=Update Service Worker Extended Events Set=][=/Update Service Worker Extended Events Set=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8088,7 +8088,7 @@
       "heading": {
         "id": "unregister-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#unregister-algorithm",
-        "title": "Unregister"
+        "title": "UnregisterInfo about the 'Unregister' reference.#unregisterReferenced in:Run Job Possible linking syntaxes:[=Unregister=][=/Unregister=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8107,7 +8107,7 @@
       "heading": {
         "id": "set-registration-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#set-registration-algorithm",
-        "title": "Set Registration"
+        "title": "Set RegistrationInfo about the 'Set Registration' reference.#set-registrationReferenced in:Register Possible linking syntaxes:[=Set Registration=][=/Set Registration=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8126,7 +8126,7 @@
       "heading": {
         "id": "clear-registration-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#clear-registration-algorithm",
-        "title": "Clear Registration"
+        "title": "Clear RegistrationInfo about the 'Clear Registration' reference.#clear-registrationReferenced in:Handle User Agent Shutdown Unregister (2) Try Clear Registration Possible linking syntaxes:[=Clear Registration=][=/Clear Registration=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8145,7 +8145,7 @@
       "heading": {
         "id": "try-clear-registration-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#try-clear-registration-algorithm",
-        "title": "Try Clear Registration"
+        "title": "Try Clear RegistrationInfo about the 'Try Clear Registration' reference.#try-clear-registrationReferenced in:4.4. ExtendableEvent Handle Service Worker Client Unload Unregister (2) Possible linking syntaxes:[=Try Clear Registration=][=/Try Clear Registration=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8164,7 +8164,7 @@
       "heading": {
         "id": "update-registration-state-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#update-registration-state-algorithm",
-        "title": "Update Registration State"
+        "title": "Update Registration StateInfo about the 'Update Registration State' reference.#update-registration-stateReferenced in:Install (2) (3) (4) Activate (2) Clear Registration (2) (3) Possible linking syntaxes:[=Update Registration State=][=/Update Registration State=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8183,7 +8183,7 @@
       "heading": {
         "id": "update-state-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#update-state-algorithm",
-        "title": "Update Worker State"
+        "title": "Update Worker StateInfo about the 'Update Worker State' reference.#update-worker-stateReferenced in:Install (2) (3) (4) (5) Activate (2) (3) Clear Registration (2) (3) Possible linking syntaxes:[=Update Worker State=][=/Update Worker State=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8202,7 +8202,7 @@
       "heading": {
         "id": "notify-controller-change-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#notify-controller-change-algorithm",
-        "title": "Notify Controller Change"
+        "title": "Notify Controller ChangeInfo about the 'Notify Controller Change' reference.#notify-controller-changeReferenced in:4.3.4. claim() Activate Possible linking syntaxes:[=Notify Controller Change=][=/Notify Controller Change=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8221,7 +8221,7 @@
       "heading": {
         "id": "scope-match-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#scope-match-algorithm",
-        "title": "Match Service Worker Registration"
+        "title": "Match Service Worker RegistrationInfo about the 'Match Service Worker Registration' reference.#match-service-worker-registrationReferenced in:2.5.1. The window client case 2.5.2. The worker client case 3.1.2. scriptURL 3.4.2. ready 3.4.4. getRegistration(clientURL) 4.3.4. claim() Activate Handle Fetch Lookup Race Response Possible linking syntaxes:[=Match Service Worker Registration=][=/Match Service Worker Registration=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8240,7 +8240,7 @@
       "heading": {
         "id": "get-registration-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#get-registration-algorithm",
-        "title": "Get Registration"
+        "title": "Get RegistrationInfo about the 'Get Registration' reference.#get-registrationReferenced in:Register Update Unregister Match Service Worker Registration Possible linking syntaxes:[=Get Registration=][=/Get Registration=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8259,7 +8259,7 @@
       "heading": {
         "id": "get-newest-worker-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#get-newest-worker-algorithm",
-        "title": "Get Newest Worker"
+        "title": "Get Newest WorkerInfo about the 'Get Newest Worker' reference.#get-newest-workerReferenced in:3.2.8. update() Register Update Soft Update Install Possible linking syntaxes:[=Get Newest Worker=][=/Get Newest Worker=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8278,7 +8278,7 @@
       "heading": {
         "id": "service-worker-has-no-pending-events-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#service-worker-has-no-pending-events-algorithm",
-        "title": "Service Worker Has No Pending Events"
+        "title": "Service Worker Has No Pending EventsInfo about the 'Service Worker Has No Pending Events' reference.#service-worker-has-no-pending-eventsReferenced in:4.4. ExtendableEvent Try Activate Try Clear Registration (2) (3) Possible linking syntaxes:[=Service Worker Has No Pending Events=][=/Service Worker Has No Pending Events=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8297,7 +8297,7 @@
       "heading": {
         "id": "create-client-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#create-client-algorithm",
-        "title": "Create Client"
+        "title": "Create ClientInfo about the 'Create Client' reference.#create-clientReferenced in:4.3.2. matchAll(options) Resolve Get Client Promise Possible linking syntaxes:[=Create Client=][=/Create Client=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8316,7 +8316,7 @@
       "heading": {
         "id": "create-windowclient-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#create-windowclient-algorithm",
-        "title": "Create Window Client"
+        "title": "Create Window ClientInfo about the 'Create Window Client' reference.#create-window-clientReferenced in:4.2.10. focus() 4.2.11. navigate(url) 4.3.2. matchAll(options) 4.3.3. openWindow(url) Resolve Get Client Promise Possible linking syntaxes:[=Create Window Client=][=/Create Window Client=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8335,7 +8335,7 @@
       "heading": {
         "id": "get-frametype-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#get-frametype-algorithm",
-        "title": "Get Frame Type"
+        "title": "Get Frame TypeInfo about the 'Get Frame Type' reference.#get-frame-typeReferenced in:4.2.10. focus() 4.2.11. navigate(url) 4.3.2. matchAll(options) 4.3.3. openWindow(url) Resolve Get Client Promise Possible linking syntaxes:[=Get Frame Type=][=/Get Frame Type=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8354,7 +8354,7 @@
       "heading": {
         "id": "resolve-get-client-promise-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#resolve-get-client-promise-algorithm",
-        "title": "Resolve Get Client Promise"
+        "title": "Resolve Get Client PromiseInfo about the 'Resolve Get Client Promise' reference.#resolve-get-client-promiseReferenced in:4.3.1. get(id) Possible linking syntaxes:[=Resolve Get Client Promise=][=/Resolve Get Client Promise=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8373,7 +8373,7 @@
       "heading": {
         "id": "query-cache-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#query-cache-algorithm",
-        "title": "Query Cache"
+        "title": "Query CacheInfo about the 'Query Cache' reference.#query-cacheReferenced in:5.4.2. matchAll(request, options) 5.4.7. keys(request, options) Handle Fetch Batch Cache Operations (2) (3) Possible linking syntaxes:[=Query Cache=][=/Query Cache=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8392,7 +8392,7 @@
       "heading": {
         "id": "request-matches-cached-item-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#request-matches-cached-item-algorithm",
-        "title": "Request Matches Cached Item"
+        "title": "Request Matches Cached ItemInfo about the 'Request Matches Cached Item' reference.#request-matches-cached-itemReferenced in:Query Cache Possible linking syntaxes:[=Request Matches Cached Item=][=/Request Matches Cached Item=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8411,7 +8411,7 @@
       "heading": {
         "id": "batch-cache-operations-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#batch-cache-operations-algorithm",
-        "title": "Batch Cache Operations"
+        "title": "Batch Cache OperationsInfo about the 'Batch Cache Operations' reference.#batch-cache-operationsReferenced in:5.4.4. addAll(requests) 5.4.5. put(request, response) 5.4.6. delete(request, options) Possible linking syntaxes:[=Batch Cache Operations=][=/Batch Cache Operations=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8430,7 +8430,7 @@
       "heading": {
         "id": "is-async-module-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#is-async-module-algorithm",
-        "title": "Is Async Module"
+        "title": "Is Async ModuleInfo about the 'Is Async Module' reference.#is-async-moduleReferenced in:Update Is Async Module Possible linking syntaxes:[=Is Async Module=][=/Is Async Module=]"
       },
       "definedIn": "heading",
       "links": []
@@ -8449,7 +8449,7 @@
       "heading": {
         "id": "lookup-race-response-algorithm",
         "href": "https://w3c.github.io/ServiceWorker/#lookup-race-response-algorithm",
-        "title": "Lookup Race Response"
+        "title": "Lookup Race ResponseInfo about the 'Lookup Race Response' reference.#lookup-race-responsePossible linking syntaxes:[=Lookup Race Response=][=/Lookup Race Response=]"
       },
       "definedIn": "heading",
       "links": []

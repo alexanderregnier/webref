@@ -57,7 +57,6 @@
       "https://w3c.github.io/FileAPI/": {},
       "https://w3c.github.io/ServiceWorker/v1/": {},
       "https://w3c.github.io/hr-time/": {},
-      "https://w3c.github.io/mediacapture-screen-share/": {},
       "https://w3c.github.io/navigation-timing/": {},
       "https://w3c.github.io/push-api/": {
         "anchors": [
@@ -92,7 +91,6 @@
           "fire-a-sync-event"
         ]
       },
-      "https://wicg.github.io/csp-next/scripting-policy.html": {},
       "https://wicg.github.io/page-lifecycle/": {},
       "https://www.rfc-editor.org/info/rfc5234/": {},
       "https://www.w3.org/2001/tag/doc/unsanctioned-tracking/": {},
@@ -276,6 +274,7 @@
       },
       "https://html.spec.whatwg.org/multipage/dom.html": {
         "anchors": [
+          "documentvisibilitystate",
           "concept-document-ancestor-origins-list"
         ]
       },
@@ -562,11 +561,6 @@
           "dfn-coarsened-shared-current-time"
         ]
       },
-      "https://w3c.github.io/mediacapture-screen-share/": {
-        "anchors": [
-          "dfn-monitor"
-        ]
-      },
       "https://w3c.github.io/navigation-timing/": {
         "anchors": [
           "performancenavigationtiming"
@@ -645,11 +639,6 @@
           "new",
           "networkerror",
           "resolve"
-        ]
-      },
-      "https://wicg.github.io/csp-next/scripting-policy.html": {
-        "anchors": [
-          "scripting-policy-pair-enforced"
         ]
       },
       "https://wicg.github.io/page-lifecycle/": {
