@@ -1,12 +1,12 @@
 {
   "spec": {
     "title": "Long Tasks API",
-    "url": "https://w3c.github.io/longtasks/"
+    "url": "https://wicg.github.io/longtasks/"
   },
   "dfns": [
     {
       "id": "long-task",
-      "href": "https://w3c.github.io/longtasks/#long-task",
+      "href": "https://wicg.github.io/longtasks/#long-task",
       "linkingText": [
         "Long task"
       ],
@@ -17,7 +17,7 @@
       "informative": false,
       "heading": {
         "id": "sec-terminology",
-        "href": "https://w3c.github.io/longtasks/#sec-terminology",
+        "href": "https://wicg.github.io/longtasks/#sec-terminology",
         "title": "Terminology",
         "number": "2"
       },
@@ -26,7 +26,7 @@
     },
     {
       "id": "browsing-context-container",
-      "href": "https://w3c.github.io/longtasks/#browsing-context-container",
+      "href": "https://wicg.github.io/longtasks/#browsing-context-container",
       "linkingText": [
         "browsing context container"
       ],
@@ -37,7 +37,7 @@
       "informative": false,
       "heading": {
         "id": "sec-terminology",
-        "href": "https://w3c.github.io/longtasks/#sec-terminology",
+        "href": "https://wicg.github.io/longtasks/#sec-terminology",
         "title": "Terminology",
         "number": "2"
       },
@@ -46,7 +46,7 @@
     },
     {
       "id": "culprit-browsing-context-container",
-      "href": "https://w3c.github.io/longtasks/#culprit-browsing-context-container",
+      "href": "https://wicg.github.io/longtasks/#culprit-browsing-context-container",
       "linkingText": [
         "Culprit browsing context container"
       ],
@@ -57,7 +57,7 @@
       "informative": false,
       "heading": {
         "id": "sec-terminology",
-        "href": "https://w3c.github.io/longtasks/#sec-terminology",
+        "href": "https://wicg.github.io/longtasks/#sec-terminology",
         "title": "Terminology",
         "number": "2"
       },
@@ -66,7 +66,7 @@
     },
     {
       "id": "attribution",
-      "href": "https://w3c.github.io/longtasks/#attribution",
+      "href": "https://wicg.github.io/longtasks/#attribution",
       "linkingText": [
         "Attribution"
       ],
@@ -77,7 +77,7 @@
       "informative": false,
       "heading": {
         "id": "sec-terminology",
-        "href": "https://w3c.github.io/longtasks/#sec-terminology",
+        "href": "https://wicg.github.io/longtasks/#sec-terminology",
         "title": "Terminology",
         "number": "2"
       },
@@ -86,7 +86,7 @@
     },
     {
       "id": "performancelongtasktiming",
-      "href": "https://w3c.github.io/longtasks/#performancelongtasktiming",
+      "href": "https://wicg.github.io/longtasks/#performancelongtasktiming",
       "linkingText": [
         "PerformanceLongTaskTiming"
       ],
@@ -97,7 +97,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -106,7 +106,7 @@
     },
     {
       "id": "dom-performancelongtasktiming-starttime",
-      "href": "https://w3c.github.io/longtasks/#dom-performancelongtasktiming-starttime",
+      "href": "https://wicg.github.io/longtasks/#dom-performancelongtasktiming-starttime",
       "linkingText": [
         "startTime"
       ],
@@ -119,7 +119,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -128,7 +128,7 @@
     },
     {
       "id": "dom-performancelongtasktiming-duration",
-      "href": "https://w3c.github.io/longtasks/#dom-performancelongtasktiming-duration",
+      "href": "https://wicg.github.io/longtasks/#dom-performancelongtasktiming-duration",
       "linkingText": [
         "duration"
       ],
@@ -141,7 +141,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -150,7 +150,7 @@
     },
     {
       "id": "dom-performancelongtasktiming-name",
-      "href": "https://w3c.github.io/longtasks/#dom-performancelongtasktiming-name",
+      "href": "https://wicg.github.io/longtasks/#dom-performancelongtasktiming-name",
       "linkingText": [
         "name"
       ],
@@ -163,7 +163,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -172,7 +172,7 @@
     },
     {
       "id": "dom-performancelongtasktiming-entrytype",
-      "href": "https://w3c.github.io/longtasks/#dom-performancelongtasktiming-entrytype",
+      "href": "https://wicg.github.io/longtasks/#dom-performancelongtasktiming-entrytype",
       "linkingText": [
         "entryType"
       ],
@@ -185,7 +185,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -194,7 +194,7 @@
     },
     {
       "id": "dom-performancelongtasktiming-tojson",
-      "href": "https://w3c.github.io/longtasks/#dom-performancelongtasktiming-tojson",
+      "href": "https://wicg.github.io/longtasks/#dom-performancelongtasktiming-tojson",
       "linkingText": [
         "toJSON()"
       ],
@@ -207,7 +207,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -216,7 +216,7 @@
     },
     {
       "id": "unknown",
-      "href": "https://w3c.github.io/longtasks/#unknown",
+      "href": "https://wicg.github.io/longtasks/#unknown",
       "linkingText": [
         "unknown"
       ],
@@ -227,7 +227,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -236,7 +236,7 @@
     },
     {
       "id": "self",
-      "href": "https://w3c.github.io/longtasks/#self",
+      "href": "https://wicg.github.io/longtasks/#self",
       "linkingText": [
         "self"
       ],
@@ -247,7 +247,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -256,7 +256,7 @@
     },
     {
       "id": "same-origin-ancestor",
-      "href": "https://w3c.github.io/longtasks/#same-origin-ancestor",
+      "href": "https://wicg.github.io/longtasks/#same-origin-ancestor",
       "linkingText": [
         "same-origin-ancestor"
       ],
@@ -267,7 +267,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -276,7 +276,7 @@
     },
     {
       "id": "same-origin-descendant",
-      "href": "https://w3c.github.io/longtasks/#same-origin-descendant",
+      "href": "https://wicg.github.io/longtasks/#same-origin-descendant",
       "linkingText": [
         "same-origin-descendant"
       ],
@@ -287,7 +287,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -296,7 +296,7 @@
     },
     {
       "id": "same-origin",
-      "href": "https://w3c.github.io/longtasks/#same-origin",
+      "href": "https://wicg.github.io/longtasks/#same-origin",
       "linkingText": [
         "same-origin"
       ],
@@ -307,7 +307,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -316,7 +316,7 @@
     },
     {
       "id": "cross-origin-ancestor",
-      "href": "https://w3c.github.io/longtasks/#cross-origin-ancestor",
+      "href": "https://wicg.github.io/longtasks/#cross-origin-ancestor",
       "linkingText": [
         "cross-origin-ancestor"
       ],
@@ -327,7 +327,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -336,7 +336,7 @@
     },
     {
       "id": "cross-origin-descendant",
-      "href": "https://w3c.github.io/longtasks/#cross-origin-descendant",
+      "href": "https://wicg.github.io/longtasks/#cross-origin-descendant",
       "linkingText": [
         "cross-origin-descendant"
       ],
@@ -347,7 +347,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -356,7 +356,7 @@
     },
     {
       "id": "cross-origin-unreachable",
-      "href": "https://w3c.github.io/longtasks/#cross-origin-unreachable",
+      "href": "https://wicg.github.io/longtasks/#cross-origin-unreachable",
       "linkingText": [
         "cross-origin-unreachable"
       ],
@@ -367,7 +367,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -376,7 +376,7 @@
     },
     {
       "id": "multiple-contexts",
-      "href": "https://w3c.github.io/longtasks/#multiple-contexts",
+      "href": "https://wicg.github.io/longtasks/#multiple-contexts",
       "linkingText": [
         "multiple-contexts"
       ],
@@ -387,7 +387,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -396,7 +396,7 @@
     },
     {
       "id": "dom-performancelongtasktiming-attribution",
-      "href": "https://w3c.github.io/longtasks/#dom-performancelongtasktiming-attribution",
+      "href": "https://wicg.github.io/longtasks/#dom-performancelongtasktiming-attribution",
       "linkingText": [
         "attribution"
       ],
@@ -409,7 +409,7 @@
       "informative": false,
       "heading": {
         "id": "sec-PerformanceLongTaskTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-PerformanceLongTaskTiming",
         "title": "PerformanceLongTaskTiming interface",
         "number": "3.1"
       },
@@ -418,7 +418,7 @@
     },
     {
       "id": "taskattributiontiming",
-      "href": "https://w3c.github.io/longtasks/#taskattributiontiming",
+      "href": "https://wicg.github.io/longtasks/#taskattributiontiming",
       "linkingText": [
         "TaskAttributionTiming"
       ],
@@ -429,7 +429,7 @@
       "informative": false,
       "heading": {
         "id": "sec-TaskAttributionTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-TaskAttributionTiming",
         "title": "TaskAttributionTiming interface",
         "number": "3.2"
       },
@@ -438,7 +438,7 @@
     },
     {
       "id": "dom-taskattributiontiming-starttime",
-      "href": "https://w3c.github.io/longtasks/#dom-taskattributiontiming-starttime",
+      "href": "https://wicg.github.io/longtasks/#dom-taskattributiontiming-starttime",
       "linkingText": [
         "startTime"
       ],
@@ -451,7 +451,7 @@
       "informative": false,
       "heading": {
         "id": "sec-TaskAttributionTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-TaskAttributionTiming",
         "title": "TaskAttributionTiming interface",
         "number": "3.2"
       },
@@ -460,7 +460,7 @@
     },
     {
       "id": "dom-taskattributiontiming-duration",
-      "href": "https://w3c.github.io/longtasks/#dom-taskattributiontiming-duration",
+      "href": "https://wicg.github.io/longtasks/#dom-taskattributiontiming-duration",
       "linkingText": [
         "duration"
       ],
@@ -473,7 +473,7 @@
       "informative": false,
       "heading": {
         "id": "sec-TaskAttributionTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-TaskAttributionTiming",
         "title": "TaskAttributionTiming interface",
         "number": "3.2"
       },
@@ -482,7 +482,7 @@
     },
     {
       "id": "dom-taskattributiontiming-name",
-      "href": "https://w3c.github.io/longtasks/#dom-taskattributiontiming-name",
+      "href": "https://wicg.github.io/longtasks/#dom-taskattributiontiming-name",
       "linkingText": [
         "name"
       ],
@@ -495,7 +495,7 @@
       "informative": false,
       "heading": {
         "id": "sec-TaskAttributionTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-TaskAttributionTiming",
         "title": "TaskAttributionTiming interface",
         "number": "3.2"
       },
@@ -504,7 +504,7 @@
     },
     {
       "id": "dom-taskattributiontiming-entrytype",
-      "href": "https://w3c.github.io/longtasks/#dom-taskattributiontiming-entrytype",
+      "href": "https://wicg.github.io/longtasks/#dom-taskattributiontiming-entrytype",
       "linkingText": [
         "entryType"
       ],
@@ -517,7 +517,7 @@
       "informative": false,
       "heading": {
         "id": "sec-TaskAttributionTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-TaskAttributionTiming",
         "title": "TaskAttributionTiming interface",
         "number": "3.2"
       },
@@ -526,7 +526,7 @@
     },
     {
       "id": "dom-taskattributiontiming-tojson",
-      "href": "https://w3c.github.io/longtasks/#dom-taskattributiontiming-tojson",
+      "href": "https://wicg.github.io/longtasks/#dom-taskattributiontiming-tojson",
       "linkingText": [
         "toJSON()"
       ],
@@ -539,7 +539,7 @@
       "informative": false,
       "heading": {
         "id": "sec-TaskAttributionTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-TaskAttributionTiming",
         "title": "TaskAttributionTiming interface",
         "number": "3.2"
       },
@@ -548,7 +548,7 @@
     },
     {
       "id": "dom-taskattributiontiming-containertype",
-      "href": "https://w3c.github.io/longtasks/#dom-taskattributiontiming-containertype",
+      "href": "https://wicg.github.io/longtasks/#dom-taskattributiontiming-containertype",
       "linkingText": [
         "containerType"
       ],
@@ -561,7 +561,7 @@
       "informative": false,
       "heading": {
         "id": "sec-TaskAttributionTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-TaskAttributionTiming",
         "title": "TaskAttributionTiming interface",
         "number": "3.2"
       },
@@ -570,7 +570,7 @@
     },
     {
       "id": "dom-taskattributiontiming-containername",
-      "href": "https://w3c.github.io/longtasks/#dom-taskattributiontiming-containername",
+      "href": "https://wicg.github.io/longtasks/#dom-taskattributiontiming-containername",
       "linkingText": [
         "containerName"
       ],
@@ -583,7 +583,7 @@
       "informative": false,
       "heading": {
         "id": "sec-TaskAttributionTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-TaskAttributionTiming",
         "title": "TaskAttributionTiming interface",
         "number": "3.2"
       },
@@ -592,7 +592,7 @@
     },
     {
       "id": "dom-taskattributiontiming-containerid",
-      "href": "https://w3c.github.io/longtasks/#dom-taskattributiontiming-containerid",
+      "href": "https://wicg.github.io/longtasks/#dom-taskattributiontiming-containerid",
       "linkingText": [
         "containerId"
       ],
@@ -605,7 +605,7 @@
       "informative": false,
       "heading": {
         "id": "sec-TaskAttributionTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-TaskAttributionTiming",
         "title": "TaskAttributionTiming interface",
         "number": "3.2"
       },
@@ -614,7 +614,7 @@
     },
     {
       "id": "dom-taskattributiontiming-containersrc",
-      "href": "https://w3c.github.io/longtasks/#dom-taskattributiontiming-containersrc",
+      "href": "https://wicg.github.io/longtasks/#dom-taskattributiontiming-containersrc",
       "linkingText": [
         "containerSrc"
       ],
@@ -627,7 +627,7 @@
       "informative": false,
       "heading": {
         "id": "sec-TaskAttributionTiming",
-        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "href": "https://wicg.github.io/longtasks/#sec-TaskAttributionTiming",
         "title": "TaskAttributionTiming interface",
         "number": "3.2"
       },
@@ -636,7 +636,7 @@
     },
     {
       "id": "minimal-culprit-attribution",
-      "href": "https://w3c.github.io/longtasks/#minimal-culprit-attribution",
+      "href": "https://wicg.github.io/longtasks/#minimal-culprit-attribution",
       "linkingText": [
         "minimal culprit attribution"
       ],
@@ -647,7 +647,7 @@
       "informative": true,
       "heading": {
         "id": "sec-PointingToCulprit",
-        "href": "https://w3c.github.io/longtasks/#sec-PointingToCulprit",
+        "href": "https://wicg.github.io/longtasks/#sec-PointingToCulprit",
         "title": "Pointing to the culprit",
         "number": "3.3"
       },

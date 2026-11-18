@@ -1,7 +1,7 @@
 {
   "spec": {
     "title": "Long Tasks API",
-    "url": "https://w3c.github.io/longtasks/"
+    "url": "https://wicg.github.io/longtasks/"
   },
   "refs": {
     "normative": [

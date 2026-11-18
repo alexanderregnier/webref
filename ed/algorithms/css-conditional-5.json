@@ -36,7 +36,7 @@
           "html": "<p>Let <var>conditions</var> be the result of getting the <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/css-conditional-5/#dom-csscontainerrule-conditions\" id=\"ref-for-dom-csscontainerrule-conditions\">conditions</a></code> attribute.</p>"
         },
         {
-          "html": "<p>Let <var>first</var> be <code class=\"highlight\">true</code>.</p>"
+          "html": "<p>Let <var>first</var> be <code class=\"highlight\"><c- f=\"\">true</c-></code>.</p>"
         },
         {
           "html": "<p>Let <var>result</var> be the empty string.</p>"
@@ -46,10 +46,10 @@
           "rationale": "if",
           "steps": [
             {
-              "html": "<p>If <var>first</var> is <code class=\"highlight\">false</code>, append <code class=\"highlight\"><c- s=\"\">\", \"</c-></code> to <var>result</var>.</p>"
+              "html": "<p>If <var>first</var> is <code class=\"highlight\"><c- f=\"\">false</c-></code>, append <code class=\"highlight\"><c- u=\"\">\", \"</c-></code> to <var>result</var>.</p>"
             },
             {
-              "html": "<p>Set <var>first</var> to <code class=\"highlight\">false</code>.</p>"
+              "html": "<p>Set <var>first</var> to <code class=\"highlight\"><c- f=\"\">false</c-></code>.</p>"
             },
             {
               "html": "If <var>condition</var>’s <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/css-conditional-5/#dom-csscontainercondition-name\" id=\"ref-for-dom-csscontainercondition-name\">name</a></code> is not empty:",
@@ -91,7 +91,7 @@
           ]
         },
         {
-          "html": "<p>return <code class=\"highlight\"><c- s=\"\">\"\"</c-></code>.</p>"
+          "html": "<p>return <code class=\"highlight\"><c- u=\"\">\"\"</c-></code>.</p>"
         }
       ]
     },
@@ -113,7 +113,7 @@
           ]
         },
         {
-          "html": "<p>Return <code class=\"highlight\"><c- s=\"\">\"\"</c-></code>.</p>"
+          "html": "<p>Return <code class=\"highlight\"><c- u=\"\">\"\"</c-></code>.</p>"
         }
       ]
     },
@@ -130,7 +130,7 @@
           "rationale": "let",
           "steps": [
             {
-              "html": "<p>Let <var>dict</var> be a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/css-conditional-5/#dictdef-csscontainercondition\" id=\"ref-for-dictdef-csscontainercondition①\">CSSContainerCondition</a></code> with\n <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/css-conditional-5/#dom-csscontainercondition-name\" id=\"ref-for-dom-csscontainercondition-name③\">name</a></code> set to the\n <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/cssom-1/#serialize-an-identifier\" id=\"ref-for-serialize-an-identifier\">serialized</a> <a class=\"css production\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-conditional-5/#typedef-container-name\" id=\"ref-for-typedef-container-name④\">&lt;container-name&gt;</a>\n of <var>condition</var> if specified, or <code class=\"highlight\"><c- s=\"\">\"\"</c-></code> otherwise,\n and <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/css-conditional-5/#dom-csscontainercondition-query\" id=\"ref-for-dom-csscontainercondition-query③\">query</a></code> set to the\n <a class=\"css production\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-conditional-5/#typedef-container-query\" id=\"ref-for-typedef-container-query⑦\">&lt;container-query&gt;</a> specified in <var>condition</var>\n without any logical simplifications,\n so that the returned query will evaluate to the same result\n as the specified query\n in any conformant implementation of this specification\n (including implementations that implement future extensions\n allowed by the <a class=\"css production\" data-link-type=\"type\" href=\"https://drafts.csswg.org/mediaqueries-5/#typedef-general-enclosed\" id=\"ref-for-typedef-general-enclosed④\">&lt;general-enclosed&gt;</a> extensibility mechanism in this specification).\n In other words,\n token stream simplifications are allowed\n (such as reducing whitespace to a single space\n or omitting it in cases where it is known to be optional),\n but logical simplifications (such as removal of unneeded parentheses,\n or simplification based on evaluating results) are not allowed.</p>"
+              "html": "<p>Let <var>dict</var> be a new <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/css-conditional-5/#dictdef-csscontainercondition\" id=\"ref-for-dictdef-csscontainercondition①\">CSSContainerCondition</a></code> with\n <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/css-conditional-5/#dom-csscontainercondition-name\" id=\"ref-for-dom-csscontainercondition-name③\">name</a></code> set to the\n <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/cssom-1/#serialize-an-identifier\" id=\"ref-for-serialize-an-identifier\">serialized</a> <a class=\"css production\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-conditional-5/#typedef-container-name\" id=\"ref-for-typedef-container-name④\">&lt;container-name&gt;</a>\n of <var>condition</var> if specified, or <code class=\"highlight\"><c- u=\"\">\"\"</c-></code> otherwise,\n and <code class=\"idl\"><a data-link-type=\"idl\" href=\"https://drafts.csswg.org/css-conditional-5/#dom-csscontainercondition-query\" id=\"ref-for-dom-csscontainercondition-query③\">query</a></code> set to the\n <a class=\"css production\" data-link-type=\"type\" href=\"https://drafts.csswg.org/css-conditional-5/#typedef-container-query\" id=\"ref-for-typedef-container-query⑦\">&lt;container-query&gt;</a> specified in <var>condition</var>\n without any logical simplifications,\n so that the returned query will evaluate to the same result\n as the specified query\n in any conformant implementation of this specification\n (including implementations that implement future extensions\n allowed by the <a class=\"css production\" data-link-type=\"type\" href=\"https://drafts.csswg.org/mediaqueries-5/#typedef-general-enclosed\" id=\"ref-for-typedef-general-enclosed④\">&lt;general-enclosed&gt;</a> extensibility mechanism in this specification).\n In other words,\n token stream simplifications are allowed\n (such as reducing whitespace to a single space\n or omitting it in cases where it is known to be optional),\n but logical simplifications (such as removal of unneeded parentheses,\n or simplification based on evaluating results) are not allowed.</p>"
             },
             {
               "html": "<p><a data-link-type=\"dfn\" href=\"https://infra.spec.whatwg.org/#list-append\" id=\"ref-for-list-append\">Append</a> <var>dict</var> to <var>result</var>.</p>"
@@ -145,7 +145,7 @@
     {
       "name": "Element/matchContainer(query)",
       "href": "https://drafts.csswg.org/css-conditional-5/#dom-element-matchcontainer",
-      "html": "The <dfn class=\"dfn-paneled idl-code\" data-dfn-for=\"Element\" data-dfn-type=\"method\" data-export=\"\" id=\"dom-element-matchcontainer\"><button class=\"dfn-panelbutton\" popovertarget=\"infopanel-for-dom-element-matchcontainer\"><code class=\"highlight\"><c- nf=\"\">matchContainer</c-><c- p=\"\">(</c-><var>query</var><c- p=\"\">)</c-></code></button></dfn><dialog class=\"dfn-panel\" id=\"infopanel-for-dom-element-matchcontainer\" popover=\"hint\" data-for=\"dom-element-matchcontainer\" aria-labelledby=\"infopaneltitle-for-dom-element-matchcontainer\"><span id=\"infopaneltitle-for-dom-element-matchcontainer\" style=\"display:none\">Info about the 'matchContainer(query)'  reference.</span><a href=\"https://drafts.csswg.org/css-conditional-5/#dom-element-matchcontainer\" class=\"dfn-link\">#dom-element-matchcontainer</a><b>Referenced in:</b><ul><li><a href=\"https://drafts.csswg.org/css-conditional-5/#ref-for-dom-element-matchcontainer\">9.2. The matchContainer() method</a> <a href=\"https://drafts.csswg.org/css-conditional-5/#ref-for-dom-element-matchcontainer%E2%91%A0\">(2)</a> </li></ul><b>Possible linking syntaxes:</b><ul><li><div class=\"link-item\"><button class=\"copy-icon\" title=\"Copy\" type=\"button\" tabindex=\"0\"><span class=\"icon\"></span></button><span>{{Element/matchContainer(query)}}</span></div></li></ul></dialog> method, when invoked, must run these steps:",
+      "html": "The <dfn class=\"dfn-paneled idl-code\" data-dfn-for=\"Element\" data-dfn-type=\"method\" data-export=\"\" id=\"dom-element-matchcontainer\"><button class=\"dfn-panelbutton\" popovertarget=\"infopanel-for-dom-element-matchcontainer\"><code>matchContainer(<var>query</var>)</code></button></dfn><dialog class=\"dfn-panel\" id=\"infopanel-for-dom-element-matchcontainer\" popover=\"hint\" data-for=\"dom-element-matchcontainer\" aria-labelledby=\"infopaneltitle-for-dom-element-matchcontainer\"><span id=\"infopaneltitle-for-dom-element-matchcontainer\" style=\"display:none\">Info about the 'matchContainer(query)'  reference.</span><a href=\"https://drafts.csswg.org/css-conditional-5/#dom-element-matchcontainer\" class=\"dfn-link\">#dom-element-matchcontainer</a><b>Referenced in:</b><ul><li><a href=\"https://drafts.csswg.org/css-conditional-5/#ref-for-dom-element-matchcontainer\">9.2. The matchContainer() method</a> <a href=\"https://drafts.csswg.org/css-conditional-5/#ref-for-dom-element-matchcontainer%E2%91%A0\">(2)</a> </li></ul><b>Possible linking syntaxes:</b><ul><li><div class=\"link-item\"><button class=\"copy-icon\" title=\"Copy\" type=\"button\" tabindex=\"0\"><span class=\"icon\"></span></button><span>{{Element/matchContainer(query)}}</span></div></li></ul></dialog> method, when invoked, must run these steps:",
       "rationale": "let",
       "steps": [
         {
