@@ -5,50 +5,39 @@
   },
   "links": {
     "rawlinks": {
-      "http://lists.w3.org/Archives/Public/www-tag/2005Jun/0039": {},
-      "http://www.ietf.org/rfc/rfc2119.txt": {},
-      "http://www.ietf.org/rfc/rfc2616.txt": {},
-      "http://www.ietf.org/rfc/rfc3987.txt": {},
-      "http://www.w3.org/2001/tag/doc/selfDescribingDocuments.html": {},
-      "http://www.w3.org/2001/tag/issues.html": {
+      "https://httpwg.org/specs/rfc9110.html": {
         "anchors": [
-          "httpRange-14"
+          "representations",
+          "status.codes"
         ]
       },
-      "http://www.w3.org/TR/2004/REC-rdf-mt-20040210/": {},
-      "http://www.w3.org/TR/2004/REC-webarch-20041215/": {},
-      "http://www.w3.org/TR/2013/REC-sparql11-query-20130321": {},
-      "http://www.w3.org/TR/2013/REC-sparql11-update-20130321": {},
-      "http://www.w3.org/TR/html4/": {},
-      "http://www.w3.org/TR/html4/interact/forms.html": {
-        "anchors": [
-          "h-17.13.4.2"
-        ]
-      },
-      "http://www.w3.org/TR/rdf-mt/": {},
-      "http://www.w3.org/TR/sparql11-query/": {},
-      "http://www.w3.org/TR/sparql11-update/": {},
-      "http://www.w3.org/TR/webarch/": {
-        "anchors": [
-          "uri-dereference"
-        ]
-      },
+      "https://httpwg.org/specs/rfc9111.html": {},
+      "https://lists.w3.org/Archives/Public/www-tag/2005Jun/0039": {},
       "https://tools.ietf.org/html/rfc5789": {},
       "https://w3c.github.io/sparql-concepts/spec/": {},
       "https://w3c.github.io/sparql-new/spec/": {},
       "https://www.rfc-editor.org/info/bcp14": {},
       "https://www.rfc-editor.org/info/rfc2119/": {},
       "https://www.rfc-editor.org/info/rfc3629/": {},
-      "https://www.rfc-editor.org/info/rfc8174/": {},
-      "https://www.rfc-editor.org/rfc/rfc3986": {
+      "https://www.rfc-editor.org/info/rfc3986/": {
         "anchors": [
           "section-3.3"
+        ]
+      },
+      "https://www.rfc-editor.org/info/rfc3987/": {},
+      "https://www.rfc-editor.org/info/rfc7578/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
+      "https://www.w3.org/2001/tag/doc/selfDescribingDocuments.html": {},
+      "https://www.w3.org/2001/tag/issues.html": {
+        "anchors": [
+          "httpRange-14"
         ]
       },
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/2013/REC-sparql11-http-rdf-update-20130321/": {},
       "https://www.w3.org/TR/json-ld11/": {},
       "https://www.w3.org/TR/rdf12-n-triples/": {},
+      "https://www.w3.org/TR/rdf12-semantics/": {},
       "https://www.w3.org/TR/rdf12-turtle/": {},
       "https://www.w3.org/TR/rdf12-xml/": {},
       "https://www.w3.org/TR/sparql12-entailment/": {},
@@ -60,6 +49,11 @@
       "https://www.w3.org/TR/sparql12-results-xml/": {},
       "https://www.w3.org/TR/sparql12-service-description/": {},
       "https://www.w3.org/TR/sparql12-update/": {},
+      "https://www.w3.org/TR/webarch/": {
+        "anchors": [
+          "uri-dereference"
+        ]
+      },
       "https://www.w3.org/groups/wg/rdf-star": {},
       "https://www.w3.org/groups/wg/rdf-star/ipr": {},
       "https://www.w3.org/policies/patent-policy/": {

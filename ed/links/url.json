@@ -8,6 +8,7 @@
       "https://annevankesteren.nl/": {},
       "https://creativecommons.org/licenses/by/4.0/": {},
       "https://encoding.spec.whatwg.org/": {},
+      "https://fetch.spec.whatwg.org/": {},
       "https://github.com/publicsuffix/list/wiki/Format": {
         "anchors": [
           "formal-algorithm"

@@ -561,7 +561,7 @@
   "atrules": [
     {
       "name": "@position-try",
-      "prose": "The @position-tryInfo about the '@position-try' reference.#at-ruledef-position-tryReferenced in:6. Overflow Management 6.1. Giving Fallback Options: the position-try-fallbacks property (2) (3) 6.4. The @position-try Rule (2) (3) (4) (5) (6) (7) (8) 6.5.1. Maintaining and Clearing Fallback Choices 8.1. The CSSPositionTryRule interface (2) Possible linking syntaxes:''@position-try''''/@position-try'' rule defines a position option with a given name, specifying one or more sets of positioning properties that can be applied to a box via position-try-fallbacks.",
+      "prose": "The @position-tryInfo about the '@position-try' reference.#at-ruledef-position-tryReferenced in:6. Overflow Management 6.1. Giving Fallback Options: the position-try-fallbacks property (2) (3) 6.4. The @position-try Rule (2) (3) (4) (5) (6) (7) (8) (9) 6.5.1. Maintaining and Clearing Fallback Choices 8.1. The CSSPositionTryRule interface (2) Possible linking syntaxes:''@position-try''''/@position-try'' rule defines a position option with a given name, specifying one or more sets of positioning properties that can be applied to a box via position-try-fallbacks.",
       "href": "https://drafts.csswg.org/css-anchor-position-1/#at-ruledef-position-try",
       "descriptors": [],
       "value": "@position-try <dashed-ident> { <declaration-list> }"

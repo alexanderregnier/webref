@@ -688,6 +688,11 @@
       "https://www.w3.org/2019/04/WHATWG-W3C-MOU.html": {},
       "https://www.w3.org/Graphics/GIF/spec-gif89a.txt": {},
       "https://www.w3.org/Graphics/JPEG/jfif3.pdf": {},
+      "https://www.w3.org/International/techniques/authoring-html?collapse&open=direction": {
+        "anchors": [
+          "direction"
+        ]
+      },
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/2013/NOTE-xmlsec-rngschema-20130411/": {},
       "https://www.w3.org/TR/2026/CR-epub-34-20260721/": {},
@@ -1008,7 +1013,6 @@
           "flow-content-2",
           "embedded-content-category",
           "metadata-content-2",
-          "attr-dir",
           "attr-style",
           "phrasing-content-2",
           "palpable-content-2"
@@ -1092,7 +1096,6 @@
         "anchors": [
           "the-a-element",
           "the-rp-element",
-          "the-bdo-element",
           "the-span-element"
         ]
       },
