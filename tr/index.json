@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-11-19T08:39:29.667Z",
+  "date": "2026-11-20T08:21:47.337Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "19 November 2026",
+      "date": "20 November 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -2473,11 +2473,11 @@
       ],
       "crawled": "https://www.w3.org/TR/csp-embedded-enforcement/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 07 May 2026 07:33:33 GMT"
+        "lastModified": "Thu, 19 Nov 2026 15:02:34 GMT"
       },
       "generator": "bikeshed",
-      "date": "7 May 2026",
-      "revision": "f102d0e58c50d5b7276b564650388d3fd05a6056",
+      "date": "19 November 2026",
+      "revision": "d309a77a4dc5d591ab5e7d17c0bd9a5468b7282b",
       "algorithms": "algorithms/csp-embedded-enforcement.json",
       "links": "links/csp-embedded-enforcement.json",
       "refs": "refs/csp-embedded-enforcement.json",
@@ -11986,11 +11986,11 @@
       ],
       "crawled": "https://www.w3.org/TR/epub-34/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 16 Nov 2026 14:42:49 GMT"
+        "lastModified": "Thu, 19 Nov 2026 13:54:53 GMT"
       },
       "generator": "respec",
-      "date": "16 November 2026",
-      "revision": "4504a2f3110655bbcb03d88f14b324ec7f47e92f",
+      "date": "19 November 2026",
+      "revision": "068820ff6154ff1fdef809c645efbdc962cafb6c",
       "algorithms": "algorithms/epub-34.json",
       "links": "links/epub-34.json",
       "refs": "refs/epub-34.json",
@@ -13899,11 +13899,11 @@
       ],
       "crawled": "https://www.w3.org/TR/input-events-2/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 15 Oct 2026 07:20:13 GMT"
+        "lastModified": "Fri, 20 Nov 2026 04:56:14 GMT"
       },
       "generator": "respec",
-      "date": "15 October 2026",
-      "revision": "e69ef15b60bd4516417bfef5c88e7d0ca007d1cf",
+      "date": "20 November 2026",
+      "revision": "9758626096bfae9a3181ab370542b576a41e74f1",
       "algorithms": "algorithms/input-events-2.json",
       "links": "links/input-events-2.json",
       "refs": "refs/input-events-2.json",
@@ -14892,11 +14892,11 @@
       ],
       "crawled": "https://www.w3.org/TR/mediacapture-streams/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 12 Nov 2026 15:57:06 GMT"
+        "lastModified": "Thu, 19 Nov 2026 16:08:21 GMT"
       },
       "generator": "respec",
-      "date": "12 November 2026",
-      "revision": "a5a230dd9dc68e03b1bcbe1f7669f1212b49c1ba",
+      "date": "19 November 2026",
+      "revision": "1eacad84e736aac73a68c06f5702e93fa5765bd0",
       "algorithms": "algorithms/mediacapture-streams.json",
       "links": "links/mediacapture-streams.json",
       "refs": "refs/mediacapture-streams.json",
@@ -19619,11 +19619,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-sparql/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 22 Oct 2026 02:26:19 GMT"
+        "lastModified": "Thu, 19 Nov 2026 22:32:49 GMT"
       },
       "generator": "respec",
-      "date": "22 October 2026",
-      "revision": "6deac32732881b6d12adf5895fafed2adbd627ba",
+      "date": "19 November 2026",
+      "revision": "df676cb85b4f958159da82a506bb0b0553d78f41",
       "algorithms": "algorithms/shacl12-sparql.json",
       "links": "links/shacl12-sparql.json",
       "refs": "refs/shacl12-sparql.json",
@@ -19787,11 +19787,11 @@
       ],
       "crawled": "https://www.w3.org/TR/sparql12-graph-store-protocol/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 24 Sep 2026 16:46:33 GMT"
+        "lastModified": "Thu, 19 Nov 2026 18:00:02 GMT"
       },
       "generator": "respec",
-      "date": "24 September 2026",
-      "revision": "e66c9f0e821f0ad175aac5401f28c56bc95d9adb",
+      "date": "19 November 2026",
+      "revision": "e5c01b3e759de5f65c9afeba84096a50f0b297b8",
       "links": "links/sparql12-graph-store-protocol.json",
       "refs": "refs/sparql12-graph-store-protocol.json",
       "headings": "headings/sparql12-graph-store-protocol.json",
@@ -19842,11 +19842,11 @@
       ],
       "crawled": "https://www.w3.org/TR/sparql12-protocol/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 16 Nov 2026 17:19:17 GMT"
+        "lastModified": "Thu, 19 Nov 2026 17:11:31 GMT"
       },
       "generator": "respec",
-      "date": "16 November 2026",
-      "revision": "b5438cd5975837a6c1f05a2ed98abe4e0a3368a1",
+      "date": "19 November 2026",
+      "revision": "491afd7f9d61f28cc5e145946083504529e97473",
       "algorithms": "algorithms/sparql12-protocol.json",
       "links": "links/sparql12-protocol.json",
       "refs": "refs/sparql12-protocol.json",
@@ -19899,11 +19899,11 @@
       ],
       "crawled": "https://www.w3.org/TR/sparql12-query/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 16 Nov 2026 08:50:46 GMT"
+        "lastModified": "Thu, 19 Nov 2026 17:32:46 GMT"
       },
       "generator": "respec",
-      "date": "16 November 2026",
-      "revision": "174f334da115f05131327e45ad4937a23e321b59",
+      "date": "19 November 2026",
+      "revision": "027e007afaf6f986d36a06a95cee3dffe9b10ea4",
       "algorithms": "algorithms/sparql12-query.json",
       "links": "links/sparql12-query.json",
       "refs": "refs/sparql12-query.json",
@@ -19956,11 +19956,11 @@
       ],
       "crawled": "https://www.w3.org/TR/sparql12-results-csv-tsv/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 16 Nov 2026 08:53:50 GMT"
+        "lastModified": "Thu, 19 Nov 2026 17:26:59 GMT"
       },
       "generator": "respec",
-      "date": "16 November 2026",
-      "revision": "2018eb89cfc924229b96cd2bfafd24e354ea2632",
+      "date": "19 November 2026",
+      "revision": "e78e3a4fbb565aec9ae40f3d601ba1f75310fe13",
       "links": "links/sparql12-results-csv-tsv.json",
       "refs": "refs/sparql12-results-csv-tsv.json",
       "headings": "headings/sparql12-results-csv-tsv.json",
@@ -20011,11 +20011,11 @@
       ],
       "crawled": "https://www.w3.org/TR/sparql12-results-json/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 13 Aug 2026 18:43:29 GMT"
+        "lastModified": "Thu, 19 Nov 2026 17:37:30 GMT"
       },
       "generator": "respec",
-      "date": "13 August 2026",
-      "revision": "d2d8798ab5b71a6389cc2c2704e7bc184efe228f",
+      "date": "19 November 2026",
+      "revision": "16bdc6ec144536608e754def9444e45c5f9c89a6",
       "links": "links/sparql12-results-json.json",
       "refs": "refs/sparql12-results-json.json",
       "headings": "headings/sparql12-results-json.json",
@@ -20066,13 +20066,14 @@
       ],
       "crawled": "https://www.w3.org/TR/sparql12-results-xml/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 27 Dec 2024 09:17:47 GMT"
+        "lastModified": "Thu, 19 Nov 2026 17:34:13 GMT"
       },
       "generator": "respec",
-      "date": "27 December 2024",
-      "revision": "efb7f0921376a92d839d741e02a1dcaef1c19bcb",
+      "date": "19 November 2026",
+      "revision": "a66cc663d16b5dac988dd7d2dfed7ff58869c2a0",
       "links": "links/sparql12-results-xml.json",
       "refs": "refs/sparql12-results-xml.json",
+      "dfns": "dfns/sparql12-results-xml.json",
       "headings": "headings/sparql12-results-xml.json",
       "ids": "ids/sparql12-results-xml.json",
       "cddl": []
@@ -20177,11 +20178,11 @@
       ],
       "crawled": "https://www.w3.org/TR/sparql12-update/",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 15 Nov 2026 17:46:30 GMT"
+        "lastModified": "Thu, 19 Nov 2026 16:31:53 GMT"
       },
       "generator": "respec",
-      "date": "15 November 2026",
-      "revision": "8669330906b5c75f1669a3497aba29f4a87046e6",
+      "date": "19 November 2026",
+      "revision": "93f0baee3419f6655cc2ca49490fab403ec86952",
       "links": "links/sparql12-update.json",
       "refs": "refs/sparql12-update.json",
       "headings": "headings/sparql12-update.json",
@@ -24786,11 +24787,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webcodecs/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 17 Nov 2026 11:15:52 GMT"
+        "lastModified": "Thu, 19 Nov 2026 09:18:30 GMT"
       },
       "generator": "bikeshed",
-      "date": "17 November 2026",
-      "revision": "44c642b271aef0b5aca1f39e9f3f8a09b8ad7d26",
+      "date": "19 November 2026",
+      "revision": "e3e611cc4f68610f8589ad9f70a2ef5f44f74a6b",
       "algorithms": "algorithms/webcodecs.json",
       "links": "links/webcodecs.json",
       "refs": "refs/webcodecs.json",
