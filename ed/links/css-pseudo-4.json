@@ -1256,6 +1256,7 @@
           "propdef-writing-mode",
           "propdef-text-orientation",
           "block-axis",
+          "flow-relative",
           "writing-mode"
         ]
       },

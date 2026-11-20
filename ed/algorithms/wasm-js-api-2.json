@@ -1228,10 +1228,10 @@
               "html": "<p>Let <var>frame</var> be the <a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/conventions.html#exec-notation-textual\" id=\"ref-for-exec-notation-textual\">current frame</a>.</p>"
             },
             {
-              "html": "<p class=\"assertion\">Assert: due to validation, <var>frame</var>.<a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-frame\" id=\"ref-for-syntax-frame\">module</a>.<a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-moduleinst\" id=\"ref-for-syntax-moduleinst\">memaddrs</a>[<var>x</var>] exists.</p>"
+              "html": "<p class=\"assertion\">Assert: due to validation, <var>frame</var>.<a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-frame\" id=\"ref-for-syntax-frame\">module</a>.<a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-moduleinst\" id=\"ref-for-syntax-moduleinst\">mems</a>[<var>x</var>] exists.</p>"
             },
             {
-              "html": "<p>Let <var>memaddr</var> be the <a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-memaddr\" id=\"ref-for-syntax-memaddr⑦\">memory address</a> <var>frame</var>.<a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-frame\" id=\"ref-for-syntax-frame①\">module</a>.<a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-moduleinst\" id=\"ref-for-syntax-moduleinst①\">memaddrs</a>[<var>x</var>].</p>"
+              "html": "<p>Let <var>memaddr</var> be the <a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-memaddr\" id=\"ref-for-syntax-memaddr⑦\">memory address</a> <var>frame</var>.<a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-frame\" id=\"ref-for-syntax-frame①\">module</a>.<a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-moduleinst\" id=\"ref-for-syntax-moduleinst①\">mems</a>[<var>x</var>].</p>"
             },
             {
               "html": "<p><a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/js-api/#refresh-the-memory-buffer\" id=\"ref-for-refresh-the-memory-buffer①\">Refresh the memory buffer</a> of <var>memaddr</var>.</p>"
@@ -1920,12 +1920,9 @@
           "html": "<p>Let <var>funcinst</var> be <var>store</var>.funcs[<var>funcaddr</var>].</p>"
         },
         {
-          "html": "If <var>funcinst</var> is of the form {type <var>functype</var>, hostcode <var>hostfunc</var>},",
-          "rationale": "assert",
+          "html": "If <var>funcinst</var>.code is a <a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-hostfunc\" id=\"ref-for-syntax-hostfunc\">host function</a>,",
+          "rationale": "let",
           "steps": [
-            {
-              "html": "<p class=\"assertion\">Assert: <var>hostfunc</var> is a JavaScript object and <a data-link-type=\"abstract-op\" href=\"https://tc39.es/ecma262/multipage/abstract-operations.html#sec-iscallable\" id=\"ref-for-sec-iscallable①\">IsCallable</a>(<var>hostfunc</var>) is true.</p>"
-            },
             {
               "html": "<p>Let <var>index</var> be the <a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/js-api/#index-of-the-host-function\" id=\"ref-for-index-of-the-host-function\">index of the host function</a> <var>funcaddr</var>.</p>"
             }
@@ -2201,13 +2198,13 @@
       "rationale": ".algorithm",
       "steps": [
         {
-          "html": "<p class=\"assertion\">Assert: <a data-link-type=\"abstract-op\" href=\"https://tc39.es/ecma262/multipage/abstract-operations.html#sec-iscallable\" id=\"ref-for-sec-iscallable②\">IsCallable</a>(<var>func</var>).</p>"
+          "html": "<p class=\"assertion\">Assert: <a data-link-type=\"abstract-op\" href=\"https://tc39.es/ecma262/multipage/abstract-operations.html#sec-iscallable\" id=\"ref-for-sec-iscallable①\">IsCallable</a>(<var>func</var>).</p>"
         },
         {
           "html": "<p>Let <var>stored settings</var> be the <a data-link-type=\"dfn\" href=\"https://html.spec.whatwg.org/multipage/webappapis.html#incumbent-settings-object\" id=\"ref-for-incumbent-settings-object\">incumbent settings object</a>.</p>"
         },
         {
-          "html": "Let <var>hostfunc</var> be a <a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-hostfunc\" id=\"ref-for-syntax-hostfunc\">host function</a> which performs the following steps when called with arguments <var>arguments</var>:",
+          "html": "Let <var>hostfunc</var> be a <a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-hostfunc\" id=\"ref-for-syntax-hostfunc①\">host function</a> which performs the following steps when called with arguments <var>arguments</var>:",
           "rationale": "let",
           "steps": [
             {
@@ -2924,7 +2921,7 @@
     {
       "name": "a new Exported GC Object",
       "href": "https://webassembly.github.io/spec/js-api/#a-new-exported-gc-object",
-      "html": "To create <dfn class=\"dfn-paneled\" data-dfn-type=\"dfn\" data-noexport=\"\" id=\"a-new-exported-gc-object\"><button class=\"dfn-panelbutton\" popovertarget=\"infopanel-for-a-new-exported-gc-object\">a new Exported GC Object</button></dfn><dialog class=\"dfn-panel\" id=\"infopanel-for-a-new-exported-gc-object\" popover=\"hint\" data-for=\"a-new-exported-gc-object\" aria-labelledby=\"infopaneltitle-for-a-new-exported-gc-object\"><span id=\"infopaneltitle-for-a-new-exported-gc-object\" style=\"display:none\">Info about the 'a new Exported GC Object'  reference.</span><a href=\"https://webassembly.github.io/spec/js-api/#a-new-exported-gc-object\" class=\"dfn-link\">#a-new-exported-gc-object</a><b>Referenced in:</b><ul><li><a href=\"https://webassembly.github.io/spec/js-api/#ref-for-a-new-exported-gc-object\">5.6. Exported Functions</a> <a href=\"https://webassembly.github.io/spec/js-api/#ref-for-a-new-exported-gc-object%E2%91%A0\">(2)</a> </li></ul><b>Possible linking syntaxes:</b><ul><li><div class=\"link-item\"><button class=\"copy-icon\" title=\"Copy\" type=\"button\" tabindex=\"0\"><span class=\"icon\"></span></button><span>[=a new Exported GC Object=]</span></div></li><li><div class=\"link-item\"><button class=\"copy-icon\" title=\"Copy\" type=\"button\" tabindex=\"0\"><span class=\"icon\"></span></button><span>[=/a new Exported GC Object=]</span></div></li></ul></dialog> from a WebAssembly <u class=\"link-error\" data-lt=\"object address\" title=\"LINK ERROR: No 'dfn' refs found for 'object address'.\">object address</u> <var>objectaddr</var> and a string <var>objectkind</var>, perform the following steps:",
+      "html": "To create <dfn class=\"dfn-paneled\" data-dfn-type=\"dfn\" data-noexport=\"\" id=\"a-new-exported-gc-object\"><button class=\"dfn-panelbutton\" popovertarget=\"infopanel-for-a-new-exported-gc-object\">a new Exported GC Object</button></dfn><dialog class=\"dfn-panel\" id=\"infopanel-for-a-new-exported-gc-object\" popover=\"hint\" data-for=\"a-new-exported-gc-object\" aria-labelledby=\"infopaneltitle-for-a-new-exported-gc-object\"><span id=\"infopaneltitle-for-a-new-exported-gc-object\" style=\"display:none\">Info about the 'a new Exported GC Object'  reference.</span><a href=\"https://webassembly.github.io/spec/js-api/#a-new-exported-gc-object\" class=\"dfn-link\">#a-new-exported-gc-object</a><b>Referenced in:</b><ul><li><a href=\"https://webassembly.github.io/spec/js-api/#ref-for-a-new-exported-gc-object\">5.6. Exported Functions</a> <a href=\"https://webassembly.github.io/spec/js-api/#ref-for-a-new-exported-gc-object%E2%91%A0\">(2)</a> </li></ul><b>Possible linking syntaxes:</b><ul><li><div class=\"link-item\"><button class=\"copy-icon\" title=\"Copy\" type=\"button\" tabindex=\"0\"><span class=\"icon\"></span></button><span>[=a new Exported GC Object=]</span></div></li><li><div class=\"link-item\"><button class=\"copy-icon\" title=\"Copy\" type=\"button\" tabindex=\"0\"><span class=\"icon\"></span></button><span>[=/a new Exported GC Object=]</span></div></li></ul></dialog> from a WebAssembly <u class=\"link-error\" title=\"LINK ERROR: No 'dfn' refs found for 'object address'.\">object address</u> <var>objectaddr</var> and a string <var>objectkind</var>, perform the following steps:",
       "rationale": ".algorithm",
       "steps": [
         {
@@ -3359,7 +3356,7 @@
       "rationale": ".algorithm",
       "steps": [
         {
-          "html": "<p>Let <var>hostfunc</var> be a <a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-hostfunc\" id=\"ref-for-syntax-hostfunc①\">host function</a> which executes <var>steps</var> when called.</p>"
+          "html": "<p>Let <var>hostfunc</var> be a <a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/core/exec/runtime.html#syntax-hostfunc\" id=\"ref-for-syntax-hostfunc②\">host function</a> which executes <var>steps</var> when called.</p>"
         },
         {
           "html": "<p>Let <var>store</var> be the <a data-link-type=\"dfn\" href=\"https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#surrounding-agent\" id=\"ref-for-surrounding-agent⑥①\">surrounding agent</a>’s <a data-link-type=\"dfn\" href=\"https://webassembly.github.io/spec/js-api/#associated-store\" id=\"ref-for-associated-store④③\">associated store</a>.</p>"
