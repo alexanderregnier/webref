@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-11-21T08:15:01.568Z",
+  "date": "2026-11-22T07:59:58.844Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "21 November 2026",
+      "date": "22 November 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -2408,11 +2408,11 @@
       ],
       "crawled": "https://www.w3.org/TR/credential-management-1/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 03 Sep 2026 07:56:35 GMT"
+        "lastModified": "Sun, 22 Nov 2026 03:24:15 GMT"
       },
       "generator": "bikeshed",
-      "date": "3 September 2026",
-      "revision": "0a74859abde0e0717f34d79835de94a12431291a",
+      "date": "22 November 2026",
+      "revision": "2ee1eef8ec16c488988dfd2734909646dc7e161e",
       "algorithms": "algorithms/credential-management-1.json",
       "links": "links/credential-management-1.json",
       "refs": "refs/credential-management-1.json",
@@ -14572,11 +14572,11 @@
       ],
       "crawled": "https://www.w3.org/TR/mathml4/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 19 Nov 2026 07:23:03 GMT"
+        "lastModified": "Sat, 21 Nov 2026 08:28:45 GMT"
       },
       "generator": "respec",
-      "date": "19 November 2026",
-      "revision": "6b634994f017ca15878291b5294fbe54f8fd6dae",
+      "date": "21 November 2026",
+      "revision": "6b193edbb1eeed6a325597d6b714f7b3970cbfe8",
       "algorithms": "algorithms/mathml4.json",
       "links": "links/mathml4.json",
       "refs": "refs/mathml4.json",
@@ -17634,11 +17634,11 @@
       ],
       "crawled": "https://www.w3.org/TR/push-api/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 16 Nov 2026 05:43:20 GMT"
+        "lastModified": "Sat, 21 Nov 2026 20:03:47 GMT"
       },
       "generator": "respec",
-      "date": "16 November 2026",
-      "revision": "6947efdf43e17e286dcb5878a64cdbaa7e78f6e6",
+      "date": "21 November 2026",
+      "revision": "a11ac50f5b2a3342d3e5a8e4d55d8ec5d3de3c7e",
       "algorithms": "algorithms/push-api.json",
       "links": "links/push-api.json",
       "refs": "refs/push-api.json",
