@@ -41,6 +41,7 @@
           "document",
           "concept-tree-root",
           "concept-tree-descendant",
+          "concept-node",
           "connected"
         ]
       },
@@ -231,7 +232,7 @@
       "https://w3c.github.io/svgwg/svg2-draft/embedded.html": {
         "anchors": [
           "elementdef-image",
-          "InterfaceSVGImageElement"
+          "svgimageelement"
         ]
       },
       "https://w3c.github.io/svgwg/svg2-draft/struct.html": {

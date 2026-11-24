@@ -10,22 +10,22 @@
       "https://developers.google.com/web/fundamentals/performance/rail": {},
       "https://dom.spec.whatwg.org/": {},
       "https://en.wikipedia.org/wiki/Real_user_monitoring": {},
-      "https://github.com/w3c/longtasks/issues": {},
-      "https://github.com/w3c/longtasks/issues/75": {},
+      "https://github.com/WICG/longtasks/issues/75": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
         "anchors": [
           "attr-object-name"
         ]
       },
-      "https://lists.w3.org/Archives/Public/public-web-perf/": {},
       "https://tc39.es/ecma262/multipage/": {},
       "https://tom.vg/papers/timing-attacks_ccs2015.pdf": {},
       "https://w3c.github.io/hr-time/": {},
       "https://w3c.github.io/long-animation-frames/": {},
       "https://w3c.github.io/performance-timeline/": {},
       "https://webidl.spec.whatwg.org/": {},
-      "https://www.w3.org/policies/process/20250818/": {}
+      "https://www.w3.org/community/": {},
+      "https://www.w3.org/community/about/agreements/cla/": {},
+      "https://www.w3.org/community/wicg/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {

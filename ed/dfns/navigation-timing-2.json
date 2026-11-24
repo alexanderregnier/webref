@@ -28,7 +28,7 @@
       "id": "sec-PerformanceNavigationTiming",
       "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
       "linkingText": [
-        "The PerformanceNavigationTiming interface"
+        "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -40,7 +40,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "heading",
@@ -62,7 +62,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "heading",
@@ -82,7 +82,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "pre",
@@ -104,7 +104,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "pre",
@@ -126,7 +126,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -148,7 +148,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -170,7 +170,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -192,7 +192,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -214,7 +214,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -236,7 +236,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -258,7 +258,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -280,7 +280,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -302,7 +302,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -324,7 +324,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -346,7 +346,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -368,7 +368,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -390,7 +390,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -412,7 +412,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -434,7 +434,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -456,7 +456,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -478,7 +478,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -500,7 +500,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -522,7 +522,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -544,7 +544,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -566,7 +566,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -588,7 +588,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -610,7 +610,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -632,7 +632,7 @@
       "heading": {
         "id": "sec-PerformanceNavigationTiming",
         "href": "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming",
-        "title": "The PerformanceNavigationTiming interface",
+        "title": "The PerformanceNavigationTimingInfo about the 'PerformanceNavigationTiming' reference.#performancenavigationtiming-performancenavigationtimingPossible linking syntaxes:[=PerformanceNavigationTiming=][=PerformanceNavigationTiming/PerformanceNavigationTiming=] interface",
         "number": "3.3"
       },
       "definedIn": "prose",
@@ -1072,7 +1072,7 @@
       "id": "the-performancetiming-interface",
       "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
       "linkingText": [
-        "The PerformanceTiming interface"
+        "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1084,7 +1084,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "heading",
@@ -1106,7 +1106,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "heading",
@@ -1126,7 +1126,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1148,7 +1148,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1170,7 +1170,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1192,7 +1192,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1214,7 +1214,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1236,7 +1236,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1258,7 +1258,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1280,7 +1280,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1302,7 +1302,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1324,7 +1324,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1346,7 +1346,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1368,7 +1368,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1390,7 +1390,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1412,7 +1412,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1434,7 +1434,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1456,7 +1456,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1478,7 +1478,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1500,7 +1500,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1522,7 +1522,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1544,7 +1544,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1566,7 +1566,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1588,7 +1588,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1610,7 +1610,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "pre",
@@ -1632,7 +1632,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1654,7 +1654,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1676,7 +1676,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1698,7 +1698,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1720,7 +1720,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1742,7 +1742,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1764,7 +1764,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1786,7 +1786,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1808,7 +1808,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1830,7 +1830,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1852,7 +1852,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1874,7 +1874,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1896,7 +1896,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1918,7 +1918,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1940,7 +1940,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1962,7 +1962,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -1984,7 +1984,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -2006,7 +2006,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -2028,7 +2028,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -2050,7 +2050,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -2072,7 +2072,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -2094,7 +2094,7 @@
       "heading": {
         "id": "the-performancetiming-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancetiming-interface",
-        "title": "The PerformanceTiming interface",
+        "title": "The PerformanceTimingInfo about the 'PerformanceTiming' reference.#performancetiming-performancetimingPossible linking syntaxes:[=PerformanceTiming=][=PerformanceTiming/PerformanceTiming=] interface",
         "number": "8.1"
       },
       "definedIn": "dt",
@@ -2104,7 +2104,7 @@
       "id": "the-performancenavigation-interface",
       "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
       "linkingText": [
-        "The PerformanceNavigation interface"
+        "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2116,7 +2116,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "heading",
@@ -2138,7 +2138,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "heading",
@@ -2158,7 +2158,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "pre",
@@ -2180,7 +2180,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "pre",
@@ -2202,7 +2202,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "pre",
@@ -2224,7 +2224,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "pre",
@@ -2246,7 +2246,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "pre",
@@ -2268,7 +2268,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "pre",
@@ -2290,7 +2290,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "pre",
@@ -2312,7 +2312,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "pre",
@@ -2334,7 +2334,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "dt",
@@ -2356,7 +2356,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "dt",
@@ -2378,7 +2378,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "dt",
@@ -2400,7 +2400,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "dt",
@@ -2422,7 +2422,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "dt",
@@ -2444,7 +2444,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "dt",
@@ -2466,7 +2466,7 @@
       "heading": {
         "id": "the-performancenavigation-interface",
         "href": "https://w3c.github.io/navigation-timing/#the-performancenavigation-interface",
-        "title": "The PerformanceNavigation interface",
+        "title": "The PerformanceNavigationInfo about the 'PerformanceNavigation' reference.#performancenavigation-performancenavigationPossible linking syntaxes:[=PerformanceNavigation=][=PerformanceNavigation/PerformanceNavigation=] interface",
         "number": "8.2"
       },
       "definedIn": "dt",

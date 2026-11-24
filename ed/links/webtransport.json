@@ -254,7 +254,6 @@
           "concept-response-header-list",
           "concept-header-list-delete",
           "typedefdef-headersinit",
-          "concept-body-stream",
           "http-origin",
           "dom-global-fetch"
         ]
@@ -300,7 +299,8 @@
           "ordered-set",
           "list-iterate",
           "isomorphic-encode",
-          "ascii-lowercase",
+          "byte-case-insensitive",
+          "assert",
           "code-unit-prefix",
           "byte-sequence-length",
           "list",
@@ -311,8 +311,7 @@
           "ascii-case-insensitive",
           "map-exists",
           "list-contain",
-          "list-remove",
-          "list-empty"
+          "list-remove"
         ]
       },
       "https://streams.spec.whatwg.org/": {
@@ -390,10 +389,10 @@
           "BufferSource",
           "a-promise-rejected-with",
           "exceptiondef-typeerror",
+          "buffersource-byte-length",
           "idl-unsigned-long",
           "idl-unrestricted-double",
           "exceptiondef-rangeerror",
-          "buffersource-byte-length",
           "idl-DataView",
           "idl-Uint8Array",
           "idl-USVString",
