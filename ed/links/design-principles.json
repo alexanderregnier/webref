@@ -39,6 +39,7 @@
       "https://drafts.csswg.org/css-fonts-5/": {},
       "https://drafts.csswg.org/css-grid-1/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
+      "https://drafts.csswg.org/css-link-params/": {},
       "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/css2/": {
         "anchors": [
@@ -230,6 +231,12 @@
       "https://w3c.github.io/pointerevents/": {},
       "https://w3c.github.io/remote-playback/": {},
       "https://w3c.github.io/requestidlecallback/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/linking.html": {
+        "anchors": [
+          "SVGFragmentIdentifiersDefinitions"
+        ]
+      },
       "https://w3c.github.io/uievents/": {},
       "https://w3c.github.io/wcag/guidelines/22/": {
         "anchors": [
@@ -270,6 +277,7 @@
       "https://wicg.github.io/aom/": {},
       "https://wicg.github.io/origin-policy/": {},
       "https://wicg.github.io/sanitizer-api/": {},
+      "https://wicg.github.io/scroll-to-text-fragment/": {},
       "https://wicg.github.io/webusb/": {},
       "https://wiki.csswg.org/spec/computed-values": {},
       "https://www.iana.org/assignments/link-relations/": {},
@@ -282,6 +290,11 @@
           "section-4"
         ]
       },
+      "https://www.rfc-editor.org/info/rfc7303/": {
+        "anchors": [
+          "section-5"
+        ]
+      },
       "https://www.rfc-editor.org/info/rfc8126/": {
         "anchors": [
           "section-4.6",
@@ -290,6 +303,11 @@
         ]
       },
       "https://www.rfc-editor.org/info/rfc8615/": {},
+      "https://www.rfc-editor.org/info/rfc8820/": {
+        "anchors": [
+          "name-uri-fragment-identifiers"
+        ]
+      },
       "https://www.rfc-editor.org/info/rfc8890/": {},
       "https://www.rfc-editor.org/info/rfc9000/": {},
       "https://www.w3.org/2001/tag/doc/leastPower": {},
@@ -371,6 +389,7 @@
           "type-links"
         ]
       },
+      "https://www.w3.org/TR/media-frags/": {},
       "https://www.w3.org/TR/mediacapture-streams/": {},
       "https://www.w3.org/TR/payment-method-manifest/": {},
       "https://www.w3.org/TR/payment-request/": {
@@ -424,6 +443,7 @@
         ]
       },
       "https://www.w3.org/TR/xml-names/": {},
+      "https://www.w3.org/TR/xptr-framework/": {},
       "https://www.w3.org/community/autowebplatform/": {},
       "https://www.w3.org/community/web-bluetooth/": {},
       "https://www.w3.org/groups/other/tag/": {},
@@ -517,6 +537,7 @@
           "propdef-initial-letter-align"
         ]
       },
+      "https://drafts.csswg.org/css-link-params/": {},
       "https://drafts.csswg.org/css-values-4/": {
         "anchors": [
           "number-value",
@@ -988,6 +1009,12 @@
           "dfn-partial-dictionary"
         ]
       },
+      "https://wicg.github.io/scroll-to-text-fragment/": {
+        "anchors": [
+          "fragment-directive",
+          "text-directive"
+        ]
+      },
       "https://www.iana.org/assignments/link-relations/": {},
       "https://www.rfc-editor.org/info/rfc1866/": {},
       "https://www.rfc-editor.org/info/rfc4287/": {},
@@ -998,6 +1025,8 @@
         ]
       },
       "https://www.w3.org/TR/html401/": {},
+      "https://www.w3.org/TR/media-frags/": {},
+      "https://www.w3.org/TR/xptr-framework/": {},
       "https://xhr.spec.whatwg.org/": {
         "anchors": [
           "xmlhttprequest",
