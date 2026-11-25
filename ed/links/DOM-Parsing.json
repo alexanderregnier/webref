@@ -21,7 +21,11 @@
           "dom-element-insertadjacenthtml"
         ]
       },
-      "https://html.spec.whatwg.org/multipage/": {},
+      "https://html.spec.whatwg.org/multipage/": {
+        "anchors": [
+          "get-the-inherited-custom-element-registry"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html": {
         "anchors": [
           "domparser",
@@ -94,10 +98,10 @@
           "attr",
           "concept-element-local-name",
           "concept-element-namespace-prefix",
+          "concept-attribute-local-name",
           "dom-element-setattribute",
           "concept-attribute-namespace-prefix",
           "concept-attribute-value",
-          "concept-attribute-local-name",
           "concept-element",
           "document-element",
           "concept-cd-data",
@@ -105,6 +109,12 @@
           "concept-doctype-systemid",
           "html-document",
           "concept-pi-target"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/custom-elements.html": {
+        "anchors": [
+          "look-up-a-custom-element-registry",
+          "is-scoped"
         ]
       },
       "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html": {

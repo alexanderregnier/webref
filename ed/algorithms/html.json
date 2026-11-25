@@ -12235,6 +12235,21 @@
       ]
     },
     {
+      "html": "The <code id=\"the-form-element:the-form-element-19\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> <a id=\"the-form-element:html-element-removing-steps\" href=\"https://html.spec.whatwg.org/multipage/infrastructure.html#html-element-removing-steps\">HTML element removing steps</a>, given <var>removedNode</var>,\n  <var>isSubtreeRoot</var>, and <var>oldAncestor</var>, are:",
+      "rationale": "for",
+      "steps": [
+        {
+          "html": "For each <a href=\"https://html.spec.whatwg.org/multipage/forms.html#form-associated-element\" id=\"the-form-element:form-associated-element-2\">form-associated element</a> <var>element</var> that is an <a id=\"the-form-element:inclusive-descendant\" href=\"https://dom.spec.whatwg.org/#concept-tree-inclusive-descendant\" data-x-internal=\"inclusive-descendant\">inclusive\n    descendant</a> of <var>oldAncestor</var>'s <a id=\"the-form-element:root-2\" href=\"https://dom.spec.whatwg.org/#concept-tree-root\" data-x-internal=\"root\">root</a> and whose <a id=\"the-form-element:form-owner-7\" href=\"https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#form-owner\">form\n    owner</a> is <var>removedNode</var>, in <a id=\"the-form-element:tree-order-4\" href=\"https://dom.spec.whatwg.org/#concept-tree-order\" data-x-internal=\"tree-order\">tree order</a>:",
+          "rationale": "reset",
+          "steps": [
+            {
+              "html": "<p><a id=\"the-form-element:reset-the-form-owner\" href=\"https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#reset-the-form-owner\">Reset the form owner</a> of <var>element</var>.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "HTMLFormElement/requestSubmit(submitter)",
       "href": "https://html.spec.whatwg.org/multipage/forms.html#dom-form-requestsubmit",
       "html": "The <dfn data-dfn-for=\"HTMLFormElement\" id=\"dom-form-requestsubmit\" data-dfn-type=\"method\"><code>requestSubmit(<var>submitter</var>)</code></dfn> method, when\n  invoked, must run the following steps:",
@@ -12248,15 +12263,15 @@
               "html": "<p>If <var>submitter</var> is not a <a href=\"https://html.spec.whatwg.org/multipage/forms.html#concept-submit-button\" id=\"the-form-element:concept-submit-button-2\">submit\n     button</a>, then throw a <code id=\"the-form-element:typeerror\"><a data-x-internal=\"typeerror\" href=\"https://tc39.es/ecma262/#sec-native-error-types-used-in-this-standard-typeerror\">TypeError</a></code>.</p>"
             },
             {
-              "html": "<p>If <var>submitter</var>'s <a id=\"the-form-element:form-owner-7\" href=\"https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#form-owner\">form owner</a> is not this <code id=\"the-form-element:the-form-element-19\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element,\n     then throw a <a id=\"the-form-element:notfounderror\" href=\"https://webidl.spec.whatwg.org/#notfounderror\" data-x-internal=\"notfounderror\">\"<code>NotFoundError</code>\"</a> <code id=\"the-form-element:domexception\"><a data-x-internal=\"domexception\" href=\"https://webidl.spec.whatwg.org/#dfn-DOMException\">DOMException</a></code>.</p>"
+              "html": "<p>If <var>submitter</var>'s <a id=\"the-form-element:form-owner-8\" href=\"https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#form-owner\">form owner</a> is not this <code id=\"the-form-element:the-form-element-20\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element,\n     then throw a <a id=\"the-form-element:notfounderror\" href=\"https://webidl.spec.whatwg.org/#notfounderror\" data-x-internal=\"notfounderror\">\"<code>NotFoundError</code>\"</a> <code id=\"the-form-element:domexception\"><a data-x-internal=\"domexception\" href=\"https://webidl.spec.whatwg.org/#dfn-DOMException\">DOMException</a></code>.</p>"
             }
           ]
         },
         {
-          "html": "<p>Otherwise, set <var>submitter</var> to this <code id=\"the-form-element:the-form-element-20\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element.</p>"
+          "html": "<p>Otherwise, set <var>submitter</var> to this <code id=\"the-form-element:the-form-element-21\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element.</p>"
         },
         {
-          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#concept-form-submit\" id=\"the-form-element:concept-form-submit-2\">Submit</a> this <code id=\"the-form-element:the-form-element-21\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element, from\n   <var>submitter</var>.</p>"
+          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#concept-form-submit\" id=\"the-form-element:concept-form-submit-2\">Submit</a> this <code id=\"the-form-element:the-form-element-22\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element, from\n   <var>submitter</var>.</p>"
         }
       ]
     },
@@ -12267,16 +12282,16 @@
       "rationale": "if",
       "steps": [
         {
-          "html": "<p>If the <code id=\"the-form-element:the-form-element-22\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element is marked as <i id=\"the-form-element:locked-for-reset\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#locked-for-reset\">locked for reset</a></i>, then return.</p>"
+          "html": "<p>If the <code id=\"the-form-element:the-form-element-23\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element is marked as <i id=\"the-form-element:locked-for-reset\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#locked-for-reset\">locked for reset</a></i>, then return.</p>"
         },
         {
-          "html": "<p>Mark the <code id=\"the-form-element:the-form-element-23\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element as <dfn id=\"locked-for-reset\">locked for reset</dfn>.</p>"
+          "html": "<p>Mark the <code id=\"the-form-element:the-form-element-24\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element as <dfn id=\"locked-for-reset\">locked for reset</dfn>.</p>"
         },
         {
-          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#concept-form-reset\" id=\"the-form-element:concept-form-reset\">Reset</a> the <code id=\"the-form-element:the-form-element-24\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element.</p>"
+          "html": "<p><a href=\"https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#concept-form-reset\" id=\"the-form-element:concept-form-reset\">Reset</a> the <code id=\"the-form-element:the-form-element-25\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element.</p>"
         },
         {
-          "html": "<p>Unmark the <code id=\"the-form-element:the-form-element-25\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element as <i id=\"the-form-element:locked-for-reset-2\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#locked-for-reset\">locked for reset</a></i>.</p>"
+          "html": "<p>Unmark the <code id=\"the-form-element:the-form-element-26\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#the-form-element\">form</a></code> element as <i id=\"the-form-element:locked-for-reset-2\"><a href=\"https://html.spec.whatwg.org/multipage/forms.html#locked-for-reset\">locked for reset</a></i>.</p>"
         }
       ]
     },
