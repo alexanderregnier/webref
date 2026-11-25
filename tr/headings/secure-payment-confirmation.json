@@ -133,7 +133,7 @@
       "id": "sctn-securepaymentconfirmationrequest-dictionary",
       "href": "https://www.w3.org/TR/secure-payment-confirmation/#sctn-securepaymentconfirmationrequest-dictionary",
       "level": 3,
-      "title": "SecurePaymentConfirmationRequest Dictionary",
+      "title": "SecurePaymentConfirmationRequestInfo about the 'SecurePaymentConfirmationRequest' reference.#dictdef-securepaymentconfirmationrequestReferenced in:4.4. SecurePaymentConfirmationRequest Dictionary (2) 4.5. Payment Method additional data type 4.8. Steps to validate payment method data 4.9. Steps to check if a payment can be made 4.11. Steps to respond to a payment request 5. WebAuthn Extension - \"payment\" (2) Possible linking syntaxes:{{SecurePaymentConfirmationRequest}} Dictionary",
       "number": "4.4"
     },
     {
@@ -161,7 +161,7 @@
       "id": "sctn-secure-payment-confirmation-capability-enumeration",
       "href": "https://www.w3.org/TR/secure-payment-confirmation/#sctn-secure-payment-confirmation-capability-enumeration",
       "level": 4,
-      "title": "SecurePaymentConfirmationCapability Enumeration",
+      "title": "SecurePaymentConfirmationCapabilityInfo about the 'SecurePaymentConfirmationCapability' reference.#enumdef-securepaymentconfirmationcapabilityReferenced in:4.7. Availability of Secure Payment Confirmation capabilities 4.7.1. SecurePaymentConfirmationCapability Enumeration 12.6. Fingerprinting via getSecurePaymentConfirmationCapabilities Possible linking syntaxes:{{SecurePaymentConfirmationCapability}} Enumeration",
       "number": "4.7.1"
     },
     {
@@ -224,21 +224,21 @@
       "id": "sctn-collectedclientpaymentdata-dictionary",
       "href": "https://www.w3.org/TR/secure-payment-confirmation/#sctn-collectedclientpaymentdata-dictionary",
       "level": 3,
-      "title": "CollectedClientPaymentData Dictionary",
+      "title": "CollectedClientPaymentDataInfo about the 'CollectedClientPaymentData' reference.#dictdef-collectedclientpaymentdataReferenced in:4.10.1. Information presented to the user 5. WebAuthn Extension - \"payment\" (2) 5.1. CollectedClientPaymentData Dictionary (2) Possible linking syntaxes:{{CollectedClientPaymentData}} Dictionary",
       "number": "5.1"
     },
     {
       "id": "sctn-collectedclientadditionalpaymentdata-dictionary",
       "href": "https://www.w3.org/TR/secure-payment-confirmation/#sctn-collectedclientadditionalpaymentdata-dictionary",
       "level": 3,
-      "title": "CollectedClientAdditionalPaymentData Dictionary",
+      "title": "CollectedClientAdditionalPaymentDataInfo about the 'CollectedClientAdditionalPaymentData' reference.#dictdef-collectedclientadditionalpaymentdataReferenced in:2. Terminology 4.10.1. Information presented to the user 5. WebAuthn Extension - \"payment\" 5.1. CollectedClientPaymentData Dictionary 5.2. CollectedClientAdditionalPaymentData Dictionary (2) (3) 6.5. Signing client data 7.1. PaymentCredentialInstrument Dictionary 7.2. PaymentEntityLogo Dictionary 9.1. Verifying an Authentication Assertion Possible linking syntaxes:{{CollectedClientAdditionalPaymentData}} Dictionary",
       "number": "5.2"
     },
     {
       "id": "sctn-collectedclientadditionalpaymentregistrationdata-dictionary",
       "href": "https://www.w3.org/TR/secure-payment-confirmation/#sctn-collectedclientadditionalpaymentregistrationdata-dictionary",
       "level": 3,
-      "title": "CollectedClientAdditionalPaymentRegistrationData Dictionary",
+      "title": "CollectedClientAdditionalPaymentRegistrationDataInfo about the 'CollectedClientAdditionalPaymentRegistrationData' reference.#dictdef-collectedclientadditionalpaymentregistrationdataReferenced in:2. Terminology 5. WebAuthn Extension - \"payment\" 5.1. CollectedClientPaymentData Dictionary 5.3. CollectedClientAdditionalPaymentRegistrationData Dictionary (2) 6.5. Signing client data Possible linking syntaxes:{{CollectedClientAdditionalPaymentRegistrationData}} Dictionary",
       "number": "5.3"
     },
     {
@@ -294,14 +294,14 @@
       "id": "sctn-paymentcredentialinstrument-dictionary",
       "href": "https://www.w3.org/TR/secure-payment-confirmation/#sctn-paymentcredentialinstrument-dictionary",
       "level": 3,
-      "title": "PaymentCredentialInstrument Dictionary",
+      "title": "PaymentCredentialInstrumentInfo about the 'PaymentCredentialInstrument' reference.#dictdef-paymentcredentialinstrumentReferenced in:4.4. SecurePaymentConfirmationRequest Dictionary 5. WebAuthn Extension - \"payment\" 5.2. CollectedClientAdditionalPaymentData Dictionary 7.1. PaymentCredentialInstrument Dictionary (2) Possible linking syntaxes:{{PaymentCredentialInstrument}} Dictionary",
       "number": "7.1"
     },
     {
       "id": "sctn-paymententitylogo-dictionary",
       "href": "https://www.w3.org/TR/secure-payment-confirmation/#sctn-paymententitylogo-dictionary",
       "level": 3,
-      "title": "PaymentEntityLogo Dictionary",
+      "title": "PaymentEntityLogoInfo about the 'PaymentEntityLogo' reference.#dictdef-paymententitylogoReferenced in:4.4. SecurePaymentConfirmationRequest Dictionary 4.10.1. Information presented to the user 4.11. Steps to respond to a payment request (2) (3) 5. WebAuthn Extension - \"payment\" 5.2. CollectedClientAdditionalPaymentData Dictionary 7.2. PaymentEntityLogo Dictionary (2) Possible linking syntaxes:{{PaymentEntityLogo}} Dictionary",
       "number": "7.2"
     },
     {
@@ -335,7 +335,7 @@
       "id": "sctn-automation-set-spc-transaction-mode",
       "href": "https://www.w3.org/TR/secure-payment-confirmation/#sctn-automation-set-spc-transaction-mode",
       "level": 3,
-      "title": "Set SPC Transaction Mode",
+      "title": "Set SPC Transaction ModeInfo about the 'Set SPC Transaction Mode' reference.#set-spc-transaction-modeReferenced in:10.1. Set SPC Transaction Mode Possible linking syntaxes:[=Set SPC Transaction Mode=][=/Set SPC Transaction Mode=]",
       "number": "10.1"
     },
     {
