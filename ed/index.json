@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-11-26T08:46:06.882Z",
+  "date": "2026-11-26T21:51:34.752Z",
   "options": {
     "fallback": "ed/index.json",
     "output": "report",
@@ -6952,9 +6952,9 @@
       ],
       "crawled": "https://tc39.es/ecma262/multipage/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 25 Nov 2026 22:55:54 GMT"
+        "lastModified": "Thu, 26 Nov 2026 18:35:03 GMT"
       },
-      "date": "25 November 2026",
+      "date": "26 November 2026",
       "links": "links/ecmascript.json",
       "refs": "refs/ecmascript.json",
       "dfns": "dfns/ecmascript.json",
@@ -7006,9 +7006,9 @@
       ],
       "crawled": "https://tc39.es/ecma402/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 23 Nov 2026 03:49:46 GMT"
+        "lastModified": "Thu, 26 Nov 2026 15:26:36 GMT"
       },
-      "date": "23 November 2026",
+      "date": "26 November 2026",
       "links": "links/ecma-402.json",
       "refs": "refs/ecma-402.json",
       "dfns": "dfns/ecma-402.json",
@@ -8237,7 +8237,7 @@
       ],
       "crawled": "https://w3c.github.io/data-shapes/shacl12-cs/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 25 Nov 2026 04:09:08 GMT"
+        "lastModified": "Thu, 26 Nov 2026 21:04:00 GMT"
       },
       "generator": "respec",
       "date": "04 August 2025",
@@ -8284,10 +8284,10 @@
       ],
       "crawled": "https://w3c.github.io/data-shapes/shacl12-profiling/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 25 Nov 2026 04:09:08 GMT"
+        "lastModified": "Thu, 26 Nov 2026 21:04:00 GMT"
       },
       "generator": "respec",
-      "date": "25 November 2026",
+      "date": "26 November 2026",
       "algorithms": "algorithms/shacl12-profiling.json",
       "links": "links/shacl12-profiling.json",
       "refs": "refs/shacl12-profiling.json",
@@ -8333,10 +8333,10 @@
       ],
       "crawled": "https://w3c.github.io/data-shapes/shacl12-ui/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 25 Nov 2026 04:09:08 GMT"
+        "lastModified": "Thu, 26 Nov 2026 21:04:00 GMT"
       },
       "generator": "respec",
-      "date": "25 November 2026",
+      "date": "26 November 2026",
       "algorithms": "algorithms/shacl12-ui.json",
       "links": "links/shacl12-ui.json",
       "refs": "refs/shacl12-ui.json",
@@ -28143,7 +28143,7 @@
       ],
       "crawled": "https://w3c.github.io/encrypted-media/hdcp-version-registry.html",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 08 Nov 2026 09:45:45 GMT"
+        "lastModified": "Thu, 26 Nov 2026 20:44:33 GMT"
       },
       "generator": "respec",
       "date": "07 July 2026",
@@ -28199,7 +28199,7 @@
       ],
       "crawled": "https://w3c.github.io/encrypted-media/format-registry/initdata/cenc.html",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 08 Nov 2026 09:45:45 GMT"
+        "lastModified": "Thu, 26 Nov 2026 20:44:33 GMT"
       },
       "generator": "respec",
       "date": "04 June 2026",
@@ -28256,7 +28256,7 @@
       ],
       "crawled": "https://w3c.github.io/encrypted-media/format-registry/initdata/keyids.html",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 08 Nov 2026 09:45:45 GMT"
+        "lastModified": "Thu, 26 Nov 2026 20:44:33 GMT"
       },
       "generator": "respec",
       "date": "04 June 2026",
@@ -28312,7 +28312,7 @@
       ],
       "crawled": "https://w3c.github.io/encrypted-media/format-registry/initdata/",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 08 Nov 2026 09:45:45 GMT"
+        "lastModified": "Thu, 26 Nov 2026 20:44:33 GMT"
       },
       "generator": "respec",
       "date": "07 July 2026",
@@ -28368,7 +28368,7 @@
       ],
       "crawled": "https://w3c.github.io/encrypted-media/format-registry/initdata/webm.html",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 08 Nov 2026 09:45:45 GMT"
+        "lastModified": "Thu, 26 Nov 2026 20:44:33 GMT"
       },
       "generator": "respec",
       "date": "22 July 2024",
@@ -28424,7 +28424,7 @@
       ],
       "crawled": "https://w3c.github.io/encrypted-media/format-registry/stream/mp4.html",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 08 Nov 2026 09:45:45 GMT"
+        "lastModified": "Thu, 26 Nov 2026 20:44:33 GMT"
       },
       "generator": "respec",
       "date": "22 July 2024",
@@ -28479,7 +28479,7 @@
       ],
       "crawled": "https://w3c.github.io/encrypted-media/format-registry/stream/",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 08 Nov 2026 09:45:45 GMT"
+        "lastModified": "Thu, 26 Nov 2026 20:44:33 GMT"
       },
       "generator": "respec",
       "date": "07 July 2026",
@@ -28535,7 +28535,7 @@
       ],
       "crawled": "https://w3c.github.io/encrypted-media/format-registry/stream/webm.html",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 08 Nov 2026 09:45:45 GMT"
+        "lastModified": "Thu, 26 Nov 2026 20:44:33 GMT"
       },
       "generator": "respec",
       "date": "04 June 2026",
@@ -28601,11 +28601,11 @@
       ],
       "crawled": "https://w3c.github.io/encrypted-media/",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 08 Nov 2026 09:45:45 GMT"
+        "lastModified": "Thu, 26 Nov 2026 20:44:33 GMT"
       },
       "generator": "respec",
-      "date": "08 November 2026",
-      "revision": "a3cba7b61554facb0507ec31c30c12014e1ffee9",
+      "date": "26 November 2026",
+      "revision": "7621cbe3792fe93e1eed2f2bd698a06c6748c7c1",
       "algorithms": "algorithms/encrypted-media-2.json",
       "links": "links/encrypted-media-2.json",
       "refs": "refs/encrypted-media-2.json",
@@ -34777,10 +34777,10 @@
       ],
       "crawled": "https://w3c.github.io/rdf-trig/spec/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 25 Nov 2026 12:54:36 GMT"
+        "lastModified": "Thu, 26 Nov 2026 10:23:52 GMT"
       },
       "generator": "respec",
-      "date": "25 November 2026",
+      "date": "26 November 2026",
       "links": "links/rdf12-trig.json",
       "refs": "refs/rdf12-trig.json",
       "dfns": "dfns/rdf12-trig.json",
@@ -36132,10 +36132,10 @@
       ],
       "crawled": "https://w3c.github.io/data-shapes/shacl12-core/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 25 Nov 2026 04:09:08 GMT"
+        "lastModified": "Thu, 26 Nov 2026 21:04:00 GMT"
       },
       "generator": "respec",
-      "date": "25 November 2026",
+      "date": "26 November 2026",
       "algorithms": "algorithms/shacl12-core.json",
       "links": "links/shacl12-core.json",
       "refs": "refs/shacl12-core.json",
@@ -36188,10 +36188,10 @@
       ],
       "crawled": "https://w3c.github.io/data-shapes/shacl12-node-expr/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 25 Nov 2026 04:09:08 GMT"
+        "lastModified": "Thu, 26 Nov 2026 21:04:00 GMT"
       },
       "generator": "respec",
-      "date": "25 November 2026",
+      "date": "26 November 2026",
       "algorithms": "algorithms/shacl12-node-expr.json",
       "links": "links/shacl12-node-expr.json",
       "refs": "refs/shacl12-node-expr.json",
@@ -36304,10 +36304,10 @@
       ],
       "crawled": "https://w3c.github.io/data-shapes/shacl12-sparql/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 25 Nov 2026 04:09:08 GMT"
+        "lastModified": "Thu, 26 Nov 2026 21:04:01 GMT"
       },
       "generator": "respec",
-      "date": "25 November 2026",
+      "date": "26 November 2026",
       "algorithms": "algorithms/shacl12-sparql.json",
       "links": "links/shacl12-sparql.json",
       "refs": "refs/shacl12-sparql.json",
@@ -39594,7 +39594,7 @@
       ],
       "crawled": "https://w3c.github.io/aria/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 26 Nov 2026 07:32:04 GMT"
+        "lastModified": "Thu, 26 Nov 2026 17:05:39 GMT"
       },
       "generator": "respec",
       "date": "26 November 2026",
@@ -39659,7 +39659,7 @@
       ],
       "crawled": "https://w3c.github.io/aria/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 26 Nov 2026 07:32:04 GMT"
+        "lastModified": "Thu, 26 Nov 2026 17:05:39 GMT"
       },
       "generator": "respec",
       "date": "26 November 2026",
@@ -41581,11 +41581,11 @@
       ],
       "crawled": "https://w3c.github.io/webdriver-bidi/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 13 Nov 2026 13:11:06 GMT"
+        "lastModified": "Thu, 26 Nov 2026 19:48:29 GMT"
       },
       "generator": "bikeshed",
-      "date": "13 November 2026",
-      "revision": "cce53ea8cfa8ef9f693d9237af5079f8e4d0a20c",
+      "date": "26 November 2026",
+      "revision": "5931e506984a03207b8c1e9829643cb9aa6b6b15",
       "algorithms": "algorithms/webdriver-bidi.json",
       "links": "links/webdriver-bidi.json",
       "refs": "refs/webdriver-bidi.json",
@@ -41724,10 +41724,10 @@
       ],
       "crawled": "https://gpuweb.github.io/gpuweb/",
       "crawlCacheInfo": {
-        "lastModified": "Sat, 21 Nov 2026 13:18:13 GMT"
+        "lastModified": "Thu, 26 Nov 2026 13:59:58 GMT"
       },
       "generator": "bikeshed",
-      "date": "21 November 2026",
+      "date": "26 November 2026",
       "algorithms": "algorithms/webgpu.json",
       "links": "links/webgpu.json",
       "refs": "refs/webgpu.json",
@@ -43022,10 +43022,10 @@
       ],
       "crawled": "https://gpuweb.github.io/gpuweb/wgsl/",
       "crawlCacheInfo": {
-        "lastModified": "Sat, 21 Nov 2026 13:18:13 GMT"
+        "lastModified": "Thu, 26 Nov 2026 13:59:58 GMT"
       },
       "generator": "bikeshed",
-      "date": "21 November 2026",
+      "date": "26 November 2026",
       "algorithms": "algorithms/WGSL.json",
       "links": "links/WGSL.json",
       "refs": "refs/WGSL.json",
@@ -43492,10 +43492,10 @@
       ],
       "crawled": "https://w3c.github.io/wot-thing-description/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 29 Oct 2026 09:11:08 GMT"
+        "lastModified": "Thu, 26 Nov 2026 14:47:37 GMT"
       },
       "generator": "respec",
-      "date": "29 October 2026",
+      "date": "26 November 2026",
       "algorithms": "algorithms/wot-thing-description-2.0.json",
       "links": "links/wot-thing-description-2.0.json",
       "refs": "refs/wot-thing-description-2.0.json",
@@ -43549,10 +43549,10 @@
       ],
       "crawled": "https://w3c.github.io/wot-thing-description/",
       "crawlCacheInfo": {
-        "lastModified": "Thu, 29 Oct 2026 09:11:08 GMT"
+        "lastModified": "Thu, 26 Nov 2026 14:47:37 GMT"
       },
       "generator": "respec",
-      "date": "29 October 2026",
+      "date": "26 November 2026",
       "algorithms": "algorithms/wot-thing-description11.json",
       "links": "links/wot-thing-description11.json",
       "refs": "refs/wot-thing-description11.json",
