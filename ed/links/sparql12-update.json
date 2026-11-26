@@ -13,6 +13,11 @@
       "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/TR/": {},
+      "https://www.w3.org/TR/i18n-glossary/": {
+        "anchors": [
+          "dfn-surrogate"
+        ]
+      },
       "https://www.w3.org/TR/json-ld11/": {},
       "https://www.w3.org/TR/rdf12-concepts/": {
         "anchors": [
