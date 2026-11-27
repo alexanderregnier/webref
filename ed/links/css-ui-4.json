@@ -1019,6 +1019,7 @@
         ]
       },
       "https://drafts.csswg.org/css-shadow-1/": {},
+      "https://drafts.csswg.org/css-spatial-1/": {},
       "https://en.wikipedia.org/wiki/ICO_%28file_format%29": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/csswg-drafts/issues/11494": {},
@@ -3459,6 +3460,11 @@
       "https://drafts.csswg.org/css-shadow-1/": {
         "anchors": [
           "flat-tree"
+        ]
+      },
+      "https://drafts.csswg.org/css-spatial-1/": {
+        "anchors": [
+          "valdef-portal-action-resize"
         ]
       },
       "https://drafts.csswg.org/selectors-5/": {

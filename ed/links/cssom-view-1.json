@@ -251,6 +251,7 @@
       "https://drafts.csswg.org/css-scroll-snap-1/": {},
       "https://drafts.csswg.org/css-scroll-snap-2/": {},
       "https://drafts.csswg.org/css-shadow-1/": {},
+      "https://drafts.csswg.org/css-spatial-1/": {},
       "https://drafts.csswg.org/css-text-3/": {},
       "https://drafts.csswg.org/css-text-4/": {},
       "https://drafts.csswg.org/css-transforms/": {},
@@ -854,6 +855,11 @@
       "https://drafts.csswg.org/css-shadow-1/": {
         "anchors": [
           "flat-tree"
+        ]
+      },
+      "https://drafts.csswg.org/css-spatial-1/": {
+        "anchors": [
+          "valdef-position-context-container"
         ]
       },
       "https://drafts.csswg.org/css-text-4/": {
