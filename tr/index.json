@@ -1,7 +1,7 @@
 {
   "type": "crawl",
   "title": "Reffy crawl",
-  "date": "2026-11-26T09:24:43.223Z",
+  "date": "2026-11-27T09:39:09.230Z",
   "options": {
     "fallback": "tr/index.json",
     "output": "report",
@@ -811,7 +811,7 @@
         "https://aomediacodec.github.io/av1-spec/"
       ],
       "crawled": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
-      "date": "26 November 2026",
+      "date": "27 November 2026",
       "links": "links/av1-spec.json",
       "cddl": []
     },
@@ -11039,11 +11039,11 @@
       ],
       "crawled": "https://www.w3.org/TR/digital-credentials/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 25 Nov 2026 20:21:28 GMT"
+        "lastModified": "Fri, 27 Nov 2026 03:38:41 GMT"
       },
       "generator": "respec",
-      "date": "25 November 2026",
-      "revision": "7312dbe7e8b57d7428efd9a0849773b8f56c30bd",
+      "date": "27 November 2026",
+      "revision": "31bc9fd5c1692f09fea85d2ea69b57c66256a17b",
       "algorithms": "algorithms/digital-credentials.json",
       "links": "links/digital-credentials.json",
       "refs": "refs/digital-credentials.json",
@@ -11868,11 +11868,11 @@
       ],
       "crawled": "https://www.w3.org/TR/encrypted-media-2/",
       "crawlCacheInfo": {
-        "lastModified": "Sun, 08 Nov 2026 09:45:29 GMT"
+        "lastModified": "Thu, 26 Nov 2026 20:44:11 GMT"
       },
       "generator": "respec",
-      "date": "08 November 2026",
-      "revision": "a3cba7b61554facb0507ec31c30c12014e1ffee9",
+      "date": "26 November 2026",
+      "revision": "7621cbe3792fe93e1eed2f2bd698a06c6748c7c1",
       "algorithms": "algorithms/encrypted-media-2.json",
       "links": "links/encrypted-media-2.json",
       "refs": "refs/encrypted-media-2.json",
@@ -18083,11 +18083,11 @@
       ],
       "crawled": "https://www.w3.org/TR/rdf12-trig/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 25 Nov 2026 12:54:58 GMT"
+        "lastModified": "Thu, 26 Nov 2026 10:23:56 GMT"
       },
       "generator": "respec",
-      "date": "25 November 2026",
-      "revision": "e10b176ca6f00812ccae2a7deffc61fec47fafdd",
+      "date": "26 November 2026",
+      "revision": "02f47192dd5337826fa3e7d564bca7358280b2b7",
       "links": "links/rdf12-trig.json",
       "refs": "refs/rdf12-trig.json",
       "dfns": "dfns/rdf12-trig.json",
@@ -19445,11 +19445,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-core/",
       "crawlCacheInfo": {
-        "lastModified": "Tue, 24 Nov 2026 22:29:47 GMT"
+        "lastModified": "Thu, 26 Nov 2026 21:04:31 GMT"
       },
       "generator": "respec",
-      "date": "24 November 2026",
-      "revision": "8803141081d500e5e7215bb25ce5bdd424291e52",
+      "date": "26 November 2026",
+      "revision": "b59a977a336fd7e99a1312318923fc2ceaca7ba8",
       "algorithms": "algorithms/shacl12-core.json",
       "links": "links/shacl12-core.json",
       "refs": "refs/shacl12-core.json",
@@ -19562,11 +19562,11 @@
       ],
       "crawled": "https://www.w3.org/TR/shacl12-rules/",
       "crawlCacheInfo": {
-        "lastModified": "Mon, 23 Nov 2026 14:50:12 GMT"
+        "lastModified": "Thu, 26 Nov 2026 12:36:51 GMT"
       },
       "generator": "respec",
-      "date": "23 November 2026",
-      "revision": "1ca8692672cfa4d37adb6e4303cc9a6978f2fcff",
+      "date": "26 November 2026",
+      "revision": "8c3ec4392fabf0946875adc368a260b478014f29",
       "algorithms": "algorithms/shacl12-rules.json",
       "links": "links/shacl12-rules.json",
       "refs": "refs/shacl12-rules.json",
@@ -24915,11 +24915,11 @@
       ],
       "crawled": "https://www.w3.org/TR/webdriver-bidi/",
       "crawlCacheInfo": {
-        "lastModified": "Fri, 13 Nov 2026 13:11:04 GMT"
+        "lastModified": "Thu, 26 Nov 2026 19:48:31 GMT"
       },
       "generator": "bikeshed",
-      "date": "13 November 2026",
-      "revision": "cce53ea8cfa8ef9f693d9237af5079f8e4d0a20c",
+      "date": "26 November 2026",
+      "revision": "5931e506984a03207b8c1e9829643cb9aa6b6b15",
       "algorithms": "algorithms/webdriver-bidi.json",
       "links": "links/webdriver-bidi.json",
       "refs": "refs/webdriver-bidi.json",
@@ -26360,11 +26360,11 @@
       ],
       "crawled": "https://www.w3.org/TR/WGSL/",
       "crawlCacheInfo": {
-        "lastModified": "Wed, 25 Nov 2026 15:42:41 GMT"
+        "lastModified": "Thu, 26 Nov 2026 13:59:56 GMT"
       },
       "generator": "bikeshed",
-      "date": "25 November 2026",
-      "revision": "50ba2a6d9fb8503d47a839293d724e2576bf48ce",
+      "date": "26 November 2026",
+      "revision": "a07208df46b8e1b6d4c54b5149ef49cfa082298d",
       "algorithms": "algorithms/WGSL.json",
       "links": "links/WGSL.json",
       "refs": "refs/WGSL.json",

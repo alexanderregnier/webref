@@ -104,7 +104,8 @@
           "language-features",
           "simple-triples",
           "predicate-lists",
-          "object-lists"
+          "object-lists",
+          "triple-terms"
         ]
       },
       "https://www.w3.org/TR/rdf12-xml/": {},
