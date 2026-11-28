@@ -156,6 +156,7 @@
       },
       "https://www.w3.org/TR/css-backgrounds-3/": {
         "anchors": [
+          "propdef-background-image",
           "propdef-background-position"
         ]
       },
